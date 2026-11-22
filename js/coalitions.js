@@ -77,9 +77,22 @@ ${GROUPS.map(([g, title, sub]) => `<section class="pl-sec"><h3 class="pl-sh">${t
 </section>`).join("")}
       <section class="pl-sec"><h3 class="pl-sh">All pieces, newest first <span class="pl-filt"></span></h3><div class="pl-all">${all.map(piece).join("")}</div></section>`;
     let who = null;
+    const phone = window.matchMedia("(max-width: 720px)");
     root.querySelectorAll(".pl-voice").forEach((b) => b.onclick = () => {
       who = who === b.dataset.k ? null : b.dataset.k;
       root.querySelectorAll(".pl-voice").forEach((x) => x.setAttribute("aria-pressed", x.dataset.k === who));
+      // phones: open this person's stories right under their name (one open at a time) instead of filtering the list far below
+      if (phone.matches) {
+        root.querySelectorAll(".pl-vlist").forEach((l) => l.remove());
+        root.querySelectorAll(".pl-voice").forEach((x) => x.setAttribute("aria-expanded", x.dataset.k === who));
+        if (who) {
+          const list = document.createElement("div");
+          list.className = "pl-vlist";
+          list.innerHTML = all.filter((i) => i.j === who).map(piece).join("");
+          b.after(list);
+        }
+        return;
+      }
       root.querySelector(".pl-all").innerHTML = all.filter((i) => !who || i.j === who).map(piece).join("");
       root.querySelector(".pl-filt").textContent = who ? `· ${D.journalists[who].n}` : "";
     });
