@@ -414,7 +414,9 @@ button.rs-council { cursor: pointer; font: inherit; color: inherit; }
 .sm-item:hover, .sm-item:focus-visible { background: var(--soft); outline: none; }
 .sm-ic { width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--rule2); display: grid; place-items: center; flex: none; }
 .sm-ic svg { width: 21px; height: 21px; }
-.sm-note { margin: 8px 0 2px; font-size: 13.5px; color: var(--ink2); }
+.sm-note { position: sticky; top: -14px; z-index: 1; margin: 8px -16px 6px; padding: 10px 16px; background: #fff8d9; border-bottom: 1px solid #ecd98a; font-size: 13.5px; font-weight: 600; color: var(--text); }
+/* phones: keep the menu clear of the notification card and question bar at the bottom of the screen */
+@media (max-width: 720px) { .sm-menu { max-height: 46vh; } }
 
 /* LIVE line */
 .live { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; margin: 8px 0 0; font-size: 17px; color: #c0272d; }

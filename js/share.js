@@ -215,9 +215,8 @@ const OPTS = [
   ["copy", "Copy link", "link"], ["email", "Email", "mail"], ["facebook", "Facebook", "fb"],
   ["bluesky", "Bluesky", "bsky"], ["x", "X", "x"], ["linkedin", "LinkedIn", "li"], ["threads", "Threads", "th"], ["reddit", "Reddit", "rd"]
 ];
-  menu.innerHTML = `<p class="sm-h">Share options</p>` + OPTS.map(([k, l, ic, img]) =>
-    `<a class="sm-item" data-k="${k}" href="#" target="_blank" rel="noopener"${img ? ' data-img="1"' : ""}><span class="sm-ic"><svg viewBox="0 0 24 24" aria-hidden="true">${I[ic]}</svg></span>${l}</a>`).join("") +
-    `<p class="sm-note" hidden></p>`;
+  menu.innerHTML = `<p class="sm-h">Share options</p><p class="sm-note" hidden></p>` + OPTS.map(([k, l, ic, img]) =>
+    `<a class="sm-item" data-k="${k}" href="#" target="_blank" rel="noopener"${img ? ' data-img="1"' : ""}><span class="sm-ic"><svg viewBox="0 0 24 24" aria-hidden="true">${I[ic]}</svg></span>${l}</a>`).join("");
   const note = menu.querySelector(".sm-note");
   const say = (t) => { note.textContent = t; note.hidden = !t; };
 
@@ -244,7 +243,27 @@ const OPTS = [
   function open() {
     const h = hrefs();
     menu.querySelectorAll(".sm-item").forEach((a) => { a.href = h[a.dataset.k] || "#"; if (!h[a.dataset.k]) a.removeAttribute("target"); });
+    const mail = menu.querySelector('[data-k="email"]'); if (mail) mail.removeAttribute("target"); // a mail link should not leave an empty tab behind
     say(""); menu.hidden = false; btn.setAttribute("aria-expanded", "true");
+    prepare();
+  }
+  // The share image is drawn as soon as the menu opens. Phones only allow the share sheet to open directly
+  // from a tap, so the image has to be ready before the tap: drawing it after the tap made the phone refuse
+  // the share sheet, and the image was downloaded instead.
+  let card = null, cardP = Promise.resolve(null);
+  function prepare() {
+    const S = window.SHARE || {};
+    const data = S.council ? S.council() : S.race ? S.race() : null;
+    card = null;
+    cardP = !data ? Promise.resolve(null) : window.ShareCard.render(data)
+      .then((canvas) => new Promise((r) => canvas.toBlob(r, "image/png")))
+      .then((blob) => (card = { blob, file: new File([blob], (data.file || "results") + ".png", { type: "image/png" }) }))
+      .catch(() => null);
+    return cardP;
+  }
+  function save(c) {
+    const dl = document.createElement("a"); dl.href = URL.createObjectURL(c.blob); dl.download = c.file.name;
+    document.body.appendChild(dl); dl.click(); dl.remove(); setTimeout(() => URL.revokeObjectURL(dl.href), 4000);
   }
   function close() { menu.hidden = true; btn.setAttribute("aria-expanded", "false"); }
   btn.addEventListener("click", (e) => { e.stopPropagation(); menu.hidden ? open() : close(); });
@@ -262,20 +281,33 @@ const OPTS = [
     }
     if (!a.dataset.img) return; // link options open the app's own share page
     e.preventDefault();
-    const S = window.SHARE || {};
-    const data = S.council ? S.council() : S.race ? S.race() : null;
-    if (!data) return;
-    say("Making the image…");
-    const canvas = await window.ShareCard.render(data);
-    const blob = await new Promise((r) => canvas.toBlob(r, "image/png"));
-    const file = new File([blob], (data.file || "results") + ".png", { type: "image/png" });
-    const app = { wastory: "WhatsApp, then My status", instagram: "Instagram", igstory: "Instagram, then Story" }[k];
-    if (k !== "image" && navigator.canShare && navigator.canShare({ files: [file] })) {
-      try { await navigator.share({ files: [file], title: context().text }); say(""); close(); return; }
-      catch (err) { if (err && err.name === "AbortError") { say(""); return; } }
+    const label = a.textContent.trim();
+    if (k === "image") { // plain download
+      say("Making the image…");
+      const c = card || await cardP;
+      if (!c) { say("Could not make the image. Please try again."); return; }
+      save(c); say("Image saved.");
+      return;
     }
-    const dl = document.createElement("a"); dl.href = URL.createObjectURL(blob); dl.download = file.name;
-    document.body.appendChild(dl); dl.click(); dl.remove(); setTimeout(() => URL.revokeObjectURL(dl.href), 4000);
-    say(app ? `Image saved. Open ${app} on your phone and post the image from your photos.` : "Image saved.");
+    // WhatsApp Status, Instagram and Instagram Story: hand the image to the phone's share sheet
+    const pick = { wastory: "WhatsApp, then My status", instagram: "Instagram, then Feed", igstory: "Instagram, then Story" }[k];
+    if (!card) { // still being drawn: no waiting inside the tap, or the phone blocks the share sheet
+      say("Getting the image ready…");
+      cardP.then((c) => say(c ? `Image ready. Tap ${label} again.` : "Could not make the image. Please try again."));
+      return;
+    }
+    const c = card;
+    if (navigator.share && navigator.canShare && navigator.canShare({ files: [c.file] })) {
+      say(`In the share sheet, choose ${pick}.`);
+      navigator.share({ files: [c.file] }).then(() => { say(""); close(); }).catch((err) => {
+        if (err && err.name === "AbortError") say("");
+        else if (err && err.name === "NotAllowedError") say(`Tap ${label} again.`);
+        else { save(c); say(`Image saved. Open ${pick.split(",")[0]} on your phone and add it from your photos.`); }
+      });
+      return;
+    }
+    // computers (and browsers with no share sheet): these apps only post from the phone
+    save(c);
+    say(`Image saved. ${label} can only be posted from the phone app: open preamble.co.za on your phone and tap Share, or send this image to your phone.`);
   });
 })();
