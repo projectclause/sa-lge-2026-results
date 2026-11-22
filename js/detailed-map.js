@@ -60,15 +60,30 @@
   // the 2026 Results page shows stronger party colours, matching its vote-share bar
   const STRONG = root.classList.contains("rs-dm");
 
-  Promise.all([d3.json("data/sa-wards.json"), d3.json("data/wards-final-2026.json"), d3.json("data/mayors.json")]).then(([W, R, M]) => {
+  Promise.all([d3.json("data/sa-wards-v2.json"), d3.json("data/wards-final-2026.json"), d3.json("data/mayors.json")]).then(([W, R, M]) => {
     F = R; window.MAYORS = M;
     document.dispatchEvent(new CustomEvent("mayors-ready"));
     G = [];
     const nums = (d) => (d.match(/-?\d+(\.\d+)?/g) || []).map(Number);
+    // ward outlines are stored compactly (about half the download): numbers are hundredths, the first point of each
+    // ring is absolute and the rest are steps from the previous point; ";" ends a closed ring, "!" an open one.
+    // Rebuild the usual SVG path ("M x,y L x,y … Z"); the result is identical to the original outline.
+    const unpack = (e) => {
+      if (e[0] === "M") return e;
+      let out = "";
+      e.replace(/([^;!]*)([;!])/g, (_, body, end) => {
+        const v = body.split(","); let x = 0, y = 0;
+        for (let j = 0; j + 1 < v.length; j += 2) { x += +v[j]; y += +v[j + 1]; out += (j ? "L" : "M") + x / 100 + "," + y / 100; }
+        if (end === ";") out += "Z";
+        return "";
+      });
+      return out;
+    };
     Object.values(W).forEach((dist) => Object.entries(dist).forEach(([code, m]) => {
       const pv = provOf(code); if (!pv || !m.w) return;
       const mn = String(m.n || code).replace(/ (Local|Metropolitan) Municipality$/, "").replace(/^City of /, "");
-      m.w.forEach(([no, d]) => {
+      m.w.forEach(([no, packed]) => {
+        const d = unpack(packed);
         const n = nums(d); let a = 0, x0 = 1e9, x1 = -1e9, y0 = 1e9, y1 = -1e9;
         for (let q = 0; q + 3 < n.length; q += 2) a += n[q] * n[q + 3] - n[q + 2] * n[q + 1];
         for (let q = 0; q + 1 < n.length; q += 2) { const x = n[q], y = n[q + 1]; if (x < x0) x0 = x; if (x > x1) x1 = x; if (y < y0) y0 = y; if (y > y1) y1 = y; }
