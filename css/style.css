@@ -805,7 +805,18 @@ body.has-ask { padding-bottom: 96px; }
 .pl-more-n { display: inline-grid; place-items: center; min-width: 30px; height: 30px; padding: 0 6px; margin-left: -9px; border-radius: 15px; border: 2px solid #fff; background: var(--text); color: #fff; font-style: normal; font-size: 12px; font-weight: 700; box-sizing: border-box; }
 .pl-fc-s .pl-more-n { min-width: 26px; height: 26px; font-size: 11px; }
 .pl-src .pl-more-n { min-width: 46px; height: 46px; border-radius: 23px; font-size: 14px; margin-left: -12px; }
-@media (max-width: 520px) { .pl-src .pl-more-n { min-width: 40px; height: 40px; } .pl-row .pl-fc-s { display: none; } }
+@media (max-width: 520px) {
+  .pl-src .pl-more-n { min-width: 40px; height: 40px; }
+  /* story list on phones: small faces sit between the headline and its details line */
+  .pl-row { display: grid; grid-template-columns: minmax(0, 1fr); gap: 5px; }
+  .pl-row > .pl-rt { display: contents; }
+  .pl-row > .pl-rt > b { order: 1; }
+  .pl-row > .pl-fc-s { order: 2; justify-self: start; }
+  .pl-row > .pl-rt > span { order: 3; }
+  .pl-row .pl-fc-s img { width: 18px; height: 18px; border-width: 1.5px; }
+  .pl-row .pl-fc-s img + img { margin-left: -6px; }
+  .pl-row .pl-fc-s .pl-more-n { min-width: 18px; height: 18px; margin-left: -6px; padding: 0 4px; border-width: 1.5px; font-size: 9px; }
+}
 .pl-src { flex-direction: column; align-items: flex-start; gap: 8px; } .pl-src > span:last-child { flex: none; }
 
 /* ---------- Phone layout (≤720px) ---------- */
