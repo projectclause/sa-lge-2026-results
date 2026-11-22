@@ -16,6 +16,17 @@
     place(); mq.addEventListener("change", place);
   }
 
+  // Home: on phones the ward map comes straight after "Final results", above National results
+  const map = document.querySelector(".rs-mapcard");
+  if (map && nat) {
+    const mapHome = map.parentNode, mapNext = map.nextSibling;
+    const placeMap = () => {
+      if (mq.matches && map.nextElementSibling !== nat) nat.parentNode.insertBefore(map, nat);
+      else if (!mq.matches && map.nextSibling !== mapNext) mapHome.insertBefore(map, mapNext);
+    };
+    placeMap(); mq.addEventListener("change", placeMap);
+  }
+
   // Home: national results show the top five parties on phones, with a button for the rest
   const parties = document.querySelector(".rs-parties");
   if (parties && nat) {

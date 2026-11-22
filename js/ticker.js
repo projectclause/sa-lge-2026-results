@@ -113,17 +113,27 @@ const put = (slot, card, animate) => {
   return true;
 };
 const pos = GROUPS.map(() => 0);
+// phones show only the first two columns; the second also takes the metro council cards
+const phone = window.matchMedia("(max-width: 720px)");
+const cardsFor = (g) => (phone.matches && g === 1 ? GROUPS[1].cards.concat(GROUPS[2].cards) : GROUPS[g].cards);
 const step = (g, animate) => {
-  const cards = GROUPS[g].cards;
+  const cards = cardsFor(g);
   for (let tries = 0; tries < cards.length; tries++) {
     const c = cards[pos[g] % cards.length]; pos[g] = (pos[g] + 1) % cards.length;
     if (put(slots[g], c, animate)) return;
   }
 };
 GROUPS.forEach((_, g) => step(g, false));
-// each column moves on every 3 seconds; one column per second so they don't all change at once
+// each visible column moves on every 3 seconds, staggered so they don't all change at once
+// (desktop: three columns, one per second; phone: two columns, one every 1.5 seconds)
 let turn = 0;
-setInterval(() => { if (!document.hidden) step(turn % GROUPS.length, true); turn++; }, 1000);
+const tick = () => {
+  const n = phone.matches ? 2 : GROUPS.length;
+  if (!document.hidden) step(turn % n, true);
+  turn++;
+  setTimeout(tick, 3000 / n);
+};
+setTimeout(tick, 3000 / (phone.matches ? 2 : GROUPS.length));
 
     // clicks: whatever card a slot is showing opens that place
     slots.forEach((s) => s.onclick = () => {
