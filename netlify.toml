@@ -8,15 +8,16 @@
   [headers.values]
     Cache-Control = "public, max-age=604800"
 
-# code and styles: keep for a day, check for updates after that
+# code and styles: check for a newer version on every visit, so pushed edits show up straight away
+# (unchanged files come back as a tiny "not modified" reply, so this stays fast)
 [[headers]]
   for = "/js/*"
   [headers.values]
-    Cache-Control = "public, max-age=86400, must-revalidate"
+    Cache-Control = "public, max-age=0, must-revalidate"
 [[headers]]
   for = "/css/*"
   [headers.values]
-    Cache-Control = "public, max-age=86400, must-revalidate"
+    Cache-Control = "public, max-age=0, must-revalidate"
 
 # results and tracker data update live: always check for a newer version
 [[headers]]
