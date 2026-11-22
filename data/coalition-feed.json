@@ -1,0 +1,2831 @@
+{
+  "journalists": {
+    "clement": {
+      "n": "Clement Manyathela",
+      "o": "702",
+      "img": "assets/journalists/clement-manyathela.jpg",
+      "role": "Presenter, 702",
+      "group": "voice",
+      "org": "702",
+      "wide": true
+    },
+    "adriaan": {
+      "n": "Adriaan Basson",
+      "o": "News24",
+      "img": "assets/journalists/adriaan-basson.jpg",
+      "role": "Journalist, News24",
+      "group": "voice",
+      "org": "N24",
+      "wide": true
+    },
+    "pieter": {
+      "n": "Pieter du Toit",
+      "o": "News24",
+      "img": "assets/journalists/pieter-du-toit.jpg",
+      "role": "Journalist, News24",
+      "group": "voice",
+      "org": "N24",
+      "wide": true
+    },
+    "michael": {
+      "n": "Michael Beaumont",
+      "o": "ActionSA national chairperson",
+      "img": "assets/journalists/michael-beaumont.jpg",
+      "role": "ActionSA national chairperson",
+      "group": "player",
+      "org": "ASA"
+    },
+    "herman": {
+      "n": "Herman Mashaba",
+      "o": "ActionSA",
+      "role": "ActionSA leader",
+      "img": "assets/journalists/herman-mashaba.jpg",
+      "group": "player",
+      "org": "ASA"
+    },
+    "helen": {
+      "n": "Helen Zille",
+      "o": "DA",
+      "role": "DA mayoral candidate, Johannesburg",
+      "img": "assets/journalists/helen-zille.jpg",
+      "group": "player",
+      "org": "DA"
+    },
+    "geordin": {
+      "n": "Geordin Hill-Lewis",
+      "o": "DA",
+      "role": "DA leader",
+      "img": "assets/journalists/geordin-hill-lewis.jpg",
+      "group": "player",
+      "org": "DA"
+    },
+    "cyril": {
+      "n": "Cyril Ramaphosa",
+      "o": "ANC",
+      "role": "President of South Africa and ANC president",
+      "img": "assets/journalists/cyril-ramaphosa.jpg",
+      "group": "player",
+      "org": "ANC"
+    },
+    "sizwe": {
+      "n": "Sizwe Mpofu-Walsh",
+      "o": "SMWX",
+      "role": "Political commentator, host of SMWX",
+      "img": "assets/journalists/sizwe-mpofu-walsh.jpg",
+      "group": "voice",
+      "org": "SMWX",
+      "wide": true
+    },
+    "penuel": {
+      "n": "Penuel Mlotshwa",
+      "o": "The Black Pen",
+      "role": "Podcaster and commentator, “The Black Pen”",
+      "img": "assets/journalists/penuel-mlotshwa.jpg",
+      "group": "voice",
+      "org": "BLACKPEN"
+    },
+    "dali": {
+      "n": "Dali Mpofu",
+      "o": "MK Party",
+      "role": "MK Party coalition negotiator",
+      "img": "assets/journalists/dali-mpofu.jpg",
+      "group": "player",
+      "org": "MK"
+    },
+    "julius": {
+      "n": "Julius Malema",
+      "o": "EFF",
+      "role": "EFF leader",
+      "img": "assets/journalists/julius-malema.jpg",
+      "group": "player",
+      "org": "EFF"
+    },
+    "mbalula": {
+      "n": "Fikile Mbalula",
+      "o": "ANC",
+      "role": "ANC secretary-general",
+      "img": "assets/journalists/fikile-mbalula.jpg",
+      "group": "player",
+      "org": "ANC"
+    },
+    "moya": {
+      "n": "Nasiphi Moya",
+      "o": "ActionSA",
+      "role": "ActionSA, mayor of Tshwane",
+      "img": "assets/journalists/nasiphi-moya.jpg",
+      "group": "player",
+      "org": "ASA"
+    },
+    "hlabisa": {
+      "n": "Velenkosini Hlabisa",
+      "o": "IFP",
+      "role": "IFP president",
+      "img": "assets/journalists/velenkosini-hlabisa.jpg",
+      "group": "player",
+      "org": "IFP"
+    },
+    "gayton": {
+      "n": "Gayton McKenzie",
+      "o": "PA",
+      "role": "Patriotic Alliance leader",
+      "img": "assets/journalists/gayton-mckenzie.jpg",
+      "group": "player",
+      "org": "PA"
+    },
+    "floyd": {
+      "n": "Floyd Shivambu",
+      "o": "AMM",
+      "role": "Afrika Mayibuye Movement president",
+      "img": "assets/journalists/floyd-shivambu.jpg",
+      "group": "player",
+      "org": "AMM"
+    },
+    "ashor": {
+      "n": "Ashor Sarupen",
+      "o": "DA",
+      "role": "DA Federal Council chairperson",
+      "img": "assets/journalists/ashor-sarupen.jpg",
+      "group": "player",
+      "org": "DA"
+    },
+    "corne": {
+      "n": "Corné Mulder",
+      "o": "FF Plus",
+      "role": "FF Plus leader",
+      "img": "assets/journalists/corne-mulder.jpg",
+      "group": "player",
+      "org": "FFP"
+    },
+    "mandy": {
+      "n": "Mandy Wiener",
+      "o": "702",
+      "role": "Presenter, 702’s Midday Report",
+      "img": "assets/journalists/mandy-wiener.jpg",
+      "group": "voice",
+      "org": "702",
+      "wide": true
+    },
+    "ferial": {
+      "n": "Ferial Haffajee",
+      "o": "Daily Maverick",
+      "role": "Journalist, Daily Maverick",
+      "img": "assets/journalists/ferial-haffajee.jpg",
+      "group": "voice",
+      "org": "DM"
+    },
+    "katy": {
+      "n": "Katy Katopodis",
+      "o": "Journalist",
+      "role": "Journalist and editor",
+      "img": "assets/journalists/katy-katopodis.jpg",
+      "group": "voice",
+      "org": "IND"
+    },
+    "wayne": {
+      "n": "Wayne Sussman",
+      "o": "Elections analyst",
+      "role": "Elections analyst, eNCA",
+      "img": "assets/journalists/wayne-sussman.jpg",
+      "group": "voice",
+      "org": "ENCA",
+      "wide": true
+    },
+    "zimasa": {
+      "n": "Zimasa Gcaga Vabaza",
+      "o": "Mooshtaffa",
+      "role": "Media entrepreneur and commentator, “Mooshtaffa”",
+      "img": "assets/journalists/zimasa-vabaza.jpg",
+      "group": "voice",
+      "org": "IND"
+    },
+    "brink": {
+      "n": "Cilliers Brink",
+      "o": "DA",
+      "role": "DA mayoral candidate, Tshwane",
+      "img": "assets/journalists/cilliers-brink.jpg",
+      "group": "player",
+      "org": "DA"
+    },
+    "mokonyane": {
+      "n": "Nomvula Mokonyane",
+      "o": "ANC",
+      "role": "ANC deputy secretary-general",
+      "img": "assets/journalists/nomvula-mokonyane.jpg",
+      "group": "player",
+      "org": "ANC"
+    },
+    "bhengu": {
+      "n": "Mahlengi Bhengu",
+      "o": "ANC",
+      "role": "ANC national spokesperson",
+      "img": "assets/journalists/mahlengi-bhengu.jpg",
+      "group": "player",
+      "org": "ANC"
+    },
+    "masuku": {
+      "n": "Loyiso Masuku",
+      "o": "ANC",
+      "role": "ANC Johannesburg regional chair",
+      "img": "assets/journalists/loyiso-masuku.jpg",
+      "group": "player",
+      "org": "ANC"
+    },
+    "morero": {
+      "n": "Dada Morero",
+      "o": "ANC",
+      "role": "ANC, outgoing Johannesburg mayor",
+      "img": "assets/journalists/dada-morero.jpg",
+      "group": "player",
+      "org": "ANC"
+    },
+    "trollip": {
+      "n": "Athol Trollip",
+      "o": "ASA",
+      "role": "ActionSA, Nelson Mandela Bay",
+      "img": "assets/journalists/athol-trollip.jpg",
+      "group": "player",
+      "org": "ASA"
+    },
+    "wessels": {
+      "n": "Wouter Wessels",
+      "o": "FFP",
+      "role": "FF Plus chairperson",
+      "img": "assets/journalists/wouter-wessels.jpg",
+      "group": "player",
+      "org": "FFP"
+    },
+    "mofokeng": {
+      "n": "Tlaleng Mofokeng",
+      "o": "EFF",
+      "role": "EFF mayoral candidate, Johannesburg",
+      "img": "assets/journalists/tlaleng-mofokeng.jpg",
+      "group": "player",
+      "org": "EFF"
+    },
+    "gcilishe": {
+      "n": "Sixolise Gcilishe",
+      "o": "EFF",
+      "role": "EFF elections spokesperson",
+      "img": "assets/journalists/sixolise-gcilishe.jpg",
+      "group": "player",
+      "org": "EFF"
+    },
+    "duduzane": {
+      "n": "Duduzane Zuma",
+      "o": "MK",
+      "role": "MK Party first deputy president",
+      "img": "assets/journalists/duduzane-zuma.jpg",
+      "group": "player",
+      "org": "MK"
+    },
+    "omarjee": {
+      "n": "Hajra Omarjee",
+      "o": "BD",
+      "role": "Political editor, Business Day",
+      "img": "assets/journalists/hajra-omarjee.jpg",
+      "group": "voice",
+      "org": "BD"
+    },
+    "tandwa": {
+      "n": "Lizeka Tandwa",
+      "o": "ST",
+      "role": "Politics writer, Sunday Times",
+      "img": "assets/journalists/lizeka-tandwa.jpg",
+      "group": "voice",
+      "org": "ST"
+    },
+    "sefara": {
+      "n": "Makhudu Sefara",
+      "o": "ST",
+      "role": "Editor, Sunday Times",
+      "img": "assets/journalists/makhudu-sefara.jpg",
+      "group": "voice",
+      "org": "ST"
+    },
+    "steinberg": {
+      "n": "Jonny Steinberg",
+      "o": "N24",
+      "role": "Writer and News24 columnist",
+      "img": "assets/journalists/jonny-steinberg.jpg",
+      "group": "voice",
+      "org": "N24"
+    },
+    "svabaza": {
+      "n": "Sindile Vabaza",
+      "o": "IND",
+      "role": "Commentator",
+      "img": "assets/journalists/sindile-vabaza.jpg",
+      "group": "voice",
+      "org": "IND"
+    },
+    "hogg": {
+      "n": "Alec Hogg",
+      "o": "BIZ",
+      "role": "Interviewer, BizNews",
+      "img": "assets/journalists/alec-hogg.jpg",
+      "group": "voice",
+      "org": "BIZ"
+    },
+    "makhanya": {
+      "n": "Mondli Makhanya",
+      "o": "DM",
+      "role": "Journalist, Daily Maverick",
+      "img": "assets/journalists/mondli-makhanya.jpg",
+      "group": "voice",
+      "org": "DM"
+    },
+    "dawes": {
+      "n": "Nicholas Dawes",
+      "o": "IND",
+      "role": "Journalist",
+      "img": "assets/journalists/nicholas-dawes.jpg",
+      "group": "voice",
+      "org": "IND"
+    },
+    "perlman": {
+      "n": "John Perlman",
+      "o": "702",
+      "role": "Presenter, 702 Drive",
+      "img": "assets/journalists/john-perlman.jpg",
+      "group": "voice",
+      "org": "702"
+    },
+    "mciver": {
+      "n": "Amy McIver",
+      "o": "CT",
+      "role": "Presenter, CapeTalk",
+      "img": "assets/journalists/amy-mciver.jpg",
+      "group": "voice",
+      "org": "CT"
+    },
+    "macg": {
+      "n": "MacGyver “MacG” Mukwevho",
+      "o": "Podcast and Chill",
+      "role": "Host, Podcast and Chill",
+      "img": "assets/journalists/macg.jpg",
+      "group": "voice",
+      "org": "IND",
+      "wide": true
+    },
+    "mashele": {
+      "n": "Prince Mashele",
+      "o": "Political analyst",
+      "role": "Political analyst and author",
+      "img": "assets/journalists/prince-mashele.jpg",
+      "group": "voice",
+      "org": "IND",
+      "wide": true
+    }
+  },
+  "items": [
+    {
+      "j": "adriaan",
+      "d": "2026-11-21",
+      "kind": "Column",
+      "place": "Johannesburg",
+      "h": "Is a Doomsday pact Ramaphosa’s parting shot to SA?",
+      "s": "Written as ANC and MK leaders met in Johannesburg for coalition talks. Helen Zille has conceded, so the DA topped Joburg’s vote but is heading to the opposition benches.",
+      "src": "News24",
+      "pay": true,
+      "url": "https://www.news24.com/opinions/columnists/adriaan-basson-is-a-doomsday-pact-ramaphosas-parting-shot-to-sa-20261121-0846",
+      "id": "a-doomsday"
+    },
+    {
+      "j": "clement",
+      "d": "2026-11-18",
+      "kind": "Interview",
+      "place": "Johannesburg",
+      "h": "DA refuses to drop Helen Zille as ActionSA edges closer to an ANC deal",
+      "s": "Geordin Hill-Lewis told Manyathela the DA would not drop Zille as its Joburg candidate and would accept opposition if it came to that. ActionSA chair Michael Beaumont called the ANC’s offer attractive and said the DA had never really held talks with ActionSA.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/da-refuses-to-drop-helen-zille-as-actionsa-edges-closer-to-anc-coalition-deal/",
+      "id": "c-hl"
+    },
+    {
+      "j": "adriaan",
+      "d": "2026-11-16",
+      "kind": "Column",
+      "place": "National",
+      "h": "Will the GNU survive the coalition bloodbath?",
+      "s": "Basson warns that the national unity government could collapse if the ANC cuts the DA out of city governments.",
+      "src": "News24",
+      "pay": true,
+      "url": "https://www.news24.com/opinions/columnists/adriaan-basson-will-the-gnu-survive-coalition-bloodbath-20261116-1164",
+      "id": "a-bloodbath"
+    },
+    {
+      "j": "adriaan",
+      "d": "2026-11-09",
+      "kind": "Column",
+      "place": "All hung councils",
+      "h": "Stand by for GNU 2.0, with or without ActionSA",
+      "s": "Basson argues a GNU-style deal led by the DA and ANC is the most likely way the 138 hung councils will be run, and that ActionSA’s Nasiphi Moya could return as Tshwane mayor.",
+      "src": "News24",
+      "pay": true,
+      "url": "https://www.news24.com/opinions/columnists/adriaan-basson-stand-by-for-gnu-20-with-or-without-actionsa-20261109-0741",
+      "id": "a-gnu2"
+    },
+    {
+      "j": "clement",
+      "d": "2026-11-09",
+      "kind": "Interview",
+      "place": "Tshwane",
+      "h": "Mashaba: any coalition deal involving ActionSA must retain Moya as Tshwane mayor",
+      "s": "Speaking to Manyathela at the IEC results centre, Herman Mashaba said ActionSA could set terms with both the DA and the ANC, that Nasiphi Moya must stay on in Tshwane, and that he would not negotiate with a DA team that includes Helen Zille.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/2026/11/09/mashaba-any-coalition-deal-involving-actionsa-must-retain-moya-as-tshwane-mayor",
+      "id": "c-mashaba"
+    },
+    {
+      "j": "adriaan",
+      "d": "2026-11-07",
+      "kind": "Column",
+      "place": "All hung councils",
+      "h": "The deal: 4 scenarios for coalitions in our cities and towns",
+      "s": "Basson sets out four coalition line-ups that could decide who governs South Africa’s municipalities, three of them named after national flags with the same colours.",
+      "src": "News24",
+      "pay": true,
+      "url": "https://www.news24.com/opinions/columnists/adriaan-basson-the-deal-4-scenarios-for-coalitions-in-our-cities-and-towns-20261107-0818",
+      "id": "a-4scen"
+    },
+    {
+      "j": "adriaan",
+      "d": "2026-11-05",
+      "kind": "Video",
+      "place": "Metros",
+      "h": "The 24 hours that rewrote SA’s local politics",
+      "s": "In his Friday Briefing video, Basson notes that the ANC will not control a single one of South Africa’s metros.",
+      "src": "News24",
+      "pay": true,
+      "url": "https://www.news24.com/opinions/fridaybriefing/watch-adriaan-basson-on-the-24-hours-that-rewrote-sas-local-politics-20261105-1184",
+      "id": "a-24h"
+    },
+    {
+      "j": "pieter",
+      "d": "2026-11-05",
+      "kind": "Analysis",
+      "place": "Metros",
+      "h": "The ANC’s reckoning has come, and it is devastating",
+      "s": "Du Toit writes that the ANC is on the brink of falling to second, third or fourth place in seven of the eight metros.",
+      "src": "News24",
+      "pay": true,
+      "url": "https://www.news24.com/opinions/fridaybriefing/pieter-du-toit-ancs-reckoning-has-come-and-it-is-devastating-20261105-1175",
+      "id": "p-reckon"
+    },
+    {
+      "j": "pieter",
+      "d": "2026-11-04",
+      "kind": "Column",
+      "place": "Johannesburg",
+      "h": "Mayor Zille and a DA-ANC Johannesburg coalition? Not too far-fetched",
+      "s": "Du Toit sees a Zille administration working with the ANC’s more moderate wing as possible, though he expects it to be very hard to negotiate.",
+      "src": "News24",
+      "pay": true,
+      "url": "https://www.news24.com/opinions/columnists/pieter-du-toit-mayor-zille-and-a-da-anc-johannesburg-coalition-not-too-far-fetched-20261104-0897",
+      "id": "p-zille"
+    },
+    {
+      "j": "pieter",
+      "d": "2026-10-31",
+      "kind": "Analysis",
+      "place": "National",
+      "h": "The repudiation and diminishing of the ANC",
+      "s": "Before the vote, du Toit argued the municipal election could confirm that the ANC’s decline is speeding up.",
+      "src": "News24",
+      "pay": true,
+      "url": "https://www.news24.com/opinions/analysis/pieter-du-toit-the-repudiation-and-diminishing-of-the-anc-20261031-0892",
+      "id": "p-repud"
+    },
+    {
+      "j": "michael",
+      "d": "2026-11-22",
+      "kind": "Statement",
+      "place": "Gauteng metros",
+      "h": "ActionSA snubs DA as ANC weighs coalition deals with MK Party",
+      "s": "Beaumont pushed back at critics, mostly DA supporters, saying ActionSA does not serve at the pleasure of any other party. He said it is set to lead Tshwane again and take over in Johannesburg.",
+      "src": "The National",
+      "url": "https://thenational.co.za/news/2026-11-22-actionsa-snubs-da-as-anc-weighs-coalition-deals-with-mk-party/",
+      "id": "m-national"
+    },
+    {
+      "j": "michael",
+      "d": "2026-11-19",
+      "kind": "Interview",
+      "place": "Gauteng metros",
+      "h": "Michael Beaumont on ActionSA’s coalition hand and the DA standoff",
+      "s": "Beaumont spoke to BizNews’s Alec Hogg about the tensions with the DA, ActionSA’s talks with the ANC and coalition politics.",
+      "src": "BizNews",
+      "url": "https://www.biznews.com/interviews/michael-beaumont-on-actionsas-coalition-talks",
+      "id": "m-biznews"
+    },
+    {
+      "j": "michael",
+      "d": "2026-11-18",
+      "kind": "Interview",
+      "place": "Johannesburg",
+      "h": "On 702: the ANC’s offer is attractive",
+      "s": "Speaking to Clement Manyathela, Beaumont said the ANC’s offer appealed to ActionSA, that the DA had never really held talks with the party, and that any deal still needs a shared programme.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/da-refuses-to-drop-helen-zille-as-actionsa-edges-closer-to-anc-coalition-deal/",
+      "id": "m-702"
+    },
+    {
+      "j": "michael",
+      "d": "2026-11-17",
+      "kind": "Statement",
+      "place": "Gauteng metros",
+      "h": "ActionSA responds to arguments that the DA should lead because it got more votes",
+      "s": "Beaumont said talks with both the DA and ANC are making progress, and that where no party has a majority, coalitions decide who governs. He named the DA’s and ActionSA’s mayoral candidates in Gauteng as the sticking point.",
+      "src": "BusinessTech",
+      "url": "https://businesstech.co.za/news/government/884723/actionsa-gives-update-on-coalition-talks-with-the-anc-and-da/",
+      "id": "m-bt"
+    },
+    {
+      "j": "michael",
+      "d": "2026-11-08",
+      "kind": "Statement",
+      "place": "Gauteng metros",
+      "h": "ActionSA and ANC in coalition discussions",
+      "s": "After meeting the ANC’s Fikile Mbalula and Nomvula Mokonyane, Beaumont called it a productive and respectful first meeting on how to form stable coalition governments, and said ActionSA would talk to all parties the same way.",
+      "src": "Newsday",
+      "url": "https://newsday.co.za/south-africa/36454/actionsa-and-anc-in-coalition-discussions/",
+      "id": "m-newsday"
+    },
+    {
+      "id": "h-702",
+      "j": "herman",
+      "d": "2026-11-09",
+      "kind": "Interview",
+      "place": "Tshwane",
+      "h": "On 702: any deal must keep Moya as Tshwane mayor",
+      "s": "Speaking to Clement Manyathela on election night, Mashaba said ActionSA could set terms with both the DA and the ANC, that Nasiphi Moya must stay as Tshwane mayor, and that he would not negotiate with a DA team that includes Helen Zille.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/2026/11/09/mashaba-any-coalition-deal-involving-actionsa-must-retain-moya-as-tshwane-mayor"
+    },
+    {
+      "id": "h-mg",
+      "j": "herman",
+      "d": "2026-11-20",
+      "kind": "Interview",
+      "place": "Gauteng metros",
+      "h": "ANC deals DA out of the Gauteng metros",
+      "s": "Mashaba told the Mail & Guardian that talks with the DA stalled because it would not drop Helen Zille and Cilliers Brink as mayoral candidates. He said ActionSA was drafting a coalition agreement and hoped to sign with the other parties within a day or two.",
+      "src": "Mail & Guardian",
+      "url": "https://mg.co.za/politics/2026-11-19-anc-deals-da-out-of-the-metros/"
+    },
+    {
+      "id": "z-n24",
+      "j": "helen",
+      "d": "2026-11-19",
+      "kind": "Statement",
+      "place": "Johannesburg",
+      "h": "Zille concedes defeat in Johannesburg as DA set for opposition benches",
+      "s": "In a message to DA caucus members, Zille conceded that her race for Johannesburg mayor appeared to be over, saying the die seemed to be cast.",
+      "src": "News24",
+      "pay": true,
+      "url": "https://www.news24.com/southafrica/news/helen-zille-concedes-defeat-in-johannesburg-as-da-set-for-opposition-benches-20261119-0618"
+    },
+    {
+      "id": "z-star",
+      "j": "helen",
+      "d": "2026-11-20",
+      "kind": "Statement",
+      "place": "Johannesburg",
+      "h": "Zille concedes Johannesburg mayoral race as DA coalition talks continue",
+      "s": "Zille told her caucus to prepare for opposition and said she believes an ANC-ActionSA-EFF-MK coalition would be unstable. She said the DA can still help make sure Johannesburg has a working government this term. The DA said this was not its official position and that talks were continuing.",
+      "src": "The Star",
+      "url": "https://iol.co.za/the-star/news/2026-11-20-helen-zille-concedes-johannesburg-mayoral-race-as-da-coalition-talks-continue/"
+    },
+    {
+      "id": "g-702",
+      "j": "geordin",
+      "d": "2026-11-18",
+      "kind": "Interview",
+      "place": "Johannesburg",
+      "h": "On 702: the DA will not drop Zille",
+      "s": "Speaking to Clement Manyathela, Hill-Lewis refused to drop Zille as the DA’s Johannesburg candidate, said the DA would keep working until the first council meetings, and said it would accept opposition if needed.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/da-refuses-to-drop-helen-zille-as-actionsa-edges-closer-to-anc-coalition-deal/"
+    },
+    {
+      "id": "g-137",
+      "j": "geordin",
+      "d": "2026-11-22",
+      "kind": "Statement",
+      "place": "All hung councils",
+      "h": "DA makes offer to ANC, IFP to co-govern 137 hung municipalities",
+      "s": "Hill-Lewis said the DA’s offer, where the party with the most votes in each hung council leads it, would fix local government across the country. He said residents cannot afford another five years of instability.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/da-makes-offer-to-anc-ifp-to-co-govern-137-hung-municipalities-across-sa"
+    },
+    {
+      "id": "m-reject",
+      "j": "michael",
+      "d": "2026-11-22",
+      "kind": "Statement",
+      "place": "Gauteng metros",
+      "h": "ActionSA rejects DA’s coalition offer in hung Gauteng metros",
+      "s": "Beaumont said the DA’s offer was unworkable because ActionSA’s votes would elect two mayors in governments it would not be part of, and that ActionSA would not support a Zille mayoralty.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/2026/11/22/actionsa-rejects-da-s-coalition-offer-in-hung-gauteng-metros"
+    },
+    {
+      "id": "r-results",
+      "j": "cyril",
+      "d": "2026-11-08",
+      "kind": "Speech",
+      "place": "National",
+      "h": "Ramaphosa warns parties ahead of coalition talks",
+      "s": "Speaking at the IEC results announcement, Ramaphosa said hung councils are not a failure of democracy. He urged parties to negotiate in good faith rather than fight over positions and power, and warned against delays in forming councils.",
+      "src": "The Citizen",
+      "url": "https://www.citizen.co.za/news/anc-2026-local-government-election-ramaphosa-coalition/"
+    },
+    {
+      "id": "r-letter",
+      "j": "cyril",
+      "d": "2026-11-09",
+      "kind": "Newsletter",
+      "place": "National",
+      "h": "Ramaphosa urges political parties to cooperate on coalition discussions",
+      "s": "In his weekly newsletter, Ramaphosa told parties to cooperate in good faith so councils can be formed and start working, and said councillors must find common ground from the start, whatever their party differences.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/lge-results-ramaphosa-urges-political-parties-to-cooperate-on-coalition-discussions"
+    },
+    {
+      "id": "r-st",
+      "j": "cyril",
+      "d": "2026-11-11",
+      "kind": "Reported",
+      "place": "Johannesburg",
+      "h": "Ramaphosa urges ANC to avoid DA in Johannesburg coalition",
+      "s": "Not said in public. The Sunday Times, citing unnamed insiders, reported that Ramaphosa told a closed ANC meeting to explore a Johannesburg coalition without the DA. ANC spokesperson Mahlengi Bhengu dismissed claims that he had stated a preference.",
+      "src": "Sunday Times",
+      "pay": true,
+      "url": "https://www.sundaytimes.timeslive.co.za/politics/2026-11-11-ramaphosa-urges-anc-to-avoid-da-in-johannesburg-coalition/"
+    },
+    {
+      "id": "s-idea",
+      "j": "sizwe",
+      "d": "2026-11-07",
+      "kind": "Podcast",
+      "place": "All eight metros",
+      "h": "I’ve looked at the election, here’s what could happen…",
+      "s": "Mpofu-Walsh goes through the possible coalitions and debuts his idea for one arrangement across South Africa. Commentator Sindile Vabaza describes it as a grand agreement in which the DA, ANC and ActionSA share out the mayors of all eight metros.",
+      "src": "SMWX",
+      "url": "https://smwx.podbean.com/e/ive-looked-at-the-election-heres-what-could-happen/"
+    },
+    {
+      "id": "s-gnu",
+      "j": "sizwe",
+      "d": "2026-11-07",
+      "kind": "Podcast",
+      "place": "National",
+      "h": "Election update: will the GNU survive?",
+      "s": "Mpofu-Walsh looks at what the local election results mean for the national unity government.",
+      "src": "SMWX",
+      "url": "https://smwx.podbean.com/e/election-update-will-the-gnu-survive/"
+    },
+    {
+      "id": "s-abandon",
+      "j": "sizwe",
+      "d": "2026-11-10",
+      "kind": "Podcast",
+      "place": "National",
+      "h": "Could the ANC abandon the DA in coalitions?",
+      "s": "Mpofu-Walsh works through coalition line-ups with and without the DA and the ANC, and what each would mean for the national unity government.",
+      "src": "SMWX",
+      "url": "https://smwx.podbean.com/e/could-anc-abandon-da-in-coalitions/"
+    },
+    {
+      "id": "s-shake",
+      "j": "sizwe",
+      "d": "2026-11-13",
+      "kind": "Podcast",
+      "place": "Gauteng and KwaZulu-Natal",
+      "h": "Coalitions: a major shake-up in SA politics?",
+      "s": "Mpofu-Walsh asks whether South Africa is entering a fundamental political realignment, looking at Mashaba and Moya leading Gauteng metros and an MK-IFP arrangement in KwaZulu-Natal.",
+      "src": "SMWX",
+      "url": "https://smwx.podbean.com/e/coalitions-major-shake-up-in-sa-politics/"
+    },
+    {
+      "id": "pn-vote",
+      "j": "penuel",
+      "d": "2026-10-27",
+      "kind": "Post",
+      "place": "Johannesburg",
+      "h": "Penuel The Black Pen says he is voting ActionSA for Joburg despite reservations",
+      "s": "Before the vote, Mlotshwa posted on X that he would vote ActionSA in Johannesburg, not because he believed in the party but because he could not see a better one to run the city. He ruled out the ANC, DA, EFF, MK and PA.",
+      "src": "Briefly News",
+      "url": "https://briefly.co.za/entertainment/celebrities/257190-penuel-black-pen-voting-actionsa-joburg-reservations/"
+    },
+    {
+      "id": "pn-dt",
+      "j": "penuel",
+      "d": "2026-11-09",
+      "kind": "Post",
+      "place": "Gauteng metros",
+      "h": "Doubts about ActionSA voters who want a DA deal",
+      "s": "Replying to Clement Manyathela on X, Mlotshwa said he does not trust people who claim to have voted ActionSA but believe the DA is its best coalition partner.",
+      "src": "X",
+      "url": "https://x.com/TheRealClementM/status/2119759604150145390"
+    },
+    {
+      "id": "pn-arrog",
+      "j": "penuel",
+      "d": "2026-11-14",
+      "kind": "Post",
+      "place": "Gauteng metros",
+      "h": "The DA won’t win the coalition games if it is arrogant",
+      "s": "Mlotshwa posted that the DA won’t win the coalition games if it is arrogant and condescending, and made a video telling DA voters and politicians not to be arrogant in the negotiations.",
+      "src": "X",
+      "url": "https://x.com/penuelist_/status/2121713447331086352"
+    },
+    {
+      "id": "pn-live",
+      "j": "penuel",
+      "d": "2026-11-15",
+      "kind": "Post",
+      "place": "All hung councils",
+      "h": "Coalition negotiations should be filmed live",
+      "s": "Mlotshwa said coalition negotiations should be filmed live and made public rather than held in secret, and followed it with a video making the same case.",
+      "src": "X",
+      "url": "https://x.com/penuelist_/status/2121914013055389801"
+    },
+    {
+      "id": "a-x4",
+      "j": "adriaan",
+      "d": "2026-11-08",
+      "kind": "Post",
+      "place": "All hung councils",
+      "h": "Here are my 4 coalition scenarios",
+      "s": "Basson named his four coalition scenarios on X: Ukraine, Lesotho, Rainbow and Ghana.",
+      "src": "X",
+      "url": "https://x.com/AdriaanBasson/status/2119390143723295172"
+    },
+    {
+      "id": "a-calc",
+      "j": "adriaan",
+      "d": "2026-11-10",
+      "kind": "Post",
+      "place": "All hung councils",
+      "h": "Play kingmaker: build the coalition you’d back",
+      "s": "Basson shared News24’s Coalition Calculator, inviting readers to try building governments themselves.",
+      "src": "X",
+      "url": "https://x.com/AdriaanBasson/status/2120154808384668140"
+    },
+    {
+      "id": "a-tt",
+      "j": "adriaan",
+      "d": "2026-11-06",
+      "kind": "Video",
+      "place": "All hung councils",
+      "h": "Coalition talks begin",
+      "s": "In a video column, Basson said the real work starts now: fourteen days of coalition negotiations to decide who governs the country’s councils.",
+      "src": "TikTok",
+      "url": "https://www.tiktok.com/@news24/video/7704941600371133697"
+    },
+    {
+      "id": "a-doomvid",
+      "j": "adriaan",
+      "d": "2026-11-20",
+      "kind": "Video",
+      "place": "National",
+      "h": "On the brink of Doomsday? Coalition analysis",
+      "s": "Basson shared a video analysis of the coalition talks under the title On the Brink of Doomsday?",
+      "src": "X",
+      "url": "https://x.com/AdriaanBasson/status/2123893205640823244"
+    },
+    {
+      "id": "p-diverge",
+      "j": "pieter",
+      "d": "2026-11-19",
+      "kind": "Column",
+      "place": "National",
+      "h": "Divergence: DA, ANC now on a collision course ahead of 2029",
+      "s": "Du Toit’s column says the DA and ANC are now on a collision course ahead of the 2029 national election.",
+      "src": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/christo-hattingh_pieter-du-toit-divergence-da-anc-now-activity-7529096039400620033-0Qez"
+    },
+    {
+      "id": "s-reel",
+      "j": "sizwe",
+      "d": "2026-11-13",
+      "kind": "Video",
+      "place": "National",
+      "h": "Four possible coalition agreements",
+      "s": "In a video clip, Mpofu-Walsh sets out four coalition scenarios he has in mind, starting with the simplest to understand.",
+      "src": "Instagram",
+      "url": "https://www.instagram.com/reel/Dfr2X9KlMq7/"
+    },
+    {
+      "id": "c-desk",
+      "j": "clement",
+      "d": "2026-11-06",
+      "kind": "Show",
+      "place": "All hung councils",
+      "h": "Across the Desk: the anatomy of coalition politics",
+      "s": "Manyathela’s 702 show unpacked how coalition politics works as the talks began.",
+      "src": "702",
+      "url": "https://omny.fm/shows/mid-morning-show-702/across-the-desk-the-anatomy-of-coalition-politics?in_playlist=across-the-desk"
+    },
+    {
+      "id": "c-eff",
+      "j": "clement",
+      "d": "2026-11-12",
+      "kind": "Show",
+      "place": "Gauteng metros",
+      "h": "Open Line: DA approaches EFF for coalition talks",
+      "s": "Manyathela and his listeners discussed the DA opening coalition talks with the EFF and MK.",
+      "src": "702",
+      "url": "https://omny.fm/shows/mid-morning-show-702/702openline-da-approaches-eff-for-coalition-talks"
+    },
+    {
+      "id": "c-update",
+      "j": "clement",
+      "d": "2026-11-16",
+      "kind": "Show",
+      "place": "Gauteng metros",
+      "h": "Coalition talks update",
+      "s": "Manyathela spoke to ActionSA’s Michael Beaumont and the DA’s Geordin Hill-Lewis about how far their talks had got.",
+      "src": "702",
+      "url": "https://omny.fm/shows/mid-morning-show-702/coalition-talks-update"
+    },
+    {
+      "id": "c-swap",
+      "j": "clement",
+      "d": "2026-11-18",
+      "kind": "Show",
+      "place": "Johannesburg",
+      "h": "ActionSA and DA coalition talks: latest developments",
+      "s": "Manyathela asked Geordin Hill-Lewis about claims that he and Helen Zille were considering a mayoral swap.",
+      "src": "702",
+      "url": "https://podcasts.apple.com/lu/podcast/actionsa-and-da-coalition-talks-latest-developments/id1201147442?i=1000802656894"
+    },
+    {
+      "id": "c-react",
+      "j": "clement",
+      "d": "2026-11-18",
+      "kind": "Show",
+      "place": "Gauteng metros",
+      "h": "Open Line: reactions to coalition negotiations",
+      "s": "Listeners reacted on Manyathela’s show to the coalition negotiations and the governments forming in Gauteng.",
+      "src": "702",
+      "url": "https://omny.fm/shows/mid-morning-show-702/702openline-reactions-to-coalition-negotiations"
+    },
+    {
+      "id": "m-dawork",
+      "j": "michael",
+      "d": "2026-11-20",
+      "kind": "Video",
+      "place": "Gauteng metros",
+      "h": "We don’t have a problem working with the DA",
+      "s": "Beaumont said ActionSA has no problem working with the DA and is finalising deals with it in some municipalities, but that there are limits to what it will support.",
+      "src": "X",
+      "url": "https://x.com/ME_Beaumont/status/2123717994841067885"
+    },
+    {
+      "id": "m-zille",
+      "j": "michael",
+      "d": "2026-11-20",
+      "kind": "Video",
+      "place": "Johannesburg",
+      "h": "How Helen Zille broke a working coalition in Johannesburg",
+      "s": "Beaumont posted a video explaining how, in ActionSA’s view, Zille broke a working coalition in Johannesburg, and why the party refuses to give her a second chance.",
+      "src": "X",
+      "url": "https://x.com/ME_Beaumont/status/2123748204596355582"
+    },
+    {
+      "id": "h-n24",
+      "j": "herman",
+      "d": "2026-11-10",
+      "kind": "Column",
+      "place": "Gauteng metros",
+      "h": "Coalition talks are a contest, but they don’t have to be",
+      "s": "In a News24 column, Mashaba wrote that coalition talks are a contest, but argued they do not have to be.",
+      "src": "News24",
+      "url": "https://x.com/News24/status/2120218937413533790"
+    },
+    {
+      "id": "z-enca",
+      "j": "helen",
+      "d": "2026-11-01",
+      "kind": "Interview",
+      "place": "Johannesburg",
+      "h": "Coalitions are about choosing the least bad option",
+      "s": "Before the vote, Zille told eNCA that coalition talks are often about choosing the least bad option, and accused smaller parties of putting positions first.",
+      "src": "eNCA",
+      "url": "https://x.com/eNCA/status/2116969733098549547"
+    },
+    {
+      "id": "g-pub",
+      "j": "geordin",
+      "d": "2026-11-06",
+      "kind": "Statement",
+      "place": "All hung councils",
+      "h": "The DA will publish all its coalition agreements",
+      "s": "Hill-Lewis said the DA will work to build stable governments and will publish all its coalition agreements once they are concluded.",
+      "src": "DA on X",
+      "url": "https://x.com/Our_DA/status/2118600742646775842"
+    },
+    {
+      "id": "g-swap",
+      "j": "geordin",
+      "d": "2026-11-18",
+      "kind": "Statement",
+      "place": "Johannesburg",
+      "h": "Hill-Lewis calls mayoral-swap reports dramatic",
+      "s": "Hill-Lewis dismissed as dramatic the reports that he had offered to step down as Cape Town mayor.",
+      "src": "Capricorn FM",
+      "url": "https://x.com/CapricornFMNews/status/2122968135070314839"
+    },
+    {
+      "id": "g-final",
+      "j": "geordin",
+      "d": "2026-11-21",
+      "kind": "Statement",
+      "place": "Gauteng metros",
+      "h": "The DA’s final offer to ActionSA",
+      "s": "Hill-Lewis set out the DA’s final offer to ActionSA to govern Gauteng’s three big metros together.",
+      "src": "BusinessTech",
+      "url": "https://x.com/BusinessTechSA/status/2124221761776390624"
+    },
+    {
+      "id": "d-cit",
+      "j": "dali",
+      "d": "2026-11-07",
+      "kind": "Statement",
+      "place": "All hung councils",
+      "h": "‘You wrote off uMkhonto weSizwe’, says Mpofu as party prepares for coalition talks",
+      "s": "Mpofu said MK’s near-10% national vote shows voters want parties to cooperate. He said any deal must rest on shared policy and be concluded within 100 days of a council being set up, with MK’s leadership having the final say, and that at least 120 councils could be hung.",
+      "src": "The Citizen",
+      "url": "https://www.citizen.co.za/news/south-africa/politics/mpofu-mk-party-coalition-negotiations/"
+    },
+    {
+      "id": "d-enca",
+      "j": "dali",
+      "d": "2026-11-12",
+      "kind": "Interview",
+      "place": "National",
+      "h": "MK Party warns ANC to reconsider coalition partners",
+      "s": "Mpofu warned that the ANC working with parties whose interests oppose its own could lead to its demise, and said MK did not want the talks to turn into a slanging match.",
+      "src": "eNCA",
+      "url": "https://www.enca.com/news-top-stories/mk-party-warns-anc-reconsider-coalition-partners"
+    },
+    {
+      "id": "d-702",
+      "j": "dali",
+      "d": "2026-11-13",
+      "kind": "Interview",
+      "place": "National",
+      "h": "MK Party coalition talks, on 702",
+      "s": "Mpofu spoke to Mandy Wiener on 702’s Midday Report about MK’s coalition talks.",
+      "src": "702",
+      "url": "https://www.youtube.com/watch?v=Zfn52P6fuxw"
+    },
+    {
+      "id": "d-da",
+      "j": "dali",
+      "d": "2026-11-14",
+      "kind": "Video",
+      "place": "National",
+      "h": "MK’s first meeting with the DA",
+      "s": "Mpofu described MK’s first-ever meeting with the DA as historic and said it had its own significance, but that MK will focus its coalition talks on like-minded parties.",
+      "src": "SABC News",
+      "url": "https://www.facebook.com/SABCNews/posts/adv-dali-mpofu-says-the-meeting-with-the-da-has-its-own-significance-as-they-vow/1570797288417070/"
+    },
+    {
+      "id": "d-hl",
+      "j": "dali",
+      "d": "2026-11-15",
+      "kind": "Video",
+      "place": "National",
+      "h": "Mpofu confirms Hill-Lewis asked for coalition talks",
+      "s": "Mpofu confirmed that DA leader Geordin Hill-Lewis had asked MK for coalition talks.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=6YsYxN78gdc"
+    },
+    {
+      "id": "d-cont",
+      "j": "dali",
+      "d": "2026-11-19",
+      "kind": "Video",
+      "place": "eThekwini and Gauteng",
+      "h": "MK’s coalition talks with the ANC, EFF and ActionSA continue",
+      "s": "In a video from MK, Mpofu gave an update on the party’s continuing coalition talks with the ANC, EFF and ActionSA, including in eThekwini.",
+      "src": "MK Party on YouTube",
+      "url": "https://www.youtube.com/watch?v=8GeXsrKpo2U"
+    },
+    {
+      "id": "j-jac",
+      "j": "julius",
+      "d": "2026-10-31",
+      "kind": "Speech",
+      "place": "All hung councils",
+      "h": "Malema tells voters EFF is a ‘stable coalition partner’",
+      "s": "At the EFF’s final rally in Soweto, Malema called the EFF the most stable coalition partner and said coalition government is the future of municipalities. He said the EFF respects coalitions but will not protect wrongdoing, even if it costs the party positions.",
+      "src": "Jacaranda FM",
+      "url": "https://www.jacarandafm.com/news/news/malema-tells-voters-eff-is-stable-coalition-partner/"
+    },
+    {
+      "id": "j-ip",
+      "j": "julius",
+      "d": "2026-11-07",
+      "kind": "Speech",
+      "place": "National",
+      "h": "Malema blames the ANC-DA coalition as the EFF reels from losses",
+      "s": "Malema blamed the ANC’s decision to govern nationally with the DA for strengthening white supremacy, saying the local results reflected that deal, and said progressive parties must unite rather than split their support.",
+      "src": "Inside Politics",
+      "url": "https://insidepolitic.co.za/watch-malema-blames-anc-da-coalition-for-strengthening-white-supremacy-as-eff-reels-from-election-losses/"
+    },
+    {
+      "id": "j-ewn",
+      "j": "julius",
+      "d": "2026-11-08",
+      "kind": "Statement",
+      "place": "National",
+      "h": "EFF calls on ANC to reconsider DA coalition",
+      "s": "At the IEC results centre, Malema called on the ANC to reconcile with its lost kids, the EFF, MK and SACP, and stand against their common political enemies. EWN reports the EFF wants to join the talks, but on its own terms.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/2026/11/08/eff-calls-on-anc-to-reconsider-da-coalition"
+    },
+    {
+      "id": "mb-n24",
+      "j": "mbalula",
+      "d": "2026-11-21",
+      "kind": "Reported",
+      "place": "Gauteng metros",
+      "h": "ANC draws MKP into grand coalition with ActionSA",
+      "s": "News24 reports that the ANC’s negotiating team, led by Mbalula, has drawn MK into a grand coalition with ActionSA, as the ANC’s national executive meets to seal the deal.",
+      "src": "News24",
+      "url": "https://www.news24.com/politics/anc-draws-mkp-into-grand-coalition-with-actionsa-as-national-executive-meets-to-seal-deal-20261121-1135",
+      "pay": true
+    },
+    {
+      "id": "my-enca",
+      "j": "moya",
+      "d": "2026-11-08",
+      "kind": "Interview",
+      "place": "Tshwane",
+      "h": "Moya says the results are a vote of confidence",
+      "s": "Moya told eNCA the election numbers are a vote of confidence in her leadership, and credited Tshwane residents for backing her.",
+      "src": "eNCA",
+      "url": "https://www.youtube.com/watch?v=Oa3-48tbujQ"
+    },
+    {
+      "id": "hl-iol",
+      "j": "hlabisa",
+      "d": "2026-11-09",
+      "kind": "Statement",
+      "place": "KwaZulu-Natal",
+      "h": "IFP opens coalition talks after winning control of five KZN municipalities",
+      "s": "Hlabisa said the IFP would appoint a negotiating team to lead its coalition talks, after winning outright control of five KwaZulu-Natal municipalities.",
+      "src": "IOL",
+      "url": "https://iol.co.za/lge2026/2026-11-09-ifp-opens-coalition-talks-after-winning-control-of-five-kzn-municipalities/"
+    },
+    {
+      "id": "hl-sw",
+      "j": "hlabisa",
+      "d": "2026-11-20",
+      "kind": "Statement",
+      "place": "KwaZulu-Natal",
+      "h": "Hlabisa says IFP will seal coalition deals this weekend",
+      "s": "Hlabisa said the IFP expects to seal its municipal coalition agreements this weekend, after meeting the ANC late into the evening.",
+      "src": "Sunday World",
+      "url": "https://sundayworld.co.za/politics/velenkosini-hlabisa-says-ifp-ready-to-seal-coalition-deals-this-weekend/"
+    },
+    {
+      "id": "gm-biz",
+      "j": "gayton",
+      "d": "2026-11-12",
+      "kind": "Interview",
+      "place": "National",
+      "h": "McKenzie on the coalition talks, on BizNews",
+      "s": "McKenzie spoke to BizNews’s Alec Hogg on the morning the ANC’s national executive met to decide its coalition path.",
+      "src": "BizNews",
+      "url": "https://podcasts.apple.com/sg/podcast/bn-edge-mckenzie-coalition-talks-pa-performance-tatjana/id1441394221?i=1000801527516"
+    },
+    {
+      "id": "gm-kd",
+      "j": "gayton",
+      "d": "2026-11-21",
+      "kind": "Reported",
+      "place": "Northern Cape",
+      "h": "McKenzie pulls the PA out of ANC coalition talks in Upington",
+      "s": "McKenzie has reportedly walked away from coalition talks with the ANC in Dawid Kruiper municipality in the Northern Cape, after a fight over the mayoral post.",
+      "src": "Happening News SA",
+      "url": "https://www.facebook.com/happeningnewssa/posts/gayton-mckenzie-pulls-pa-out-of-anc-coalition-talks-in-northern-cape-over-upingt/1516317033651916/"
+    },
+    {
+      "id": "sh-iol",
+      "j": "floyd",
+      "d": "2026-11-20",
+      "kind": "Statement",
+      "place": "National",
+      "h": "Shivambu rubbishes the ‘left will tank the economy’ scare",
+      "s": "Shivambu dismissed reports that a coalition of left-leaning parties would collapse business confidence and sink the rand, calling the warnings elite propaganda.",
+      "src": "IOL",
+      "url": "https://iol.co.za/news/politics/2026-11-20-shivambu-rubbishes--left-will-tank-economy-scare-da--doomsday-alarm-backfires/"
+    },
+    {
+      "id": "sa-n24",
+      "j": "ashor",
+      "d": "2026-11-21",
+      "kind": "Statement",
+      "place": "Gauteng metros",
+      "h": "Sarupen: talks with all parties are continuing",
+      "s": "As News24 reported the ANC drawing MK into a deal with ActionSA, Sarupen disputed that the DA had been shut out, saying its talks with all parties were continuing.",
+      "src": "News24",
+      "url": "https://www.news24.com/politics/anc-draws-mkp-into-grand-coalition-with-actionsa-as-national-executive-meets-to-seal-deal-20261121-1135",
+      "pay": true
+    },
+    {
+      "id": "sa-prop",
+      "j": "ashor",
+      "d": "2026-11-22",
+      "kind": "Letter",
+      "place": "All hung councils",
+      "h": "The DA’s full proposal to the ANC",
+      "s": "Sarupen signed the DA’s letter to ANC secretary-general Fikile Mbalula proposing that the two parties, with the IFP, co-govern the hung councils.",
+      "src": "Newsday",
+      "url": "https://newsday.co.za/south-africa/41768/here-is-the-full-da-proposal-to-the-anc-to-form-local-coalition-governments-accross-south-africa/"
+    },
+    {
+      "id": "mu-ig",
+      "j": "corne",
+      "d": "2026-11-12",
+      "kind": "Statement",
+      "place": "Johannesburg",
+      "h": "Mulder warns against a DA-ANC deal in Johannesburg",
+      "s": "Mulder warned that a DA-ANC coalition in Johannesburg could end cooperation between the FF Plus and the DA across the country.",
+      "src": "Newsroom on Instagram",
+      "url": "https://www.instagram.com/p/DfpNW5agkc2/"
+    },
+    {
+      "id": "mu-dm",
+      "j": "corne",
+      "d": "2026-11-20",
+      "kind": "Reported",
+      "place": "Gauteng metros",
+      "h": "FF Plus fails to broker a DA-ActionSA coalition",
+      "s": "Daily Maverick reports that Mulder held one-on-one talks with the DA and ActionSA to try to build a stable coalition in Gauteng, but could not resolve the tension between them.",
+      "src": "Daily Maverick",
+      "url": "https://www.dailymaverick.co.za/article/2026-11-20-ff-plus-fails-to-broker-da-actionsa-coalition-as-gauteng-talks-stall/"
+    },
+    {
+      "id": "mw-ewn",
+      "j": "mandy",
+      "d": "2026-11-05",
+      "kind": "Column",
+      "place": "All hung councils",
+      "h": "Coalition government negotiations: what to watch",
+      "s": "As the horse trading began, Wiener set out what to watch for as parties negotiate to form metro and council governments.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/mandy-wiener-coalition-govt-negotiations-lessons-from-the-deal/"
+    },
+    {
+      "id": "mw-yt",
+      "j": "mandy",
+      "d": "2026-11-15",
+      "kind": "Show",
+      "place": "All hung councils",
+      "h": "Coalition talks ramp up as parties race to meet the deadline",
+      "s": "On 702’s Midday Report, Wiener covered the race to strike coalition deals before the deadline.",
+      "src": "702",
+      "url": "https://www.youtube.com/watch?v=qz7wXQMKE6Y"
+    },
+    {
+      "id": "mw-site",
+      "j": "mandy",
+      "d": "2026-11-20",
+      "kind": "Post",
+      "place": "Gauteng metros and eThekwini",
+      "h": "A coalition emerges for the Gauteng metros and eThekwini",
+      "s": "Wiener noted that a coalition of the ANC, ActionSA, EFF and MK is emerging for the Gauteng metros and eThekwini.",
+      "src": "mandywiener.com",
+      "url": "https://mandywiener.com/"
+    },
+    {
+      "id": "fh-burn",
+      "j": "ferial",
+      "d": "2026-11-11",
+      "kind": "Analysis",
+      "place": "Johannesburg",
+      "h": "Joburg burns, politicians bargain",
+      "s": "Haffajee argued that as City Power’s grid buckles and coalition talks heat up, Johannesburg’s voters deserve more than another deal for political survival.",
+      "src": "Daily Maverick",
+      "url": "https://www.dailymaverick.co.za/article/2026-11-11-joburg-burns-politicians-bargain/"
+    },
+    {
+      "id": "kk-q",
+      "j": "katy",
+      "d": "2026-11-13",
+      "kind": "Post",
+      "place": "All hung councils",
+      "h": "A week on: what do you think of the coalition talks?",
+      "s": "A week after the elections, Katopodis asked her followers what they now think, knowing what they know about hung councils, coalition talks and the spats between parties.",
+      "src": "X",
+      "url": "https://x.com/KatyKatopodis/status/2121200428620902681"
+    },
+    {
+      "id": "ws-enca",
+      "j": "wayne",
+      "d": "2026-11-10",
+      "kind": "Analysis",
+      "place": "Johannesburg",
+      "h": "Coalition Builder: battle for Joburg, who has the numbers?",
+      "s": "On eNCA, Sussman worked through the numbers for three possible coalitions to govern Johannesburg.",
+      "src": "eNCA",
+      "url": "https://www.enca.com/news-top-stories/enca-coalition-builder-battle-joburg-who-has-numbers"
+    },
+    {
+      "id": "ws-ewn",
+      "j": "wayne",
+      "d": "2026-11-12",
+      "kind": "Analysis",
+      "place": "National",
+      "h": "Sussman warns GNU-style coalitions won’t work in local government",
+      "s": "Sussman warned that coalitions modelled on the national unity government will not work in local councils.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/2026/11/12/analyst-wayne-sussman-warns-gnu-style-coalitions-wont-work-in-local-government"
+    },
+    {
+      "id": "ws-x",
+      "j": "wayne",
+      "d": "2026-11-22",
+      "kind": "Post",
+      "place": "Gauteng metros",
+      "h": "A four-party deal gives the Gauteng coalition a buffer",
+      "s": "Sussman said the proposed coalition of at least four parties for the Gauteng metros gives it a buffer, so the government does not depend on any single small party.",
+      "src": "X",
+      "url": "https://x.com/waynesussman/status/2124372420135899304"
+    },
+    {
+      "id": "zv-who",
+      "j": "zimasa",
+      "d": "2026-11-19",
+      "kind": "Video",
+      "place": "National",
+      "h": "Who really won South Africa’s 2026 local government elections?",
+      "s": "In an opinion video, Vabaza traces where the vote went after the ANC lost 14.8 points and the DA gained three, and what that means for the coalition talks.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=LbgQEk3aBsc"
+    },
+    {
+      "id": "cb-nd",
+      "j": "brink",
+      "d": "2026-11-16",
+      "kind": "Reported",
+      "place": "Tshwane",
+      "h": "Zille and Brink silent on the demand that they step aside",
+      "s": "Newsday reported that Brink, the DA’s Tshwane mayoral candidate, and Helen Zille had not said whether they would step aside to make a DA-ActionSA deal possible.",
+      "src": "Newsday",
+      "url": "https://newsday.co.za/south-africa/39633/da-actionsa-coalition-breaker-helen-zille-and-cilliers-brink-silent-on-the-demand-that-they-step-aside/"
+    },
+    {
+      "id": "nm-x",
+      "j": "mokonyane",
+      "d": "2026-11-08",
+      "kind": "Post",
+      "place": "Gauteng metros",
+      "h": "The ANC’s first meeting with ActionSA",
+      "s": "Mokonyane posted that Fikile Mbalula had led an ANC delegation in a courtesy meeting with ActionSA to reflect on the elections.",
+      "src": "X",
+      "url": "https://x.com/nomvulamoko_/status/2119412426949198192"
+    },
+    {
+      "id": "mbh-deny",
+      "j": "bhengu",
+      "d": "2026-11-11",
+      "kind": "Statement",
+      "place": "Johannesburg",
+      "h": "Bhengu: Ramaphosa has stated no preference on Joburg",
+      "s": "Bhengu dismissed reports that Ramaphosa had told the ANC he preferred a Johannesburg coalition without the DA.",
+      "src": "Sunday Times",
+      "url": "https://www.sundaytimes.timeslive.co.za/politics/2026-11-11-ramaphosa-urges-anc-to-avoid-da-in-johannesburg-coalition/",
+      "pay": true
+    },
+    {
+      "id": "mbh-sabc",
+      "j": "bhengu",
+      "d": "2026-11-18",
+      "kind": "Statement",
+      "place": "KwaZulu-Natal",
+      "h": "ANC negotiating team denies coalition disagreement in KZN",
+      "s": "Bhengu told SABC News there was no rift between the ANC’s structures and its provincial task team over the KwaZulu-Natal coalition talks.",
+      "src": "SABC News",
+      "url": "https://www.sabcnews.com/sabcnews/anc-negotiating-team-denies-coalition-disagreement-in-kzn/"
+    },
+    {
+      "id": "lm-n24",
+      "j": "masuku",
+      "d": "2026-11-21",
+      "kind": "Reported",
+      "place": "Johannesburg",
+      "h": "The ANC’s preferred Joburg names miss out on council seats",
+      "s": "News24 reports that the ANC’s preferred names for Johannesburg, among them Masuku, Dada Morero and Frank Chikane, did not win council seats.",
+      "src": "News24",
+      "url": "https://www.news24.com/politics/anc-draws-mkp-into-grand-coalition-with-actionsa-as-national-executive-meets-to-seal-deal-20261121-1135",
+      "pay": true
+    },
+    {
+      "id": "dm-enca",
+      "j": "morero",
+      "d": "2026-11-01",
+      "kind": "Interview",
+      "place": "Johannesburg",
+      "h": "Morero on the ANC’s coalition framework",
+      "s": "Before the vote, Morero told eNCA the ANC’s coalition framework puts service delivery, residents’ concerns and respect for the Constitution first.",
+      "src": "eNCA",
+      "url": "https://x.com/eNCA/status/2116970076293181496"
+    },
+    {
+      "id": "dm-cit",
+      "j": "morero",
+      "d": "2026-11-03",
+      "kind": "Interview",
+      "place": "Johannesburg",
+      "h": "Morero on who calls the coalition shots, and being Joburg’s last ANC mayor",
+      "s": "Casting his special vote, Morero answered questions on who calls the ANC’s coalition shots in Johannesburg and whether he would be the city’s last ANC mayor.",
+      "src": "The Citizen",
+      "url": "https://www.citizen.co.za/news/south-africa/elections/morero-on-who-calls-the-coalition-shots-and-being-johannesburgs-last-anc-mayor/"
+    },
+    {
+      "id": "at-biz",
+      "j": "trollip",
+      "d": "2026-11-15",
+      "kind": "Interview",
+      "place": "Gauteng metros",
+      "h": "Trollip says it’s up to the DA to break the coalition standoff",
+      "s": "Trollip, once made Nelson Mandela Bay mayor by a coalition and later removed by one, told BizNews it is up to the DA to break the standoff.",
+      "src": "BizNews",
+      "url": "https://www.youtube.com/watch?v=DeZANzt0Q00"
+    },
+    {
+      "id": "at-n24",
+      "j": "trollip",
+      "d": "2026-11-21",
+      "kind": "Interview",
+      "place": "Gauteng metros",
+      "h": "Trollip on DA arrogance and building coalitions that work",
+      "s": "Trollip spoke to News24 about what he sees as DA arrogance, and how to build coalitions that work.",
+      "src": "News24",
+      "url": "https://www.news24.com/opinions/analysis/interview-actionsas-athol-trollip-on-da-arrogance-and-building-coalitions-that-work-20261121-0854",
+      "pay": true
+    },
+    {
+      "id": "ww-tl",
+      "j": "wessels",
+      "d": "2026-11-06",
+      "kind": "Statement",
+      "place": "All hung councils",
+      "h": "Stop the fearmongering, it’s not democracy",
+      "s": "Wessels criticised the fearmongering he said was used during the campaign, calling it anti-democratic, as the FF Plus prepared to play kingmaker in hung councils.",
+      "src": "TimesLIVE",
+      "url": "https://www.timeslive.co.za/politics/elections-2026/2026-11-06-stop-the-fearmongering-its-not-democracy-ff-plus-chair/"
+    },
+    {
+      "id": "tm-tl",
+      "j": "mofokeng",
+      "d": "2026-11-04",
+      "kind": "Statement",
+      "place": "Johannesburg",
+      "h": "‘Vote for dignity,’ urges the EFF’s Joburg candidate",
+      "s": "On election day, Mofokeng urged Johannesburg voters to turn out despite their despondency.",
+      "src": "TimesLIVE",
+      "url": "https://www.timeslive.co.za/politics/elections-2026/2026-11-04-vote-for-dignity-urges-eff-joburg-mayoral-candidate-dr-tlaleng-mofokeng/"
+    },
+    {
+      "id": "sg-pod",
+      "j": "gcilishe",
+      "d": "2026-11-20",
+      "kind": "Show",
+      "place": "National",
+      "h": "EFF podcast: an uncensored conversation with Julius Malema",
+      "s": "Gcilishe hosted Malema on the EFF podcast for an open conversation, with no questions off the table, as the coalition talks continued.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=zBxKWX-odHY"
+    },
+    {
+      "id": "dz-mg",
+      "j": "duduzane",
+      "d": "2026-11-08",
+      "kind": "Statement",
+      "place": "KwaZulu-Natal",
+      "h": "MK will not rescue parties rejected by voters",
+      "s": "Duduzane Zuma said MK would not rescue parties that voters had rejected, as coalition talks loomed over hung KwaZulu-Natal councils.",
+      "src": "Mail & Guardian",
+      "url": "https://mg.co.za/politics/2026-11-08-mk-party-will-not-rescue-parties-rejected-by-voters-says-duduzane-zuma/"
+    },
+    {
+      "id": "dz-dm",
+      "j": "duduzane",
+      "d": "2026-11-09",
+      "kind": "Interview",
+      "place": "KwaZulu-Natal",
+      "h": "Duduzane Zuma answers eight key questions as MK fights for a place in government",
+      "s": "He said there would be no political lifelines and no coalitions just for the sake of it.",
+      "src": "Daily Maverick",
+      "url": "https://www.dailymaverick.co.za/article/2026-11-09-duduzane-zuma-answers-eight-key-questions-as-mk-fights-for-a-place-in-government/"
+    },
+    {
+      "id": "ho-x",
+      "j": "omarjee",
+      "d": "2026-11-08",
+      "kind": "Interview",
+      "place": "Gauteng metros",
+      "h": "Omarjee speaks to Mashaba on ActionSA’s negotiations",
+      "s": "Omarjee interviewed Herman Mashaba about ActionSA’s coalition negotiations and its demands about the DA’s mayoral candidates.",
+      "src": "Business Day",
+      "url": "https://x.com/BDliveSA/status/2119462725856444715"
+    },
+    {
+      "id": "ho-bd",
+      "j": "omarjee",
+      "d": "2026-11-13",
+      "kind": "Analysis",
+      "place": "National",
+      "h": "Coalitions: the ANC’s four options",
+      "s": "Omarjee set out four coalition paths open to the ANC, including letting MK govern alone in some councils.",
+      "src": "Business Day",
+      "url": "https://www.businessday.co.za/politics/elections-2026/2026-11-13-news-analysis-coalitions-the-ancs-four-options/",
+      "pay": true
+    },
+    {
+      "id": "lt-st",
+      "j": "tandwa",
+      "d": "2026-11-11",
+      "kind": "Report",
+      "place": "Johannesburg",
+      "h": "Ramaphosa urges ANC to avoid DA in Johannesburg coalition",
+      "s": "Tandwa reported, citing unnamed insiders, that Ramaphosa told a closed ANC meeting to explore a Johannesburg coalition without the DA.",
+      "src": "Sunday Times",
+      "url": "https://www.sundaytimes.timeslive.co.za/politics/2026-11-11-ramaphosa-urges-anc-to-avoid-da-in-johannesburg-coalition/",
+      "pay": true
+    },
+    {
+      "id": "lt-vid",
+      "j": "tandwa",
+      "d": "2026-11-22",
+      "kind": "Video",
+      "place": "Gauteng metros",
+      "h": "Why did DA-ActionSA coalition talks collapse in Gauteng?",
+      "s": "Tandwa explained how the dispute over Zille’s mayoral bid, and ActionSA’s demand for an equal share of mayoral committee seats, broke the DA-ActionSA talks.",
+      "src": "TimesLIVE",
+      "url": "https://www.facebook.com/TimesLIVE/videos/why-did-da-actionsa-coalition-talks-collapse-in-gauteng-sunday-times-politics-wr/1871946240922048/"
+    },
+    {
+      "id": "ms-tl",
+      "j": "sefara",
+      "d": "2026-11-21",
+      "kind": "Column",
+      "place": "Johannesburg",
+      "h": "An attitude problem that snatches defeat from the jaws of victory",
+      "s": "Sefara argues that Zille’s communication style and past remarks isolate her from potential coalition partners.",
+      "src": "TimesLIVE",
+      "url": "https://www.timeslive.co.za/opinion/2026-11-21-makhudu-sefara-an-attitude-problem-that-snatches-defeat-from-the-jaws-of-victory/"
+    },
+    {
+      "id": "js-n24",
+      "j": "steinberg",
+      "d": "2026-11-10",
+      "kind": "Column",
+      "place": "Johannesburg",
+      "h": "Is Zille too strange to build a coalition?",
+      "s": "Recalling a personal encounter with Zille, Steinberg wondered whether her temperament suits coalition building.",
+      "src": "News24",
+      "url": "https://www.news24.com/opinions/columnists/jonny-steinberg-is-zille-too-strange-to-build-a-coalition-20261109-0814",
+      "pay": true
+    },
+    {
+      "id": "z-reply",
+      "j": "helen",
+      "d": "2026-11-10",
+      "kind": "Post",
+      "place": "Johannesburg",
+      "h": "Zille disputes Steinberg’s account",
+      "s": "Zille replied on X that Jonny Steinberg must have been at a different event, disputing his account of their encounter.",
+      "src": "X",
+      "url": "https://x.com/helenzille/status/2120085888902275458"
+    },
+    {
+      "id": "sv-sub",
+      "j": "svabaza",
+      "d": "2026-11-10",
+      "kind": "Column",
+      "place": "All eight metros",
+      "h": "A game of musical chairs: performance over personalities in coalition politics",
+      "s": "Vabaza backs Zille and the DA and argues for performance agreements and published coalition deals. He also describes Sizwe Mpofu-Walsh’s idea of a DA-ANC-ActionSA grand agreement over the metros.",
+      "src": "Substack",
+      "url": "https://sindilevabaza.substack.com/p/a-game-of-musical-chairs-perfomance"
+    },
+    {
+      "id": "ah-biz",
+      "j": "hogg",
+      "d": "2026-11-12",
+      "kind": "Interview",
+      "place": "National",
+      "h": "Gayton McKenzie’s post-election analysis",
+      "s": "Hogg interviewed PA leader Gayton McKenzie on the morning the ANC’s national executive met to decide its coalition path.",
+      "src": "BizNews",
+      "url": "https://www.youtube.com/watch?v=Y2p2xgCWtdw"
+    },
+    {
+      "id": "ah-bea",
+      "j": "hogg",
+      "d": "2026-11-19",
+      "kind": "Interview",
+      "place": "Gauteng metros",
+      "h": "Michael Beaumont on ActionSA’s coalition hand and the DA standoff",
+      "s": "Hogg interviewed ActionSA’s Michael Beaumont about the DA standoff and the talks with the ANC.",
+      "src": "BizNews",
+      "url": "https://www.biznews.com/interviews/michael-beaumont-on-actionsas-coalition-talks"
+    },
+    {
+      "id": "mm-li",
+      "j": "makhanya",
+      "d": "2026-11-12",
+      "kind": "Column",
+      "place": "Johannesburg",
+      "h": "Zille vs Mashaba: the egos shaping Joburg’s coalition talks",
+      "s": "Makhanya wrote about how the egos of Helen Zille and Herman Mashaba are shaping the Johannesburg talks.",
+      "src": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/mondli-makhanya-286376275_zille-vs-mashaba-the-egos-shaping-joburg-activity-7526743375228825602-tJm-"
+    },
+    {
+      "id": "nd-x",
+      "j": "dawes",
+      "d": "2026-11-10",
+      "kind": "Post",
+      "place": "Johannesburg",
+      "h": "Is Mashaba’s stance personal, or a calculation?",
+      "s": "Dawes asked whether Mashaba’s reluctance to be the junior partner in a Zille-led Joburg coalition has less to do with personal animus than with a calculation.",
+      "src": "X",
+      "url": "https://x.com/NicDawes/status/2120205660818149661"
+    },
+    {
+      "id": "jp-pod",
+      "j": "perlman",
+      "d": "2026-11-20",
+      "kind": "Show",
+      "place": "All hung councils",
+      "h": "Coalition marriages failing",
+      "s": "Perlman’s 702 Drive show looked at why coalition marriages fail.",
+      "src": "702",
+      "url": "https://podcasts.apple.com/za/podcast/coalition-marriages-failing/id1529995004?i=1000803153673"
+    },
+    {
+      "id": "am-pod",
+      "j": "mciver",
+      "d": "2026-11-18",
+      "kind": "Show",
+      "place": "Johannesburg",
+      "h": "Coalition talks in Joburg continue",
+      "s": "McIver spoke to journalist Ferial Haffajee about the continuing coalition talks in Johannesburg.",
+      "src": "CapeTalk",
+      "url": "https://podcasts.apple.com/us/podcast/coalition-talks-in-jhb-continue-following-the-local/id1212305258?i=1000802731596"
+    },
+    {
+      "id": "mg-jhb",
+      "j": "macg",
+      "d": "2026-11-09",
+      "kind": "Podcast",
+      "place": "Johannesburg",
+      "h": "DA takes over Joburg",
+      "s": "An episode of Podcast and Chill with MacG led on the DA topping the vote in Johannesburg.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=zRyTJvE5Hwc"
+    },
+    {
+      "id": "mg-frank",
+      "j": "macg",
+      "d": "2026-11-22",
+      "kind": "Video",
+      "place": "All hung councils",
+      "h": "Let’s be Frank: coalition talks are underway",
+      "s": "On Be Frank with Mac, MacG turned to the coalition talks, arguing that South Africa faces a basic crisis of trust in the people who govern it.",
+      "src": "Podcast and Chill on Facebook",
+      "url": "https://www.facebook.com/61557541114547/posts/lets-be-frank-for-a-momentcoalition-talks-are-underway-and-we-all-want-to-know-w/122275707146251370/"
+    },
+    {
+      "id": "pm-biz",
+      "j": "mashele",
+      "d": "2026-10-30",
+      "kind": "Interview",
+      "place": "Johannesburg",
+      "h": "Prince Mashele on Mashaba, Zille and the deal that could decide Joburg",
+      "s": "Before the vote, Mashaba and Zille’s rivalry and the deal it could take to govern Johannesburg were the focus of Mashele’s BizNews interview.",
+      "src": "BizNews",
+      "url": "https://www.biznews.com/the-daily-edge/bn-edge-prince-mashele"
+    },
+    {
+      "id": "pm-ewn",
+      "j": "mashele",
+      "d": "2026-11-08",
+      "kind": "Interview",
+      "place": "National",
+      "h": "ANC could fall below 15% in 2029, Prince Mashele predicts",
+      "s": "Mashele predicted the ANC could fall below 15% in the 2029 national election, blaming corruption, incompetence and arrogance for its decline.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/2026/11/09/anc-could-fall-below-15-in-2029-election-prince-mashele-predicts"
+    },
+    {
+      "id": "pm-vutha",
+      "j": "mashele",
+      "d": "2026-11-11",
+      "kind": "Interview",
+      "place": "Gauteng metros",
+      "h": "ActionSA and the DA should form coalitions",
+      "s": "On Vutha FM, Mashele argued that a coalition between ActionSA and the DA is the only viable way forward for Gauteng’s metros.",
+      "src": "Vutha FM",
+      "url": "https://www.youtube.com/watch?v=BAPvb9HSARE"
+    },
+    {
+      "id": "pm-calls",
+      "j": "mashele",
+      "d": "2026-11-12",
+      "kind": "Video",
+      "place": "Johannesburg",
+      "h": "Calls from both sides over the Joburg talks",
+      "s": "Mashele said people from both ActionSA and the DA had called him, asking him to help bring the two parties together in the Johannesburg talks.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=T--XAmXHuwQ"
+    },
+    {
+      "id": "h-iol",
+      "j": "herman",
+      "d": "2026-11-21",
+      "kind": "Interview",
+      "place": "Gauteng metros",
+      "h": "Mashaba alleges the DA tried to buy his support",
+      "s": "In an interview with IOL, Mashaba said the DA had offered him money for his 2029 campaign, that he would not work with Helen Zille or Cilliers Brink, and that the DA’s latest offer was the last straw. The DA declined to respond to the claim.",
+      "src": "IOL",
+      "url": "https://iol.co.za/news/politics/2026-11-21-exclusive-mashaba-launches-scathing-attack-on-da-alleges-party-tried-to-buy-his-support/"
+    },
+    {
+      "id": "g-ext",
+      "j": "geordin",
+      "d": "2026-11-21",
+      "kind": "Interview",
+      "place": "Gauteng metros",
+      "h": "Hill-Lewis calls ActionSA’s demand over Zille ‘extortion’",
+      "s": "Speaking to SABC News, Hill-Lewis set out the DA’s final offer, with ActionSA running Tshwane and the DA running Johannesburg and Ekurhuleni, and called ActionSA’s demand that Zille be dropped extortion.",
+      "src": "Newsday",
+      "url": "https://newsday.co.za/south-africa/41518/da-leader-geordin-hill-lewis-accuses-actionsa-of-extortion-over-helen-zille-in-johannesburg/"
+    },
+    {
+      "id": "m-95",
+      "j": "michael",
+      "d": "2026-11-21",
+      "kind": "Interview",
+      "place": "Gauteng metros",
+      "h": "ActionSA is 90 to 95% of the way to a deal with the ANC, EFF and MK",
+      "s": "Beaumont told SABC News the deal would make Mashaba Johannesburg mayor and keep Nasiphi Moya in Tshwane, but that nothing was signed yet and ActionSA’s senate would decide on Sunday evening, 22 November.",
+      "src": "Newsday",
+      "url": "https://newsday.co.za/south-africa/41494/actionsas-michael-beaumont-says-they-are-95-there-with-anc-mk-and-eff-deal-where-herman-mashaba-will-be-johannesburg-mayor/"
+    },
+    {
+      "id": "mb-kzn",
+      "j": "mbalula",
+      "d": "2026-11-21",
+      "kind": "Reported",
+      "place": "KwaZulu-Natal",
+      "h": "Inside the ANC’s KZN revolt against the MK Party deal",
+      "s": "Not said in public. News24, citing sources, reports that Mbalula is pushing the MK deal on KwaZulu-Natal while the province’s ANC leaders lean towards an ANC-DA-IFP coalition, ahead of a national executive meeting on Monday.",
+      "src": "News24",
+      "pay": true,
+      "url": "https://www.news24.com/politics/inside-the-ancs-kzn-revolt-against-the-mk-party-deal-20261120-1140"
+    },
+    {
+      "id": "j-lim",
+      "j": "julius",
+      "d": "2026-11-22",
+      "kind": "Podcast",
+      "place": "Limpopo",
+      "h": "‘Take 30 and give us nine’: Malema’s Limpopo proposal",
+      "s": "On the EFF’s podcast, Malema proposed that of Limpopo’s 39 hung councils, the ANC lead 30 and the EFF nine. Sunday World reports the ANC instead chose the DA as its main partner in the province.",
+      "src": "Sunday World",
+      "url": "https://sundayworld.co.za/politics/how-eff-sacp-and-actionsa-lost-limpopo-coalition-deal/"
+    }
+  ],
+  "edition": {
+    "date": "2026-11-22",
+    "time": "22:00"
+  },
+  "events": [
+    {
+      "id": "johannesburg",
+      "cat": "Johannesburg",
+      "place": "City of Johannesburg",
+      "h": "Zille concedes Johannesburg as ActionSA turns to the ANC",
+      "dek": "The DA won the most votes in Johannesburg but is heading for the opposition benches. ActionSA’s senate decides on Sunday evening, 22 November, on a deal with the ANC, EFF and MK that would make Herman Mashaba mayor.",
+      "brief": [
+        "The DA topped the Joburg vote, but Zille has conceded",
+        "ActionSA refused to work with a DA team that included Zille",
+        "Beaumont says a deal with the ANC, EFF and MK is 90 to 95% agreed, with Mashaba as mayor",
+        "ActionSA’s senate decides on Sunday evening, 22 November",
+        "Hill-Lewis calls ActionSA’s demand over Zille extortion"
+      ],
+      "sec": [
+        [
+          "An early opening for Zille",
+          "On 4 November, Pieter du Toit wrote that a Zille-led city working with the ANC’s moderates was not far-fetched, though it would be very hard to negotiate."
+        ],
+        [
+          "Zille becomes the sticking point",
+          "On election night, Herman Mashaba told Clement Manyathela on 702 that he would not negotiate with a DA team that included Zille. On 17 November, Michael Beaumont named the two parties’ Gauteng mayoral candidates as the sticking point. The next day DA leader Geordin Hill-Lewis told Manyathela the party would not drop Zille and would accept opposition if it came to that, while Beaumont called the ANC’s offer attractive."
+        ],
+        [
+          "Swap talk",
+          "On 18 November, Hill-Lewis dismissed as dramatic the reports that he had offered to step down as Cape Town mayor, a claim Manyathela put to him on 702 the same day. Two days later Beaumont posted a video arguing that Zille had broken a working coalition in Johannesburg before and would not get a second chance."
+        ],
+        [
+          "Zille concedes",
+          "On 18 November, Zille told DA caucus members the die seemed to be cast and the party should prepare for opposition. She said she believed an ANC-ActionSA-EFF-MK coalition would be unstable, but that the DA could still help Johannesburg have a working government. The DA said this was not its official position."
+        ],
+        [
+          "ActionSA moves on",
+          "Mashaba told the Mail & Guardian that talks with the DA stalled because it would not drop Zille and Cilliers Brink, and that ActionSA was drafting an agreement with the other parties. Adriaan Basson wrote that the party with the most votes in the city was heading for opposition, and Beaumont said ActionSA was set to take over in Johannesburg."
+        ],
+        [
+          "Decision day",
+          "On 21 November, Beaumont told SABC News that ActionSA was 90 to 95% of the way to a deal with the ANC, EFF and MK that would make Mashaba mayor of Johannesburg and keep Nasiphi Moya in Tshwane, though nothing was signed and ActionSA’s senate would decide on Sunday evening. The same day Hill-Lewis made the DA’s final offer and called ActionSA’s demand that Zille be dropped extortion, while Mashaba told IOL the DA had tried to buy his support, which the DA declined to answer."
+        ]
+      ],
+      "items": [
+        "pn-vote",
+        "p-zille",
+        "c-mashaba",
+        "h-702",
+        "r-st",
+        "m-bt",
+        "c-hl",
+        "g-702",
+        "m-702",
+        "z-n24",
+        "z-star",
+        "h-mg",
+        "a-doomsday",
+        "m-national",
+        "pn-dt",
+        "pn-arrog",
+        "pn-live",
+        "z-enca",
+        "c-update",
+        "g-swap",
+        "c-swap",
+        "c-react",
+        "m-zille",
+        "m-dawork",
+        "h-iol",
+        "mb-n24",
+        "sa-n24",
+        "mu-ig",
+        "mu-dm",
+        "fh-burn",
+        "ws-enca",
+        "lm-n24",
+        "dm-cit",
+        "tm-tl",
+        "lt-vid",
+        "ms-tl",
+        "js-n24",
+        "z-reply",
+        "mm-li",
+        "nd-x",
+        "am-pod",
+        "cb-nd",
+        "mg-jhb",
+        "pm-biz",
+        "pm-calls",
+        "pm-vutha",
+        "g-ext",
+        "m-95"
+      ],
+      "voices": {
+        "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
+        "clement": "Pressed both sides on air: Mashaba ruled out a DA team with Zille, Hill-Lewis refused to drop her, and he asked Hill-Lewis about the mayoral-swap claims.",
+        "michael": "Says a deal with the ANC, EFF and MK is 90 to 95% agreed, with Mashaba as mayor and the decision due on Sunday evening.",
+        "adriaan": "Reports that Zille has conceded, leaving the DA in opposition despite topping the vote.",
+        "herman": "Would not work with Zille or Brink, says the DA tried to buy his support, and is set to be Joburg mayor in a deal with the ANC.",
+        "geordin": "Refused to drop Zille, made the DA’s final offer, and calls ActionSA’s demand over her extortion.",
+        "helen": "Before the vote, said coalitions mean choosing the least bad option. After it, expects the DA to be shut out and the new coalition to be unstable, and disputes Steinberg’s account of her.",
+        "cyril": "Insiders told the Sunday Times he asked the ANC to explore a Johannesburg deal without the DA; the ANC denies he stated a preference.",
+        "penuel": "Backed ActionSA in Johannesburg, distrusts its voters who want a DA deal, warns the DA it won’t win by being arrogant, and wants coalition talks filmed live.",
+        "mbalula": "Led the ANC team that, News24 reports, drew MK into a grand coalition with ActionSA.",
+        "ashor": "Says the DA has not been shut out and that talks with all parties are continuing.",
+        "corne": "Warned against a DA-ANC deal in Joburg, then tried and failed to broker a DA-ActionSA coalition.",
+        "ferial": "Argues Joburg’s voters deserve more than another deal for political survival while the city’s grid buckles.",
+        "wayne": "Worked through the numbers for three possible Joburg coalitions.",
+        "masuku": "Was among the ANC’s preferred Joburg names who, News24 reports, did not win council seats.",
+        "morero": "Before the vote, said the ANC’s coalition framework puts service delivery first, and fielded questions on being Joburg’s last ANC mayor.",
+        "mofokeng": "The EFF’s Joburg candidate urged residents to vote for dignity.",
+        "tandwa": "Explained how the fight over Zille and mayoral committee seats broke the DA-ActionSA talks.",
+        "sefara": "Argues Zille’s style isolates her from potential partners.",
+        "steinberg": "Asked whether Zille’s temperament suits coalition building, an account she disputes.",
+        "makhanya": "Wrote about the egos of Zille and Mashaba shaping the talks.",
+        "dawes": "Asked whether Mashaba’s stance is a calculation rather than personal animus.",
+        "mciver": "Spoke to Ferial Haffajee about the continuing Joburg talks.",
+        "brink": "Faced, with Zille, ActionSA’s demand that he step aside, and had not said whether he would.",
+        "macg": "Led his podcast on the DA topping the Joburg vote.",
+        "mashele": "Argues an ActionSA–DA coalition is the only viable way forward, and says both parties asked him to help bring them together."
+      },
+      "coverage": [
+        {
+          "src": "BusinessTech",
+          "h": "D-Day for Johannesburg, Tshwane and Ekurhuleni as ActionSA meets to decide their fate",
+          "d": "2026-11-22",
+          "url": "https://businesstech.co.za/news/government/885532/d-day-for-johannesburg-tshwane-and-ekurhuleni-as-actionsa-meets-to-decide-their-fate/"
+        },
+        {
+          "src": "News24",
+          "h": "Race to seal anti-DA pact gains momentum in Gauteng metros",
+          "d": "2026-11-21",
+          "url": "https://www.news24.com/politics/race-to-seal-anti-da-pact-gains-momentum-in-gauteng-metros-20261120-1136"
+        },
+        {
+          "src": "SABC News",
+          "h": "Historical tensions and candidate disputes stall coalition talks with DA: ActionSA",
+          "d": "2026-11-21",
+          "url": "https://www.sabcnews.com/sabcnews/historical-tensions-and-candidate-disputes-stall-coalition-talks-with-da-actionsa/"
+        },
+        {
+          "src": "IOL",
+          "h": "Mashaba poised for Joburg mayor role as coalition deal takes shape, MK Party in line for deputy",
+          "d": "2026-11-21",
+          "url": "https://iol.co.za/lge2026/2026-11-20-unsigned-coalition-deal-puts-mashaba-in-line-for-joburg-mayor-mk-party-for-deputy/"
+        },
+        {
+          "src": "African Business",
+          "h": "Zille blocked from Johannesburg mayoralty by ActionSA – ANC deal",
+          "d": "2026-11-20",
+          "url": "https://african.business/2026/11/politics/zille-blocked-from-johannesburg-mayoralty",
+          "intl": true
+        },
+        {
+          "src": "Mail & Guardian",
+          "h": "ANC deals DA out of Gauteng metros in broad coalition pact",
+          "d": "2026-11-20",
+          "url": "https://mg.co.za/politics/2026-11-19-anc-deals-da-out-of-the-metros/"
+        },
+        {
+          "src": "Daily Maverick",
+          "h": "FF Plus fails to broker DA-ActionSA coalition after deadlocked Gauteng talks",
+          "d": "2026-11-20",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-20-ff-plus-fails-to-broker-da-actionsa-coalition-as-gauteng-talks-stall/"
+        },
+        {
+          "src": "The National",
+          "h": "Why a DA–ActionSA pact was always an uphill battle in Gauteng",
+          "d": "2026-11-20",
+          "url": "https://thenational.co.za/news/2026-11-20-why-a-da-actionsa-pact-was-always-an-uphill-battle-in-gauteng/"
+        },
+        {
+          "src": "Reuters",
+          "h": "South Africa's ANC and partners near coalition deal to sideline poll-topping DA in Johannesburg",
+          "d": "2026-11-19",
+          "url": "https://www.reuters.com/world/africa/south-africas-anc-partners-near-coalition-deal-sideline-poll-topping-da-2026-11-19/",
+          "intl": true
+        },
+        {
+          "src": "Financial Times",
+          "h": "South Africa’s ANC nears coalition deal in Johannesburg",
+          "d": "2026-11-18",
+          "url": "https://www.ft.com/content/d6faebd0-2690-4e2b-af7b-35fc7643808d?syn-25a6b1a6=1",
+          "intl": true
+        },
+        {
+          "src": "Daily Maverick",
+          "h": "Mashaba wants Joburg mayorship from ANC as parties near coalition deal",
+          "d": "2026-11-17",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-17-joburg-remains-the-sticking-point-as-anc-and-actionsa-close-in-on-gauteng-deal/"
+        },
+        {
+          "src": "IOL",
+          "h": "Mashaba rules out coalition with ‘racist’ DA as Gauteng metros face hung councils",
+          "d": "2026-11-10",
+          "url": "https://iol.co.za/lge2026/2026-11-10-mashaba-rules-out-coalition-with-racist-da-as-gauteng-metros-face-hung-councils/"
+        },
+        {
+          "src": "Moneyweb",
+          "h": "ActionSA lays down conditions for Joburg coalition deal",
+          "d": "2026-11-09",
+          "url": "https://www.moneyweb.co.za/moneyweb-podcasts/moneyweb-midday/actionsa-lays-down-conditions-for-joburg-coalition-deal/"
+        },
+        {
+          "src": "News24",
+          "h": "Coalition drama: ANC ‘ready for opposition’, ActionSA wants Zille out",
+          "d": "2026-11-08",
+          "url": "https://www.news24.com/politics/coalition-drama-anc-ready-for-opposition-actionsa-wants-zille-out-20261107-1142"
+        }
+      ]
+    },
+    {
+      "id": "da-offer",
+      "cat": "National",
+      "place": "Gauteng metros and 137 hung councils",
+      "h": "The DA’s last offers: one rejected by ActionSA, one still unanswered by the ANC",
+      "dek": "With Gauteng slipping away, the DA put a final offer to ActionSA and a nationwide one to the ANC and IFP. ActionSA turned its offer down the same day.",
+      "brief": [
+        "The DA offered to share the Gauteng metros with ActionSA",
+        "ActionSA called the offer unworkable",
+        "The DA offered the ANC and IFP a deal across 137 hung councils",
+        "The largest party in each council would lead it"
+      ],
+      "sec": [
+        [
+          "Gauteng: an offer ActionSA would not take",
+          "Michael Beaumont said the DA’s offer for the Gauteng metros was unworkable because ActionSA’s votes would elect two mayors in governments it would not be part of, and that ActionSA would not support a Helen Zille mayoralty."
+        ],
+        [
+          "Nationwide: the biggest party leads",
+          "Geordin Hill-Lewis put a deal to the ANC and IFP for 137 hung municipalities, with the party that won the most votes in each council leading it. He said it would fix local government across the country, and that residents cannot afford another five years of instability."
+        ]
+      ],
+      "items": [
+        "m-reject",
+        "g-137",
+        "pn-arrog",
+        "g-pub",
+        "c-eff",
+        "g-final",
+        "sa-prop",
+        "mu-dm",
+        "g-ext"
+      ],
+      "voices": {
+        "geordin": "Promised to publish every DA coalition agreement, made a final offer to ActionSA for the Gauteng metros, and wants the largest party to lead each hung council.",
+        "michael": "Called the DA’s Gauteng offer unworkable and ruled out supporting a Zille mayoralty.",
+        "penuel": "Warned that the DA won’t win the coalition games if it is arrogant and condescending.",
+        "clement": "Discussed with listeners the DA opening talks with the EFF and MK.",
+        "ashor": "Signed the DA’s letter to Mbalula proposing that the DA, ANC and IFP co-govern the hung councils.",
+        "corne": "Tried to broker a DA-ActionSA deal in Gauteng, without success."
+      },
+      "coverage": [
+        {
+          "src": "Inside Politics",
+          "h": "DA makes final offer to ActionSA, proposes Zille as Joburg mayor",
+          "d": "2026-11-22",
+          "url": "https://insidepolitic.co.za/da-makes-final-offer-to-actionsa-proposes-zille-as-joburg-mayor/"
+        },
+        {
+          "src": "Smile 90.4FM",
+          "h": "ActionSA rejects DA’s final offer in Gauteng Metro coalition talks",
+          "d": "2026-11-22",
+          "url": "https://smilefm.co.za/actionsa-rejects-das-final-offer-in-gauteng-metro-coalition-talks/"
+        },
+        {
+          "src": "News24",
+          "h": "DA makes last effort to persuade ANC to join it in stability pact and strengthen GNU",
+          "d": "2026-11-22",
+          "url": "https://www.news24.com/politics/da-makes-last-effort-to-persuade-anc-to-join-it-in-stability-pact-and-strengthen-gnu-20261122-0741"
+        },
+        {
+          "src": "The South African",
+          "h": "DA offers ANC control of 93 councils in coalition plan",
+          "d": "2026-11-22",
+          "url": "https://www.thesouthafrican.com/news/da-offers-anc-control-of-93-councils-in-coalition-plan/"
+        },
+        {
+          "src": "IOL",
+          "h": "137 hung councils: DA turns to ANC and IFP in bold coalition push",
+          "d": "2026-11-22",
+          "url": "https://iol.co.za/news/politics/5113445128077312/"
+        },
+        {
+          "src": "IOL",
+          "h": "DA offers ActionSA ‘final’ deal to secure Joburg, Tshwane and Ekurhuleni",
+          "d": "2026-11-21",
+          "url": "https://iol.co.za/lge2026/2026-11-21-da-offers-actionsa-deal-to-secure-governments-in-johannesburg-tshwane-and-ekurhuleni/"
+        },
+        {
+          "src": "BusinessTech",
+          "h": "DA leader Geordin Hill-Lewis makes final offer to ActionSA for coalitions in Joburg, Tshwane and Ekurhuleni – and Herman Mashaba responds",
+          "d": "2026-11-21",
+          "url": "https://businesstech.co.za/news/government/885520/da-leader-geordin-hill-lewis-makes-final-offer-to-actionsa-for-coalitions-in-joburg-tshwane-and-ekurhuleni-and-herman-mashaba-responds/"
+        },
+        {
+          "src": "SABC News",
+          "h": "DA tables final coalition proposal to ActionSA for Gauteng metros",
+          "d": "2026-11-21",
+          "url": "https://www.sabcnews.com/sabcnews/da-tables-final-coalition-proposal-to-actionsa-for-gauteng-metros/"
+        }
+      ]
+    },
+    {
+      "id": "councils",
+      "cat": "Beyond the metros",
+      "place": "Limpopo, Gauteng and KwaZulu-Natal",
+      "h": "Outside the metros, councils start to pick partners, and Limpopo’s ANC turns to the DA",
+      "dek": "With deadlines close, deals are being struck in smaller councils. In Limpopo, the ANC chose the DA over a left-wing bloc, while the IFP expects to seal its KwaZulu-Natal deals this weekend.",
+      "brief": [
+        "Sunday World reports the Limpopo ANC chose the DA as its main partner",
+        "An EFF, SACP and ActionSA bloc failed to take Polokwane",
+        "Malema proposed the ANC lead 30 of Limpopo’s 39 hung councils and the EFF nine",
+        "The IFP expects to seal its KwaZulu-Natal deals this weekend",
+        "Emfuleni’s new council has convened to form a coalition government"
+      ],
+      "sec": [
+        [
+          "Limpopo",
+          "Sunday World reports, citing sources close to the talks, that the ANC chose the DA as its main coalition partner in Limpopo after a bloc of the EFF, SACP and ActionSA failed to take Polokwane. On the EFF’s podcast, Julius Malema had proposed that of the province’s 39 hung councils, the ANC lead 30 and the EFF nine."
+        ],
+        [
+          "KwaZulu-Natal and Gauteng",
+          "IFP leader Velenkosini Hlabisa said his party expected to seal its municipal coalition deals this weekend, after meeting the ANC. In Gauteng, SABC News reports Emfuleni’s new council has convened to form a coalition government."
+        ]
+      ],
+      "items": [
+        "j-lim",
+        "hl-sw"
+      ],
+      "voices": {
+        "julius": "Proposed the ANC lead 30 of Limpopo’s 39 hung councils and the EFF nine.",
+        "hlabisa": "Expects the IFP to seal its KwaZulu-Natal coalition deals this weekend."
+      },
+      "coverage": [
+        {
+          "src": "Sunday World",
+          "h": "How EFF, SACP and ActionSA lost Limpopo coalition deal",
+          "d": "2026-11-22",
+          "url": "https://sundayworld.co.za/politics/how-eff-sacp-and-actionsa-lost-limpopo-coalition-deal/"
+        },
+        {
+          "src": "SABC News",
+          "h": "Emfuleni set for coalition government as new council convenes",
+          "d": "2026-11-22",
+          "url": "https://www.sabcnews.com/sabcnews/emfuleni-set-for-coalition-government-as-new-council-convenes/"
+        },
+        {
+          "src": "News24",
+          "h": "ANC’s bid to push through Polokwane council sitting collapses in coalition chaos",
+          "d": "2026-11-18",
+          "url": "https://www.news24.com/politics/ancs-bid-to-push-through-polokwane-council-sitting-collapses-in-coalition-chaos-20261118-0926"
+        }
+      ]
+    },
+    {
+      "id": "ramaphosa",
+      "cat": "National",
+      "place": "South Africa",
+      "h": "In public, Ramaphosa asks for good faith. In private, insiders say he wants the DA kept out of Joburg",
+      "dek": "The president told all parties to bargain in good faith and form councils quickly. A report based on unnamed insiders says he steered the ANC away from the DA in Johannesburg, which the ANC denies.",
+      "brief": [
+        "Ramaphosa: hung councils are not a failure of democracy",
+        "He urged parties to negotiate in good faith and avoid delays",
+        "Insiders say he told the ANC to explore a Joburg deal without the DA",
+        "The ANC denies he stated a preference"
+      ],
+      "sec": [
+        [
+          "What he said in public",
+          "At the IEC results announcement on 8 November, Ramaphosa said hung councils should not be read as a failure of democracy, and urged parties to negotiate in good faith rather than fight over positions and power. In his weekly newsletter the next day, he said councillors must find common ground from the start so councils can begin working."
+        ],
+        [
+          "What insiders say he said",
+          "On 11 November the Sunday Times reported, citing unnamed insiders, that Ramaphosa told a closed ANC meeting to explore a Johannesburg coalition without the DA. ANC spokesperson Mahlengi Bhengu dismissed claims that he had stated a preference. Preamble has not seen this confirmed on the record."
+        ]
+      ],
+      "items": [
+        "r-results",
+        "r-letter",
+        "r-st",
+        "mbh-deny",
+        "lt-st"
+      ],
+      "voices": {
+        "cyril": "In public, asks every party to negotiate in good faith and form councils quickly. A report from unnamed insiders says he wants the DA kept out of Johannesburg; the ANC denies it.",
+        "bhengu": "Dismissed reports that Ramaphosa stated a preference on Johannesburg.",
+        "tandwa": "Broke the story, citing unnamed insiders, that Ramaphosa wants the DA kept out of Joburg."
+      },
+      "coverage": [
+        {
+          "src": "Business Day",
+          "h": "Ramaphosa ‘is going nowhere’: damaged ANC begins hard bargaining",
+          "d": "2026-11-13",
+          "url": "https://www.businessday.co.za/politics/2026-11-13-the-ancs-nec-meeting-focused-on-coalition-strategies-after-a-historic-electoral-loss-with-no-calls-for-ramaphosas-oup/"
+        }
+      ]
+    },
+    {
+      "id": "grand-deal",
+      "cat": "National",
+      "place": "All eight metros",
+      "h": "Should one deal settle all eight metros?",
+      "dek": "Instead of eight separate fights, Sizwe Mpofu-Walsh floated a single bargain between the DA, ANC and ActionSA over the metro mayors. Others have pitched their own national formulas.",
+      "brief": [
+        "Mpofu-Walsh debuted a nationwide coalition idea on 7 November",
+        "As another commentator describes it, the DA, ANC and ActionSA would share the eight metro mayors",
+        "Basson expected a DA-ANC deal across the hung councils",
+        "The DA later proposed that the biggest party leads each hung council"
+      ],
+      "sec": [
+        [
+          "The grand-bargain idea",
+          "On his SMWX podcast on 7 November, Mpofu-Walsh set out an idea for one coalition arrangement across the country. A clip of him shared on Facebook is titled how the DA, ANC and ActionSA can divide the eight metros. Commentator Sindile Vabaza describes the split as the DA in Johannesburg, Cape Town, Mangaung and Nelson Mandela Bay, the ANC in Ekurhuleni, eThekwini and Buffalo City, and ActionSA in Tshwane. Preamble has the exact split from Vabaza’s account."
+        ],
+        [
+          "Other national formulas",
+          "Adriaan Basson argued on 9 November that a DA-ANC deal modelled on the national unity government was the most likely outcome. On 22 November Geordin Hill-Lewis put a different formula to the ANC and IFP: the party with the most votes in each hung council leads it."
+        ],
+        [
+          "A realignment?",
+          "By 13 November Mpofu-Walsh was asking whether South Africa is entering a fundamental political realignment, looking at Mashaba and Moya leading Gauteng metros and an MK-IFP arrangement in KwaZulu-Natal."
+        ]
+      ],
+      "items": [
+        "s-idea",
+        "a-gnu2",
+        "s-shake",
+        "g-137",
+        "pn-live",
+        "c-desk",
+        "z-enca",
+        "j-jac",
+        "mw-ewn",
+        "mw-yt",
+        "kk-q",
+        "gm-kd",
+        "sv-sub",
+        "ww-tl",
+        "jp-pod",
+        "dm-enca",
+        "mg-frank"
+      ],
+      "voices": {
+        "sizwe": "Floated one bargain between the DA, ANC and ActionSA to share out the metro mayors, and asks whether South Africa is entering a political realignment.",
+        "adriaan": "Expected a DA-ANC deal modelled on the national unity government across the hung councils.",
+        "geordin": "Wants the party with the most votes to lead each hung council.",
+        "penuel": "Wants coalition negotiations filmed live and made public, not held in secret.",
+        "clement": "Unpacked the anatomy of coalition politics on 702 as the talks began.",
+        "helen": "Before the vote, said coalitions are often about choosing the least bad option.",
+        "julius": "Before the vote, called coalition government the future of municipalities and the EFF its most stable partner.",
+        "mandy": "Set out what to watch as parties began negotiating, and tracked the race to meet the deadline.",
+        "katy": "Asked readers a week on what they make of hung councils and the coalition talks.",
+        "gayton": "Reportedly walked out of coalition talks with the ANC in Upington over the mayoral post.",
+        "svabaza": "Described Mpofu-Walsh’s grand-agreement idea, and argues for performance agreements and published coalition deals.",
+        "wessels": "Criticised fearmongering in the campaign as the FF Plus readied to play kingmaker.",
+        "perlman": "Looked at why coalition marriages fail.",
+        "morero": "Says the ANC’s coalition framework puts service delivery and the Constitution first.",
+        "macg": "Argues the coalition talks expose a basic crisis of trust in government."
+      },
+      "coverage": [
+        {
+          "src": "Mail & Guardian",
+          "h": "Will the ANC dump the DA for a coalition of the Left?",
+          "d": "2026-11-17",
+          "url": "https://mg.co.za/news/south-africa/2026-11-17-will-the-anc-dump-the-da-for-a-coalition-of-the-left/"
+        },
+        {
+          "src": "Daily Maverick",
+          "h": "Coalition or collusion? Voters lose in the local elections",
+          "d": "2026-11-22",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-22-coalition-or-collusion-voters-lose-in-the-local-elections-freudian-slip/"
+        }
+      ]
+    },
+    {
+      "id": "mk",
+      "cat": "MK Party",
+      "place": "eThekwini, KwaZulu-Natal and Gauteng",
+      "h": "MK talks to everyone, the DA included, but says it wants like-minded partners",
+      "dek": "MK came third nationally and leads many KwaZulu-Natal councils. Its negotiator Dali Mpofu has met the DA for the first time while warning the ANC about the partners it chooses.",
+      "brief": [
+        "MK says its near-10% vote shows voters want parties to cooperate",
+        "Deals must rest on shared policy and be done within 100 days",
+        "Mpofu called MK’s first meeting with the DA historic",
+        "But MK will focus on like-minded parties",
+        "Talks with the ANC, EFF and ActionSA continue"
+      ],
+      "sec": [
+        [
+          "The ground rules",
+          "On 7 November, Dali Mpofu said MK’s near-10% national vote shows voters want parties to cooperate. Any deal, he said, must rest on shared policy and be concluded within 100 days of a council being set up, with MK’s leadership having the final say."
+        ],
+        [
+          "A warning to the ANC",
+          "On 12 November, Mpofu warned that the ANC working with parties whose interests oppose its own could lead to its demise, while saying MK did not want the talks to become a slanging match."
+        ],
+        [
+          "Talking to the DA",
+          "Around 14 November, Mpofu described MK’s first-ever meeting with the DA as historic, and confirmed that DA leader Geordin Hill-Lewis had asked for the talks. But he said MK will focus on like-minded parties. By 19 November, MK’s talks with the ANC, EFF and ActionSA were continuing, including in eThekwini."
+        ],
+        [
+          "A split in the ANC",
+          "News24 reports, citing sources, that Fikile Mbalula is pushing the MK deal on KwaZulu-Natal while the province’s ANC leaders lean towards an ANC-DA-IFP coalition, ahead of a national executive meeting on Monday. EWN reports the ANC and MK are expected to discuss sharing power, including in eThekwini, where MK took 38% of the vote."
+        ]
+      ],
+      "items": [
+        "d-cit",
+        "d-enca",
+        "d-702",
+        "d-da",
+        "d-hl",
+        "d-cont",
+        "c-eff",
+        "j-ewn",
+        "hl-iol",
+        "hl-sw",
+        "mw-site",
+        "dz-mg",
+        "dz-dm",
+        "mbh-sabc",
+        "mb-kzn"
+      ],
+      "voices": {
+        "dali": "Says MK’s vote shows voters want cooperation, warns the ANC about its partners, and met the DA for the first time while saying MK wants like-minded partners.",
+        "clement": "Discussed with listeners the DA opening coalition talks with the EFF and MK.",
+        "julius": "Wants the ANC to reconcile with its lost kids, the EFF, MK and SACP.",
+        "hlabisa": "Won five KwaZulu-Natal councils outright and expects to seal the IFP’s coalition deals with the ANC.",
+        "mandy": "Noted an ANC, ActionSA, EFF and MK coalition emerging for eThekwini and the Gauteng metros.",
+        "duduzane": "Says MK will not rescue parties voters rejected, and wants no coalitions just for the sake of it.",
+        "bhengu": "Denied any rift in the ANC over the KwaZulu-Natal talks.",
+        "mbalula": "Sources tell News24 he is pushing the MK deal on KwaZulu-Natal, where provincial leaders lean towards the DA and IFP."
+      },
+      "coverage": [
+        {
+          "src": "IOL",
+          "h": "ActionSA rejects DA pressure over eThekwini coalition",
+          "d": "2026-11-22",
+          "url": "https://iol.co.za/sunday-tribune/opinion/2026-11-22-actionsa-rejects-da-pressure-over-ethekwini-coalition/"
+        },
+        {
+          "src": "Mail & Guardian",
+          "h": "ANC, MKP, EFF, ActionSA to block DA in eThekwini",
+          "d": "2026-11-20",
+          "url": "https://mg.co.za/politics/2026-11-19-anc-mkp-eff-actionsa-to-block-da-in-ethekwini/"
+        },
+        {
+          "src": "Sunday World",
+          "h": "Velenkosini Hlabisa says IFP ready to seal coalition deals this weekend",
+          "d": "2026-11-20",
+          "url": "https://sundayworld.co.za/politics/velenkosini-hlabisa-says-ifp-ready-to-seal-coalition-deals-this-weekend/"
+        },
+        {
+          "src": "EWN",
+          "h": "Coalition talks: ANC and MK Party expected to discuss possible power-sharing deal in KZN",
+          "d": "2026-11-20",
+          "url": "https://www.ewn.co.za/2026/11/20/coalition-talks-mbalula-instructs-anc-kzn-leadership-to-meet-with-mk-party"
+        },
+        {
+          "src": "The Witness",
+          "h": "ANC-MK Party pact threatens to shut DA and IFP out of KZN councils",
+          "d": "2026-11-19",
+          "url": "https://witness.co.za/news/2026/11/19/anc-mk-party-pact-threatens-to-shut-da-and-ifp-out-of-kzn-councils/"
+        },
+        {
+          "src": "Politicsweb",
+          "h": "MK Party hails Richmond mayoral victory and thanks its negotiating team",
+          "d": "2026-11-18",
+          "url": "https://www.politicsweb.co.za/news/mk-party-hails-richmond-mayoral-victory-and-thanks-its-negotiating-team"
+        },
+        {
+          "src": "IOL",
+          "h": "Mpofu says ANC-MK partnership could secure eThekwini majority as coalition talks continue",
+          "d": "2026-11-18",
+          "url": "https://iol.co.za/news/politics/2026-11-18-mpofu-says-anc-mk-partnership-could-secure-ethekwini-majority-as-coalition-talks-continue/"
+        },
+        {
+          "src": "News24",
+          "h": "MK Party claims ‘done deal’ with ANC coalition in KZN, but sources say ‘it’s early days’",
+          "d": "2026-11-17",
+          "url": "https://www.news24.com/politics/mk-party-claims-done-deal-with-anc-coalition-in-kzn-but-sources-say-its-early-days-20261117-0576"
+        },
+        {
+          "src": "Mail & Guardian",
+          "h": "Big votes but bigger hurdles for MK Party in KwaZulu-Natal coalitions",
+          "d": "2026-11-13",
+          "url": "https://mg.co.za/politics/2026-11-12-big-votes-but-bigger-hurdles-for-mk-party/"
+        },
+        {
+          "src": "The Witness",
+          "h": "DA opens door to coalition talks with Zuma’s MK Party",
+          "d": "2026-11-12",
+          "url": "https://witness.co.za/news/2026/11/12/da-opens-door-to-coalition-talks-with-zumas-mk-party/"
+        },
+        {
+          "src": "EWN",
+          "h": "Mpofu says MK Party won’t be entering coalition talks with preconditions",
+          "d": "2026-11-09",
+          "url": "https://www.ewn.co.za/2026/11/09/mpofu-says-mk-party-won-t-be-entering-coalition-talks-with-preconditions"
+        },
+        {
+          "src": "Daily Maverick",
+          "h": "KZN coalition dilemma: Will election losers find their way back to power?",
+          "d": "2026-11-08",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-08-kzn-coalition-dilemma-will-election-losers-find-their-way-back-to-power/"
+        },
+        {
+          "src": "Mail & Guardian",
+          "h": "MK Party sets coalition rules as it prepares to negotiate after local elections",
+          "d": "2026-11-07",
+          "url": "https://mg.co.za/politics/2026-11-07-mk-party-sets-coalition-rules-as-it-prepares-to-negotiate-after-local-elections/"
+        },
+        {
+          "src": "IOL",
+          "h": "MK Party rules out coalition with DA, targets ANC, IFP and EFF",
+          "d": "2026-11-07",
+          "url": "https://iol.co.za/mercury/news/2026-11-07-mk-party-rules-out-coalition-with-da-targets-anc-ifp-and-eff/"
+        }
+      ]
+    },
+    {
+      "id": "actionsa",
+      "cat": "Gauteng metros",
+      "place": "Johannesburg, Tshwane, Ekurhuleni",
+      "h": "ActionSA bargains with both big parties, then leans towards the ANC",
+      "dek": "ActionSA’s chair Michael Beaumont spent November talking to both the DA and the ANC, arguing that coalitions, not vote share, decide who governs.",
+      "brief": [
+        "Talks with the ANC began on 8 November",
+        "Beaumont said progress was being made with both the DA and ANC",
+        "He called the ANC’s offer attractive",
+        "He said ActionSA serves at the pleasure of no other party"
+      ],
+      "sec": [
+        [
+          "Talking to both sides",
+          "Beaumont described ActionSA’s first meeting with the ANC’s Fikile Mbalula and Nomvula Mokonyane on 8 November as productive and respectful. On 17 November he said talks with both the DA and the ANC were making progress, and argued that where no party has a majority, coalitions decide who governs."
+        ],
+        [
+          "The tilt towards the ANC",
+          "On 702 on 18 November he called the ANC’s offer attractive and said the DA had never really held talks with ActionSA. By 22 November he was pushing back at DA supporters, saying ActionSA serves at the pleasure of no other party and is set to lead Tshwane again and take over in Johannesburg."
+        ]
+      ],
+      "items": [
+        "m-newsday",
+        "m-bt",
+        "m-702",
+        "m-biznews",
+        "m-national",
+        "m-reject",
+        "h-mg",
+        "h-n24",
+        "m-dawork",
+        "h-iol",
+        "mb-n24",
+        "mw-site",
+        "ws-x",
+        "at-biz",
+        "at-n24",
+        "nm-x",
+        "ho-x",
+        "ah-bea",
+        "pm-vutha",
+        "m-95"
+      ],
+      "voices": {
+        "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
+        "herman": "Says the DA’s refusal to drop Zille and Brink stalled the talks, that coalition talks need not be a contest, and has defended ActionSA’s choices.",
+        "mbalula": "Led the ANC negotiators who brought ActionSA and MK into one deal.",
+        "mandy": "Noted an ANC, ActionSA, EFF and MK coalition emerging for the Gauteng metros and eThekwini.",
+        "wayne": "Says a deal of at least four parties gives the Gauteng coalition a buffer.",
+        "trollip": "Says it is up to the DA to break the standoff, and criticises what he sees as DA arrogance.",
+        "mokonyane": "Joined Mbalula in the ANC’s first meeting with ActionSA.",
+        "omarjee": "Interviewed Mashaba on ActionSA’s demands about the DA’s mayoral candidates.",
+        "hogg": "Interviewed Beaumont on ActionSA’s coalition hand.",
+        "mashele": "Wants ActionSA to govern the Gauteng metros with the DA, not the ANC."
+      },
+      "coverage": [
+        {
+          "src": "EWN",
+          "h": "ActionSA says it doesn’t have problem working with DA",
+          "d": "2026-11-22",
+          "url": "https://www.ewn.co.za/2026/11/22/actionsa-says-it-doesnt-have-problem-working-with-da"
+        },
+        {
+          "src": "IOL",
+          "h": "ActionSA’s power-sharing offer to the DA rejected as Gauteng coalition talks turn bitter",
+          "d": "2026-11-22",
+          "url": "https://iol.co.za/news/politics/2026-11-22-actionsas-power-sharing-offer-to-the-da-rejected-as-gauteng-coalition-talks-turn-bitter/"
+        },
+        {
+          "src": "BusinessTech",
+          "h": "D-Day for Johannesburg, Tshwane and Ekurhuleni as ActionSA meets to decide their fate",
+          "d": "2026-11-22",
+          "url": "https://businesstech.co.za/news/government/885532/d-day-for-johannesburg-tshwane-and-ekurhuleni-as-actionsa-meets-to-decide-their-fate/"
+        },
+        {
+          "src": "IOL",
+          "h": "ActionSA hits back at DA critics over coalition deals: ‘Bullying won’t make us bend the knee’",
+          "d": "2026-11-21",
+          "url": "https://iol.co.za/news/opinion/2026-11-21-actionsa-hits-back-at-da-critics-over-coalition-deals-bullying-wont-make-us-bend-the-knee/"
+        },
+        {
+          "src": "EWN",
+          "h": "ActionSA increasingly leaning towards forming coalition partnership with ANC",
+          "d": "2026-11-20",
+          "url": "https://www.ewn.co.za/2026/11/19/actionsa-increasingly-leaning-towards-forming-coalition-partnership-with-anc"
+        },
+        {
+          "src": "The Africa Report",
+          "h": "South Africa: Mashaba emerges as kingmaker in Gauteng",
+          "d": "2026-11-18",
+          "url": "https://www.theafricareport.com/436581/south-africa-mashaba-emerges-as-kingmaker-in-gauteng/",
+          "intl": true
+        },
+        {
+          "src": "IOL",
+          "h": "ANC offers ActionSA Joburg and Tshwane mayoral seats, keeps Ekurhuleni in coalition deal",
+          "d": "2026-11-18",
+          "url": "https://iol.co.za/news/politics/2026-11-18-anc-offers-actionsa-joburg-and-tshwane-mayoral-seats-keeps-ekurhuleni-in-coalition-deal/"
+        },
+        {
+          "src": "eNCA",
+          "h": "Who gets the mayor's chain? Gauteng coalition negotiations gather pace",
+          "d": "2026-11-12",
+          "url": "https://www.enca.com/news-top-stories-videos/who-gets-mayors-chain-gauteng-coalition-negotiations-gather-pace"
+        },
+        {
+          "src": "EWN",
+          "h": "ActionSA leader defends working with ANC to ensure service delivery and stability",
+          "d": "2026-11-09",
+          "url": "https://www.ewn.co.za/2026/11/09/actionsa-leader-defends-working-with-anc-to-secure-service-delivery-and-stability"
+        }
+      ]
+    },
+    {
+      "id": "tshwane",
+      "cat": "Tshwane",
+      "place": "City of Tshwane",
+      "h": "ActionSA’s condition for any deal: Moya stays in Tshwane",
+      "dek": "ActionSA made keeping Nasiphi Moya as Tshwane mayor a condition for any coalition, and News24’s Adriaan Basson expected her back.",
+      "brief": [
+        "Mashaba: any deal must keep Moya as mayor",
+        "Basson expected Moya could return in Tshwane",
+        "Beaumont: ActionSA is set to lead Tshwane again"
+      ],
+      "sec": [
+        [
+          "A condition set on election night",
+          "Speaking to Clement Manyathela at the IEC results centre, Herman Mashaba said any coalition involving ActionSA must keep Nasiphi Moya as Tshwane mayor, and that ActionSA could set terms with both the DA and the ANC."
+        ],
+        [
+          "Expected back",
+          "On 9 November, Adriaan Basson wrote that Moya could return as mayor under a broad DA-ANC arrangement. On 22 November Michael Beaumont said ActionSA was set to lead Tshwane again."
+        ]
+      ],
+      "items": [
+        "c-mashaba",
+        "h-702",
+        "a-gnu2",
+        "h-mg",
+        "m-national",
+        "my-enca",
+        "cb-nd"
+      ],
+      "voices": {
+        "clement": "In his interview, Mashaba made keeping Moya as mayor a condition of any deal.",
+        "adriaan": "Expects Moya could return as mayor under a broad DA-ANC deal.",
+        "michael": "Says ActionSA is set to lead Tshwane again.",
+        "herman": "Made keeping Nasiphi Moya as Tshwane mayor a condition of any deal, and named the DA’s Cilliers Brink as a reason talks stalled.",
+        "moya": "Calls the results a vote of confidence in her leadership of Tshwane.",
+        "brink": "ActionSA demanded that he step aside as the DA’s Tshwane candidate; he had not said whether he would."
+      },
+      "coverage": [
+        {
+          "src": "IOL",
+          "h": "ANC offers ActionSA Joburg and Tshwane mayoral seats, keeps Ekurhuleni in coalition deal",
+          "d": "2026-11-18",
+          "url": "https://iol.co.za/news/politics/2026-11-18-anc-offers-actionsa-joburg-and-tshwane-mayoral-seats-keeps-ekurhuleni-in-coalition-deal/"
+        },
+        {
+          "src": "EWN",
+          "h": "ActionSA insists on Nasiphi Moya returning as Tshwane mayor amid hung municipality talks",
+          "d": "2026-11-09",
+          "url": "https://www.ewn.co.za/2026/11/09/actionsa-insists-on-nasiphi-moya-returning-as-tshwane-mayor-amid-hung-municipality-talks"
+        },
+        {
+          "src": "SABC News",
+          "h": "Moya thanks Tshwane residents as ActionSA secures more than 20 wards",
+          "d": "2026-11-06",
+          "url": "https://www.sabcnews.com/sabcnews/moya-thanks-tshwane-residents-as-actionsa-secures-more-than-20-wards/"
+        },
+        {
+          "src": "Jacaranda FM",
+          "h": "ActionSA open to coalition talks to secure Moya as Tshwane mayor",
+          "d": "2026-11-06",
+          "url": "https://www.jacarandafm.com/news/news/actionsa-open-coalition-talks--moya-tshwane/"
+        }
+      ]
+    },
+    {
+      "id": "gnu",
+      "cat": "National",
+      "place": "South Africa",
+      "h": "Will the coalition fights break the national unity government?",
+      "dek": "Adriaan Basson first expected the DA and ANC to copy their national partnership in the councils. By mid-November he was warning that the fight over the cities could bring it down.",
+      "brief": [
+        "Basson set out four possible coalition line-ups",
+        "He expected a DA-ANC deal to run most of the 138 hung councils",
+        "He later warned the GNU could collapse if the ANC shut the DA out",
+        "His latest column asks whether a Doomsday pact is Ramaphosa’s parting shot"
+      ],
+      "sec": [
+        [
+          "Four ways it could go",
+          "On 7 November, Basson set out four coalition line-ups that could decide who runs South Africa’s municipalities. On X he named them Ukraine, Lesotho, Rainbow and Ghana, three of them after national flags with the same colours."
+        ],
+        [
+          "GNU 2.0",
+          "Two days later he argued that a deal led by the DA and ANC, modelled on the national unity government, was the most likely way the 138 hung councils would be run."
+        ],
+        [
+          "The risk to the national government",
+          "By 16 November he was warning that the unity government could collapse if the ANC cut the DA out of city governments. On 21 November, as ANC and MK leaders met in Johannesburg, he asked whether a Doomsday pact was Ramaphosa’s parting shot."
+        ],
+        [
+          "A collision course",
+          "On 19 November, Pieter du Toit wrote that the DA and ANC are now on a collision course ahead of the 2029 national election."
+        ]
+      ],
+      "items": [
+        "a-4scen",
+        "a-gnu2",
+        "a-bloodbath",
+        "a-doomsday",
+        "r-results",
+        "r-letter",
+        "s-gnu",
+        "s-abandon",
+        "a-x4",
+        "a-calc",
+        "a-doomvid",
+        "p-diverge",
+        "s-reel",
+        "j-ip",
+        "j-ewn",
+        "sh-iol",
+        "ws-ewn",
+        "gm-biz",
+        "ho-bd",
+        "ah-biz",
+        "sg-pod"
+      ],
+      "voices": {
+        "adriaan": "Named four coalition scenarios (Ukraine, Lesotho, Rainbow and Ghana), expected a DA-ANC deal, then warned the fight over the cities could bring down the unity government.",
+        "cyril": "Says hung councils are not a failure of democracy, and asks parties to negotiate in good faith rather than fight over power.",
+        "sizwe": "Asks whether the unity government survives the local results, and has set out four possible coalition agreements.",
+        "pieter": "Says the DA and ANC are now on a collision course ahead of 2029.",
+        "julius": "Blames the ANC’s national deal with the DA for the results, and wants the ANC to reunite with the EFF, MK and SACP instead.",
+        "floyd": "Calls warnings that a left coalition would sink the economy elite propaganda.",
+        "wayne": "Warns that coalitions modelled on the national unity government won’t work in councils.",
+        "gayton": "Spoke on BizNews as the ANC’s national executive met to choose its coalition path.",
+        "omarjee": "Set out the ANC’s four coalition options, including handing MK some councils.",
+        "hogg": "Interviewed Gayton McKenzie as the ANC’s national executive chose its path.",
+        "gcilishe": "Hosted Malema on the EFF podcast as the talks continued."
+      },
+      "coverage": [
+        {
+          "src": "IOL",
+          "h": "Mtolo cautions ANC against embracing ‘black party’ label amid coalition talks",
+          "d": "2026-11-22",
+          "url": "https://iol.co.za/news/politics/2026-11-20-mtolo-cautions-anc-against-embracing-black-party-label-amid-coalition-talks/"
+        },
+        {
+          "src": "IOL",
+          "h": "Shivambu rubbishes \" left will tank economy\" scare, DA \" doomsday\" alarm backfires",
+          "d": "2026-11-20",
+          "url": "https://iol.co.za/news/politics/2026-11-20-shivambu-rubbishes--left-will-tank-economy-scare-da--doomsday-alarm-backfires/"
+        },
+        {
+          "src": "Bloomberg",
+          "h": "South Africa’s DA to Remain Part of Unity Government For Now",
+          "d": "2026-11-19",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-19/south-africa-s-da-to-remain-part-of-unity-government-for-now",
+          "intl": true
+        },
+        {
+          "src": "Mail & Guardian",
+          "h": "Will the ANC dump the DA for a coalition of the Left?",
+          "d": "2026-11-17",
+          "url": "https://mg.co.za/news/south-africa/2026-11-17-will-the-anc-dump-the-da-for-a-coalition-of-the-left/"
+        },
+        {
+          "src": "Reuters",
+          "h": "South African rand at seven-month low as traders track coalition talks after local vote",
+          "d": "2026-11-17",
+          "url": "https://www.reuters.com/world/africa/south-african-rand-steadies-after-hitting-seven-month-low-2026-11-17/",
+          "intl": true
+        },
+        {
+          "src": "Bloomberg",
+          "h": "South Africa’s Messy Local Election Fallout Rattles Investors",
+          "d": "2026-11-17",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-11-16/can-south-africa-s-fractured-politics-keep-a-national-coalition-alive",
+          "intl": true
+        },
+        {
+          "src": "Sunday World",
+          "h": "ANC rejects blanket DA coalition deal, adopts ‘tactical flexibility’ for hung municipalities",
+          "d": "2026-11-15",
+          "url": "https://sundayworld.co.za/politics/anc-rejects-blanket-da-coalition-deal-adopts-tactical-flexibility-for-hung-municipalities/"
+        }
+      ]
+    },
+    {
+      "id": "anc-metros",
+      "cat": "Metros",
+      "place": "All eight metros",
+      "h": "The ANC loses its grip on South Africa’s metros",
+      "dek": "News24’s columnists saw the ANC’s decline speeding up, and after the count it was left without control of a single metro.",
+      "brief": [
+        "Du Toit expected the vote to confirm the ANC’s faster decline",
+        "The ANC risked falling to second, third or fourth place in seven of eight metros",
+        "Basson: the ANC will not control a single metro"
+      ],
+      "sec": [
+        [
+          "Before the vote",
+          "On 31 October, Pieter du Toit argued that the municipal election could confirm that the ANC’s decline was speeding up."
+        ],
+        [
+          "After the count",
+          "On 5 November he wrote that the ANC was on the brink of falling to second, third or fourth place in seven of the eight metros. The same day, Adriaan Basson noted that the party would not control a single metro."
+        ]
+      ],
+      "items": [
+        "p-repud",
+        "p-reckon",
+        "a-24h",
+        "a-tt",
+        "zv-who",
+        "pm-ewn"
+      ],
+      "voices": {
+        "pieter": "Saw the ANC’s decline speeding up, with the party on the brink of second, third or fourth place in seven of the eight metros.",
+        "adriaan": "Noted that the ANC will not control a single metro.",
+        "zimasa": "Asks who really won the election, tracing where the ANC’s lost 14.8 points went.",
+        "mashele": "Predicts the ANC could fall below 15% by 2029, blaming corruption, incompetence and arrogance."
+      },
+      "coverage": [
+        {
+          "src": "BBC",
+          "h": "ANC fights to keep control of South Africa's key cities after election setback",
+          "d": "2026-11-21",
+          "url": "https://www.bbc.co.uk/news/articles/cqpv94d10rwpo",
+          "intl": true
+        },
+        {
+          "src": "CNBC Africa",
+          "h": "South Africa’s ANC takes a beating in municipal vote, setting up tough coalition talks",
+          "d": "2026-11-09",
+          "url": "https://www.cnbcafrica.com/2026/south-africas-anc-takes-a-beating-in-municipal-vote-setting-up-tough-coalition-talks",
+          "intl": true
+        },
+        {
+          "src": "Al Jazeera",
+          "h": "What ‘catastrophic’ South Africa local election results mean for ANC",
+          "d": "2026-11-09",
+          "url": "https://www.aljazeera.com/news/2026/11/9/what-catastrophic-south-africa-local-election-results-mean-for-anc",
+          "intl": true
+        },
+        {
+          "src": "Al Jazeera",
+          "h": "South Africa’s ANC suffers setback in local elections",
+          "d": "2026-11-08",
+          "url": "https://www.aljazeera.com/news/2026/11/8/south-africas-anc-suffers-setback-in-local-elections",
+          "intl": true
+        },
+        {
+          "src": "Reuters",
+          "h": "South Africa's ANC takes a beating in municipal vote, setting up tough coalition talks",
+          "d": "2026-11-08",
+          "url": "https://www.reuters.com/world/africa/south-africas-anc-battered-by-local-election-losses-ahead-coalition-talks-2026-11-08/",
+          "intl": true
+        },
+        {
+          "src": "BBC",
+          "h": "'Devastating message' as ANC records worst-ever result in South Africa election",
+          "d": "2026-11-08",
+          "url": "https://www.bbc.com/news/articles/cwrkygrxp11mo",
+          "intl": true
+        },
+        {
+          "src": "Daily Maverick",
+          "h": "ANC faces coalition scramble after electoral rout as control of key metros slips away",
+          "d": "2026-11-07",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-07-anc-faces-coalition-scramble-after-electoral-rout-as-control-of-key-metros-slips-away/"
+        },
+        {
+          "src": "Reuters",
+          "h": "South Africa's ANC set for major vote loss, city coalition battles loom",
+          "d": "2026-11-06",
+          "url": "https://www.reuters.com/world/africa/south-africas-anc-track-big-drop-voter-support-municipal-vote-2026-11-06/",
+          "intl": true
+        },
+        {
+          "src": "Reuters",
+          "h": "South Africa's ANC faces 'worst nightmare' as vote share tumbles",
+          "d": "2026-11-05",
+          "url": "https://www.reuters.com/world/africa/south-africas-anc-32-vote-with-12-votes-counted-municipal-election-2026-11-05/",
+          "intl": true
+        },
+        {
+          "src": "Financial Times",
+          "h": "South Africa’s ANC hit by ‘stunning’ loss of support in local elections",
+          "d": "2026-11-05",
+          "url": "https://www.ft.com/content/28999849-fe65-419e-a36b-8ef8d2303ebe?syn-25a6b1a6=1",
+          "intl": true
+        },
+        {
+          "src": "Reuters",
+          "h": "South Africa's splintering vote sets up multi-party battle for cities",
+          "d": "2026-11-02",
+          "url": "https://www.reuters.com/world/africa/south-africas-splintering-vote-sets-up-multi-party-battle-cities-2026-11-02/",
+          "intl": true
+        }
+      ]
+    }
+  ],
+  "outlets_intl": [
+    "Reuters",
+    "Financial Times",
+    "Bloomberg",
+    "BBC",
+    "Al Jazeera",
+    "CNBC Africa",
+    "The Africa Report",
+    "African Business"
+  ],
+  "orgs": [
+    {
+      "k": "ANC",
+      "n": "African National Congress",
+      "logo": "anc"
+    },
+    {
+      "k": "DA",
+      "n": "Democratic Alliance",
+      "logo": "da"
+    },
+    {
+      "k": "ASA",
+      "n": "ActionSA",
+      "logo": "asa"
+    },
+    {
+      "k": "MK",
+      "n": "uMkhonto weSizwe Party",
+      "logo": "mk"
+    },
+    {
+      "k": "EFF",
+      "n": "Economic Freedom Fighters",
+      "logo": "eff"
+    },
+    {
+      "k": "IFP",
+      "n": "Inkatha Freedom Party",
+      "logo": "ifp"
+    },
+    {
+      "k": "PA",
+      "n": "Patriotic Alliance",
+      "logo": "pa"
+    },
+    {
+      "k": "FFP",
+      "n": "Freedom Front Plus",
+      "logo": "ffp"
+    },
+    {
+      "k": "AMM",
+      "n": "Afrika Mayibuye Movement",
+      "logo": "amm"
+    },
+    {
+      "k": "702",
+      "n": "702",
+      "badge": "702"
+    },
+    {
+      "k": "N24",
+      "n": "News24",
+      "badge": "N24"
+    },
+    {
+      "k": "DM",
+      "n": "Daily Maverick",
+      "badge": "DM"
+    },
+    {
+      "k": "ENCA",
+      "n": "eNCA",
+      "badge": "eNCA"
+    },
+    {
+      "k": "SMWX",
+      "n": "SMWX",
+      "badge": "SMWX"
+    },
+    {
+      "k": "BLACKPEN",
+      "n": "The Black Pen",
+      "badge": "BP"
+    },
+    {
+      "k": "IND",
+      "n": "Independent",
+      "badge": "—"
+    }
+  ]
+}

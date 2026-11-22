@@ -1,0 +1,25 @@
+# Netlify settings for the Preamble election site
+[build]
+  publish = "."
+
+# photos, logos and fonts rarely change: let browsers keep them for a week
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+# code and styles: keep for a day, check for updates after that
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, must-revalidate"
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, must-revalidate"
+
+# results and tracker data update live: always check for a newer version
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
