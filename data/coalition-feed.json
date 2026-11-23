@@ -3913,7 +3913,9 @@
         "o": "The New York Times",
         "role": "Journalist, The New York Times",
         "beat": "reporting",
-        "score": 21.0
+        "score": 21.0,
+        "img": "assets/journalists/john-eligon.jpg",
+        "wide": true
       },
       "mkokeli": {
         "n": "Sam Mkokeli",
