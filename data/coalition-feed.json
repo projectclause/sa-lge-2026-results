@@ -1731,22 +1731,22 @@
   ],
   "edition": {
     "date": "2026-11-23",
-    "time": "09:41"
+    "time": "11:58"
   },
   "events": [
     {
       "id": "johannesburg",
       "cat": "Johannesburg",
       "place": "City of Johannesburg",
-      "h": "Johannesburg’s new council sits today, but the mayoral vote is likely to wait",
-      "dek": "The city’s 270 councillors are due to be sworn in from 1pm on Monday, 23 November. ActionSA’s Michael Beaumont expects the mayoral election to be held over to Wednesday or so, while the ANC’s national executive committee meets on the four-party pact that would make Herman Mashaba mayor.",
+      "h": "DA challenges Johannesburg’s first council sitting as the four-party deal takes shape",
+      "dek": "The DA asked the city to postpone Monday’s 1pm sitting and threatened legal action after the city manager refused, arguing the first meeting need not be held before 27 November. The ANC, ActionSA, EFF and MK deal that would make Herman Mashaba mayor is expected to be signed on Tuesday, and the mayoral vote is likely to wait.",
       "brief": [
-        "The new council sits at 1pm on Monday, 23 November, in Braamfontein, to swear in 270 councillors",
+        "The DA asked for the sitting to be postponed and threatened legal action after city manager Floyd Brink said no",
+        "The DA argues the first meeting need not be held before 27 November",
+        "The council was due to sit at 1pm on Monday, 23 November, to swear in 270 councillors",
         "A mayoral vote on Monday is unlikely: Beaumont expects an adjournment to Wednesday or so",
-        "EWN reports the coalition agreement is likely to be signed on Tuesday",
-        "The ANC’s national executive committee holds a special meeting on Monday to consider its negotiators’ report",
-        "Daily Maverick: the ANC, ActionSA, MK and EFF are to govern Johannesburg, Tshwane and Ekurhuleni, with Mashaba as Johannesburg mayor",
-        "The DA holds 91 of 270 seats, the ANC 63 and ActionSA 42; a majority needs 136"
+        "The ANC, ActionSA, EFF and MK together hold 137 of 270 seats, one more than a majority, The National reports",
+        "The deal would make Mashaba mayor, with MK expected to take the deputy mayor post; signing is expected on Tuesday"
       ],
       "sec": [
         [
@@ -1775,7 +1775,7 @@
         ],
         [
           "Monday, 23 November",
-          "On Sunday, Inside Politics reported that Mashaba had made himself available for mayor ahead of a council sitting on Monday, while a source said no formal agreement had yet been reached. On Monday morning, Ferial Haffajee reported in Daily Maverick that the ANC, ActionSA, MK and EFF would form the core of the governments in Johannesburg, Tshwane and Ekurhuleni, and that Mashaba was likely to be inaugurated this week. She reported that the ANC wants to keep the finance portfolio and that the arrangement still had to be confirmed by a special meeting of the ANC’s national executive committee on Monday. The National reported that the council was due to sit at 1pm at the Constance Connie Bapela Council Chamber in Braamfontein, and that it was uncertain whether a mayor would be elected at the sitting. Beaumont told EWN the council would most likely be adjourned to Wednesday or so for the mayoral election, and EWN reported that the coalition agreement is likely to be signed on Tuesday. eNCA reported that the ANC’s national executive committee would meet on Monday to consider a report from its negotiating team and give it further direction."
+          "On Sunday, Inside Politics reported that Mashaba had made himself available for mayor ahead of a council sitting on Monday, while a source said no formal agreement had yet been reached. On Monday morning, Ferial Haffajee reported in Daily Maverick that the ANC, ActionSA, MK and EFF would form the core of the governments in Johannesburg, Tshwane and Ekurhuleni, and that Mashaba was likely to be inaugurated this week. She reported that the ANC wants to keep the finance portfolio and that the arrangement still had to be confirmed by a special meeting of the ANC’s national executive committee on Monday. The National reported that the council was due to sit at 1pm at the Constance Connie Bapela Council Chamber in Braamfontein, and that it was uncertain whether a mayor would be elected at the sitting. Beaumont told EWN the council would most likely be adjourned to Wednesday or so for the mayoral election, and EWN reported that the coalition agreement is likely to be signed on Tuesday. eNCA reported that the ANC’s national executive committee would meet on Monday to consider a report from its negotiating team and give it further direction. Later in the morning, The National reported that the DA had asked the city to postpone the sitting and had threatened legal action after city manager Floyd Brink rejected an earlier request, arguing that the first meeting need not be held before 27 November. It put the combined strength of the ANC, ActionSA, EFF and MK at 137 seats, against the 136 needed, and said MK was expected to take the deputy mayor post, with the agreement expected to be signed on Tuesday."
         ]
       ],
       "items": [
@@ -1860,10 +1860,22 @@
       },
       "coverage": [
         {
-          "src": "The National",
-          "h": "Johannesburg council set to meet as battle for control of metro intensifies",
+          "src": "Bulletin",
+          "h": "DA threatens court action over Johannesburg Council meeting",
           "d": "2026-11-23",
-          "url": "https://thenational.co.za/news/2026-11-23-johannesburg-council-set-to-meet-as-battle-for-control-of-metro-intensifies/"
+          "url": "https://bulletin.co.za/da-threatens-court-action-over-johannesburg-council-meeting/"
+        },
+        {
+          "src": "Briefly News",
+          "h": "Herman Mashaba blasts DA as party threatens legal action over Joburg council meeting",
+          "d": "2026-11-23",
+          "url": "https://briefly.co.za/politics/259827-herman-mashaba-blasts-da-party-threatens-legal-action-joburg-council-meeting/"
+        },
+        {
+          "src": "The National",
+          "h": "Johannesburg coalition deal takes shape as DA challenges council sitting",
+          "d": "2026-11-23",
+          "url": "https://thenational.co.za/news/2026-11-23-johannesburg-council-meets-as-battle-for-control-intensifies/"
         },
         {
           "src": "eNCA",
