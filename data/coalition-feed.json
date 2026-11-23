@@ -3859,7 +3859,8 @@
         "o": "Bloomberg",
         "role": "Reporter, Bloomberg",
         "beat": "reporting",
-        "score": 21.0
+        "score": 21.0,
+        "img": "assets/journalists/michael-cohen.jpg"
       },
       "malala": {
         "n": "Justice Malala",
