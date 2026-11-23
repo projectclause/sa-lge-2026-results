@@ -311,7 +311,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
       </section>
       <section class="pl-sec pl-ppl"><h3 class="pl-sh">Voices</h3>
         <p class="pl-gsub">Foreign correspondents and commentators · ranked by influence among international voices</p>
-        <div class="pl-vtabs" role="tablist"><button type="button" role="tab" data-beat="analysis" aria-selected="false">Analysis &amp; commentary <i>${an.length}</i></button><button type="button" role="tab" data-beat="reporting" aria-selected="true">Reporting <i>${rp.length}</i></button></div>
+        <div class="pl-vtabs" role="tablist"><button type="button" role="tab" data-beat="reporting" aria-selected="true">Reporting <i>${rp.length}</i></button><button type="button" role="tab" data-beat="analysis" aria-selected="false">Analysis &amp; commentary <i>${an.length}</i></button></div>
         <div class="pl-beat" data-beat="analysis" hidden>${grid(an, "voices")}</div>
         <div class="pl-beat" data-beat="reporting">${grid(rp, "reporters")}</div>
       </section>
