@@ -58,7 +58,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
         <li><b>Reach 30%</b> · their YouTube and X audience, or their outlet’s</li>
         <li><b>Access 20%</b> · their pieces quoting key players</li>
         <li><b>Momentum 10%</b> · pickup in the last 14 days</li></ul>
-      <p><b>Most Influential Voice</b> is the top score; <b>Influential</b>, the next four. <b>Wide Reach</b> marks a large audience.</p>
+      <p><b>Most Influential Voice</b> is the top score; <b>Influential</b>, the next four. <b>Wide Reach</b> marks a large audience. International voices are ranked among themselves; wire reprints in other outlets count as pickup.</p>
       <p class="pl-how-n">Data: Google News, YouTube and X. Updated 23 Nov.</p>
     </div>`;
   (function howSetup() {
@@ -272,7 +272,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
     const upd = (t) => P(t).map((p) => p.d).sort().pop();
     const n = (k) => X.pieces.filter((p) => p.j.includes(k)).length;
     const last = (k) => X.pieces.filter((p) => p.j.includes(k)).map((p) => p.d).sort().pop() || "";
-    const rank = (ks) => ks.slice().sort((a, b) => n(b) - n(a) || last(b).localeCompare(last(a)));
+    const rank = (ks) => ks.slice().sort((a, b) => (V[b].score || 0) - (V[a].score || 0) || n(b) - n(a) || last(b).localeCompare(last(a)));
     const iFaces = (ks, cls, max = 99) => `<span class="${cls}">${ks.slice(0, max).map((k) => V[k].img ? `<img src="${V[k].img}" alt="${esc(V[k].n)}" title="${esc(V[k].n)}">` : `<i class="pl-avs" title="${esc(V[k].n)}">${esc(initials(V[k].n))}</i>`).join("")}${ks.length > max ? `<i class="pl-more-n">+${ks.length - max}</i>` : ""}</span>`;
     const outLine = (list) => { const o = outs(list); return `${o.length} outlet${o.length > 1 ? "s" : ""}, including ${esc(and(o.slice(0, 3)))}`; };
     const by = (p) => p.j.length ? and(p.j.map((k) => V[k].n)) : p.src;
@@ -281,7 +281,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
       <summary>${p.j.length ? face(V[p.j[0]]) : `<i class="pl-av" aria-hidden="true">${esc(initials(p.src))}</i>`}<span class="pl-pt"><span class="pl-pm">${day(p.d)} · ${esc(by(p))} · ${esc(p.src)}</span><b>${esc(p.h)}</b></span><span class="pl-plus" aria-hidden="true"></span></summary>
       <div class="pl-pb"><a href="${esc(p.url)}" target="_blank" rel="noopener">Read on ${esc(p.src)}${p.pay ? " · subscribers" : ""} →</a></div>
     </details>`;
-    const card = (k, i) => `<button type="button" class="pl-voice${i >= TOPN ? " pl-vx" : ""}" data-k="${k}" aria-pressed="false">${face(V[k])}<span><b class="pl-nm">${esc(V[k].n)}</b><span>${esc(V[k].role)}</span></span><em>${n(k)}</em></button>`;
+    const card = (k, i) => `<button type="button" class="pl-voice${i >= TOPN ? " pl-vx" : ""}" data-k="${k}" aria-pressed="false">${face(V[k])}<span>${nameTag(V[k])}<span>${esc(V[k].role)}</span></span><em>${n(k)}</em></button>`;
     const grid = (ks, label) => `<div class="pl-vgrid"><div class="pl-voices">${ks.map(card).join("")}</div>${ks.length > TOPN ? `<button type="button" class="pl-vall" aria-expanded="false" data-n="${ks.length}" data-l="${label}">Show all ${ks.length} ${label}</button>` : ""}</div>`;
     return IX = { X, V, P, vOf, outs, upd, n, rank, iFaces, outLine, ipiece, grid };
   }
@@ -310,7 +310,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
         ${rest.length > 3 ? `<button type="button" class="pl-stmore" aria-expanded="false">Show ${rest.length - 3} more stories</button>` : ""}
       </section>
       <section class="pl-sec pl-ppl"><h3 class="pl-sh">Voices</h3>
-        <p class="pl-gsub">Foreign correspondents and commentators · most pieces first</p>
+        <p class="pl-gsub">Foreign correspondents and commentators · ranked by influence among international voices</p>
         <div class="pl-vtabs" role="tablist"><button type="button" role="tab" data-beat="analysis" aria-selected="false">Analysis &amp; commentary <i>${an.length}</i></button><button type="button" role="tab" data-beat="reporting" aria-selected="true">Reporting <i>${rp.length}</i></button></div>
         <div class="pl-beat" data-beat="analysis" hidden>${grid(an, "voices")}</div>
         <div class="pl-beat" data-beat="reporting">${grid(rp, "reporters")}</div>
@@ -348,7 +348,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
     const ks = rank(vOf(I)), top = ks.slice(0, 3), more = ks.slice(3);
     const says = (k, lead) => { const v = V[k], mine = I.filter((p) => p.j.includes(k)); return `
           <div class="pl-voicecard${lead ? " pl-lead3" : ""}" id="says-${k}">
-            <div class="pl-vh">${face(v)}<span><b class="pl-nm">${esc(v.n)}</b><span>${esc(v.role)}${lead ? ` · <i class="pl-vtag">${v.beat === "analysis" ? "Analysis" : "Reporting"}</i>` : ""}</span></span></div>
+            <div class="pl-vh">${face(v)}<span>${nameTag(v)}<span>${esc(v.role)}${lead ? ` · <i class="pl-vtag">${v.beat === "analysis" ? "Analysis" : "Reporting"}</i>` : ""}</span></span></div>
             <p class="pl-vsays">${esc((t.voices || {})[k] || "")}</p>
             ${mine.map(ipiece).join("")}
           </div>`; };

@@ -3842,92 +3842,114 @@
         "n": "David Pilling",
         "o": "Financial Times",
         "role": "Journalist, Financial Times",
-        "beat": "analysis"
+        "beat": "analysis",
+        "score": 21.0
       },
       "cele": {
         "n": "S’thembile Cele",
         "o": "Bloomberg",
         "role": "Reporter, Bloomberg",
         "beat": "reporting",
-        "img": "assets/journalists/sthembile-cele.jpg"
+        "img": "assets/journalists/sthembile-cele.jpg",
+        "score": 57.7,
+        "inf": true
       },
       "cohen": {
         "n": "Michael Cohen",
         "o": "Bloomberg",
         "role": "Reporter, Bloomberg",
-        "beat": "reporting"
+        "beat": "reporting",
+        "score": 21.0
       },
       "malala": {
         "n": "Justice Malala",
         "o": "Bloomberg Opinion",
         "role": "Columnist, Bloomberg Opinion",
-        "beat": "analysis"
+        "beat": "analysis",
+        "score": 21.0,
+        "wide": true
       },
       "peyton": {
         "n": "Nellie Peyton",
         "o": "Reuters",
         "role": "Correspondent, Reuters",
-        "beat": "reporting"
+        "beat": "reporting",
+        "score": 39.3,
+        "inf": true
       },
       "parakozov": {
         "n": "Sfundo Parakozov",
         "o": "Reuters",
         "role": "Reporter, Reuters",
-        "beat": "reporting"
+        "beat": "reporting",
+        "score": 52.7,
+        "inf": true
       },
       "magome": {
         "n": "Mogomotsi Magome",
         "o": "AP",
         "role": "Reporter, Associated Press",
-        "beat": "reporting"
+        "beat": "reporting",
+        "score": 71.0,
+        "top": true
       },
       "imray": {
         "n": "Gerald Imray",
         "o": "AP",
         "role": "Reporter, Associated Press",
-        "beat": "reporting"
+        "beat": "reporting",
+        "score": 21.0
       },
       "eligon": {
         "n": "John Eligon",
         "o": "The New York Times",
         "role": "Journalist, The New York Times",
-        "beat": "reporting"
+        "beat": "reporting",
+        "score": 21.0
       },
       "mkokeli": {
         "n": "Sam Mkokeli",
         "o": "Semafor",
         "role": "Journalist, Semafor",
-        "beat": "reporting"
+        "beat": "reporting",
+        "score": 41.7,
+        "inf": true
       },
       "duplessis": {
         "n": "Carien du Plessis",
         "o": "The Africa Report",
         "role": "Journalist, The Africa Report",
-        "beat": "reporting"
+        "beat": "reporting",
+        "score": 35.0,
+        "wide": true
       },
       "marsi": {
         "n": "Federica Marsi",
         "o": "Al Jazeera",
         "role": "Journalist, Al Jazeera",
-        "beat": "reporting"
+        "beat": "reporting",
+        "score": 18.0
       },
       "habershon": {
         "n": "Ed Habershon",
         "o": "BBC",
         "role": "Journalist, BBC",
-        "beat": "reporting"
+        "beat": "reporting",
+        "score": 21.0
       },
       "timse": {
         "n": "Tabelo Timse",
         "o": "The Washington Post",
         "role": "Journalist, The Washington Post",
-        "beat": "reporting"
+        "beat": "reporting",
+        "score": 18.0
       },
       "holmes": {
         "n": "Carolyn Holmes",
         "o": "Good Authority",
         "role": "Political scientist, writing in Good Authority",
-        "beat": "analysis"
+        "beat": "analysis",
+        "score": 9.0
       }
     },
     "pieces": [
