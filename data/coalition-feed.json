@@ -8,7 +8,9 @@
       "role": "Presenter, 702",
       "group": "voice",
       "org": "702",
-      "wide": true
+      "wide": true,
+      "beat": "analysis",
+      "score": 56.8
     },
     "adriaan": {
       "n": "Adriaan Basson",
@@ -17,7 +19,10 @@
       "role": "Journalist, News24",
       "group": "voice",
       "org": "N24",
-      "wide": true
+      "wide": true,
+      "beat": "analysis",
+      "score": 33.0,
+      "pin": true
     },
     "pieter": {
       "n": "Pieter du Toit",
@@ -26,7 +31,9 @@
       "role": "Journalist, News24",
       "group": "voice",
       "org": "N24",
-      "wide": true
+      "wide": true,
+      "beat": "analysis",
+      "score": 25.0
     },
     "michael": {
       "n": "Michael Beaumont",
@@ -34,7 +41,8 @@
       "img": "assets/journalists/michael-beaumont.jpg",
       "role": "ActionSA national chairperson",
       "group": "player",
-      "org": "ASA"
+      "org": "ASA",
+      "core": true
     },
     "herman": {
       "n": "Herman Mashaba",
@@ -42,7 +50,8 @@
       "role": "ActionSA leader",
       "img": "assets/journalists/herman-mashaba.jpg",
       "group": "player",
-      "org": "ASA"
+      "org": "ASA",
+      "core": true
     },
     "helen": {
       "n": "Helen Zille",
@@ -50,7 +59,8 @@
       "role": "DA mayoral candidate, Johannesburg",
       "img": "assets/journalists/helen-zille.jpg",
       "group": "player",
-      "org": "DA"
+      "org": "DA",
+      "core": true
     },
     "geordin": {
       "n": "Geordin Hill-Lewis",
@@ -58,7 +68,8 @@
       "role": "DA leader",
       "img": "assets/journalists/geordin-hill-lewis.jpg",
       "group": "player",
-      "org": "DA"
+      "org": "DA",
+      "core": true
     },
     "cyril": {
       "n": "Cyril Ramaphosa",
@@ -66,7 +77,8 @@
       "role": "President of South Africa and ANC president",
       "img": "assets/journalists/cyril-ramaphosa.jpg",
       "group": "player",
-      "org": "ANC"
+      "org": "ANC",
+      "core": true
     },
     "sizwe": {
       "n": "Sizwe Mpofu-Walsh",
@@ -76,7 +88,9 @@
       "group": "voice",
       "org": "SMWX",
       "wide": true,
-      "top": true
+      "top": true,
+      "beat": "analysis",
+      "score": 78.9
     },
     "penuel": {
       "n": "Penuel Mlotshwa",
@@ -84,7 +98,9 @@
       "role": "Podcaster and commentator, “The Black Pen”",
       "img": "assets/journalists/penuel-mlotshwa.jpg",
       "group": "voice",
-      "org": "BLACKPEN"
+      "org": "BLACKPEN",
+      "beat": "analysis",
+      "score": 14.8
     },
     "dali": {
       "n": "Dali Mpofu",
@@ -92,7 +108,8 @@
       "role": "MK Party coalition negotiator",
       "img": "assets/journalists/dali-mpofu.jpg",
       "group": "player",
-      "org": "MK"
+      "org": "MK",
+      "core": true
     },
     "julius": {
       "n": "Julius Malema",
@@ -100,7 +117,8 @@
       "role": "EFF leader",
       "img": "assets/journalists/julius-malema.jpg",
       "group": "player",
-      "org": "EFF"
+      "org": "EFF",
+      "core": true
     },
     "mbalula": {
       "n": "Fikile Mbalula",
@@ -108,7 +126,8 @@
       "role": "ANC secretary-general",
       "img": "assets/journalists/fikile-mbalula.jpg",
       "group": "player",
-      "org": "ANC"
+      "org": "ANC",
+      "core": true
     },
     "moya": {
       "n": "Nasiphi Moya",
@@ -116,7 +135,8 @@
       "role": "ActionSA, mayor of Tshwane",
       "img": "assets/journalists/nasiphi-moya.jpg",
       "group": "player",
-      "org": "ASA"
+      "org": "ASA",
+      "core": true
     },
     "hlabisa": {
       "n": "Velenkosini Hlabisa",
@@ -124,7 +144,8 @@
       "role": "IFP president",
       "img": "assets/journalists/velenkosini-hlabisa.jpg",
       "group": "player",
-      "org": "IFP"
+      "org": "IFP",
+      "core": true
     },
     "gayton": {
       "n": "Gayton McKenzie",
@@ -148,7 +169,8 @@
       "role": "DA Federal Council chairperson",
       "img": "assets/journalists/ashor-sarupen.jpg",
       "group": "player",
-      "org": "DA"
+      "org": "DA",
+      "core": true
     },
     "corne": {
       "n": "Corné Mulder",
@@ -165,7 +187,9 @@
       "img": "assets/journalists/mandy-wiener.jpg",
       "group": "voice",
       "org": "702",
-      "wide": true
+      "wide": true,
+      "beat": "analysis",
+      "score": 34.3
     },
     "ferial": {
       "n": "Ferial Haffajee",
@@ -173,7 +197,9 @@
       "role": "Journalist, Daily Maverick",
       "img": "assets/journalists/ferial-haffajee.jpg",
       "group": "voice",
-      "org": "DM"
+      "org": "DM",
+      "beat": "analysis",
+      "score": 21.0
     },
     "katy": {
       "n": "Katy Katopodis",
@@ -181,7 +207,9 @@
       "role": "Journalist and editor",
       "img": "assets/journalists/katy-katopodis.jpg",
       "group": "voice",
-      "org": "IND"
+      "org": "IND",
+      "beat": "analysis",
+      "score": 10.6
     },
     "wayne": {
       "inf": true,
@@ -191,7 +219,9 @@
       "img": "assets/journalists/wayne-sussman.jpg",
       "group": "voice",
       "org": "ENCA",
-      "wide": true
+      "wide": true,
+      "beat": "analysis",
+      "score": 75.0
     },
     "zimasa": {
       "n": "Zimasa Gcaga Vabaza",
@@ -199,7 +229,9 @@
       "role": "Media entrepreneur and commentator, “Mooshtaffa”",
       "img": "assets/journalists/zimasa-vabaza.jpg",
       "group": "voice",
-      "org": "IND"
+      "org": "IND",
+      "beat": "analysis",
+      "score": 10.7
     },
     "brink": {
       "n": "Cilliers Brink",
@@ -207,7 +239,8 @@
       "role": "DA mayoral candidate, Tshwane",
       "img": "assets/journalists/cilliers-brink.jpg",
       "group": "player",
-      "org": "DA"
+      "org": "DA",
+      "core": true
     },
     "mokonyane": {
       "n": "Nomvula Mokonyane",
@@ -231,7 +264,8 @@
       "role": "ANC Johannesburg regional chair",
       "img": "assets/journalists/loyiso-masuku.jpg",
       "group": "player",
-      "org": "ANC"
+      "org": "ANC",
+      "core": true
     },
     "morero": {
       "n": "Dada Morero",
@@ -287,7 +321,9 @@
       "role": "Political editor, Business Day",
       "img": "assets/journalists/hajra-omarjee.jpg",
       "group": "voice",
-      "org": "BD"
+      "org": "BD",
+      "beat": "analysis",
+      "score": 44.0
     },
     "tandwa": {
       "n": "Lizeka Tandwa",
@@ -295,7 +331,9 @@
       "role": "Politics writer, Sunday Times",
       "img": "assets/journalists/lizeka-tandwa.jpg",
       "group": "voice",
-      "org": "ST"
+      "org": "ST",
+      "beat": "reporting",
+      "score": 26.0
     },
     "sefara": {
       "n": "Makhudu Sefara",
@@ -303,7 +341,9 @@
       "role": "Editor, Sunday Times",
       "img": "assets/journalists/makhudu-sefara.jpg",
       "group": "voice",
-      "org": "ST"
+      "org": "ST",
+      "beat": "analysis",
+      "score": 35.3
     },
     "steinberg": {
       "n": "Jonny Steinberg",
@@ -311,7 +351,9 @@
       "role": "Writer and News24 columnist",
       "img": "assets/journalists/jonny-steinberg.jpg",
       "group": "voice",
-      "org": "N24"
+      "org": "N24",
+      "beat": "analysis",
+      "score": 25.0
     },
     "svabaza": {
       "n": "Sindile Vabaza",
@@ -319,7 +361,9 @@
       "role": "Commentator",
       "img": "assets/journalists/sindile-vabaza.jpg",
       "group": "voice",
-      "org": "IND"
+      "org": "IND",
+      "beat": "analysis",
+      "score": 19.2
     },
     "hogg": {
       "inf": true,
@@ -328,7 +372,9 @@
       "role": "Interviewer, BizNews",
       "img": "assets/journalists/alec-hogg.jpg",
       "group": "voice",
-      "org": "BIZ"
+      "org": "BIZ",
+      "beat": "analysis",
+      "score": 50.5
     },
     "makhanya": {
       "n": "Mondli Makhanya",
@@ -336,7 +382,9 @@
       "role": "Journalist, Daily Maverick",
       "img": "assets/journalists/mondli-makhanya.jpg",
       "group": "voice",
-      "org": "DM"
+      "org": "DM",
+      "beat": "analysis",
+      "score": 19.0
     },
     "dawes": {
       "n": "Nicholas Dawes",
@@ -344,7 +392,9 @@
       "role": "Journalist",
       "img": "assets/journalists/nicholas-dawes.jpg",
       "group": "voice",
-      "org": "IND"
+      "org": "IND",
+      "beat": "analysis",
+      "score": 13.9
     },
     "perlman": {
       "n": "John Perlman",
@@ -352,7 +402,9 @@
       "role": "Presenter, 702 Drive",
       "img": "assets/journalists/john-perlman.jpg",
       "group": "voice",
-      "org": "702"
+      "org": "702",
+      "beat": "analysis",
+      "score": 30.2
     },
     "mciver": {
       "n": "Amy McIver",
@@ -360,7 +412,9 @@
       "role": "Presenter, CapeTalk",
       "img": "assets/journalists/amy-mciver.jpg",
       "group": "voice",
-      "org": "CT"
+      "org": "CT",
+      "beat": "analysis",
+      "score": 15.0
     },
     "macg": {
       "n": "MacGyver “MacG” Mukwevho",
@@ -369,7 +423,9 @@
       "img": "assets/journalists/macg.jpg",
       "group": "voice",
       "org": "IND",
-      "wide": true
+      "wide": true,
+      "beat": "analysis",
+      "score": 24.2
     },
     "mashele": {
       "inf": true,
@@ -379,7 +435,9 @@
       "img": "assets/journalists/prince-mashele.jpg",
       "group": "voice",
       "org": "IND",
-      "wide": true
+      "wide": true,
+      "beat": "analysis",
+      "score": 50.8
     },
     "goba": {
       "n": "Thabiso Goba",
@@ -387,7 +445,9 @@
       "role": "Reporter, EWN",
       "img": "assets/journalists/thabiso-goba.jpg",
       "group": "voice",
-      "org": "EWN"
+      "org": "EWN",
+      "beat": "reporting",
+      "score": 30.0
     },
     "mafisa": {
       "n": "Itumeleng Mafisa",
@@ -395,7 +455,9 @@
       "role": "Journalist, The Citizen",
       "img": "assets/journalists/itumeleng-mafisa.jpg",
       "group": "voice",
-      "org": "The Citizen"
+      "org": "The Citizen",
+      "beat": "reporting",
+      "score": 31.0
     },
     "phakathi": {
       "n": "Mxolisi Phakathi",
@@ -403,7 +465,8 @@
       "role": "MK mayoral candidate, eThekwini",
       "img": "assets/journalists/mxolisi-phakathi.jpg",
       "group": "player",
-      "org": "MK"
+      "org": "MK",
+      "core": true
     },
     "baloyi": {
       "n": "Bongani Baloyi",
@@ -411,7 +474,8 @@
       "role": "MK, first on its Johannesburg list",
       "img": "assets/journalists/bongani-baloyi.jpg",
       "group": "player",
-      "org": "MK"
+      "org": "MK",
+      "core": true
     },
     "ramushwana": {
       "n": "Alpha Ramushwana",
@@ -419,7 +483,9 @@
       "role": "Political journalist, EWN",
       "img": "assets/journalists/alpha-ramushwana.jpg",
       "group": "voice",
-      "org": "EWN"
+      "org": "EWN",
+      "beat": "reporting",
+      "score": 30.0
     },
     "moichela": {
       "n": "Kamogelo Moichela",
@@ -427,7 +493,9 @@
       "role": "Journalist, IOL",
       "img": "assets/journalists/kamogelo-moichela.jpg",
       "group": "voice",
-      "org": "IOL"
+      "org": "IOL",
+      "beat": "reporting",
+      "score": 27.0
     }
   },
   "items": [

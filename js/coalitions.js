@@ -98,6 +98,64 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
       <div class="pl-pb"><p>${esc(it.s)}</p><a href="${esc(it.url)}" target="_blank" rel="noopener">${it.kind === "Video" ? "Watch" : "Read"} on ${esc(it.src)}${it.pay ? " · subscribers" : ""} →</a></div>
     </details>`; };
 
+  // ---------- who matters most: ranking used to keep lists short ----------
+  const ago = (d) => (Date.parse(D.edition.date) - Date.parse(d)) / 864e5;
+  const cnt = (k) => D.items.filter((i) => i.j === k).length;
+  const recent = (k, days = 7) => D.items.filter((i) => i.j === k && ago(i.d) <= days).length;
+  const keyOf = (p) => Object.keys(D.journalists).find((x) => D.journalists[x] === p);
+  // voices: active in the last two weeks first, then influence score; reporters by how much they filed this week
+  const rankV = (list) => list.sort((a, b) => (recent(b[0], 14) > 0) - (recent(a[0], 14) > 0) || (b[1].beat === "reporting" ? recent(b[0]) - recent(a[0]) : 0) || (b[1].score || 0) - (a[1].score || 0) || cnt(b[0]) - cnt(a[0]));
+  // key players: active this week first, then the people who decide the deals, then the most active
+  const rankP = (list) => list.sort((a, b) => (recent(b[0]) > 0) - (recent(a[0]) > 0) || !!b[1].core - !!a[1].core || recent(b[0]) - recent(a[0]) || cnt(b[0]) - cnt(a[0]));
+  const TOPN = 6;
+  // editor's pick: a voice marked "pin" always shows in the first six (taking the sixth place if it ranked lower)
+  const pinTop = (list) => { list.filter(([, p]) => p.pin).forEach((x) => { const i = list.indexOf(x); if (i >= TOPN) { list.splice(i, 1); list.splice(TOPN - 1, 0, x); } }); return list; };
+  const card = ([k, p], n) => `<button type="button" class="pl-voice${n >= TOPN ? " pl-vx" : ""}" data-k="${k}" aria-pressed="false"><img src="${p.img}" alt=""><span>${nameTag(p)}<span>${esc(p.role || p.o)}</span></span><em>${cnt(k)}</em></button>`;
+  const grid = (list, label) => `<div class="pl-vgrid"><div class="pl-voices">${list.map(card).join("")}</div>${list.length > TOPN ? `<button type="button" class="pl-vall" aria-expanded="false" data-n="${list.length}" data-l="${label}">Show all ${list.length} ${label}</button>` : ""}</div>`;
+  function peopleSections() {
+    const J = Object.entries(D.journalists);
+    const an = pinTop(rankV(J.filter(([, p]) => p.group === "voice" && p.beat !== "reporting"))), rp = rankV(J.filter(([, p]) => p.beat === "reporting"));
+    const pl = rankP(J.filter(([, p]) => p.group === "player"));
+    return `<section class="pl-sec pl-ppl"><h3 class="pl-sh">Voices</h3>
+        <p class="pl-gsub">Journalists and commentators · ranked by influence, active in the last two weeks first</p>
+        <div class="pl-vtabs" role="tablist"><button type="button" role="tab" data-beat="analysis" aria-selected="true">Analysis &amp; commentary <i>${an.length}</i></button><button type="button" role="tab" data-beat="reporting" aria-selected="false">Reporting <i>${rp.length}</i></button></div>
+        <div class="pl-beat" data-beat="analysis">${grid(an, "voices")}</div>
+        <div class="pl-beat" data-beat="reporting" hidden>${grid(rp, "reporters")}</div>
+      </section>
+      <section class="pl-sec pl-ppl"><h3 class="pl-sh">Key players</h3>
+        <p class="pl-gsub">The politicians in the talks · the people deciding the deals first</p>
+        ${grid(pl, "key players")}
+      </section>`;
+  }
+  function bindPeople() {
+    root.querySelectorAll(".pl-vall").forEach((b) => b.onclick = () => {
+      const o = b.getAttribute("aria-expanded") !== "true"; b.setAttribute("aria-expanded", o);
+      b.closest(".pl-vgrid").classList.toggle("open", o);
+      b.textContent = o ? "Show fewer" : `Show all ${b.dataset.n} ${b.dataset.l}`;
+    });
+    root.querySelectorAll(".pl-vtabs button").forEach((t) => t.onclick = () => {
+      root.querySelectorAll(".pl-vtabs button").forEach((x) => x.setAttribute("aria-selected", String(x === t)));
+      root.querySelectorAll(".pl-beat").forEach((x) => { x.hidden = x.dataset.beat !== t.dataset.beat; });
+    });
+  }
+  // inside a story: the people who moved it most (decision-makers and the latest to speak first)
+  function storyRank(e, ps, I) {
+    const last = (k) => I.filter((i) => i.j === k).map((i) => i.d).sort().pop() || "";
+    const P = ps.map((p) => [keyOf(p), p]);
+    // players named in the headline lead (the story is about them), then decision-makers, then the most present and most recent
+    const named = (p) => (e.h + " " + e.dek).includes(p.n.split(" ").pop());
+    const inStory = (k) => I.filter((i) => i.j === k).length;
+    const pw = (k, p) => (named(p) ? 1000 : 0) + (p.core ? 100 : 0) + inStory(k) * 5;
+    const players = P.filter(([, p]) => p.group === "player").sort((a, b) => pw(b[0], b[1]) - pw(a[0], a[1]) || last(b[0]).localeCompare(last(a[0])));
+    const analysts = P.filter(([, p]) => p.group === "voice" && p.beat !== "reporting").sort((a, b) => (b[1].score || 0) - (a[1].score || 0) || last(b[0]).localeCompare(last(a[0])));
+    const reporters = P.filter(([, p]) => p.beat === "reporting").sort((a, b) => last(a[0]).localeCompare(last(b[0])));
+    const top = players.slice(0, 2).concat(analysts.slice(0, 1));
+    [...players, ...analysts].forEach((x) => { if (top.length < 3 && !top.includes(x)) top.push(x); });
+    return { top, players: players.filter((x) => !top.includes(x)), analysts: analysts.filter((x) => !top.includes(x)), reporters };
+  }
+  const outletOf = (p) => String(p.role || p.o).split(", ").pop();
+  const firstLine = (t) => { t = String(t || ""); const m = t.match(/^.*?[.!?](\s|$)/); return (m ? m[0] : t).trim(); };
+
   function front() {
     const ev = D.events.slice().sort((a, b) => updated(b).localeCompare(updated(a)));
     const lead = ev[0], rest = ev.slice(1), L = itemsOf(lead);
@@ -119,13 +177,12 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
         ${rest.map((e, n) => { const I = itemsOf(e); return `<a class="pl-row${n >= 3 ? " pl-xtra" : ""}" href="#${e.id}"><span class="pl-rt"><b>${esc(e.h)}</b><span>${esc(e.cat)} · ${day(updated(e))} · ${outletsOf(e).length} outlets</span></span>${faces(people(I), "pl-fc pl-fc-s", 4)}</a>`; }).join("")}
         ${rest.length > 3 ? `<button type="button" class="pl-stmore" aria-expanded="false">Show ${rest.length - 3} more stories</button>` : ""}
       </section>
-${GROUPS.map(([g, title, sub]) => `<section class="pl-sec"><h3 class="pl-sh">${title}</h3><p class="pl-gsub">${sub}</p>
-        <div class="pl-voices">${Object.entries(D.journalists).filter(([, p]) => p.group === g).sort((a, b) => D.items.filter((i) => i.j === b[0]).length - D.items.filter((i) => i.j === a[0]).length).map(([k, p]) => `<button type="button" class="pl-voice" data-k="${k}" aria-pressed="false"><img src="${p.img}" alt=""><span>${nameTag(p)}<span>${esc(p.role || p.o)}</span></span><em>${D.items.filter((i) => i.j === k).length}</em></button>`).join("")}</div>
-</section>`).join("")}
+      ${peopleSections()}
       <section class="pl-sec"><h3 class="pl-sh">All pieces, newest first <span class="pl-filt"></span></h3><div class="pl-all">${all.map(piece).join("")}</div></section>`;
     // phones: three top stories, the rest behind a toggle
     const stm = root.querySelector(".pl-stmore");
     if (stm) stm.onclick = () => { const o = stm.getAttribute("aria-expanded") !== "true"; stm.setAttribute("aria-expanded", o); stm.closest(".pl-top3").classList.toggle("open", o); stm.textContent = o ? "Show fewer stories" : `Show ${rest.length - 3} more stories`; };
+    bindPeople();
     let who = null;
     const phone = window.matchMedia("(max-width: 720px)");
     root.querySelectorAll(".pl-voice").forEach((b) => b.onclick = () => {
@@ -148,8 +205,19 @@ ${GROUPS.map(([g, title, sub]) => `<section class="pl-sec"><h3 class="pl-sh">${t
     });
   }
 
+  function sayCard(e, I, k, p, lead) {
+    const mine = I.filter((i) => i.j === k).reverse();
+    const tag = p.group === "player" ? "Key player" : p.beat === "reporting" ? "Reporting" : "Analysis";
+    return `
+          <div class="pl-voicecard${lead ? " pl-lead3" : ""}" id="says-${k}">
+            <div class="pl-vh"><img src="${p.img}" alt=""><span>${nameTag(p)}<span>${esc(p.role)}${lead ? ` · <i class="pl-vtag">${tag}</i>` : ""}</span></span></div>
+            <p class="pl-vsays">${esc((e.voices || {})[k] || "")}</p>
+            ${mine.map(piece).join("")}
+          </div>`;
+  }
+
   function event(e) {
-    const I = itemsOf(e), ps = people(I);
+    const I = itemsOf(e), ps = people(I), R = storyRank(e, ps, I);
     const tl = I.map((i) => `<li><time>${day(i.d)}</time><span>${esc(D.journalists[i.j].n)}: ${esc(i.h)}</span></li>`);
     const SHOW = 3;
     root.innerHTML = `
@@ -159,6 +227,7 @@ ${GROUPS.map(([g, title, sub]) => `<section class="pl-sec"><h3 class="pl-sh">${t
         <h1 class="pl-evh">${esc(e.h)}</h1>
         <p class="pl-dek pl-evdek">${esc(e.dek)}</p>
         <p class="pl-credit">Preamble’s AI summary of ${reports(e).length} reports from ${outletLine(e)}. Updated ${day(updated(e))}.</p>
+        ${R.top.length ? `<section class="pl-drive" aria-label="Who’s driving this"><h2>Who’s driving this</h2><div class="pl-drv">${R.top.map(([k, p]) => `<a class="pl-drvi" href="#says-${k}"><img src="${p.img}" alt=""><span><b>${esc(p.n)}</b><em>${esc(firstLine((e.voices || {})[k]) || p.role)}</em></span></a>`).join("")}</div></section>` : ""}
         <section class="pl-brief"><h2>In brief</h2><ul>${e.brief.map((b) => `<li>${esc(b)}</li>`).join("")}</ul></section>
         <section class="pl-tl"><h2>How it came to this</h2><ol>${tl.slice(0, SHOW).join("")}</ol>${tl.length > SHOW ? `<ol class="pl-tl-more" hidden>${tl.slice(SHOW).join("")}</ol><button type="button" class="pl-more">Show the full timeline</button>` : ""}</section>
         ${e.sec.map(([t, p]) => `<section class="pl-body"><h2>${esc(t)}</h2><p>${esc(p)}</p></section>`).join("")}
@@ -166,19 +235,22 @@ ${GROUPS.map(([g, title, sub]) => `<section class="pl-sec"><h3 class="pl-sh">${t
   ${grouped(e).map((a) => `<a class="pl-art" href="${esc(a.url)}" target="_blank" rel="noopener"><span class="pl-am2"><b>${esc(a.src)}</b>${a.intl ? '<i class="pl-intl">International</i>' : ""}<time>${day(a.d)}</time></span><span class="pl-ah">${esc(a.h)}</span>${a.also.length ? `<span class="pl-also">Also carried by ${esc(and(a.also.map((x) => x.src)))}</span>` : ""}</a>`).join("")}
 </section>
         <section class="pl-sec pl-says"><h3 class="pl-sh">What they are saying <button type="button" class="pl-xall" aria-expanded="false">Expand all</button></h3>
-          ${GROUPS.map(([g, title]) => { const grp = ps.filter((p) => p.group === g); return grp.length ? `<h4 class="pl-gh">${title}</h4>` + grp.map((p) => { const k = Object.keys(D.journalists).find((x) => D.journalists[x] === p); const mine = I.filter((i) => i.j === k).reverse(); return `
-          <div class="pl-voicecard">
-            <div class="pl-vh"><img src="${p.img}" alt=""><span>${nameTag(p)}<span>${esc(p.role)}</span></span></div>
-            <p class="pl-vsays">${esc((e.voices || {})[k] || "")}</p>
-            ${mine.map(piece).join("")}
-          </div>`; }).join("") : ""; }).join("")}
+          ${R.top.map(([k, p]) => sayCard(e, I, k, p, true)).join("")}
+          ${R.players.length + R.analysts.length + R.reporters.length ? `<button type="button" class="pl-saymore" aria-expanded="false">More voices (${R.players.length + R.analysts.length + R.reporters.length})</button>
+          <div class="pl-saysrest" hidden>
+            ${R.players.length ? `<h4 class="pl-gh">Key players</h4>${R.players.map(([k, p]) => sayCard(e, I, k, p)).join("")}` : ""}
+            ${R.analysts.length ? `<h4 class="pl-gh">Analysis &amp; commentary</h4>${R.analysts.map(([k, p]) => sayCard(e, I, k, p)).join("")}` : ""}
+            ${R.reporters.length ? `<h4 class="pl-gh">Reporting</h4><p class="pl-gsub">Reporting by ${esc(and(R.reporters.map(([, p]) => p.n + " (" + outletOf(p) + ")")))}, earliest first.</p>${R.reporters.map(([k, p]) => sayCard(e, I, k, p)).join("")}` : ""}
+          </div>` : ""}
         </section>
         <p class="pl-how">Preamble summarises what each person said, using only their published pieces and interviews. Their views are their own. Read the originals for the full argument.</p>
       </article>`;
     const m = root.querySelector(".pl-more");
     if (m) m.onclick = () => { root.querySelector(".pl-tl-more").hidden = false; m.remove(); };
+    const sm = root.querySelector(".pl-saymore");
+    if (sm) { const lbl = sm.textContent; sm.onclick = () => { const o = sm.getAttribute("aria-expanded") !== "true"; sm.setAttribute("aria-expanded", o); root.querySelector(".pl-saysrest").hidden = !o; sm.textContent = o ? "Fewer voices" : lbl; }; }
     const x = root.querySelector(".pl-xall");
-    x.onclick = () => { const o = x.getAttribute("aria-expanded") !== "true"; root.querySelectorAll(".pl-ev .pl-piece").forEach((d) => d.open = o); x.setAttribute("aria-expanded", o); x.textContent = o ? "Collapse all" : "Expand all"; };
+    x.onclick = () => { const o = x.getAttribute("aria-expanded") !== "true"; if (o && sm && sm.getAttribute("aria-expanded") !== "true") sm.click(); root.querySelectorAll(".pl-ev .pl-piece").forEach((d) => d.open = o); x.setAttribute("aria-expanded", o); x.textContent = o ? "Collapse all" : "Expand all"; };
   }
 
   function route() {

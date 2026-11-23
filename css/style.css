@@ -1114,3 +1114,30 @@ body.has-ask { padding-bottom: 96px; }
 
 /* phones: smaller page title so "2026 Elections Results" sits on one line beside Share */
 @media (max-width: 720px) { .rs-top .rs-title { font-size: 7pt; line-height: 1.2; } }
+
+/* Coalitions Tracker: short lists. Top six voices and key players show, the rest one tap away */
+.pl-vgrid .pl-vx { display: none; }
+.pl-vgrid.open .pl-vx { display: flex; }
+.pl-vall, .pl-saymore { display: block; width: 100%; margin-top: 10px; padding: 10px 12px; border: 1px solid var(--rule2); background: #fff; font: inherit; font-size: 14px; font-weight: 700; color: var(--text); cursor: pointer; }
+.pl-vall:hover, .pl-saymore:hover { background: var(--soft); }
+.pl-vtabs { display: flex; gap: 6px; margin: 12px 0 0; flex-wrap: wrap; }
+.pl-vtabs button { display: inline-flex; align-items: center; gap: 6px; padding: 7px 12px; border: 1px solid var(--rule2); border-radius: 999px; background: #fff; font: inherit; font-size: 13.5px; font-weight: 600; color: var(--muted2); cursor: pointer; }
+.pl-vtabs button i { font-style: normal; font-size: 12px; color: var(--muted); }
+.pl-vtabs button[aria-selected="true"] { background: var(--text); border-color: var(--text); color: #fff; }
+.pl-vtabs button[aria-selected="true"] i { color: rgba(255,255,255,.7); }
+/* story page: who's driving this */
+.pl-drive { margin: 16px 0 6px; padding: 14px 0 4px; border-top: 1px solid var(--rule); }
+.pl-drive h2 { margin: 0 0 10px; font-size: 13px; font-weight: 800; letter-spacing: .07em; text-transform: uppercase; color: var(--muted2); }
+.pl-drv { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.pl-drvi { display: flex; gap: 10px; align-items: flex-start; padding: 10px; border: 1px solid var(--rule2); text-decoration: none; color: var(--text); min-width: 0; }
+.pl-drvi:hover { background: var(--soft); }
+.pl-drvi img { width: 44px; height: 44px; flex: none; border-radius: 50%; object-fit: cover; object-position: top; background: var(--soft); }
+.pl-drvi span { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.pl-drvi b { font-size: 14px; }
+.pl-drvi em { font-style: normal; font-size: 12.5px; line-height: 1.35; color: var(--ink2); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.pl-vtag { font-style: normal; font-size: 11px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; color: var(--muted2); }
+.pl-saysrest .pl-gsub { margin-top: 0; }
+@media (max-width: 720px) {
+  .pl-drv { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+  .pl-drvi em { -webkit-line-clamp: 2; }
+}
