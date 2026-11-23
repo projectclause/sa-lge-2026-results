@@ -20,26 +20,26 @@
           "MK"
         ]
       },
-      "lean": 2,
-      "why": "Reports say the ANC, ActionSA, EFF and MK have agreed a pact that would make ActionSA’s Herman Mashaba mayor. Councillors were sworn in on Monday but voted to postpone the mayoral election to later this week.",
+      "lean": 1,
+      "why": "The ANC, ActionSA, EFF and MK pact that would make Herman Mashaba mayor is still unsigned, and the vote was postponed on Monday. The ANC rejected ActionSA’s offer of a council seat for Loyiso Masuku, and Mashaba says the ball is in the ANC’s court as its NEC decides.",
       "src": [
+        [
+          "eNCA",
+          "23 Nov",
+          "ActionSA places coalition ball in ANC’s court",
+          "https://www.enca.com/news/actionsa-places-coalition-ball-ancs-court"
+        ],
+        [
+          "IOL",
+          "23 Nov",
+          "‘Madness’: ANC erupts over ActionSA’s offer to make Loyiso Masuku councillor",
+          "https://iol.co.za/lge2026/2026-11-23-madness-anc-erupts-over-actionsas-offer-to-make-loyiso-masuku-councillor/"
+        ],
         [
           "BusinessTech",
           "23 Nov",
           "No new mayor for Joburg as vote postponed",
           "https://businesstech.co.za/news/government/885803/no-mayor-for-joburg-as-vote-postponed/"
-        ],
-        [
-          "Mail & Guardian",
-          "23 Nov",
-          "ANC rejects ActionSA offer to accommodate regional chair Loyiso Masuku as PR councillor",
-          "https://mg.co.za/politics/2026-11-23-anc-rejects-actionsa-offer-to-accommodate-regional-chair-loyiso-masuku-as-pr-councillor/"
-        ],
-        [
-          "Daily Maverick",
-          "22 Nov",
-          "Mashaba set for Joburg mayoralty as ANC, ActionSA, MK and EFF seal metro pact",
-          "https://www.dailymaverick.co.za/article/2026-11-23-mashaba-set-for-joburg-mayoralty-as-anc-actionsa-mk-and-eff-seal-metro-pact/"
         ]
       ]
     },
@@ -61,9 +61,15 @@
           "MK"
         ]
       },
-      "lean": 2,
-      "why": "The ANC has reportedly offered ActionSA the Tshwane mayoralty, and ActionSA says any deal must keep Nasiphi Moya as mayor. ActionSA turned down the DA’s final offer. The new council sits on Thursday.",
+      "lean": 1,
+      "why": "The ANC has reportedly offered ActionSA the Tshwane mayoralty, keeping Nasiphi Moya in office, and ActionSA turned down the DA. But the deal is unsigned: the ANC rejected ActionSA’s seat offer and its NEC has yet to decide. The council sits on Thursday.",
       "src": [
+        [
+          "eNCA",
+          "23 Nov",
+          "ActionSA places coalition ball in ANC’s court",
+          "https://www.enca.com/news/actionsa-places-coalition-ball-ancs-court"
+        ],
         [
           "Rekord",
           "23 Nov",
@@ -75,12 +81,6 @@
           "18 Nov",
           "ANC offers ActionSA Joburg and Tshwane mayoral seats, keeps Ekurhuleni in coalition deal",
           "https://iol.co.za/news/politics/2026-11-18-anc-offers-actionsa-joburg-and-tshwane-mayoral-seats-keeps-ekurhuleni-in-coalition-deal/"
-        ],
-        [
-          "IOL",
-          "22 Nov",
-          "ActionSA’s power-sharing offer to the DA rejected as Gauteng coalition talks turn bitter",
-          "https://iol.co.za/news/politics/2026-11-22-actionsas-power-sharing-offer-to-the-da-rejected-as-gauteng-coalition-talks-turn-bitter/"
         ]
       ]
     },
@@ -103,8 +103,14 @@
         ]
       },
       "lean": 1,
-      "why": "Under the ANC’s reported offer to ActionSA, the ANC would keep Ekurhuleni. No Ekurhuleni deal has been reported as signed.",
+      "why": "Under the ANC’s reported offer to ActionSA, the ANC would keep Ekurhuleni. No deal has been signed, and the ANC’s NEC is still deciding between ActionSA and the DA, whose offer would give the DA Ekurhuleni.",
       "src": [
+        [
+          "eNCA",
+          "23 Nov",
+          "ActionSA places coalition ball in ANC’s court",
+          "https://www.enca.com/news/actionsa-places-coalition-ball-ancs-court"
+        ],
         [
           "IOL",
           "18 Nov",

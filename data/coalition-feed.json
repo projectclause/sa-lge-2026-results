@@ -2547,7 +2547,8 @@
         "An unnamed senior ANC source says the Gauteng task team rejected the offer",
         "The SACP says its seats are not open to any party",
         "ANC regional secretary Sasabona Manganye confirmed the party turned the offer down, the Mail & Guardian reports",
-        "Unnamed ANC sources told the M&G that bringing Masuku in on the SACP’s ticket is being discussed"
+        "Unnamed ANC sources told the M&G that bringing Masuku in on the SACP’s ticket is being discussed",
+        "Manganye told IOL taking an ActionSA seat would be “madness” and against the ANC’s constitution"
       ],
       "sec": [
         [
@@ -2599,6 +2600,18 @@
           "h": "ANC rejects ActionSA offer to accommodate regional chair Loyiso Masuku as PR councillor",
           "d": "2026-11-23",
           "url": "https://mg.co.za/politics/2026-11-23-anc-rejects-actionsa-offer-to-accommodate-regional-chair-loyiso-masuku-as-pr-councillor/"
+        },
+        {
+          "src": "IOL",
+          "h": "‘Madness’: ANC erupts over ActionSA’s offer to make Loyiso Masuku councillor",
+          "d": "2026-11-23",
+          "url": "https://iol.co.za/lge2026/2026-11-23-madness-anc-erupts-over-actionsas-offer-to-make-loyiso-masuku-councillor/"
+        },
+        {
+          "src": "Sowetan",
+          "h": "ANC rejects ActionSA offer to bring Loyiso Masuku into Joburg council",
+          "d": "2026-11-23",
+          "url": "https://www.sowetan.co.za/news/2026-11-23-anc-rejects-actionsa-offer-to-bring-loyiso-masuku-into-joburg-council/"
         }
       ]
     },
@@ -3152,7 +3165,8 @@
         "Beaumont said progress was being made with both the DA and ANC",
         "He called the ANC’s offer attractive",
         "He said ActionSA serves at the pleasure of no other party",
-        "ActionSA says its problem is with Zille and Brink, not the DA, and will back the DA’s mayoral candidate in Nelson Mandela Bay, EWN reports"
+        "ActionSA says its problem is with Zille and Brink, not the DA, and will back the DA’s mayoral candidate in Nelson Mandela Bay, EWN reports",
+        "Mashaba says the ball is now in the ANC’s court and ActionSA will respect whatever its NEC decides"
       ],
       "sec": [
         [
@@ -3257,6 +3271,18 @@
           "h": "ActionSA leader defends working with ANC to ensure service delivery and stability",
           "d": "2026-11-09",
           "url": "https://www.ewn.co.za/2026/11/09/actionsa-leader-defends-working-with-anc-to-secure-service-delivery-and-stability"
+        },
+        {
+          "src": "eNCA",
+          "h": "ActionSA places coalition ball in ANC’s court",
+          "d": "2026-11-23",
+          "url": "https://www.enca.com/news/actionsa-places-coalition-ball-ancs-court"
+        },
+        {
+          "src": "eNCA",
+          "h": "ActionSA’s Mashaba confirms coalition talks with DA have collapsed",
+          "d": "2026-11-23",
+          "url": "https://www.enca.com/news-top-stories/actionsas-mashaba-confirms-coalition-talks-da-have-collapsed"
         }
       ]
     },
