@@ -24,9 +24,9 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
   <link rel="canonical" href="https://preamble.co.za/map.html">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/map.css">
 </head>
-<body class="rs-page">
-  <div class="tk" aria-label="Results at a glance"></div>
+<body class="xm-page">
   <header class="masthead">
     <div class="wrap masthead-row">
       <a class="brand" href="index.html">PREAMBLE</a>
@@ -34,39 +34,49 @@
     </div>
   </header>
 
-    <main id="top" class="rs-wrap mp-wrap">
-    <p class="live"><span class="live-b">LIVE</span><span class="live-t">Last updated <time class="live-time"></time></span><span class="live-c" aria-live="off">· Refreshing in <b class="live-n">60</b>s</span></p>
-    <header class="mp-head">
-      <p class="mp-kick">2026 Local Elections</p>
-      <h1 class="mp-title">An Extremely Detailed Map of the 2026 Local Elections</h1>
-      <p class="mp-dek">Results from all 4,468 wards in South Africa’s 4 November local elections. Search for an address or place, or tap a ward to see who won it.</p>
-      <p class="mp-by">By Preamble · Updated 23 Nov 2026</p>
-    </header>
-    <section class="mp" aria-label="Ward map">
-      <form class="mp-search" role="search" autocomplete="off">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-        <input type="search" name="q" placeholder="Search for an address or place" aria-label="Search for an address or place" aria-autocomplete="list" aria-controls="mp-sug">
-        <button type="button" class="mp-loc" aria-label="Use my location" title="Use my location"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.5" fill="currentColor"/><circle cx="12" cy="12" r="7.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
-        <ul id="mp-sug" class="mp-sug" role="listbox" hidden></ul>
-      </form>
-      <div class="mp-mapwrap">
-        <div class="mp-map"><p class="dm-loading">Loading 4,468 wards…</p></div>
-        <div class="mp-zoom"><button type="button" class="mp-zin" aria-label="Zoom in">+</button><button type="button" class="mp-zout" aria-label="Zoom out">−</button><button type="button" class="mp-zreset" aria-label="Show all of South Africa" title="Show all of South Africa"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>
-        <div class="mp-tip" hidden></div>
-        <p class="mp-msg" hidden></p>
+  <main id="top" class="xm">
+    <section class="xm-stage" aria-label="Ward map">
+      <div class="xm-map"><p class="xm-loading">Loading 4,468 wards…</p></div>
+      <div class="xm-panel">
+        <header class="xm-head">
+          <h1 class="xm-title">An Extremely Detailed Map of the 2026 Local Elections</h1>
+          <p class="xm-dek">Explore results from all 4,468 wards in South Africa’s Nov. 4 local elections.</p>
+          <p class="xm-by">By <b>Preamble</b> · <time datetime="2026-11-23">Nov. 23, 2026</time></p>
+        </header>
+      <div class="xm-top">
+        <form class="xm-search" role="search" autocomplete="off">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <input type="search" name="q" placeholder="Search for an address or place" aria-label="Search for an address or place" aria-autocomplete="list" aria-controls="xm-sug">
+          <button type="button" class="xm-loc" aria-label="Use my location" title="Use my location"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 3 3 10.5l7.5 3 3 7.5z" fill="currentColor"/></svg></button>
+          <ul id="xm-sug" class="xm-sug" role="listbox" hidden></ul>
+        </form>
+        <div class="xm-modes" role="group" aria-label="Map shows"><button type="button" data-mode="win" aria-pressed="true">Winner</button><button type="button" data-mode="to" aria-pressed="false">Turnout</button></div>
       </div>
-      <div class="mp-legend"></div>
-      <div class="mp-ward" hidden></div>
+      </div>
+      <div class="xm-legend" aria-live="polite"></div>
+      <div class="xm-zoom"><button type="button" class="xm-zin" aria-label="Zoom in">+</button><button type="button" class="xm-zout" aria-label="Zoom out">−</button><button type="button" class="xm-zreset" aria-label="Show all of South Africa" title="Show all of South Africa"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>
+      <div class="xm-tip" hidden></div>
+      <div class="xm-card" hidden></div>
+      <p class="xm-msg" hidden></p>
     </section>
-    <p class="mp-note">Each ward is coloured by the party of the winning ward candidate, darker where the winning margin was bigger. Ward results: Independent Electoral Commission. Address search uses OpenStreetMap; your location is used only in your browser to find your ward.</p>
+
+    <article class="xm-body">
+      <p>Every ward in the country elected its own councillor on Nov. 4. This map shows who won each one, shaded by how big the win was, so it is possible to see the election street by street: the DA’s hold on Cape Town and the suburbs of Gauteng’s metros, the ANC’s reach across rural South Africa, and MK’s sweep through much of KwaZulu-Natal.</p>
+      <p>Search for an address or place to find your ward, or use your location. Zoom in to see individual wards, and tap or hover over a ward to see every candidate who ran.</p>
+      <h2>How to read the map</h2>
+      <p>Each ward is coloured by the party of the winning ward candidate. Darker shades mean a larger margin of victory, the gap between the winner and the runner-up as a share of all valid votes. Grey wards have no results in the data. Switch to <b>Turnout</b> to see the share of registered voters who cast a ballot in each ward.</p>
+      <h2>About the data</h2>
+      <p>Ward results are from the Independent Electoral Commission’s final results, declared on Nov. 8, 2026. Ward boundaries are simplified so the map loads quickly. Some wards list only their leading candidates; for those, the total vote is estimated from the winner’s share. The ward ballot elects half of each council; seats are then topped up from party lists using the proportional ballot, which is not shown here.</p>
+      <h2>How we made this map</h2>
+      <p>Addresses and places are found with OpenStreetMap and matched to the ward that contains them. If you use your location, it stays in your browser and is used only to find your ward.</p>
+      <p class="xm-credit">Map by Preamble. Data: Independent Electoral Commission; place search © OpenStreetMap contributors.</p>
+    </article>
   </main>
 
-<footer class="footer"><div class="wrap ft-row"><span>PREAMBLE · Data: Independent Electoral Commission</span><nav class="ft-social" aria-label="Preamble on social media"><a href="https://www.instagram.com/preamblehqdotcom/" target="_blank" rel="noopener" aria-label="Preamble on Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.4" cy="6.6" r="1.3" fill="currentColor"/></svg></a><a href="https://youtube.com/preambleyt" target="_blank" rel="noopener" aria-label="Preamble on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4" fill="currentColor"/><path d="M10 9l5 3-5 3z" fill="#fff"/></svg></a><a href="https://preamble.substack.com/" target="_blank" rel="noopener" aria-label="Preamble on Substack"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h14v2.4H5zM5 7.2h14v2.4H5zM5 11.4h14V21l-7-3.9L5 21z" fill="currentColor"/></svg></a><a href="mailto:preamblehq@gmail.com" aria-label="Email Preamble at preamblehq@gmail.com" title="preamblehq@gmail.com"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5A1.5 1.5 0 0 1 4.5 5h15A1.5 1.5 0 0 1 21 6.5v11a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.6 6.4 12 13l8.4-6.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></a></nav><a class="ft-mail" href="mailto:preamblehq@gmail.com">preamblehq@gmail.com</a></div></footer>
+  <footer class="footer"><div class="wrap ft-row"><span>PREAMBLE · Data: Independent Electoral Commission</span><nav class="ft-social" aria-label="Preamble on social media"><a href="https://www.instagram.com/preamblehqdotcom/" target="_blank" rel="noopener" aria-label="Preamble on Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.4" cy="6.6" r="1.3" fill="currentColor"/></svg></a><a href="https://youtube.com/preambleyt" target="_blank" rel="noopener" aria-label="Preamble on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4" fill="currentColor"/><path d="M10 9l5 3-5 3z" fill="#fff"/></svg></a><a href="https://preamble.substack.com/" target="_blank" rel="noopener" aria-label="Preamble on Substack"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h14v2.4H5zM5 7.2h14v2.4H5zM5 11.4h14V21l-7-3.9L5 21z" fill="currentColor"/></svg></a><a href="mailto:preamblehq@gmail.com" aria-label="Email Preamble at preamblehq@gmail.com" title="preamblehq@gmail.com"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5A1.5 1.5 0 0 1 4.5 5h15A1.5 1.5 0 0 1 21 6.5v11a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.6 6.4 12 13l8.4-6.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></a></nav><a class="ft-mail" href="mailto:preamblehq@gmail.com">preamblehq@gmail.com</a></div></footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
-  <script src="js/ticker.js"></script>
   <script src="js/map.js"></script>
-  <script src="js/live.js"></script>
   <script src="js/mobile.js"></script>
   <script src="js/signup.js"></script>
 </body>

@@ -1104,87 +1104,10 @@ body.has-ask { padding-bottom: 96px; }
   .live + .my-dek { margin-top: 0; }
 }
 
-/* ---------- Map page: An Extremely Detailed Map of the 2026 Local Elections ---------- */
-.mp-head { max-width: 760px; margin: 14px 0 18px; }
-.mp-kick { margin: 0 0 8px; font-size: 13px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--muted2); }
-.mp-title { margin: 0; font-size: clamp(30px, 4.6vw, 48px); line-height: 1.06; font-weight: 700; letter-spacing: -.015em; text-wrap: balance; }
-.mp-dek { margin: 12px 0 0; font-size: 18px; line-height: 1.45; color: var(--ink2); }
-.mp-by { margin: 12px 0 0; font-size: 13.5px; font-weight: 600; color: var(--muted2); }
-.mp { position: relative; }
-.mp-search { position: absolute; z-index: 6; top: 12px; left: 12px; width: min(380px, calc(100% - 24px)); display: flex; align-items: center; gap: 8px; height: 46px; padding: 0 6px 0 14px; background: #fff; border: 1px solid #c9ced6; box-shadow: 0 4px 16px rgba(18,18,18,.12); }
-.mp-search > svg { width: 18px; height: 18px; color: #5b616b; flex: none; }
-.mp-search input { flex: 1; min-width: 0; height: 100%; border: 0; outline: 0; background: none; font: 500 15.5px "DM Sans", sans-serif; color: var(--text); }
-.mp-search input::-webkit-search-cancel-button { cursor: pointer; }
-.mp-search:focus-within { border-color: #121212; }
-.mp-loc { flex: none; width: 36px; height: 36px; display: grid; place-items: center; border: 0; background: none; color: #1f5fc2; cursor: pointer; border-radius: 50%; }
-.mp-loc:hover { background: #eef3fb; }
-.mp-loc svg { width: 20px; height: 20px; }
-.mp-sug { position: absolute; top: 100%; left: -1px; right: -1px; margin: 0; padding: 4px 0; list-style: none; background: #fff; border: 1px solid #c9ced6; border-top: 0; box-shadow: 0 10px 20px rgba(18,18,18,.12); max-height: 320px; overflow-y: auto; }
-.mp-sug li { display: flex; flex-direction: column; gap: 1px; padding: 8px 14px; cursor: pointer; }
-.mp-sug li b { font-size: 14.5px; font-weight: 700; }
-.mp-sug li span { font-size: 12.5px; color: var(--muted2); }
-.mp-sug li:hover, .mp-sug li.on { background: #f1f3f6; }
-.mp-sug li.mp-sug-a { border-top: 1px solid var(--rule); }
-.mp-sug li.mp-sug-a b { color: #1f5fc2; }
-.mp-mapwrap { position: relative; border: 1px solid #e3e7ee; background: #fafbfc; }
-.mp-map { aspect-ratio: 348 / 307; max-height: 82vh; width: 100%; margin: 0 auto; }
-.mp-map svg { display: block; width: 100%; height: 100%; touch-action: none; cursor: grab; }
-.mp-map svg:active { cursor: grabbing; }
-.mp-wards path { stroke: #fff; stroke-width: .35px; vector-effect: non-scaling-stroke; stroke-linejoin: round; }
-.mp-wards path:hover { stroke: #121212; stroke-width: 1.2px; }
-.mp-hi path { vector-effect: none; pointer-events: none; }
-.mp-city { pointer-events: none; }
-.mp-city circle { fill: #121212; stroke: #fff; }
-.mp-city text { font-family: "DM Sans", sans-serif; font-weight: 700; text-anchor: middle; fill: #121212; stroke: #fff; paint-order: stroke; stroke-linejoin: round; }
-.mp-pin circle { pointer-events: none; }
-.mp-pin-o { fill: rgba(31,95,194,.18); stroke: none; }
-.mp-pin-i { fill: #1f5fc2; stroke: #fff; }
-.mp-zoom { position: absolute; z-index: 5; right: 12px; bottom: 12px; display: flex; flex-direction: column; border: 1px solid #c9ced6; background: #fff; box-shadow: 0 2px 8px rgba(18,18,18,.1); }
-.mp-zoom button { width: 38px; height: 38px; border: 0; background: #fff; font: 600 20px/1 "DM Sans", sans-serif; color: var(--text); cursor: pointer; display: grid; place-items: center; }
-.mp-zoom button + button { border-top: 1px solid #e3e7ee; }
-.mp-zoom button:hover { background: #f1f3f6; }
-.mp-zoom svg { width: 17px; height: 17px; }
-.mp-tip { position: absolute; z-index: 7; width: 200px; pointer-events: none; background: #fff; border: 1px solid #c9ced6; box-shadow: 0 6px 18px rgba(18,18,18,.14); padding: 8px 10px; font-size: 13px; }
-.mp-tip b { display: block; margin-bottom: 4px; font-size: 13.5px; }
-.mp-tip-r { display: grid; grid-template-columns: 10px 1fr auto; gap: 6px; align-items: center; padding: 1px 0; color: var(--ink2); }
-.mp-tip-r i { width: 10px; height: 10px; }
-.mp-tip-r.lead { color: var(--text); font-weight: 700; }
-.mp-msg { position: absolute; z-index: 6; left: 50%; bottom: 16px; transform: translateX(-50%); margin: 0; max-width: calc(100% - 100px); padding: 8px 14px; border-radius: 999px; background: #121212; color: #fff; font-size: 13.5px; font-weight: 600; text-align: center; }
-.mp-legend { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 10px 28px; margin: 14px 0 0; }
-.mp-leg-h { width: 100%; font-size: 12.5px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--muted2); }
-.mp-leg-rows { display: grid; grid-template-columns: repeat(4, minmax(0, max-content)); gap: 6px 26px; }
-.mp-leg-r { display: grid; grid-template-columns: 70px 92px auto; align-items: center; gap: 8px; font-size: 13.5px; }
-.mp-leg-n { font-weight: 700; }
-.mp-leg-bar { display: grid; grid-template-columns: repeat(4, 1fr); height: 12px; }
-.mp-leg-c { font-size: 12.5px; color: var(--muted2); white-space: nowrap; }
-.mp-leg-scale { display: flex; justify-content: space-between; width: 92px; margin-left: 78px; font-size: 11.5px; color: var(--muted2); gap: 6px; white-space: nowrap; }
-.mp-ward { margin: 18px 0 0; max-width: 620px; border: 1px solid #e3e7ee; padding: 16px 18px; background: #fff; }
-.mp-ward-h { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
-.mp-ward-k { margin: 0; font-size: 12.5px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--muted2); }
-.mp-ward-h h2 { margin: 2px 0 0; font-size: 26px; font-weight: 700; }
-.mp-ward-x { width: 34px; height: 34px; border: 0; background: none; font-size: 24px; line-height: 1; color: #5b616b; cursor: pointer; flex: none; }
-.mp-ward-win { display: flex; align-items: center; gap: 8px; margin: 8px 0 12px; font-size: 14.5px; }
-.mp-ward-win i, .mp-ward-c i { width: 10px; height: 10px; flex: none; display: inline-block; }
-.mp-ward-th, .mp-ward-r { display: grid; grid-template-columns: minmax(0, 1fr) 72px 48px; gap: 10px; align-items: center; }
-.mp-ward-th { padding-bottom: 6px; border-bottom: 1px solid #121212; font-size: 12px; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; color: var(--muted2); }
-.mp-ward-th span + span, .mp-ward-r span + span { text-align: right; font-variant-numeric: tabular-nums; }
-.mp-ward-r { padding: 7px 0; border-bottom: 1px solid var(--rule); font-size: 14px; }
-.mp-ward-c { display: flex; align-items: center; gap: 8px; min-width: 0; }
-.mp-ward-c em { font-style: normal; font-weight: 600; }
-.mp-ward-c em b { font-weight: 400; color: var(--muted2); }
-.mp-ward-f { margin: 8px 0 0; font-size: 12.5px; color: var(--muted2); }
-.mp-note { max-width: 760px; margin: 18px 0 0; font-size: 12.5px; line-height: 1.5; color: var(--muted2); }
-@media (max-width: 900px) { .mp-leg-rows { grid-template-columns: repeat(2, minmax(0, max-content)); } }
+/* breaking headline on the home page: link to the tracker, and a tighter fit on phones */
+.rs-headline .hl-3 a { color: var(--text); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; white-space: nowrap; }
 @media (max-width: 720px) {
-  .mp-head { margin-top: 10px; }
-  .mp-dek { font-size: 16px; }
-  .mp-search { position: relative; top: 0; left: 0; width: 100%; margin: 0 0 10px; box-shadow: none; }
-  .mp-mapwrap { margin: 0 calc(-1 * max(16px, env(safe-area-inset-left, 0px))); border-left: 0; border-right: 0; }
-  .mp-map { aspect-ratio: 348 / 322; height: auto; max-height: none; }
-  .mp-leg-rows { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 6px 14px; }
-  .mp-leg-r { grid-template-columns: 58px minmax(40px, 1fr); }
-  .mp-leg-c { display: none; }
-  .mp-leg-scale { margin-left: 0; width: 100%; justify-content: flex-start; gap: 14px; }
-  .mp-ward { padding: 14px; }
-  .mp-zoom { right: max(12px, env(safe-area-inset-right, 0px)); }
+  .rs-headline { margin: 6px 0 16px; }
+  .rs-headline .hl-1, .rs-headline .hl-2 { font-size: clamp(30px, 10.6vw, 44px); }
+  .rs-headline .hl-3 { font-size: 14px; max-width: 34ch; margin-left: auto; margin-right: auto; }
 }

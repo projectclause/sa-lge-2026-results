@@ -61,8 +61,14 @@ window.INITIALS = (id) => String(id).split(/\s+/).filter((w) => !/^(of|the|for|a
     foot: FOOT.concat(["Votes on the ward and party ballots added together, so each voter counts more than once."]), file: "south-africa-2026-results"
   });
   window.SHARE.panel = natShare;
+  // breaking news: when set, this headline leads the home page whichever council is showing
+  const BREAKING = ["ANC NEC to finalise", "coalition deals", "The ANC’s national executive committee meets today to consider its negotiators’ report on coalition talks, The Citizen reports. <a href=\"coalitions.html#ramaphosa\">Follow it in the Coalitions Tracker →</a>"];
+  function putBreaking() {
+    const el = document.querySelector(".rs-headline"); el.hidden = !BREAKING;
+    if (BREAKING) el.innerHTML = `<span class="hl-1">${BREAKING[0]}</span><span class="hl-2">${BREAKING[1]}</span><span class="hl-3">${BREAKING[2]}</span>`;
+  }
   function showNational() {
-    document.querySelector(".rs-headline").hidden = true;
+    putBreaking();
     window.SHARE.panel = natShare;
     shown = "ZA";
     hEl.innerHTML = "<b>National results</b>";
@@ -96,7 +102,7 @@ const HEADLINES = {
   JHB: ["Herman Mashaba", "expected to be elected Mayor of Johannesburg", "ActionSA\u2019s Herman Mashaba is expected to be elected by the new council with ANC and MK support."],
       TSH: ["Nasiphi Moya", "expected to be elected Mayor of Tshwane", "ActionSA’s Nasiphi Moya is expected to be elected Mayor of Tshwane (Pretoria) by the new council."]
 };
-const hl = document.querySelector(".rs-headline"), H = HEADLINES[code];
+const hl = document.querySelector(".rs-headline"), H = BREAKING || HEADLINES[code];
 hl.hidden = !H;
 if (H) hl.innerHTML = `<span class="hl-1">${H[0]}</span><span class="hl-2">${H[1]}</span><span class="hl-3">${H[2]}</span>`;
     if (!M) return;

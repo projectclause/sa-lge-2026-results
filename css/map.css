@@ -1,0 +1,123 @@
+/* Map page, modelled on the NYT's "An Extremely Detailed Map of the 2024 Election": the map fills the screen and
+   everything else floats over it (title card with search, layer toggle, legend, zoom, ward card), then a short
+   article underneath. Uses the site's own font. Only map.html loads this file. */
+.xm-page { background: #fff; }
+.xm-page .masthead { position: relative; top: 0; }
+.xm { padding: 0; max-width: none; }
+
+/* the map: edge to edge, the full screen under the menu */
+.xm-stage { position: relative; height: calc(100vh - 52px); height: calc(100svh - 52px); min-height: 540px; background: #f3f3f1; overflow: hidden; }
+.xm-map, .xm-map svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.xm-map svg { display: block; touch-action: none; cursor: grab; }
+.xm-map svg:active { cursor: grabbing; }
+.xm-loading { position: absolute; inset: 0; display: grid; place-items: center; margin: 0; font-size: 14px; color: #727272; }
+.xm-wards path { stroke: #fff; stroke-width: .3px; vector-effect: non-scaling-stroke; stroke-linejoin: round; }
+.xm-wards path:hover { stroke: #121212; stroke-width: 1.3px; }
+.xm-hi path { pointer-events: none; }
+.xm-lab { pointer-events: none; }
+.xm-lab text { fill: #121212; stroke: #fff; paint-order: stroke; stroke-linejoin: round; font-weight: 600; }
+.xm-lab circle { fill: #121212; stroke: #fff; }
+.xm-lab.prov text { fill: #6b6b6b; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; stroke: rgba(255,255,255,.85); }
+.xm-pin circle { pointer-events: none; }
+.xm-pin-o { fill: rgba(18,18,18,.16); }
+.xm-pin-i { fill: #121212; stroke: #fff; }
+
+/* title card floating over the map, top left: headline, dek, byline, then search and the layer toggle */
+.xm-panel { position: absolute; z-index: 6; top: 18px; left: 18px; width: min(390px, calc(100% - 100px)); padding: 18px 18px 16px; background: rgba(255,255,255,.94); border: 1px solid rgba(0,0,0,.08); border-radius: 4px; box-shadow: 0 2px 14px rgba(0,0,0,.12); backdrop-filter: blur(6px); }
+.xm-title { margin: 0; font-size: 27px; line-height: 1.12; font-weight: 700; letter-spacing: -.01em; text-wrap: balance; color: #121212; }
+.xm-dek { margin: 8px 0 0; font-size: 15px; line-height: 1.4; color: #363636; }
+.xm-by { margin: 8px 0 14px; font-size: 13px; color: #727272; }
+.xm-by b { color: #121212; font-weight: 700; }
+.xm-top { display: flex; flex-direction: column; gap: 10px; }
+.xm-search { position: relative; height: 44px; display: flex; align-items: center; gap: 8px; padding: 0 4px 0 12px; background: #fff; border: 1px solid #c7c7c7; border-radius: 3px; }
+.xm-search:focus-within { border-color: #121212; }
+.xm-search > svg { width: 17px; height: 17px; color: #727272; flex: none; }
+.xm-search input { flex: 1; min-width: 0; height: 100%; border: 0; outline: 0; background: none; font: 500 15px var(--font, "DM Sans", sans-serif); color: #121212; }
+.xm-search input::placeholder { color: #8a8a8a; }
+.xm-loc { flex: none; width: 36px; height: 36px; display: grid; place-items: center; border: 0; border-left: 1px solid #e2e2e2; background: none; color: #1f5fc2; cursor: pointer; }
+.xm-loc svg { width: 17px; height: 17px; }
+.xm-loc:hover { color: #121212; }
+.xm-sug { position: absolute; top: calc(100% + 4px); left: -1px; right: -1px; z-index: 2; margin: 0; padding: 4px 0; list-style: none; background: #fff; border: 1px solid #c7c7c7; border-radius: 3px; box-shadow: 0 6px 18px rgba(0,0,0,.14); max-height: 330px; overflow-y: auto; }
+.xm-sug li { display: flex; flex-direction: column; gap: 1px; padding: 8px 12px; cursor: pointer; }
+.xm-sug li b { font-size: 14.5px; font-weight: 600; color: #121212; }
+.xm-sug li span { font-size: 12.5px; color: #727272; }
+.xm-sug li:hover, .xm-sug li.on { background: #f3f3f3; }
+.xm-sug li.xm-sug-a { border-top: 1px solid #ececec; }
+.xm-sug li.xm-sug-a b { color: #1f5fc2; }
+.xm-modes { display: flex; align-self: flex-start; height: 36px; padding: 3px; background: #f1f1f1; border-radius: 3px; }
+.xm-modes button { padding: 0 14px; border: 0; border-radius: 2px; background: none; font: 600 13.5px var(--font, "DM Sans", sans-serif); color: #363636; cursor: pointer; }
+.xm-modes button[aria-pressed="true"] { background: #121212; color: #fff; }
+
+.xm-zoom { position: absolute; z-index: 5; top: 18px; right: 18px; display: flex; flex-direction: column; background: #fff; border: 1px solid #c7c7c7; border-radius: 3px; box-shadow: 0 1px 4px rgba(0,0,0,.12); overflow: hidden; }
+.xm-zoom button { width: 38px; height: 38px; display: grid; place-items: center; border: 0; background: #fff; font: 500 22px/1 var(--font, "DM Sans", sans-serif); color: #121212; cursor: pointer; }
+.xm-zoom button + button { border-top: 1px solid #e2e2e2; }
+.xm-zoom button:hover { background: #f3f3f3; }
+.xm-zoom svg { width: 16px; height: 16px; }
+
+/* legend floating bottom left */
+.xm-legend { position: absolute; z-index: 5; left: 18px; bottom: 18px; max-width: calc(100% - 36px); padding: 10px 12px 9px; background: rgba(255,255,255,.94); border: 1px solid rgba(0,0,0,.08); border-radius: 4px; box-shadow: 0 2px 10px rgba(0,0,0,.1); }
+.xm-leg-h { margin: 0 0 6px; font-size: 12px; font-weight: 700; color: #121212; }
+.xm-leg-g { display: grid; grid-template-columns: auto repeat(4, 34px); gap: 3px 2px; align-items: center; }
+.xm-leg-g .n { padding-right: 8px; font-size: 12px; font-weight: 600; color: #363636; white-space: nowrap; }
+.xm-leg-g i { height: 11px; }
+.xm-leg-g .s { font-size: 10.5px; color: #727272; text-align: center; white-space: nowrap; }
+.xm-leg-row { display: flex; align-items: center; gap: 6px; margin-top: 6px; font-size: 11.5px; color: #727272; }
+.xm-leg-row i { width: 12px; height: 11px; background: #dcdcdc; }
+.xm-leg-ramp { display: grid; grid-template-columns: repeat(5, 30px); gap: 2px; }
+.xm-leg-ramp i { height: 11px; }
+.xm-leg-sc { display: flex; justify-content: space-between; width: 158px; font-size: 10.5px; color: #727272; margin-top: 3px; }
+
+/* hover tooltip (desktop) */
+.xm-tip { position: absolute; z-index: 8; width: 260px; pointer-events: none; padding: 10px 12px 8px; background: #fff; border: 1px solid #c7c7c7; border-radius: 4px; box-shadow: 0 4px 14px rgba(0,0,0,.16); }
+.xm-tip-h { margin: 0; font-size: 15px; font-weight: 700; color: #121212; }
+.xm-tip-p { margin: 1px 0 8px; font-size: 12.5px; color: #727272; }
+.xm-th, .xm-row { display: grid; grid-template-columns: minmax(0, 1fr) 56px 44px; gap: 6px; align-items: center; }
+.xm-th { padding-bottom: 3px; font-size: 10.5px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: #8a8a8a; }
+.xm-th span + span, .xm-row .v, .xm-row .p { text-align: right; font-variant-numeric: tabular-nums; }
+.xm-row { padding: 4px 0; border-top: 1px solid #ececec; font-size: 13px; color: #363636; }
+.xm-row .c { display: flex; align-items: center; gap: 6px; min-width: 0; }
+.xm-row .c i { width: 10px; height: 10px; flex: none; }
+.xm-row .c span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.xm-row.win { font-weight: 700; color: #121212; }
+.xm-row.win .p::before { content: "✓ "; font-size: 11px; }
+.xm-foot { margin: 6px 0 0; font-size: 11.5px; color: #727272; }
+
+/* clicked ward: card on the right (desktop), sheet from the bottom (phones) */
+.xm-card { position: absolute; z-index: 7; top: 18px; right: 70px; width: 330px; max-height: calc(100% - 36px); overflow-y: auto; padding: 14px 14px 10px; background: #fff; border: 1px solid #c7c7c7; border-radius: 4px; box-shadow: 0 6px 20px rgba(0,0,0,.18); }
+.xm-card-x { position: absolute; top: 6px; right: 6px; width: 32px; height: 32px; border: 0; background: none; font-size: 22px; line-height: 1; color: #727272; cursor: pointer; }
+.xm-card .xm-tip-h { font-size: 20px; padding-right: 30px; }
+.xm-card .xm-row .c span { white-space: normal; }
+.xm-name { font-weight: 400; color: #727272; }
+.xm-share { margin-top: 8px; padding: 0; border: 0; background: none; font: 600 12.5px var(--font, "DM Sans", sans-serif); color: #1f5fc2; cursor: pointer; }
+.xm-msg { position: absolute; z-index: 9; left: 50%; bottom: 18px; transform: translateX(-50%); margin: 0; max-width: calc(100% - 40px); padding: 8px 14px; border-radius: 4px; background: #121212; color: #fff; font-size: 13.5px; font-weight: 600; text-align: center; }
+
+/* the article under the map */
+.xm-body { max-width: 640px; margin: 0 auto; padding: 32px max(20px, env(safe-area-inset-right, 0px)) 40px max(20px, env(safe-area-inset-left, 0px)); font-size: 17px; line-height: 1.6; color: #121212; }
+.xm-body p { margin: 0 0 16px; }
+.xm-body h2 { margin: 30px 0 8px; font-size: 18px; font-weight: 700; }
+.xm-credit { margin-top: 24px !important; padding-top: 12px; border-top: 1px solid #e2e2e2; font-size: 13px !important; color: #727272; }
+
+/* phones: still one full-screen map with things floating on it; the title card sits across the top
+   (the map starts just under it), the legend bottom left, zoom bottom right, ward results slide up from the bottom */
+@media (max-width: 720px) {
+  .xm-stage { height: calc(100vh - 48px); height: calc(100svh - 48px); min-height: 520px; }
+  .xm-map { top: var(--xm-top, 0px); }
+  .xm-panel { top: 0; left: 0; right: 0; width: auto; padding: 12px max(12px, env(safe-area-inset-right, 0px)) 12px max(12px, env(safe-area-inset-left, 0px)); border: 0; border-bottom: 1px solid rgba(0,0,0,.08); border-radius: 0; box-shadow: 0 2px 10px rgba(0,0,0,.08); }
+  .xm-title { font-size: 21px; }
+  .xm-dek { display: none; }
+  .xm-by { margin: 5px 0 10px; font-size: 12px; }
+  .xm-top { gap: 8px; }
+  .xm-search { width: 100%; }
+  .xm-modes { height: 34px; }
+  .xm-modes button { padding: 0 10px; font-size: 13px; }
+  .xm-zoom { top: auto; bottom: 12px; right: 12px; }
+  .xm-zoom button { width: 40px; height: 40px; }
+  .xm-legend { left: 10px; bottom: 12px; max-width: calc(100% - 74px); padding: 8px 10px 7px; }
+  .xm-leg-g { grid-template-columns: auto repeat(4, 28px); }
+  .xm-leg-g .s { font-size: 9px; }
+  .xm-leg-ramp { grid-template-columns: repeat(5, 22px); }
+  .xm-leg-sc { width: 118px; }
+  .xm-card { position: fixed; z-index: 40; top: auto; right: 0; left: 0; bottom: 0; width: auto; max-height: 46vh; border: 0; border-top: 1px solid #c7c7c7; border-radius: 12px 12px 0 0; padding: 16px max(16px, env(safe-area-inset-right, 0px)) calc(12px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); box-shadow: 0 -6px 22px rgba(0,0,0,.18); }
+  .xm-body { font-size: 16.5px; padding-top: 24px; }
+}
+@media (max-width: 380px) { .xm-modes button { padding: 0 8px; } }
