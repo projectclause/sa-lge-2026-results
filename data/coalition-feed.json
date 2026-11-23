@@ -2168,24 +2168,47 @@
       "s": "Moichela reported sources saying smaller parties in Johannesburg favoured Mashaba for mayor because of his record in office, while noting it was not clear that all smaller parties shared that view.",
       "src": "IOL",
       "url": "https://iol.co.za/lge2026/2026-11-16-smaller-parties-rally-behind-herman-mashaba-for-joburg-mayor-as-coalition-talks-near-crunch-point/"
+    },
+    {
+      "id": "ar-official",
+      "j": "ramushwana",
+      "d": "2026-11-23",
+      "kind": "Reported",
+      "place": "Johannesburg",
+      "h": "Zille, Mashaba officially sworn in as Joburg councillors",
+      "s": "Ramushwana reported that all 270 councillors, including Zille, Mashaba and MK’s 15, had taken their oaths, with 21 parties now in the council. City manager Floyd Brink said the DA had asked for the election of the mayor to be postponed.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/2026/11/23/zille-mashaba-officially-sworn-in-as-joburg-councillors"
+    },
+    {
+      "id": "tg-eth",
+      "j": "goba",
+      "d": "2026-11-23",
+      "kind": "Reported",
+      "place": "eThekwini",
+      "h": "eThekwini insists council meeting will go ahead despite KZN Cogta’s postponement order",
+      "s": "Goba reported that KZN Cogta’s Scelo Duma had told 13 hung municipalities, eThekwini among them, to postpone Tuesday’s first council meetings, but eThekwini spokesperson Senzelwe Mzila said its meeting would still go ahead.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/2026/11/23/ethekwini-insists-council-meeting-will-go-ahead-despite-kzn-cogtas-postponement-order"
     }
   ],
   "edition": {
     "date": "2026-11-23",
-    "time": "16:40"
+    "time": "18:20"
   },
   "events": [
     {
       "id": "johannesburg",
       "cat": "Johannesburg",
       "place": "City of Johannesburg",
-      "h": "Mashaba and Zille sworn in as Joburg councillors, with the mayoral vote expected on Thursday",
-      "dek": "Johannesburg’s new council sat for the first time on Monday. The DA had asked for a delay, but Zille said it would not go to court and would move to the opposition if its final offer was rejected. The ANC, ActionSA, EFF and MK deal would make Herman Mashaba mayor.",
+      "h": "Joburg’s mayoral vote is postponed after councillors are sworn in",
+      "dek": "All 270 councillors, Mashaba and Zille among them, took their oaths on Monday, then voted to put off electing a speaker, mayor and deputy mayor. The ANC, ActionSA, EFF and MK deal that would make Mashaba mayor is still to be signed.",
       "brief": [
-        "Helen Zille and Herman Mashaba were sworn in as councillors on Monday, the Mail & Guardian reports",
-        "The council is expected to elect a speaker and mayor on Thursday",
-        "The DA had asked for the sitting to be postponed; Zille told eNCA it would not delay it through the courts",
-        "Zille: “We will never give up on Joburg”",
+        "Helen Zille, Herman Mashaba and the rest of the 270 councillors were sworn in on Monday",
+        "After an EFF motion, councillors voted to postpone the election of the speaker, mayor and deputy mayor, BusinessTech reports",
+        "MK said it would be back to elect Mashaba; other parties said they would not vote for Zille",
+        "BusinessTech says the council next meets on Friday, 27 November; EWN understands Thursday",
+        "The DA had asked for a postponement; Zille told eNCA it would not delay the council through the courts",
         "The ANC, ActionSA, EFF and MK together hold 137 of 270 seats, one more than a majority, The National reports",
         "The deal would make Mashaba mayor; IOL and Sunday World report MK’s Bongani Baloyi is expected to be his deputy"
       ],
@@ -2276,7 +2299,8 @@
         "ar-sworn",
         "km-legal",
         "km-poised",
-        "km-small"
+        "km-small",
+        "ar-official"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
@@ -2476,6 +2500,36 @@
           "h": "LIVE | ActionSA’s Herman Mashaba sworn in as City of Joburg councillor",
           "d": "2026-11-23",
           "url": "https://www.news24.com/politics/live-city-of-joburg-holds-first-council-meeting-after-local-government-elections-20261123-0640"
+        },
+        {
+          "src": "BusinessTech",
+          "h": "No new mayor for Joburg as vote postponed",
+          "d": "2026-11-23",
+          "url": "https://businesstech.co.za/news/government/885803/no-mayor-for-joburg-as-vote-postponed/"
+        },
+        {
+          "src": "EWN",
+          "h": "Zille, Mashaba officially sworn in as Joburg councillors",
+          "d": "2026-11-23",
+          "url": "https://www.ewn.co.za/2026/11/23/zille-mashaba-officially-sworn-in-as-joburg-councillors"
+        },
+        {
+          "src": "Mail & Guardian",
+          "h": "Helen Zille sworn in as Johannesburg councillor amid mayoral delays",
+          "d": "2026-11-23",
+          "url": "https://mg.co.za/politics/2026-11-23-helen-zille-sworn-in-as-johannesburg-councillor/"
+        },
+        {
+          "src": "IOL",
+          "h": "ANC, Rise Mzansi hit back at DA’s bid to delay Joburg leadership elections",
+          "d": "2026-11-23",
+          "url": "https://iol.co.za/lge2026/2026-11-23-anc-rise-mzansi-hit-back-at-das-bid-to-delay-joburg-leadership-elections/"
+        },
+        {
+          "src": "The National",
+          "h": "Brink to rule on DA bid to postpone Joburg council sitting after swearing-in",
+          "d": "2026-11-23",
+          "url": "https://thenational.co.za/news/2026-11-23-brink-to-rule-on-da-bid-to-postpone-joburg-council-sitting-after-swearing-in/"
         }
       ]
     },
@@ -2918,7 +2972,7 @@
         "Mpofu called MK’s first meeting with the DA historic",
         "But MK will focus on like-minded parties",
         "Talks with the ANC, EFF and ActionSA continue",
-        "eThekwini’s new council meets on Tuesday; a source says MK will take the mayoralty, ActionSA the deputy mayor post and the ANC the speaker",
+        "KZN Cogta has told eThekwini and 12 other hung councils to move Tuesday’s first meetings to 26 or 27 November; eThekwini says its meeting will go ahead. A source told IOL MK would take the mayoralty, ActionSA the deputy mayor post and the ANC the speaker",
         "MK’s Bongani Baloyi is tipped as Mashaba’s deputy mayor in Johannesburg, Sunday World reports"
       ],
       "sec": [
@@ -2959,7 +3013,8 @@
         "px-tip",
         "bb-dep",
         "ar-eth",
-        "ar-left"
+        "ar-left",
+        "tg-eth"
       ],
       "voices": {
         "dali": "Says MK’s vote shows voters want cooperation, warns the ANC about its partners, and met the DA for the first time while saying MK wants like-minded partners.",
@@ -2972,7 +3027,8 @@
         "mbalula": "Sources tell News24 he is pushing the MK deal on KwaZulu-Natal, where provincial leaders lean towards the DA and IFP.",
         "phakathi": "MK’s eThekwini mayoral candidate: said MK was ready to govern Durban and fix its water problems within 100 days.",
         "baloyi": "Tipped, in reports, as Mashaba’s deputy mayor in Johannesburg.",
-        "ramushwana": "Reported the ANC–MK eThekwini talks and the Council of the Left’s refusal to back ANC deals that include the DA."
+        "ramushwana": "Reported the ANC–MK eThekwini talks and the Council of the Left’s refusal to back ANC deals that include the DA.",
+        "goba": "Reported eThekwini saying its first council meeting would go ahead despite KZN Cogta’s order to postpone."
       },
       "coverage": [
         {
@@ -3070,6 +3126,18 @@
           "h": "ActionSA open to Bongani Baloyi as Mashaba’s deputy mayor in Joburg power deal",
           "d": "2026-11-22",
           "url": "https://sundayworld.co.za/politics/actionsa-open-to-bongani-baloyi-as-deputy-mayor-in-johannesburg-power-deal/"
+        },
+        {
+          "src": "IOL",
+          "h": "KZN Cogta directs 13 municipalities to postpone council meetings amid coalition talks",
+          "d": "2026-11-23",
+          "url": "https://iol.co.za/news/politics/2026-11-23-kzn-cogta-directs-13-municipalities-to-postpone-council-meetings-amid-coalition-talks/"
+        },
+        {
+          "src": "EWN",
+          "h": "eThekwini insists council meeting will go ahead despite KZN Cogta’s postponement order",
+          "d": "2026-11-23",
+          "url": "https://www.ewn.co.za/2026/11/23/ethekwini-insists-council-meeting-will-go-ahead-despite-kzn-cogtas-postponement-order"
         }
       ]
     },

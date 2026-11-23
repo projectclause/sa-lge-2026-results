@@ -21,8 +21,14 @@
         ]
       },
       "lean": 2,
-      "why": "Reports say the ANC, ActionSA, EFF and MK have agreed a pact that would make ActionSA’s Herman Mashaba mayor. Councillors were sworn in on Monday, and the mayoral vote is expected on Thursday.",
+      "why": "Reports say the ANC, ActionSA, EFF and MK have agreed a pact that would make ActionSA’s Herman Mashaba mayor. Councillors were sworn in on Monday but voted to postpone the mayoral election to later this week.",
       "src": [
+        [
+          "BusinessTech",
+          "23 Nov",
+          "No new mayor for Joburg as vote postponed",
+          "https://businesstech.co.za/news/government/885803/no-mayor-for-joburg-as-vote-postponed/"
+        ],
         [
           "Mail & Guardian",
           "23 Nov",
@@ -34,12 +40,6 @@
           "22 Nov",
           "Mashaba set for Joburg mayoralty as ANC, ActionSA, MK and EFF seal metro pact",
           "https://www.dailymaverick.co.za/article/2026-11-23-mashaba-set-for-joburg-mayoralty-as-anc-actionsa-mk-and-eff-seal-metro-pact/"
-        ],
-        [
-          "News24",
-          "19 Nov",
-          "Helen Zille concedes defeat in Johannesburg as DA set for opposition benches",
-          "https://www.news24.com/southafrica/news/helen-zille-concedes-defeat-in-johannesburg-as-da-set-for-opposition-benches-20261119-0618"
         ]
       ]
     },
@@ -136,8 +136,14 @@
         ]
       },
       "lean": 2,
-      "why": "IOL reports the ANC and MK have sealed an eThekwini deal. A source says MK will take the mayoralty at Tuesday’s first council meeting, with ActionSA as deputy mayor and the ANC as speaker. News24 reports resistance inside the KwaZulu-Natal ANC.",
+      "why": "IOL reports the ANC and MK have sealed an eThekwini deal, and a source says MK will take the mayoralty with ActionSA as deputy mayor and the ANC as speaker. KZN Cogta has ordered the first council meeting postponed; the city says it will go ahead.",
       "src": [
+        [
+          "EWN",
+          "23 Nov",
+          "eThekwini insists council meeting will go ahead despite KZN Cogta’s postponement order",
+          "https://www.ewn.co.za/2026/11/23/ethekwini-insists-council-meeting-will-go-ahead-despite-kzn-cogtas-postponement-order"
+        ],
         [
           "IOL",
           "23 Nov",
@@ -149,12 +155,6 @@
           "23 Nov",
           "ANC and MK Party seal eThekwini coalition deal as ActionSA’s future hangs in balance",
           "https://iol.co.za/news/politics/2026-11-23-anc-and-mk-party-seal-ethekwini-coalition-deal-as-actionsas-future-hangs-in-balance/"
-        ],
-        [
-          "News24",
-          "22 Nov",
-          "Inside the ANC’s KZN revolt against the MK Party deal",
-          "https://www.news24.com/politics/inside-the-ancs-kzn-revolt-against-the-mk-party-deal-20261120-1140"
         ]
       ]
     },
