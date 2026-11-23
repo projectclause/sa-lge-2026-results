@@ -3950,7 +3950,8 @@
         "role": "Journalist, BBC",
         "beat": "reporting",
         "score": 21.0,
-        "wide": true
+        "wide": true,
+        "img": "assets/journalists/ed-habershon.jpg"
       },
       "timse": {
         "n": "Tabelo Timse",
