@@ -1092,3 +1092,14 @@ body.has-ask { padding-bottom: 96px; }
 /* phones: Metro councils card in the top strip */
 .tk-mcard .tk-tiles { gap: 4px; margin-top: 2px; }
 .tk-mcard .tk-tile { height: 28px; font-size: 12.5px; padding: 0 2px; }
+
+/* Mayors on phones: the cities are one swipeable row (a carousel) right under LIVE */
+@media (max-width: 720px) {
+  .my-chips { flex-wrap: nowrap; overflow-x: auto; scroll-snap-type: x proximity; scrollbar-width: none; -webkit-overflow-scrolling: touch;
+    margin: 12px calc(-1 * max(16px, env(safe-area-inset-right, 0px))) 4px calc(-1 * max(16px, env(safe-area-inset-left, 0px)));
+    padding: 0 max(16px, env(safe-area-inset-right, 0px)) 4px max(16px, env(safe-area-inset-left, 0px)); scroll-padding: 0 16px; }
+  .my-chips::-webkit-scrollbar { display: none; }
+  .my-chip { flex: none; white-space: nowrap; scroll-snap-align: start; padding: 9px 14px; }
+  .my-ndl-slot:not(:empty) { margin-top: 10px; }
+  .live + .my-dek { margin-top: 0; }
+}

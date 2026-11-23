@@ -70,7 +70,12 @@
     // phones: the needle comes first, right under the LIVE line (CSS shows it only on small screens)
     const live = document.querySelector(".live"), slot = document.createElement("section");
     slot.className = "my-ndl-slot"; slot.setAttribute("aria-label", "Where the council leans");
-    (live || chips).after(slot);
+    if (live) live.after(chips);
+    chips.after(slot);
+    // phones: LIVE, then the city carousel, then the needle; the intro line moves below them
+    const dek = document.querySelector(".my-dek"), small = matchMedia("(max-width: 720px)");
+    const order = () => { if (!dek) return; if (small.matches) slot.after(dek); else chips.before(dek); };
+    order(); small.addEventListener("change", order);
     const pick = () => { const h = location.hash.slice(1); return HIST.find((c) => c.slug === h) || HIST[0]; };
 
     function council(code) {
@@ -110,6 +115,9 @@ function timeline(C) {
 function render() {
       const C = pick(), cur = C.list.find((r) => r.cur), nw = NEW[C.code], k = council(C.code), L = !nw && (LEANS.metros || {})[C.code], nd = L && needle(L, k);
       chips.innerHTML = HIST.map((c) => `<a class="my-chip" role="tab" href="#${c.slug}" aria-selected="${c === C}">${c.city}</a>`).join("");
+      // keep the chosen city in view in the swipeable row (sideways only, the page does not jump)
+      const on = chips.querySelector('[aria-selected="true"]');
+      if (on && chips.scrollWidth > chips.clientWidth) chips.scrollLeft = on.offsetLeft - chips.offsetLeft - (chips.clientWidth - on.offsetWidth) / 2;
       const now = nw
         ? `<div class="my-now">${photo(nw.same ? cur && cur.img : nw.img, nw.n, nw.p, "my-ph")}
              <div><p class="my-lab">${nw.expected ? "Expected mayor · council vote pending" : CHECK + "Mayor after the 2026 election"}</p><p class="my-name">${nw.n}</p>
