@@ -931,3 +931,13 @@ body.has-ask { padding-bottom: 96px; }
   .rf-dots { height: 11px; margin-bottom: 2px; background-size: 4px 4px; }
   .rf-dots span { font-size: 7pt; line-height: 9px; padding: 0 3px; margin-left: 4px; }
 }
+
+/* phones: the final results card is more compact (smaller heading, logos, percentages and vote counts) */
+@media (max-width: 720px) {
+  .rs-final .rf-h { font-size: 12px; margin-bottom: 8px; }
+  .rf-logo { height: 24px; max-width: 48px; margin-bottom: 5px; }
+  .rf-ph { max-width: 56px; }
+  .rf-n { font-size: 12.5px; }
+  .rf-p { font-size: 21cqi; margin-top: 5px; }
+  .rf-v { font-size: 10.5px; margin-top: 3px; }
+}
