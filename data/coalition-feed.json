@@ -380,6 +380,14 @@
       "group": "voice",
       "org": "IND",
       "wide": true
+    },
+    "goba": {
+      "n": "Thabiso Goba",
+      "o": "EWN",
+      "role": "Reporter, EWN",
+      "img": "assets/journalists/thabiso-goba.jpg",
+      "group": "voice",
+      "org": "EWN"
     }
   },
   "items": [
@@ -1831,6 +1839,50 @@
       "s": "Beaumont told the Mail & Guardian ActionSA had considered the proposal reasonable because the ANC had made significant concessions in the talks, and that it was for the ANC to decide whether to pursue it.",
       "src": "Mail & Guardian",
       "url": "https://mg.co.za/politics/2026-11-23-anc-rejects-actionsa-offer-to-accommodate-regional-chair-loyiso-masuku-as-pr-councillor/"
+    },
+    {
+      "id": "tg-offer",
+      "j": "goba",
+      "d": "2026-11-22",
+      "kind": "Reported",
+      "place": "National",
+      "h": "DA makes offer to ANC, IFP to co-govern 137 hung municipalities across SA",
+      "s": "Goba reported the DA’s proposal that the party with the most votes in each hung council should lead it, giving the ANC 93 mayors, the DA 24 and the IFP 20. Neither the ANC nor the IFP had accepted it yet.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/2026/11/22/da-makes-offer-to-anc-ifp-to-co-govern-137-hung-municipalities-across-sa"
+    },
+    {
+      "id": "tg-reject",
+      "j": "goba",
+      "d": "2026-11-22",
+      "kind": "Reported",
+      "place": "Gauteng metros",
+      "h": "ActionSA rejects DA’s coalition offer in hung Gauteng metros",
+      "s": "Goba reported that ActionSA called the DA’s final Gauteng offer an “April Fools’ Day joke”. Beaumont told EWN it would use ActionSA’s votes to install DA mayors in Johannesburg and Ekurhuleni without ActionSA in those governments.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/2026/11/22/actionsa-rejects-da-s-coalition-offer-in-hung-gauteng-metros"
+    },
+    {
+      "id": "tg-dawork",
+      "j": "goba",
+      "d": "2026-11-22",
+      "kind": "Reported",
+      "place": "Gauteng metros",
+      "h": "ActionSA says it doesn’t have a problem working with DA",
+      "s": "Goba reported that ActionSA says its problem is with two DA mayoral candidates, Helen Zille and Cilliers Brink, not the DA itself, and that it will back the DA’s mayoral candidate in Nelson Mandela Bay.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/actionsa-says-it-doesnt-have-problem-working-with-da/"
+    },
+    {
+      "id": "tg-prseat",
+      "j": "goba",
+      "d": "2026-11-23",
+      "kind": "Reported",
+      "place": "Gauteng metros",
+      "h": "ActionSA considering giving some PR councillor seats to ANC in hung Gauteng metros",
+      "s": "Goba reported that the ANC won no PR seats in Johannesburg, Tshwane or Ekurhuleni, which could keep regional leaders Loyiso Masuku, Eugene Modise and Doctor Xhakaza out of council, and that ActionSA was considering lending it some of its PR seats.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/2026/11/23/actionsa-considering-giving-some-pr-councillor-seats-to-anc-in-hung-gauteng-metros"
     }
   ],
   "edition": {
@@ -2169,11 +2221,13 @@
       "items": [
         "m-prseat",
         "h-prseat",
-        "m-masuku"
+        "m-masuku",
+        "tg-prseat"
       ],
       "voices": {
         "michael": "Said ActionSA offered a PR seat because the ANC had made significant concessions, and left it to the ANC to decide.",
-        "herman": "Said the Johannesburg council meeting would go ahead and the partners would make a final announcement this week."
+        "herman": "Said the Johannesburg council meeting would go ahead and the partners would make a final announcement this week.",
+        "goba": "Reported for EWN how the ANC’s lack of PR seats could keep its regional leaders out of the Gauteng councils."
       },
       "coverage": [
         {
@@ -2236,7 +2290,9 @@
         "g-ext",
         "c-hlb",
         "g-simple",
-        "m-smash"
+        "m-smash",
+        "tg-offer",
+        "tg-reject"
       ],
       "voices": {
         "geordin": "Proposed that the ANC lead 93 hung councils, the DA 24 and the IFP 20, and told 702 the deal’s power is its simplicity.",
@@ -2244,7 +2300,8 @@
         "penuel": "Warned that the DA won’t win the coalition games if it is arrogant and condescending.",
         "clement": "Interviewed Hill-Lewis and Beaumont back to back on 702 about their rival plans.",
         "ashor": "Signed the DA’s letter to Mbalula proposing that the DA, ANC and IFP co-govern the hung councils.",
-        "corne": "Tried to broker a DA-ActionSA deal in Gauteng, without success."
+        "corne": "Tried to broker a DA-ActionSA deal in Gauteng, without success.",
+        "goba": "Reported both DA offers for EWN: the 93-24-20 split of hung councils, and ActionSA’s rejection of the Gauteng deal."
       },
       "coverage": [
         {
@@ -2703,7 +2760,8 @@
         "Talks with the ANC began on 8 November",
         "Beaumont said progress was being made with both the DA and ANC",
         "He called the ANC’s offer attractive",
-        "He said ActionSA serves at the pleasure of no other party"
+        "He said ActionSA serves at the pleasure of no other party",
+        "ActionSA says its problem is with Zille and Brink, not the DA, and will back the DA’s mayoral candidate in Nelson Mandela Bay, EWN reports"
       ],
       "sec": [
         [
@@ -2735,7 +2793,8 @@
         "ho-x",
         "ah-bea",
         "pm-vutha",
-        "m-95"
+        "m-95",
+        "tg-dawork"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
@@ -2747,7 +2806,8 @@
         "mokonyane": "Joined Mbalula in the ANC’s first meeting with ActionSA.",
         "omarjee": "Interviewed Mashaba on ActionSA’s demands about the DA’s mayoral candidates.",
         "hogg": "Interviewed Beaumont on ActionSA’s coalition hand.",
-        "mashele": "Wants ActionSA to govern the Gauteng metros with the DA, not the ANC."
+        "mashele": "Wants ActionSA to govern the Gauteng metros with the DA, not the ANC.",
+        "goba": "Reported that ActionSA’s objection is to Zille and Brink, not the DA, and that it will back the DA in Nelson Mandela Bay."
       },
       "coverage": [
         {
