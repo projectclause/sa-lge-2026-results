@@ -3884,7 +3884,8 @@
         "role": "Reporter, Reuters",
         "beat": "reporting",
         "score": 52.7,
-        "inf": true
+        "inf": true,
+        "img": "assets/journalists/sfundo-parakozov.jpg"
       },
       "magome": {
         "n": "Mogomotsi Magome",
