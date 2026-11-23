@@ -941,3 +941,9 @@ body.has-ask { padding-bottom: 96px; }
   .rf-p { font-size: 17cqi; margin-top: 3px; }
   .rf-v { font-size: 9.5px; margin-top: 2px; }
 }
+
+/* phones: four parties fit across the final results card before swiping (was three) */
+@media (max-width: 480px) {
+  .rf-leads { grid-auto-columns: calc((100% - 30px) / 4); gap: 10px; }
+  .rf-p { font-size: 23cqi; }
+}
