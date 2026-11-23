@@ -3848,7 +3848,8 @@
         "n": "S’thembile Cele",
         "o": "Bloomberg",
         "role": "Reporter, Bloomberg",
-        "beat": "reporting"
+        "beat": "reporting",
+        "img": "assets/journalists/sthembile-cele.jpg"
       },
       "cohen": {
         "n": "Michael Cohen",
