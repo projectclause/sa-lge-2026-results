@@ -3949,14 +3949,16 @@
         "o": "BBC",
         "role": "Journalist, BBC",
         "beat": "reporting",
-        "score": 21.0
+        "score": 21.0,
+        "wide": true
       },
       "timse": {
         "n": "Tabelo Timse",
         "o": "The Washington Post",
         "role": "Journalist, The Washington Post",
         "beat": "reporting",
-        "score": 18.0
+        "score": 18.0,
+        "img": "assets/journalists/tabelo-timse.jpg"
       },
       "holmes": {
         "n": "Carolyn E. Holmes",
