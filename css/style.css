@@ -966,3 +966,11 @@ body.has-ask { padding-bottom: 96px; }
   .rf-leg i { width: 8px; height: 8px; }
   .rf-leg > span:nth-child(n+7) { display: none; }
 }
+
+/* phones: less empty space between the final results and the National / Provincial / Metros tabs */
+@media (max-width: 720px) {
+  .rs-mapcard .rs-final { padding-bottom: 8px; }
+  .rs-mapcard .rs-dm { padding-top: 0; }
+  .rs-mapcard .dm-levels { padding-top: 0; }
+  .rs-mapcard .dm-levels button { padding-top: 6px; padding-bottom: 7px; }
+}
