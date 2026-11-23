@@ -1186,4 +1186,4 @@ body.has-ask { padding-bottom: 96px; }
 .pl-trs b { font-weight: 700; }
 .pl-art .pl-trs { margin-top: 4px; font-size: 14px; color: var(--muted2); }
 .pl-trs-x { font-style: italic; color: var(--muted); }
-.pl-flag { display: inline-block; width: 16px; height: 8px; margin-left: 6px; vertical-align: 1px; border-radius: 1px; box-shadow: 0 0 0 1px rgba(0,0,0,.08); object-fit: cover; }
+.pl-flag { display: inline-block; width: auto; height: 1em; margin-left: 6px; vertical-align: -0.12em; border-radius: 2px; box-shadow: 0 0 0 1px rgba(0,0,0,.08); }
