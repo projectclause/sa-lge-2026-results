@@ -3941,7 +3941,8 @@
         "o": "Al Jazeera",
         "role": "Journalist, Al Jazeera",
         "beat": "reporting",
-        "score": 18.0
+        "score": 18.0,
+        "img": "assets/journalists/federica-marsi.jpg"
       },
       "habershon": {
         "n": "Ed Habershon",
