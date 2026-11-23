@@ -2380,6 +2380,17 @@
       "s": "Corder said the talks had reached the sharp end, with the ANC seemingly certain to align broadly with ActionSA, though some in the ANC fear the deal will badly hurt the party.",
       "src": "YouTube",
       "url": "https://www.youtube.com/watch?v=NoJJyo7Ggg8"
+    },
+    {
+      "id": "zv-macg",
+      "j": "zimasa",
+      "d": "2026-11-12",
+      "kind": "Interview",
+      "place": "Johannesburg",
+      "h": "Post-election analysis on Podcast and Chill with MacG",
+      "s": "Vabaza joined MacG and Sol Phenduka as the show’s political analyst to go through what the election revealed, the EFF’s decline, the battle for power in Johannesburg, how the Joburg coalitions could fall and whether the ANC can rebuild before 2029.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=yaglpEGvBRs&t=2682s"
     }
   ],
   "edition": {
@@ -2491,7 +2502,8 @@
         "km-poised",
         "km-small",
         "ar-official",
-        "ls-ffp"
+        "ls-ffp",
+        "zv-macg"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
@@ -2524,7 +2536,8 @@
         "baloyi": "Tipped, in reports, as Mashaba’s deputy mayor.",
         "ramushwana": "Reported from the chamber as Joburg’s 270 councillors were sworn in, with the mayoral vote put off.",
         "moichela": "Followed the Joburg deal for IOL, from smaller parties backing Mashaba to the DA’s legal letter and MK’s Baloyi as deputy.",
-        "simelane": "Reported that the FF Plus tried and failed to broker a DA–ActionSA deal between Zille and Mashaba."
+        "simelane": "Reported that the FF Plus tried and failed to broker a DA–ActionSA deal between Zille and Mashaba.",
+        "zimasa": "On Podcast and Chill with MacG, went through who could control Johannesburg and whether the ANC can rebuild before 2029."
       },
       "coverage": [
         {
