@@ -947,3 +947,14 @@ body.has-ask { padding-bottom: 96px; }
   .rf-leads { grid-auto-columns: calc((100% - 30px) / 4); gap: 10px; }
   .rf-p { font-size: 23cqi; }
 }
+
+/* phones: smaller "Share of the … vote · 50% majority line" caption above the share bar */
+@media (max-width: 720px) {
+  .rf-sh { font-size: 10.5px; margin: 10px 0 6px; }
+}
+
+/* phones: thinner share bar in the final results card */
+@media (max-width: 720px) {
+  .rf-bar { height: 20px; }
+  .rf-bar i { width: 2px; margin-left: -1px; }
+}
