@@ -115,7 +115,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
   function peopleSections() {
     const J = Object.entries(D.journalists);
     const an = pinTop(rankV(J.filter(([, p]) => p.group === "voice" && p.beat !== "reporting"))), rp = rankV(J.filter(([, p]) => p.beat === "reporting"));
-    const pl = rankP(J.filter(([, p]) => p.group === "player"));
+    const pl = pinTop(rankP(J.filter(([, p]) => p.group === "player")));
     return `<section class="pl-sec pl-ppl"><h3 class="pl-sh">Voices</h3>
         <p class="pl-gsub">Journalists and commentators · ranked by influence, active in the last two weeks first</p>
         <div class="pl-vtabs" role="tablist"><button type="button" role="tab" data-beat="analysis" aria-selected="true">Analysis &amp; commentary <i>${an.length}</i></button><button type="button" role="tab" data-beat="reporting" aria-selected="false">Reporting <i>${rp.length}</i></button></div>
