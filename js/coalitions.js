@@ -276,15 +276,16 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
     const iFaces = (ks, cls, max = 99) => `<span class="${cls}">${ks.slice(0, max).map((k) => V[k].img ? `<img src="${V[k].img}" alt="${esc(V[k].n)}" title="${esc(V[k].n)}">` : `<i class="pl-avs" title="${esc(V[k].n)}">${esc(initials(V[k].n))}</i>`).join("")}${ks.length > max ? `<i class="pl-more-n">+${ks.length - max}</i>` : ""}</span>`;
     const outLine = (list) => { const o = outs(list); return `${o.length} outlet${o.length > 1 ? "s" : ""}, including ${esc(and(o.slice(0, 3)))}`; };
     const by = (p) => p.j.length ? and(p.j.map((k) => V[k].n)) : p.by || p.src;
+    const trs = (p) => p.lang && p.s ? `<span class="pl-trs${p.sfull ? "" : " pl-trs-x"}">${p.sfull ? `<b>Translated from ${esc(p.lang)}:</b> ` : ""}${esc(p.s)}</span>` : "";
     const lang = (p) => p.lang ? `<i class="pl-lang" title="Originally in ${esc(p.lang)}: ${esc(p.orig || "")}">${esc(p.lang)}</i>` : "";
     const ipiece = (p) => `
     <details class="pl-piece">
       <summary>${p.j.length ? face(V[p.j[0]]) : `<i class="pl-av" aria-hidden="true">${esc(initials(p.src))}</i>`}<span class="pl-pt"><span class="pl-pm">${day(p.d)} · ${esc(by(p))}${by(p) !== p.src ? ` · ${esc(p.src)}` : ""}${lang(p)}</span><b>${esc(p.h)}</b></span><span class="pl-plus" aria-hidden="true"></span></summary>
-      <div class="pl-pb">${p.orig ? `<p class="pl-orig" dir="auto">${esc(p.orig)}</p>` : ""}<a href="${esc(p.url)}" target="_blank" rel="noopener">Read on ${esc(p.src)}${p.lang ? ` (in ${esc(p.lang)})` : ""}${p.pay ? " · subscribers" : ""} →</a></div>
+      <div class="pl-pb">${trs(p) ? `<p>${trs(p)}</p>` : ""}${p.orig ? `<p class="pl-orig" dir="auto">Original headline: ${esc(p.orig)}</p>` : ""}<a href="${esc(p.url)}" target="_blank" rel="noopener">Read on ${esc(p.src)}${p.lang ? ` (in ${esc(p.lang)})` : ""}${p.pay ? " · subscribers" : ""} →</a></div>
     </details>`;
     const card = (k, i) => `<button type="button" class="pl-voice${i >= TOPN ? " pl-vx" : ""}" data-k="${k}" aria-pressed="false">${face(V[k])}<span>${nameTag(V[k])}<span>${esc(V[k].role)}</span></span><em>${n(k)}</em></button>`;
     const grid = (ks, label) => `<div class="pl-vgrid"><div class="pl-voices">${ks.map(card).join("")}</div>${ks.length > TOPN ? `<button type="button" class="pl-vall" aria-expanded="false" data-n="${ks.length}" data-l="${label}">Show all ${ks.length} ${label}</button>` : ""}</div>`;
-    return IX = { X, V, P, vOf, outs, upd, n, rank, iFaces, outLine, ipiece, grid, lang };
+    return IX = { X, V, P, vOf, outs, upd, n, rank, iFaces, outLine, ipiece, grid, lang, trs };
   }
 
   function intl() {
@@ -344,7 +345,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
   }
 
   function intlEvent(t) {
-    const { V, P, vOf, outs, upd, rank, outLine, ipiece, lang } = ix();
+    const { V, P, vOf, outs, upd, rank, outLine, ipiece, lang, trs } = ix();
     const I = P(t).sort((a, b) => b.d.localeCompare(a.d));
     const ks = rank(vOf(I)), top = ks.slice(0, 3), more = ks.slice(3);
     const says = (k, lead) => { const v = V[k], mine = I.filter((p) => p.j.includes(k)); return `
@@ -364,7 +365,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
         <section class="pl-brief"><h2>In brief</h2><ul>${(t.brief || []).map((b) => `<li>${esc(b)}</li>`).join("")}</ul></section>
         ${(t.sec || []).map(([h, p]) => `<section class="pl-body"><h2>${esc(h)}</h2><p>${esc(p)}</p></section>`).join("")}
         <section class="pl-sec pl-cov"><h3 class="pl-sh">Coverage <span class="pl-covn">${I.length} reports · ${outs(I).length} outlets</span></h3>
-          ${I.map((p) => `<a class="pl-art" href="${esc(p.url)}" target="_blank" rel="noopener"><span class="pl-am2"><b>${esc(p.src)}</b><i class="pl-intl">International</i>${lang(p)}<time>${day(p.d)}</time>${p.pay ? '<i class="pl-pay">Subscribers</i>' : ""}</span><span class="pl-ah">${esc(p.h)}</span></a>`).join("")}
+          ${I.map((p) => `<a class="pl-art" href="${esc(p.url)}" target="_blank" rel="noopener"><span class="pl-am2"><b>${esc(p.src)}</b><i class="pl-intl">International</i>${lang(p)}<time>${day(p.d)}</time>${p.pay ? '<i class="pl-pay">Subscribers</i>' : ""}</span><span class="pl-ah">${esc(p.h)}</span>${trs(p)}</a>`).join("")}
         </section>
         ${ks.length ? `<section class="pl-sec pl-says"><h3 class="pl-sh">What they are saying <button type="button" class="pl-xall" aria-expanded="false">Expand all</button></h3>
           ${top.map((k) => says(k, true)).join("")}

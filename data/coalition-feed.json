@@ -4384,7 +4384,9 @@
         "orig": "Afrique du Sud : à Johannesburg, la défaite symbolique de l'ANC",
         "lang": "French",
         "url": "https://www.lesechos.fr/monde/afrique-moyen-orient/afrique-du-sud-sauver-johannesburg-de-la-detresse-financiere-le-casse-tete-du-futur-maire-2261776",
-        "by": "Claire Bargelès"
+        "by": "Claire Bargelès",
+        "s": "Preamble could not open this article, because the site blocks automated readers. Only its headline is translated here.",
+        "sfull": false
       },
       {
         "id": "de1",
@@ -4396,7 +4398,9 @@
         "h": "Mandela’s former party, the ANC, suffers election setback in South Africa",
         "orig": "Ex-Mandela-Partei ANC erleidet Wahlschlappe in Südafrika",
         "lang": "German",
-        "url": "https://www.dw.com/de/ex-mandela-partei-anc-erleidet-wahlschlappe-in-s%C3%BCdafrika/a-79884765"
+        "url": "https://www.dw.com/de/ex-mandela-partei-anc-erleidet-wahlschlappe-in-s%C3%BCdafrika/a-79884765",
+        "s": "DW said the party that once stood for liberation from apartheid is in decline, with voters angry about unemployment, crime and corruption. With 98% counted, the ANC had 31% and the DA almost 25%, and the ANC had lost its majority in six of the eight metros. DW expected the DA to try to form coalitions without the ANC in Pretoria and Johannesburg, while Zuma’s MK led in Durban.",
+        "sfull": true
       },
       {
         "id": "de2",
@@ -4408,7 +4412,9 @@
         "h": "ANC suffers historic defeat in South Africa’s local elections",
         "orig": "ANC erleidet historische Niederlage bei Kommunalwahlen in Südafrika",
         "lang": "German",
-        "url": "https://www.spiegel.de/ausland/suedafrika-anc-erleidet-historische-niederlage-bei-kommunalwahlen-a-0a77243d-6573-4bd6-a37f-fb4a45f06e20"
+        "url": "https://www.spiegel.de/ausland/suedafrika-anc-erleidet-historische-niederlage-bei-kommunalwahlen-a-0a77243d-6573-4bd6-a37f-fb4a45f06e20",
+        "s": "Der Spiegel reported the ANC on 30.95% with 98% of votes counted, against 24.56% for the DA, and said the ANC had lost its majority in six of the eight metros. It expected the DA, clearly ahead in Pretoria and Johannesburg, to form coalitions there without the ANC, while MK led in Durban and the DA won Cape Town outright.",
+        "sfull": true
       },
       {
         "id": "de3",
@@ -4421,7 +4427,9 @@
         "orig": "ANC erleidet historische Niederlage bei Kommunalwahl in Südafrika",
         "lang": "German",
         "url": "https://www.faz.net/aktuell/politik/ausland/anc-erleidet-historische-niederlage-bei-kommunalwahl-in-suedafrika-accg-201662453.html",
-        "by": "Claudia Broell"
+        "by": "Claudia Broell",
+        "s": "The FAZ called it the ANC’s worst result since 1994: under a third of the vote, against more than 45% in 2021, and no outright majority in any big city. It focused on Johannesburg, where the DA came first with 35% against 20% for the ANC and 16% for ActionSA, after a campaign by the German-born Helen Zille that included snorkelling in a pothole. It treats local elections as a pointer to the next national election.",
+        "sfull": true
       },
       {
         "id": "es1",
@@ -4434,7 +4442,9 @@
         "orig": "Sudáfrica castiga al partido de Mandela en unas municipales que abren una nueva batalla por el poder local",
         "lang": "Spanish",
         "url": "https://elpais.com/internacional/2026-11-08/sudafrica-castiga-al-partido-de-mandela-en-unas-municipales-que-abren-una-nueva-batalla-por-el-poder-local.html",
-        "by": "Lola Hierro"
+        "by": "Lola Hierro",
+        "s": "El País reported the ANC on 30.76% and the DA on 24.64%, with MK third on 9.76%, and said the result points to hard bargaining over metros such as Johannesburg and Durban, with the ANC negotiating from its weakest position yet. Parties have 14 days before councils sit, and the number of councils needing coalitions has more than doubled since 2021. It quoted Mbalula calling the result “catastrophic” and saying the honest response is to “go home and put our house in order”.",
+        "sfull": true
       },
       {
         "id": "es2",
@@ -4446,7 +4456,9 @@
         "h": "Mandela’s party suffers a setback in the municipal elections: what comes next for South Africa?",
         "orig": "El partido de Mandela sufre un revés en las elecciones municipales: ¿qué viene ahora en Sudáfrica?",
         "lang": "Spanish",
-        "url": "https://www.france24.com/es/%C3%A1frica/20261108-el-partido-de-mandela-sufre-un-rev%C3%A9s-en-las-elecciones-municipales-qu%C3%A9-viene-ahora-en-sud%C3%A1frica"
+        "url": "https://www.france24.com/es/%C3%A1frica/20261108-el-partido-de-mandela-sufre-un-rev%C3%A9s-en-las-elecciones-municipales-qu%C3%A9-viene-ahora-en-sud%C3%A1frica",
+        "s": "France 24 reported the final result: 30.76% for the ANC, its worst ever, against 24.64% for the DA and 9.76% for MK. With no majority in many cities, Johannesburg included, the ANC and DA must deal with each other or with smaller parties, and the number of councils needing coalitions has more than doubled since 2021. It quoted Ramaphosa saying “the people have spoken”, and Fikile Mbalula calling the result “catastrophic” but saying the ANC would not beg for posts.",
+        "sfull": true
       },
       {
         "id": "es3",
@@ -4458,7 +4470,9 @@
         "h": "Mandela’s party gets its worst result in South Africa’s municipal elections: “The people have spoken”",
         "orig": "El partido de Mandela obtuvo sus peores resultados en elecciones municipales en Sudáfrica: “El pueblo ha hablado”",
         "lang": "Spanish",
-        "url": "https://www.infobae.com/america/mundo/2026/11/08/el-partido-de-mandela-obtuvo-sus-peores-resultados-en-elecciones-municipales-en-sudafrica-el-pueblo-ha-hablado/"
+        "url": "https://www.infobae.com/america/mundo/2026/11/08/el-partido-de-mandela-obtuvo-sus-peores-resultados-en-elecciones-municipales-en-sudafrica-el-pueblo-ha-hablado/",
+        "s": "Infobae led with Ramaphosa saying “the people have spoken” and that their verdict must be respected. It reported the ANC on 30.76%, almost 15 points down on 2021 and without a majority in any of the eight metros, and the DA winning Cape Town outright. Turnout was about 52%, up from 45.7% in 2021, and voters cited water shortages and power cuts, with unemployment at 33.6%.",
+        "sfull": true
       },
       {
         "id": "it1",
@@ -4470,7 +4484,9 @@
         "h": "In South Africa, the ANC has lost the big cities",
         "orig": "In Sudafrica l’ANC ha perso le grandi città",
         "lang": "Italian",
-        "url": "https://www.ilpost.it/2026/11/06/sudafrica-elezioni-amministrative-crollo-citta-anc/"
+        "url": "https://www.ilpost.it/2026/11/06/sudafrica-elezioni-amministrative-crollo-citta-anc/",
+        "s": "With counting still under way, Il Post reported that the ANC was losing almost all of South Africa’s biggest cities: about 21% in Pretoria, where it ran third behind the DA and ActionSA, 17% in Johannesburg and under 10% in Cape Town. It linked the losses to crime and failing infrastructure, with frequent water and power cuts, and to a campaign it called lazy and late.",
+        "sfull": true
       },
       {
         "id": "it2",
@@ -4483,7 +4499,9 @@
         "orig": "In Sudafrica l’Anc verso i minimi storici, scatta rebus coalizioni",
         "lang": "Italian",
         "url": "https://www.ilsole24ore.com/art/in-sudafrica-l-anc-i-minimi-storici-scatta-rebus-coalizioni-AJyTBp7B",
-        "by": "Alberto Magnani"
+        "by": "Alberto Magnani",
+        "s": "Writing from Nairobi, Il Sole 24 Ore reported the ANC heading for about 32% against 24% for the DA, a slide that opens a “puzzle” of local coalitions. It said the result could shake or reshape the national unity government formed with the DA in 2024, and is a new blow to Ramaphosa. It blamed failing municipal services, with water and power cuts and rising insecurity.",
+        "sfull": true
       },
       {
         "id": "it3",
@@ -4496,7 +4514,9 @@
         "orig": "Sudafrica: l’era post-ANC è già cominciata nelle grandi città",
         "lang": "Italian",
         "url": "https://www.nigrizia.it/notizia/sudafrica-lera-post-anc-e-gia-cominciata-nelle-grandi-citta",
-        "by": "Brando Ricci"
+        "by": "Brando Ricci",
+        "s": "Nigrizia argued that the ANC is no longer the largest party in almost all the big urban areas, home to about a third of South Africans, marking the end of an era in the cities. It warned that who runs them may be decided “in the corridors of power” rather than at the ballot box, because coalition deals are struck behind closed doors while a law requiring more transparency is stuck in Parliament. It also linked the vote to months of anti-migrant violence and mass deportations.",
+        "sfull": true
       },
       {
         "id": "it4",
@@ -4508,7 +4528,9 @@
         "h": "In South Africa’s local elections, the historic Congress party had its worst result ever",
         "orig": "Alle elezioni locali in Sudafrica lo storico partito del Congresso ha ottenuto il suo risultato peggiore di sempre",
         "lang": "Italian",
-        "url": "https://www.ilpost.it/2026/11/08/sudafrica-elezioni-locali-anc-risultato-peggiore/"
+        "url": "https://www.ilpost.it/2026/11/08/sudafrica-elezioni-locali-anc-risultato-peggiore/",
+        "s": "Il Post reported the final count: 30.76% for the ANC, its worst result ever, against 24.64% for the DA, down from 46% in 2021. The DA won Cape Town outright and did well in Pretoria and Johannesburg, where it is expected to form coalitions without the ANC. Ramaphosa said the vote must be respected; turnout was 52%.",
+        "sfull": true
       },
       {
         "id": "it5",
@@ -4521,7 +4543,9 @@
         "orig": "Sudafrica, l’ANC perde l’egemonia: la coalizione che può ridisegnare il potere nelle metropoli",
         "lang": "Italian",
         "url": "https://iari.site/2026/11/19/sudafrica-lanc-perde-legemonia-la-coalizione-che-puo-ridisegnare-il-potere-nelle-metropoli/",
-        "by": "Filippo Sardella"
+        "by": "Filippo Sardella",
+        "s": "IARI’s analysis said talks between the ANC, ActionSA, the EFF and MK, under way since 18 November, aim to form governments in the Gauteng metros and eThekwini, though no final deal had been signed by 19 November. It argued the pact could shut the DA out of cities where it came first without immediately changing the national coalition, and that the stakes are high because the two provinces produce 48% of GDP. The road to 2029, it said, depends on whether the city pacts hold and on the ANC’s 2027 leadership succession.",
+        "sfull": true
       },
       {
         "id": "nl1",
@@ -4534,7 +4558,9 @@
         "orig": "Verlies voor het ANC in Zuid-Afrikaanse steden",
         "lang": "Dutch",
         "url": "https://nos.nl/artikel/2638629-verlies-voor-het-anc-in-zuid-afrikaanse-steden",
-        "by": "Elles van Gelder"
+        "by": "Elles van Gelder",
+        "s": "NOS’s Africa correspondent wrote that city voters are fed up with poor governance and corruption at every level of the ANC, which fell to about 30.8%, 15 points down on 2021. Another party, in most cases the DA, became the largest in six major metros, including Johannesburg, which NOS called a symbol of the ANC’s failure, with power cuts, rubbish, decaying buildings, water shortages and crime. It contrasted the city with DA-run Cape Town and noted former Cape Town mayor Helen Zille’s bid for Johannesburg.",
+        "sfull": true
       },
       {
         "id": "nl2",
@@ -4546,7 +4572,9 @@
         "h": "South Africa’s black middle class turns its back on the ANC",
         "orig": "De zwarte middenklasse van Zuid-Afrika keert het ANC de rug toe",
         "lang": "Dutch",
-        "url": "https://www.rd.nl/artikel/de-zwarte-middenklasse-van-zuid-afrika-keert-het-anc-de-rug-toe"
+        "url": "https://www.rd.nl/artikel/de-zwarte-middenklasse-van-zuid-afrika-keert-het-anc-de-rug-toe",
+        "s": "Reformatorisch Dagblad reported that support for the old liberation movement is fragmenting: the ANC fell below 31%, from 46% in 2021, while the DA took almost a quarter and Zuma’s MK almost 10%. It said the DA grew strongly among the black middle class in all eight metros, which commentators put down to corruption and incompetence in government. In Johannesburg, it noted, Zille must form a coalition with either the ANC or Herman Mashaba’s party.",
+        "sfull": true
       },
       {
         "id": "ar2",
@@ -4558,7 +4586,9 @@
         "h": "The decline of Ramaphosa’s party opens the door to new alliances in South Africa’s cities",
         "orig": "تراجع حزب رامافوزا يفتح الباب أمام تحالفات جديدة في مدن جنوب أفريقيا",
         "lang": "Arabic",
-        "url": "https://addiyar.com/article/2413979-%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9-%D8%AD%D8%B2%D8%A8-%D8%B1%D8%A7%D9%85%D8%A7%D9%81%D9%88%D8%B2%D8%A7-%D9%8A%D9%81%D8%AA%D8%AD-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A3%D9%85%D8%A7%D9%85-%D8%AA%D8%AD%D8%A7%D9%84%D9%81%D8%A7%D8%AA-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%81%D9%8A-%D9%85%D8%AF%D9%86-%D8%AC%D9%86%D9%88%D8%A8-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7"
+        "url": "https://addiyar.com/article/2413979-%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9-%D8%AD%D8%B2%D8%A8-%D8%B1%D8%A7%D9%85%D8%A7%D9%81%D9%88%D8%B2%D8%A7-%D9%8A%D9%81%D8%AA%D8%AD-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A3%D9%85%D8%A7%D9%85-%D8%AA%D8%AD%D8%A7%D9%84%D9%81%D8%A7%D8%AA-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%81%D9%8A-%D9%85%D8%AF%D9%86-%D8%AC%D9%86%D9%88%D8%A8-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7",
+        "s": "Preamble could not open this article, because the site blocks automated readers. Only its headline is translated here.",
+        "sfull": false
       },
       {
         "id": "ar3",
@@ -4570,7 +4600,9 @@
         "h": "South Africa: the ruling party’s local election losses complicate forming local coalition governments",
         "orig": "جنوب أفريقيا : خسارة الحزب الحاكم للانتخابات المحلية تعقد تشكيل حكومات ائتلافية محلية",
         "lang": "Arabic",
-        "url": "https://africanews.dz/%D8%AC%D9%86%D9%88%D8%A8-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D8%AD%D8%A7%D9%83%D9%85-%D9%84%D9%84%D8%A7%D9%86%D8%AA/"
+        "url": "https://africanews.dz/%D8%AC%D9%86%D9%88%D8%A8-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D8%AD%D8%A7%D9%83%D9%85-%D9%84%D9%84%D8%A7%D9%86%D8%AA/",
+        "s": "Preamble could not open this article, because the site blocks automated readers. Only its headline is translated here.",
+        "sfull": false
       },
       {
         "id": "ar4",
@@ -4582,7 +4614,9 @@
         "h": "South Africa: the ANC falls to 31%, against 25% for the DA",
         "orig": "جنوب أفريقيا.. تراجع المؤتمر الوطني الأفريقي إلى 31% مقابل 25% للتحالف الديمقراطي.. أزمات المياه والكهرباء وتدهور الخدمات تفجر غضب الناخبين.. وجوهانسبرج ساحة مفاوضات تشكيل الائتلافات بعد الانتخابات البلدية",
         "lang": "Arabic",
-        "url": "https://www.youm7.com/story/2026/11/10/%D8%AC%D9%86%D9%88%D8%A8-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9-%D8%A7%D9%84%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D8%A7%D9%84%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A-%D8%A5%D9%84%D9%89-31-%D9%85%D9%82%D8%A7%D8%A8%D9%84-25/7610305"
+        "url": "https://www.youm7.com/story/2026/11/10/%D8%AC%D9%86%D9%88%D8%A8-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9-%D8%A7%D9%84%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D8%A7%D9%84%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A-%D8%A5%D9%84%D9%89-31-%D9%85%D9%82%D8%A7%D8%A8%D9%84-25/7610305",
+        "s": "Youm7 said South Africa is entering a new political phase after an unprecedented fall for the ANC, punished for failures in water, electricity and infrastructure and now forced into coalition talks in major cities. Citing Reuters, it put the ANC on about 31%, the DA on 25% and MK on about 10%. It cited the Auditor-General’s finding that only 39 municipalities, 15%, had clean audits, with R14.73 billion lost on water and R21.63 billion on electricity.",
+        "sfull": true
       },
       {
         "id": "ar5",
@@ -4594,7 +4628,9 @@
         "h": "South African rand: coalition risks weigh on the currency against the dollar, says Commerzbank",
         "orig": "الراند الجنوب أفريقي: مخاطر الائتلاف تضغط على ZAR مقابل الدولار الأمريكي – كومرتس بنك",
         "lang": "Arabic",
-        "url": "https://twaslnews1.twaslnews.com/7847583/"
+        "url": "https://twaslnews1.twaslnews.com/7847583/",
+        "s": "Preamble could not open this article, because the site blocks automated readers. Only its headline is translated here.",
+        "sfull": false
       },
       {
         "id": "ar6",
@@ -4606,7 +4642,9 @@
         "h": "The ANC manoeuvres to keep its influence in South Africa’s cities",
         "orig": "المؤتمر الوطني الإفريقي يناور للحفاظ على نفوذه في مدن جنوب إفريقيا",
         "lang": "Arabic",
-        "url": "https://africanews.dz/%D8%A7%D9%84%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D8%A7%D9%84%D8%A5%D9%81%D8%B1%D9%8A%D9%82%D9%8A-%D9%8A%D9%86%D8%A7%D9%88%D8%B1-%D9%84%D9%84%D8%AD%D9%81%D8%A7%D8%B8/"
+        "url": "https://africanews.dz/%D8%A7%D9%84%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D8%A7%D9%84%D8%A5%D9%81%D8%B1%D9%8A%D9%82%D9%8A-%D9%8A%D9%86%D8%A7%D9%88%D8%B1-%D9%84%D9%84%D8%AD%D9%81%D8%A7%D8%B8/",
+        "s": "Preamble could not open this article, because the site blocks automated readers. Only its headline is translated here.",
+        "sfull": false
       },
       {
         "id": "ja1",
@@ -4618,7 +4656,10 @@
         "h": "South Africa’s local elections: the ruling ANC slumps, and coalition talks begin in the big cities",
         "orig": "南ア地方選、国政与党ＡＮＣが低迷 主要都市で連立協議へ",
         "lang": "Japanese",
-        "url": "https://www.newsweekjapan.jp/articles/-/339446?display=b"
+        "url": "https://www.newsweekjapan.jp/articles/-/339446?display=b",
+        "s": "A Japanese translation of Reuters’ report. The ANC stayed the largest party but fell to 30.76% from 45.59% in 2021, and many cities, Johannesburg included, have no majority party and face coalition talks. In Johannesburg the DA won about 35% against about 20% for the ANC, and the number of cities needing coalitions more than doubled. Ramaphosa urged parties to negotiate with humility.",
+        "sfull": true,
+        "by": "Nellie Peyton, Sfundo Parakozov and Nilutpal Timsina (Reuters)"
       },
       {
         "id": "ru1",
@@ -4630,7 +4671,9 @@
         "h": "The ANC looks for partners to share power in South Africa’s cities",
         "orig": "АНК ищет партнёров для раздела власти в городах ЮАР",
         "lang": "Russian",
-        "url": "https://operativmm.az/ru/post/ank-ishchet-partnyorov-dlya-razdela-vlasti-v-gorodakh-yuar/87883"
+        "url": "https://operativmm.az/ru/post/ank-ishchet-partnyorov-dlya-razdela-vlasti-v-gorodakh-yuar/87883",
+        "s": "Preamble could not open this article, because the site blocks automated readers. Only its headline is translated here.",
+        "sfull": false
       },
       {
         "id": "rfi1",
@@ -4642,7 +4685,9 @@
         "h": "South Africa: a calm vote, with the ANC challenged in Johannesburg and Durban",
         "orig": "Afrique du Sud: un vote dans le calme, l’ANC contesté à Johannesburg et Durban",
         "lang": "French",
-        "url": "https://www.rfi.fr/fr/afrique/20261105-afrique-du-sud-un-vote-dans-le-calme-l-anc-contest%C3%A9-%C3%A0-johannesburg-et-durban"
+        "url": "https://www.rfi.fr/fr/afrique/20261105-afrique-du-sud-un-vote-dans-le-calme-l-anc-contest%C3%A9-%C3%A0-johannesburg-et-durban",
+        "s": "On polling day, RFI’s correspondents found voters in Johannesburg angry about roads, electricity, water and rubbish collection under the ANC-led coalition, though some were wary of backing the DA’s Helen Zille. RFI expected no clear majority in Johannesburg, leaving parties such as Herman Mashaba’s ActionSA to bargain, and reported that polls put Jacob Zuma’s MK ahead in Durban.",
+        "sfull": true
       },
       {
         "id": "bw1",
@@ -4654,7 +4699,9 @@
         "h": "A historic decline for the ANC in South Africa’s elections, with coalitions on the horizon",
         "orig": "تراجع تاريخي لحزب المؤتمر الوطني الأفريقي في انتخابات جنوب أفريقيا.. والائتلافات تلوح في الأفق",
         "lang": "Arabic",
-        "url": "https://www.albawabhnews.com/5433472"
+        "url": "https://www.albawabhnews.com/5433472",
+        "s": "Preamble could not open this article, because the site blocks automated readers. Only its headline is translated here.",
+        "sfull": false
       }
     ],
     "stories": [

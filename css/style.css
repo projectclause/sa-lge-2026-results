@@ -1182,3 +1182,7 @@ body.has-ask { padding-bottom: 96px; }
 .pl-lang { display: inline-block; margin-left: 6px; padding: 1px 7px; border-radius: 999px; background: #ececec; color: #555; font-style: normal; font-size: 11px; font-weight: 600; line-height: 1.5; vertical-align: 1px; white-space: nowrap; }
 .pl-am2 .pl-lang { margin-left: 0; }
 .pl-orig { margin: 0 0 8px; font-size: 13.5px; font-style: italic; color: var(--muted); }
+.pl-trs { display: block; font-size: 14.5px; line-height: 1.45; color: var(--text); }
+.pl-trs b { font-weight: 700; }
+.pl-art .pl-trs { margin-top: 4px; font-size: 14px; color: var(--muted2); }
+.pl-trs-x { font-style: italic; color: var(--muted); }
