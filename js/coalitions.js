@@ -44,7 +44,53 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
   // a row of faces, capped at max with a "+N" chip for the rest
   // gold star + pill for voices with a wide audience
   const WIDE = '<span class="pl-wide"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg>Wide Reach</span>';
-  const nameTag = (p) => `<b class="pl-nm">${esc(p.n)}${p.wide ? WIDE : ""}</b>`;
+  // the top-ranked voice on Preamble's influence ranking (pickup, reach, access, momentum)
+  const TOP = '<span class="pl-wide pl-topv"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg>Most Influential Voice</span>';
+  const INF = TOP.replace("pl-topv", "pl-infv").replace("Most Influential Voice", "Influential");
+  // small "i" beside a tag: opens a short note on how voices are ranked
+  const INFO = '<span class="pl-i" role="button" tabindex="0" aria-label="How we rank voices" aria-haspopup="dialog">i</span>';
+  const nameTag = (p) => { const t = p.top ? TOP : p.inf ? INF : p.wide ? WIDE : ""; return `<b class="pl-nm">${esc(p.n)}${t ? `<span class="pl-tagw">${t}${INFO}</span>` : ""}</b>`; };
+  const HOW = `<div class="pl-how" role="dialog" aria-label="How we rank voices" hidden>
+      <button type="button" class="pl-how-x" aria-label="Close">×</button>
+      <p class="pl-how-h">How we rank voices</p>
+      <p>A score out of 100 from the last 30 days of coverage:</p>
+      <ul><li><b>Pickup 40%</b> · other established outlets citing them</li>
+        <li><b>Reach 30%</b> · their YouTube and X audience, or their outlet’s</li>
+        <li><b>Access 20%</b> · their pieces quoting key players</li>
+        <li><b>Momentum 10%</b> · pickup in the last 14 days</li></ul>
+      <p><b>Most Influential Voice</b> is the top score; <b>Influential</b>, the next four. <b>Wide Reach</b> marks a large audience.</p>
+      <p class="pl-how-n">Data: Google News, YouTube and X. Updated 23 Nov.</p>
+    </div>`;
+  (function howSetup() {
+    document.body.insertAdjacentHTML("beforeend", HOW + '<div class="pl-how-bg" hidden></div>');
+    const box = document.querySelector(".pl-how"), bg = document.querySelector(".pl-how-bg");
+    let from = null;
+    const close = () => { box.hidden = bg.hidden = true; if (from) from.setAttribute("aria-expanded", "false"); from = null; };
+    const open = (el) => {
+      if (from === el) return close();
+      from = el; el.setAttribute("aria-expanded", "true"); box.hidden = false;
+      const phone = matchMedia("(max-width: 720px)").matches; bg.hidden = !phone;
+      box.classList.toggle("sheet", phone);
+      if (!phone) {
+        const r = el.getBoundingClientRect(), w = box.offsetWidth;
+        box.style.left = Math.max(12, Math.min(r.left + r.width / 2 - w / 2, innerWidth - w - 12)) + scrollX + "px";
+        box.style.top = r.bottom + scrollY + 8 + "px";
+      } else { box.style.left = box.style.top = ""; }
+      box.querySelector(".pl-how-x").focus({ preventScroll: true });
+    };
+    // capture phase, so the tap does not also select the voice underneath
+    document.addEventListener("click", (e) => {
+      const i = e.target.closest(".pl-i");
+      if (i) { e.preventDefault(); e.stopPropagation(); open(i); return; }
+      if (e.target.closest(".pl-how-x") || (!box.hidden && !e.target.closest(".pl-how"))) close();
+    }, true);
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && !box.hidden) { const f = from; close(); f && f.focus(); }
+      const i = e.target.closest && e.target.closest(".pl-i");
+      if (i && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); e.stopPropagation(); open(i); }
+    }, true);
+    addEventListener("hashchange", close);
+  })();
   const faces = (ps, cls, max = 99) => `<span class="${cls}">${ps.slice(0, max).map((p) => `<img src="${p.img}" alt="${esc(p.n)}" title="${esc(p.n)}">`).join("")}${ps.length > max ? `<i class="pl-more-n" title="${esc(and(ps.slice(max).map((p) => p.n)))}">+${ps.length - max}</i>` : ""}</span>`;
   const piece = (it) => { const p = D.journalists[it.j]; return `
     <details class="pl-piece">

@@ -1,6 +1,7 @@
 {
   "journalists": {
     "clement": {
+      "inf": true,
       "n": "Clement Manyathela",
       "o": "702",
       "img": "assets/journalists/clement-manyathela.jpg",
@@ -74,7 +75,8 @@
       "img": "assets/journalists/sizwe-mpofu-walsh.jpg",
       "group": "voice",
       "org": "SMWX",
-      "wide": true
+      "wide": true,
+      "top": true
     },
     "penuel": {
       "n": "Penuel Mlotshwa",
@@ -182,6 +184,7 @@
       "org": "IND"
     },
     "wayne": {
+      "inf": true,
       "n": "Wayne Sussman",
       "o": "Elections analyst",
       "role": "Elections analyst, eNCA",
@@ -319,6 +322,7 @@
       "org": "IND"
     },
     "hogg": {
+      "inf": true,
       "n": "Alec Hogg",
       "o": "BIZ",
       "role": "Interviewer, BizNews",
@@ -368,6 +372,7 @@
       "wide": true
     },
     "mashele": {
+      "inf": true,
       "n": "Prince Mashele",
       "o": "Political analyst",
       "role": "Political analyst and author",

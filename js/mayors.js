@@ -13,9 +13,35 @@
   // mayors elected by the new councils after the 2026 election (as confirmed so far)
   const NEW = {
     CPT: { n: "Geordin Hill-Lewis", p: "DA", same: true, how: "Re-elected. The DA won Cape Town outright." },
-    JHB: { n: "Herman Mashaba", p: "ASA", img: "assets/mayors/johannesburg/herman-mashaba.jpg", expected: true, how: "Expected to be elected by the new council with ANC and MK support. He was mayor before, from 2016 to 2019." },
-    TSH: { n: "Nasiphi Moya", p: "ASA", same: true, expected: true, how: "Expected to be elected Mayor of Tshwane (Pretoria) by the new council. She has been mayor since September 2024." }
   };
+  // where a hung council is leaning before its mayoral vote: a needle, like the NYT's election needle
+  const ZONE = { "-2": "Likely", "-1": "Leans", "0": "Toss-up", "1": "Leans", "2": "Likely" };
+  function needle(L, k) {
+    const C0 = 100, R1 = 92, R0 = 60, rad = (d) => d * Math.PI / 180;
+    const pt = (r, d) => `${(C0 + r * Math.cos(rad(d))).toFixed(2)} ${(C0 - r * Math.sin(rad(d))).toFixed(2)}`;
+    const band = (d0, d1, fill, op) => `<path d="M${pt(R1, d0)} A${R1} ${R1} 0 0 1 ${pt(R1, d1)} L${pt(R0, d1)} A${R0} ${R0} 0 0 0 ${pt(R0, d0)} Z" fill="${fill}" fill-opacity="${op}" stroke="#fff" stroke-width="1.5"/>`;
+    const ca = col(L.a.p), cb = col(L.b.p), ang = 90 - L.lean * 36;
+    const bands = band(180, 144, ca, 1) + band(144, 108, ca, .42) + band(108, 72, "#c9ccd2", .55) + band(72, 36, cb, .42) + band(36, 0, cb, 1);
+    const names = (b) => b.map(short), seats = (b) => b.reduce((a, id) => a + (k.seats[id] || 0), 0);
+    const side = L.lean < 0 ? L.a : L.lean > 0 ? L.b : null;
+    const call = side ? `${ZONE[L.lean]} ${side.label}` : "Toss-up";
+    const list = (a) => a.length < 2 ? a[0] : a.slice(0, -1).join(", ") + " and " + a[a.length - 1];
+    const seatLine = (b) => { const n = seats(b.bloc); return `${list(names(b.bloc))} ${b.bloc.length > 1 ? "hold" : "holds"} ${n} of ${k.N} seats${n >= k.need ? "" : ` · ${k.need} needed`}`; };
+    return { call, html: `
+      <svg class="my-ndl" viewBox="0 0 200 108" role="img" aria-label="Needle: ${call}">
+        ${bands}
+        <text x="${pt(76, 162).split(" ")[0]}" y="${pt(76, 162).split(" ")[1]}" class="my-ndl-z my-ndl-zw">LIKELY</text>
+        <text x="${pt(76, 126).split(" ")[0]}" y="${pt(76, 126).split(" ")[1]}" class="my-ndl-z">LEANS</text>
+        <text x="100" y="${pt(76, 90).split(" ")[1]}" class="my-ndl-z">TOSS-UP</text>
+        <text x="${pt(76, 54).split(" ")[0]}" y="${pt(76, 54).split(" ")[1]}" class="my-ndl-z">LEANS</text>
+        <text x="${pt(76, 18).split(" ")[0]}" y="${pt(76, 18).split(" ")[1]}" class="my-ndl-z my-ndl-zw">LIKELY</text>
+        <g class="my-ndl-arm" style="--a:${(90 - ang).toFixed(1)}deg"><path d="M97.6 100 L100 14 L102.4 100 Z" fill="#121212"/></g>
+        <circle cx="100" cy="100" r="6.5" fill="#121212"/><circle cx="100" cy="100" r="2.4" fill="#fff"/>
+      </svg>
+      <div class="my-ndl-ends"><span><i style="background:${ca}"></i>${L.a.label}</span><span>${L.b.label}<i style="background:${cb}"></i></span></div>
+      <p class="my-ndl-call">${side ? `<i style="background:${col(side.p)}"></i>` : ""}${call}</p>
+      <p class="my-ndl-seats">${seatLine(L.a)}<br>${seatLine(L.b)}</p>` };
+  }
   const ini = (n) => n.split(" ").map((w) => w[0]).slice(0, 2).join("");
   const photo = (img, n, p, cls) => img ? `<img class="${cls}" src="${img}" alt="" loading="lazy">` : `<span class="${cls} my-ini" style="background:${col(p)}">${ini(n)}</span>`;
 
@@ -36,8 +62,9 @@
   Promise.all([
     fetch("data/mayors-history.json").then((r) => r.json()),
     fetch("data/municipalities.geojson").then((r) => r.json()),
-    fetch("data/mayors.json").then((r) => r.json()).catch(() => ({}))
-  ]).then(([HIST, fc, CANDS]) => {
+    fetch("data/mayors.json").then((r) => r.json()).catch(() => ({})),
+    fetch("data/mayor-lean.json").then((r) => r.json()).catch(() => ({}))
+  ]).then(([HIST, fc, CANDS, LEANS]) => {
     const M = {}; fc.features.forEach((f) => { M[f.properties.id] = f.properties; });
     const chips = document.querySelector(".my-chips"), box = document.querySelector(".my-city");
     const pick = () => { const h = location.hash.slice(1); return HIST.find((c) => c.slug === h) || HIST[0]; };
@@ -48,7 +75,7 @@
       const { pts, dot } = hemi(N); let i = 0, dots = "";
       ss.forEach(([id, n]) => { for (let q = 0; q < n; q++, i++) { const p = pts[i]; dots += `<circle cx="${(1 + p.x).toFixed(3)}" cy="${(1 - p.y).toFixed(3)}" r="${dot.toFixed(3)}" fill="${col(id)}"/>`; } });
       const top = ss[0] || ["", 0];
-      return { N, need, top, maj: top[1] >= need, svg: `<svg class="my-hemi" viewBox="-0.03 -0.03 2.06 1.06" aria-hidden="true">${dots}<line x1="1" x2="1" y1="-0.03" y2="0.5" stroke="#121212" stroke-width="0.012" stroke-dasharray="0.04 0.03"/></svg>` };
+      return { N, need, top, seats, maj: top[1] >= need, svg: `<svg class="my-hemi" viewBox="-0.03 -0.03 2.06 1.06" aria-hidden="true">${dots}<line x1="1" x2="1" y1="-0.03" y2="0.5" stroke="#121212" stroke-width="0.012" stroke-dasharray="0.04 0.03"/></svg>` };
     }
 
 // timeline: one stretch per mayor, as long as their time in office, coloured by party
@@ -77,15 +104,20 @@ function timeline(C) {
   </div>`;
 }
 function render() {
-      const C = pick(), cur = C.list.find((r) => r.cur), nw = NEW[C.code], k = council(C.code);
+      const C = pick(), cur = C.list.find((r) => r.cur), nw = NEW[C.code], k = council(C.code), L = !nw && (LEANS.metros || {})[C.code], nd = L && needle(L, k);
       chips.innerHTML = HIST.map((c) => `<a class="my-chip" role="tab" href="#${c.slug}" aria-selected="${c === C}">${c.city}</a>`).join("");
       const now = nw
         ? `<div class="my-now">${photo(nw.same ? cur && cur.img : nw.img, nw.n, nw.p, "my-ph")}
              <div><p class="my-lab">${nw.expected ? "Expected mayor · council vote pending" : CHECK + "Mayor after the 2026 election"}</p><p class="my-name">${nw.n}</p>
              <p class="my-party"><i style="background:${col(nw.p)}"></i>${PN[nw.p] || nw.p}</p><p class="my-how">${nw.how}</p></div></div>`
+        : nd
+        ? `<div class="my-now my-tbc my-lean"><div><p class="my-lab">Council vote pending · Where it leans</p>
+             ${nd.html}
+             <p class="my-how">${L.why}${cur ? ` <b>${cur.n}</b> (${short(cur.p)}) stays in office until the vote.` : ""}</p>
+             <ul class="my-ndl-src">${L.src.map(([o, d, h, u]) => `<li><a href="${u}" target="_blank" rel="noopener">${h}</a><span>${o} · ${d}</span></li>`).join("")}</ul>
+             <p class="my-ndl-note">Based on news reports, not a forecast. The needle moves as deals are reported.</p></div></div>`
         : `<div class="my-now my-tbc"><div><p class="my-lab">Council vote pending</p>
-             <p class="my-how">The new council elects the mayor at its first sitting.${cur ? ` <b>${cur.n}</b> (${short(cur.p)}) stays in office until then.` : ""} Leading mayoral candidates by party vote:</p>
-             <div class="my-cands">${(CANDS[C.code] || []).filter((c) => c[3] >= 0 && !/^(No mayoral|Not named)/i.test(c[0])).slice(0, 3).map(([n, id, img, v]) => `<span class="my-cand">${img ? `<img src="${img}" alt="">` : `<span class="my-ini" style="background:${col(norm(id))}">${ini(n)}</span>`}<b>${n}</b><em>${short(norm(id))} · ${v.toFixed(1)}%</em></span>`).join("")}</div></div></div>`;
+             <p class="my-how">The new council elects the mayor at its first sitting.${cur ? ` <b>${cur.n}</b> (${short(cur.p)}) stays in office until then.` : ""}</p></div></div>`;
       // previous mayors, newest first; a re-elected mayor's own entry stays as "in office"
       const past = C.list.slice().reverse().map((r, i, arr) => {
         const num = C.list.length - i;
@@ -106,7 +138,7 @@ function render() {
       const parties = [...new Set(C.list.map((r) => r.p))];
       box.innerHTML = `
         <header class="my-ch"><h2>${C.title}</h2><p>${C.prov} · ${C.list.length} mayors since the first democratic council</p></header>
-        ${timeline(C)}
+
         <div class="my-2026">
           <div class="my-council">${k.svg}<p class="my-res">${LOGO[k.top[0]] ? `<img src="assets/logos-sm/${LOGO[k.top[0]]}.png" alt="">` : ""}${k.maj ? `${PN[k.top[0]] || k.top[0]} won a majority with ${k.top[1]} of ${k.N} seats` : `No majority · ${PN[k.top[0]] || k.top[0]} largest with ${k.top[1]} of ${k.N} seats`}</p></div>
           ${now}
@@ -123,7 +155,7 @@ function render() {
         since: (C.list[0].y.match(/\d{4}/) || [""])[0],
         now: nw
           ? { label: nw.expected ? "Expected mayor · council vote pending" : "Mayor after the 2026 election", n: nw.n, party: PN[nw.p] || nw.p, color: col(nw.p), img: nw.same ? cur && cur.img : nw.img, how: nw.how }
-          : { label: "Council vote pending", how: `The new council elects the mayor at its first sitting.${cur ? ` ${cur.n} (${short(cur.p)}) stays in office until then.` : ""}` },
+          : { label: "Council vote pending", how: nd ? `${nd.call}. ${L.why}` : `The new council elects the mayor at its first sitting.${cur ? ` ${cur.n} (${short(cur.p)}) stays in office until then.` : ""}` },
         list: C.list.slice().reverse().map((r, i) => ({ num: C.list.length - i, n: r.n, party: short(r.p), color: col(r.p), y: r.y, img: r.img, cur: !!r.cur,
           tag: !r.cur ? "" : nw && nw.same && nw.n === r.n ? "In office" : nw && !nw.expected ? "Previous" : "Outgoing" }))
       });

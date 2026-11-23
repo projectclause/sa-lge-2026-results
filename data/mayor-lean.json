@@ -1,0 +1,74 @@
+{
+  "updated": "2026-11-23",
+  "note": "Where each hung council is leaning before its mayoral vote, based on news reports. lean: -2 likely A, -1 lean A, 0 toss-up, 1 lean B, 2 likely B. Bloc seats are counted from the council results.",
+  "metros": {
+    "JHB": {
+      "a": { "label": "DA-led", "p": "DA", "bloc": ["DA"] },
+      "b": { "label": "ActionSA-led", "p": "ASA", "bloc": ["ANC", "ASA", "EFF", "MK"] },
+      "lean": 2,
+      "why": "Reports say the ANC, ActionSA, EFF and MK have agreed a pact that would make ActionSA’s Herman Mashaba mayor. Helen Zille has conceded the DA is headed for the opposition benches.",
+      "src": [
+        ["Daily Maverick", "22 Nov", "Mashaba set for Joburg mayoralty as ANC, ActionSA, MK and EFF seal metro pact", "https://www.dailymaverick.co.za/article/2026-11-23-mashaba-set-for-joburg-mayoralty-as-anc-actionsa-mk-and-eff-seal-metro-pact/"],
+        ["News24", "19 Nov", "Helen Zille concedes defeat in Johannesburg as DA set for opposition benches", "https://www.news24.com/southafrica/news/helen-zille-concedes-defeat-in-johannesburg-as-da-set-for-opposition-benches-20261119-0618"]
+      ]
+    },
+    "TSH": {
+      "a": { "label": "DA-led", "p": "DA", "bloc": ["DA"] },
+      "b": { "label": "ActionSA-led", "p": "ASA", "bloc": ["ASA", "ANC", "EFF", "MK"] },
+      "lean": 2,
+      "why": "The ANC has reportedly offered ActionSA the Tshwane mayoralty, and ActionSA says any deal must keep Nasiphi Moya as mayor. ActionSA turned down the DA’s final offer.",
+      "src": [
+        ["IOL", "18 Nov", "ANC offers ActionSA Joburg and Tshwane mayoral seats, keeps Ekurhuleni in coalition deal", "https://iol.co.za/news/politics/2026-11-18-anc-offers-actionsa-joburg-and-tshwane-mayoral-seats-keeps-ekurhuleni-in-coalition-deal/"],
+        ["IOL", "22 Nov", "ActionSA’s power-sharing offer to the DA rejected as Gauteng coalition talks turn bitter", "https://iol.co.za/news/politics/2026-11-22-actionsas-power-sharing-offer-to-the-da-rejected-as-gauteng-coalition-talks-turn-bitter/"]
+      ]
+    },
+    "EKU": {
+      "a": { "label": "DA-led", "p": "DA", "bloc": ["DA"] },
+      "b": { "label": "ANC-led", "p": "ANC", "bloc": ["ANC", "ASA", "EFF", "MK"] },
+      "lean": 1,
+      "why": "Under the ANC’s reported offer to ActionSA, the ANC would keep Ekurhuleni. No Ekurhuleni deal has been reported as signed.",
+      "src": [
+        ["IOL", "18 Nov", "ANC offers ActionSA Joburg and Tshwane mayoral seats, keeps Ekurhuleni in coalition deal", "https://iol.co.za/news/politics/2026-11-18-anc-offers-actionsa-joburg-and-tshwane-mayoral-seats-keeps-ekurhuleni-in-coalition-deal/"],
+        ["Daily Maverick", "19 Nov", "FF Plus fails to broker DA-ActionSA coalition after deadlocked Gauteng talks", "https://www.dailymaverick.co.za/article/2026-11-20-ff-plus-fails-to-broker-da-actionsa-coalition-as-gauteng-talks-stall/"]
+      ]
+    },
+    "ETH": {
+      "a": { "label": "DA-led", "p": "DA", "bloc": ["DA"] },
+      "b": { "label": "MK-led", "p": "MK", "bloc": ["MK", "ANC"] },
+      "lean": 2,
+      "why": "IOL reports the ANC and MK have sealed an eThekwini deal, with MK tipped for mayor. News24 reports resistance to the deal inside the KwaZulu-Natal ANC.",
+      "src": [
+        ["IOL", "23 Nov", "ANC and MK Party seal eThekwini coalition deal as ActionSA’s future hangs in balance", "https://iol.co.za/news/politics/2026-11-23-anc-and-mk-party-seal-ethekwini-coalition-deal-as-actionsas-future-hangs-in-balance/"],
+        ["News24", "22 Nov", "Inside the ANC’s KZN revolt against the MK Party deal", "https://www.news24.com/politics/inside-the-ancs-kzn-revolt-against-the-mk-party-deal-20261120-1140"]
+      ]
+    },
+    "NMA": {
+      "a": { "label": "DA-led", "p": "DA", "bloc": ["DA"] },
+      "b": { "label": "ANC-led", "p": "ANC", "bloc": ["ANC"] },
+      "lean": -1,
+      "why": "Analysts say the DA holds the upper hand, and the DA in the Eastern Cape says a deal is near the finish line. It has not been reported as signed.",
+      "src": [
+        ["News24", "20 Nov", "DA Eastern Cape ‘very pleased’ as Nelson Mandela Bay coalition deal nears finish line", "https://www.news24.com/politics/da-eastern-cape-very-pleased-as-nelson-mandela-bay-coalition-deal-nears-finish-line-20261120-0484"],
+        ["Daily Maverick", "19 Nov", "DA holds upper hand in Nelson Mandela Bay coalition talks, analysts say", "https://www.dailymaverick.co.za/article/2026-11-19-da-holds-upper-hand-in-nelson-mandela-bay-coalition-talks-analysts-say/"]
+      ]
+    },
+    "BUF": {
+      "a": { "label": "UDM-led", "p": "UDM", "bloc": ["UDM"] },
+      "b": { "label": "ANC-led", "p": "ANC", "bloc": ["ANC", "EFF", "SACP"] },
+      "lean": 1,
+      "why": "News24 reports the ANC is close to a deal with the EFF and SACP, while the UDM courts a wider bloc of its own.",
+      "src": [
+        ["News24", "19 Nov", "UDM courts wider coalition bloc in Buffalo City, as ANC nears deal with EFF, SACP", "https://www.news24.com/politics/udm-courts-wider-coalition-bloc-in-buffalo-city-as-anc-nears-deal-with-eff-sacp-20261119-0998"]
+      ]
+    },
+    "MAN": {
+      "a": { "label": "DA-led", "p": "DA", "bloc": ["DA"] },
+      "b": { "label": "ANC-led", "p": "ANC", "bloc": ["ANC"] },
+      "lean": 0,
+      "why": "The ANC and DA are one seat apart, and no deal has been reported yet.",
+      "src": [
+        ["News24", "07 Nov", "ANC loses outright control of Mangaung for the first time as DA nips at its heels", "https://www.news24.com/politics/anc-loses-outright-control-of-mangaung-for-the-first-time-as-da-nips-at-its-heels-20261107-0446"]
+      ]
+    }
+  }
+}
