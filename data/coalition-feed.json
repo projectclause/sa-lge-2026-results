@@ -3869,7 +3869,8 @@
         "role": "Columnist, Bloomberg Opinion",
         "beat": "analysis",
         "score": 21.0,
-        "wide": true
+        "wide": true,
+        "img": "assets/journalists/justice-malala.jpg"
       },
       "peyton": {
         "n": "Nellie Peyton",
