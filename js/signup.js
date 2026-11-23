@@ -3,7 +3,7 @@
 (function () {
   "use strict";
   // Paste the Apps Script web app URL here after deploying google-apps-script/signup.gs
-  const SIGNUP_URL = "";
+  const SIGNUP_URL = "https://script.google.com/macros/s/AKfycbzQ1dVbTh65mMQ2DRUu7SCzUDcplcfyr4Rtw2YiNQwe08SOoE40s4IckZPNNHradaZ7ig/exec";
   const DELAY = 60 * 1000;
   // what we remember about the reader in this browser: { email, first, last }
   const me = () => { try { return JSON.parse(localStorage.getItem("pre-me") || "{}"); } catch (e) { return {}; } };
