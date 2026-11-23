@@ -506,6 +506,15 @@
       "group": "voice",
       "org": "Independent",
       "beat": "analysis"
+    },
+    "berkowitz": {
+      "n": "Paul Berkowitz",
+      "o": "Daily Maverick",
+      "img": "assets/journalists/paul-berkowitz.jpg",
+      "role": "Political analyst, Daily Maverick",
+      "group": "voice",
+      "org": "Daily Maverick",
+      "beat": "analysis"
     }
   },
   "items": [
@@ -2221,6 +2230,39 @@
       "s": "Before the vote, van Onselen talked Alec Hogg through Johannesburg’s polling divide, turnout risks and the coalition battles likely in the metros.",
       "src": "BizNews",
       "url": "https://www.biznews.com/interviews/gareth-van-onselen-election-2026-polls-turnout-coalitions"
+    },
+    {
+      "id": "pb-gauteng",
+      "j": "berkowitz",
+      "d": "2026-11-17",
+      "kind": "Analysis",
+      "place": "Gauteng metros",
+      "h": "When the horse trading is over, what coalitions will govern Gauteng?",
+      "s": "Berkowitz argues two of the DA, ANC and ActionSA will end up running Gauteng, and that an ANC–ActionSA pact looks likelier: it needs more partners, but more parties, including the EFF, SACP and MK, are willing to join it. ActionSA is the kingmaker in Ekurhuleni.",
+      "src": "Daily Maverick",
+      "url": "https://www.dailymaverick.co.za/article/2026-11-17-when-the-horse-trading-is-over-what-coalitions-will-merge-and-govern-gauteng/"
+    },
+    {
+      "id": "pb-cuts",
+      "j": "berkowitz",
+      "d": "2026-11-12",
+      "kind": "Interview",
+      "place": "Metros",
+      "h": "ANC bleeding from ‘a thousand cuts’ as smaller parties reshape coalitions",
+      "s": "Speaking to Inside Politic, Berkowitz said the ANC was losing support on many fronts at once, to ActionSA, the DA, the UDM, the SACP and local movements.",
+      "src": "Inside Politic",
+      "url": "https://insidepolitic.co.za/analysis-anc-bleeding-from-a-thousand-cuts-as-smaller-parties-reshape-coalition-landscape/"
+    },
+    {
+      "id": "pb-eth",
+      "j": "berkowitz",
+      "d": "2026-10-26",
+      "kind": "Analysis",
+      "place": "eThekwini",
+      "h": "Four eThekwini polls show MK’s possible paths to power",
+      "s": "Before the vote, Berkowitz compared four eThekwini polls. MK came first in all of them, and the opposition parties reached a majority in only two of the four scenarios.",
+      "src": "Daily Maverick",
+      "url": "https://www.dailymaverick.co.za/article/2026-10-26-four-ethekwini-polls-show-mks-possible-paths-to-power/"
     }
   ],
   "edition": {
@@ -3058,7 +3100,8 @@
         "bb-dep",
         "ar-eth",
         "ar-left",
-        "tg-eth"
+        "tg-eth",
+        "pb-eth"
       ],
       "voices": {
         "dali": "Says MK’s vote shows voters want cooperation, warns the ANC about its partners, and met the DA for the first time while saying MK wants like-minded partners.",
@@ -3072,7 +3115,8 @@
         "phakathi": "MK’s eThekwini mayoral candidate: said MK was ready to govern Durban and fix its water problems within 100 days.",
         "baloyi": "Tipped, in reports, as Mashaba’s deputy mayor in Johannesburg.",
         "ramushwana": "Reported the ANC–MK eThekwini talks and the Council of the Left’s refusal to back ANC deals that include the DA.",
-        "goba": "Reported eThekwini saying its first council meeting would go ahead despite KZN Cogta’s order to postpone."
+        "goba": "Reported eThekwini saying its first council meeting would go ahead despite KZN Cogta’s order to postpone.",
+        "berkowitz": "Before the vote, found MK first in all four eThekwini polls, with the opposition reaching a majority in only two scenarios."
       },
       "coverage": [
         {
@@ -3231,7 +3275,8 @@
         "pm-vutha",
         "m-95",
         "tg-dawork",
-        "km-offer"
+        "km-offer",
+        "pb-gauteng"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
@@ -3245,7 +3290,8 @@
         "hogg": "Interviewed Beaumont on ActionSA’s coalition hand.",
         "mashele": "Wants ActionSA to govern the Gauteng metros with the DA, not the ANC.",
         "goba": "Reported that ActionSA’s objection is to Zille and Brink, not the DA, and that it will back the DA in Nelson Mandela Bay.",
-        "moichela": "Reported the ANC’s offer of the Joburg and Tshwane mayoralties to ActionSA."
+        "moichela": "Reported the ANC’s offer of the Joburg and Tshwane mayoralties to ActionSA.",
+        "berkowitz": "Argues an ANC–ActionSA pact is likelier than a DA deal in Gauteng, because more parties are willing to join it."
       },
       "coverage": [
         {
@@ -3537,14 +3583,16 @@
         "zv-who",
         "pm-ewn",
         "gvo-data",
-        "gvo-biz"
+        "gvo-biz",
+        "pb-cuts"
       ],
       "voices": {
         "pieter": "Saw the ANC’s decline speeding up, with the party on the brink of second, third or fourth place in seven of the eight metros.",
         "adriaan": "Noted that the ANC will not control a single metro.",
         "zimasa": "Asks who really won the election, tracing where the ANC’s lost 14.8 points went.",
         "mashele": "Predicts the ANC could fall below 15% by 2029, blaming corruption, incompetence and arrogance.",
-        "vanonselen": "Estimated the ANC lost about 25 points in black metro voting districts, mostly to MK and ActionSA."
+        "vanonselen": "Estimated the ANC lost about 25 points in black metro voting districts, mostly to MK and ActionSA.",
+        "berkowitz": "Says the ANC is “bleeding from a thousand cuts” to ActionSA, the DA, the UDM, the SACP and local movements."
       },
       "coverage": [
         {
