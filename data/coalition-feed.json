@@ -524,6 +524,15 @@
       "group": "voice",
       "org": "Daily Maverick",
       "beat": "reporting"
+    },
+    "corder": {
+      "n": "Dan Corder",
+      "o": "Three Beanies Network",
+      "img": "assets/journalists/dan-corder.jpg",
+      "role": "Host, Three Beanies Network",
+      "group": "voice",
+      "org": "TBN",
+      "beat": "analysis"
     }
   },
   "items": [
@@ -2316,6 +2325,61 @@
       "s": "Simelane reported the DA’s written “stability framework”, signed by Ashor Sarupen and sent to Fikile Mbalula, which would extend the GNU to hung councils, and ActionSA’s rejection of a separate DA offer for the Gauteng metros.",
       "src": "Daily Maverick",
       "url": "https://www.dailymaverick.co.za/article/2026-11-23-da-offers-anc-93-mayoralties-in-137-councils-actionsa-rejects-gauteng-proposal/"
+    },
+    {
+      "id": "dc-metros",
+      "j": "corder",
+      "d": "2026-11-06",
+      "kind": "Video",
+      "place": "Metros",
+      "h": "New results: coalition madness coming, metros facing massive battles",
+      "s": "As results firmed up, Corder went through how coalitions could take shape in South Africa’s cities, and looked at the rise of the right wing in the country’s politics.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=JnnRNh_Urjs"
+    },
+    {
+      "id": "dc-cutda",
+      "j": "corder",
+      "d": "2026-11-11",
+      "kind": "Video",
+      "place": "National",
+      "h": "ANC to cut out the DA?",
+      "s": "Corder discussed reports that the ANC was debating internally whether to drop the DA and partner with ActionSA in councils across the country.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=pLnxNQ47hcg"
+    },
+    {
+      "id": "dc-fights",
+      "j": "corder",
+      "d": "2026-11-16",
+      "kind": "Video",
+      "place": "Gauteng metros",
+      "h": "ANC fights over DA: Ramaphosa vs Mashatile, DA vs ActionSA",
+      "s": "Corder covered a weekend of talks in which the ANC struggled to commit to the DA, while Herman Mashaba claimed victory for ActionSA in Gauteng.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=dLqsEicTjdw"
+    },
+    {
+      "id": "dc-gnu",
+      "j": "corder",
+      "d": "2026-11-17",
+      "kind": "Video",
+      "place": "National",
+      "h": "GNU breakup? Will an ANC–ActionSA alliance end the DA in national government?",
+      "s": "Corder asked whether the DA would walk away from the unity government as an ANC–ActionSA coalition in Gauteng began to look more concrete.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=LIzA8aOOJh8"
+    },
+    {
+      "id": "dc-dead",
+      "j": "corder",
+      "d": "2026-11-23",
+      "kind": "Video",
+      "place": "National",
+      "h": "“The ANC will be dead”: ANC decides today on DA, ActionSA, MK, EFF",
+      "s": "Corder said the talks had reached the sharp end, with the ANC seemingly certain to align broadly with ActionSA, though some in the ANC fear the deal will badly hurt the party.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=NoJJyo7Ggg8"
     }
   ],
   "edition": {
@@ -3069,7 +3133,8 @@
         "ww-tl",
         "jp-pod",
         "dm-enca",
-        "mg-frank"
+        "mg-frank",
+        "dc-cutda"
       ],
       "voices": {
         "sizwe": "Floated one bargain between the DA, ANC and ActionSA to share out the metro mayors, and asks whether South Africa is entering a political realignment.",
@@ -3086,7 +3151,8 @@
         "wessels": "Criticised fearmongering in the campaign as the FF Plus readied to play kingmaker.",
         "perlman": "Looked at why coalition marriages fail.",
         "morero": "Says the ANC’s coalition framework puts service delivery and the Constitution first.",
-        "macg": "Argues the coalition talks expose a basic crisis of trust in government."
+        "macg": "Argues the coalition talks expose a basic crisis of trust in government.",
+        "corder": "Discussed ANC talk of dropping the DA for ActionSA across the country."
       },
       "coverage": [
         {
@@ -3334,7 +3400,9 @@
         "tg-dawork",
         "km-offer",
         "pb-gauteng",
-        "ls-nec"
+        "ls-nec",
+        "dc-fights",
+        "dc-dead"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
@@ -3350,7 +3418,8 @@
         "goba": "Reported that ActionSA’s objection is to Zille and Brink, not the DA, and that it will back the DA in Nelson Mandela Bay.",
         "moichela": "Reported the ANC’s offer of the Joburg and Tshwane mayoralties to ActionSA.",
         "berkowitz": "Argues an ANC–ActionSA pact is likelier than a DA deal in Gauteng, because more parties are willing to join it.",
-        "simelane": "Reported that ActionSA’s support would likely decide who governs Gauteng’s three metros."
+        "simelane": "Reported that ActionSA’s support would likely decide who governs Gauteng’s three metros.",
+        "corder": "Covered the ANC’s struggle to commit to the DA as Mashaba claimed victory in Gauteng."
       },
       "coverage": [
         {
@@ -3549,7 +3618,8 @@
         "ho-bd",
         "ah-biz",
         "sg-pod",
-        "im-rand"
+        "im-rand",
+        "dc-gnu"
       ],
       "voices": {
         "adriaan": "Named four coalition scenarios (Ukraine, Lesotho, Rainbow and Ghana), expected a DA-ANC deal, then warned the fight over the cities could bring down the unity government.",
@@ -3563,7 +3633,8 @@
         "omarjee": "Set out the ANC’s four coalition options, including handing MK some councils.",
         "hogg": "Interviewed Gayton McKenzie as the ANC’s national executive chose its path.",
         "gcilishe": "Hosted Malema on the EFF podcast as the talks continued.",
-        "mafisa": "Reported the ANC rejecting claims that the coalition talks drove the rand down."
+        "mafisa": "Reported the ANC rejecting claims that the coalition talks drove the rand down.",
+        "corder": "Asked whether the DA would quit the GNU as an ANC–ActionSA deal took shape."
       },
       "coverage": [
         {
@@ -3644,7 +3715,8 @@
         "gvo-data",
         "gvo-biz",
         "pb-cuts",
-        "ls-rout"
+        "ls-rout",
+        "dc-metros"
       ],
       "voices": {
         "pieter": "Saw the ANC’s decline speeding up, with the party on the brink of second, third or fourth place in seven of the eight metros.",
@@ -3653,7 +3725,8 @@
         "mashele": "Predicts the ANC could fall below 15% by 2029, blaming corruption, incompetence and arrogance.",
         "vanonselen": "Estimated the ANC lost about 25 points in black metro voting districts, mostly to MK and ActionSA.",
         "berkowitz": "Says the ANC is “bleeding from a thousand cuts” to ActionSA, the DA, the UDM, the SACP and local movements.",
-        "simelane": "Reported that the ANC had lost the lead in four metros and must choose between coalition deals and opposition."
+        "simelane": "Reported that the ANC had lost the lead in four metros and must choose between coalition deals and opposition.",
+        "corder": "As results firmed up, set out how coalitions could take shape in the cities."
       },
       "coverage": [
         {
@@ -3826,6 +3899,11 @@
       "k": "IND",
       "n": "Independent",
       "badge": "—"
+    },
+    {
+      "k": "TBN",
+      "n": "Three Beanies Network",
+      "badge": "TBN"
     }
   ],
   "intl": {
