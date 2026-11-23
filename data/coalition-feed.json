@@ -1716,26 +1716,37 @@
       "s": "Haffajee reported that the ANC, ActionSA, MK and EFF will form the core of the governments in Johannesburg, Tshwane and Ekurhuleni, with Mashaba likely to be inaugurated as Johannesburg mayor this week. The ANC wants to keep the finance portfolio, and the deal still had to be confirmed by a special meeting of the ANC’s national executive committee on Monday.",
       "src": "Daily Maverick",
       "url": "https://www.dailymaverick.co.za/article/2026-11-23-mashaba-set-for-joburg-mayoralty-as-anc-actionsa-mk-and-eff-seal-metro-pact/"
+    },
+    {
+      "id": "m-adjourn",
+      "j": "michael",
+      "d": "2026-11-23",
+      "kind": "Statement",
+      "place": "Johannesburg",
+      "h": "City of Joburg to hold first council meeting after local polls",
+      "s": "Beaumont told EWN the council would most likely be adjourned to Wednesday or so to elect a mayor, with the swearing-in of 270 councillors likely to take all day and evening. EWN reported that the coalition agreement is likely to be signed on Tuesday.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/2026/11/23/city-of-joburg-to-hold-firsts-council-meeting-after-local-polls"
     }
   ],
   "edition": {
     "date": "2026-11-23",
-    "time": "07:45"
+    "time": "09:41"
   },
   "events": [
     {
       "id": "johannesburg",
       "cat": "Johannesburg",
       "place": "City of Johannesburg",
-      "h": "Mashaba set for Johannesburg mayoralty as a four-party pact takes shape",
-      "dek": "Daily Maverick reports that the ANC, ActionSA, MK and EFF will form the core of the governments in Johannesburg, Tshwane and Ekurhuleni, with Herman Mashaba likely to be inaugurated as Johannesburg mayor this week. The DA won the most votes in the city but is heading for the opposition benches.",
+      "h": "Johannesburg’s new council sits today, but the mayoral vote is likely to wait",
+      "dek": "The city’s 270 councillors are due to be sworn in from 1pm on Monday, 23 November. ActionSA’s Michael Beaumont expects the mayoral election to be held over to Wednesday or so, while the ANC’s national executive committee meets on the four-party pact that would make Herman Mashaba mayor.",
       "brief": [
-        "Daily Maverick: the ANC, ActionSA, MK and EFF are to govern Johannesburg, Tshwane and Ekurhuleni",
-        "Mashaba is likely to be inaugurated as Johannesburg mayor this week",
-        "The pact still had to be confirmed by a special ANC national executive committee meeting on Monday, 23 November",
-        "The ANC wants to keep the finance portfolio",
-        "The DA topped the Joburg vote, but Zille has conceded",
-        "Hill-Lewis calls ActionSA’s demand over Zille extortion"
+        "The new council sits at 1pm on Monday, 23 November, in Braamfontein, to swear in 270 councillors",
+        "A mayoral vote on Monday is unlikely: Beaumont expects an adjournment to Wednesday or so",
+        "EWN reports the coalition agreement is likely to be signed on Tuesday",
+        "The ANC’s national executive committee holds a special meeting on Monday to consider its negotiators’ report",
+        "Daily Maverick: the ANC, ActionSA, MK and EFF are to govern Johannesburg, Tshwane and Ekurhuleni, with Mashaba as Johannesburg mayor",
+        "The DA holds 91 of 270 seats, the ANC 63 and ActionSA 42; a majority needs 136"
       ],
       "sec": [
         [
@@ -1764,7 +1775,7 @@
         ],
         [
           "Monday, 23 November",
-          "On Sunday, Inside Politics reported that Mashaba had made himself available for mayor ahead of a council sitting on Monday, while a source said no formal agreement had yet been reached. On Monday morning, Ferial Haffajee reported in Daily Maverick that the ANC, ActionSA, MK and EFF would form the core of the governments in Johannesburg, Tshwane and Ekurhuleni, and that Mashaba was likely to be inaugurated this week. She reported that the ANC wants to keep the finance portfolio and that the arrangement still had to be confirmed by a special meeting of the ANC’s national executive committee on Monday."
+          "On Sunday, Inside Politics reported that Mashaba had made himself available for mayor ahead of a council sitting on Monday, while a source said no formal agreement had yet been reached. On Monday morning, Ferial Haffajee reported in Daily Maverick that the ANC, ActionSA, MK and EFF would form the core of the governments in Johannesburg, Tshwane and Ekurhuleni, and that Mashaba was likely to be inaugurated this week. She reported that the ANC wants to keep the finance portfolio and that the arrangement still had to be confirmed by a special meeting of the ANC’s national executive committee on Monday. The National reported that the council was due to sit at 1pm at the Constance Connie Bapela Council Chamber in Braamfontein, and that it was uncertain whether a mayor would be elected at the sitting. Beaumont told EWN the council would most likely be adjourned to Wednesday or so for the mayoral election, and EWN reported that the coalition agreement is likely to be signed on Tuesday. eNCA reported that the ANC’s national executive committee would meet on Monday to consider a report from its negotiating team and give it further direction."
         ]
       ],
       "items": [
@@ -1816,12 +1827,13 @@
         "pm-vutha",
         "g-ext",
         "m-95",
-        "fh-pact"
+        "fh-pact",
+        "m-adjourn"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
         "clement": "Pressed both sides on air: Mashaba ruled out a DA team with Zille, Hill-Lewis refused to drop her, and he asked Hill-Lewis about the mayoral-swap claims.",
-        "michael": "Says a deal with the ANC, EFF and MK is 90 to 95% agreed, with Mashaba as mayor and the decision due on Sunday evening.",
+        "michael": "Says a deal with the ANC, EFF and MK is 90 to 95% agreed, with Mashaba as mayor and the decision due on Sunday evening. On 23 November he told EWN the Johannesburg council would most likely be adjourned to Wednesday or so to elect a mayor.",
         "adriaan": "Reports that Zille has conceded, leaving the DA in opposition despite topping the vote.",
         "herman": "Would not work with Zille or Brink, says the DA tried to buy his support, and is set to be Joburg mayor in a deal with the ANC.",
         "geordin": "Refused to drop Zille, made the DA’s final offer, and calls ActionSA’s demand over her extortion.",
@@ -1847,6 +1859,24 @@
         "mashele": "Argues an ActionSA–DA coalition is the only viable way forward, and says both parties asked him to help bring them together."
       },
       "coverage": [
+        {
+          "src": "The National",
+          "h": "Johannesburg council set to meet as battle for control of metro intensifies",
+          "d": "2026-11-23",
+          "url": "https://thenational.co.za/news/2026-11-23-johannesburg-council-set-to-meet-as-battle-for-control-of-metro-intensifies/"
+        },
+        {
+          "src": "eNCA",
+          "h": "ANC NEC to hold special meeting on coalition talks",
+          "d": "2026-11-23",
+          "url": "https://www.enca.com/news-top-stories/anc-nec-hold-special-meeting-coalition-talks"
+        },
+        {
+          "src": "IOL",
+          "h": "DA threatens legal action over Johannesburg council’s inaugural meeting",
+          "d": "2026-11-23",
+          "url": "https://iol.co.za/lge2026/2026-11-23-da-threatens-legal-action-over-johannesburg-councils-inaugural-meeting"
+        },
         {
           "src": "IOL",
           "h": "Who will wear the mayoral chain? Joburg set to elect new mayor as DA faces coalition wipeout",
