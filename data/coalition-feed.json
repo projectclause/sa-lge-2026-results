@@ -3916,7 +3916,8 @@
         "role": "Journalist, Semafor",
         "beat": "reporting",
         "score": 41.7,
-        "inf": true
+        "inf": true,
+        "img": "assets/journalists/sam-mkokeli.jpg"
       },
       "duplessis": {
         "n": "Carien du Plessis",
