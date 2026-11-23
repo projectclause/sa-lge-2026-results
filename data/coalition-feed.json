@@ -388,6 +388,14 @@
       "img": "assets/journalists/thabiso-goba.jpg",
       "group": "voice",
       "org": "EWN"
+    },
+    "mafisa": {
+      "n": "Itumeleng Mafisa",
+      "o": "The Citizen",
+      "role": "Journalist, The Citizen",
+      "img": "assets/journalists/itumeleng-mafisa.jpg",
+      "group": "voice",
+      "org": "The Citizen"
     }
   },
   "items": [
@@ -1883,6 +1891,50 @@
       "s": "Goba reported that the ANC won no PR seats in Johannesburg, Tshwane or Ekurhuleni, which could keep regional leaders Loyiso Masuku, Eugene Modise and Doctor Xhakaza out of council, and that ActionSA was considering lending it some of its PR seats.",
       "src": "EWN",
       "url": "https://www.ewn.co.za/2026/11/23/actionsa-considering-giving-some-pr-councillor-seats-to-anc-in-hung-gauteng-metros"
+    },
+    {
+      "id": "im-zille",
+      "j": "mafisa",
+      "d": "2026-11-13",
+      "kind": "Reported",
+      "place": "Johannesburg",
+      "h": "Joburg coalition talks begin: Will the DA deliver Zille’s head to Mashaba?",
+      "s": "Mafisa reported that after meeting Geordin Hill-Lewis, Herman Mashaba’s condition for a Gauteng deal was that Helen Zille and Cilliers Brink step aside as mayoral candidates, as he would. Analyst Theo Neethling warned Mashaba risked overplaying his hand.",
+      "src": "The Citizen",
+      "url": "https://www.citizen.co.za/news/south-africa/elections/will-the-da-hand-over-zilles-head-to-mashaba/"
+    },
+    {
+      "id": "im-rand",
+      "j": "mafisa",
+      "d": "2026-11-19",
+      "kind": "Reported",
+      "place": "South Africa",
+      "h": "‘Financial markets have no right to dictate coalition negotiations’ – ANC",
+      "s": "Mafisa reported the ANC rejecting claims that the rand’s slide was linked to the coalition talks. Spokesperson Mahlengi Bhengu pointed instead to a stronger dollar and expectations of higher US interest rates.",
+      "src": "The Citizen",
+      "url": "https://www.citizen.co.za/news/south-africa/elections/financial-markets-have-no-right-to-dictate-those-negotiations-anc-on-rand-slide/"
+    },
+    {
+      "id": "im-round",
+      "j": "mafisa",
+      "d": "2026-11-20",
+      "kind": "Reported",
+      "place": "Gauteng metros",
+      "h": "Gauteng PR seat roundabout could harm ANC, warns insider",
+      "s": "Mafisa reported a senior Gauteng ANC member warning against taking PR seats from ActionSA. Mashaba told The Citizen the ANC’s deputy mayor candidates would be sworn in as ActionSA PR councillors in return for an extra mayoral committee post, and said the ANC had accepted.",
+      "src": "The Citizen",
+      "url": "https://www.citizen.co.za/news/south-africa/elections/gauteng-pr-seat-roundabout-could-harm-anc-warns-insider/"
+    },
+    {
+      "id": "im-reject",
+      "j": "mafisa",
+      "d": "2026-11-23",
+      "kind": "Reported",
+      "place": "Gauteng metros",
+      "h": "ANC rejects Mashaba’s PR seat horse-trading offer",
+      "s": "Mafisa reported that, according to a senior Gauteng ANC source, the provincial task team rejected Mashaba’s offer, saying an ANC member who takes it up must choose between the ANC and ActionSA. The SACP said its seats are not available.",
+      "src": "The Citizen",
+      "url": "https://www.citizen.co.za/news/anc-rejects-mashabas-pr-seat-horse-trading-agreement/"
     }
   ],
   "edition": {
@@ -1985,7 +2037,8 @@
         "m-95",
         "fh-pact",
         "m-adjourn",
-        "z-never"
+        "z-never",
+        "im-zille"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
@@ -2013,7 +2066,8 @@
         "mciver": "Spoke to Ferial Haffajee about the continuing Joburg talks.",
         "brink": "Faced, with Zille, ActionSA’s demand that he step aside, and had not said whether he would.",
         "macg": "Led his podcast on the DA topping the Joburg vote.",
-        "mashele": "Argues an ActionSA–DA coalition is the only viable way forward, and says both parties asked him to help bring them together."
+        "mashele": "Argues an ActionSA–DA coalition is the only viable way forward, and says both parties asked him to help bring them together.",
+        "mafisa": "Reported Mashaba’s condition that Zille and Brink step aside as mayoral candidates."
       },
       "coverage": [
         {
@@ -2222,12 +2276,15 @@
         "m-prseat",
         "h-prseat",
         "m-masuku",
-        "tg-prseat"
+        "tg-prseat",
+        "im-round",
+        "im-reject"
       ],
       "voices": {
         "michael": "Said ActionSA offered a PR seat because the ANC had made significant concessions, and left it to the ANC to decide.",
         "herman": "Said the Johannesburg council meeting would go ahead and the partners would make a final announcement this week.",
-        "goba": "Reported for EWN how the ANC’s lack of PR seats could keep its regional leaders out of the Gauteng councils."
+        "goba": "Reported for EWN how the ANC’s lack of PR seats could keep its regional leaders out of the Gauteng councils.",
+        "mafisa": "Followed the PR-seat offer for The Citizen, from Mashaba’s pitch to the ANC’s rejection."
       },
       "coverage": [
         {
@@ -2993,7 +3050,8 @@
         "gm-biz",
         "ho-bd",
         "ah-biz",
-        "sg-pod"
+        "sg-pod",
+        "im-rand"
       ],
       "voices": {
         "adriaan": "Named four coalition scenarios (Ukraine, Lesotho, Rainbow and Ghana), expected a DA-ANC deal, then warned the fight over the cities could bring down the unity government.",
@@ -3006,7 +3064,8 @@
         "gayton": "Spoke on BizNews as the ANC’s national executive met to choose its coalition path.",
         "omarjee": "Set out the ANC’s four coalition options, including handing MK some councils.",
         "hogg": "Interviewed Gayton McKenzie as the ANC’s national executive chose its path.",
-        "gcilishe": "Hosted Malema on the EFF podcast as the talks continued."
+        "gcilishe": "Hosted Malema on the EFF podcast as the talks continued.",
+        "mafisa": "Reported the ANC rejecting claims that the coalition talks drove the rand down."
       },
       "coverage": [
         {
