@@ -497,6 +497,15 @@
       "org": "IOL",
       "beat": "reporting",
       "score": 27.0
+    },
+    "vanonselen": {
+      "n": "Gareth van Onselen",
+      "o": "Independent",
+      "role": "Political analyst and pollster",
+      "img": "assets/journalists/gareth-van-onselen.jpg",
+      "group": "voice",
+      "org": "Independent",
+      "beat": "analysis"
     }
   },
   "items": [
@@ -2190,6 +2199,28 @@
       "s": "Goba reported that KZN Cogta’s Scelo Duma had told 13 hung municipalities, eThekwini among them, to postpone Tuesday’s first council meetings, but eThekwini spokesperson Senzelwe Mzila said its meeting would still go ahead.",
       "src": "EWN",
       "url": "https://www.ewn.co.za/2026/11/23/ethekwini-insists-council-meeting-will-go-ahead-despite-kzn-cogtas-postponement-order"
+    },
+    {
+      "id": "gvo-data",
+      "j": "vanonselen",
+      "d": "2026-11-10",
+      "kind": "Analysis",
+      "place": "Gauteng metros",
+      "h": "The ANC is being destroyed by its splinters and allies",
+      "s": "Van Onselen estimated the ANC lost about 25 points in predominantly black metro voting districts, with roughly 14 going to MK, 10 to ActionSA and 5 to the DA. The Common Sense, which published his figures, argued that this complicates the ANC’s choice of coalition partners.",
+      "src": "The Common Sense",
+      "url": "https://www.thecommonsense.co.za/Politics/anc-being-destroyed-its-splinters-allies"
+    },
+    {
+      "id": "gvo-biz",
+      "j": "vanonselen",
+      "d": "2026-10-29",
+      "kind": "Interview",
+      "place": "Metros",
+      "h": "Gareth van Onselen on the metro races that could redraw SA politics",
+      "s": "Before the vote, van Onselen talked Alec Hogg through Johannesburg’s polling divide, turnout risks and the coalition battles likely in the metros.",
+      "src": "BizNews",
+      "url": "https://www.biznews.com/interviews/gareth-van-onselen-election-2026-polls-turnout-coalitions"
     }
   ],
   "edition": {
@@ -3504,13 +3535,16 @@
         "a-24h",
         "a-tt",
         "zv-who",
-        "pm-ewn"
+        "pm-ewn",
+        "gvo-data",
+        "gvo-biz"
       ],
       "voices": {
         "pieter": "Saw the ANC’s decline speeding up, with the party on the brink of second, third or fourth place in seven of the eight metros.",
         "adriaan": "Noted that the ANC will not control a single metro.",
         "zimasa": "Asks who really won the election, tracing where the ANC’s lost 14.8 points went.",
-        "mashele": "Predicts the ANC could fall below 15% by 2029, blaming corruption, incompetence and arrogance."
+        "mashele": "Predicts the ANC could fall below 15% by 2029, blaming corruption, incompetence and arrogance.",
+        "vanonselen": "Estimated the ANC lost about 25 points in black metro voting districts, mostly to MK and ActionSA."
       },
       "coverage": [
         {
