@@ -1075,6 +1075,7 @@ body.has-ask { padding-bottom: 96px; }
 .pl-stmore { display: none; }
 @media (max-width: 720px) {
   .pl-top3:not(.open) .pl-xtra { display: none; }
+  .pl-allsec:not(.open) .pl-pxtra { display: none; }
   .pl-stmore { display: flex; align-items: center; justify-content: center; gap: 6px; width: 100%; margin-top: 12px; padding: 12px; border: 1px solid var(--rule2); background: #fff; color: var(--text); font: 700 14.5px "DM Sans", sans-serif; cursor: pointer; }
   .pl-stmore::after { content: ""; width: 7px; height: 7px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: translateY(-2px) rotate(45deg); }
   .pl-stmore[aria-expanded="true"]::after { transform: translateY(2px) rotate(-135deg); }

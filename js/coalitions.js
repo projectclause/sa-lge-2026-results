@@ -179,7 +179,11 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
         ${rest.length > 3 ? `<button type="button" class="pl-stmore" aria-expanded="false">Show ${rest.length - 3} more stories</button>` : ""}
       </section>
       ${peopleSections()}
-      <section class="pl-sec"><h3 class="pl-sh">All pieces, newest first <span class="pl-filt"></span></h3><div class="pl-all">${all.map(piece).join("")}</div></section>`;
+      <section class="pl-sec pl-allsec"><h3 class="pl-sh">All pieces, newest first <span class="pl-filt"></span></h3><div class="pl-all">${all.map(piece).join("")}</div>${all.length > 10 ? `<button type="button" class="pl-stmore pl-allmore" aria-expanded="false">Show ${all.length - 10} more pieces</button>` : ""}</section>`;
+    // phones: the ten newest pieces, the rest behind a toggle
+    root.querySelectorAll(".pl-all > *").forEach((x, n) => { if (n >= 10) x.classList.add("pl-pxtra"); });
+    const alm = root.querySelector(".pl-allmore");
+    if (alm) alm.onclick = () => { const o = alm.getAttribute("aria-expanded") !== "true"; alm.setAttribute("aria-expanded", o); alm.closest(".pl-allsec").classList.toggle("open", o); alm.textContent = o ? "Show fewer pieces" : `Show ${all.length - 10} more pieces`; if (!o) alm.closest(".pl-allsec").scrollIntoView({ block: "start" }); };
     // phones: three top stories, the rest behind a toggle
     const stm = root.querySelector(".pl-stmore");
     if (stm) stm.onclick = () => { const o = stm.getAttribute("aria-expanded") !== "true"; stm.setAttribute("aria-expanded", o); stm.closest(".pl-top3").classList.toggle("open", o); stm.textContent = o ? "Show fewer stories" : `Show ${rest.length - 3} more stories`; };
