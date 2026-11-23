@@ -3843,7 +3843,8 @@
         "o": "Financial Times",
         "role": "Journalist, Financial Times",
         "beat": "analysis",
-        "score": 21.0
+        "score": 21.0,
+        "img": "assets/journalists/david-pilling.jpg"
       },
       "cele": {
         "n": "S’thembile Cele",
