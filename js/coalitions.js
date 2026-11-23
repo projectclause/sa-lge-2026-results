@@ -115,13 +115,17 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
         <p class="pl-dek">${esc(lead.dek)}</p>
         <p class="pl-src">${faces(people(L), "pl-fc", 10)}<span>Reported by ${outletLine(lead)} · ${people(L).length} voices and key players</span></p>
       </a>
-      <section class="pl-sec"><h3 class="pl-sh">Top stories</h3>
-        ${rest.map((e) => { const I = itemsOf(e); return `<a class="pl-row" href="#${e.id}"><span class="pl-rt"><b>${esc(e.h)}</b><span>${esc(e.cat)} · ${day(updated(e))} · ${outletsOf(e).length} outlets</span></span>${faces(people(I), "pl-fc pl-fc-s", 4)}</a>`; }).join("")}
+      <section class="pl-sec pl-top3"><h3 class="pl-sh">Top stories</h3>
+        ${rest.map((e, n) => { const I = itemsOf(e); return `<a class="pl-row${n >= 3 ? " pl-xtra" : ""}" href="#${e.id}"><span class="pl-rt"><b>${esc(e.h)}</b><span>${esc(e.cat)} · ${day(updated(e))} · ${outletsOf(e).length} outlets</span></span>${faces(people(I), "pl-fc pl-fc-s", 4)}</a>`; }).join("")}
+        ${rest.length > 3 ? `<button type="button" class="pl-stmore" aria-expanded="false">Show ${rest.length - 3} more stories</button>` : ""}
       </section>
 ${GROUPS.map(([g, title, sub]) => `<section class="pl-sec"><h3 class="pl-sh">${title}</h3><p class="pl-gsub">${sub}</p>
         <div class="pl-voices">${Object.entries(D.journalists).filter(([, p]) => p.group === g).sort((a, b) => D.items.filter((i) => i.j === b[0]).length - D.items.filter((i) => i.j === a[0]).length).map(([k, p]) => `<button type="button" class="pl-voice" data-k="${k}" aria-pressed="false"><img src="${p.img}" alt=""><span>${nameTag(p)}<span>${esc(p.role || p.o)}</span></span><em>${D.items.filter((i) => i.j === k).length}</em></button>`).join("")}</div>
 </section>`).join("")}
       <section class="pl-sec"><h3 class="pl-sh">All pieces, newest first <span class="pl-filt"></span></h3><div class="pl-all">${all.map(piece).join("")}</div></section>`;
+    // phones: three top stories, the rest behind a toggle
+    const stm = root.querySelector(".pl-stmore");
+    if (stm) stm.onclick = () => { const o = stm.getAttribute("aria-expanded") !== "true"; stm.setAttribute("aria-expanded", o); stm.closest(".pl-top3").classList.toggle("open", o); stm.textContent = o ? "Show fewer stories" : `Show ${rest.length - 3} more stories`; };
     let who = null;
     const phone = window.matchMedia("(max-width: 720px)");
     root.querySelectorAll(".pl-voice").forEach((b) => b.onclick = () => {
