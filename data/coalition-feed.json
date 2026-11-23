@@ -3894,7 +3894,8 @@
         "role": "Reporter, Associated Press",
         "beat": "reporting",
         "score": 71.0,
-        "top": true
+        "top": true,
+        "img": "assets/journalists/mogomotsi-magome.jpg"
       },
       "imray": {
         "n": "Gerald Imray",
