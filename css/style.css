@@ -1111,3 +1111,6 @@ body.has-ask { padding-bottom: 96px; }
   .rs-headline .hl-1, .rs-headline .hl-2 { font-size: clamp(30px, 10.6vw, 44px); }
   .rs-headline .hl-3 { font-size: 14px; max-width: 34ch; margin-left: auto; margin-right: auto; }
 }
+
+/* phones: smaller page title so "2026 Elections Results" sits on one line beside Share */
+@media (max-width: 720px) { .rs-top .rs-title { font-size: 7pt; line-height: 1.2; } }
