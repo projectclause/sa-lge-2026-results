@@ -838,10 +838,10 @@ body.has-ask { padding-bottom: 96px; }
   /* top strip: two fixed cards side by side that fit the screen; each swaps to the next card every 3 seconds */
   .tk-row { display: grid; grid-auto-flow: row; grid-template-columns: repeat(2, minmax(0, 1fr)); overflow: hidden; row-gap: 0; align-items: start; padding: 12px max(22px, env(safe-area-inset-right, 0px)) 12px max(22px, env(safe-area-inset-left, 0px)); }
   /* the strip stays at the top of the screen while scrolling, with the navigation right under it;
-     it has a fixed height (124px + 1px rule) so the navigation's position never shifts as cards change */
+     it has a fixed height (116px + 1px rule) so the navigation's position never shifts as cards change */
   .tk { position: sticky; top: 0; z-index: 31; }
-  .tk-row { height: 124px; box-sizing: border-box; padding-top: 8px; padding-bottom: 8px; }
-  .masthead { top: 125px; }
+  .tk-row { height: 116px; box-sizing: border-box; padding-top: 6px; padding-bottom: 2px; }
+  .masthead { top: 117px; }
   .tk-row > .tk-slot:nth-child(3), .tk-row > .tk-metros { display: none; }
   .tk-p { min-height: 92px; justify-content: flex-start; }
   .tk-p:first-child { padding: 2px 14px 2px 0 !important; border-right: 1px solid var(--rule) !important; }
@@ -1002,3 +1002,26 @@ body.has-ask { padding-bottom: 96px; }
   .pl-intro { font-size: 12.5px; line-height: 1.5; margin-top: 8px; }
   .pl-ed { padding: 16px 0 14px; }
 }
+
+/* phones: the "Results by municipality" list at the bottom of the home page is more compact */
+@media (max-width: 720px) {
+  .rs-bymuni { margin-top: 20px; }
+  .rs-bymuni h2 { font-size: 16px; margin-bottom: 4px; }
+  .bm-prov summary { gap: 10px; padding: 9px 2px; }
+  .bm-arms { width: 26px; height: 26px; }
+  .bm-pn { font-size: 14px; }
+  .bm-pm { width: 13px; height: 13px; }
+  .bm-pm::before, .bm-pm::after { top: 6px; height: 1.5px; }
+  .bm-rows { padding: 0 2px 8px 6px; }
+  .bm-row { grid-template-columns: 28px minmax(0, 1fr) auto; gap: 9px; padding: 7px 0; }
+  .bm-row .rs-logo { width: 28px; height: 28px; }
+  .bm-row .rs-logo img { width: 21px; height: 21px; }
+  .bm-name b { font-size: 12.5px; }
+  .bm-name span { font-size: 10.5px; }
+  .bm-seats { font-size: 11.5px; }
+}
+
+/* Share button on the Coalitions page sits on the same row as the LIVE line */
+.pl-top { align-items: center; margin-bottom: 4px; }
+.pl-top .live { margin: 0; }
+@media (max-width: 720px) { .sm-btn { padding: 7px 11px; font-size: 13.5px; } .sm-btn svg { width: 16px; height: 16px; } }

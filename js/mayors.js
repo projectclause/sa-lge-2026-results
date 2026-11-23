@@ -115,6 +115,18 @@ function render() {
         <p class="my-key">${parties.map((p) => `<span><i style="background:${col(p)}"></i>${PN[p] || p}</span>`).join("")}</p>
         <ol class="my-list">${past}</ol>
         ${C.note ? `<p class="my-note">${C.note}</p>` : ""}`;
+      // the Share menu's image: this city's mayors card
+      window.SHARE = window.SHARE || {};
+      window.SHARE.card = () => ({
+        type: "mayors", file: C.slug + "-mayors", title: C.title,
+        sub: `${C.prov} · ${C.list.length} mayors since the first democratic council`,
+        since: (C.list[0].y.match(/\d{4}/) || [""])[0],
+        now: nw
+          ? { label: nw.expected ? "Expected mayor · council vote pending" : "Mayor after the 2026 election", n: nw.n, party: PN[nw.p] || nw.p, color: col(nw.p), img: nw.same ? cur && cur.img : nw.img, how: nw.how }
+          : { label: "Council vote pending", how: `The new council elects the mayor at its first sitting.${cur ? ` ${cur.n} (${short(cur.p)}) stays in office until then.` : ""}` },
+        list: C.list.slice().reverse().map((r, i) => ({ num: C.list.length - i, n: r.n, party: short(r.p), color: col(r.p), y: r.y, img: r.img, cur: !!r.cur,
+          tag: !r.cur ? "" : nw && nw.same && nw.n === r.n ? "In office" : nw && !nw.expected ? "Previous" : "Outgoing" }))
+      });
     }
     addEventListener("hashchange", render);
     render();

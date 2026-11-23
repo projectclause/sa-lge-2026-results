@@ -35,7 +35,13 @@
   </header>
 
   <main id="top" class="rs-wrap">
-    <h1 class="rs-title">Mayors</h1>
+    <div class="rs-top">
+      <h1 class="rs-title">Mayors</h1>
+      <div class="sm">
+        <button type="button" class="sm-btn" aria-haspopup="true" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7.5 7.5 12 3l4.5 4.5M5 11v8.5a1.5 1.5 0 0 0 1.5 1.5h11a1.5 1.5 0 0 0 1.5-1.5V11" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Share</button>
+        <div class="sm-menu" role="menu" hidden></div>
+      </div>
+    </div>
     <p class="live"><span class="live-b">LIVE</span><span class="live-t">Last updated <time class="live-time"></time></span><span class="live-c" aria-live="off">· Refreshing in <b class="live-n">60</b>s</span></p>
     <p class="my-dek">Every mayor of South Africa’s eight metros, and who leads each city after the 2026 local elections. Pick a city.</p>
     <div class="my-chips" role="tablist" aria-label="Cities"></div>
@@ -46,6 +52,7 @@
 
   <script src="js/ticker.js"></script>
   <script src="js/mayors.js"></script>
+  <script src="js/share.js"></script>
   <script src="js/live.js"></script>
   <script src="js/search.js"></script>
   <script src="js/mobile.js"></script>

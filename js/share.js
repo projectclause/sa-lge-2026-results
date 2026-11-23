@@ -162,7 +162,58 @@
     return c;
   }
 
-  async function render(d) { await fonts(); return d.type === "council" ? council(d) : race(d); }
+  // ---------- mayors card: one city's mayor after 2026 and every mayor before ----------
+  async function mayors(d) {
+    const c = document.createElement("canvas"); c.width = W; c.height = H; const ctx = c.getContext("2d");
+    ctx.fillStyle = "#ffffff"; ctx.fillRect(0, 0, W, H);
+    ctx.fillStyle = NAVY; ctx.fillRect(0, 0, W, 14);
+    const [nowImg, ...faces] = await Promise.all([loadImg(d.now && d.now.img)].concat(d.list.map((r) => loadImg(r.img))));
+    const circle = (img, x, y, r, name, color) => {
+      ctx.save(); ctx.beginPath(); ctx.arc(x + r, y + r, r, 0, Math.PI * 2); ctx.closePath(); ctx.fillStyle = img ? "#ebebe8" : (color || "#8a8a8a"); ctx.fill(); ctx.clip();
+      if (img) { ctx.filter = "grayscale(1)"; cover(ctx, img, x, y, r * 2, r * 2, 0.1); ctx.filter = "none"; }
+      else { ctx.fillStyle = "#fff"; font(ctx, 700, Math.round(r * 0.7)); ctx.textAlign = "center"; ctx.fillText(String(name).split(" ").map((w) => w[0]).slice(0, 2).join(""), x + r, y + r + r * 0.25); ctx.textAlign = "left"; }
+      ctx.restore();
+    };
+    ctx.fillStyle = BLUE; font(ctx, 700, 16); spaced(ctx, "LOCAL ELECTIONS · 4 NOVEMBER 2026", PX, 60, 1.6);
+    ctx.fillStyle = INK; fit(ctx, d.title, 600, 50, 28, 640, HEAD); ctx.fillText(d.title, PX, 116);
+    wordmark(ctx, W - PX, 80, 44);
+    ctx.fillStyle = INK2; font(ctx, 400, 25); ctx.fillText(d.sub, PX, 156);
+    // who leads the city after the 2026 election
+    let y = 200;
+    ctx.fillStyle = "#f4f5f7"; roundRect(ctx, PX, y, W - PX * 2, 250, 10); ctx.fill();
+    const n = d.now;
+    if (n.n) circle(nowImg, PX + 30, y + 35, 90, n.n, n.color);
+    const tx = PX + (n.n ? 240 : 34), tw = W - PX - 30 - tx;
+    ctx.fillStyle = INK3; font(ctx, 700, 18); spaced(ctx, n.label.toUpperCase(), tx, y + 58, 1.8);
+    if (n.n) {
+      ctx.fillStyle = INK; fit(ctx, n.n, 600, 52, 30, tw, HEAD); ctx.fillText(n.n, tx, y + 118);
+      ctx.fillStyle = n.color; ctx.fillRect(tx, y + 141, 20, 20);
+      ctx.fillStyle = INK; font(ctx, 600, 26); ctx.fillText(n.party, tx + 30, y + 160);
+    }
+    ctx.fillStyle = INK2; font(ctx, 400, 22);
+    wrap(ctx, n.how || "", tw).slice(0, n.n ? 2 : 5).forEach((l, i) => ctx.fillText(l, tx, y + (n.n ? 198 : 104) + i * 29));
+    // every mayor, newest first
+    y += 250 + 62;
+    sectionHead(ctx, `Mayors since ${d.since}`, `${d.list.length} mayors`, y);
+    const top = y + 36, bottom = H - FOOT - 28, rowH = Math.min(104, (bottom - top) / d.list.length), r = Math.min(40, rowH / 2 - 7);
+    const nameSize = Math.min(31, Math.round(rowH * 0.34)), subSize = Math.min(23, Math.round(rowH * 0.25));
+    d.list.forEach((m, i) => {
+      const ry = top + i * rowH, mid = ry + rowH / 2;
+      if (m.cur) { ctx.fillStyle = "#f4f5f7"; ctx.fillRect(PX - 16, ry + 2, W - PX * 2 + 32, rowH - 4); }
+      ctx.fillStyle = INK3; font(ctx, 500, subSize); ctx.fillText(String(m.num).padStart(2, "0"), PX, mid + subSize * 0.35);
+      circle(faces[i], PX + 58, mid - r, r, m.n, m.color);
+      const nx = PX + 58 + r * 2 + 24;
+      ctx.fillStyle = INK; font(ctx, 700, nameSize); ctx.fillText(m.n, nx, mid - 4);
+      ctx.fillStyle = m.color; ctx.fillRect(nx, mid + 9, subSize * 0.7, subSize * 0.7);
+      ctx.fillStyle = INK2; font(ctx, 400, subSize); ctx.fillText(`${m.party} · ${m.y}`, nx + subSize * 0.7 + 10, mid + 8 + subSize * 0.72);
+      if (m.tag) { font(ctx, 700, Math.max(14, subSize - 5)); const t = m.tag.toUpperCase(), w = ctx.measureText(t).width + 20, h = subSize + 8; ctx.fillStyle = INK; ctx.fillRect(W - PX - w, mid - h / 2, w, h); ctx.fillStyle = "#fff"; ctx.fillText(t, W - PX - w + 10, mid + (subSize - 5) * 0.36); }
+      if (i < d.list.length - 1) { ctx.fillStyle = RULE; ctx.fillRect(PX, ry + rowH - 1, W - PX * 2, 1); }
+    });
+    brand(ctx);
+    return c;
+  }
+
+  async function render(d) { await fonts(); return d.type === "mayors" ? mayors(d) : d.type === "council" ? council(d) : race(d); }
 
   async function share(d, btn) {
     btn && btn.classList.add("busy");
@@ -215,7 +266,8 @@ const OPTS = [
   ["copy", "Copy link", "link"], ["email", "Email", "mail"], ["facebook", "Facebook", "fb"],
   ["bluesky", "Bluesky", "bsky"], ["x", "X", "x"], ["linkedin", "LinkedIn", "li"], ["threads", "Threads", "th"], ["reddit", "Reddit", "rd"]
 ];
-  menu.innerHTML = `<p class="sm-h">Share options</p><p class="sm-note" hidden></p>` + OPTS.map(([k, l, ic, img]) =>
+  const noImage = btn.closest(".sm").hasAttribute("data-noimage"); // e.g. Coalitions: links only, nothing to download
+  menu.innerHTML = `<p class="sm-h">Share options</p><p class="sm-note" hidden></p>` + OPTS.filter((o) => !(noImage && o[3])).map(([k, l, ic, img]) =>
     `<a class="sm-item" data-k="${k}" href="#" target="_blank" rel="noopener"${img ? ' data-img="1"' : ""}><span class="sm-ic"><svg viewBox="0 0 24 24" aria-hidden="true">${I[ic]}</svg></span>${l}</a>`).join("");
   const note = menu.querySelector(".sm-note");
   const say = (t) => { note.textContent = t; note.hidden = !t; };
@@ -223,7 +275,8 @@ const OPTS = [
   function context() {
     const area = (document.querySelector("#rs-nat-h b") || {}).textContent;
     const where = area && area !== "National results" ? area : ((document.querySelector(".rf-h b") || {}).textContent || "South Africa");
-    const url = location.href.split("#")[0];
+    // the home page shares its plain address; Mayors and Coalitions share the city or story that is open
+    const url = document.querySelector(".rs-grid") ? location.href.split("#")[0] : location.href;
     // the title shown when the site is shared; the same wording is in each page's og:title
     const text = "PREAMBLE | South Africa's Global and Local Data";
     return { url, text };
@@ -254,7 +307,7 @@ const OPTS = [
   let card = null, cardP = Promise.resolve(null);
   function prepare() {
     const S = window.SHARE || {};
-    const data = S.council ? S.council() : S.race ? S.race() : null;
+    const data = S.card ? S.card() : S.council ? S.council() : S.race ? S.race() : null;
     card = null;
     cardP = !data ? Promise.resolve(null) : window.ShareCard.render(data)
       .then((canvas) => new Promise((r) => canvas.toBlob(r, "image/png")))
