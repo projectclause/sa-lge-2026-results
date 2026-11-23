@@ -412,6 +412,14 @@
       "img": "assets/journalists/bongani-baloyi.jpg",
       "group": "player",
       "org": "MK"
+    },
+    "ramushwana": {
+      "n": "Alpha Ramushwana",
+      "o": "EWN",
+      "role": "Political journalist, EWN",
+      "img": "assets/journalists/alpha-ramushwana.jpg",
+      "group": "voice",
+      "org": "EWN"
     }
   },
   "items": [
@@ -1984,6 +1992,61 @@
       "s": "Sunday World reported that MK’s Baloyi, a former DA mayor of Midvaal who left ActionSA in 2023, is in the running to be Mashaba’s deputy in Johannesburg, and that ActionSA is open to it, according to people familiar with the talks. It depends on what the ANC and EFF demand.",
       "src": "Sunday World",
       "url": "https://sundayworld.co.za/politics/actionsa-open-to-bongani-baloyi-as-deputy-mayor-in-johannesburg-power-deal/"
+    },
+    {
+      "id": "ar-sworn",
+      "j": "ramushwana",
+      "d": "2026-11-23",
+      "kind": "Reported",
+      "place": "Johannesburg",
+      "h": "270 Joburg councillors sworn in, but election of new mayor expected to wait until Thursday",
+      "s": "Reporting from the council chamber, Ramushwana wrote that Mashaba and Zille sat on opposite sides as 270 councillors took their oaths. City manager Floyd Brink said some parties had asked to postpone the mayoral vote.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/2026/11/23/270-joburg-councillors-sworn-in-but-election-of-new-mayor-expected-to-wait-until-thursday"
+    },
+    {
+      "id": "ar-insult",
+      "j": "ramushwana",
+      "d": "2026-11-20",
+      "kind": "Reported",
+      "place": "Gauteng metros",
+      "h": "‘DA’s offer is not a proposal but an insult’: ActionSA after coalition talks fail",
+      "s": "Ramushwana reported that the DA and ActionSA met on Thursday night and ended without agreement, each unhappy with the other’s proposal. Mashaba told EWN the DA’s offer was “not a proposal but an insult”.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/2026/11/20/da-s-offer-is-not-a-proposal-but-an-insult-actionsa-after-coalition-talks-fail"
+    },
+    {
+      "id": "ar-eth",
+      "j": "ramushwana",
+      "d": "2026-11-19",
+      "kind": "Reported",
+      "place": "eThekwini",
+      "h": "MK Party and ANC discuss possible eThekwini coalition",
+      "s": "Ramushwana reported that MK and the ANC were discussing governing eThekwini together with an MK mayor. MK spokesperson Sifiso Mahlangu said the party was leaning towards parties it already has arrangements with.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/2026/11/19/mk-party-and-anc-discuss-possible-ethekwini-coalition"
+    },
+    {
+      "id": "ar-hl",
+      "j": "ramushwana",
+      "d": "2026-11-18",
+      "kind": "Reported",
+      "place": "Gauteng metros",
+      "h": "Hill-Lewis: DA unlikely to match ANC’s coalition offer to ActionSA",
+      "s": "Ramushwana reported Hill-Lewis saying the DA was unlikely to match the ANC’s offer to ActionSA. Hill-Lewis confirmed some in the DA had informally discussed him swapping places with Zille, but said it was never put to ActionSA.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/2026/11/18/hill-lewis-da-unlikely-to-match-ancs-coalition-offer-to-actionsa"
+    },
+    {
+      "id": "ar-left",
+      "j": "ramushwana",
+      "d": "2026-11-12",
+      "kind": "Reported",
+      "place": "South Africa",
+      "h": "Left-wing parties refuse to back ANC-led coalitions that include the DA",
+      "s": "Ramushwana reported that the Council of the Left, a bloc including the EFF, SACP, MK and the Afrika Mayibuye Movement, would not support ANC-led coalitions that include the DA. The bloc briefed the media at the hotel where the ANC’s NEC was meeting.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/2026/11/12/left-wing-parties-refuse-to-back-anc-led-coalitions-that-include-the-da"
     }
   ],
   "edition": {
@@ -2088,7 +2151,8 @@
         "m-adjourn",
         "z-never",
         "im-zille",
-        "bb-dep"
+        "bb-dep",
+        "ar-sworn"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
@@ -2118,7 +2182,8 @@
         "macg": "Led his podcast on the DA topping the Joburg vote.",
         "mashele": "Argues an ActionSA–DA coalition is the only viable way forward, and says both parties asked him to help bring them together.",
         "mafisa": "Reported Mashaba’s condition that Zille and Brink step aside as mayoral candidates.",
-        "baloyi": "Tipped, in reports, as Mashaba’s deputy mayor."
+        "baloyi": "Tipped, in reports, as Mashaba’s deputy mayor.",
+        "ramushwana": "Reported from the chamber as Joburg’s 270 councillors were sworn in, with the mayoral vote put off."
       },
       "coverage": [
         {
@@ -2400,7 +2465,9 @@
         "g-simple",
         "m-smash",
         "tg-offer",
-        "tg-reject"
+        "tg-reject",
+        "ar-insult",
+        "ar-hl"
       ],
       "voices": {
         "geordin": "Proposed that the ANC lead 93 hung councils, the DA 24 and the IFP 20, and told 702 the deal’s power is its simplicity.",
@@ -2409,7 +2476,8 @@
         "clement": "Interviewed Hill-Lewis and Beaumont back to back on 702 about their rival plans.",
         "ashor": "Signed the DA’s letter to Mbalula proposing that the DA, ANC and IFP co-govern the hung councils.",
         "corne": "Tried to broker a DA-ActionSA deal in Gauteng, without success.",
-        "goba": "Reported both DA offers for EWN: the 93-24-20 split of hung councils, and ActionSA’s rejection of the Gauteng deal."
+        "goba": "Reported both DA offers for EWN: the 93-24-20 split of hung councils, and ActionSA’s rejection of the Gauteng deal.",
+        "ramushwana": "Reported the failed DA–ActionSA meeting and Hill-Lewis saying the DA wouldn’t match the ANC’s offer."
       },
       "coverage": [
         {
@@ -2764,7 +2832,9 @@
         "mb-kzn",
         "px-ready",
         "px-tip",
-        "bb-dep"
+        "bb-dep",
+        "ar-eth",
+        "ar-left"
       ],
       "voices": {
         "dali": "Says MK’s vote shows voters want cooperation, warns the ANC about its partners, and met the DA for the first time while saying MK wants like-minded partners.",
@@ -2776,7 +2846,8 @@
         "bhengu": "Denied any rift in the ANC over the KwaZulu-Natal talks.",
         "mbalula": "Sources tell News24 he is pushing the MK deal on KwaZulu-Natal, where provincial leaders lean towards the DA and IFP.",
         "phakathi": "MK’s eThekwini mayoral candidate: said MK was ready to govern Durban and fix its water problems within 100 days.",
-        "baloyi": "Tipped, in reports, as Mashaba’s deputy mayor in Johannesburg."
+        "baloyi": "Tipped, in reports, as Mashaba’s deputy mayor in Johannesburg.",
+        "ramushwana": "Reported the ANC–MK eThekwini talks and the Council of the Left’s refusal to back ANC deals that include the DA."
       },
       "coverage": [
         {
