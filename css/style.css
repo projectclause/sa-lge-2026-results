@@ -1142,3 +1142,28 @@ body.has-ask { padding-bottom: 96px; }
   .pl-drv { grid-template-columns: minmax(0, 1fr); gap: 8px; }
   .pl-drvi em { -webkit-line-clamp: 2; }
 }
+
+/* Coalitions Tracker: South Africa / International switch */
+.pl-scope { display: flex; gap: 0; margin: 18px 0 4px; border-bottom: 1px solid var(--rule2); }
+.pl-scope a { position: relative; padding: 10px 14px 11px; font-size: 15px; font-weight: 700; color: var(--muted2); text-decoration: none; }
+.pl-scope a:first-child { padding-left: 0; }
+.pl-scope a:hover { color: var(--text); }
+.pl-scope a[aria-current] { color: var(--text); }
+.pl-scope a[aria-current]::after { content: ""; position: absolute; left: 14px; right: 14px; bottom: -1px; height: 3px; background: var(--text); }
+.pl-scope a:first-child[aria-current]::after { left: 0; }
+.pl-istory { padding: 18px 0 6px; border-top: 1px solid var(--rule); }
+.pl-istory:first-of-type { border-top: 0; padding-top: 6px; }
+.pl-istory h2 { margin: 4px 0 8px; font-size: 23px; line-height: 1.2; text-wrap: balance; }
+.pl-istory .pl-dek { margin: 0 0 6px; }
+.pl-istory .pl-cat span { font-weight: 500; color: var(--muted); text-transform: none; letter-spacing: 0; }
+.pl-ilist .pl-more { margin-top: 10px; }
+.pl-pay { font-style: normal; font-size: 11.5px; font-weight: 600; color: var(--muted); border: 1px solid var(--rule2); padding: 0 5px; }
+.pl-av { font-style: normal; width: 40px; height: 40px; flex: none; border-radius: 50%; display: grid; place-items: center; background: var(--soft); color: var(--muted2); font-size: 13.5px; font-weight: 700; letter-spacing: .02em; }
+@media (max-width: 720px) {
+  .pl-scope { margin-top: 12px; }
+  .pl-scope a { flex: 1; text-align: center; padding: 11px 8px 12px; }
+  .pl-scope a:first-child { padding-left: 8px; }
+  .pl-scope a[aria-current]::after, .pl-scope a:first-child[aria-current]::after { left: 0; right: 0; }
+  .pl-istories:not(.open) .pl-xtra { display: none; }
+  .pl-istory h2 { font-size: 20px; }
+}

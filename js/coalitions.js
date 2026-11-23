@@ -258,10 +258,76 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
     x.onclick = () => { const o = x.getAttribute("aria-expanded") !== "true"; if (o && sm && sm.getAttribute("aria-expanded") !== "true") sm.click(); root.querySelectorAll(".pl-ev .pl-piece").forEach((d) => d.open = o); x.setAttribute("aria-expanded", o); x.textContent = o ? "Collapse all" : "Expand all"; };
   }
 
+  // ---------- International: how outlets outside South Africa cover the talks ----------
+  const initials = (n) => n.split(/\s+/).map((w) => w[0]).filter((c) => /[A-Za-z]/.test(c)).slice(0, 2).join("").toUpperCase();
+  const face = (v) => v.img ? `<img src="${v.img}" alt="">` : `<i class="pl-av" aria-hidden="true">${esc(initials(v.n))}</i>`;
+  function intl() {
+    const X = D.intl, V = X.voices, PB = {};
+    X.pieces.forEach((p) => PB[p.id] = p);
+    const all = X.pieces.slice().sort((a, b) => b.d.localeCompare(a.d));
+    const by = (p) => p.j.length ? and(p.j.map((k) => V[k].n)) : "";
+    const art = (p) => `<a class="pl-art" href="${esc(p.url)}" target="_blank" rel="noopener"><span class="pl-am2"><b>${esc(p.src)}</b><time>${day(p.d)}</time>${by(p) ? `<span>${esc(by(p))}</span>` : ""}${p.pay ? '<i class="pl-pay">Subscribers</i>' : ""}</span><span class="pl-ah">${esc(p.h)}</span></a>`;
+    const n = (k) => X.pieces.filter((p) => p.j.includes(k)).length;
+    const last = (k) => X.pieces.filter((p) => p.j.includes(k)).map((p) => p.d).sort().pop();
+    const vs = Object.keys(V).sort((a, b) => n(b) - n(a) || last(b).localeCompare(last(a)));
+    const outs = [...new Set(X.pieces.map((p) => p.src.replace(" Opinion", "").replace("AFP via ", "")))];
+    const stories = X.stories.map((t) => ({ ...t, P: t.p.map((id) => PB[id]).filter(Boolean).sort((a, b) => b.d.localeCompare(a.d)) }));
+    root.innerHTML = `
+      <header class="pl-ed">
+        <p class="pl-kick">Coalitions Tracker · International</p>
+        <h1 class="pl-date">How the world is covering the talks</h1>
+        <p class="pl-asof">International edition, as of ${esc(day(D.edition.date))}, ${esc(D.edition.time)}</p>
+        <p class="pl-intro">Coverage of South Africa’s 2026 coalition talks from ${X.pieces.length} pieces in ${outs.length} news outlets outside the country, including ${esc(and(["Financial Times", "Bloomberg", "Reuters", "The New York Times"]))}. Preamble groups them by theme and writes a short AI summary of each, using only the published pieces. Some sit behind paywalls.</p>
+      </header>
+      <section class="pl-brief"><h2>In brief</h2><ul>${X.brief.map((b) => `<li>${esc(b)}</li>`).join("")}</ul></section>
+      <section class="pl-sec pl-istories"><h3 class="pl-sh">The stories abroad</h3>
+        ${stories.map((t, i) => `<article class="pl-istory${i >= 3 ? " pl-xtra" : ""}" id="${t.id}">
+          <p class="pl-cat">${esc(t.cat)} <span>updated ${day(t.P[0].d)} · ${t.P.length} pieces</span></p>
+          <h2>${esc(t.h)}</h2>
+          <p class="pl-dek">${esc(t.dek)}</p>
+          <div class="pl-ilist">${t.P.slice(0, 3).map(art).join("")}${t.P.length > 3 ? `<div class="pl-imore" hidden>${t.P.slice(3).map(art).join("")}</div><button type="button" class="pl-more pl-imoreb">Show ${t.P.length - 3} more pieces</button>` : ""}</div>
+        </article>`).join("")}
+        ${stories.length > 3 ? `<button type="button" class="pl-stmore pl-istmore" aria-expanded="false">Show ${stories.length - 3} more stories</button>` : ""}
+      </section>
+      <section class="pl-sec pl-ppl"><h3 class="pl-sh">Voices abroad</h3>
+        <p class="pl-gsub">Foreign correspondents and commentators writing about the talks · most pieces first</p>
+        <div class="pl-vgrid"><div class="pl-voices">${vs.map((k, i) => `<button type="button" class="pl-voice${i >= 8 ? " pl-vx" : ""}" data-k="${k}" aria-pressed="false">${face(V[k])}<span><b class="pl-nm">${esc(V[k].n)}</b><span>${esc(V[k].role)}</span></span><em>${n(k)}</em></button>`).join("")}</div>${vs.length > 8 ? `<button type="button" class="pl-vall" aria-expanded="false" data-n="${vs.length}" data-l="voices">Show all ${vs.length} voices</button>` : ""}</div>
+      </section>
+      <section class="pl-sec pl-allsec"><h3 class="pl-sh">All international pieces, newest first <span class="pl-filt"></span></h3><div class="pl-all">${all.map(art).join("")}</div>${all.length > 10 ? `<button type="button" class="pl-stmore pl-allmore" aria-expanded="false">Show ${all.length - 10} more pieces</button>` : ""}</section>`;
+    root.querySelectorAll(".pl-imoreb").forEach((b) => b.onclick = () => { b.previousElementSibling.hidden = false; b.remove(); });
+    const ism = root.querySelector(".pl-istmore");
+    if (ism) ism.onclick = () => { const o = ism.getAttribute("aria-expanded") !== "true"; ism.setAttribute("aria-expanded", o); ism.closest(".pl-istories").classList.toggle("open", o); ism.textContent = o ? "Show fewer stories" : `Show ${stories.length - 3} more stories`; };
+    const mark = () => root.querySelectorAll(".pl-all > *").forEach((x, i) => x.classList.toggle("pl-pxtra", i >= 10));
+    mark();
+    const alm = root.querySelector(".pl-allmore");
+    if (alm) alm.onclick = () => { const o = alm.getAttribute("aria-expanded") !== "true"; alm.setAttribute("aria-expanded", o); alm.closest(".pl-allsec").classList.toggle("open", o); alm.textContent = o ? "Show fewer pieces" : `Show ${all.length - 10} more pieces`; if (!o) alm.closest(".pl-allsec").scrollIntoView({ block: "start" }); };
+    bindPeople();
+    let who = null;
+    const phone = window.matchMedia("(max-width: 720px)");
+    root.querySelectorAll(".pl-voice").forEach((b) => b.onclick = () => {
+      who = who === b.dataset.k ? null : b.dataset.k;
+      root.querySelectorAll(".pl-voice").forEach((x) => x.setAttribute("aria-pressed", x.dataset.k === who));
+      const mine = all.filter((p) => !who || p.j.includes(who));
+      if (phone.matches) {
+        root.querySelectorAll(".pl-vlist").forEach((l) => l.remove());
+        if (who) { const list = document.createElement("div"); list.className = "pl-vlist"; list.innerHTML = mine.map(art).join(""); b.after(list); }
+        return;
+      }
+      root.querySelector(".pl-all").innerHTML = mine.map(art).join("");
+      if (alm) alm.hidden = !!who;
+      root.querySelector(".pl-allsec").classList.toggle("open", !!who);
+      root.querySelector(".pl-filt").textContent = who ? `· ${V[who].n}` : "";
+      mark();
+    });
+  }
+
   function route() {
-    const e = D.events.find((x) => "#" + x.id === location.hash);
-    e ? event(e) : front();
-    document.title = e ? e.h + " · Coalitions Tracker" : "Coalitions Tracker";
+    const isI = location.hash === "#international" && D.intl;
+    const e = !isI && D.events.find((x) => "#" + x.id === location.hash);
+    isI ? intl() : e ? event(e) : front();
+    document.querySelectorAll(".pl-scope a").forEach((a) => a.toggleAttribute("aria-current", (a.dataset.s === "intl") === !!isI));
+    document.querySelectorAll(".pl-scope a[aria-current]").forEach((a) => a.setAttribute("aria-current", "page"));
+    document.title = isI ? "International · Coalitions Tracker" : e ? e.h + " · Coalitions Tracker" : "Coalitions Tracker";
     window.scrollTo(0, 0);
   }
 

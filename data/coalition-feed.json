@@ -3827,5 +3827,585 @@
       "n": "Independent",
       "badge": "—"
     }
-  ]
+  ],
+  "intl": {
+    "brief": [
+      "Bloomberg and the Financial Times are following the talks most closely; S’thembile Cele has filed for Bloomberg every few days",
+      "Johannesburg is the main focus, especially the ANC-led deal that would shut out the DA and Zille’s mayoral bid",
+      "Financial outlets tie the talks to the rand, which Reuters reported at a seven-month low on 17 November",
+      "Commentators ask whether the city fights will strain the national unity government",
+      "Many pieces frame the result as a historic turning point for the ANC",
+      "We found no New York Times piece on the talks since 8 November"
+    ],
+    "voices": {
+      "pilling": {
+        "n": "David Pilling",
+        "o": "Financial Times",
+        "role": "Journalist, Financial Times"
+      },
+      "cele": {
+        "n": "S’thembile Cele",
+        "o": "Bloomberg",
+        "role": "Reporter, Bloomberg"
+      },
+      "cohen": {
+        "n": "Michael Cohen",
+        "o": "Bloomberg",
+        "role": "Reporter, Bloomberg"
+      },
+      "malala": {
+        "n": "Justice Malala",
+        "o": "Bloomberg Opinion",
+        "role": "Columnist, Bloomberg Opinion"
+      },
+      "peyton": {
+        "n": "Nellie Peyton",
+        "o": "Reuters",
+        "role": "Correspondent, Reuters"
+      },
+      "parakozov": {
+        "n": "Sfundo Parakozov",
+        "o": "Reuters",
+        "role": "Reporter, Reuters"
+      },
+      "magome": {
+        "n": "Mogomotsi Magome",
+        "o": "AP",
+        "role": "Reporter, Associated Press"
+      },
+      "imray": {
+        "n": "Gerald Imray",
+        "o": "AP",
+        "role": "Reporter, Associated Press"
+      },
+      "eligon": {
+        "n": "John Eligon",
+        "o": "The New York Times",
+        "role": "Journalist, The New York Times"
+      },
+      "mkokeli": {
+        "n": "Sam Mkokeli",
+        "o": "Semafor",
+        "role": "Journalist, Semafor"
+      },
+      "duplessis": {
+        "n": "Carien du Plessis",
+        "o": "The Africa Report",
+        "role": "Journalist, The Africa Report"
+      },
+      "marsi": {
+        "n": "Federica Marsi",
+        "o": "Al Jazeera",
+        "role": "Journalist, Al Jazeera"
+      },
+      "habershon": {
+        "n": "Ed Habershon",
+        "o": "BBC",
+        "role": "Journalist, BBC"
+      },
+      "timse": {
+        "n": "Tabelo Timse",
+        "o": "The Washington Post",
+        "role": "Journalist, The Washington Post"
+      },
+      "holmes": {
+        "n": "Carolyn Holmes",
+        "o": "Good Authority",
+        "role": "Political scientist, writing in Good Authority"
+      }
+    },
+    "pieces": [
+      {
+        "id": "f2",
+        "d": "2026-11-05",
+        "j": [
+          "pilling"
+        ],
+        "src": "Financial Times",
+        "h": "South Africa’s incredible shrinking ANC",
+        "url": "https://www.ft.com/content/810c4f31-d3dd-43d7-acc0-c75adf42607b",
+        "pay": true
+      },
+      {
+        "id": "f3",
+        "d": "2026-11-05",
+        "j": [
+
+        ],
+        "src": "Financial Times",
+        "h": "South Africa’s ANC hit by ‘stunning’ loss of support in local elections",
+        "url": "https://www.ft.com/content/28999849-fe65-419e-a36b-8ef8d2303ebe",
+        "pay": true
+      },
+      {
+        "id": "r1",
+        "d": "2026-11-08",
+        "j": [
+          "parakozov",
+          "peyton"
+        ],
+        "src": "Reuters",
+        "h": "South Africa’s ANC takes a beating in municipal vote, setting up tough coalition talks",
+        "url": "https://www.reuters.com/world/africa/south-africas-anc-battered-by-local-election-losses-ahead-coalition-talks-2026-11-08/"
+      },
+      {
+        "id": "b1",
+        "d": "2026-11-08",
+        "j": [
+          "cele"
+        ],
+        "src": "Bloomberg",
+        "h": "South African cities face coalition rule as voters spurn ANC",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-08/south-african-cities-set-for-coalition-rule-as-voters-punish-anc",
+        "pay": true
+      },
+      {
+        "id": "n1",
+        "d": "2026-11-08",
+        "j": [
+          "eligon"
+        ],
+        "src": "The New York Times",
+        "h": "South Africa’s politics may never be the same again",
+        "url": "https://www.nytimes.com/2026/11/08/world/africa/south-africa-election-african-national-congress.html",
+        "pay": true
+      },
+      {
+        "id": "a1",
+        "d": "2026-11-08",
+        "j": [
+          "imray"
+        ],
+        "src": "AP",
+        "h": "South Africa’s ANC is humbled by its worst election results as it continues its decline",
+        "url": "https://apnews.com/article/elections-south-africa-anc-services-johannesburg-35f673cfe16bee26a94f9810d221771f"
+      },
+      {
+        "id": "bb1",
+        "d": "2026-11-08",
+        "j": [
+          "habershon"
+        ],
+        "src": "BBC",
+        "h": "‘Devastating message’ as ANC records worst-ever result in South Africa election",
+        "url": "https://www.bbc.com/news/articles/cwrkygrxp11mo"
+      },
+      {
+        "id": "r2",
+        "d": "2026-11-09",
+        "j": [
+          "peyton"
+        ],
+        "src": "Reuters",
+        "h": "South African voters rebuff ANC, accelerating shift to coalition politics",
+        "url": "https://www.reuters.com/world/africa/south-african-voters-rebuff-anc-accelerating-shift-coalition-politics-2026-11-09/"
+      },
+      {
+        "id": "b2",
+        "d": "2026-11-09",
+        "j": [
+          "cele"
+        ],
+        "src": "Bloomberg",
+        "h": "South Africa’s ANC to review coalition ties after voting setback",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-09/south-africa-s-anc-to-review-coalition-ties-after-voting-setback",
+        "pay": true
+      },
+      {
+        "id": "b3",
+        "d": "2026-11-09",
+        "j": [
+          "cele"
+        ],
+        "src": "Bloomberg",
+        "h": "South Africa’s cities force belligerent bedfellows",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-11-09/south-africa-election-bedfellows-in-cities-as-coalition-talks-start",
+        "pay": true
+      },
+      {
+        "id": "aj1",
+        "d": "2026-11-09",
+        "j": [
+          "marsi"
+        ],
+        "src": "Al Jazeera",
+        "h": "What ‘catastrophic’ South Africa local election results mean for ANC",
+        "url": "https://www.aljazeera.com/news/2026/11/9/what-catastrophic-south-africa-local-election-results-mean-for-anc"
+      },
+      {
+        "id": "s2",
+        "d": "2026-11-09",
+        "j": [
+
+        ],
+        "src": "Semafor",
+        "h": "South African voters punish ANC with worst-ever result",
+        "url": "https://www.semafor.com/article/11/09/2026/south-african-voters-punish-anc-with-worst-ever-result"
+      },
+      {
+        "id": "b4",
+        "d": "2026-11-10",
+        "j": [
+          "malala"
+        ],
+        "src": "Bloomberg Opinion",
+        "h": "South Africa needs its coalition government to succeed",
+        "url": "https://www.bloomberg.com/opinion/articles/2026-11-10/south-africa-needs-its-coalition-government-to-succeed",
+        "pay": true
+      },
+      {
+        "id": "w1",
+        "d": "2026-11-10",
+        "j": [
+          "timse"
+        ],
+        "src": "The Washington Post",
+        "h": "Mandela’s party, long dominant in South Africa, is bleeding support",
+        "url": "https://www.washingtonpost.com/world/2026/11/10/african-national-congress-support-erodes-local-elections/",
+        "pay": true
+      },
+      {
+        "id": "a2",
+        "d": "2026-11-11",
+        "j": [
+          "imray"
+        ],
+        "src": "AP",
+        "h": "How Mandela’s ANC lost its way in South Africa and voters deserted it",
+        "url": "https://apnews.com/article/south-africa-anc-explainer-mandela-elections-26362a728d3449072f1e08e86f26cf55"
+      },
+      {
+        "id": "e1",
+        "d": "2026-11-12",
+        "j": [
+
+        ],
+        "src": "The Economist",
+        "h": "South Africans are giving up on Nelson Mandela’s party. Good",
+        "url": "https://www.economist.com/leaders/2026/11/12/south-africans-are-giving-up-on-nelson-mandelas-party-good",
+        "pay": true
+      },
+      {
+        "id": "b10",
+        "d": "2026-11-12",
+        "j": [
+          "cele"
+        ],
+        "src": "Bloomberg",
+        "h": "A once-revered African liberation icon loses its luster",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-11-12/an-african-liberation-icon-has-lost-its-luster",
+        "pay": true
+      },
+      {
+        "id": "r3",
+        "d": "2026-11-12",
+        "j": [
+
+        ],
+        "src": "Reuters",
+        "h": "ANC spokesperson: Ramaphosa is not under pressure to resign",
+        "url": "https://www.reuters.com/world/africa/south-africas-anc-spokesperson-leader-ramaphosa-is-not-under-pressure-resign-2026-11-12/"
+      },
+      {
+        "id": "fr1",
+        "d": "2026-11-12",
+        "j": [
+
+        ],
+        "src": "AFP via France 24",
+        "h": "South Africa’s ANC opens talks after election rout",
+        "url": "https://www.france24.com/en/live-news/20261112-south-africa-s-anc-opens-talks-after-election-rout"
+      },
+      {
+        "id": "a3",
+        "d": "2026-11-13",
+        "j": [
+          "magome"
+        ],
+        "src": "AP",
+        "h": "South African parties in high-stakes coalition talks after ANC’s worst election results",
+        "url": "https://apnews.com/article/south-africa-election-coalition-talks-anc-4dacef78eea159913f5ab6596736bcb2"
+      },
+      {
+        "id": "f4",
+        "d": "2026-11-13",
+        "j": [
+
+        ],
+        "src": "Financial Times",
+        "h": "The South African townships turning against the ANC",
+        "url": "https://www.ft.com/content/dbf8d003-aa1d-4f23-9702-45fcff4360fd",
+        "pay": true
+      },
+      {
+        "id": "b5",
+        "d": "2026-11-13",
+        "j": [
+
+        ],
+        "src": "Bloomberg",
+        "h": "Next Africa podcast: Could South Africa’s governing coalition collapse?",
+        "url": "https://www.bloomberg.com/news/audio/2026-11-13/next-africa-could-south-africa-s-coalition-collapse-podcast"
+      },
+      {
+        "id": "aj2",
+        "d": "2026-11-14",
+        "j": [
+
+        ],
+        "src": "Al Jazeera",
+        "h": "Opinion: The ANC’s implosion was decades in the making",
+        "url": "https://www.aljazeera.com/opinions/2026/11/14/the-ancs-implosion-was-decades-in-the-making"
+      },
+      {
+        "id": "f5",
+        "d": "2026-11-16",
+        "j": [
+
+        ],
+        "src": "Financial Times",
+        "h": "ANC fights for power in South Africa’s cities after election drubbing",
+        "url": "https://www.ft.com/content/2c96466e-a37d-42b3-b5e7-a617bfa31666",
+        "pay": true
+      },
+      {
+        "id": "b6",
+        "d": "2026-11-16",
+        "j": [
+          "cohen"
+        ],
+        "src": "Bloomberg",
+        "h": "South Africa’s messy local election fallout rattles investors",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-11-16/can-south-africa-s-fractured-politics-keep-a-national-coalition-alive",
+        "pay": true
+      },
+      {
+        "id": "b7",
+        "d": "2026-11-16",
+        "j": [
+
+        ],
+        "src": "Bloomberg",
+        "h": "South Africa’s rand tests 17 per dollar with focus on politics",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-16/south-africa-s-rand-tests-17-per-dollar-as-political-risks-rise",
+        "pay": true
+      },
+      {
+        "id": "r4",
+        "d": "2026-11-17",
+        "j": [
+          "parakozov"
+        ],
+        "src": "Reuters",
+        "h": "South African rand at seven-month low as traders track coalition talks after local vote",
+        "url": "https://www.reuters.com/world/africa/south-african-rand-steadies-after-hitting-seven-month-low-2026-11-17/"
+      },
+      {
+        "id": "f6",
+        "d": "2026-11-18",
+        "j": [
+          "pilling"
+        ],
+        "src": "Financial Times",
+        "h": "South Africa’s ANC nears coalition deal in Johannesburg",
+        "url": "https://www.ft.com/content/d6faebd0-2690-4e2b-af7b-35fc7643808d",
+        "pay": true
+      },
+      {
+        "id": "ar1",
+        "d": "2026-11-18",
+        "j": [
+          "duplessis"
+        ],
+        "src": "The Africa Report",
+        "h": "South Africa: Mashaba emerges as kingmaker in Gauteng",
+        "url": "https://www.theafricareport.com/436581/south-africa-mashaba-emerges-as-kingmaker-in-gauteng/"
+      },
+      {
+        "id": "r5",
+        "d": "2026-11-19",
+        "j": [
+          "peyton"
+        ],
+        "src": "Reuters",
+        "h": "South Africa’s ANC and partners near coalition deal to sideline poll-topping DA in Johannesburg",
+        "url": "https://www.reuters.com/world/africa/south-africas-anc-partners-near-coalition-deal-sideline-poll-topping-da-2026-11-19/"
+      },
+      {
+        "id": "f7",
+        "d": "2026-11-19",
+        "j": [
+
+        ],
+        "src": "Financial Times",
+        "h": "South Africa’s ‘Iron Lady’ tells allies her Johannesburg mayor bid is over",
+        "url": "https://www.ft.com/content/d7f7ed3f-3399-4db4-a8d4-1e48f0ed0a15",
+        "pay": true
+      },
+      {
+        "id": "b8",
+        "d": "2026-11-19",
+        "j": [
+          "cele"
+        ],
+        "src": "Bloomberg",
+        "h": "South Africa’s DA to remain part of unity government for now",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-19/south-africa-s-da-to-remain-part-of-unity-government-for-now",
+        "pay": true
+      },
+      {
+        "id": "r6",
+        "d": "2026-11-19",
+        "j": [
+
+        ],
+        "src": "Reuters",
+        "h": "Rand near one-year low as South African central bank holds rates",
+        "url": "https://www.reuters.com/world/africa/south-african-rand-slides-year-low-ahead-rate-decision-2026-11-19/"
+      },
+      {
+        "id": "s1",
+        "d": "2026-11-20",
+        "j": [
+          "mkokeli"
+        ],
+        "src": "Semafor",
+        "h": "An urban test for South Africa’s unity government",
+        "url": "https://www.semafor.com/article/11/20/2026/an-urban-test-for-south-africas-unity-government"
+      },
+      {
+        "id": "ab1",
+        "d": "2026-11-20",
+        "j": [
+
+        ],
+        "src": "African Business",
+        "h": "Zille blocked from Johannesburg mayoralty by ActionSA–ANC deal",
+        "url": "https://african.business/2026/11/politics/zille-blocked-from-johannesburg-mayoralty"
+      },
+      {
+        "id": "ga1",
+        "d": "2026-11-20",
+        "j": [
+          "holmes"
+        ],
+        "src": "Good Authority",
+        "h": "South Africa’s 2026 local elections were highly competitive",
+        "url": "https://goodauthority.org/news/south-africas-2026-local-elections-were-highly-competitive/"
+      },
+      {
+        "id": "b9",
+        "d": "2026-11-21",
+        "j": [
+          "cele"
+        ],
+        "src": "Bloomberg",
+        "h": "Post-election bartering trumps votes for South African cities",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-11-20/post-election-bartering-trumps-votes-for-south-african-cities",
+        "pay": true
+      },
+      {
+        "id": "bb2",
+        "d": "2026-11-21",
+        "j": [
+
+        ],
+        "src": "BBC",
+        "h": "ANC fights to keep control of South Africa’s key cities after election setback",
+        "url": "https://www.bbc.com/news/articles/cqpv94d10rwpo"
+      },
+      {
+        "id": "f8",
+        "d": "2026-11-22",
+        "j": [
+
+        ],
+        "src": "Financial Times",
+        "h": "South Africa takes the low road after the ANC’s humiliation",
+        "url": "https://www.ft.com/content/26ba0881-5865-433e-8389-fa98f0b28e31",
+        "pay": true
+      }
+    ],
+    "stories": [
+      {
+        "id": "i-joburg",
+        "cat": "Johannesburg",
+        "h": "Abroad, Johannesburg is the story: a deal to shut out the DA",
+        "dek": "Johannesburg gets the most attention outside South Africa. Reuters and the FT reported that the ANC and its partners were close to a deal that would sideline the DA, which won the most votes in the city. The FT reported that Helen Zille had told allies her bid for mayor was over, and The Africa Report called Herman Mashaba the kingmaker in Gauteng.",
+        "p": [
+          "r5",
+          "f6",
+          "f7",
+          "ar1",
+          "ab1"
+        ]
+      },
+      {
+        "id": "i-gnu",
+        "cat": "National",
+        "h": "What the city deals mean for the unity government",
+        "dek": "Foreign outlets keep asking whether the local fights will spill into the national unity government. Bloomberg reported that the DA would stay in the GNU for now. Semafor’s Sam Mkokeli called the metros an urban test for it, Justice Malala argued in Bloomberg Opinion that the coalition government has to succeed, and Bloomberg’s Next Africa podcast asked whether it could collapse.",
+        "p": [
+          "b8",
+          "s1",
+          "b4",
+          "b5"
+        ]
+      },
+      {
+        "id": "i-rand",
+        "cat": "Markets",
+        "h": "The rand slides as investors watch the talks",
+        "dek": "Financial outlets link the talks to the currency. Reuters reported the rand at a seven-month low on 17 November as traders tracked the coalition talks, and near a one-year low two days later. Bloomberg reported it testing R17 to the dollar with the focus on politics, and Michael Cohen wrote that the messy fallout had rattled investors.",
+        "p": [
+          "r4",
+          "r6",
+          "b7",
+          "b6"
+        ]
+      },
+      {
+        "id": "i-cities",
+        "cat": "Metros",
+        "h": "South Africa’s cities move to coalition rule",
+        "dek": "Straight after the results, Bloomberg and Reuters reported that the biggest cities would be run by coalitions, and AP described high-stakes talks after the ANC’s worst result. Two weeks on, Bloomberg’s S’thembile Cele wrote that post-election bartering was counting for more than votes, while the FT and the BBC reported the ANC fighting to keep control of key cities.",
+        "p": [
+          "b1",
+          "r1",
+          "r2",
+          "b2",
+          "b3",
+          "fr1",
+          "a3",
+          "f5",
+          "bb2",
+          "b9"
+        ]
+      },
+      {
+        "id": "i-anc",
+        "cat": "Analysis",
+        "h": "A turning point for Mandela’s party",
+        "dek": "Many foreign pieces treat the result as a turning point for the ANC. The New York Times’ John Eligon wrote that South Africa’s politics may never be the same again. The Economist welcomed voters giving up on the party, AP explained how it lost its way, and the FT reported on townships turning against it.",
+        "p": [
+          "n1",
+          "e1",
+          "a2",
+          "f4",
+          "f2",
+          "a1",
+          "bb1",
+          "aj1",
+          "s2",
+          "w1",
+          "b10",
+          "aj2",
+          "ga1",
+          "f8",
+          "f3",
+          "r3"
+        ]
+      }
+    ]
+  }
 }
