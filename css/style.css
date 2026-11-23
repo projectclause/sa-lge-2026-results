@@ -922,3 +922,12 @@ body.has-ask { padding-bottom: 96px; }
 .ft-mail { flex-basis: 100%; text-align: right; font-size: 13px; color: var(--muted2); text-decoration: none; user-select: all; }
 .ft-mail:hover { color: var(--text); text-decoration: underline; }
 @media (max-width: 520px) { .ft-mail { text-align: left; } }
+
+/* phones: the "voting districts in" line under the final results is kept very small (7pt), on one row */
+@media (max-width: 720px) {
+  .rf-foot { grid-template-columns: auto minmax(0, 1fr); gap: 8px; align-items: center; margin-top: 10px; }
+  .rf-foot b { font-size: 7pt; line-height: 1.25; }
+  .rf-foot span { font-size: 7pt; line-height: 1.25; }
+  .rf-dots { height: 11px; margin-bottom: 2px; background-size: 4px 4px; }
+  .rf-dots span { font-size: 7pt; line-height: 9px; padding: 0 3px; margin-left: 4px; }
+}
