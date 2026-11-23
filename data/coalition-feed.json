@@ -3955,11 +3955,12 @@
         "score": 18.0
       },
       "holmes": {
-        "n": "Carolyn Holmes",
+        "n": "Carolyn E. Holmes",
         "o": "Good Authority",
         "role": "Political scientist, writing in Good Authority",
         "beat": "analysis",
-        "score": 9.0
+        "score": 9.0,
+        "img": "assets/journalists/carolyn-holmes.jpg"
       }
     },
     "pieces": [
