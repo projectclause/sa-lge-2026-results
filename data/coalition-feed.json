@@ -3877,7 +3877,8 @@
         "role": "Correspondent, Reuters",
         "beat": "reporting",
         "score": 39.3,
-        "inf": true
+        "inf": true,
+        "img": "assets/journalists/nellie-peyton.jpg"
       },
       "parakozov": {
         "n": "Sfundo Parakozov",
