@@ -2,7 +2,7 @@
 // Questions are answered from the site's own data (councils, provinces, parties, mayors) — no outside service.
 (function () {
   "use strict";
-  const PROVS = [["EC", "Eastern Cape"], ["FS", "Free State"], ["GP", "Gauteng"], ["KZN", "KwaZulu-Natal"], ["LP", "Limpopo"], ["MP", "Mpumalanga"], ["NW", "North West"], ["NC", "Northern Cape"], ["WC", "Western Cape"]];
+  const PROVS = [["GP", "Gauteng"], ["WC", "Western Cape"], ["KZN", "KwaZulu-Natal"], ["EC", "Eastern Cape"], ["FS", "Free State"], ["LP", "Limpopo"], ["MP", "Mpumalanga"], ["NW", "North West"], ["NC", "Northern Cape"]];
   const PARTY = { ANC: ["African National Congress", 30.76], DA: ["Democratic Alliance", 24.64], MK: ["Umkhonto Wesizwe Party", 9.77], EFF: ["Economic Freedom Fighters", 6.22], ASA: ["ActionSA", 5.67], IFP: ["Inkatha Freedom Party", 4.70], FFP: ["VF Plus", 2.97], SACP: ["South African Communist Party", 2.47], PA: ["Patriotic Alliance", 2.02] };
   const ALIAS = { anc: "ANC", da: "DA", mk: "MK", "mk party": "MK", eff: "EFF", actionsa: "ASA", "action sa": "ASA", ifp: "IFP", "vf plus": "FFP", "ff plus": "FFP", "freedom front": "FFP", sacp: "SACP", pa: "PA", "patriotic alliance": "PA" };
   const PNAME = { ANC: "ANC", DA: "DA", MK: "MK", EFF: "EFF", ASA: "ActionSA", IFP: "IFP", FFP: "VF Plus", SACP: "SACP", PA: "PA", UDM: "UDM" };

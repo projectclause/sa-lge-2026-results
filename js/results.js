@@ -273,7 +273,7 @@ more.onclick = () => { open = !open; draw(); };
 // results by municipality: one drop-down per province (with its coat of arms), councils inside
 function buildByMuni() {
   const box = document.querySelector(".bm-list"); if (!box || !M) return;
-  const PROVS = [["ZA", "South Africa"], ["EC", "Eastern Cape"], ["FS", "Free State"], ["GP", "Gauteng"], ["KZN", "KwaZulu-Natal"], ["LP", "Limpopo"], ["MP", "Mpumalanga"], ["NW", "North West"], ["NC", "Northern Cape"], ["WC", "Western Cape"]];
+  const PROVS = [["ZA", "South Africa"], ["GP", "Gauteng"], ["WC", "Western Cape"], ["KZN", "KwaZulu-Natal"], ["EC", "Eastern Cape"], ["FS", "Free State"], ["LP", "Limpopo"], ["MP", "Mpumalanga"], ["NW", "North West"], ["NC", "Northern Cape"]];
   box.innerHTML = PROVS.map(([code, name]) => {
     const za = code === "ZA";
     const all = M.filter((P) => za || P.prov === name).map((P) => ({ P, I: info(P) })).filter((x) => x.I.total);

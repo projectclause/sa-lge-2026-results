@@ -9,7 +9,7 @@
   const norm = (p) => ({ MKP: "MK", ActionSA: "ASA", "VF PLUS": "FFP" }[p] || p);
   const METROS = [["JHB", "JHB"], ["TSH", "TSH"], ["EKU", "EKU"], ["CPT", "CPT"], ["ETH", "ETH"], ["NMA", "NMB"], ["BUF", "BUF"], ["MAN", "MAN"]];
   const MNAME = { JHB: "Johannesburg", TSH: "Tshwane", EKU: "Ekurhuleni", CPT: "Cape Town", ETH: "eThekwini", NMA: "Nelson Mandela Bay", BUF: "Buffalo City", MAN: "Mangaung" };
-  const PROVS = [["EC", "Eastern Cape"], ["FS", "Free State"], ["GP", "Gauteng"], ["KZN", "KwaZulu-Natal"], ["LP", "Limpopo"], ["MP", "Mpumalanga"], ["NW", "North West"], ["NC", "Northern Cape"], ["WC", "Western Cape"]];
+  const PROVS = [["GP", "Gauteng"], ["WC", "Western Cape"], ["KZN", "KwaZulu-Natal"], ["EC", "Eastern Cape"], ["FS", "Free State"], ["LP", "Limpopo"], ["MP", "Mpumalanga"], ["NW", "North West"], ["NC", "Northern Cape"]];
   const LOGO = { ANC: "anc", DA: "da", MK: "mk", EFF: "eff", ASA: "asa", IFP: "ifp", FFP: "ffp", SACP: "sacp", PA: "pa", UDM: "udm", ATM: "atm" };
   const PNAME = { ASA: "ActionSA", FFP: "VF Plus" };
   const onHome = !!document.querySelector(".rs-grid");

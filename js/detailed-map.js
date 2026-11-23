@@ -14,7 +14,7 @@
   const pn = (id) => PNAME[id] || id;
   window.SAPARTY = { col, pn };
 
-  const PROV = { EC: "Eastern Cape", FS: "Free State", GP: "Gauteng", KZN: "KwaZulu-Natal", LP: "Limpopo", MP: "Mpumalanga", NW: "North West", NC: "Northern Cape", WC: "Western Cape" };
+  const PROV = { GP: "Gauteng", WC: "Western Cape", KZN: "KwaZulu-Natal", EC: "Eastern Cape", FS: "Free State", LP: "Limpopo", MP: "Mpumalanga", NW: "North West", NC: "Northern Cape" };
   const PRE = { EC: "EC", FS: "FS", GT: "GP", KZN: "KZN", LIM: "LP", MP: "MP", NW: "NW", NC: "NC", WC: "WC" };
   const MET = { JHB: "GP", TSH: "GP", EKU: "GP", CPT: "WC", ETH: "KZN", NMA: "EC", BUF: "EC", MAN: "FS" };
   const MNAME = { JHB: "Johannesburg", TSH: "Pretoria", EKU: "Ekurhuleni", CPT: "Cape Town", ETH: "Durban", NMA: "Gqeberha", BUF: "East London", MAN: "Bloemfontein" };
