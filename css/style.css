@@ -974,3 +974,18 @@ body.has-ask { padding-bottom: 96px; }
   .rs-mapcard .dm-levels { padding-top: 0; }
   .rs-mapcard .dm-levels button { padding-top: 6px; padding-bottom: 7px; }
 }
+
+/* Coalitions tab: a small neon-green "live" dot beside the word, like an asterisk; it pulses once every 3 seconds */
+.page-tabs a[href="coalitions.html"]::after {
+  content: ""; display: inline-block; width: 7px; height: 7px; margin: 0 0 0 4px; border-radius: 50%;
+  background: #39ff14; vertical-align: top; position: relative; top: 1px;
+  filter: drop-shadow(0 0 2px rgba(57, 255, 20, .9));
+  animation: tab-beep 3s ease-out infinite;
+}
+@keyframes tab-beep {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(57, 255, 20, .8); }
+  8% { transform: scale(1.35); }
+  28% { transform: scale(1); box-shadow: 0 0 0 6px rgba(57, 255, 20, 0); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(57, 255, 20, 0); }
+}
+@media (prefers-reduced-motion: reduce) { .page-tabs a[href="coalitions.html"]::after { animation: none; } }
