@@ -224,7 +224,8 @@ const OPTS = [
     const area = (document.querySelector("#rs-nat-h b") || {}).textContent;
     const where = area && area !== "National results" ? area : ((document.querySelector(".rf-h b") || {}).textContent || "South Africa");
     const url = location.href.split("#")[0];
-    const text = `${where}: 2026 local election results`;
+    // the title shown when the site is shared; the same wording is in each page's og:title
+    const text = "PREAMBLE | South Africa's Global and Local Data";
     return { url, text };
   }
   function hrefs() {
