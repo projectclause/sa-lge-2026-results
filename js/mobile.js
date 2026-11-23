@@ -3,20 +3,10 @@
   "use strict";
   const mq = window.matchMedia("(max-width: 720px)");
 
-  // Home: on phones the "Final results" block leads, in its own card above National results
-  const fin = document.querySelector(".rs-final"), nat = document.querySelector(".rs-nat");
-  if (fin && nat) {
-    const home = fin.parentNode, next = fin.nextSibling;
-    const card = document.createElement("section");
-    card.className = "rs-card rs-finalcard"; card.setAttribute("aria-label", "Final results");
-    const place = () => {
-      if (mq.matches && fin.parentNode !== card) { nat.parentNode.insertBefore(card, nat); card.appendChild(fin); }
-      else if (!mq.matches && fin.parentNode === card) { home.insertBefore(fin, next); card.remove(); }
-    };
-    place(); mq.addEventListener("change", place);
-  }
+  const nat = document.querySelector(".rs-nat");
 
-  // Home: on phones the ward map comes straight after "Final results", above National results
+  // Home: on phones the map card leads the page, above National results. The "Final results" block (party totals
+  // and share bar) stays inside that card, so the results and the map read as one card.
   const map = document.querySelector(".rs-mapcard");
   if (map && nat) {
     const mapHome = map.parentNode, mapNext = map.nextSibling;
