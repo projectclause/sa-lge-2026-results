@@ -515,6 +515,15 @@
       "group": "voice",
       "org": "Daily Maverick",
       "beat": "analysis"
+    },
+    "simelane": {
+      "n": "Lunga Simelane",
+      "o": "Daily Maverick",
+      "img": "assets/journalists/lunga-simelane.jpg",
+      "role": "Political journalist, Daily Maverick",
+      "group": "voice",
+      "org": "Daily Maverick",
+      "beat": "reporting"
     }
   },
   "items": [
@@ -2263,6 +2272,50 @@
       "s": "Before the vote, Berkowitz compared four eThekwini polls. MK came first in all of them, and the opposition parties reached a majority in only two of the four scenarios.",
       "src": "Daily Maverick",
       "url": "https://www.dailymaverick.co.za/article/2026-10-26-four-ethekwini-polls-show-mks-possible-paths-to-power/"
+    },
+    {
+      "id": "ls-rout",
+      "j": "simelane",
+      "d": "2026-11-07",
+      "kind": "Reported",
+      "place": "National",
+      "h": "ANC faces coalition scramble as control of key metros slips away",
+      "s": "Simelane reported that, with councils due to sit within 14 days, the ANC had lost the lead in Johannesburg, Tshwane and Ekurhuleni to the DA and in eThekwini to MK, leaving it to choose between coalition deals and opposition.",
+      "src": "Daily Maverick",
+      "url": "https://www.dailymaverick.co.za/article/2026-11-07-anc-faces-coalition-scramble-after-electoral-rout-as-control-of-key-metros-slips-away/"
+    },
+    {
+      "id": "ls-nec",
+      "j": "simelane",
+      "d": "2026-11-11",
+      "kind": "Reported",
+      "place": "Gauteng metros",
+      "h": "ANC NEC to decide coalition strategy as DA meets ActionSA",
+      "s": "Simelane reported that the ANC’s NEC would meet on 12 November to set its Gauteng coalition strategy while the DA and ActionSA held their own talks, with ActionSA’s support likely to decide who governs.",
+      "src": "Daily Maverick",
+      "url": "https://www.dailymaverick.co.za/article/2026-11-11-anc-nec-to-decide-gauteng-coalition-strategy-as-da-to-meet-actionsa/"
+    },
+    {
+      "id": "ls-ffp",
+      "j": "simelane",
+      "d": "2026-11-20",
+      "kind": "Reported",
+      "place": "Gauteng metros",
+      "h": "FF Plus fails to broker DA–ActionSA coalition as Gauteng talks stall",
+      "s": "Simelane reported that the FF Plus’s Corné Mulder held one-on-one talks to ease tensions between Helen Zille and Herman Mashaba, but could not broker a DA–ActionSA deal, while ANC-led options gained support.",
+      "src": "Daily Maverick",
+      "url": "https://www.dailymaverick.co.za/article/2026-11-20-ff-plus-fails-to-broker-da-actionsa-coalition-as-gauteng-talks-stall/"
+    },
+    {
+      "id": "ls-93",
+      "j": "simelane",
+      "d": "2026-11-23",
+      "kind": "Reported",
+      "place": "National",
+      "h": "DA offers ANC 93 mayoralties in 137 councils as ActionSA rejects Gauteng proposal",
+      "s": "Simelane reported the DA’s written “stability framework”, signed by Ashor Sarupen and sent to Fikile Mbalula, which would extend the GNU to hung councils, and ActionSA’s rejection of a separate DA offer for the Gauteng metros.",
+      "src": "Daily Maverick",
+      "url": "https://www.dailymaverick.co.za/article/2026-11-23-da-offers-anc-93-mayoralties-in-137-councils-actionsa-rejects-gauteng-proposal/"
     }
   ],
   "edition": {
@@ -2373,7 +2426,8 @@
         "km-legal",
         "km-poised",
         "km-small",
-        "ar-official"
+        "ar-official",
+        "ls-ffp"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
@@ -2405,7 +2459,8 @@
         "mafisa": "Reported Mashaba’s condition that Zille and Brink step aside as mayoral candidates.",
         "baloyi": "Tipped, in reports, as Mashaba’s deputy mayor.",
         "ramushwana": "Reported from the chamber as Joburg’s 270 councillors were sworn in, with the mayoral vote put off.",
-        "moichela": "Followed the Joburg deal for IOL, from smaller parties backing Mashaba to the DA’s legal letter and MK’s Baloyi as deputy."
+        "moichela": "Followed the Joburg deal for IOL, from smaller parties backing Mashaba to the DA’s legal letter and MK’s Baloyi as deputy.",
+        "simelane": "Reported that the FF Plus tried and failed to broker a DA–ActionSA deal between Zille and Mashaba."
       },
       "coverage": [
         {
@@ -2732,7 +2787,8 @@
         "tg-offer",
         "tg-reject",
         "ar-insult",
-        "ar-hl"
+        "ar-hl",
+        "ls-93"
       ],
       "voices": {
         "geordin": "Proposed that the ANC lead 93 hung councils, the DA 24 and the IFP 20, and told 702 the deal’s power is its simplicity.",
@@ -2742,7 +2798,8 @@
         "ashor": "Signed the DA’s letter to Mbalula proposing that the DA, ANC and IFP co-govern the hung councils.",
         "corne": "Tried to broker a DA-ActionSA deal in Gauteng, without success.",
         "goba": "Reported both DA offers for EWN: the 93-24-20 split of hung councils, and ActionSA’s rejection of the Gauteng deal.",
-        "ramushwana": "Reported the failed DA–ActionSA meeting and Hill-Lewis saying the DA wouldn’t match the ANC’s offer."
+        "ramushwana": "Reported the failed DA–ActionSA meeting and Hill-Lewis saying the DA wouldn’t match the ANC’s offer.",
+        "simelane": "Reported the DA’s written “stability framework”, sent to Mbalula, and ActionSA’s rejection of its Gauteng offer."
       },
       "coverage": [
         {
@@ -3276,7 +3333,8 @@
         "m-95",
         "tg-dawork",
         "km-offer",
-        "pb-gauteng"
+        "pb-gauteng",
+        "ls-nec"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
@@ -3291,7 +3349,8 @@
         "mashele": "Wants ActionSA to govern the Gauteng metros with the DA, not the ANC.",
         "goba": "Reported that ActionSA’s objection is to Zille and Brink, not the DA, and that it will back the DA in Nelson Mandela Bay.",
         "moichela": "Reported the ANC’s offer of the Joburg and Tshwane mayoralties to ActionSA.",
-        "berkowitz": "Argues an ANC–ActionSA pact is likelier than a DA deal in Gauteng, because more parties are willing to join it."
+        "berkowitz": "Argues an ANC–ActionSA pact is likelier than a DA deal in Gauteng, because more parties are willing to join it.",
+        "simelane": "Reported that ActionSA’s support would likely decide who governs Gauteng’s three metros."
       },
       "coverage": [
         {
@@ -3584,7 +3643,8 @@
         "pm-ewn",
         "gvo-data",
         "gvo-biz",
-        "pb-cuts"
+        "pb-cuts",
+        "ls-rout"
       ],
       "voices": {
         "pieter": "Saw the ANC’s decline speeding up, with the party on the brink of second, third or fourth place in seven of the eight metros.",
@@ -3592,7 +3652,8 @@
         "zimasa": "Asks who really won the election, tracing where the ANC’s lost 14.8 points went.",
         "mashele": "Predicts the ANC could fall below 15% by 2029, blaming corruption, incompetence and arrogance.",
         "vanonselen": "Estimated the ANC lost about 25 points in black metro voting districts, mostly to MK and ActionSA.",
-        "berkowitz": "Says the ANC is “bleeding from a thousand cuts” to ActionSA, the DA, the UDM, the SACP and local movements."
+        "berkowitz": "Says the ANC is “bleeding from a thousand cuts” to ActionSA, the DA, the UDM, the SACP and local movements.",
+        "simelane": "Reported that the ANC had lost the lead in four metros and must choose between coalition deals and opposition."
       },
       "coverage": [
         {
