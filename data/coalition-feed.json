@@ -3835,6 +3835,7 @@
       "Financial outlets tie the talks to the rand, which Reuters reported at a seven-month low on 17 November",
       "Commentators ask whether the city fights will strain the national unity government",
       "Many pieces frame the result as a historic turning point for the ANC",
+      "Outlets writing in Arabic, French, German, Spanish, Italian and Dutch covered the result; only the Italian and Arabic ones are still following the deal-making",
       "We found no New York Times piece on the talks since 8 November"
     ],
     "voices": {
@@ -4371,6 +4372,289 @@
         "h": "South Africa takes the low road after the ANC’s humiliation",
         "url": "https://www.ft.com/content/26ba0881-5865-433e-8389-fa98f0b28e31",
         "pay": true
+      },
+      {
+        "id": "fr2",
+        "d": "2026-11-09",
+        "j": [
+
+        ],
+        "src": "Les Echos",
+        "h": "South Africa: in Johannesburg, the ANC’s symbolic defeat",
+        "orig": "Afrique du Sud : à Johannesburg, la défaite symbolique de l'ANC",
+        "lang": "French",
+        "url": "https://www.lesechos.fr/monde/afrique-moyen-orient/afrique-du-sud-sauver-johannesburg-de-la-detresse-financiere-le-casse-tete-du-futur-maire-2261776",
+        "by": "Claire Bargelès"
+      },
+      {
+        "id": "de1",
+        "d": "2026-11-07",
+        "j": [
+
+        ],
+        "src": "DW",
+        "h": "Mandela’s former party, the ANC, suffers election setback in South Africa",
+        "orig": "Ex-Mandela-Partei ANC erleidet Wahlschlappe in Südafrika",
+        "lang": "German",
+        "url": "https://www.dw.com/de/ex-mandela-partei-anc-erleidet-wahlschlappe-in-s%C3%BCdafrika/a-79884765"
+      },
+      {
+        "id": "de2",
+        "d": "2026-11-07",
+        "j": [
+
+        ],
+        "src": "Der Spiegel",
+        "h": "ANC suffers historic defeat in South Africa’s local elections",
+        "orig": "ANC erleidet historische Niederlage bei Kommunalwahlen in Südafrika",
+        "lang": "German",
+        "url": "https://www.spiegel.de/ausland/suedafrika-anc-erleidet-historische-niederlage-bei-kommunalwahlen-a-0a77243d-6573-4bd6-a37f-fb4a45f06e20"
+      },
+      {
+        "id": "de3",
+        "d": "2026-11-08",
+        "j": [
+
+        ],
+        "src": "FAZ",
+        "h": "ANC suffers historic defeat in South Africa’s local elections",
+        "orig": "ANC erleidet historische Niederlage bei Kommunalwahl in Südafrika",
+        "lang": "German",
+        "url": "https://www.faz.net/aktuell/politik/ausland/anc-erleidet-historische-niederlage-bei-kommunalwahl-in-suedafrika-accg-201662453.html",
+        "by": "Claudia Broell"
+      },
+      {
+        "id": "es1",
+        "d": "2026-11-08",
+        "j": [
+
+        ],
+        "src": "El País",
+        "h": "South Africa punishes Mandela’s party in local elections that open a new battle for local power",
+        "orig": "Sudáfrica castiga al partido de Mandela en unas municipales que abren una nueva batalla por el poder local",
+        "lang": "Spanish",
+        "url": "https://elpais.com/internacional/2026-11-08/sudafrica-castiga-al-partido-de-mandela-en-unas-municipales-que-abren-una-nueva-batalla-por-el-poder-local.html",
+        "by": "Lola Hierro"
+      },
+      {
+        "id": "es2",
+        "d": "2026-11-08",
+        "j": [
+
+        ],
+        "src": "France 24",
+        "h": "Mandela’s party suffers a setback in the municipal elections: what comes next for South Africa?",
+        "orig": "El partido de Mandela sufre un revés en las elecciones municipales: ¿qué viene ahora en Sudáfrica?",
+        "lang": "Spanish",
+        "url": "https://www.france24.com/es/%C3%A1frica/20261108-el-partido-de-mandela-sufre-un-rev%C3%A9s-en-las-elecciones-municipales-qu%C3%A9-viene-ahora-en-sud%C3%A1frica"
+      },
+      {
+        "id": "es3",
+        "d": "2026-11-08",
+        "j": [
+
+        ],
+        "src": "Infobae",
+        "h": "Mandela’s party gets its worst result in South Africa’s municipal elections: “The people have spoken”",
+        "orig": "El partido de Mandela obtuvo sus peores resultados en elecciones municipales en Sudáfrica: “El pueblo ha hablado”",
+        "lang": "Spanish",
+        "url": "https://www.infobae.com/america/mundo/2026/11/08/el-partido-de-mandela-obtuvo-sus-peores-resultados-en-elecciones-municipales-en-sudafrica-el-pueblo-ha-hablado/"
+      },
+      {
+        "id": "it1",
+        "d": "2026-11-06",
+        "j": [
+
+        ],
+        "src": "Il Post",
+        "h": "In South Africa, the ANC has lost the big cities",
+        "orig": "In Sudafrica l’ANC ha perso le grandi città",
+        "lang": "Italian",
+        "url": "https://www.ilpost.it/2026/11/06/sudafrica-elezioni-amministrative-crollo-citta-anc/"
+      },
+      {
+        "id": "it2",
+        "d": "2026-11-06",
+        "j": [
+
+        ],
+        "src": "Il Sole 24 Ore",
+        "h": "In South Africa the ANC heads for record lows, and the coalition puzzle begins",
+        "orig": "In Sudafrica l’Anc verso i minimi storici, scatta rebus coalizioni",
+        "lang": "Italian",
+        "url": "https://www.ilsole24ore.com/art/in-sudafrica-l-anc-i-minimi-storici-scatta-rebus-coalizioni-AJyTBp7B",
+        "by": "Alberto Magnani"
+      },
+      {
+        "id": "it3",
+        "d": "2026-11-06",
+        "j": [
+
+        ],
+        "src": "Nigrizia",
+        "h": "South Africa: the post-ANC era has already begun in the big cities",
+        "orig": "Sudafrica: l’era post-ANC è già cominciata nelle grandi città",
+        "lang": "Italian",
+        "url": "https://www.nigrizia.it/notizia/sudafrica-lera-post-anc-e-gia-cominciata-nelle-grandi-citta",
+        "by": "Brando Ricci"
+      },
+      {
+        "id": "it4",
+        "d": "2026-11-08",
+        "j": [
+
+        ],
+        "src": "Il Post",
+        "h": "In South Africa’s local elections, the historic Congress party had its worst result ever",
+        "orig": "Alle elezioni locali in Sudafrica lo storico partito del Congresso ha ottenuto il suo risultato peggiore di sempre",
+        "lang": "Italian",
+        "url": "https://www.ilpost.it/2026/11/08/sudafrica-elezioni-locali-anc-risultato-peggiore/"
+      },
+      {
+        "id": "it5",
+        "d": "2026-11-19",
+        "j": [
+
+        ],
+        "src": "IARI",
+        "h": "South Africa, the ANC loses its dominance: the coalition that could redraw power in the metros",
+        "orig": "Sudafrica, l’ANC perde l’egemonia: la coalizione che può ridisegnare il potere nelle metropoli",
+        "lang": "Italian",
+        "url": "https://iari.site/2026/11/19/sudafrica-lanc-perde-legemonia-la-coalizione-che-puo-ridisegnare-il-potere-nelle-metropoli/",
+        "by": "Filippo Sardella"
+      },
+      {
+        "id": "nl1",
+        "d": "2026-11-08",
+        "j": [
+
+        ],
+        "src": "NOS",
+        "h": "Losses for the ANC in South Africa’s cities",
+        "orig": "Verlies voor het ANC in Zuid-Afrikaanse steden",
+        "lang": "Dutch",
+        "url": "https://nos.nl/artikel/2638629-verlies-voor-het-anc-in-zuid-afrikaanse-steden",
+        "by": "Elles van Gelder"
+      },
+      {
+        "id": "nl2",
+        "d": "2026-11-10",
+        "j": [
+
+        ],
+        "src": "Reformatorisch Dagblad",
+        "h": "South Africa’s black middle class turns its back on the ANC",
+        "orig": "De zwarte middenklasse van Zuid-Afrika keert het ANC de rug toe",
+        "lang": "Dutch",
+        "url": "https://www.rd.nl/artikel/de-zwarte-middenklasse-van-zuid-afrika-keert-het-anc-de-rug-toe"
+      },
+      {
+        "id": "ar2",
+        "d": "2026-11-09",
+        "j": [
+
+        ],
+        "src": "Ad-Diyar",
+        "h": "The decline of Ramaphosa’s party opens the door to new alliances in South Africa’s cities",
+        "orig": "تراجع حزب رامافوزا يفتح الباب أمام تحالفات جديدة في مدن جنوب أفريقيا",
+        "lang": "Arabic",
+        "url": "https://addiyar.com/article/2413979-%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9-%D8%AD%D8%B2%D8%A8-%D8%B1%D8%A7%D9%85%D8%A7%D9%81%D9%88%D8%B2%D8%A7-%D9%8A%D9%81%D8%AA%D8%AD-%D8%A7%D9%84%D8%A8%D8%A7%D8%A8-%D8%A3%D9%85%D8%A7%D9%85-%D8%AA%D8%AD%D8%A7%D9%84%D9%81%D8%A7%D8%AA-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%81%D9%8A-%D9%85%D8%AF%D9%86-%D8%AC%D9%86%D9%88%D8%A8-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7"
+      },
+      {
+        "id": "ar3",
+        "d": "2026-11-10",
+        "j": [
+
+        ],
+        "src": "Africa News (Algeria)",
+        "h": "South Africa: the ruling party’s local election losses complicate forming local coalition governments",
+        "orig": "جنوب أفريقيا : خسارة الحزب الحاكم للانتخابات المحلية تعقد تشكيل حكومات ائتلافية محلية",
+        "lang": "Arabic",
+        "url": "https://africanews.dz/%D8%AC%D9%86%D9%88%D8%A8-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D8%AD%D8%A7%D9%83%D9%85-%D9%84%D9%84%D8%A7%D9%86%D8%AA/"
+      },
+      {
+        "id": "ar4",
+        "d": "2026-11-10",
+        "j": [
+
+        ],
+        "src": "Youm7",
+        "h": "South Africa: the ANC falls to 31%, against 25% for the DA",
+        "orig": "جنوب أفريقيا.. تراجع المؤتمر الوطني الأفريقي إلى 31% مقابل 25% للتحالف الديمقراطي.. أزمات المياه والكهرباء وتدهور الخدمات تفجر غضب الناخبين.. وجوهانسبرج ساحة مفاوضات تشكيل الائتلافات بعد الانتخابات البلدية",
+        "lang": "Arabic",
+        "url": "https://www.youm7.com/story/2026/11/10/%D8%AC%D9%86%D9%88%D8%A8-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9-%D8%A7%D9%84%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D8%A7%D9%84%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A-%D8%A5%D9%84%D9%89-31-%D9%85%D9%82%D8%A7%D8%A8%D9%84-25/7610305"
+      },
+      {
+        "id": "ar5",
+        "d": "2026-11-17",
+        "j": [
+
+        ],
+        "src": "Twasl News",
+        "h": "South African rand: coalition risks weigh on the currency against the dollar, says Commerzbank",
+        "orig": "الراند الجنوب أفريقي: مخاطر الائتلاف تضغط على ZAR مقابل الدولار الأمريكي – كومرتس بنك",
+        "lang": "Arabic",
+        "url": "https://twaslnews1.twaslnews.com/7847583/"
+      },
+      {
+        "id": "ar6",
+        "d": "2026-11-23",
+        "j": [
+
+        ],
+        "src": "Africa News (Algeria)",
+        "h": "The ANC manoeuvres to keep its influence in South Africa’s cities",
+        "orig": "المؤتمر الوطني الإفريقي يناور للحفاظ على نفوذه في مدن جنوب إفريقيا",
+        "lang": "Arabic",
+        "url": "https://africanews.dz/%D8%A7%D9%84%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D8%A7%D9%84%D8%A5%D9%81%D8%B1%D9%8A%D9%82%D9%8A-%D9%8A%D9%86%D8%A7%D9%88%D8%B1-%D9%84%D9%84%D8%AD%D9%81%D8%A7%D8%B8/"
+      },
+      {
+        "id": "ja1",
+        "d": "2026-11-09",
+        "j": [
+
+        ],
+        "src": "Newsweek Japan",
+        "h": "South Africa’s local elections: the ruling ANC slumps, and coalition talks begin in the big cities",
+        "orig": "南ア地方選、国政与党ＡＮＣが低迷 主要都市で連立協議へ",
+        "lang": "Japanese",
+        "url": "https://www.newsweekjapan.jp/articles/-/339446?display=b"
+      },
+      {
+        "id": "ru1",
+        "d": "2026-11-21",
+        "j": [
+
+        ],
+        "src": "Operativ Məlumat Mərkəzi",
+        "h": "The ANC looks for partners to share power in South Africa’s cities",
+        "orig": "АНК ищет партнёров для раздела власти в городах ЮАР",
+        "lang": "Russian",
+        "url": "https://operativmm.az/ru/post/ank-ishchet-partnyorov-dlya-razdela-vlasti-v-gorodakh-yuar/87883"
+      },
+      {
+        "id": "rfi1",
+        "d": "2026-11-05",
+        "j": [
+
+        ],
+        "src": "RFI",
+        "h": "South Africa: a calm vote, with the ANC challenged in Johannesburg and Durban",
+        "orig": "Afrique du Sud: un vote dans le calme, l’ANC contesté à Johannesburg et Durban",
+        "lang": "French",
+        "url": "https://www.rfi.fr/fr/afrique/20261105-afrique-du-sud-un-vote-dans-le-calme-l-anc-contest%C3%A9-%C3%A0-johannesburg-et-durban"
+      },
+      {
+        "id": "bw1",
+        "d": "2026-11-09",
+        "j": [
+
+        ],
+        "src": "Al-Bawaba News",
+        "h": "A historic decline for the ANC in South Africa’s elections, with coalitions on the horizon",
+        "orig": "تراجع تاريخي لحزب المؤتمر الوطني الأفريقي في انتخابات جنوب أفريقيا.. والائتلافات تلوح في الأفق",
+        "lang": "Arabic",
+        "url": "https://www.albawabhnews.com/5433472"
       }
     ],
     "stories": [
@@ -4384,7 +4668,8 @@
           "f6",
           "f7",
           "ar1",
-          "ab1"
+          "ab1",
+          "fr2"
         ],
         "place": "Johannesburg and the Gauteng metros",
         "brief": [
@@ -4453,7 +4738,8 @@
           "r4",
           "r6",
           "b7",
-          "b6"
+          "b6",
+          "ar5"
         ],
         "place": "The rand and investors",
         "brief": [
@@ -4492,7 +4778,21 @@
           "a3",
           "f5",
           "bb2",
-          "b9"
+          "b9",
+          "es1",
+          "es2",
+          "it1",
+          "it2",
+          "it3",
+          "it5",
+          "nl1",
+          "ar2",
+          "ar3",
+          "ar6",
+          "ja1",
+          "ru1",
+          "rfi1",
+          "bw1"
         ],
         "place": "South Africa’s metros",
         "brief": [
@@ -4540,7 +4840,14 @@
           "ga1",
           "f8",
           "f3",
-          "r3"
+          "r3",
+          "de1",
+          "de2",
+          "de3",
+          "es3",
+          "it4",
+          "nl2",
+          "ar4"
         ],
         "place": "The ANC",
         "brief": [
