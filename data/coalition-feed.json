@@ -420,6 +420,14 @@
       "img": "assets/journalists/alpha-ramushwana.jpg",
       "group": "voice",
       "org": "EWN"
+    },
+    "moichela": {
+      "n": "Kamogelo Moichela",
+      "o": "IOL",
+      "role": "Journalist, IOL",
+      "img": "assets/journalists/kamogelo-moichela.jpg",
+      "group": "voice",
+      "org": "IOL"
     }
   },
   "items": [
@@ -2047,6 +2055,50 @@
       "s": "Ramushwana reported that the Council of the Left, a bloc including the EFF, SACP, MK and the Afrika Mayibuye Movement, would not support ANC-led coalitions that include the DA. The bloc briefed the media at the hotel where the ANC’s NEC was meeting.",
       "src": "EWN",
       "url": "https://www.ewn.co.za/2026/11/12/left-wing-parties-refuse-to-back-anc-led-coalitions-that-include-the-da"
+    },
+    {
+      "id": "km-legal",
+      "j": "moichela",
+      "d": "2026-11-23",
+      "kind": "Reported",
+      "place": "Johannesburg",
+      "h": "DA threatens legal action over Johannesburg council’s inaugural meeting",
+      "s": "Moichela reported that the DA served city manager Floyd Brink a lawyer’s letter asking for the first meeting to be postponed, arguing the legal deadline was 27 November. He reported that MK’s Bongani Baloyi was expected to take the deputy mayor post.",
+      "src": "IOL",
+      "url": "https://iol.co.za/lge2026/2026-11-23-da-threatens-legal-action-over-johannesburg-councils-inaugural-meeting/"
+    },
+    {
+      "id": "km-poised",
+      "j": "moichela",
+      "d": "2026-11-20",
+      "kind": "Reported",
+      "place": "Gauteng metros",
+      "h": "Mashaba poised for Joburg mayor role as coalition deal takes shape, MK Party in line for deputy",
+      "s": "Moichela reported, citing sources, an unsigned structure with Mashaba as Joburg mayor and MK as deputy, Nasiphi Moya keeping Tshwane with an EFF deputy, and the ANC leading Ekurhuleni with ActionSA as deputy.",
+      "src": "IOL",
+      "url": "https://iol.co.za/lge2026/2026-11-20-unsigned-coalition-deal-puts-mashaba-in-line-for-joburg-mayor-mk-party-for-deputy/"
+    },
+    {
+      "id": "km-offer",
+      "j": "moichela",
+      "d": "2026-11-18",
+      "kind": "Reported",
+      "place": "Gauteng metros",
+      "h": "ANC offers ActionSA Joburg and Tshwane mayoral seats, keeps Ekurhuleni in coalition deal",
+      "s": "Moichela reported, citing sources, that the ANC had offered ActionSA the Johannesburg and Tshwane mayoralties while keeping Ekurhuleni. An ANC insider said the party was negotiating in line with its poor election result.",
+      "src": "IOL",
+      "url": "https://iol.co.za/news/politics/2026-11-18-anc-offers-actionsa-joburg-and-tshwane-mayoral-seats-keeps-ekurhuleni-in-coalition-deal/"
+    },
+    {
+      "id": "km-small",
+      "j": "moichela",
+      "d": "2026-11-16",
+      "kind": "Reported",
+      "place": "Johannesburg",
+      "h": "Smaller parties rally behind Herman Mashaba for Joburg mayor as coalition talks near crunch point",
+      "s": "Moichela reported sources saying smaller parties in Johannesburg favoured Mashaba for mayor because of his record in office, while noting it was not clear that all smaller parties shared that view.",
+      "src": "IOL",
+      "url": "https://iol.co.za/lge2026/2026-11-16-smaller-parties-rally-behind-herman-mashaba-for-joburg-mayor-as-coalition-talks-near-crunch-point/"
     }
   ],
   "edition": {
@@ -2066,7 +2118,7 @@
         "The DA had asked for the sitting to be postponed; Zille told eNCA it would not delay it through the courts",
         "Zille: “We will never give up on Joburg”",
         "The ANC, ActionSA, EFF and MK together hold 137 of 270 seats, one more than a majority, The National reports",
-        "The deal would make Mashaba mayor; Sunday World reports MK’s Bongani Baloyi is in the running to be his deputy"
+        "The deal would make Mashaba mayor; IOL and Sunday World report MK’s Bongani Baloyi is expected to be his deputy"
       ],
       "sec": [
         [
@@ -2152,7 +2204,10 @@
         "z-never",
         "im-zille",
         "bb-dep",
-        "ar-sworn"
+        "ar-sworn",
+        "km-legal",
+        "km-poised",
+        "km-small"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
@@ -2183,7 +2238,8 @@
         "mashele": "Argues an ActionSA–DA coalition is the only viable way forward, and says both parties asked him to help bring them together.",
         "mafisa": "Reported Mashaba’s condition that Zille and Brink step aside as mayoral candidates.",
         "baloyi": "Tipped, in reports, as Mashaba’s deputy mayor.",
-        "ramushwana": "Reported from the chamber as Joburg’s 270 councillors were sworn in, with the mayoral vote put off."
+        "ramushwana": "Reported from the chamber as Joburg’s 270 councillors were sworn in, with the mayoral vote put off.",
+        "moichela": "Followed the Joburg deal for IOL, from smaller parties backing Mashaba to the DA’s legal letter and MK’s Baloyi as deputy."
       },
       "coverage": [
         {
@@ -2992,7 +3048,8 @@
         "ah-bea",
         "pm-vutha",
         "m-95",
-        "tg-dawork"
+        "tg-dawork",
+        "km-offer"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
@@ -3005,7 +3062,8 @@
         "omarjee": "Interviewed Mashaba on ActionSA’s demands about the DA’s mayoral candidates.",
         "hogg": "Interviewed Beaumont on ActionSA’s coalition hand.",
         "mashele": "Wants ActionSA to govern the Gauteng metros with the DA, not the ANC.",
-        "goba": "Reported that ActionSA’s objection is to Zille and Brink, not the DA, and that it will back the DA in Nelson Mandela Bay."
+        "goba": "Reported that ActionSA’s objection is to Zille and Brink, not the DA, and that it will back the DA in Nelson Mandela Bay.",
+        "moichela": "Reported the ANC’s offer of the Joburg and Tshwane mayoralties to ActionSA."
       },
       "coverage": [
         {
