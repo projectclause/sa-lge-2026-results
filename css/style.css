@@ -1158,6 +1158,16 @@ body.has-ask { padding-bottom: 96px; }
 .pl-istory .pl-cat span { font-weight: 500; color: var(--muted); text-transform: none; letter-spacing: 0; }
 .pl-ilist .pl-more { margin-top: 10px; }
 .pl-pay { font-style: normal; font-size: 11.5px; font-weight: 600; color: var(--muted); border: 1px solid var(--rule2); padding: 0 5px; }
+.pl-avs { display: inline-grid; place-items: center; font-style: normal; font-size: 10px; font-weight: 700; color: var(--muted2); background: var(--soft); border-radius: 50%; }
+.pl-fc .pl-avs { width: 30px; height: 30px; border: 2px solid #fff; }
+.pl-fc > * + .pl-avs { margin-left: -9px; }
+.pl-src .pl-fc .pl-avs { width: 46px; height: 46px; font-size: 13px; }
+.pl-src .pl-fc > * + .pl-avs { margin-left: -12px; }
+@media (max-width: 520px) { .pl-src .pl-fc .pl-avs { width: 40px; height: 40px; } }
+.pl-piece summary .pl-av { width: 34px; height: 34px; font-size: 11.5px; }
+.pl-vh .pl-av { width: 52px; height: 52px; font-size: 16px; }
+.pl-drvi .pl-av { width: 44px; height: 44px; }
+.pl-vlist .pl-piece summary .pl-av, .pl-voicecard .pl-piece summary .pl-av { display: none; }
 .pl-av { font-style: normal; width: 40px; height: 40px; flex: none; border-radius: 50%; display: grid; place-items: center; background: var(--soft); color: var(--muted2); font-size: 13.5px; font-weight: 700; letter-spacing: .02em; }
 @media (max-width: 720px) {
   .pl-scope { margin-top: 12px; }

@@ -3841,77 +3841,92 @@
       "pilling": {
         "n": "David Pilling",
         "o": "Financial Times",
-        "role": "Journalist, Financial Times"
+        "role": "Journalist, Financial Times",
+        "beat": "analysis"
       },
       "cele": {
         "n": "S’thembile Cele",
         "o": "Bloomberg",
-        "role": "Reporter, Bloomberg"
+        "role": "Reporter, Bloomberg",
+        "beat": "reporting"
       },
       "cohen": {
         "n": "Michael Cohen",
         "o": "Bloomberg",
-        "role": "Reporter, Bloomberg"
+        "role": "Reporter, Bloomberg",
+        "beat": "reporting"
       },
       "malala": {
         "n": "Justice Malala",
         "o": "Bloomberg Opinion",
-        "role": "Columnist, Bloomberg Opinion"
+        "role": "Columnist, Bloomberg Opinion",
+        "beat": "analysis"
       },
       "peyton": {
         "n": "Nellie Peyton",
         "o": "Reuters",
-        "role": "Correspondent, Reuters"
+        "role": "Correspondent, Reuters",
+        "beat": "reporting"
       },
       "parakozov": {
         "n": "Sfundo Parakozov",
         "o": "Reuters",
-        "role": "Reporter, Reuters"
+        "role": "Reporter, Reuters",
+        "beat": "reporting"
       },
       "magome": {
         "n": "Mogomotsi Magome",
         "o": "AP",
-        "role": "Reporter, Associated Press"
+        "role": "Reporter, Associated Press",
+        "beat": "reporting"
       },
       "imray": {
         "n": "Gerald Imray",
         "o": "AP",
-        "role": "Reporter, Associated Press"
+        "role": "Reporter, Associated Press",
+        "beat": "reporting"
       },
       "eligon": {
         "n": "John Eligon",
         "o": "The New York Times",
-        "role": "Journalist, The New York Times"
+        "role": "Journalist, The New York Times",
+        "beat": "reporting"
       },
       "mkokeli": {
         "n": "Sam Mkokeli",
         "o": "Semafor",
-        "role": "Journalist, Semafor"
+        "role": "Journalist, Semafor",
+        "beat": "reporting"
       },
       "duplessis": {
         "n": "Carien du Plessis",
         "o": "The Africa Report",
-        "role": "Journalist, The Africa Report"
+        "role": "Journalist, The Africa Report",
+        "beat": "reporting"
       },
       "marsi": {
         "n": "Federica Marsi",
         "o": "Al Jazeera",
-        "role": "Journalist, Al Jazeera"
+        "role": "Journalist, Al Jazeera",
+        "beat": "reporting"
       },
       "habershon": {
         "n": "Ed Habershon",
         "o": "BBC",
-        "role": "Journalist, BBC"
+        "role": "Journalist, BBC",
+        "beat": "reporting"
       },
       "timse": {
         "n": "Tabelo Timse",
         "o": "The Washington Post",
-        "role": "Journalist, The Washington Post"
+        "role": "Journalist, The Washington Post",
+        "beat": "reporting"
       },
       "holmes": {
         "n": "Carolyn Holmes",
         "o": "Good Authority",
-        "role": "Political scientist, writing in Good Authority"
+        "role": "Political scientist, writing in Good Authority",
+        "beat": "analysis"
       }
     },
     "pieces": [
@@ -4338,7 +4353,30 @@
           "f7",
           "ar1",
           "ab1"
-        ]
+        ],
+        "place": "Johannesburg and the Gauteng metros",
+        "brief": [
+          "Reuters reported on 19 November that the ANC and its partners were near a deal that would sideline the DA in Johannesburg, though the DA topped the poll there",
+          "The FT had reported the ANC nearing a coalition deal in the city the day before",
+          "The FT then reported that Helen Zille, whom it calls South Africa’s “Iron Lady”, had told allies her mayoral bid was over",
+          "The Africa Report named Herman Mashaba the kingmaker in Gauteng",
+          "For foreign readers, the story is that the party with the most votes may not govern Africa’s richest city"
+        ],
+        "sec": [
+          [
+            "The angle abroad",
+            "Foreign outlets tell the Johannesburg story through the paradox at its centre: the DA won the most votes but may be shut out of power. Reuters puts that paradox in its headline."
+          ],
+          [
+            "What they leave out",
+            "Judging by their headlines, foreign outlets give less room than South African ones to the share-out of mayoral posts or the timing of council sittings. They focus on who ends up in charge and what that says about the ANC."
+          ]
+        ],
+        "voices": {
+          "peyton": "Reported that the ANC and its partners were near a deal to sideline the poll-topping DA in Johannesburg.",
+          "pilling": "Reported that the ANC was nearing a coalition deal in Johannesburg.",
+          "duplessis": "Wrote that Herman Mashaba had emerged as the kingmaker in Gauteng."
+        }
       },
       {
         "id": "i-gnu",
@@ -4350,7 +4388,29 @@
           "s1",
           "b4",
           "b5"
-        ]
+        ],
+        "place": "National unity government",
+        "brief": [
+          "Bloomberg reported on 19 November that the DA would stay in the unity government for now",
+          "Semafor’s Sam Mkokeli called the metros an urban test for the GNU",
+          "In Bloomberg Opinion, Justice Malala argued that the coalition government has to succeed",
+          "Bloomberg’s Next Africa podcast asked whether it could collapse"
+        ],
+        "sec": [
+          [
+            "The angle abroad",
+            "Outside South Africa, the city talks matter mostly for what they mean for the national government formed in 2024. The question foreign outlets keep asking is whether a DA shut out of the metros will stay in the GNU, and what happens to investor confidence if it does not."
+          ],
+          [
+            "Why it matters to them",
+            "For investors and foreign governments, the GNU is the main sign of stability after the ANC lost its majority. That is why Bloomberg treats the DA’s decision to stay as news in itself."
+          ]
+        ],
+        "voices": {
+          "cele": "Reported that the DA would stay in the unity government for now.",
+          "mkokeli": "Wrote that the metros are an urban test for the unity government.",
+          "malala": "Argued that South Africa needs its coalition government to succeed."
+        }
       },
       {
         "id": "i-rand",
@@ -4362,7 +4422,28 @@
           "r6",
           "b7",
           "b6"
-        ]
+        ],
+        "place": "The rand and investors",
+        "brief": [
+          "Reuters reported the rand at a seven-month low on 17 November as traders tracked the coalition talks",
+          "Two days later Reuters reported it near a one-year low as the central bank held rates",
+          "Bloomberg reported the rand testing R17 to the dollar with the focus on politics",
+          "Bloomberg’s Michael Cohen wrote that the messy election fallout had rattled investors"
+        ],
+        "sec": [
+          [
+            "The angle abroad",
+            "This is the part of the story covered almost only by foreign and financial outlets. They read the coalition talks as political risk, and track the talk of the ANC turning away from the DA through the rand."
+          ],
+          [
+            "What to watch",
+            "Wire and markets reporters link moves in the currency to news from the talks. A signed deal in Gauteng, or any sign of strain in the GNU, is likely to show up in their market reports first."
+          ]
+        ],
+        "voices": {
+          "parakozov": "Reported the rand at a seven-month low as traders tracked the coalition talks.",
+          "cohen": "Wrote that the messy local election fallout had rattled investors."
+        }
       },
       {
         "id": "i-cities",
@@ -4380,7 +4461,31 @@
           "f5",
           "bb2",
           "b9"
-        ]
+        ],
+        "place": "South Africa’s metros",
+        "brief": [
+          "Bloomberg reported on 8 November that South Africa’s cities faced coalition rule as voters spurned the ANC",
+          "Reuters reported the ANC took a beating, setting up tough coalition talks",
+          "AP reported high-stakes coalition talks after the ANC’s worst results",
+          "The FT and the BBC reported the ANC fighting to keep control of key cities",
+          "Bloomberg later wrote that post-election bartering was counting for more than votes"
+        ],
+        "sec": [
+          [
+            "The angle abroad",
+            "Foreign outlets explain coalition rule as something new for readers who know South Africa as a one-party story. Their pieces describe hung councils as a sign of a fragmenting vote rather than as a contest between named candidates."
+          ],
+          [
+            "The bargaining",
+            "By the third week, the framing had shifted from the ANC’s losses to the deal-making. Bloomberg’s S’thembile Cele wrote that bartering after the vote was mattering more than the vote itself."
+          ]
+        ],
+        "voices": {
+          "cele": "Reported that the cities faced coalition rule, and later that post-election bartering was trumping votes.",
+          "peyton": "Reported that voters’ rebuff of the ANC was speeding up the shift to coalition politics.",
+          "parakozov": "Co-wrote Reuters’ report that the ANC’s beating set up tough coalition talks.",
+          "magome": "Reported on the high-stakes coalition talks after the ANC’s worst results."
+        }
       },
       {
         "id": "i-anc",
@@ -4404,7 +4509,35 @@
           "f8",
           "f3",
           "r3"
-        ]
+        ],
+        "place": "The ANC",
+        "brief": [
+          "The New York Times’ John Eligon wrote that South Africa’s politics may never be the same again",
+          "The Economist’s leader welcomed South Africans giving up on the ANC",
+          "AP explained how Mandela’s ANC lost its way",
+          "The FT reported on townships turning against the party",
+          "Reuters reported the ANC saying Ramaphosa is not under pressure to resign"
+        ],
+        "sec": [
+          [
+            "The angle abroad",
+            "Most foreign pieces open with Nelson Mandela. They treat the result as the end of an era for a liberation movement that readers abroad still associate with 1994, more than as a municipal election."
+          ],
+          [
+            "Where they disagree",
+            "The tone varies. The Economist welcomes the decline as good for South Africa, while AP and the FT look at what drove voters away, including anger in the townships."
+          ]
+        ],
+        "voices": {
+          "eligon": "Wrote that South Africa’s politics may never be the same again.",
+          "imray": "Explained how Mandela’s ANC lost its way and voters deserted it.",
+          "pilling": "Wrote about South Africa’s “incredible shrinking ANC”.",
+          "marsi": "Explained what the “catastrophic” results mean for the ANC.",
+          "habershon": "Reported the ANC’s worst-ever result as a “devastating message”.",
+          "timse": "Reported that Mandela’s party is bleeding support.",
+          "holmes": "Wrote that the 2026 local elections were highly competitive.",
+          "cele": "Wrote that a once-revered liberation icon has lost its lustre."
+        }
       }
     ]
   }
