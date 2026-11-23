@@ -3900,7 +3900,8 @@
         "o": "AP",
         "role": "Reporter, Associated Press",
         "beat": "reporting",
-        "score": 21.0
+        "score": 21.0,
+        "img": "assets/journalists/gerald-imray.jpg"
       },
       "eligon": {
         "n": "John Eligon",
