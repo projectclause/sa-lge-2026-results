@@ -1732,13 +1732,130 @@
       "s": "Beaumont told EWN the council would most likely be adjourned to Wednesday or so to elect a mayor, with the swearing-in of 270 councillors likely to take all day and evening. EWN reported that the coalition agreement is likely to be signed on Tuesday.",
       "src": "EWN",
       "url": "https://www.ewn.co.za/2026/11/23/city-of-joburg-to-hold-firsts-council-meeting-after-local-polls"
+    },
+    {
+      "id": "c-hlb",
+      "j": "clement",
+      "d": "2026-11-23",
+      "kind": "Interview",
+      "place": "Gauteng metros",
+      "h": "DA’s Hill-Lewis and ActionSA’s Beaumont offer sharply differing takes on coalition politics",
+      "s": "On 702, Manyathela interviewed Geordin Hill-Lewis and Michael Beaumont about their rival plans for Johannesburg, Tshwane and Ekurhuleni. Hill-Lewis defended the DA’s offer for the ANC to lead about 93 hung councils; Beaumont called the DA’s Gauteng offer “a smash and grab”.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/2026/11/23/das-hill-lewis-and-actionsas-beaumont-offer-sharply-differing-takes-on-coalition-politics"
+    },
+    {
+      "id": "g-simple",
+      "j": "geordin",
+      "d": "2026-11-23",
+      "kind": "Interview",
+      "place": "National",
+      "h": "Hill-Lewis: “The power of the deal is in its simplicity”",
+      "s": "Hill-Lewis told 702 that under the DA’s proposal the ANC would lead about 93 municipalities, the DA about 24 and the IFP roughly 20. He said the Gauteng metros were the biggest obstacle, that he had spoken to Ramaphosa the night before, and that the ANC might still reject the deal.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/2026/11/23/das-hill-lewis-and-actionsas-beaumont-offer-sharply-differing-takes-on-coalition-politics"
+    },
+    {
+      "id": "m-smash",
+      "j": "michael",
+      "d": "2026-11-23",
+      "kind": "Interview",
+      "place": "Gauteng metros",
+      "h": "Beaumont: the DA’s Gauteng offer is “a smash and grab”",
+      "s": "Beaumont told 702 the DA did not meet ActionSA at any point until Thursday last week, and that its offer was confidence-and-supply rather than power-sharing. He said talks with the ANC and others had made substantial progress, and called the DA’s approach “GNU 2.0”.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/2026/11/23/das-hill-lewis-and-actionsas-beaumont-offer-sharply-differing-takes-on-coalition-politics"
+    },
+    {
+      "id": "m-prseat",
+      "j": "michael",
+      "d": "2026-11-23",
+      "kind": "Statement",
+      "place": "Gauteng metros",
+      "h": "ActionSA considering giving some PR councillor seats to ANC in hung Gauteng metros",
+      "s": "Beaumont told EWN ActionSA would be amenable to one ANC person per municipality coming into council through an ActionSA PR seat, using a dual-membership provision in ActionSA’s constitution. The ANC won no PR seats in the three metros.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/2026/11/23/actionsa-considering-giving-some-pr-councillor-seats-to-anc-in-hung-gauteng-metros"
+    },
+    {
+      "id": "h-prseat",
+      "j": "herman",
+      "d": "2026-11-23",
+      "kind": "Statement",
+      "place": "Johannesburg",
+      "h": "ANC rejects Mashaba’s PR seat horse-trading offer",
+      "s": "Mashaba told The Citizen the Johannesburg council meeting would go ahead as planned and that the DA was wasting its time. He said the partners would regroup during the week to make a final announcement. The Citizen reports he had offered the ANC PR seats in exchange for an extra mayoral committee post.",
+      "src": "The Citizen",
+      "url": "https://www.citizen.co.za/news/anc-rejects-mashabas-pr-seat-horse-trading-agreement/"
+    },
+    {
+      "id": "w-tsh",
+      "j": "wayne",
+      "d": "2026-11-23",
+      "kind": "Analysis",
+      "place": "Tshwane",
+      "h": "Tshwane coalition talks intensify ahead of Thursday council sitting",
+      "s": "Sussman told Rekord the ANC appeared committed to a four-party arrangement in Tshwane with ActionSA, the EFF and MK, and that ActionSA was unlikely to give up its push to keep Nasiphi Moya as mayor. “ActionSA is on the cusp of big things as a political party,” he said.",
+      "src": "Rekord",
+      "url": "https://www.citizen.co.za/rekord/news-headlines/2026/11/23/tshwane-coalition-talks-intensify-ahead-of-thursday-council-sitting/"
     }
   ],
   "edition": {
     "date": "2026-11-23",
-    "time": "11:58"
+    "time": "13:45"
   },
   "events": [
+    {
+      "id": "pr-seats",
+      "cat": "Gauteng",
+      "place": "Johannesburg, Tshwane and Ekurhuleni",
+      "h": "The ANC turns down ActionSA’s offer of council seats",
+      "dek": "The ANC won no PR seats in Gauteng’s three metros, which could keep some of its regional leaders out of council. ActionSA offered to bring ANC members in through its own lists. A senior Gauteng ANC source told The Citizen the answer is no.",
+      "brief": [
+        "The ANC won no PR seats in Johannesburg, Tshwane or Ekurhuleni",
+        "Regional leaders like Loyiso Masuku could be left out of council for five years",
+        "ActionSA offered some of its PR seats, using dual membership",
+        "The Citizen reports Mashaba wanted an extra mayoral committee post in return",
+        "An unnamed senior ANC source says the Gauteng task team rejected the offer",
+        "The SACP says its seats are not open to any party"
+      ],
+      "sec": [
+        [
+          "Why the ANC has no PR seats",
+          "The ANC won more wards than any other party in the three metros, so its ward seats already exceeded its share of the vote and it was given no PR seats. EWN reports that its regional leaders who stood as PR candidates, including Johannesburg chair Loyiso Masuku, Tshwane chair Eugene Modise and Ekurhuleni leader Doctor Xhakaza, could miss out."
+        ],
+        [
+          "The offer",
+          "Michael Beaumont told EWN that ActionSA would be amenable to one ANC person per municipality coming through an ActionSA PR seat, using a dual-membership provision in its constitution."
+        ],
+        [
+          "Reported: the ANC says no",
+          "A senior Gauteng ANC source told The Citizen the provincial task team rejected the offer, saying an ANC member who takes it up must choose between the ANC and ActionSA. The SACP said its seats are not open to any party, and that lists already gazetted cannot be changed."
+        ]
+      ],
+      "items": [
+        "m-prseat",
+        "h-prseat"
+      ],
+      "voices": {
+        "michael": "Said ActionSA would be amenable to ANC members coming into council through ActionSA PR seats.",
+        "herman": "Said the Johannesburg council meeting would go ahead and the partners would make a final announcement this week."
+      },
+      "coverage": [
+        {
+          "src": "The Citizen",
+          "h": "ANC rejects Mashaba’s PR seat horse-trading offer",
+          "d": "2026-11-23",
+          "url": "https://www.citizen.co.za/news/anc-rejects-mashabas-pr-seat-horse-trading-agreement/"
+        },
+        {
+          "src": "EWN",
+          "h": "ActionSA considering giving some PR councillor seats to ANC in hung Gauteng metros",
+          "d": "2026-11-23",
+          "url": "https://www.ewn.co.za/2026/11/23/actionsa-considering-giving-some-pr-councillor-seats-to-anc-in-hung-gauteng-metros"
+        }
+      ]
+    },
     {
       "id": "johannesburg",
       "cat": "Johannesburg",
@@ -1992,6 +2109,25 @@
           "h": "Coalition drama: ANC ‘ready for opposition’, ActionSA wants Zille out",
           "d": "2026-11-08",
           "url": "https://www.news24.com/politics/coalition-drama-anc-ready-for-opposition-actionsa-wants-zille-out-20261107-1142"
+        },
+        {
+          "src": "Ahram Online",
+          "h": "Johannesburg mayoral vote in doubt as four parties line up behind Mashaba",
+          "d": "2026-11-23",
+          "url": "https://english.ahram.org.eg/NewsContentP/68/583177/African-Media-Digest/Johannesburg-mayoral-vote-in-doubt-as-four-parties.aspx",
+          "intl": true
+        },
+        {
+          "src": "eNCA",
+          "h": "136 seats stand between ANC-led coalition and power in Joburg",
+          "d": "2026-11-23",
+          "url": "https://www.enca.com/news-top-stories-videos/136-seats-stand-between-anc-led-coalition-and-power-joburg"
+        },
+        {
+          "src": "IOL",
+          "h": "DA threatens legal action over Johannesburg council’s inaugural meeting",
+          "d": "2026-11-23",
+          "url": "https://iol.co.za/lge2026/2026-11-23-da-threatens-legal-action-over-johannesburg-councils-inaugural-meeting/"
         }
       ]
     },
@@ -1999,22 +2135,28 @@
       "id": "da-offer",
       "cat": "National",
       "place": "Gauteng metros and 137 hung councils",
-      "h": "The DA’s last offers: one rejected by ActionSA, one still unanswered by the ANC",
-      "dek": "With Gauteng slipping away, the DA put a final offer to ActionSA and a nationwide one to the ANC and IFP. ActionSA turned its offer down the same day.",
+      "h": "The DA offers the ANC 93 mayoralties; ActionSA rejects its Gauteng deal",
+      "dek": "The DA’s nationwide framework would have the ANC lead 93 hung councils, the DA 24 and the IFP 20. A separate Gauteng offer, which ActionSA rejected, would have let ActionSA run Tshwane while the DA led Johannesburg and Ekurhuleni.",
       "brief": [
-        "The DA offered to share the Gauteng metros with ActionSA",
-        "ActionSA called the offer unworkable",
-        "The DA offered the ANC and IFP a deal across 137 hung councils",
-        "The largest party in each council would lead it"
+        "The DA proposes the ANC lead 93 of 137 hung councils, the DA 24 and the IFP 20",
+        "The DA would take Johannesburg, Tshwane, Ekurhuleni, eThekwini and Nelson Mandela Bay",
+        "No mayoralties go to MK or the PA",
+        "The DA says the ANC has not yet replied",
+        "ActionSA rejected a separate DA offer for the Gauteng metros",
+        "On 702, Beaumont called that offer “a smash and grab”"
       ],
       "sec": [
         [
-          "Gauteng: an offer ActionSA would not take",
-          "Michael Beaumont said the DA’s offer for the Gauteng metros was unworkable because ActionSA’s votes would elect two mayors in governments it would not be part of, and that ActionSA would not support a Helen Zille mayoralty."
+          "The numbers",
+          "Daily Maverick reports that the DA’s “stability framework”, sent to ANC secretary-general Fikile Mbalula on 20 November and signed by Ashor Sarupen, gives the ANC 93 mayoralties, the DA 24 and the IFP 20, subject to the IFP agreeing. The largest party among the partners in each council would lead it. Nineteen councils where the ANC and SACP already have a majority would be left out."
         ],
         [
-          "Nationwide: the biggest party leads",
-          "Geordin Hill-Lewis put a deal to the ANC and IFP for 137 hung municipalities, with the party that won the most votes in each council leading it. He said it would fix local government across the country, and that residents cannot afford another five years of instability."
+          "Gauteng: an offer ActionSA would not take",
+          "Under the DA’s separate Gauteng offer, Nasiphi Moya would stay mayor of Tshwane while the DA led Johannesburg and Ekurhuleni, as a confidence-and-supply arrangement. ActionSA said it would have had to back DA governments in two metros without seats on their mayoral committees, and would not support a Helen Zille mayoralty."
+        ],
+        [
+          "On 702",
+          "Geordin Hill-Lewis told Clement Manyathela that “the power of the deal is in its simplicity”, that the Gauteng metros are the biggest obstacle, and that he had spoken to Ramaphosa the night before. Michael Beaumont said the DA had not met ActionSA until last Thursday and called its offer “a smash and grab”."
         ]
       ],
       "items": [
@@ -2026,13 +2168,16 @@
         "g-final",
         "sa-prop",
         "mu-dm",
-        "g-ext"
+        "g-ext",
+        "c-hlb",
+        "g-simple",
+        "m-smash"
       ],
       "voices": {
-        "geordin": "Promised to publish every DA coalition agreement, made a final offer to ActionSA for the Gauteng metros, and wants the largest party to lead each hung council.",
-        "michael": "Called the DA’s Gauteng offer unworkable and ruled out supporting a Zille mayoralty.",
+        "geordin": "Proposed that the ANC lead 93 hung councils, the DA 24 and the IFP 20, and told 702 the deal’s power is its simplicity.",
+        "michael": "Rejected the DA’s Gauteng offer and told 702 it was “a smash and grab”, not a negotiation.",
         "penuel": "Warned that the DA won’t win the coalition games if it is arrogant and condescending.",
-        "clement": "Discussed with listeners the DA opening talks with the EFF and MK.",
+        "clement": "Interviewed Hill-Lewis and Beaumont back to back on 702 about their rival plans.",
         "ashor": "Signed the DA’s letter to Mbalula proposing that the DA, ANC and IFP co-govern the hung councils.",
         "corne": "Tried to broker a DA-ActionSA deal in Gauteng, without success."
       },
@@ -2084,6 +2229,24 @@
           "h": "DA tables final coalition proposal to ActionSA for Gauteng metros",
           "d": "2026-11-21",
           "url": "https://www.sabcnews.com/sabcnews/da-tables-final-coalition-proposal-to-actionsa-for-gauteng-metros/"
+        },
+        {
+          "src": "Daily Maverick",
+          "h": "DA offers ANC 93 mayoralties in 137 councils, ActionSA rejects Gauteng proposal",
+          "d": "2026-11-23",
+          "url": "https://www.dailymaverick.co.za/article/2026-11-23-da-offers-anc-93-mayoralties-in-137-councils-actionsa-rejects-gauteng-proposal/"
+        },
+        {
+          "src": "Cape Times",
+          "h": "DA proposes ANC-led coalitions in 93 of 137 hung councils",
+          "d": "2026-11-23",
+          "url": "https://capetimes.co.za/news/2026-11-23-da-proposes-anc-led-coalitions-in-93-of-137-hung-councils/"
+        },
+        {
+          "src": "The Citizen",
+          "h": "DA offers ANC five-year stability framework for 137 municipalities",
+          "d": "2026-11-23",
+          "url": "https://www.citizen.co.za/news/da-offers-anc-five-year-stability-framework-for-137-municipalities/"
         }
       ]
     },
@@ -2149,7 +2312,9 @@
         "Ramaphosa: hung councils are not a failure of democracy",
         "He urged parties to negotiate in good faith and avoid delays",
         "Insiders say he told the ANC to explore a Joburg deal without the DA",
-        "The ANC denies he stated a preference"
+        "The ANC denies he stated a preference",
+        "The ANC’s national executive committee holds a special meeting today on its negotiators’ report",
+        "The NEC has barred top officials from signing local deals without its approval, The Citizen reports"
       ],
       "sec": [
         [
@@ -2179,6 +2344,24 @@
           "h": "Ramaphosa ‘is going nowhere’: damaged ANC begins hard bargaining",
           "d": "2026-11-13",
           "url": "https://www.businessday.co.za/politics/2026-11-13-the-ancs-nec-meeting-focused-on-coalition-strategies-after-a-historic-electoral-loss-with-no-calls-for-ramaphosas-oup/"
+        },
+        {
+          "src": "The Citizen",
+          "h": "ANC coalition plans face critical test at special NEC meeting",
+          "d": "2026-11-23",
+          "url": "https://www.citizen.co.za/news/south-africa/elections/anc-coalition-plans-face-critical-test-at-special-nec-meeting/"
+        },
+        {
+          "src": "Business Day",
+          "h": "Ramaphosa faces tough ANC unity test in coalition talks",
+          "d": "2026-11-23",
+          "url": "https://www.businessday.co.za/politics/2026-11-23-ramaphosa-faces-anc-unity-test-in-coalition-talks/"
+        },
+        {
+          "src": "Sowetan",
+          "h": "Ramaphosa faces ANC split over coalition choices",
+          "d": "2026-11-23",
+          "url": "https://www.sowetan.co.za/news/2026-11-23-ramaphosa-faces-anc-split-over-coalition-choices/"
         }
       ]
     },
@@ -2527,7 +2710,9 @@
       "brief": [
         "Mashaba: any deal must keep Moya as mayor",
         "Basson expected Moya could return in Tshwane",
-        "Beaumont: ActionSA is set to lead Tshwane again"
+        "Beaumont: ActionSA is set to lead Tshwane again",
+        "The new council sits for the first time on Thursday",
+        "Sussman says the ANC appears committed to a four-party deal with ActionSA, the EFF and MK"
       ],
       "sec": [
         [
@@ -2546,7 +2731,8 @@
         "h-mg",
         "m-national",
         "my-enca",
-        "cb-nd"
+        "cb-nd",
+        "w-tsh"
       ],
       "voices": {
         "clement": "In his interview, Mashaba made keeping Moya as mayor a condition of any deal.",
@@ -2554,7 +2740,8 @@
         "michael": "Says ActionSA is set to lead Tshwane again.",
         "herman": "Made keeping Nasiphi Moya as Tshwane mayor a condition of any deal, and named the DA’s Cilliers Brink as a reason talks stalled.",
         "moya": "Calls the results a vote of confidence in her leadership of Tshwane.",
-        "brink": "ActionSA demanded that he step aside as the DA’s Tshwane candidate; he had not said whether he would."
+        "brink": "ActionSA demanded that he step aside as the DA’s Tshwane candidate; he had not said whether he would.",
+        "wayne": "Said the ANC appeared committed to a four-party deal in Tshwane, and that ActionSA was “on the cusp of big things”."
       },
       "coverage": [
         {
@@ -2580,6 +2767,12 @@
           "h": "ActionSA open to coalition talks to secure Moya as Tshwane mayor",
           "d": "2026-11-06",
           "url": "https://www.jacarandafm.com/news/news/actionsa-open-coalition-talks--moya-tshwane/"
+        },
+        {
+          "src": "Rekord",
+          "h": "Tshwane coalition talks intensify ahead of Thursday council sitting",
+          "d": "2026-11-23",
+          "url": "https://www.citizen.co.za/rekord/news-headlines/2026/11/23/tshwane-coalition-talks-intensify-ahead-of-thursday-council-sitting/"
         }
       ]
     },
@@ -2820,7 +3013,8 @@
     "Al Jazeera",
     "CNBC Africa",
     "The Africa Report",
-    "African Business"
+    "African Business",
+    "Ahram Online"
   ],
   "orgs": [
     {
