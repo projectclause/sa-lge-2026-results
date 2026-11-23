@@ -272,7 +272,10 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
     const upd = (t) => P(t).map((p) => p.d).sort().pop();
     const n = (k) => X.pieces.filter((p) => p.j.includes(k)).length;
     const last = (k) => X.pieces.filter((p) => p.j.includes(k)).map((p) => p.d).sort().pop() || "";
-    const rank = (ks) => ks.slice().sort((a, b) => (V[b].score || 0) - (V[a].score || 0) || n(b) - n(a) || last(b).localeCompare(last(a)));
+    const rank = (ks) => { const r = ks.slice().sort((a, b) => (V[b].score || 0) - (V[a].score || 0) || n(b) - n(a) || last(b).localeCompare(last(a)));
+      // editor’s swap: a voice can take another voice’s place in the order ("swap": "<key>")
+      r.slice().forEach((k) => { const w = V[k].swap, i = r.indexOf(k), j = r.indexOf(w); if (w && j >= 0 && i > j) { r[j] = k; r[i] = w; } });
+      return r; };
     const iFaces = (ks, cls, max = 99) => `<span class="${cls}">${ks.slice(0, max).map((k) => V[k].img ? `<img src="${V[k].img}" alt="${esc(V[k].n)}" title="${esc(V[k].n)}">` : `<i class="pl-avs" title="${esc(V[k].n)}">${esc(initials(V[k].n))}</i>`).join("")}${ks.length > max ? `<i class="pl-more-n">+${ks.length - max}</i>` : ""}</span>`;
     const outLine = (list) => { const o = outs(list); return `${o.length} outlet${o.length > 1 ? "s" : ""}, including ${esc(and(o.slice(0, 3)))}`; };
     const by = (p) => p.j.length ? and(p.j.map((k) => V[k].n)) : p.by || p.src;

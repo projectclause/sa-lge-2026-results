@@ -3915,7 +3915,8 @@
         "beat": "reporting",
         "score": 21.0,
         "img": "assets/journalists/john-eligon.jpg",
-        "wide": true
+        "wide": true,
+        "swap": "imray"
       },
       "mkokeli": {
         "n": "Sam Mkokeli",
