@@ -1798,77 +1798,59 @@
       "s": "Sussman told Rekord the ANC appeared committed to a four-party arrangement in Tshwane with ActionSA, the EFF and MK, and that ActionSA was unlikely to give up its push to keep Nasiphi Moya as mayor. “ActionSA is on the cusp of big things as a political party,” he said.",
       "src": "Rekord",
       "url": "https://www.citizen.co.za/rekord/news-headlines/2026/11/23/tshwane-coalition-talks-intensify-ahead-of-thursday-council-sitting/"
+    },
+    {
+      "id": "z-never",
+      "j": "helen",
+      "d": "2026-11-23",
+      "kind": "Interview",
+      "place": "Johannesburg",
+      "h": "‘We will never give up on Joburg’: Zille on coalition negotiations",
+      "s": "Zille told eNCA the DA would not seek to delay the council through legal action, that it had made its final offer and would go into opposition if it was rejected. She said talks were not over until each party’s executive ratified its deals.",
+      "src": "eNCA",
+      "url": "https://www.enca.com/news-top-stories-videos/we-will-never-give-joburg-zille-coalition-negotiations"
+    },
+    {
+      "id": "bh-nec",
+      "j": "bhengu",
+      "d": "2026-11-23",
+      "kind": "Statement",
+      "place": "National",
+      "h": "ANC negotiators prepare to report to NEC as coalition talks gather pace",
+      "s": "Bhengu said the negotiating team would report to the special NEC meeting, guided by the coalition framework the ANC adopted in 2023, and that any coalition must deliver stable councils and reliable services.",
+      "src": "eNCA",
+      "url": "https://www.enca.com/news-top-stories/anc-negotiators-prepare-report-nec-coalition-talks-gather-pace"
+    },
+    {
+      "id": "m-masuku",
+      "j": "michael",
+      "d": "2026-11-23",
+      "kind": "Statement",
+      "place": "Johannesburg",
+      "h": "ANC rejects ActionSA offer to accommodate regional chair Loyiso Masuku as PR councillor",
+      "s": "Beaumont told the Mail & Guardian ActionSA had considered the proposal reasonable because the ANC had made significant concessions in the talks, and that it was for the ANC to decide whether to pursue it.",
+      "src": "Mail & Guardian",
+      "url": "https://mg.co.za/politics/2026-11-23-anc-rejects-actionsa-offer-to-accommodate-regional-chair-loyiso-masuku-as-pr-councillor/"
     }
   ],
   "edition": {
     "date": "2026-11-23",
-    "time": "13:45"
+    "time": "16:40"
   },
   "events": [
-    {
-      "id": "pr-seats",
-      "cat": "Gauteng",
-      "place": "Johannesburg, Tshwane and Ekurhuleni",
-      "h": "The ANC turns down ActionSA’s offer of council seats",
-      "dek": "The ANC won no PR seats in Gauteng’s three metros, which could keep some of its regional leaders out of council. ActionSA offered to bring ANC members in through its own lists. A senior Gauteng ANC source told The Citizen the answer is no.",
-      "brief": [
-        "The ANC won no PR seats in Johannesburg, Tshwane or Ekurhuleni",
-        "Regional leaders like Loyiso Masuku could be left out of council for five years",
-        "ActionSA offered some of its PR seats, using dual membership",
-        "The Citizen reports Mashaba wanted an extra mayoral committee post in return",
-        "An unnamed senior ANC source says the Gauteng task team rejected the offer",
-        "The SACP says its seats are not open to any party"
-      ],
-      "sec": [
-        [
-          "Why the ANC has no PR seats",
-          "The ANC won more wards than any other party in the three metros, so its ward seats already exceeded its share of the vote and it was given no PR seats. EWN reports that its regional leaders who stood as PR candidates, including Johannesburg chair Loyiso Masuku, Tshwane chair Eugene Modise and Ekurhuleni leader Doctor Xhakaza, could miss out."
-        ],
-        [
-          "The offer",
-          "Michael Beaumont told EWN that ActionSA would be amenable to one ANC person per municipality coming through an ActionSA PR seat, using a dual-membership provision in its constitution."
-        ],
-        [
-          "Reported: the ANC says no",
-          "A senior Gauteng ANC source told The Citizen the provincial task team rejected the offer, saying an ANC member who takes it up must choose between the ANC and ActionSA. The SACP said its seats are not open to any party, and that lists already gazetted cannot be changed."
-        ]
-      ],
-      "items": [
-        "m-prseat",
-        "h-prseat"
-      ],
-      "voices": {
-        "michael": "Said ActionSA would be amenable to ANC members coming into council through ActionSA PR seats.",
-        "herman": "Said the Johannesburg council meeting would go ahead and the partners would make a final announcement this week."
-      },
-      "coverage": [
-        {
-          "src": "The Citizen",
-          "h": "ANC rejects Mashaba’s PR seat horse-trading offer",
-          "d": "2026-11-23",
-          "url": "https://www.citizen.co.za/news/anc-rejects-mashabas-pr-seat-horse-trading-agreement/"
-        },
-        {
-          "src": "EWN",
-          "h": "ActionSA considering giving some PR councillor seats to ANC in hung Gauteng metros",
-          "d": "2026-11-23",
-          "url": "https://www.ewn.co.za/2026/11/23/actionsa-considering-giving-some-pr-councillor-seats-to-anc-in-hung-gauteng-metros"
-        }
-      ]
-    },
     {
       "id": "johannesburg",
       "cat": "Johannesburg",
       "place": "City of Johannesburg",
-      "h": "DA challenges Johannesburg’s first council sitting as the four-party deal takes shape",
-      "dek": "The DA asked the city to postpone Monday’s 1pm sitting and threatened legal action after the city manager refused, arguing the first meeting need not be held before 27 November. The ANC, ActionSA, EFF and MK deal that would make Herman Mashaba mayor is expected to be signed on Tuesday, and the mayoral vote is likely to wait.",
+      "h": "Mashaba and Zille sworn in as Joburg councillors, with the mayoral vote expected on Thursday",
+      "dek": "Johannesburg’s new council sat for the first time on Monday. The DA had asked for a delay, but Zille said it would not go to court and would move to the opposition if its final offer was rejected. The ANC, ActionSA, EFF and MK deal would make Herman Mashaba mayor.",
       "brief": [
-        "The DA asked for the sitting to be postponed and threatened legal action after city manager Floyd Brink said no",
-        "The DA argues the first meeting need not be held before 27 November",
-        "The council was due to sit at 1pm on Monday, 23 November, to swear in 270 councillors",
-        "A mayoral vote on Monday is unlikely: Beaumont expects an adjournment to Wednesday or so",
+        "Helen Zille and Herman Mashaba were sworn in as councillors on Monday, the Mail & Guardian reports",
+        "The council is expected to elect a speaker and mayor on Thursday",
+        "The DA had asked for the sitting to be postponed; Zille told eNCA it would not delay it through the courts",
+        "Zille: “We will never give up on Joburg”",
         "The ANC, ActionSA, EFF and MK together hold 137 of 270 seats, one more than a majority, The National reports",
-        "The deal would make Mashaba mayor, with MK expected to take the deputy mayor post; signing is expected on Tuesday"
+        "The deal would make Mashaba mayor, with MK expected to take the deputy mayor post"
       ],
       "sec": [
         [
@@ -1950,7 +1932,8 @@
         "g-ext",
         "m-95",
         "fh-pact",
-        "m-adjourn"
+        "m-adjourn",
+        "z-never"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
@@ -1959,7 +1942,7 @@
         "adriaan": "Reports that Zille has conceded, leaving the DA in opposition despite topping the vote.",
         "herman": "Would not work with Zille or Brink, says the DA tried to buy his support, and is set to be Joburg mayor in a deal with the ANC.",
         "geordin": "Refused to drop Zille, made the DA’s final offer, and calls ActionSA’s demand over her extortion.",
-        "helen": "Before the vote, said coalitions mean choosing the least bad option. After it, expects the DA to be shut out and the new coalition to be unstable, and disputes Steinberg’s account of her.",
+        "helen": "Said the DA would not go to court to delay the council, had made its final offer and would fight for Joburg from the opposition if needed.",
         "cyril": "Insiders told the Sunday Times he asked the ANC to explore a Johannesburg deal without the DA; the ANC denies he stated a preference.",
         "penuel": "Backed ActionSA in Johannesburg, distrusts its voters who want a DA deal, warns the DA it won’t win by being arrogant, and wants coalition talks filmed live.",
         "mbalula": "Led the ANC team that, News24 reports, drew MK into a grand coalition with ActionSA.",
@@ -2128,6 +2111,88 @@
           "h": "DA threatens legal action over Johannesburg council’s inaugural meeting",
           "d": "2026-11-23",
           "url": "https://iol.co.za/lge2026/2026-11-23-da-threatens-legal-action-over-johannesburg-councils-inaugural-meeting/"
+        },
+        {
+          "src": "Mail & Guardian",
+          "h": "ANC rejects ActionSA offer to accommodate regional chair Loyiso Masuku as PR councillor",
+          "d": "2026-11-23",
+          "url": "https://mg.co.za/politics/2026-11-23-anc-rejects-actionsa-offer-to-accommodate-regional-chair-loyiso-masuku-as-pr-councillor/"
+        },
+        {
+          "src": "eNCA",
+          "h": "‘We will never give up on Joburg’: Zille on coalition negotiations",
+          "d": "2026-11-23",
+          "url": "https://www.enca.com/news-top-stories-videos/we-will-never-give-joburg-zille-coalition-negotiations"
+        },
+        {
+          "src": "News24",
+          "h": "LIVE | ActionSA’s Herman Mashaba sworn in as City of Joburg councillor",
+          "d": "2026-11-23",
+          "url": "https://www.news24.com/politics/live-city-of-joburg-holds-first-council-meeting-after-local-government-elections-20261123-0640"
+        }
+      ]
+    },
+    {
+      "id": "pr-seats",
+      "cat": "Gauteng",
+      "place": "Johannesburg, Tshwane and Ekurhuleni",
+      "h": "The ANC turns down ActionSA’s offer of council seats",
+      "dek": "The ANC won no PR seats in Gauteng’s three metros, which could keep some of its regional leaders out of council. ActionSA offered to bring ANC members in through its own lists. A senior Gauteng ANC source told The Citizen the answer is no.",
+      "brief": [
+        "The ANC won no PR seats in Johannesburg, Tshwane or Ekurhuleni",
+        "Regional leaders like Loyiso Masuku could be left out of council for five years",
+        "ActionSA offered some of its PR seats, using dual membership",
+        "The Citizen reports Mashaba wanted an extra mayoral committee post in return",
+        "An unnamed senior ANC source says the Gauteng task team rejected the offer",
+        "The SACP says its seats are not open to any party",
+        "ANC regional secretary Sasabona Manganye confirmed the party turned the offer down, the Mail & Guardian reports",
+        "Unnamed ANC sources told the M&G that bringing Masuku in on the SACP’s ticket is being discussed"
+      ],
+      "sec": [
+        [
+          "Why the ANC has no PR seats",
+          "The ANC won more wards than any other party in the three metros, so its ward seats already exceeded its share of the vote and it was given no PR seats. EWN reports that its regional leaders who stood as PR candidates, including Johannesburg chair Loyiso Masuku, Tshwane chair Eugene Modise and Ekurhuleni leader Doctor Xhakaza, could miss out."
+        ],
+        [
+          "The offer",
+          "Michael Beaumont told EWN that ActionSA would be amenable to one ANC person per municipality coming through an ActionSA PR seat, using a dual-membership provision in its constitution."
+        ],
+        [
+          "Reported: the ANC says no",
+          "A senior Gauteng ANC source told The Citizen the provincial task team rejected the offer, saying an ANC member who takes it up must choose between the ANC and ActionSA. The SACP said its seats are not open to any party, and that lists already gazetted cannot be changed."
+        ],
+        [
+          "Why ActionSA offered",
+          "Michael Beaumont told the Mail & Guardian ActionSA was willing to accommodate Masuku because the ANC had made significant concessions in the negotiations. “It is for them to say whether they pursue it or not,” he said."
+        ]
+      ],
+      "items": [
+        "m-prseat",
+        "h-prseat",
+        "m-masuku"
+      ],
+      "voices": {
+        "michael": "Said ActionSA offered a PR seat because the ANC had made significant concessions, and left it to the ANC to decide.",
+        "herman": "Said the Johannesburg council meeting would go ahead and the partners would make a final announcement this week."
+      },
+      "coverage": [
+        {
+          "src": "The Citizen",
+          "h": "ANC rejects Mashaba’s PR seat horse-trading offer",
+          "d": "2026-11-23",
+          "url": "https://www.citizen.co.za/news/anc-rejects-mashabas-pr-seat-horse-trading-agreement/"
+        },
+        {
+          "src": "EWN",
+          "h": "ActionSA considering giving some PR councillor seats to ANC in hung Gauteng metros",
+          "d": "2026-11-23",
+          "url": "https://www.ewn.co.za/2026/11/23/actionsa-considering-giving-some-pr-councillor-seats-to-anc-in-hung-gauteng-metros"
+        },
+        {
+          "src": "Mail & Guardian",
+          "h": "ANC rejects ActionSA offer to accommodate regional chair Loyiso Masuku as PR councillor",
+          "d": "2026-11-23",
+          "url": "https://mg.co.za/politics/2026-11-23-anc-rejects-actionsa-offer-to-accommodate-regional-chair-loyiso-masuku-as-pr-councillor/"
         }
       ]
     },
@@ -2261,7 +2326,8 @@
         "An EFF, SACP and ActionSA bloc failed to take Polokwane",
         "Malema proposed the ANC lead 30 of Limpopo’s 39 hung councils and the EFF nine",
         "The IFP expects to seal its KwaZulu-Natal deals this weekend",
-        "Emfuleni’s new council has convened to form a coalition government"
+        "Emfuleni’s first sitting collapsed when ANC, EFF, MK and SACP councillors overturned tables and walked out, News24 reports",
+        "The DA says its coalition holds 47 seats in Emfuleni and called the disruption “political thuggery”"
       ],
       "sec": [
         [
@@ -2299,6 +2365,12 @@
           "h": "ANC’s bid to push through Polokwane council sitting collapses in coalition chaos",
           "d": "2026-11-18",
           "url": "https://www.news24.com/politics/ancs-bid-to-push-through-polokwane-council-sitting-collapses-in-coalition-chaos-20261118-0926"
+        },
+        {
+          "src": "News24",
+          "h": "Chaos as ANC, EFF, MKP councillors disrupt Emfuleni mayoral election sitting",
+          "d": "2026-11-23",
+          "url": "https://www.news24.com/politics/anc-eff-and-mkp-councillors-disrupt-emfuleni-mayoral-election-sitting-20261123-0731"
         }
       ]
     },
@@ -2314,7 +2386,10 @@
         "Insiders say he told the ANC to explore a Joburg deal without the DA",
         "The ANC denies he stated a preference",
         "The ANC’s national executive committee holds a special meeting today on its negotiators’ report",
-        "The NEC has barred top officials from signing local deals without its approval, The Citizen reports"
+        "The NEC has barred top officials from signing local deals without its approval, The Citizen reports",
+        "The NEC meeting is under way at the Birchwood Hotel in Boksburg, spokesperson Mahlengi Bhengu said",
+        "Bhengu says the negotiators’ report follows the coalition framework the ANC adopted in 2023",
+        "An earlier special NEC resolved that the DA should be the ANC’s last option, the Mail & Guardian reports"
       ],
       "sec": [
         [
@@ -2331,11 +2406,12 @@
         "r-letter",
         "r-st",
         "mbh-deny",
-        "lt-st"
+        "lt-st",
+        "bh-nec"
       ],
       "voices": {
         "cyril": "In public, asks every party to negotiate in good faith and form councils quickly. A report from unnamed insiders says he wants the DA kept out of Johannesburg; the ANC denies it.",
-        "bhengu": "Dismissed reports that Ramaphosa stated a preference on Johannesburg.",
+        "bhengu": "Said the NEC would weigh its negotiators’ report under the ANC’s 2023 coalition framework, and that any deal must deliver stable councils.",
         "tandwa": "Broke the story, citing unnamed insiders, that Ramaphosa wants the DA kept out of Joburg."
       },
       "coverage": [
@@ -2362,6 +2438,36 @@
           "h": "Ramaphosa faces ANC split over coalition choices",
           "d": "2026-11-23",
           "url": "https://www.sowetan.co.za/news/2026-11-23-ramaphosa-faces-anc-split-over-coalition-choices/"
+        },
+        {
+          "src": "News24",
+          "h": "ANC meets to deliberate on coalitions as threat to GNU hovers over gathering",
+          "d": "2026-11-23",
+          "url": "https://www.news24.com/politics/anc-meets-to-deliberate-on-coalitions-as-threat-to-gnu-hovers-over-gathering-20261123-0812"
+        },
+        {
+          "src": "eNCA",
+          "h": "ANC negotiators prepare to report to NEC as coalition talks gather pace",
+          "d": "2026-11-23",
+          "url": "https://www.enca.com/news-top-stories/anc-negotiators-prepare-report-nec-coalition-talks-gather-pace"
+        },
+        {
+          "src": "SABC News",
+          "h": "ANC, MKP, ActionSA, EFF and IFP agree to cooperate in all councils were parties represented",
+          "d": "2026-11-23",
+          "url": "https://www.sabcnews.com/sabcnews/anc-mkp-actionsa-eff-and-ifp-agree-to-cooperate-in-all-councils-were-parties-represented/"
+        },
+        {
+          "src": "Business Day",
+          "h": "ANC NEC mulls competing KZN coalition proposals with eye on Durban",
+          "d": "2026-11-23",
+          "url": "https://www.businessday.co.za/politics/2026-11-23-anc-nec-mulls-competing-kzn-coalition-proposals-with-eye-on-durban/"
+        },
+        {
+          "src": "The Witness",
+          "h": "ANC NEC to make final call on coalition partners",
+          "d": "2026-11-23",
+          "url": "https://witness.co.za/news/kzn/2026/11/23/anc-nec-to-make-final-call-on-coalition-partners/"
         }
       ]
     },
