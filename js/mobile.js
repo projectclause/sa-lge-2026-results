@@ -3,6 +3,10 @@
   "use strict";
   const mq = window.matchMedia("(max-width: 720px)");
 
+  // every page: the page menu scrolls sideways on phones; keep the current page’s tab in view
+  const tabs = document.querySelector(".page-tabs"), on = tabs && tabs.querySelector("[aria-current]");
+  if (on && tabs.scrollWidth > tabs.clientWidth) tabs.scrollLeft = on.offsetLeft - tabs.offsetLeft - (tabs.clientWidth - on.offsetWidth) / 2;
+
   const nat = document.querySelector(".rs-nat");
 
   // Home: on phones the map card leads the page, above National results. The "Final results" block (party totals
