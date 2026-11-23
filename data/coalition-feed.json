@@ -1705,24 +1705,36 @@
       "s": "On the EFF’s podcast, Malema proposed that of Limpopo’s 39 hung councils, the ANC lead 30 and the EFF nine. Sunday World reports the ANC instead chose the DA as its main partner in the province.",
       "src": "Sunday World",
       "url": "https://sundayworld.co.za/politics/how-eff-sacp-and-actionsa-lost-limpopo-coalition-deal/"
+    },
+    {
+      "id": "fh-pact",
+      "j": "ferial",
+      "d": "2026-11-23",
+      "kind": "Reported",
+      "place": "Gauteng metros",
+      "h": "Mashaba set for Joburg mayoralty as ANC, ActionSA, MK and EFF seal metro pact",
+      "s": "Haffajee reported that the ANC, ActionSA, MK and EFF will form the core of the governments in Johannesburg, Tshwane and Ekurhuleni, with Mashaba likely to be inaugurated as Johannesburg mayor this week. The ANC wants to keep the finance portfolio, and the deal still had to be confirmed by a special meeting of the ANC’s national executive committee on Monday.",
+      "src": "Daily Maverick",
+      "url": "https://www.dailymaverick.co.za/article/2026-11-23-mashaba-set-for-joburg-mayoralty-as-anc-actionsa-mk-and-eff-seal-metro-pact/"
     }
   ],
   "edition": {
-    "date": "2026-11-22",
-    "time": "22:00"
+    "date": "2026-11-23",
+    "time": "07:45"
   },
   "events": [
     {
       "id": "johannesburg",
       "cat": "Johannesburg",
       "place": "City of Johannesburg",
-      "h": "Zille concedes Johannesburg as ActionSA turns to the ANC",
-      "dek": "The DA won the most votes in Johannesburg but is heading for the opposition benches. ActionSA’s senate decides on Sunday evening, 22 November, on a deal with the ANC, EFF and MK that would make Herman Mashaba mayor.",
+      "h": "Mashaba set for Johannesburg mayoralty as a four-party pact takes shape",
+      "dek": "Daily Maverick reports that the ANC, ActionSA, MK and EFF will form the core of the governments in Johannesburg, Tshwane and Ekurhuleni, with Herman Mashaba likely to be inaugurated as Johannesburg mayor this week. The DA won the most votes in the city but is heading for the opposition benches.",
       "brief": [
+        "Daily Maverick: the ANC, ActionSA, MK and EFF are to govern Johannesburg, Tshwane and Ekurhuleni",
+        "Mashaba is likely to be inaugurated as Johannesburg mayor this week",
+        "The pact still had to be confirmed by a special ANC national executive committee meeting on Monday, 23 November",
+        "The ANC wants to keep the finance portfolio",
         "The DA topped the Joburg vote, but Zille has conceded",
-        "ActionSA refused to work with a DA team that included Zille",
-        "Beaumont says a deal with the ANC, EFF and MK is 90 to 95% agreed, with Mashaba as mayor",
-        "ActionSA’s senate decides on Sunday evening, 22 November",
         "Hill-Lewis calls ActionSA’s demand over Zille extortion"
       ],
       "sec": [
@@ -1749,6 +1761,10 @@
         [
           "Decision day",
           "On 21 November, Beaumont told SABC News that ActionSA was 90 to 95% of the way to a deal with the ANC, EFF and MK that would make Mashaba mayor of Johannesburg and keep Nasiphi Moya in Tshwane, though nothing was signed and ActionSA’s senate would decide on Sunday evening. The same day Hill-Lewis made the DA’s final offer and called ActionSA’s demand that Zille be dropped extortion, while Mashaba told IOL the DA had tried to buy his support, which the DA declined to answer."
+        ],
+        [
+          "Monday, 23 November",
+          "On Sunday, Inside Politics reported that Mashaba had made himself available for mayor ahead of a council sitting on Monday, while a source said no formal agreement had yet been reached. On Monday morning, Ferial Haffajee reported in Daily Maverick that the ANC, ActionSA, MK and EFF would form the core of the governments in Johannesburg, Tshwane and Ekurhuleni, and that Mashaba was likely to be inaugurated this week. She reported that the ANC wants to keep the finance portfolio and that the arrangement still had to be confirmed by a special meeting of the ANC’s national executive committee on Monday."
         ]
       ],
       "items": [
@@ -1799,7 +1815,8 @@
         "pm-calls",
         "pm-vutha",
         "g-ext",
-        "m-95"
+        "m-95",
+        "fh-pact"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
@@ -1814,7 +1831,7 @@
         "mbalula": "Led the ANC team that, News24 reports, drew MK into a grand coalition with ActionSA.",
         "ashor": "Says the DA has not been shut out and that talks with all parties are continuing.",
         "corne": "Warned against a DA-ANC deal in Joburg, then tried and failed to broker a DA-ActionSA coalition.",
-        "ferial": "Argues Joburg’s voters deserve more than another deal for political survival while the city’s grid buckles.",
+        "ferial": "Argued earlier that Joburg’s voters deserve more than another deal for political survival while the city’s grid buckles. On 23 November she reported that a four-party pact of the ANC, ActionSA, MK and EFF is set to put Mashaba in the mayor’s office, pending the ANC’s national executive committee.",
         "wayne": "Worked through the numbers for three possible Joburg coalitions.",
         "masuku": "Was among the ANC’s preferred Joburg names who, News24 reports, did not win council seats.",
         "morero": "Before the vote, said the ANC’s coalition framework puts service delivery first, and fielded questions on being Joburg’s last ANC mayor.",
@@ -1830,6 +1847,18 @@
         "mashele": "Argues an ActionSA–DA coalition is the only viable way forward, and says both parties asked him to help bring them together."
       },
       "coverage": [
+        {
+          "src": "IOL",
+          "h": "Who will wear the mayoral chain? Joburg set to elect new mayor as DA faces coalition wipeout",
+          "d": "2026-11-23",
+          "url": "https://iol.co.za/lge2026/2026-11-23-who-will-wear-the-mayoral-chaim-joburg-set-to-elect-new-mayor-as-da-faces-coalition-wipeout/"
+        },
+        {
+          "src": "Inside Politics",
+          "h": "Mashaba throws hat into ring for Joburg mayoral position ahead of Monday council sitting",
+          "d": "2026-11-22",
+          "url": "https://insidepolitic.co.za/mashaba-throws-hat-into-ring-for-joburg-mayoral-position-ahead-of-monday-council-sitting/"
+        },
         {
           "src": "BusinessTech",
           "h": "D-Day for Johannesburg, Tshwane and Ekurhuleni as ActionSA meets to decide their fate",
