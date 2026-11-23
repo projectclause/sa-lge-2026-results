@@ -77,8 +77,8 @@
     // ---- the pool of cards ----
     const POOL = [
       { key: "m-CPT", html: mayor("CPT", "Geordin Hill-Lewis", "assets/faces/hill-lewis.png", "DA", (f) => `DA · ${f.ss[0][1]} of ${f.N} seats`) },
-      { key: "m-JHB", html: mayor("JHB", "Herman Mashaba", "assets/faces/mashaba.png", "ASA", () => "ActionSA · with ANC and MK support", "Expected to be elected Mayor of Johannesburg") },
-      { key: "m-TSH", html: mayor("TSH", "Nasiphi Moya", "assets/faces/circ/nasiphi-moya.png", "ASA", (f) => `ActionSA · ${(f.ss.find((x) => x[0] === "ASA") || [0, 0])[1]} of ${f.N} seats`, "Expected to be elected Mayor of Tshwane") },
+      { key: "m-JHB", html: mayor("JHB", "Herman Mashaba", "assets/faces/mashaba.png", "ASA", () => "ActionSA · ANC, EFF and MK deal", "Vote postponed · tipped to be mayor") },
+      { key: "m-TSH", html: mayor("TSH", "Nasiphi Moya", "assets/faces/circ/nasiphi-moya.png", "ASA", (f) => `ActionSA · ${(f.ss.find((x) => x[0] === "ASA") || [0, 0])[1]} of ${f.N} seats`, "Tipped to stay mayor · council sits Thursday") },
       { key: "w-nat", html: winner({ kind: "nat", title: "South Africa" }) }
     ].concat(PROVS.map(([c, n]) => ({ key: "w-" + c, html: winner({ kind: "prov", code: c, title: n }) })))
      .concat(Object.keys(MNAME).map((c) => ({ key: "w-" + c, html: winner({ kind: "metro", code: c, title: MNAME[c] }) })));
