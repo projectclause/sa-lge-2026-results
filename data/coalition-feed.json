@@ -396,6 +396,22 @@
       "img": "assets/journalists/itumeleng-mafisa.jpg",
       "group": "voice",
       "org": "The Citizen"
+    },
+    "phakathi": {
+      "n": "Mxolisi Phakathi",
+      "o": "MK Party",
+      "role": "MK mayoral candidate, eThekwini",
+      "img": "assets/journalists/mxolisi-phakathi.jpg",
+      "group": "player",
+      "org": "MK"
+    },
+    "baloyi": {
+      "n": "Bongani Baloyi",
+      "o": "MK Party",
+      "role": "MK, first on its Johannesburg list",
+      "img": "assets/journalists/bongani-baloyi.jpg",
+      "group": "player",
+      "org": "MK"
     }
   },
   "items": [
@@ -1935,6 +1951,39 @@
       "s": "Mafisa reported that, according to a senior Gauteng ANC source, the provincial task team rejected Mashaba’s offer, saying an ANC member who takes it up must choose between the ANC and ActionSA. The SACP said its seats are not available.",
       "src": "The Citizen",
       "url": "https://www.citizen.co.za/news/anc-rejects-mashabas-pr-seat-horse-trading-agreement/"
+    },
+    {
+      "id": "px-ready",
+      "j": "phakathi",
+      "d": "2026-11-04",
+      "kind": "Statement",
+      "place": "eThekwini",
+      "h": "Phakathi says MK party is ready to take over eThekwini",
+      "s": "Voting in uMhlanga, Phakathi told The Citizen MK aimed to win eThekwini outright and fix the city’s water problems within 100 days. Any coalition talks, he said, would be decided by the party nationally.",
+      "src": "The Citizen",
+      "url": "https://www.citizen.co.za/news/south-africa/elections/phakathi-says-mk-party-is-ready-to-take-over-ethekwini-denies-plotting-against-axed-sg/"
+    },
+    {
+      "id": "px-tip",
+      "j": "phakathi",
+      "d": "2026-11-23",
+      "kind": "Reported",
+      "place": "eThekwini",
+      "h": "MK Party tipped for eThekwini mayor as coalition talks near conclusion",
+      "s": "A source told IOL’s Daily News that at Tuesday’s first council meeting MK is set to take the mayoralty, ActionSA the deputy mayor post and the ANC the speaker, pending final talks. ActionSA’s Zwakele Mncwango said talks were at a sensitive stage.",
+      "src": "IOL",
+      "url": "https://iol.co.za/dailynews/city-watch/2026-11-23-mk-party-tipped-for-ethekwini-mayor-as-coalition-talks-near-conclusion/"
+    },
+    {
+      "id": "bb-dep",
+      "j": "baloyi",
+      "d": "2026-11-22",
+      "kind": "Reported",
+      "place": "Johannesburg",
+      "h": "ActionSA open to Bongani Baloyi as Mashaba’s deputy mayor in Joburg power deal",
+      "s": "Sunday World reported that MK’s Baloyi, a former DA mayor of Midvaal who left ActionSA in 2023, is in the running to be Mashaba’s deputy in Johannesburg, and that ActionSA is open to it, according to people familiar with the talks. It depends on what the ANC and EFF demand.",
+      "src": "Sunday World",
+      "url": "https://sundayworld.co.za/politics/actionsa-open-to-bongani-baloyi-as-deputy-mayor-in-johannesburg-power-deal/"
     }
   ],
   "edition": {
@@ -1954,7 +2003,7 @@
         "The DA had asked for the sitting to be postponed; Zille told eNCA it would not delay it through the courts",
         "Zille: “We will never give up on Joburg”",
         "The ANC, ActionSA, EFF and MK together hold 137 of 270 seats, one more than a majority, The National reports",
-        "The deal would make Mashaba mayor, with MK expected to take the deputy mayor post"
+        "The deal would make Mashaba mayor; Sunday World reports MK’s Bongani Baloyi is in the running to be his deputy"
       ],
       "sec": [
         [
@@ -2038,7 +2087,8 @@
         "fh-pact",
         "m-adjourn",
         "z-never",
-        "im-zille"
+        "im-zille",
+        "bb-dep"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
@@ -2067,7 +2117,8 @@
         "brink": "Faced, with Zille, ActionSA’s demand that he step aside, and had not said whether he would.",
         "macg": "Led his podcast on the DA topping the Joburg vote.",
         "mashele": "Argues an ActionSA–DA coalition is the only viable way forward, and says both parties asked him to help bring them together.",
-        "mafisa": "Reported Mashaba’s condition that Zille and Brink step aside as mayoral candidates."
+        "mafisa": "Reported Mashaba’s condition that Zille and Brink step aside as mayoral candidates.",
+        "baloyi": "Tipped, in reports, as Mashaba’s deputy mayor."
       },
       "coverage": [
         {
@@ -2673,7 +2724,9 @@
         "Deals must rest on shared policy and be done within 100 days",
         "Mpofu called MK’s first meeting with the DA historic",
         "But MK will focus on like-minded parties",
-        "Talks with the ANC, EFF and ActionSA continue"
+        "Talks with the ANC, EFF and ActionSA continue",
+        "eThekwini’s new council meets on Tuesday; a source says MK will take the mayoralty, ActionSA the deputy mayor post and the ANC the speaker",
+        "MK’s Bongani Baloyi is tipped as Mashaba’s deputy mayor in Johannesburg, Sunday World reports"
       ],
       "sec": [
         [
@@ -2708,7 +2761,10 @@
         "dz-mg",
         "dz-dm",
         "mbh-sabc",
-        "mb-kzn"
+        "mb-kzn",
+        "px-ready",
+        "px-tip",
+        "bb-dep"
       ],
       "voices": {
         "dali": "Says MK’s vote shows voters want cooperation, warns the ANC about its partners, and met the DA for the first time while saying MK wants like-minded partners.",
@@ -2718,7 +2774,9 @@
         "mandy": "Noted an ANC, ActionSA, EFF and MK coalition emerging for eThekwini and the Gauteng metros.",
         "duduzane": "Says MK will not rescue parties voters rejected, and wants no coalitions just for the sake of it.",
         "bhengu": "Denied any rift in the ANC over the KwaZulu-Natal talks.",
-        "mbalula": "Sources tell News24 he is pushing the MK deal on KwaZulu-Natal, where provincial leaders lean towards the DA and IFP."
+        "mbalula": "Sources tell News24 he is pushing the MK deal on KwaZulu-Natal, where provincial leaders lean towards the DA and IFP.",
+        "phakathi": "MK’s eThekwini mayoral candidate: said MK was ready to govern Durban and fix its water problems within 100 days.",
+        "baloyi": "Tipped, in reports, as Mashaba’s deputy mayor in Johannesburg."
       },
       "coverage": [
         {
@@ -2804,6 +2862,18 @@
           "h": "MK Party rules out coalition with DA, targets ANC, IFP and EFF",
           "d": "2026-11-07",
           "url": "https://iol.co.za/mercury/news/2026-11-07-mk-party-rules-out-coalition-with-da-targets-anc-ifp-and-eff/"
+        },
+        {
+          "src": "IOL",
+          "h": "MK Party tipped for eThekwini mayor as coalition talks near conclusion",
+          "d": "2026-11-23",
+          "url": "https://iol.co.za/dailynews/city-watch/2026-11-23-mk-party-tipped-for-ethekwini-mayor-as-coalition-talks-near-conclusion/"
+        },
+        {
+          "src": "Sunday World",
+          "h": "ActionSA open to Bongani Baloyi as Mashaba’s deputy mayor in Joburg power deal",
+          "d": "2026-11-22",
+          "url": "https://sundayworld.co.za/politics/actionsa-open-to-bongani-baloyi-as-deputy-mayor-in-johannesburg-power-deal/"
         }
       ]
     },
