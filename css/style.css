@@ -1088,3 +1088,7 @@ body.has-ask { padding-bottom: 96px; }
   .my-ndl-city { margin: 0 0 4px; font-size: 20px; font-weight: 700; }
   .my-city .my-lean { display: none; }
 }
+
+/* phones: Metro councils card in the top strip */
+.tk-mcard .tk-tiles { gap: 4px; margin-top: 2px; }
+.tk-mcard .tk-tile { height: 28px; font-size: 12.5px; padding: 0 2px; }

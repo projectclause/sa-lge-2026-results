@@ -115,7 +115,9 @@ const put = (slot, card, animate) => {
 const pos = GROUPS.map(() => 0);
 // phones show only the first two columns; the second also takes the metro council cards
 const phone = window.matchMedia("(max-width: 720px)");
-const cardsFor = (g) => (phone.matches && g === 1 ? GROUPS[1].cards.concat(GROUPS[2].cards) : GROUPS[g].cards);
+// phones: the Metro councils tiles become a card that rotates in the first column (spans, since the slot is a button)
+const metroCard = { key: "metros", html: () => `<div class="tk-card tk-metros tk-mcard"><span class="tk-h">Metro councils</span><span class="tk-tiles">${metroTiles.replace(/<button type="button" class="tk-tile"/g, '<span class="tk-tile" role="link" tabindex="-1"').replace(/<\/button>/g, "</span>")}</span></div>` };
+const cardsFor = (g) => (phone.matches && g === 1 ? GROUPS[1].cards.concat(GROUPS[2].cards) : phone.matches && g === 0 ? GROUPS[0].cards.concat(metroCard) : GROUPS[g].cards);
 const step = (g, animate) => {
   const cards = cardsFor(g);
   for (let tries = 0; tries < cards.length; tries++) {
@@ -136,8 +138,9 @@ const tick = () => {
 setTimeout(tick, 3000 / (phone.matches ? 2 : GROUPS.length));
 
     // clicks: whatever card a slot is showing opens that place
-    slots.forEach((s) => s.onclick = () => {
-      const card = s.querySelector(".tk-card"); if (!card) return;
+    slots.forEach((s) => s.onclick = (e) => {
+      const tile = e.target.closest(".tk-mcard [data-c]"); if (tile) return go("council", tile.dataset.c);
+      const card = s.querySelector(".tk-card"); if (!card || card.classList.contains("tk-mcard")) return;
       const k = card.dataset.kind, c = card.dataset.code;
       if (k === "nat") go("national");
       else if (k === "metro") go("council", c);
