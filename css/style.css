@@ -1079,3 +1079,12 @@ body.has-ask { padding-bottom: 96px; }
   .pl-stmore::after { content: ""; width: 7px; height: 7px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: translateY(-2px) rotate(45deg); }
   .pl-stmore[aria-expanded="true"]::after { transform: translateY(2px) rotate(-135deg); }
 }
+
+/* Mayors on phones: the needle sits first, under the LIVE line; the copy in the city card is hidden */
+.my-ndl-slot { display: none; }
+@media (max-width: 720px) {
+  .my-ndl-slot:not(:empty) { display: block; margin: 12px 0 18px; }
+  .my-ndl-card { border: 1px solid #e3e7ee; padding: 16px; }
+  .my-ndl-city { margin: 0 0 4px; font-size: 20px; font-weight: 700; }
+  .my-city .my-lean { display: none; }
+}

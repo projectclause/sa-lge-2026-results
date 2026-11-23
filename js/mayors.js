@@ -67,6 +67,10 @@
   ]).then(([HIST, fc, CANDS, LEANS]) => {
     const M = {}; fc.features.forEach((f) => { M[f.properties.id] = f.properties; });
     const chips = document.querySelector(".my-chips"), box = document.querySelector(".my-city");
+    // phones: the needle comes first, right under the LIVE line (CSS shows it only on small screens)
+    const live = document.querySelector(".live"), slot = document.createElement("section");
+    slot.className = "my-ndl-slot"; slot.setAttribute("aria-label", "Where the council leans");
+    (live || chips).after(slot);
     const pick = () => { const h = location.hash.slice(1); return HIST.find((c) => c.slug === h) || HIST[0]; };
 
     function council(code) {
@@ -136,6 +140,7 @@ function render() {
           </li>`;
       }).join("");
       const parties = [...new Set(C.list.map((r) => r.p))];
+      slot.innerHTML = nd ? `<div class="my-ndl-card"><p class="my-ndl-city">${C.title}</p>${now}</div>` : "";
       box.innerHTML = `
         <header class="my-ch"><h2>${C.title}</h2><p>${C.prov} · ${C.list.length} mayors since the first democratic council</p></header>
 
