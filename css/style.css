@@ -958,3 +958,11 @@ body.has-ask { padding-bottom: 96px; }
   .rf-bar { height: 20px; }
   .rf-bar i { width: 2px; margin-left: -1px; }
 }
+
+/* phones: the share bar's legend shows the six largest parties only, in small type */
+@media (max-width: 720px) {
+  .rf-leg { font-size: 10.5px; gap: 3px 10px; margin-top: 6px; }
+  .rf-leg span { gap: 4px; }
+  .rf-leg i { width: 8px; height: 8px; }
+  .rf-leg > span:nth-child(n+7) { display: none; }
+}
