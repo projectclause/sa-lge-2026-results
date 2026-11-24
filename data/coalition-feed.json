@@ -663,6 +663,15 @@
       "group": "voice",
       "org": "BD",
       "beat": "analysis"
+    },
+    "grootes": {
+      "n": "Stephen Grootes",
+      "o": "Daily Maverick",
+      "img": "assets/journalists/stephen-grootes.jpg",
+      "role": "Writer, Daily Maverick",
+      "group": "voice",
+      "org": "DM",
+      "beat": "analysis"
     }
   },
   "items": [
@@ -2865,6 +2874,28 @@
       "s": "Bruce argued that Herman Mashaba’s best route to the Johannesburg mayoralty runs through ANC support, since Mashaba has said he won’t serve under a DA mayor.",
       "src": "Business Day",
       "url": "https://www.businessday.co.za/opinion/2026-11-19-peter-bruce-actionsa-eyes-joburg-mayoralty-with-anc-support/"
+    },
+    {
+      "id": "sg-crossroads",
+      "j": "grootes",
+      "d": "2026-11-11",
+      "kind": "Column",
+      "place": "National",
+      "h": "ActionSA at the crossroads — real governance or just another ego-driven party?",
+      "s": "Grootes argued that ActionSA’s future depends on whether it can outlast Herman Mashaba and become a party built on more than one person.",
+      "src": "Daily Maverick",
+      "url": "https://www.dailymaverick.co.za/article/2026-11-11-actionsa-at-the-crossroads-real-governance-or-just-another-ego-driven-party/"
+    },
+    {
+      "id": "sg-smoke",
+      "j": "grootes",
+      "d": "2026-11-18",
+      "kind": "Column",
+      "place": "Gauteng metros",
+      "h": "The smoke and mirrors of the coalition talks",
+      "s": "Grootes wrote that the ANC and ActionSA staged a publicised first meeting, and that the arrangement could help Mashaba ahead of the 2029 elections.",
+      "src": "Daily Maverick",
+      "url": "https://www.dailymaverick.co.za/article/2026-11-18-the-smoke-and-mirrors-of-the-coalition-talks/"
     }
   ],
   "edition": {
@@ -4005,7 +4036,9 @@
         "gm-mulder",
         "sm-four",
         "pbr-strings",
-        "pbr-rise"
+        "pbr-rise",
+        "sg-crossroads",
+        "sg-smoke"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
@@ -4026,7 +4059,8 @@
         "sizwe": "Asked whether the DA’s vote share entitles it to govern the metros, as talks reached crunch time.",
         "makin": "Interviewed Corné Mulder, who said ActionSA was wrong to negotiate with the ANC after voters rejected it.",
         "maseko": "Spoke to ActionSA and MK representatives after the two parties met to discuss coalitions in municipalities across the country.",
-        "bruce": "Called ActionSA’s position in Johannesburg and Tshwane the biggest coalition problem after the vote, and wrote that its rise complicates the Gauteng talks."
+        "bruce": "Called ActionSA’s position in Johannesburg and Tshwane the biggest coalition problem after the vote, and wrote that its rise complicates the Gauteng talks.",
+        "grootes": "Asks whether ActionSA can outlast Mashaba, and calls the ANC–ActionSA talks smoke and mirrors that could help Mashaba ahead of 2029."
       },
       "coverage": [
         {
