@@ -702,6 +702,26 @@
       "group": "voice",
       "org": "Frank Dialogue",
       "beat": "analysis"
+    },
+    "byron": {
+      "n": "Byron Shepherd",
+      "o": "MorningShot",
+      "img": "assets/journalists/byron-shepherd.jpg",
+      "role": "Host, MorningShot",
+      "group": "voice",
+      "org": "MorningShot",
+      "beat": "analysis",
+      "wide": true
+    },
+    "wyatt": {
+      "n": "Colonel Chris Wyatt",
+      "o": "YouTube",
+      "img": "assets/journalists/chris-wyatt.jpg",
+      "role": "Host, Colonel Chris Wyatt (YouTube)",
+      "group": "voice",
+      "org": "YouTube",
+      "beat": "analysis",
+      "wide": true
     }
   },
   "items": [
@@ -3036,6 +3056,226 @@
       "s": "Tabane hosted a Sunday World panel of political analysts, including Qaanitah Hunter and Brutus Malada, to debate the coalition negotiations taking place behind closed doors.",
       "src": "Sunday World Podcast",
       "url": "https://www.youtube.com/watch?v=tzHfOS5Vrq8"
+    },
+    {
+      "id": "bs-betray1",
+      "j": "byron",
+      "d": "2026-11-10",
+      "kind": "Video",
+      "place": "National",
+      "h": "Will Cyril resign now? Is ActionSA about to betray its voters?",
+      "s": "With 138 hung councils and 14 days to form governments, Shepherd went through the tense coalition talks after the ANC fell to 30%.",
+      "src": "MorningShot",
+      "url": "https://www.youtube.com/watch?v=G2Gy3A8zSlE"
+    },
+    {
+      "id": "bs-mbeki",
+      "j": "byron",
+      "d": "2026-11-10",
+      "kind": "Video",
+      "place": "National",
+      "h": "Thabo Mbeki is mad with the ANC; Malema to sue Helen Zille?",
+      "s": "Coalition talks were under way in 138 councils; Shepherd discussed how deals with ActionSA could secure the Gauteng metros and the ANC centralising talks under Fikile Mbalula.",
+      "src": "MorningShot",
+      "url": "https://www.youtube.com/watch?v=wAai-xHsJbY"
+    },
+    {
+      "id": "bs-where",
+      "j": "byron",
+      "d": "2026-11-11",
+      "kind": "Video",
+      "place": "Gauteng metros",
+      "h": "Who will govern where?",
+      "s": "Shepherd looked at ANC–DA cooperation facing resistance over BEE and transformation, and at alliances with ActionSA, the EFF and MK that could decide Gauteng’s metros.",
+      "src": "MorningShot",
+      "url": "https://www.youtube.com/watch?v=1btdj8-BHMw"
+    },
+    {
+      "id": "bs-betray2",
+      "j": "byron",
+      "d": "2026-11-15",
+      "kind": "Video",
+      "place": "Gauteng metros",
+      "h": "The great betrayal of ActionSA? DA coalition with the MK Party?",
+      "s": "With talks stalled, Shepherd covered ActionSA reporting progress with the ANC in Gauteng and Mashaba demanding the DA remove Helen Zille as its candidate.",
+      "src": "MorningShot",
+      "url": "https://www.youtube.com/watch?v=mFTUAJirOq4"
+    },
+    {
+      "id": "bs-whatnow",
+      "j": "byron",
+      "d": "2026-11-17",
+      "kind": "Video",
+      "place": "National",
+      "h": "What now for the coalitions?",
+      "s": "Talks remained unsettled: no confirmed Gauteng deal, ActionSA rejecting DA mayoral candidates and disputed ANC–MK talks in KwaZulu-Natal.",
+      "src": "MorningShot",
+      "url": "https://www.youtube.com/watch?v=raCxDEAmv5o"
+    },
+    {
+      "id": "bs-lying",
+      "j": "byron",
+      "d": "2026-11-18",
+      "kind": "Video",
+      "place": "Johannesburg",
+      "h": "Herman Mashaba caught lying?",
+      "s": "Shepherd contrasted Mashaba’s 2021 promise that ActionSA wouldn’t help the ANC take Joburg with the party’s talks with the ANC five years later.",
+      "src": "MorningShot",
+      "url": "https://www.youtube.com/watch?v=xA_V8y-MhBg"
+    },
+    {
+      "id": "bs-complete",
+      "j": "byron",
+      "d": "2026-11-18",
+      "kind": "Video",
+      "place": "Gauteng metros",
+      "h": "The great betrayal of ActionSA appears to be complete",
+      "s": "The ANC and ActionSA had a tentative deal on Tshwane and Ekurhuleni, with Johannesburg unresolved and EFF and MK support possibly needed.",
+      "src": "MorningShot",
+      "url": "https://www.youtube.com/watch?v=fqXZJ2JQgdM"
+    },
+    {
+      "id": "bs-quits",
+      "j": "byron",
+      "d": "2026-11-19",
+      "kind": "Video",
+      "place": "Gauteng metros",
+      "h": "Helen Zille quits; ActionSA sells its votes to the ANC?",
+      "s": "ActionSA and the DA had yet to meet formally, with ActionSA reportedly demanding the DA drop Helen Zille and Cilliers Brink.",
+      "src": "MorningShot",
+      "url": "https://www.youtube.com/watch?v=quZhNf7nKCc"
+    },
+    {
+      "id": "bs-chaos",
+      "j": "byron",
+      "d": "2026-11-23",
+      "kind": "Video",
+      "place": "Gauteng metros",
+      "h": "Coalition chaos everywhere",
+      "s": "DA–ActionSA talks had collapsed over Zille and power-sharing; an ActionSA–ANC deal could make Mashaba mayor and give the ANC Ekurhuleni, but needs EFF and MK support.",
+      "src": "MorningShot",
+      "url": "https://www.youtube.com/watch?v=zE34aWJa2Wc"
+    },
+    {
+      "id": "bs-purse",
+      "j": "byron",
+      "d": "2026-11-23",
+      "kind": "Video",
+      "place": "Johannesburg and Tshwane",
+      "h": "Herman gives the ANC the purse strings?",
+      "s": "Shepherd reported the ANC wants control of city finances in return for backing ActionSA mayors in Joburg and Tshwane, and that Mashaba defended the demand.",
+      "src": "MorningShot",
+      "url": "https://www.youtube.com/watch?v=N_NjceLa-fY"
+    },
+    {
+      "id": "cw-14days",
+      "j": "wyatt",
+      "d": "2026-11-09",
+      "kind": "Video",
+      "place": "National",
+      "h": "No Helen, you do not have to form a government in 14 days",
+      "s": "Wyatt explained the rules for forming coalitions after the election, arguing that media and politicians misread the 14-day timeline.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=RWmOJpEqUGo"
+    },
+    {
+      "id": "cw-daeffmk",
+      "j": "wyatt",
+      "d": "2026-11-11",
+      "kind": "Video",
+      "place": "National",
+      "h": "DA suddenly in coalition talks with EFF and MK",
+      "s": "Wyatt looked at the DA’s strategy after winning over 1.1 million new voters, against its earlier refusals to enter coalitions with the EFF and MK.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=wJFKCr4LmQ0"
+    },
+    {
+      "id": "cw-owls1",
+      "j": "wyatt",
+      "d": "2026-11-11",
+      "kind": "Video",
+      "place": "National",
+      "h": "DA in coalition talks with EFF and MK (Night Owls)",
+      "s": "A Night Owls episode on the DA’s talks with the EFF and MK.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=_p2qNSNY05g"
+    },
+    {
+      "id": "cw-nocoal",
+      "j": "wyatt",
+      "d": "2026-11-12",
+      "kind": "Video",
+      "place": "National",
+      "h": "No coalitions with EFF or MK (so said the DA)",
+      "s": "A Chris Wyatt Reports episode on the DA’s earlier pledge not to work with the EFF or MK.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=Tfd2rVhACjs"
+    },
+    {
+      "id": "cw-incomp",
+      "j": "wyatt",
+      "d": "2026-11-17",
+      "kind": "Video",
+      "place": "Gauteng metros",
+      "h": "ANC–ActionSA coalition of incompetence? (Night Owls)",
+      "s": "A Night Owls episode on a possible ANC–ActionSA coalition.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=DPRXU4l1h5M"
+    },
+    {
+      "id": "cw-mess",
+      "j": "wyatt",
+      "d": "2026-11-18",
+      "kind": "Video",
+      "place": "National",
+      "h": "South Africa’s coalition mess: 14 days later",
+      "s": "Fourteen days after the election, Wyatt examined the uncertainty as parties negotiated and councils prepared to sit.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=FuLaQTNkuGc"
+    },
+    {
+      "id": "cw-never",
+      "j": "wyatt",
+      "d": "2026-11-18",
+      "kind": "Video",
+      "place": "Johannesburg",
+      "h": "“ActionSA will never go into a coalition with ANC” — oops, they did",
+      "s": "Wyatt set Mashaba’s pledge that ActionSA would never enter a coalition with the ANC against the party’s current talks with it.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=Tg0SnrErXUU"
+    },
+    {
+      "id": "cw-zille",
+      "j": "wyatt",
+      "d": "2026-11-19",
+      "kind": "Video",
+      "place": "Johannesburg",
+      "h": "Helen Zille reportedly concedes defeat in Johannesburg mayor race",
+      "s": "Wyatt reacted to reports that Helen Zille had conceded the Johannesburg mayoral race.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=wfFKhvhI_98"
+    },
+    {
+      "id": "cw-progress",
+      "j": "wyatt",
+      "d": "2026-11-23",
+      "kind": "Video",
+      "place": "National",
+      "h": "Municipal coalition progress in South Africa",
+      "s": "A Chris Wyatt Reports update on progress in municipal coalition talks.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=s7D_MGd1aYA"
+    },
+    {
+      "id": "cw-chaos",
+      "j": "wyatt",
+      "d": "2026-11-23",
+      "kind": "Video",
+      "place": "Johannesburg",
+      "h": "Mashaba vs the reality: a coalition of chaos",
+      "s": "Wyatt went through calls for Mashaba to step down and tensions involving ActionSA and Julius Malema, reviewing a column by Adriaan Basson.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=VAmuXUWKLFY"
     }
   ],
   "edition": {
@@ -3167,7 +3407,11 @@
         "qm-far",
         "qm-speaker",
         "tm-offer",
-        "tm-deputy"
+        "tm-deputy",
+        "bs-chaos",
+        "bs-purse",
+        "cw-zille",
+        "cw-chaos"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
@@ -3207,7 +3451,9 @@
         "giokos": "Reported on the coalition negotiations and the latest developments in Gauteng’s three metros.",
         "bruce": "Argued Mashaba’s best route to the mayoralty runs through ANC support, since he has said he won’t serve under a DA mayor.",
         "masuabi": "Reported ActionSA saying it was still far from a deal on 19 November, then that the ANC’s Adolph Marema was tipped for council speaker as the parties neared one.",
-        "maeko": "Reported the ANC’s offer to make Mashaba mayor and bypass the DA, and that MK could take Joburg’s deputy mayor post."
+        "maeko": "Reported the ANC’s offer to make Mashaba mayor and bypass the DA, and that MK could take Joburg’s deputy mayor post.",
+        "byron": "Says an ActionSA–ANC deal could make Mashaba mayor, with the ANC wanting control of city finances in return.",
+        "wyatt": "Reacted to reports that Zille conceded the mayoral race, and calls the Mashaba arrangement a coalition of chaos."
       },
       "coverage": [
         {
@@ -3964,7 +4210,10 @@
         "td-kaya",
         "sm-waterfall",
         "sm-damk",
-        "tm-kzn"
+        "tm-kzn",
+        "cw-daeffmk",
+        "cw-owls1",
+        "cw-nocoal"
       ],
       "voices": {
         "dali": "Says MK’s vote shows voters want cooperation, warns the ANC about its partners, and met the DA for the first time while saying MK wants like-minded partners.",
@@ -3982,7 +4231,8 @@
         "berkowitz": "Before the vote, found MK first in all four eThekwini polls, with the opposition reaching a majority in only two scenarios.",
         "dooms": "Called the DA’s outreach to MK one of the surprises of the talks, and said MK had learnt to respect its voters’ wishes.",
         "maseko": "Reported from Waterfall in Johannesburg as the MK Party and the DA met for coalition talks and appeared to wrap them up.",
-        "maeko": "Reported the ANC NEC weighing competing KwaZulu-Natal proposals, one pairing the ANC, IFP, DA and a ratepayers’ association in eThekwini."
+        "maeko": "Reported the ANC NEC weighing competing KwaZulu-Natal proposals, one pairing the ANC, IFP, DA and a ratepayers’ association in eThekwini.",
+        "wyatt": "Questions the DA talking to MK and the EFF after pledging it would not work with either."
       },
       "coverage": [
         {
@@ -4189,7 +4439,13 @@
         "pbr-rise",
         "sg-crossroads",
         "sg-smoke",
-        "qm-far"
+        "qm-far",
+        "bs-betray2",
+        "bs-lying",
+        "bs-complete",
+        "bs-quits",
+        "cw-incomp",
+        "cw-never"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
@@ -4212,7 +4468,9 @@
         "maseko": "Spoke to ActionSA and MK representatives after the two parties met to discuss coalitions in municipalities across the country.",
         "bruce": "Called ActionSA’s position in Johannesburg and Tshwane the biggest coalition problem after the vote, and wrote that its rise complicates the Gauteng talks.",
         "grootes": "Asks whether ActionSA can outlast Mashaba, and calls the ANC–ActionSA talks smoke and mirrors that could help Mashaba ahead of 2029.",
-        "masuabi": "Reported Beaumont saying ActionSA was still far from a deal, with mayoral committee posts, council seats and city programmes unsettled."
+        "masuabi": "Reported Beaumont saying ActionSA was still far from a deal, with mayoral committee posts, council seats and city programmes unsettled.",
+        "byron": "Asks whether ActionSA has betrayed its voters, setting Mashaba’s 2021 promise not to help the ANC in Joburg against the party’s talks with it now.",
+        "wyatt": "Sets Mashaba’s pledge never to go into coalition with the ANC against ActionSA’s talks with it now."
       },
       "coverage": [
         {
