@@ -577,6 +577,7 @@
     "mrototo": {
       "n": "Thembekile Mrototo",
       "o": "SABC News",
+      "img": "assets/journalists/thembekile-mrototo.jpg",
       "role": "Anchor, SABC News",
       "group": "voice",
       "org": "SABC",
@@ -586,6 +587,7 @@
     "kotane": {
       "n": "Thabiso Kotane",
       "o": "SABC News",
+      "img": "assets/journalists/thabiso-kotane.jpg",
       "role": "Presenter, SABC News",
       "group": "voice",
       "org": "SABC",
@@ -595,6 +597,7 @@
     "nyathi": {
       "n": "Ayanda Nyathi",
       "o": "SABC News",
+      "img": "assets/journalists/ayanda-nyathi.jpg",
       "role": "Presenter, SABC News",
       "group": "voice",
       "org": "SABC",
