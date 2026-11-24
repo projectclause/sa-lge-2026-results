@@ -1,0 +1,22 @@
+{
+  "note": "Extra places tools/auto-update.rb looks every hour, besides a Google News search for every voice and key player. 'queries' are Google News searches (South Africa edition). 'youtube' maps a person's key in coalition-feed.json to their YouTube channel id (starts with UC), for voices whose channel is not found automatically.",
+  "queries": [
+    "coalition talks metro mayor South Africa",
+    "Johannesburg mayor council coalition",
+    "Tshwane mayor council coalition",
+    "Ekurhuleni mayor council coalition",
+    "eThekwini mayor council coalition",
+    "Nelson Mandela Bay mayor coalition",
+    "Buffalo City mayor coalition",
+    "Mangaung mayor coalition",
+    "Cape Town council mayor",
+    "ActionSA ANC coalition",
+    "DA ANC coalition offer",
+    "MK Party coalition",
+    "EFF coalition council",
+    "IFP coalition KwaZulu-Natal councils",
+    "hung council first sitting speaker",
+    "GNU coalition local government"
+  ],
+  "youtube": {}
+}

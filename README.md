@@ -9,7 +9,12 @@ The Preamble website for South Africa's 4 November 2026 local government electio
 Static site, no build step. Hosted on Netlify from this repository; every push to `main` goes live.
 
 ## Updating
-- Coalitions Tracker stories, people and coverage: `data/coalition-feed.json`
+- Coalitions Tracker stories, people and coverage: `data/coalition-feed.json` (by hand)
+- Every hour, `.github/workflows/auto-update.yml` runs `tools/auto-update.rb`, which adds newly found pieces, reports and
+  stories to `data/coalition-auto.json`, then rebuilds the static pages (`tools/build-seo.rb`). The site joins the two
+  files on load (`js/feed.js`) and an open Coalitions page refreshes itself in place. The job never edits
+  `coalition-feed.json`: to keep or correct something it added, copy it into the feed (same link or same story id) and
+  the hand-written version wins. Extra searches and YouTube channels: `data/auto-sources.json`.
 - Results data: `data/`
 - Sign-ups: `js/signup.js` (`SIGNUP_URL`) and `google-apps-script/signup.gs`
 

@@ -26,7 +26,7 @@
   const load = () => DATA ? Promise.resolve(DATA) : Promise.all([
     fetch("data/municipalities.geojson").then((r) => r.json()),
     fetch("data/mayors-history.json").then((r) => r.json()).catch(() => []),
-    fetch("data/coalition-feed.json").then((r) => r.json()).catch(() => null)
+    (window.PreambleFeed ? PreambleFeed.load() : fetch("data/coalition-feed.json").then((r) => r.json())).catch(() => null)
   ]).then(([fc, hist, CF]) => {
     const M = fc.features.map((f) => f.properties);
     const items = []
