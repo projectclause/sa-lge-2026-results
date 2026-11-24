@@ -49,9 +49,14 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
   const INF = TOP.replace("pl-topv", "pl-infv").replace("Most Influential Voice", "Influential");
   // small "i" beside a tag: opens a short note on how voices are ranked
   const INFO = '<span class="pl-i" role="button" tabindex="0" aria-label="How we rank voices" aria-haspopup="dialog">i</span>';
-  const nameTag = (p) => { const t = p.top ? TOP : p.inf ? INF : p.wide ? WIDE : ""; return `<b class="pl-nm">${esc(p.n)}${t ? `<span class="pl-tagw">${t}${INFO}</span>` : ""}</b>`; };
+  // green pill for journalists at the national public broadcaster; its "i" explains what the SABC is
+  const PB = '<span class="pl-wide pl-pb">Public Broadcaster</span>';
+  const INFO_PB = '<span class="pl-i" data-note="pb" role="button" tabindex="0" aria-label="About the public broadcaster" aria-haspopup="dialog">i</span>';
+  const nameTag = (p) => { const t = p.top ? TOP : p.inf ? INF : p.wide ? WIDE : ""; return `<b class="pl-nm">${esc(p.n)}${t ? `<span class="pl-tagw">${t}${INFO}</span>` : ""}${p.pb ? `<span class="pl-tagw">${PB}${INFO_PB}</span>` : ""}</b>`; };
   const HOW = `<div class="pl-how" role="dialog" aria-label="How we rank voices" hidden>
       <button type="button" class="pl-how-x" aria-label="Close">×</button>
+      <div class="pl-how-pb" hidden><p class="pl-how-h">Public Broadcaster</p><p>South African Broadcasting Corporation (<a href="https://www.sabc.co.za/sabc/about-us/" target="_blank" rel="noopener">SABC</a>) is South Africa's national public broadcaster.</p></div>
+      <div class="pl-how-c">
       <p class="pl-how-h">How we rank voices</p>
       <p>A score out of 100 from the last 30 days of coverage:</p>
       <ul><li><b>Pickup 40%</b> · other established outlets citing them</li>
@@ -60,6 +65,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
         <li><b>Momentum 10%</b> · pickup in the last 14 days</li></ul>
       <p><b>Most Influential Voice</b> is the top score; <b>Influential</b>, the next four. <b>Wide Reach</b> marks a large audience. International voices are ranked among themselves; wire reprints in other outlets count as pickup.</p>
       <p class="pl-how-n">Data: Google News, YouTube and X. Updated 23 Nov.</p>
+      </div>
     </div>`;
   (function howSetup() {
     document.body.insertAdjacentHTML("beforeend", HOW + '<div class="pl-how-bg" hidden></div>');
@@ -69,6 +75,8 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
     const open = (el) => {
       if (from === el) return close();
       from = el; el.setAttribute("aria-expanded", "true"); box.hidden = false;
+      const pb = el.dataset.note === "pb"; box.querySelector(".pl-how-pb").hidden = !pb; box.querySelector(".pl-how-c").hidden = pb;
+      box.setAttribute("aria-label", pb ? "About the public broadcaster" : "How we rank voices");
       const phone = matchMedia("(max-width: 720px)").matches; bg.hidden = !phone;
       box.classList.toggle("sheet", phone);
       if (!phone) {

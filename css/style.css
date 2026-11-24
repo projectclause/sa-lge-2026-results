@@ -1191,3 +1191,7 @@ body.has-ask { padding-bottom: 96px; }
 
 /* phones: tighter gap between the site menu and the South Africa / International tabs */
 @media (max-width: 720px) { .rs-wrap.pl-wrap { padding-top: 4px; } .pl-wrap .pl-scope { margin-top: 4px; } }
+
+/* green pill: journalists at the national public broadcaster (SABC) */
+.pl-nm .pl-pb, .pl-voice .pl-nm .pl-pb { background: #e3f4e8; border-color: #8fd0a4; color: #17683a; padding: 2px 9px; }
+.pl-how-pb a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }

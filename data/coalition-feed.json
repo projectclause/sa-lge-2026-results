@@ -563,6 +563,16 @@
       "group": "voice",
       "org": "TCS",
       "beat": "analysis"
+    },
+    "dickson": {
+      "n": "Oliver Dickson",
+      "o": "SABC News",
+      "img": "assets/journalists/oliver-dickson.jpg",
+      "role": "Anchor, SABC News; political analyst",
+      "group": "voice",
+      "org": "SABC",
+      "beat": "analysis",
+      "pb": true
     }
   },
   "items": [
@@ -4278,6 +4288,11 @@
       "k": "TCS",
       "n": "The Common Sense",
       "badge": "TCS"
+    },
+    {
+      "k": "SABC",
+      "n": "SABC",
+      "badge": "SABC"
     }
   ],
   "intl": {
