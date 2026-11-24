@@ -633,6 +633,16 @@
       "org": "SABC",
       "beat": "analysis",
       "pb": true
+    },
+    "maseko": {
+      "n": "Samkele Maseko",
+      "o": "SABC News",
+      "img": "assets/journalists/samkele-maseko.jpg",
+      "role": "Reporter, SABC News",
+      "group": "voice",
+      "org": "SABC",
+      "beat": "reporting",
+      "pb": true
     }
   },
   "items": [
@@ -2703,6 +2713,72 @@
       "s": "As the ANC decides who to govern with, Makin and Marius Roodt discussed why a deal with MK and the EFF may suit the party better than the alternatives.",
       "src": "The Common Sense",
       "url": "https://www.thecommonsense.co.za/videos/does-it-even-matter-who-the-anc-picks"
+    },
+    {
+      "id": "sm-nec",
+      "j": "maseko",
+      "d": "2026-11-11",
+      "kind": "Video",
+      "place": "National",
+      "h": "ANC NEC to provide direction on how to approach coalition talks",
+      "s": "Maseko previewed the ANC NEC meeting due the next day, which was to give direction on how the party approaches coalition talks.",
+      "src": "SABC News",
+      "url": "https://www.youtube.com/watch?v=Yz9Ldu_wviI"
+    },
+    {
+      "id": "sm-waterfall",
+      "j": "maseko",
+      "d": "2026-11-14",
+      "kind": "Video",
+      "place": "Johannesburg",
+      "h": "MK Party and DA meet for coalition talks",
+      "s": "Reporting from Waterfall, near Midrand, where the ANC was meeting to decide how it would approach coalition negotiations with other parties.",
+      "src": "SABC News",
+      "url": "https://www.youtube.com/watch?v=LExEgPiUkiA"
+    },
+    {
+      "id": "sm-damk",
+      "j": "maseko",
+      "d": "2026-11-14",
+      "kind": "Video",
+      "place": "Johannesburg",
+      "h": "DA and MK Party conclude coalition talks",
+      "s": "Maseko reported live as the MK Party and the DA appeared to wrap up their coalition meeting at Waterfall in Johannesburg.",
+      "src": "SABC News",
+      "url": "https://www.youtube.com/watch?v=f-iim2FUeQk"
+    },
+    {
+      "id": "sm-gauteng",
+      "j": "maseko",
+      "d": "2026-11-18",
+      "kind": "Video",
+      "place": "Gauteng",
+      "h": "Coalition deals continue in Gauteng",
+      "s": "The ANC, EFF, ActionSA and MK Party met that morning to finalise their talks on forming coalitions in Gauteng; Maseko updated from the meeting.",
+      "src": "SABC News",
+      "url": "https://www.youtube.com/watch?v=Xyf62_f8r-4"
+    },
+    {
+      "id": "sm-four",
+      "j": "maseko",
+      "d": "2026-11-18",
+      "kind": "Video",
+      "place": "National",
+      "h": "ANC, EFF, ActionSA and MKP meet to discuss working together",
+      "s": "Maseko spoke to ActionSA and MK Party representatives after the two parties met to discuss coalitions in municipalities across the country.",
+      "src": "SABC News",
+      "url": "https://www.youtube.com/watch?v=7Tk-MMChKVw"
+    },
+    {
+      "id": "sm-deadline",
+      "j": "maseko",
+      "d": "2026-11-19",
+      "kind": "Video",
+      "place": "National",
+      "h": "Deadline approaches for constitution of councils",
+      "s": "With the deadline for councils to sit approaching, Maseko unpacked the latest negotiations; the ANC, seen as kingmaker, was expected to announce outcomes on Friday.",
+      "src": "SABC News",
+      "url": "https://www.youtube.com/watch?v=tABbWAjBemU"
     }
   ],
   "edition": {
