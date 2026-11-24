@@ -88,7 +88,9 @@ NAMELINK = PEOPLE.to_h { |q| [q[:n], "people/#{q[:slug]}.html"] }
 
 head = File.read(File.join(ROOT, "coalitions.html"))
 css = head[/<link rel="stylesheet" href="css\/style\.css\?v=[^"]+">/].sub('href="', 'href="../')
-mast = head[/<header class="masthead">.*?<\/header>/m].gsub('href="', 'href="../').sub(' aria-current="page"', ' aria-current="page"')
+# the masthead is copied from coalitions.html (its nav ends with the News Tracker eye icon): links and images are one folder up
+mast = head[/<header class="masthead">.*?<\/header>/m].gsub('href="', 'href="../').gsub('src="assets/', 'src="../assets/').sub(' aria-current="page"', ' aria-current="page"')
+abort "build-seo: the masthead in coalitions.html has lost the News Tracker eye (a.tab-eye)" unless mast.include?('class="tab-eye" href="../news-tracker.html"')
 foot = head[/<footer class="footer">.*?<\/footer>/m]
 
 FileUtils.mkdir_p(File.join(ROOT, "coalitions"))
@@ -305,13 +307,14 @@ urls = [["#{SITE}/", today, "hourly", "1.0"], ["#{SITE}/coalitions.html", today,
 urls += STORIES.map { |s| ["#{SITE}/coalitions/#{s[:id]}.html", s[:upd], "daily", "0.7"] }
 urls << ["#{SITE}/people/", today, "daily", "0.7"]
 urls += PEOPLE.map { |q| ["#{SITE}/people/#{q[:slug]}.html", q[:upd], "daily", "0.6"] }
+urls << ["#{SITE}/news-tracker.html", today, "hourly", "0.7"]
 urls << ["#{SITE}/privacy.html", "2026-11-25", "yearly", "0.3"]
 File.write(File.join(ROOT, "sitemap.xml"), %(<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n#{urls.map { |u, d, f, p| "  <url><loc>#{u}</loc><lastmod>#{d}</lastmod><changefreq>#{f}</changefreq><priority>#{p}</priority></url>" }.join("\n")}\n</urlset>\n))
 
 # ---------- llms.txt ----------
 llms = +"# PREAMBLE\n\n> South Africa’s global and local data. Live results of the 4 November 2026 local government elections, a ward-by-ward map, the mayors of the eight metros, and a Coalitions Tracker that groups reporting on the coalition talks into stories with summaries and links to every original article. Updated #{day(ed["date"])}, #{ed["time"]} SAST.\n\n"
 llms << "Data: Independent Electoral Commission (IEC). Summaries are written by Preamble with AI from published reporting; the journalists and politicians quoted do not write for Preamble.\n\n"
-llms << "## Main pages\n\n- [2026 election results](#{SITE}/): national vote, ward map and who won each metro\n- [Coalitions Tracker](#{SITE}/coalitions.html): every story on the coalition talks, in South Africa and abroad\n- [Mayors](#{SITE}/mayors.html): who leads each metro, and who is tipped where talks continue\n- [Ward map](#{SITE}/map.html): results for every ward, searchable by address\n\n"
+llms << "## Main pages\n\n- [2026 election results](#{SITE}/): national vote, ward map and who won each metro\n- [Coalitions Tracker](#{SITE}/coalitions.html): every story on the coalition talks, in South Africa and abroad\n- [Mayors](#{SITE}/mayors.html): who leads each metro, and who is tipped where talks continue\n- [Ward map](#{SITE}/map.html): results for every ward, searchable by address\n- [News Tracker (beta)](#{SITE}/news-tracker.html): an animated map of how the coalition stories spread across outlets and voices, day by day\n\n"
 llms << "## Coalition stories (newest first)\n\n"
 STORIES.each { |s| llms << "- [#{s[:h]}](#{SITE}/coalitions/#{s[:id]}.html) (#{s[:scope]}, updated #{day(s[:upd])}): #{s[:dek]}\n" }
 llms << "\n## People (profiles: who they are, what they said, every piece tracked)\n\n"

@@ -1212,3 +1212,11 @@ body.has-ask { padding-bottom: 96px; }
 .pl-art .pl-as, .pl-prof li .pl-as { display: block; font-size: 13px; color: var(--muted2); margin-top: 3px; }
 .pl-plist { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
 @media (max-width: 720px) { .pl-profh img { width: 72px; height: 72px; } }
+
+/* News Tracker eye: the last item in the page tabs. On phones the tabs scroll sideways; sticky right:0 keeps the eye in view at the end */
+.page-tabs a.tab-eye{padding:2px 4px;display:inline-flex;align-items:center;justify-content:center;position:sticky;right:0;flex:none;background:#fff;box-shadow:-10px 0 10px -2px #fff;border-radius:0}
+.page-tabs a.tab-eye img{width:24px;height:24px;display:block;border-radius:50%;transition:transform .2s ease}
+.page-tabs a.tab-eye:hover,.page-tabs a.tab-eye[aria-current="page"]{background:#fff}
+.page-tabs a.tab-eye:hover img{transform:scale(1.15) rotate(-8deg)}
+.page-tabs a.tab-eye[aria-current="page"] img{box-shadow:0 0 0 2px var(--text)}
+@media (max-width:640px){.page-tabs a.tab-eye img{width:22px;height:22px}}

@@ -1,0 +1,653 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Preamble News Tracker (beta): how the coalition stories spread | PREAMBLE</title>
+  <meta name="description" content="An animated map of how South Africa’s 2026 coalition stories spread across news outlets and voices, day by day: play the timeline, see the surges and who is trending.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <link rel="canonical" href="https://preamble.co.za/news-tracker.html">
+  <meta property="og:site_name" content="PREAMBLE">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Preamble News Tracker (beta)">
+  <meta property="og:description" content="How South Africa’s coalition stories spread across outlets and voices, day by day.">
+  <meta property="og:url" content="https://preamble.co.za/news-tracker.html">
+  <meta property="og:image" content="https://preamble.co.za/assets/share.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://preamble.co.za/assets/share.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=20261124zg">
+  <style>
+    /* Everything for the tracker is prefixed pnt- so it never clashes with the site's .wrap, header or .nt styles */
+    .pnt-page {
+      --pnt-bg: #ffffff; --pnt-text: #121212; --pnt-muted: #6b6b70; --pnt-rule: #e6e6e6; --pnt-track: #e8e8ec;
+      --pnt-green: #12a150; --pnt-orange: #f0501e; --pnt-pink: #d61fbd; --pnt-blue: #3a7bd5; --pnt-mint: #1fcf8f; --pnt-gold: #f5b400;
+      --pnt-pill-bg: #e4e4e8; --pnt-pill-fg: #6b6b70;
+    }
+    @media (prefers-color-scheme: dark) { .pnt-page { --pnt-pill-bg: #2c2c31; --pnt-pill-fg: #a3a3aa; } }
+    .pnt-page .masthead { top: 0; } /* no results strip above the masthead on this page */
+    .pnt, .pnt button, .pnt input { font-family: "DM Sans", system-ui, sans-serif; }
+    .pnt { color: var(--pnt-text); overflow-x: clip; }
+    .pnt-in { max-width: 1400px; margin: 0 auto; padding: 0 max(16px, env(safe-area-inset-right, 0px)) 0 max(16px, env(safe-area-inset-left, 0px)); }
+
+    /* 1. title row */
+    .pnt-titlerow { display: flex; align-items: center; gap: 10px; padding-top: 18px; min-width: 0; }
+    .pnt-title { margin: 0; font-size: 20px; font-weight: 400; text-transform: uppercase; letter-spacing: .04em; white-space: nowrap; line-height: 1.2; }
+    .pnt-beta { flex: none; font-size: 10px; font-weight: 700; letter-spacing: .06em; line-height: 1; padding: 4px 6px; border-radius: 4px; background: var(--pnt-pill-bg); color: var(--pnt-pill-fg); }
+
+    /* 2. controls and counts */
+    .pnt-ctrl { display: flex; align-items: center; gap: 12px; margin-top: 12px; flex-wrap: nowrap; min-width: 0; }
+    .pnt-play { flex: none; display: inline-flex; align-items: center; gap: 7px; border: 0; border-radius: 999px; padding: 8px 16px 8px 13px; background: var(--pnt-green); color: #fff; font-size: 14px; font-weight: 700; cursor: pointer; }
+    .pnt-play:hover { background: #0e8a44; }
+    .pnt-play:focus-visible { outline: 2px solid var(--pnt-text); outline-offset: 2px; }
+    .pnt-play svg { width: 14px; height: 14px; display: block; }
+    .pnt-date { font-size: 16px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+    .pnt-date .pnt-ds { display: none; }
+    .pnt-counts { margin: 10px 0 10px; font-size: 13px; color: var(--pnt-muted); }
+
+    /* 3. full-width loading bar, scrubbable */
+    .pnt-bar { position: relative; height: 5px; background: var(--pnt-track); overflow-x: clip; overflow-y: visible; }
+    .pnt-fill { position: absolute; left: 0; top: 0; bottom: 0; width: 100%; background: var(--pnt-green); transition: width .6s linear; }
+    .pnt-dot { position: absolute; top: 50%; left: 100%; width: 12px; height: 12px; margin: -6px 0 0 -6px; border-radius: 50%; background: var(--pnt-green); opacity: 0; transition: left .6s linear, opacity .2s; pointer-events: none; }
+    .pnt-bar.pnt-playing .pnt-dot, .pnt-bar:hover .pnt-dot { opacity: 1; }
+    .pnt-bar.pnt-drag .pnt-fill, .pnt-bar.pnt-drag .pnt-dot { transition: none; }
+    .pnt-range { position: absolute; left: 0; right: 0; top: -8px; height: 21px; width: 100%; margin: 0; padding: 0; opacity: 0; cursor: pointer; -webkit-appearance: none; appearance: none; background: transparent; }
+
+    /* 4. greeting */
+    .pnt-greet { margin: 0; padding: 16px 0 14px; font-size: 20px; font-weight: 500; line-height: 1.3; border-bottom: 1px solid var(--pnt-rule); min-height: 1.3em; }
+    .pnt-caret { display: inline-block; width: 2px; height: 1.05em; margin-left: 2px; vertical-align: -.15em; background: currentColor; animation: pnt-blink .9s steps(1) infinite; transition: opacity .4s; }
+    .pnt-caret.pnt-gone { opacity: 0; animation: none; }
+    @keyframes pnt-blink { 50% { opacity: 0; } }
+
+    /* 5. the stage: map plus notification column */
+    .pnt-stage { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 16px; padding-top: 14px; padding-bottom: 32px; }
+    .pnt-map { position: relative; height: min(76vh, 760px); min-height: 520px; overflow: hidden; border-radius: 12px; background: #fbfbfc; border: 1px solid var(--pnt-rule); }
+    .pnt-svg { display: block; width: 100%; height: 100%; cursor: grab; }
+    .pnt-svg:active { cursor: grabbing; }
+    .pnt-scene { transition: opacity .45s ease; }
+    .pnt-scene.pnt-dim { opacity: .25; }
+    .pnt-link { stroke: #dcdce2; stroke-width: .8; }
+    .pnt-link.pnt-weak { stroke: #ececf0; stroke-width: .6; }
+    .pnt-node { cursor: pointer; stroke: #fff; stroke-width: 1; }
+    .pnt-focus .pnt-node:not(.pnt-on), .pnt-focus .pnt-link:not(.pnt-on) { opacity: .1; }
+    .pnt-focus .pnt-link.pnt-on { stroke: #b8b8c2; }
+    .pnt-ring { fill: none; stroke: var(--pnt-gold); pointer-events: none; }
+
+    .pnt-legend { position: absolute; left: 12px; top: 12px; display: flex; flex-wrap: wrap; gap: 6px; z-index: 3; max-width: calc(100% - 24px); }
+    .pnt-chip { display: inline-flex; align-items: center; gap: 6px; padding: 5px 10px; border: 1px solid var(--pnt-rule); border-radius: 999px; background: #fff; font-size: 12.5px; font-weight: 600; color: var(--pnt-text); cursor: pointer; white-space: nowrap; }
+    .pnt-chip i { width: 10px; height: 10px; border-radius: 50%; display: block; }
+    .pnt-chip[aria-pressed="false"] { color: #a3a3aa; }
+    .pnt-chip[aria-pressed="false"] i { background: #d6d6dc !important; }
+    .pnt-hint { position: absolute; right: 12px; top: 14px; margin: 0; font-size: 12px; color: var(--pnt-muted); z-index: 2; pointer-events: none; }
+
+    .pnt-tip { position: absolute; z-index: 6; max-width: 280px; padding: 8px 10px; border-radius: 8px; background: #fff; border: 1px solid var(--pnt-rule); box-shadow: 0 6px 20px rgba(0,0,0,.12); font-size: 12.5px; line-height: 1.35; pointer-events: none; }
+    .pnt-tip b { display: block; font-size: 13px; }
+    .pnt-tip span { display: block; color: var(--pnt-muted); }
+    .pnt-tip[hidden] { display: none; }
+
+    .pnt-panel { position: absolute; right: 12px; bottom: 12px; z-index: 5; width: min(420px, calc(100% - 24px)); padding: 12px 14px 12px; border-radius: 10px; background: #fff; border: 1px solid var(--pnt-rule); box-shadow: 0 8px 24px rgba(0,0,0,.12); }
+    .pnt-panel[hidden] { display: none; }
+    .pnt-panel h2 { margin: 0 24px 4px 0; font-size: 15px; line-height: 1.3; }
+    .pnt-panel p { margin: 0 0 6px; font-size: 13px; line-height: 1.4; color: #3a3a3f; }
+    .pnt-panel .pnt-pm { color: var(--pnt-muted); font-size: 12px; }
+    .pnt-panel a { font-size: 13px; font-weight: 600; }
+    .pnt-px { position: absolute; right: 6px; top: 4px; border: 0; background: none; font-size: 22px; line-height: 1; color: var(--pnt-muted); cursor: pointer; padding: 4px 6px; }
+
+    /* trending race */
+    .pnt-mapcol { position: relative; min-width: 0; }
+    /* desktop: the board floats over the bottom-left of the map; phones: it stacks below */
+    .pnt-trend { position: absolute; left: 13px; bottom: 13px; z-index: 4; width: 270px; padding: 10px 12px 8px; border-radius: 10px; background: rgba(255,255,255,.94); border: 1px solid var(--pnt-rule); }
+    .pnt-trend h3 { margin: 0 0 6px; font-size: 11px; font-weight: 700; letter-spacing: .08em; color: var(--pnt-muted); }
+    .pnt-rows { position: relative; height: 145px; }
+    .pnt-row { position: absolute; left: 0; right: 0; top: 0; height: 26px; display: grid; grid-template-columns: 14px 22px minmax(0, 1fr) 58px 26px; align-items: center; gap: 7px; transition: transform .6s ease, opacity .4s; font-size: 12.5px; }
+    .pnt-rk { color: var(--pnt-muted); font-weight: 700; font-size: 11.5px; text-align: right; }
+    .pnt-ph { width: 22px; height: 22px; border-radius: 50%; overflow: hidden; background: #e4e4e8; display: grid; place-items: center; font-size: 9px; font-weight: 700; color: #6b6b70; box-shadow: 0 0 0 0 transparent; transition: box-shadow .3s; }
+    .pnt-ph img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+    .pnt-nm { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; transition: color .3s; }
+    .pnt-bt { height: 6px; border-radius: 3px; background: #ececef; overflow: hidden; }
+    .pnt-bt i { display: block; height: 100%; background: #9a9aa2; border-radius: 3px; transition: width .6s ease; }
+    .pnt-ct { text-align: right; font-weight: 700; font-variant-numeric: tabular-nums; }
+    .pnt-row.pnt-up .pnt-nm { color: var(--pnt-orange); }
+    .pnt-row.pnt-up .pnt-ph { box-shadow: 0 0 0 2px var(--pnt-orange); }
+    .pnt-none { font-size: 12px; color: var(--pnt-muted); margin: 0; }
+
+    /* slot reel */
+    .pnt-reel { position: absolute; inset: 0; z-index: 7; display: flex; flex-direction: column; align-items: center; justify-content: center; pointer-events: none; opacity: 0; transition: opacity .3s; }
+    .pnt-reel.pnt-show { opacity: 1; }
+    .pnt-reel[hidden] { display: none; }
+    .pnt-num { display: flex; font-size: 64px; font-weight: 700; line-height: 1; color: var(--pnt-orange); font-variant-numeric: tabular-nums; letter-spacing: -.02em; }
+    .pnt-win { display: block; overflow: hidden; height: 1em; }
+    .pnt-strip { display: block; will-change: transform; }
+    .pnt-strip span { display: block; height: 1em; line-height: 1; text-align: center; }
+    .pnt-rl { margin-top: 8px; font-size: 14px; font-weight: 600; color: var(--pnt-text); }
+
+    /* surge */
+    .pnt-surge { position: absolute; top: 12px; left: 50%; z-index: 8; transform: translate(-50%, -8px); max-width: calc(100% - 24px); padding: 8px 16px; border-radius: 999px; background: var(--pnt-bg); border: 1px solid #d6d6dc; box-shadow: 0 6px 18px rgba(0,0,0,.12); color: #121212; font-size: 13.5px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; opacity: 0; transition: opacity .3s, transform .3s; pointer-events: none; }
+    .pnt-surge.pnt-show { opacity: 1; transform: translate(-50%, 0); }
+    .pnt-confetti { position: absolute; inset: 0; z-index: 7; overflow: hidden; pointer-events: none; }
+    .pnt-confetti i { position: absolute; top: -16px; display: block; }
+
+    /* notification column */
+    .pnt-feed { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+    .pnt-card { display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 10px; padding: 10px 12px; border: 1px solid var(--pnt-rule); border-radius: 10px; background: #fff; color: var(--pnt-text); text-decoration: none; box-shadow: 0 2px 8px rgba(0,0,0,.04); animation: pnt-drop .45s cubic-bezier(.2,.9,.3,1.2) both; }
+    .pnt-card:hover { border-color: #c9c9d0; }
+    .pnt-card.pnt-hot { border-color: var(--pnt-gold); box-shadow: 0 0 0 1px var(--pnt-gold); }
+    @keyframes pnt-drop { from { opacity: 0; transform: translateY(-14px) scale(.98); } to { opacity: 1; transform: none; } }
+    .pnt-ini { width: 36px; height: 36px; border-radius: 7px; display: grid; place-items: center; color: #fff; font-size: 12px; font-weight: 700; letter-spacing: .02em; }
+    .pnt-c-c .pnt-ini { background: var(--pnt-pink); }
+    .pnt-c-a .pnt-ini { background: var(--pnt-mint); }
+    .pnt-cb { min-width: 0; display: block; }
+    .pnt-cm { display: flex; align-items: center; gap: 6px; font-size: 12px; min-width: 0; }
+    .pnt-co { font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+    .pnt-tag { flex: none; font-size: 9.5px; font-weight: 700; letter-spacing: .05em; padding: 2px 5px; border-radius: 3px; }
+    .pnt-c-c .pnt-tag { color: var(--pnt-pink); background: #fbe7f8; }
+    .pnt-c-a .pnt-tag { color: #0f8a5c; background: #e3f8ef; }
+    .pnt-hotg { flex: none; font-size: 9.5px; font-weight: 700; padding: 2px 5px; border-radius: 3px; color: #8a6500; background: #fff3cc; }
+    .pnt-cd { flex: none; margin-left: auto; color: var(--pnt-muted); font-size: 11.5px; }
+    .pnt-cw { display: block; font-size: 12.5px; font-weight: 700; margin-top: 3px; }
+    .pnt-ch { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; font-size: 13px; line-height: 1.35; margin-top: 3px; color: #2b2b30; }
+
+    .pnt-err { padding: 30px 16px; text-align: center; color: var(--pnt-muted); font-size: 14px; }
+
+    @media (max-width: 1000px) { .pnt-stage { grid-template-columns: minmax(0, 1fr) 230px; } }
+    @media (max-width: 620px) {
+      .pnt-title { font-size: clamp(13px, 4.3vw, 16px); }
+      .pnt-titlerow { padding-top: 14px; gap: 8px; }
+      .pnt-date .pnt-dl { display: none; }
+      .pnt-date .pnt-ds { display: inline; }
+      .pnt-greet { font-size: 16px; padding: 14px 0 12px; }
+      .pnt-stage { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+      .pnt-map { height: 56vh; min-height: 320px; border-radius: 10px; }
+      /* legend: one swipeable row of pills, faded at the right edge */
+      .pnt-legend { left: 0; right: 0; top: 8px; max-width: none; flex-wrap: nowrap; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; padding: 0 28px 0 10px; -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 36px), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 36px), transparent); }
+      .pnt-legend::-webkit-scrollbar { display: none; }
+      .pnt-chip { scroll-snap-align: start; flex: none; }
+      .pnt-hint { top: auto; bottom: 8px; right: 10px; left: 10px; text-align: right; }
+      .pnt-panel { left: 8px; right: 8px; bottom: 8px; width: auto; }
+      .pnt-panel .pnt-pd { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+      .pnt-counts { font-size: 12px; }
+      .pnt-trend { position: static; width: auto; margin-top: 12px; background: #fff; }
+      .pnt-num { font-size: 44px; }
+      .pnt-surge { font-size: 12.5px; padding: 7px 12px; top: 46px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .pnt-card { animation: none; }
+      .pnt-row, .pnt-bt i, .pnt-fill, .pnt-dot { transition: none; }
+      .pnt-caret { display: none; }
+    }
+  </style>
+</head>
+<body class="rs-page pnt-page">
+  <header class="masthead">
+    <div class="wrap masthead-row">
+      <a class="brand" href="index.html">PREAMBLE</a>
+      <nav class="page-tabs" aria-label="Pages"><a href="index.html">2026 Results</a><a href="coalitions.html">Coalitions<span class="tab-x"> Tracker</span></a><a href="mayors.html">Mayors</a><a href="map.html">Map</a><a class="tab-eye" href="news-tracker.html" aria-label="Preamble News Tracker" title="Preamble News Tracker" aria-current="page"><img src="assets/news-tracker-eye.png" alt="" width="24" height="24"></a></nav>
+    </div>
+  </header>
+
+  <main class="pnt" id="top">
+    <div class="pnt-in">
+      <div class="pnt-titlerow"><h1 class="pnt-title">Preamble News Tracker</h1><span class="pnt-beta">BETA</span></div>
+      <div class="pnt-ctrl">
+        <button class="pnt-play" type="button" aria-label="Play the timeline"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1.5v11l9.5-5.5z" fill="currentColor"/></svg><span>Play</span></button>
+        <b class="pnt-date" aria-live="off"><span class="pnt-dl">Loading…</span><span class="pnt-ds">Loading…</span></b>
+      </div>
+      <p class="pnt-counts">&nbsp;</p>
+    </div>
+    <div class="pnt-bar">
+      <div class="pnt-fill"></div><div class="pnt-dot"></div>
+      <input class="pnt-range" type="range" min="0" max="0" step="1" value="0" aria-label="Timeline: choose a day">
+    </div>
+    <div class="pnt-in">
+      <p class="pnt-greet"></p>
+      <div class="pnt-stage">
+        <div class="pnt-mapcol">
+          <div class="pnt-map">
+            <svg class="pnt-svg" role="img" aria-label="Network map of coalition stories, the outlets that covered them, and the voices who wrote about them"></svg>
+            <div class="pnt-legend" role="group" aria-label="Show or hide"></div>
+            <p class="pnt-hint"></p>
+            <div class="pnt-confetti" aria-hidden="true"></div>
+            <div class="pnt-reel" hidden aria-hidden="true"><div class="pnt-num"></div><div class="pnt-rl"></div></div>
+            <div class="pnt-surge" role="status"></div>
+            <div class="pnt-tip" hidden></div>
+            <div class="pnt-panel" hidden><button class="pnt-px" type="button" aria-label="Close">×</button><h2></h2><p class="pnt-pd"></p><p class="pnt-pm"></p><a href="#"></a></div>
+          </div>
+          <div class="pnt-trend" aria-label="Trending voices"><h3>TRENDING</h3><div class="pnt-rows"></div></div>
+        </div>
+        <aside class="pnt-feed" aria-label="Latest pieces and reports" aria-live="off"></aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer"><div class="wrap ft-row"><span>PREAMBLE · Data: Independent Electoral Commission · <a class="ft-privacy" href="privacy.html">🍪 Privacy &amp; cookies</a></span><nav class="ft-social" aria-label="Preamble on social media"><a href="https://www.instagram.com/preamblehqdotcom/" target="_blank" rel="noopener" aria-label="Preamble on Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.4" cy="6.6" r="1.3" fill="currentColor"/></svg></a><a href="https://youtube.com/preambleyt" target="_blank" rel="noopener" aria-label="Preamble on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4" fill="currentColor"/><path d="M10 9l5 3-5 3z" fill="#fff"/></svg></a><a href="https://preamble.substack.com/" target="_blank" rel="noopener" aria-label="Preamble on Substack"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h14v2.4H5zM5 7.2h14v2.4H5zM5 11.4h14V21l-7-3.9L5 21z" fill="currentColor"/></svg></a><a href="mailto:preamblehq@gmail.com" aria-label="Email Preamble at preamblehq@gmail.com" title="preamblehq@gmail.com"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5A1.5 1.5 0 0 1 4.5 5h15A1.5 1.5 0 0 1 21 6.5v11a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.6 6.4 12 13l8.4-6.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></a></nav><a class="ft-mail" href="mailto:preamblehq@gmail.com">preamblehq@gmail.com</a></div></footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+  <script src="js/feed.js?v=20261124zg"></script>
+  <script>
+  (function () {
+    "use strict";
+    const $ = (s, el) => (el || document).querySelector(s);
+    const RM = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const PHONE = matchMedia("(max-width: 620px)");
+    const TOUCH = matchMedia("(hover: none)").matches;
+    const COL = { outlet: "#3a7bd5", story: "#f0501e", piece: "#d61fbd", report: "#1fcf8f" };
+    const CONF = ["#12a150", "#f0501e", "#d61fbd", "#3a7bd5", "#f5b400", "#1fcf8f"];
+    const DAYW = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    const MON = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    const esc = (s) => String(s == null ? "" : s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+    const parse = (d) => { const [y, m, dd] = d.split("-").map(Number); return new Date(Date.UTC(y, m - 1, dd)); };
+    const iso = (t) => t.toISOString().slice(0, 10);
+    const longDate = (d) => { const t = parse(d); return `${DAYW[t.getUTCDay()]}, ${t.getUTCDate()} ${MON[t.getUTCMonth()]} ${t.getUTCFullYear()}`; };
+    const shortDate = (d) => { const t = parse(d); return `${DAYW[t.getUTCDay()].slice(0, 3)}, ${t.getUTCDate()} ${MON[t.getUTCMonth()].slice(0, 3)}`; };
+    const dayMon = (d) => { const t = parse(d); return `${t.getUTCDate()} ${MON[t.getUTCMonth()].slice(0, 3)}`; };
+    const initials = (n) => {
+      const w = String(n).replace(/\.(co\.za|com|org\.za|org|africa)$/i, "").split(/[\s·|&\-]+/).filter((x) => /[a-z0-9]/i.test(x));
+      if (w.length >= 2) return w.slice(0, 3).map((x) => x[0]).join("").toUpperCase();
+      const one = w[0] || "?"; const m = one.match(/^([A-Za-z])[A-Za-z]*(\d+)$/);
+      return (m ? m[1] + m[2] : one.slice(0, 2)).toUpperCase().slice(0, 3);
+    };
+    const sleep = (ms, tok) => new Promise((res) => setTimeout(() => res(tok === S.tok), ms));
+
+    /* ---------- greeting: Africa/Johannesburg time, types itself once ---------- */
+    (function greet() {
+      const el = $(".pnt-greet");
+      const h = +new Intl.DateTimeFormat("en-ZA", { timeZone: "Africa/Johannesburg", hour: "numeric", hourCycle: "h23" }).format(new Date());
+      const g = h < 12 ? "Good morning" : h < 18 ? "Good afternoon" : "Good evening";
+      const full = `${g}, here’s how the news spread in South Africa today.`;
+      el.setAttribute("aria-label", full);
+      if (RM) { el.textContent = full; return; }
+      const txt = document.createElement("span"); txt.setAttribute("aria-hidden", "true");
+      const caret = document.createElement("span"); caret.className = "pnt-caret"; caret.setAttribute("aria-hidden", "true");
+      el.append(txt, caret);
+      let i = 0;
+      (function next() {
+        if (i >= full.length) { setTimeout(() => { caret.classList.add("pnt-gone"); setTimeout(() => caret.remove(), 450); }, 900); return; }
+        const ch = full[i++]; txt.textContent += ch;
+        setTimeout(next, 28 + Math.random() * 34 + (ch === "," ? 260 : 0));
+      })();
+    })();
+
+    const S = { tok: 0, playing: false, cur: 0, days: [], nodes: [], links: [], focus: null, hidden: new Set(), prevRank: [] };
+
+    /* ---------- data: live feed + hourly additions, joined by js/feed.js ---------- */
+    function build(D) {
+      const J = D.journalists || {}, BY = {};
+      D.items.forEach((i) => { BY[i.id] = i; });
+      const nodes = [], links = [], kids = {};
+      const add = (n) => { nodes.push(n); return n; };
+      const stories = [], children = [];
+      D.events.forEach((e) => {
+        const s = add({ id: "s:" + e.id, type: "story", ev: e.id, label: e.h, dek: e.dek, place: e.place, cat: e.cat, kids: [] });
+        stories.push(s);
+        (e.items || []).forEach((id) => {
+          const i = BY[id]; if (!i || !i.d) return;
+          const p = add({ id: `p:${e.id}:${i.id}`, type: "piece", item: i.id, ev: e.id, story: s, j: i.j, who: (J[i.j] || {}).n || "", src: i.src || "Other", d: i.d, label: i.h, url: i.url, kind: i.kind });
+          s.kids.push(p); children.push(p);
+        });
+        (e.coverage || []).forEach((c, k) => {
+          if (!c.d) return;
+          const r = add({ id: `r:${e.id}:${k}`, type: "report", ev: e.id, story: s, src: c.src || "Other", d: c.d, label: c.h, url: c.url });
+          s.kids.push(r); children.push(r);
+        });
+      });
+      // outlets: by src; outlets with fewer than 3 links share "Other outlets"
+      const bySrc = d3.group(children, (c) => c.src);
+      const outlets = {};
+      bySrc.forEach((list, src) => { const name = list.length < 3 ? "Other outlets" : src; (outlets[name] = outlets[name] || []).push(...list); });
+      const onodes = Object.entries(outlets).map(([name, list]) => {
+        const o = add({ id: "o:" + name, type: "outlet", label: name, kids: list });
+        list.forEach((c) => { c.outlet = o; });
+        return o;
+      });
+      children.forEach((c) => { links.push({ source: c.story.id, target: c.id, weak: false }); links.push({ source: c.outlet.id, target: c.id, weak: true }); });
+      // the timeline: every calendar day from the first item to the last
+      const ds = children.map((c) => c.d).sort();
+      const days = [];
+      for (let t = parse(ds[0]); iso(t) <= ds[ds.length - 1]; t = new Date(t.getTime() + 864e5)) days.push(iso(t));
+      const di = {}; days.forEach((d, k) => { di[d] = k; });
+      children.forEach((c) => { c.day = di[c.d]; });
+      [...stories, ...onodes].forEach((n) => { n.day = d3.min(n.kids, (c) => c.day); n.total = n.kids.length; });
+      const keep = nodes.filter((n) => n.day != null);
+      S.J = J; S.days = days; S.nodes = keep; S.links = links.filter((l) => keep.find((n) => n.id === l.source) && keep.find((n) => n.id === l.target));
+      S.stories = stories.filter((s) => s.day != null); S.outlets = onodes; S.children = children;
+      // per-day numbers: unique pieces (an item in two stories counts once), BIG threshold, surges
+      S.dayPieces = days.map(() => new Set());
+      children.forEach((c) => { if (c.type === "piece") S.dayPieces[c.day].add(c.item); });
+      const counts = S.dayPieces.map((s) => s.size).filter((n) => n > 0).sort(d3.ascending);
+      S.BIG = Math.max(12, d3.quantileSorted(counts, 0.75) || 0);
+      S.surges = days.map(() => []);
+      S.stories.forEach((s) => {
+        const per = d3.rollup(s.kids, (v) => v.length, (c) => c.day);
+        const mean = d3.mean([...per.values()]);
+        per.forEach((c, day) => { if (c >= 8 && c >= 1.6 * mean) S.surges[day].push({ story: s, c }); });
+      });
+      S.surges.forEach((l) => l.sort((a, b) => b.c - a.c));
+      // cards for the notification column, de-duplicated by outlet + headline, in time order
+      const seen = new Set(); S.cards = [];
+      d3.sort(children, (c) => c.day).forEach((c) => {
+        const key = c.src + "|" + c.label; if (seen.has(key)) return; seen.add(key);
+        S.cards.push(c);
+      });
+    }
+
+    const size = (n, k) => n.type === "outlet" ? 4 + Math.sqrt(k) * 1.6 : n.type === "story" ? 6 + Math.sqrt(k) * 1.5 : n.type === "piece" ? 4 : 3;
+
+    function layout() {
+      const R = 170;
+      const os = d3.sort(S.outlets, (o) => -o.total);
+      const order = []; for (let s = 0; s < 5; s++) for (let k = s; k < os.length; k += 5) order.push(os[k]);
+      order.forEach((o, k) => { const a = (k / order.length) * 2 * Math.PI - Math.PI / 2; o.fx = R * Math.cos(a); o.fy = R * Math.sin(a); o.x = o.fx; o.y = o.fy; });
+      S.nodes.forEach((n) => { n.full = size(n, n.total || 0); });
+      const sim = d3.forceSimulation(S.nodes)
+        .force("link", d3.forceLink(S.links).id((n) => n.id).distance((l) => l.weak ? 120 : 28).strength((l) => l.weak ? 0.02 : 0.5))
+        .force("charge", d3.forceManyBody().strength((n) => n.type === "story" ? -260 : n.type === "outlet" ? 0 : -14))
+        .force("radial", d3.forceRadial((n) => n.type === "story" ? 330 : 420).strength((n) => n.type === "story" ? 0.5 : n.type === "outlet" ? 0 : 0.12))
+        .force("collide", d3.forceCollide((n) => n.full + 1.5).iterations(2))
+        .stop();
+      for (let i = 0; i < 400; i++) sim.tick();
+    }
+
+    /* ---------- drawing ---------- */
+    let svg, scene, linkSel, nodeSel, ringG, zoom;
+    function draw() {
+      svg = d3.select(".pnt-svg");
+      const pad = 24;
+      const x0 = d3.min(S.nodes, (n) => n.x - n.full) - pad, x1 = d3.max(S.nodes, (n) => n.x + n.full) + pad;
+      const y0 = d3.min(S.nodes, (n) => n.y - n.full) - pad, y1 = d3.max(S.nodes, (n) => n.y + n.full) + pad;
+      svg.attr("viewBox", [x0, y0, x1 - x0, y1 - y0].join(" ")).attr("preserveAspectRatio", "xMidYMid meet");
+      svg.append("rect").attr("class", "pnt-bg").attr("x", x0 - 5000).attr("y", y0 - 5000).attr("width", 10000 + x1 - x0).attr("height", 10000 + y1 - y0).attr("fill", "transparent");
+      const zg = svg.append("g");
+      scene = zg.append("g").attr("class", "pnt-scene");
+      linkSel = scene.append("g").selectAll("line").data(S.links).join("line")
+        .attr("class", (l) => "pnt-link" + (l.weak ? " pnt-weak" : ""))
+        .attr("x1", (l) => l.source.x).attr("y1", (l) => l.source.y).attr("x2", (l) => l.target.x).attr("y2", (l) => l.target.y);
+      const ordered = d3.sort(S.nodes, (n) => ({ report: 0, piece: 1, outlet: 2, story: 3 }[n.type]));
+      nodeSel = scene.append("g").selectAll("circle").data(ordered, (n) => n.id).join("circle")
+        .attr("class", "pnt-node").attr("cx", (n) => n.x).attr("cy", (n) => n.y).attr("r", 0).attr("fill", (n) => COL[n.type]);
+      ringG = zg.append("g");
+      zoom = d3.zoom().scaleExtent([0.6, 8]).on("zoom", (e) => zg.attr("transform", e.transform));
+      svg.call(zoom).on("dblclick.zoom", null);
+      nodeSel.on("mouseenter", (e, n) => { if (!TOUCH) tip(n, e.currentTarget); })
+        .on("mouseleave", () => { if (!TOUCH) tip(null); })
+        .on("click", (e, n) => { e.stopPropagation(); if (n.type === "story") { tip(null); focus(n); } else if (TOUCH) tip(n, e.currentTarget); });
+      svg.on("click", () => { tip(null); focus(null); });
+    }
+
+    function visible(n) { return n.day <= S.cur && !S.hidden.has(n.type); }
+    // set every node and link to the state of day S.cur; nodes that appear now pop in
+    function render(animate) {
+      const shown = (c) => c.day <= S.cur;
+      nodeSel.each(function (n) {
+        const k = n.kids ? n.kids.filter(shown).length : 0;
+        const r = visible(n) ? size(n, k) : 0;
+        const el = d3.select(this);
+        const was = +el.attr("r");
+        el.style("display", visible(n) ? null : "none");
+        if (!animate || RM) { el.interrupt().attr("r", r); return; }
+        if (was === 0 && r > 0) el.interrupt().attr("r", 0).transition().duration(500).ease(d3.easeBackOut).attr("r", r);
+        else if (was !== r) el.interrupt().transition().duration(350).attr("r", r);
+      });
+      linkSel.style("display", (l) => visible(l.source) && visible(l.target) ? null : "none");
+      if (S.focus) mark(S.focus);
+      counts(); trending(); bar();
+      $(".pnt-dl").textContent = longDate(S.days[S.cur]);
+      $(".pnt-ds").textContent = shortDate(S.days[S.cur]);
+    }
+
+    function counts() {
+      const kids = S.children.filter((c) => c.day <= S.cur);
+      const st = S.stories.filter((s) => s.day <= S.cur).length;
+      const pc = new Set(kids.filter((c) => c.type === "piece").map((c) => c.item)).size;
+      const rp = new Set(kids.filter((c) => c.type === "report").map((c) => c.url)).size;
+      const ou = S.outlets.filter((o) => o.day <= S.cur).length;
+      const pl = (n, a, b) => `${n} ${n === 1 ? a : b}`;
+      $(".pnt-counts").textContent = `${pl(st, "story", "stories")} · ${pl(pc, "voice piece", "voice pieces")} · ${pl(rp, "report", "reports")} · ${pl(ou, "outlet", "outlets")}`;
+    }
+
+    function bar() {
+      const p = S.days.length > 1 ? (S.cur / (S.days.length - 1)) * 100 : 100;
+      $(".pnt-fill").style.width = p + "%";
+      $(".pnt-dot").style.left = p + "%";
+      const r = $(".pnt-range"); r.value = S.cur; r.setAttribute("aria-valuetext", longDate(S.days[S.cur]));
+    }
+
+    /* ---------- trending race ---------- */
+    const rowEls = {};
+    function trending() {
+      const tally = {};
+      S.children.forEach((c) => { if (c.type === "piece" && c.day <= S.cur && c.j) (tally[c.j] = tally[c.j] || new Set()).add(c.item); });
+      const top = Object.entries(tally).map(([j, s]) => ({ j, n: s.size })).sort((a, b) => b.n - a.n || (S.J[a.j]?.n || "").localeCompare(S.J[b.j]?.n || "")).slice(0, 5);
+      const wrap = $(".pnt-rows");
+      const none = $(".pnt-none", wrap);
+      if (!top.length) { if (!none) wrap.insertAdjacentHTML("beforeend", '<p class="pnt-none">No pieces yet.</p>'); } else if (none) none.remove();
+      const lead = top[0] ? top[0].n : 1;
+      const ids = new Set(top.map((t) => t.j));
+      Object.keys(rowEls).forEach((j) => { if (!ids.has(j)) { rowEls[j].remove(); delete rowEls[j]; } });
+      top.forEach((t, k) => {
+        let el = rowEls[t.j];
+        const p = S.J[t.j] || {};
+        if (!el) {
+          el = document.createElement("div"); el.className = "pnt-row";
+          const ini = (p.n || "?").split(/\s+/).map((w) => w[0]).slice(0, 2).join("").toUpperCase();
+          el.innerHTML = `<span class="pnt-rk"></span><span class="pnt-ph">${p.img ? `<img src="${esc(p.img)}" alt="" width="22" height="22" loading="lazy">` : esc(ini)}</span><span class="pnt-nm">${esc(p.n || t.j)}</span><span class="pnt-bt"><i></i></span><span class="pnt-ct"></span>`;
+          const img = el.querySelector("img"); if (img) img.onerror = () => { img.parentNode.textContent = ini; };
+          el.style.transform = `translateY(${5 * 29}px)`; el.style.opacity = "0";
+          wrap.appendChild(el); rowEls[t.j] = el;
+          el.getBoundingClientRect();
+        }
+        const before = S.prevRank.indexOf(t.j);
+        el.classList.toggle("pnt-up", before > k || (before === -1 && S.prevRank.length > 0 && S.playing));
+        el.querySelector(".pnt-rk").textContent = k + 1;
+        el.querySelector(".pnt-ct").textContent = t.n;
+        el.querySelector(".pnt-bt i").style.width = (t.n / lead) * 100 + "%";
+        el.style.transform = `translateY(${k * 29}px)`; el.style.opacity = "1";
+      });
+      S.prevRank = top.map((t) => t.j);
+    }
+
+    /* ---------- notification column ---------- */
+    const maxCards = () => (PHONE.matches ? 3 : 7);
+    function cardEl(c, hot) {
+      const a = document.createElement("a");
+      const com = c.type === "piece";
+      a.className = "pnt-card " + (com ? "pnt-c-c" : "pnt-c-a") + (hot ? " pnt-hot" : "");
+      a.href = c.url; a.target = "_blank"; a.rel = "noopener";
+      a.innerHTML = `<span class="pnt-ini" aria-hidden="true">${esc(initials(c.src))}</span><span class="pnt-cb"><span class="pnt-cm"><b class="pnt-co">${esc(c.src)}</b><span class="pnt-tag">${com ? "COMMENTARY" : "ARTICLE"}</span>${hot ? '<span class="pnt-hotg">🔥 Surge</span>' : ""}<span class="pnt-cd">${dayMon(c.d)}</span></span>${com && c.who ? `<span class="pnt-cw">${esc(c.who)}</span>` : ""}<span class="pnt-ch">${esc(c.label)}</span></span>`;
+      return a;
+    }
+    const hotSet = (day) => new Set((S.surges[day] || []).map((x) => x.story.id));
+    function pushCard(c) {
+      const f = $(".pnt-feed");
+      f.prepend(cardEl(c, hotSet(c.day).has(c.story.id)));
+      while (f.children.length > maxCards()) f.lastElementChild.remove();
+    }
+    function feedTo(day) {
+      const f = $(".pnt-feed"); f.textContent = "";
+      S.cards.filter((c) => c.day <= day).slice(-maxCards()).forEach((c) => {
+        const el = cardEl(c, hotSet(c.day).has(c.story.id)); el.style.animation = "none"; f.prepend(el);
+      });
+    }
+    PHONE.addEventListener("change", () => feedTo(S.cur));
+
+    /* ---------- tooltip, focus panel ---------- */
+    function tip(n, el) {
+      const t = $(".pnt-tip");
+      if (!n) { t.hidden = true; return; }
+      const shown = (c) => c.day <= S.cur;
+      let h;
+      if (n.type === "story") { const k = n.kids.filter(shown); h = `<b>${esc(n.label)}</b><span>Story · ${k.filter((c) => c.type === "piece").length} voice pieces · ${k.filter((c) => c.type === "report").length} reports</span>`; }
+      else if (n.type === "outlet") h = `<b>${esc(n.label)}</b><span>Outlet · ${n.kids.filter(shown).length} pieces and reports</span>`;
+      else if (n.type === "piece") h = `<b>${esc(n.who || n.src)}</b><span>${esc(n.src)} · ${dayMon(n.d)}</span>${esc(n.label)}`;
+      else h = `<b>${esc(n.src)}</b><span>Report · ${dayMon(n.d)}</span>${esc(n.label)}`;
+      t.innerHTML = h; t.hidden = false;
+      const m = $(".pnt-map").getBoundingClientRect(), b = el.getBoundingClientRect();
+      const w = t.offsetWidth, hh = t.offsetHeight;
+      let x = b.left - m.left + b.width / 2 - w / 2, y = b.top - m.top - hh - 8;
+      if (y < 6) y = b.bottom - m.top + 8;
+      x = Math.max(6, Math.min(m.width - w - 6, x)); y = Math.max(6, Math.min(m.height - hh - 6, y));
+      t.style.left = x + "px"; t.style.top = y + "px";
+    }
+    function mark(s) {
+      const on = new Set([s.id]);
+      s.kids.forEach((c) => { on.add(c.id); on.add(c.outlet.id); });
+      nodeSel.classed("pnt-on", (n) => on.has(n.id));
+      linkSel.classed("pnt-on", (l) => l.source.id === s.id || (on.has(l.target.id) && l.target.story === s));
+    }
+    function focus(s) {
+      S.focus = s;
+      const p = $(".pnt-panel");
+      scene.classed("pnt-focus", !!s);
+      $(".pnt-hint").style.visibility = s ? "hidden" : "";
+      if (!s) { nodeSel.classed("pnt-on", false); linkSel.classed("pnt-on", false); p.hidden = true; return; }
+      mark(s);
+      const k = s.kids.filter((c) => c.day <= S.cur);
+      const pcs = new Set(k.filter((c) => c.type === "piece").map((c) => c.item)).size;
+      const rps = k.filter((c) => c.type === "report").length;
+      const ous = new Set(k.map((c) => c.outlet.id)).size;
+      p.querySelector("h2").textContent = s.label;
+      p.querySelector(".pnt-pd").textContent = s.dek || "";
+      p.querySelector(".pnt-pm").textContent = `${[s.place, s.cat].filter(Boolean).join(" · ")}${s.place || s.cat ? " · " : ""}${pcs} voice pieces · ${rps} reports · ${ous} outlets`;
+      const a = p.querySelector("a"); a.href = `coalitions/${encodeURIComponent(s.ev)}.html`; a.textContent = "Read the story →";
+      p.hidden = false;
+    }
+    $(".pnt-px").addEventListener("click", (e) => { e.stopPropagation(); focus(null); });
+
+    /* ---------- legend chips ---------- */
+    function legend() {
+      const L = [["outlet", "Outlets"], ["story", "Stories"], ["piece", "Voices’ pieces"], ["report", "Outlet reports"]];
+      const g = $(".pnt-legend");
+      L.forEach(([t, name]) => {
+        const b = document.createElement("button"); b.type = "button"; b.className = "pnt-chip"; b.setAttribute("aria-pressed", "true");
+        b.innerHTML = `<i style="background:${COL[t]}"></i>${name}`;
+        b.addEventListener("click", (e) => {
+          e.stopPropagation();
+          const off = !S.hidden.has(t); off ? S.hidden.add(t) : S.hidden.delete(t);
+          b.setAttribute("aria-pressed", String(!off)); render(false);
+        });
+        g.appendChild(b);
+      });
+      $(".pnt-hint").textContent = TOUCH ? "Tap a dot for details · tap a story to see its network" : "Hover a dot for details · click a story to see its network";
+    }
+
+    /* ---------- spin and reveal, surges ---------- */
+    async function reel(n, day, tok) {
+      const box = $(".pnt-reel"), num = $(".pnt-num");
+      num.innerHTML = '<span class="pnt-win"><span class="pnt-strip"><span>+</span></span></span>';
+      const digits = String(n).split("").map(Number);
+      const LOOPS = 2;
+      digits.forEach((d) => {
+        let h = ""; for (let r = 0; r < LOOPS; r++) for (let k = 0; k < 10; k++) h += `<span>${k}</span>`;
+        for (let k = 0; k <= d; k++) h += `<span>${k}</span>`;
+        num.insertAdjacentHTML("beforeend", `<span class="pnt-win"><span class="pnt-strip">${h}</span></span>`);
+      });
+      $(".pnt-rl").textContent = `new pieces · ${shortDate(S.days[day])}`;
+      box.hidden = false; scene.classed("pnt-dim", true);
+      box.getBoundingClientRect(); box.classList.add("pnt-show");
+      const strips = [...num.querySelectorAll(".pnt-strip")].slice(1);
+      const H = strips[0] ? strips[0].firstElementChild.getBoundingClientRect().height : 0; // measured, so it lands exactly on the digit at any font size
+      const roll = RM ? 0 : 900;
+      strips.forEach((s, i) => {
+        const steps = LOOPS * 10 + digits[i];
+        s.style.transition = RM ? "none" : `transform ${roll}ms cubic-bezier(.15,.7,.25,1) ${i * 180}ms`;
+        s.style.transform = `translateY(${-steps * H}px)`;
+      });
+      const ok = (await sleep(roll + (digits.length - 1) * 180 + 1500, tok));
+      box.classList.remove("pnt-show"); scene.classed("pnt-dim", false);
+      setTimeout(() => { if (!box.classList.contains("pnt-show")) box.hidden = true; }, 320);
+      return ok;
+    }
+    function clearReel() { const b = $(".pnt-reel"); b.classList.remove("pnt-show"); b.hidden = true; scene && scene.classed("pnt-dim", false); }
+
+    function surge(list, day) {
+      if (!list.length) return;
+      const top = list[0];
+      const b = $(".pnt-surge");
+      b.textContent = `🔥 SURGE · ${top.story.label} · ${top.c} new today`;
+      b.classList.add("pnt-show");
+      clearTimeout(surge.t); surge.t = setTimeout(() => b.classList.remove("pnt-show"), 2200);
+      list.forEach(({ story }) => {
+        for (let k = 0; k < 3; k++) {
+          const r0 = size(story, story.kids.filter((c) => c.day <= day).length);
+          ringG.append("circle").attr("class", "pnt-ring").attr("cx", story.x).attr("cy", story.y).attr("r", r0).attr("stroke-width", 3).attr("opacity", 0.95)
+            .transition().delay(k * 280).duration(RM ? 0 : 1300).ease(d3.easeCubicOut).attr("r", r0 + 70).attr("stroke-width", 0.5).attr("opacity", 0).remove();
+        }
+      });
+      if (!RM) confetti(Math.min(70, 30 + 2 * top.c));
+    }
+    function confetti(n) {
+      const layer = $(".pnt-confetti"), W = layer.clientWidth, H = layer.clientHeight;
+      for (let k = 0; k < n; k++) {
+        const i = document.createElement("i");
+        const dot = Math.random() < 0.25;
+        const w = 6 + Math.random() * 6, h = dot ? w : w * (0.35 + Math.random() * 0.9);
+        i.style.cssText = `left:${Math.random() * W}px;width:${w}px;height:${h}px;background:${CONF[k % CONF.length]};border-radius:${dot ? "50%" : "1.5px"}`;
+        layer.appendChild(i);
+        const drift = (Math.random() - 0.5) * 160, spin = (Math.random() - 0.5) * 900, dur = 1800 + Math.random() * 1400;
+        const an = i.animate([
+          { transform: "translate(0,0) rotate(0deg)", opacity: 1 },
+          { transform: `translate(${drift * 0.6}px,${H * 0.7}px) rotate(${spin * 0.7}deg)`, opacity: 1, offset: 0.7 },
+          { transform: `translate(${drift}px,${H + 20}px) rotate(${spin}deg)`, opacity: 0 }
+        ], { duration: dur, delay: Math.random() * 250, easing: "cubic-bezier(.25,.4,.5,1)", fill: "forwards" });
+        an.onfinish = () => i.remove();
+      }
+    }
+
+    /* ---------- playback ---------- */
+    function setPlaying(on) {
+      S.playing = on;
+      const b = $(".pnt-play");
+      b.querySelector("span").textContent = on ? "Pause" : "Play";
+      b.setAttribute("aria-label", on ? "Pause the timeline" : "Play the timeline");
+      b.querySelector("svg").innerHTML = on ? '<path d="M3 1.5h3v11H3zM8 1.5h3v11H8z" fill="currentColor"/>' : '<path d="M3 1.5v11l9.5-5.5z" fill="currentColor"/>';
+      $(".pnt-bar").classList.toggle("pnt-playing", on);
+    }
+    async function play() {
+      const tok = ++S.tok;
+      setPlaying(true);
+      if (S.cur >= S.days.length - 1) { S.cur = 0; S.prevRank = []; $(".pnt-feed").textContent = ""; Object.keys(rowEls).forEach((j) => { rowEls[j].remove(); delete rowEls[j]; }); render(true); feedTo(-1); dropCards(0, tok, 700); if (!(await sleep(750, tok))) return; }
+      while (S.cur < S.days.length - 1) {
+        const day = S.cur + 1;
+        const n = S.dayPieces[day].size, big = n >= S.BIG, sg = S.surges[day];
+        if (big && !(await reel(n, day, tok))) return;
+        if (tok !== S.tok) return;
+        S.cur = day; render(true);
+        const dur = sg.length ? 2000 : big ? 1100 : 750;
+        dropCards(day, tok, dur);
+        if (sg.length) surge(sg, day);
+        if (!(await sleep(dur, tok))) return;
+      }
+      setPlaying(false);
+    }
+    // drop the day's cards in one by one across the day (only the newest ones would stay in view anyway)
+    function dropCards(day, tok, dur) {
+      const list = S.cards.filter((c) => c.day === day).slice(-maxCards());
+      list.forEach((c, k) => setTimeout(() => { if (tok === S.tok) pushCard(c); }, (k * dur * 0.8) / Math.max(1, list.length)));
+    }
+    function pause() { S.tok++; setPlaying(false); clearReel(); }
+    function jump(day) { S.cur = day; render(false); feedTo(day); }
+
+    function controls() {
+      $(".pnt-play").addEventListener("click", () => (S.playing ? pause() : play()));
+      const r = $(".pnt-range"), barEl = $(".pnt-bar");
+      r.max = S.days.length - 1;
+      r.addEventListener("input", () => { if (S.playing) pause(); barEl.classList.add("pnt-drag"); jump(+r.value); });
+      const up = () => barEl.classList.remove("pnt-drag");
+      r.addEventListener("change", up); r.addEventListener("pointerup", up); r.addEventListener("blur", up);
+      document.addEventListener("keydown", (e) => { if (e.key === "Escape") { tip(null); focus(null); } });
+    }
+
+    if (!window.d3 || !window.PreambleFeed) { $(".pnt-map").innerHTML = '<p class="pnt-err">The tracker could not load. Please refresh the page.</p>'; return; }
+    PreambleFeed.load().then((D) => {
+      build(D); layout(); draw(); legend(); controls();
+      S.cur = S.days.length - 1; // idle: full, at the latest day
+      render(true); feedTo(S.cur);
+    }).catch((err) => {
+      console.warn(err);
+      $(".pnt-map").innerHTML = '<p class="pnt-err">The tracker data could not load. Please refresh the page.</p>';
+    });
+  })();
+  </script>
+</body>
+</html>
