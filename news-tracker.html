@@ -255,7 +255,7 @@
       const el = $(".pnt-greet");
       const h = +new Intl.DateTimeFormat("en-ZA", { timeZone: "Africa/Johannesburg", hour: "numeric", hourCycle: "h23" }).format(new Date());
       const g = h < 12 ? "Good morning" : h < 18 ? "Good afternoon" : "Good evening";
-      const full = `${g}, here’s how the news spread in South Africa today.`;
+      const full = `${g}, here’s how the news spread in South Africa and went global today.`;
       el.setAttribute("aria-label", full);
       if (RM) { el.textContent = full; return; }
       const txt = document.createElement("span"); txt.setAttribute("aria-hidden", "true");
