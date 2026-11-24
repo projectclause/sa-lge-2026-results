@@ -10,6 +10,7 @@ Data: Independent Electoral Commission (IEC). Summaries are written by Preamble 
 - [Coalitions Tracker](https://preamble.co.za/coalitions.html): every story on the coalition talks, in South Africa and abroad
 - [Mayors](https://preamble.co.za/mayors.html): who leads each metro, and who is tipped where talks continue
 - [Ward map](https://preamble.co.za/map.html): results for every ward, searchable by address
+- [News Tracker (beta)](https://preamble.co.za/news-tracker.html): an animated map of how the coalition stories spread across outlets and voices, day by day
 
 ## Coalition stories (newest first)
 
