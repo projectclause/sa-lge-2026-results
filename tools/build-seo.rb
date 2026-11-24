@@ -88,9 +88,9 @@ NAMELINK = PEOPLE.to_h { |q| [q[:n], "people/#{q[:slug]}.html"] }
 
 head = File.read(File.join(ROOT, "coalitions.html"))
 css = head[/<link rel="stylesheet" href="css\/style\.css\?v=[^"]+">/].sub('href="', 'href="../')
-# the masthead is copied from coalitions.html (its nav ends with the News Tracker eye icon): links and images are one folder up
+# the masthead is copied from coalitions.html (its nav ends with the News Tracker network icon, assets/news-tracker-icon.svg): links and images are one folder up
 mast = head[/<header class="masthead">.*?<\/header>/m].gsub('href="', 'href="../').gsub('src="assets/', 'src="../assets/').sub(' aria-current="page"', ' aria-current="page"')
-abort "build-seo: the masthead in coalitions.html has lost the News Tracker eye (a.tab-eye)" unless mast.include?('class="tab-eye" href="../news-tracker.html"')
+abort "build-seo: the masthead in coalitions.html has lost the News Tracker icon (a.tab-eye)" unless mast.include?('class="tab-eye" href="../news-tracker.html"') && mast.include?('src="../assets/news-tracker-icon.svg"')
 foot = head[/<footer class="footer">.*?<\/footer>/m]
 
 FileUtils.mkdir_p(File.join(ROOT, "coalitions"))
