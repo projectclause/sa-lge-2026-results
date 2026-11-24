@@ -642,7 +642,8 @@
       "group": "voice",
       "org": "SABC",
       "beat": "reporting",
-      "pb": true
+      "pb": true,
+      "slot": 3
     },
     "giokos": {
       "n": "Heidi Giokos",
