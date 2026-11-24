@@ -554,6 +554,15 @@
       "beat": "analysis",
       "score": 24.2,
       "after": "macg"
+    },
+    "makin": {
+      "n": "Gabriel Makin",
+      "o": "The Common Sense",
+      "img": "assets/journalists/gabriel-makin.jpg",
+      "role": "Research director, Social Research Foundation; host, Conversations with Gabriel",
+      "group": "voice",
+      "org": "TCS",
+      "beat": "analysis"
     }
   },
   "items": [
@@ -2591,6 +2600,39 @@
       "s": "Speaking to News24 before Johannesburg’s first sitting, Zille said the DA had submitted a private member’s bill for a 2% vote threshold for any party to be represented in legislatures and councils, calling it undemocratic that parties with under 1% can shape who governs. The DA has 91 of Johannesburg’s 270 seats.",
       "src": "News24",
       "url": "https://www.news24.com/politics/zille-calls-for-electoral-reform-to-stop-small-parties-making-government-unstable-20261123-0828"
+    },
+    {
+      "id": "gm-leon",
+      "j": "makin",
+      "d": "2026-11-11",
+      "kind": "Interview",
+      "place": "National",
+      "h": "The ANC lost the metros. Tony Leon says it still holds most of the cards",
+      "s": "On Conversations with Gabriel, Tony Leon told Makin why the ANC still holds most of the cards in coalition talks despite its electoral collapse.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=eopuDWOd6GA"
+    },
+    {
+      "id": "gm-mulder",
+      "j": "makin",
+      "d": "2026-11-20",
+      "kind": "Interview",
+      "place": "Gauteng metros",
+      "h": "Voters rejected the ANC. ActionSA wants to bring it back",
+      "s": "On Conversations with Gabriel, FF Plus leader Corné Mulder told Makin that ActionSA is making the wrong calculation by negotiating with the ANC after voters rejected it.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=pkMBS2OEVkw"
+    },
+    {
+      "id": "gm-picks",
+      "j": "makin",
+      "d": "2026-11-24",
+      "kind": "Video",
+      "place": "National",
+      "h": "Does it even matter who the ANC picks?",
+      "s": "As the ANC decides who to govern with, Makin and Marius Roodt discussed why a deal with MK and the EFF may suit the party better than the alternatives.",
+      "src": "The Common Sense",
+      "url": "https://www.thecommonsense.co.za/videos/does-it-even-matter-who-the-anc-picks"
     }
   ],
   "edition": {
@@ -3399,7 +3441,8 @@
         "dm-enca",
         "mg-frank",
         "dc-cutda",
-        "pm-hustlers"
+        "pm-hustlers",
+        "gm-picks"
       ],
       "voices": {
         "sizwe": "Floated one bargain between the DA, ANC and ActionSA to share out the metro mayors, and asks whether South Africa is entering a political realignment.",
@@ -3418,7 +3461,8 @@
         "morero": "Says the ANC’s coalition framework puts service delivery and the Constitution first.",
         "macg": "Argues the coalition talks expose a basic crisis of trust in government.",
         "corder": "Discussed ANC talk of dropping the DA for ActionSA across the country.",
-        "mashele": "On The Hustlers Corner SA, questioned the ANC’s coalition deals."
+        "mashele": "On The Hustlers Corner SA, questioned the ANC’s coalition deals.",
+        "makin": "Discussed with Marius Roodt why a deal with MK and the EFF may suit the ANC."
       },
       "coverage": [
         {
@@ -3712,7 +3756,8 @@
         "ls-nec",
         "dc-fights",
         "dc-dead",
-        "s-crunch"
+        "s-crunch",
+        "gm-mulder"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
@@ -3730,7 +3775,8 @@
         "berkowitz": "Argues an ANC–ActionSA pact is likelier than a DA deal in Gauteng, because more parties are willing to join it.",
         "simelane": "Reported that ActionSA’s support would likely decide who governs Gauteng’s three metros.",
         "corder": "Covered the ANC’s struggle to commit to the DA as Mashaba claimed victory in Gauteng.",
-        "sizwe": "Asked whether the DA’s vote share entitles it to govern the metros, as talks reached crunch time."
+        "sizwe": "Asked whether the DA’s vote share entitles it to govern the metros, as talks reached crunch time.",
+        "makin": "Interviewed Corné Mulder, who said ActionSA was wrong to negotiate with the ANC after voters rejected it."
       },
       "coverage": [
         {
@@ -4030,7 +4076,8 @@
         "dc-metros",
         "td-sowetan",
         "td-capetalk",
-        "sol-pc12"
+        "sol-pc12",
+        "gm-leon"
       ],
       "voices": {
         "pieter": "Saw the ANC’s decline speeding up, with the party on the brink of second, third or fourth place in seven of the eight metros.",
@@ -4042,7 +4089,8 @@
         "simelane": "Reported that the ANC had lost the lead in four metros and must choose between coalition deals and opposition.",
         "corder": "As results firmed up, set out how coalitions could take shape in the cities.",
         "dooms": "Said the ANC’s dramatic decline is the defining feature of the results, reflecting disillusionment with incumbents rather than enthusiasm for any one party.",
-        "sol": null
+        "sol": null,
+        "makin": "Interviewed Tony Leon on why the ANC still holds most of the cards despite losing the metros."
       },
       "coverage": [
         {
@@ -4225,6 +4273,11 @@
       "k": "RC",
       "n": "Rivonia Circle",
       "badge": "RC"
+    },
+    {
+      "k": "TCS",
+      "n": "The Common Sense",
+      "badge": "TCS"
     }
   ],
   "intl": {
