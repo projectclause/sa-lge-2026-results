@@ -125,13 +125,16 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
   const grid = (list, label) => `<div class="pl-vgrid"><div class="pl-voices">${list.map(card).join("")}</div>${list.length > TOPN ? `<button type="button" class="pl-vall" aria-expanded="false" data-n="${list.length}" data-l="${label}">Show all ${list.length} ${label}</button>` : ""}</div>`;
   function peopleSections() {
     const J = Object.entries(D.journalists);
-    const an = pairUp(pinTop(rankV(J.filter(([, p]) => p.group === "voice" && p.beat !== "reporting")))), rp = rankV(J.filter(([, p]) => p.beat === "reporting"));
+    const an = pairUp(pinTop(rankV(J.filter(([, p]) => p.group === "voice" && !p.pb && p.beat !== "reporting")))), rp = rankV(J.filter(([, p]) => !p.pb && p.beat === "reporting"));
+    // journalists at the national public broadcaster (SABC) get their own tab
+    const pbv = rankV(J.filter(([, p]) => p.group === "voice" && p.pb));
     const pl = pinTop(rankP(J.filter(([, p]) => p.group === "player")));
     return `<section class="pl-sec pl-ppl"><h3 class="pl-sh">Voices</h3>
         <p class="pl-gsub">Journalists and commentators · ranked by influence, active in the last two weeks first</p>
-        <div class="pl-vtabs" role="tablist"><button type="button" role="tab" data-beat="analysis" aria-selected="true">Analysis &amp; commentary <i>${an.length}</i></button><button type="button" role="tab" data-beat="reporting" aria-selected="false">Reporting <i>${rp.length}</i></button></div>
+        <div class="pl-vtabs" role="tablist"><button type="button" role="tab" data-beat="analysis" aria-selected="true">Analysis &amp; commentary <i>${an.length}</i></button><button type="button" role="tab" data-beat="reporting" aria-selected="false">Reporting <i>${rp.length}</i></button>${pbv.length ? `<button type="button" role="tab" data-beat="pb" aria-selected="false">Public Broadcaster <i>${pbv.length}</i></button>` : ""}</div>
         <div class="pl-beat" data-beat="analysis">${grid(an, "voices")}</div>
         <div class="pl-beat" data-beat="reporting" hidden>${grid(rp, "reporters")}</div>
+        ${pbv.length ? `<div class="pl-beat" data-beat="pb" hidden><p class="pl-gsub pl-pbsub">Journalists at the SABC, South Africa’s national public broadcaster</p>${grid(pbv, "public broadcaster voices")}</div>` : ""}
       </section>
       <section class="pl-sec pl-ppl"><h3 class="pl-sh">Key players</h3>
         <p class="pl-gsub">The politicians in the talks · the people deciding the deals first</p>
