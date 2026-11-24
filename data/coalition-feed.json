@@ -654,6 +654,15 @@
       "org": "SABC",
       "beat": "reporting",
       "pb": true
+    },
+    "bruce": {
+      "n": "Peter Bruce",
+      "o": "BD",
+      "img": "assets/journalists/peter-bruce.jpg",
+      "role": "Columnist, Business Day and Sunday Times",
+      "group": "voice",
+      "org": "BD",
+      "beat": "analysis"
     }
   },
   "items": [
@@ -2823,6 +2832,39 @@
       "s": "A further update from Giokos on the talks over who will govern Johannesburg, Tshwane and Ekurhuleni.",
       "src": "SABC News",
       "url": "https://www.youtube.com/watch?v=0cIC1cnNzes"
+    },
+    {
+      "id": "pbr-strings",
+      "j": "bruce",
+      "d": "2026-11-07",
+      "kind": "Column",
+      "place": "National",
+      "h": "The DA’s big win comes with strings attached",
+      "s": "Bruce called ActionSA’s position in Johannesburg and Tshwane the biggest coalition problem to come out of the 4 November elections.",
+      "src": "Sunday Times",
+      "url": "https://www.sundaytimes.timeslive.co.za/opinion-and-analysis/opinion/2026-11-07-peter-bruce-the-das-big-win-comes-with-strings-attached/"
+    },
+    {
+      "id": "pbr-rise",
+      "j": "bruce",
+      "d": "2026-11-12",
+      "kind": "Column",
+      "place": "Gauteng metros",
+      "h": "ActionSA’s rise complicates Gauteng coalition talks",
+      "s": "Bruce wrote on how ActionSA’s rise complicates the coalition talks in Gauteng’s metros.",
+      "src": "Business Day",
+      "url": "https://www.businessday.co.za/opinion/2026-11-12-peter-bruce-actionsas-rise-complicates-gauteng-coalition-talks/"
+    },
+    {
+      "id": "pbr-joburg",
+      "j": "bruce",
+      "d": "2026-11-19",
+      "kind": "Column",
+      "place": "Johannesburg",
+      "h": "ActionSA eyes Joburg mayoralty with ANC support",
+      "s": "Bruce argued that Herman Mashaba’s best route to the Johannesburg mayoralty runs through ANC support, since Mashaba has said he won’t serve under a DA mayor.",
+      "src": "Business Day",
+      "url": "https://www.businessday.co.za/opinion/2026-11-19-peter-bruce-actionsa-eyes-joburg-mayoralty-with-anc-support/"
     }
   ],
   "edition": {
@@ -2949,7 +2991,8 @@
         "sm-gauteng",
         "sm-deadline",
         "hg-gauteng",
-        "hg-metros"
+        "hg-metros",
+        "pbr-joburg"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
@@ -2986,7 +3029,8 @@
         "zimasa": "On Podcast and Chill with MacG, went through who could control Johannesburg and whether the ANC can rebuild before 2029.",
         "sol": "Co-hosted Podcast and Chill’s coalition talks update with MacG as Joburg’s council sat.",
         "maseko": "Reported as the ANC, EFF, ActionSA and MK met to finalise their Gauteng coalition talks, and as the deadline for councils to sit drew near.",
-        "giokos": "Reported on the coalition negotiations and the latest developments in Gauteng’s three metros."
+        "giokos": "Reported on the coalition negotiations and the latest developments in Gauteng’s three metros.",
+        "bruce": "Argued Mashaba’s best route to the mayoralty runs through ANC support, since he has said he won’t serve under a DA mayor."
       },
       "coverage": [
         {
@@ -3959,7 +4003,9 @@
         "dc-dead",
         "s-crunch",
         "gm-mulder",
-        "sm-four"
+        "sm-four",
+        "pbr-strings",
+        "pbr-rise"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
@@ -3979,7 +4025,8 @@
         "corder": "Covered the ANC’s struggle to commit to the DA as Mashaba claimed victory in Gauteng.",
         "sizwe": "Asked whether the DA’s vote share entitles it to govern the metros, as talks reached crunch time.",
         "makin": "Interviewed Corné Mulder, who said ActionSA was wrong to negotiate with the ANC after voters rejected it.",
-        "maseko": "Spoke to ActionSA and MK representatives after the two parties met to discuss coalitions in municipalities across the country."
+        "maseko": "Spoke to ActionSA and MK representatives after the two parties met to discuss coalitions in municipalities across the country.",
+        "bruce": "Called ActionSA’s position in Johannesburg and Tshwane the biggest coalition problem after the vote, and wrote that its rise complicates the Gauteng talks."
       },
       "coverage": [
         {
