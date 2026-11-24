@@ -2413,6 +2413,39 @@
       "s": "Goba reported that eThekwini would hold its first council meeting on Tuesday even though KZN Cogta had told 13 municipalities to postpone, without giving a reason beyond “continuing engagements”. All 224 councillors are to be sworn in and a speaker, mayor, deputy mayor and chief whip elected; KwaZulu-Natal’s 35 hung councils have no finalised coalition pacts.",
       "src": "EWN",
       "url": "https://www.ewn.co.za/ethekwini-to-go-ahead-with-inaugural-council-meeting-despite-kzn-cogta-directive"
+    },
+    {
+      "id": "mg-update",
+      "j": "macg",
+      "d": "2026-11-23",
+      "kind": "Video",
+      "place": "Gauteng metros",
+      "h": "Podcast and Chill: coalition talks update",
+      "s": "MacG and Sol Phenduka’s Monday episode of Podcast and Chill included an update on the coalition talks, alongside the week’s entertainment news.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=mnGtdlWxZnM"
+    },
+    {
+      "id": "s-crunch",
+      "j": "sizwe",
+      "d": "2026-11-17",
+      "kind": "Video",
+      "place": "Metros",
+      "h": "Crunch time for coalition talks",
+      "s": "With councils starting to elect mayors and speakers before the 14-day deadline, Mpofu-Walsh went through the latest in the talks and what to expect in the big metros, asking whether the DA’s share of the vote entitles it to govern and questioning its record in government.",
+      "src": "SMWX",
+      "url": "https://www.youtube.com/watch?v=y2KY3t5PUGI"
+    },
+    {
+      "id": "pm-hustlers",
+      "j": "mashele",
+      "d": "2026-11-23",
+      "kind": "Interview",
+      "place": "National",
+      "h": "The truth about the ANC coalition they don’t want you to question",
+      "s": "Mashele joined DJ Sbu on The Hustlers Corner SA podcast for a full episode on the ANC’s coalition deals.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=xG6eYWmvG7I"
     }
   ],
   "edition": {
@@ -2530,7 +2563,8 @@
         "ar-official",
         "ls-ffp",
         "zv-macg",
-        "ar-fri"
+        "ar-fri",
+        "mg-update"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
@@ -3174,7 +3208,8 @@
         "jp-pod",
         "dm-enca",
         "mg-frank",
-        "dc-cutda"
+        "dc-cutda",
+        "pm-hustlers"
       ],
       "voices": {
         "sizwe": "Floated one bargain between the DA, ANC and ActionSA to share out the metro mayors, and asks whether South Africa is entering a political realignment.",
@@ -3192,7 +3227,8 @@
         "perlman": "Looked at why coalition marriages fail.",
         "morero": "Says the ANC’s coalition framework puts service delivery and the Constitution first.",
         "macg": "Argues the coalition talks expose a basic crisis of trust in government.",
-        "corder": "Discussed ANC talk of dropping the DA for ActionSA across the country."
+        "corder": "Discussed ANC talk of dropping the DA for ActionSA across the country.",
+        "mashele": "On The Hustlers Corner SA, questioned the ANC’s coalition deals."
       },
       "coverage": [
         {
@@ -3459,7 +3495,8 @@
         "pb-gauteng",
         "ls-nec",
         "dc-fights",
-        "dc-dead"
+        "dc-dead",
+        "s-crunch"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
@@ -3476,7 +3513,8 @@
         "moichela": "Reported the ANC’s offer of the Joburg and Tshwane mayoralties to ActionSA.",
         "berkowitz": "Argues an ANC–ActionSA pact is likelier than a DA deal in Gauteng, because more parties are willing to join it.",
         "simelane": "Reported that ActionSA’s support would likely decide who governs Gauteng’s three metros.",
-        "corder": "Covered the ANC’s struggle to commit to the DA as Mashaba claimed victory in Gauteng."
+        "corder": "Covered the ANC’s struggle to commit to the DA as Mashaba claimed victory in Gauteng.",
+        "sizwe": "Asked whether the DA’s vote share entitles it to govern the metros, as talks reached crunch time."
       },
       "coverage": [
         {

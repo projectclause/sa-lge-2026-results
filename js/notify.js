@@ -22,7 +22,7 @@
       // phones: a tap just opens the Coalitions page; larger screens go straight to the story
       return { k, p, it, href: "coalitions.html" + (!phone && ev ? "#" + ev.id : "") };
     }).filter(Boolean);
-    if (onCo) cards.sort((a, b) => b.it.d.localeCompare(a.it.d)); // newest first
+    cards.sort((a, b) => b.it.d.localeCompare(a.it.d)); // newest first, so fresh pieces lead
     if (!cards.length) return;
     const box = document.createElement("div");
     box.className = "nt"; box.setAttribute("aria-live", "polite");
@@ -71,5 +71,5 @@
   }
 
   const wait = (n) => { const ask = document.querySelector(".ask"); if (ask) return Promise.resolve(ask); return n > 0 ? new Promise((r) => setTimeout(r, 100)).then(() => wait(n - 1)) : Promise.reject(); };
-  Promise.all([wait(50), fetch("data/coalition-feed.json").then((r) => r.json())]).then(([ask, D]) => start(ask, D)).catch(() => {});
+  Promise.all([wait(50), fetch("data/coalition-feed.json", { cache: "no-cache" }).then((r) => r.json())]).then(([ask, D]) => start(ask, D)).catch(() => {});
 })();
