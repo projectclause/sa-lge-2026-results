@@ -722,6 +722,15 @@
       "org": "YouTube",
       "beat": "analysis",
       "wide": true
+    },
+    "mathew": {
+      "n": "Mathew Cohen",
+      "o": "The Power Pod",
+      "img": "assets/journalists/mathew-cohen.jpg",
+      "role": "Host, The Power Pod",
+      "group": "voice",
+      "org": "The Power Pod",
+      "beat": "analysis"
     }
   },
   "items": [
@@ -3276,6 +3285,83 @@
       "s": "Wyatt went through calls for Mashaba to step down and tensions involving ActionSA and Julius Malema, reviewing a column by Adriaan Basson.",
       "src": "YouTube",
       "url": "https://www.youtube.com/watch?v=VAmuXUWKLFY"
+    },
+    {
+      "id": "mc-oneman",
+      "j": "mathew",
+      "d": "2026-11-09",
+      "kind": "Video",
+      "place": "National",
+      "h": "South Africa’s new coalitions may have just been built by one man",
+      "s": "Cohen asked whether party leaders hold real power in the coalition talks, or whether one wealthy backer could decide South Africa’s political future.",
+      "src": "The Power Pod",
+      "url": "https://www.youtube.com/watch?v=a4Makna7gSo"
+    },
+    {
+      "id": "mc-standoff",
+      "j": "mathew",
+      "d": "2026-11-10",
+      "kind": "Video",
+      "place": "Gauteng metros",
+      "h": "Coalition standoff: one party is the clear winner in the ANC–DA–ActionSA negotiations",
+      "s": "Doing the coalition maths on the metros, Cohen argued one of the three parties holds the clear edge, particularly ahead of the next national election.",
+      "src": "The Power Pod",
+      "url": "https://www.youtube.com/watch?v=wgfGo-Spibk"
+    },
+    {
+      "id": "mc-iran",
+      "j": "mathew",
+      "d": "2026-11-16",
+      "kind": "Video",
+      "place": "National",
+      "h": "Iran wants this governing coalition to rule over South Africa’s municipalities",
+      "s": "Cohen looked at foreign actors watching the coalition talks, arguing Iran may have a vested interest in how they unfold.",
+      "src": "The Power Pod",
+      "url": "https://www.youtube.com/watch?v=yJNztP5xGRY"
+    },
+    {
+      "id": "mc-ffplus",
+      "j": "mathew",
+      "d": "2026-11-19",
+      "kind": "Video",
+      "place": "Gauteng metros",
+      "h": "ActionSA want the Freedom Front Plus to mediate negotiations with the DA",
+      "s": "Cohen covered ActionSA wanting the FF Plus to mediate its talks with the DA, asking whether it could be a breakthrough.",
+      "src": "The Power Pod",
+      "url": "https://www.youtube.com/watch?v=bBUPVELU2jY"
+    },
+    {
+      "id": "mc-limpopo",
+      "j": "mathew",
+      "d": "2026-11-20",
+      "kind": "Video",
+      "place": "Limpopo",
+      "h": "DA and ANC enter Limpopo coalition",
+      "s": "Cohen went through the DA and ANC entering a coalition in Limpopo, and what it says about the national talks.",
+      "src": "The Power Pod",
+      "url": "https://www.youtube.com/watch?v=UtKGF4OErK4"
+    },
+    {
+      "id": "mc-offer",
+      "j": "mathew",
+      "d": "2026-11-21",
+      "kind": "Video",
+      "place": "Gauteng metros",
+      "h": "DA submits final offer to ActionSA and they’ve already responded",
+      "s": "After the DA broke its silence on the talks, Cohen went through its final offer to ActionSA and ActionSA’s responses on social media.",
+      "src": "The Power Pod",
+      "url": "https://www.youtube.com/watch?v=eJWd0sCXNQ0"
+    },
+    {
+      "id": "mc-cliff",
+      "j": "mathew",
+      "d": "2026-11-22",
+      "kind": "Video",
+      "place": "National",
+      "h": "Coalition chaos, what voters really want: Gareth Cliff unfiltered",
+      "s": "Cohen spoke to Gareth Cliff about coalition chaos, what voters want, and the DA–ActionSA stand-off.",
+      "src": "The Power Pod",
+      "url": "https://www.youtube.com/watch?v=SplrdFMo4UQ"
     }
   ],
   "edition": {
@@ -3805,7 +3891,8 @@
         "tg-reject",
         "ar-insult",
         "ar-hl",
-        "ls-93"
+        "ls-93",
+        "mc-offer"
       ],
       "voices": {
         "geordin": "Proposed that the ANC lead 93 hung councils, the DA 24 and the IFP 20, and told 702 the deal’s power is its simplicity.",
@@ -3816,7 +3903,8 @@
         "corne": "Tried to broker a DA-ActionSA deal in Gauteng, without success.",
         "goba": "Reported both DA offers for EWN: the 93-24-20 split of hung councils, and ActionSA’s rejection of the Gauteng deal.",
         "ramushwana": "Reported the failed DA–ActionSA meeting and Hill-Lewis saying the DA wouldn’t match the ANC’s offer.",
-        "simelane": "Reported the DA’s written “stability framework”, sent to Mbalula, and ActionSA’s rejection of its Gauteng offer."
+        "simelane": "Reported the DA’s written “stability framework”, sent to Mbalula, and ActionSA’s rejection of its Gauteng offer.",
+        "mathew": "Went through the DA’s final offer to ActionSA and ActionSA’s response on social media."
       },
       "coverage": [
         {
@@ -3915,12 +4003,14 @@
         "j-lim",
         "hl-sw",
         "tg-ifp",
-        "tm-delay"
+        "tm-delay",
+        "mc-limpopo"
       ],
       "voices": {
         "julius": "Proposed the ANC lead 30 of Limpopo’s 39 hung councils and the EFF nine.",
         "hlabisa": "Expects the IFP to seal its KwaZulu-Natal coalition deals this weekend.",
-        "maeko": "Reported that legal challenges and party disputes were delaying council inaugurations."
+        "maeko": "Reported that legal challenges and party disputes were delaying council inaugurations.",
+        "mathew": "Covered the DA and ANC entering a coalition in Limpopo."
       },
       "coverage": [
         {
@@ -4445,7 +4535,9 @@
         "bs-complete",
         "bs-quits",
         "cw-incomp",
-        "cw-never"
+        "cw-never",
+        "mc-standoff",
+        "mc-ffplus"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
@@ -4470,7 +4562,8 @@
         "grootes": "Asks whether ActionSA can outlast Mashaba, and calls the ANC–ActionSA talks smoke and mirrors that could help Mashaba ahead of 2029.",
         "masuabi": "Reported Beaumont saying ActionSA was still far from a deal, with mayoral committee posts, council seats and city programmes unsettled.",
         "byron": "Asks whether ActionSA has betrayed its voters, setting Mashaba’s 2021 promise not to help the ANC in Joburg against the party’s talks with it now.",
-        "wyatt": "Sets Mashaba’s pledge never to go into coalition with the ANC against ActionSA’s talks with it now."
+        "wyatt": "Sets Mashaba’s pledge never to go into coalition with the ANC against ActionSA’s talks with it now.",
+        "mathew": "Did the coalition maths on the metros, and covered ActionSA asking the FF Plus to mediate its talks with the DA."
       },
       "coverage": [
         {
