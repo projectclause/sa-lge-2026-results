@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-25",
-    "time": "00:04"
+    "time": "01:03"
   },
   "items": [
     {
@@ -196,6 +196,18 @@
       "src": "The South African",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaHVwZ2tzY09iZjNweHJnenBrVmtLYXNmY1Fhck5GWnltUjVjamVDLXFZM01LQVhSVzRGbmRoSEFDOUZCbEZGbVlBXzVUTGlxRW03dUo0ZDhsdzI0eUh4cHh5VGxaaUJOVVBQNUVuRU1DenZ3VHduY1hzbTZFbEdTNGtBS0JEbjh4Q0lUaTFmY3FpZFli?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-c32ad758ff",
+      "j": "adriaan",
+      "d": "2026-11-24",
+      "kind": "Column",
+      "place": "Johannesburg",
+      "h": "Adriaan Basson | How Mashaba and ‘AuctionSA’ betrayed their ‘gatvol’ voters",
+      "s": "Adriaan Basson argues Mashaba and ActionSA, which he calls 'AuctionSA', betrayed their 'gatvol' voters.",
+      "src": "News24",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPS3NPdnZaSmVRSXllMjhqRjN3Qk56eXVzV0xyaklYbkJPczRxbzk3Ym9SVFUwNzVsd0VSUXB4VHo2elVmaWgtYTB3LW1lbEJYWkRmdlpfOE9KMXZkOHkwX2U0bnVRc2RNZFdKTzRjZlBRV0Q3bVFOdjhyc2hYTkNsUXpJTzktaGNiVnc0MUh3dXhUUTctb1d4R1ByR2luSWdKY193WnRhejg0T3ZudnprMDBUWmtQRXoxd2NPU3c0V2FqLTZx?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -211,7 +223,8 @@
     "actionsa": [
       "a-773fa265cd",
       "a-df402dbdfa",
-      "a-195b93c97c"
+      "a-195b93c97c",
+      "a-c32ad758ff"
     ],
     "da-offer": [
       "a-1dc6b38494"
@@ -287,6 +300,42 @@
         "h": "End of the road for Zille, Bongani Baloyi touted for Joburg deputy mayor",
         "d": "2026-11-24",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbXBneFJFX3R4ZjNvQXI5R0NWN2J0by1RN01nd3hVd3NpS296VkF2VTZsNVhRVHVzblBQSnp3LUxCQk95RVBQQVdaYXE2YzFmLWVYTE5PX0RRSFRvb2JLd012T2pqVmNIak9QYV9CNkdua0N5UHFKLXpwNkU4WktOVG1faUoweEYxYUppSzBld2pGVUY5clkzTnk4NmEyQlNuOFl4emc0OGpGV0phY3Nxa1p1aWhnTVRoVXZsazFJbVJTWVRJ?oc=5"
+      },
+      {
+        "src": "sundayindependent.co.za",
+        "h": "WATCH | Who will wear the mayoral chain? Joburg set to elect new mayor",
+        "d": "2026-11-24",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdkVUWDZfRS11MFdmaUI1QnVSdUxVYWphUVNSVmUyQVFOWWlUUGNyTTNERl9BbXNGRUVfRGRudEFKVFVvNVF3NDJTY1hpY1NqeGhib3ltalZTc1hNeGNvNkdaY3RacUkyZjFIYU5KaURubHdPYWdXUmdaYmFZTVVuanQxU2R5SFRLVjU5U1NyeFNLRDlGRzdaYS0xZmh3SHhJOUdkMjFOWmlOS0RKYlNKdQ?oc=5"
+      },
+      {
+        "src": "IOL",
+        "h": "DA surges ahead of ANC in Johannesburg as battle for metro intensifies",
+        "d": "2026-11-24",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUGJGMUtNV3M4c3BRMktQRGd2QklSVFBiZmdORlE3NDdOM1hrMV9VYk9mQXFCeWh6VWpVX3NabFZvOFJaRjI0NmdieldQYnpMQjhFVDFQbVJPZUxQV2VTOTFyMHRYZFJJY2YxTVJOV0VXaEo2VFZSaVY3cWpGZElFNVBkUU5NUGExbnl2ZHFvbDNLYm5JYjJfM29laW5Xdw?oc=5"
+      },
+      {
+        "src": "newsday.co.za",
+        "h": "DA Federal Chairperson Solly Msimanga shares coalition plan in Johannesburg to stop ANC, MK, EFF, and ActionSA government",
+        "d": "2026-11-24",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPZ3RHNWVkWWt5b1NzN1JXQmJkWE00V1hSR2hPTWMtYWcxeHlXU3pQd0NyTFk0Q01BRTdLWnVCRXFGM1RBOFI5M1dOWXFWbG5xbE0xZWpsMGRSdHBpeTFuLUwyWTlLTU5lWlpKTERDd1NzUlBXLVhCdmZyYXZXazBtUmpkY1JrdmpFQWJUVU85N0dIWUlQRjB6Q053bzRkeTlSQ0oya2wxUXZZWVJQU2d3bjVzS1NuLXJmV0JEQkZyR3d4YVhiZ1dpR3RCUTJmZHNyay15N1ZtcEE4UzJDbFdnLUVzZ2NfTmVuSFVsX0o1WUt1QQ?oc=5"
+      },
+      {
+        "src": "Jacaranda FM",
+        "h": "DA 'hopeful' over possible Joburg coalition as deadline to form govt looms",
+        "d": "2026-11-24",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObFdZWTR6bmNUSGxpYW84MzhvcHJCc2Vvd3J5U1FqWnVUVlhWaHpOem0zRlBaVnFvNUNRN3RVRF9QdVpJcE44ZkFIMk54ZDY5WVY1anQ4MUZVN2o2bnNtSmVwd0hlZmxlbEI2dkR4UDFjR1ZSRmZHSG51LXNucFd0eW15X3UwZlk?oc=5"
+      },
+      {
+        "src": "Mail & Guardian",
+        "h": "Black parties block Zille? Or is South Africa still uncomfortable with black political power?",
+        "d": "2026-11-24",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPLV9HN2h0c2R5RTFvU3dENk1HbkM0VVE5OV9nb0VKaEtKTnctcjNmV2x1ZThHaWNLUEFFVW1GSVZ1dzcwU1pLS0ZKQU9RNGlrbnNjOGRkNTQxSHAwSElKNE5rQ09PREMxZF9mdGo1cXBsdHl5d2Y3bV9iOHI1cndMSmpPeUFpa05JdkV3UGk2M3lIa3RCMkxFV3ZPN1ZuNlNIMS1rdmVUSVdmX28tTzU0eFhmbDhJSHoycENXWTExVGtwN2t2WGZpNjkwUXFWMlJy?oc=5"
+      },
+      {
+        "src": "newsday.co.za",
+        "h": "ANC says DA, VF Plus, and ACDP not included in Johannesburg coalition plan",
+        "d": "2026-11-24",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVllqR25BZzJHeVhNQmwxcXJWeC1hUmJ0RGxfa09wUS04VWJiLVZNSFFLY1RIT001VENpa0x2Q0NlVnowOHVjSmtzZVlGM2JMdXlrVW05NEtvS0tBYk11TFNmNkplNDFwSWZpczk4dWlmUXJBSDRKWkZPNk1pYlN6V243OUVBRXk2dUNzbTRUSFNhdFVuUTBOcnZsMUhoV1pWWFFjVHRkRkxvc0xFMktfcWJlTDE?oc=5"
       }
     ],
     "councils": [
@@ -307,6 +356,24 @@
         "h": "MK Party fails to secure victory in Zuma’s Nkandla hometown as IFP retains control",
         "d": "2026-11-24",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSUthTzM0R2F2akV3MTloUEVEMW5PZTZ2LVkyOE5JOVBNWWdsZ29CSFpqZko3azBINHRtWDhVdEMzUWNqZTBMcV9oUWlNdHdOSFVudnIzeGJMWm51SUdYVG1fQU9kUWs3R20teWxqd2hqOG1sY1VCbUdLNnl3RU5vWkJDWm8yWHZqUDlQSi11V01TRXlrbXQyWGRRRUtrZWNvUnpjV0tsVmEzd2JWNURudno0RVhneVZUczBSOWtDb1JaZlk?oc=5"
+      },
+      {
+        "src": "Johannesburg Sunday World",
+        "h": "DA helps ANC’s John Mpe retain power in Polokwane",
+        "d": "2026-11-24",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVjBiYlE3dlk2d1FpZFJvbHQ3dUZRZjVmQmF2OWtuLVNvb3pTcVBtTHlQY1VrX0J0bnpsd0N2RDN0cUl5YUp3SVVFNEw2MWxKYVRRaW1XMGRjQVRNX3otX0Y3cmtGa1E0QzhuTzlnOWpKUk1abVQ4aFgxVkNwOUtUU1E2MzRXb1BHLThjTQ?oc=5"
+      },
+      {
+        "src": "SABC News",
+        "h": "ANC’s Mathebula elected Steve Tshwete Municipality mayor",
+        "d": "2026-11-24",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZmpXWTd3bk5pcTVDazlESkowTmt0Rk5oRG9iQWlONGw1SmI5Ql9lN214WVJCaXptYjkwLUdCeUYtY0RXYTNjTUdabzN5dndYeUROVmZJdFJUV0NWZjlydjZTZ1RPcmx1VEFEVmxXLU9KWlJ3Tk81SWlZVUpsald0UlVHQ0hRSjRMeDRxeGx2VlpPMWp2?oc=5"
+      },
+      {
+        "src": "IOL",
+        "h": "ANC’s John Mpe re-elected Polokwane mayor with 55 votes",
+        "d": "2026-11-24",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPckFaV0k2YUlZWTk2bU9wRkpUd0hFVGZKMnRoNUVvcWxzMy1VVHdFYjVna2FmVm11bXItTVpFWC1Fc1U5R3BfaWlXY1haalZzUjFXTGJIbHgwbnpyNVlrUE5aYlBaOEZ1RlVvdHVpYmQyeHVHZWZCV3locE5jWk1RZlA0SDFxdmxUNkQ3R2xsUVo0djRtTnJv?oc=5"
       }
     ],
     "tshwane": [
@@ -369,6 +436,22 @@
         "h": "Death of the ANC: Party suffers worst municipal result since 1994 as support falls to 30.81 percent",
         "d": "2026-11-24",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPb1pXZ3hJTEp1aWNycVJ0SkNTSUdvZEdGaHNvdHRVSUZPYmJ5R0F3TUF4VnlrR3l1M2UxSUtucThyVHJTZTd5Y29sTi1MMlFHR0ZPMG9zVl9wblQ3dk44SXcwSENJOGZWZ05xeDYyNDlwUlVjaFp4UFJOMGRVLXJwMkhIMGxyUjB5WE5Qb2JXRjlOWmhtZC1GQlgxek1YZ1NUS2JqZHFYMXBRRUV2cWNKWHU1TjhER3otRlFwU1Z6V21US24xT0Uzd3JoVWU4OUVy?oc=5"
+      }
+    ],
+    "gnu": [
+      {
+        "src": "IOL",
+        "h": "ANC at crossroads over alliance with DA - insiders",
+        "d": "2026-11-25",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMmpjZXcwdkJ2OEtoQnVIUF8xX1E4OHRXMGhTYkUtbDhhdl9CYno3c0VRS1IwZ1dBbW1TN0Nad1FXNVd2Vy03OVNJazB5elhrZ1BtWGo3RVNIRkI0YW93RHpLQWFTakVDRWlyM0pXVk5IQUE1d1hleHZVcVVsN0RmTjJVOFBzeE11QmozZ0kzaXJueVB2YTlB?oc=5"
+      }
+    ],
+    "pr-seats": [
+      {
+        "src": "newsday.co.za",
+        "h": "ANC says ActionSA is not an ally and it rejected its offer of a proportional representation councillor seat in Johannesburg",
+        "d": "2026-11-24",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNZDNTeWRrVVJ6OVctZ2tkWl96ZTFPaUZrLS00ek9CTktWRksxdFl5eWxRQlZrdjYzaFBGVHlDNXU5SEVCdzY0UWtiTkNSek5nZzZ2M3pLMDVnUl9jYjFySzdvcllWMS1vOHphVXBmN3l1OUVOZHU0Z2RaU0p3YUYySnZIeWJaeEJWVTBrY2tTV2ZwaTNPbWNjbFAybWlfdG43cjBGdi15aThHRTNXRkRyeGk2MG9CeWRWZjdVSUQ2S05oRWcyVk5TcUk2blhMdm16bHBVSzZSbF9PMTg4YjhkOEQzQzMtVkt4WmdIa1AwY0x4dGNNVjFTdw?oc=5"
       }
     ]
   },
@@ -534,6 +617,18 @@
           "h": "EThekwini council adjourns inaugural sitting to allow more time for coalition talks",
           "d": "2026-11-24",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaHNrdFdBell0R1lydUstLUQ4aWVvSG9vSk5jZV9wS3BGTVdRUGlkUzVGSUhfaWdFOVVoQ1paN3puN3JRM3MyVlZfYTAwVWo3VjV6NEgxQVFtcGJJRjZtWlFROWVTMWhVc3dCdHRZQ01QREZxd3ZMOFBDVGtFYzMzQ3QxZXRUcUdrZmZaVUthM3lMa1UzWF9mS1RsVGtlVHN3ZUJVQ2tWQThNNlpKamFzdXVwaURhTmRPSDhIRlRmTWlydThWOVE?oc=5"
+        },
+        {
+          "src": "The Citizen",
+          "h": "Hung eThekwini council delays leadership appointments",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQU0k5Ujc5b1h6NG9GZWdjUVkxall1bUpqTHBRN2RBQ2NMQzNtWkUwT2VhaWpBT24yY25zUmFTcjhwcnZUNWhPazdEc0JaNmEzdi10SV9RNENEX3gwUmo0cHh3WUJxVVdRbWEtUzI0alFUUE16SzJwMHFZVjFjQXZ2NlRzMXJ2RkEwcmlmQUt2ZnpvalQ1Y3B3bm9BeWI1aFpkUWY4OEJNMlNidUlEdVV1VUJUc1NlWFhuWHJvaVgtR1hSMUx5eVR2ZHJEdw?oc=5"
+        },
+        {
+          "src": "EWN",
+          "h": "ANC, MK Party coy over whether eThekwini coalition agreement reached",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWHR0WHJQOS03Szh1UjFCYnZVVXB2SE41Z0FMclcwRE9iWlZ4Y0h5NmgtV08wcHhoQm5hOTIyd19fWFhGdkVTMjk0b3dQckdROWkwZHZvNVhXNnRHNnFHSlJ5WTRFLUM3SURmSHI4cmF3NHRDdXFDNHhmT1VYMDZodUFXbWZrMDRZNkZNc0U0ZXpZZDFQY3JHWDdjQURzdF9ncXc?oc=5"
         }
       ],
       "sec": [
@@ -551,8 +646,9 @@
       "brief": [
         "eNCA, EWN and Briefly News report Faku was re-elected; Briefly News says she defeated the UDM’s Nqabayomzi Kwankwa, and BusinessTech says the ANC is running the metro with the EFF.",
         "News24 reports ANC divisions over Faku’s return, quoting one voice saying “you cannot smuggle her back”.",
-        "News24 says the DA will govern Nelson Mandela Bay with the FF Plus, UDM, ActionSA and PAC; several outlets report a six-party deal with Retief Odendaal as mayor.",
-        "News24 reports the DA’s plan to elect a mayor and speaker was blocked by an ANC-led filibuster, and Daily Maverick says the ANC scrambled for a last-minute coalition."
+        "News24 says the DA will govern Nelson Mandela Bay with the FF Plus, UDM, ActionSA and PAC; several outlets report a six-party deal, and HeraldLIVE says Retief Odendaal is set to be mayor.",
+        "News24 reports the DA’s plan to elect a mayor and speaker was blocked by an ANC-led filibuster, and Daily Maverick says the ANC scrambled for a last-minute coalition.",
+        "HeraldLIVE reports a 'black caucus' insists the Nelson Mandela Bay coalition is not a done deal."
       ],
       "auto": true,
       "id": "eastern-cape-metros",
@@ -626,6 +722,90 @@
           "h": "DA’s ‘done deal’ derailed as ANC scrambles for last-minute coalition in NMB",
           "d": "2026-11-24",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVDl0UGFkYU8zbnZqdHRYR3dJYWtfZnhLQmwwMkc4WG53V1pMVS1DdncxS0ZaMVNXa2RiU0lpMGFmTVZ3eVZqRzBFRVl0dnlycmp4Z0I1RjhhRnBfMnpFOFJ0X2xDRkZsVmxyMFFkVEZpNndLVFZoQ2ZiaVZzT0VrY0ktakd0S0xjRmJjbXpiMFBLcjhpdXNSdHloYV84OHhMc1AtR2txVFFKUW1YR2tvcDQ4cEhWdEZQMnNkMV9IbXl0dw?oc=5"
+        },
+        {
+          "src": "HeraldLIVE",
+          "h": "DA's Retief Odendaal set to become Nelson Mandela Bay mayor following coalition deal",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUFMyZ0xteUI0TFpZVDZHUlExUDdjdHl3NmJIYWFnV2FMaVhUWnYtUzNDZ0Zubl9BdUZCRGtxNkpRYkNCNFRqZWNGSGN3WGotWkhTcGUteEoyX0xORDNTS25sYmxzdm5VcE00aTVtRWVEMm1nOHZZekNrQ0ZpN3hfOWJIYS03M0RveHBNV2dnYi1xcFhmd0s0QTFESjk0QW9SWV81NW1KUjZwQ056Zk5IWGhWZw?oc=5"
+        },
+        {
+          "src": "News24",
+          "h": "DA to form Nelson Mandela Bay govt with FF Plus, UDM, ActionSA and PAC",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMi1mRWZkMVJhRldCSE9wNGJZY2hiTUZpNU1SWTdjd19HcWM5VDVuWnpFeVhZZ0N0WU0wQXBZMnlRSTJhaVFUc2xmbzBiclg2S21JRXhwVThqZWJiYkZOd0FkLUo4NThZM0pzR2E3a1FNajkybUFmVnU2dEVNRm14UW5YNFp6d3htclZPRU1wczhWb3FuX2poTXFNUENTUExMVEYzR3lxSnhEVF9xYU5WazVtZS0?oc=5"
+        },
+        {
+          "src": "BusinessTech",
+          "h": "DA secures coalition with ActionSA, Freedom Front Plus and the UDM to run Nelson Mandela Bay",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOQzEwanYwaFlrbnB0T0dwU1hWV0N6cGZiZGRTelZ0TGlyT1ZIVUhwWTJpdUs2aUJ5SzhINnptUU4xdWFmclpJQ1Bnc2pxSEtEclNiOGlPMURGWEM0bWFEdFplUjRISWZ1TnZmVkJ5UjdJanB5VW9YWGNSMXZLaTEyQUN6T0lkVjBlc3FITm45N1dNSlZTVWVIMlN0MktwdjVLREFiQm5PWl9fWVZSTnBCQzAySFc5cXZKUVk4OTFCdzRjUS1QN2h3el9WeEJwZmhMcFQ4Z2hUMlp5QQ?oc=5"
+        },
+        {
+          "src": "News24",
+          "h": "DA plans to elect new Nelson Mandela Bay mayor, speaker blocked by ANC-led filibuster",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc2FnR3N4VlFscEZLR1VBR0dqZDV1c09IbENFUEtXOGRrY0xUOTNQcHBmZk02MG02QnZtdlBjLTJBN1Z0TTdtZHVPdEt4RlNUV1hHcWtmNUliWnFmMjJmRjBGUXFDbW1tMzZpOUlMQmdtZnVYSklfUWhnZ193eERuUENtcElHVkhkaHd4Uk9LQlBEV2lZNE54V0VVWm1iUFpUUEZERjJZUTEwa21DYmlnU1hkRml1SF9qU3lha1M3eVJDdDNTWWxSTFZR?oc=5"
+        },
+        {
+          "src": "The South African",
+          "h": "DA forms six-party coalition to govern Nelson Mandela Bay",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZzdJYlFNUlJUSjZfRl9ZNTNCRDhKNFo0bWlzQ0dSUlkzdl96ZjB3R1hVQmxIbF9tdkRkMzJHczJFdlFtNFBMNVNrWC1MemZMdG1PZWtLSDhEcDluZXBIcGFCWFBmdC12TlFENHcxVC0xRkZRVFI3aGYyUC1JcHVPZUw0bzQxMjdWUDRsQ09sSHNNN21HMmMtakhmdlpfaF92Vll2b1VfMA?oc=5"
+        },
+        {
+          "src": "EWN",
+          "h": "DA clinches 6-party coalition deal to govern Nelson Mandela Bay",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWWp6bjIzU0pRV3YtNmtsZ0tydDJUcEp6andQallCTTV5UWo0MU1GeGwxT0xPdWZ0X193QV9CX3Z3Y2ZwOUdMQWk4MmhGVUVQaEdldVJfXzRrTG16TTBEV29yQUc1aTkzeVNoM0tReE1xQXJuNnBVRko4MlhodmVtMmRLcWZVM2Z4d1Ata1U2WE9sZklwSk41T21VMHc?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "DA and ActionSA strike six-party coalition deal in Nelson Mandela Bay",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRHhmZkRWQzJOVjF3RkhFWWszYkotb1VTUnM1TDlkMXE2M0pBSVZfWkxoaldTbXpTTmNBcFNBTUpaVml2S3llR1NvTkFHelhRR2xDQWNhR2w2YjlEYUd4cUUwcHFBQjlMTkFBMGxjRDRsSDZOdUIwSzM1UFgybTd6VktfLS0yUFJWMUVIS1hCTGpnTzBmVlpwU2dBcHI?oc=5"
+        },
+        {
+          "src": "Briefly News",
+          "h": "Buffalo City mayoral race: ANC's Princess Faku defeats UDM's Nqabayomzi Kwankwa",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbDdnaVY2QkxvOVF5OElyemxka2xiVkdSa1lISy15TTNZRnh2WTRuVWIwQnBiRVZ0dnFoQi14UDhhQTUxSDk2RVQ4LW1HNGRrSWdQMU1ORlRaNVQxbkc5OFdfQWxtOTFXcTl1d3ZvWUw0NVpQanpsa1dEZE1BYUJfcjI4RnJENFdaVFM3dXdXUTZTRmkyVEEtWmpKYVFqQ3JoWnBrUWRkLVB6SkZrTkpvY0VCcHE5dmpzT3kzQlVqR3M?oc=5"
+        },
+        {
+          "src": "EWN",
+          "h": "Buffalo City battle: ANC drops below 40% as coalition talks loom large",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRTNSRDhWQ29oV0Y1c0xQQ3NvX1JNVWVzRmQwZEtxcEp2N2ZDeUo1NnNCeW5iUUY3cDRabm05c3V2TUFEWFJpdVRGX2ZuVGpMYXNjSVEtLXJOekk4X05KeHIwYXBqRHI3a0RhbFQ3NW80aFBkbjdaYnA0ekItRWwyQ1lEdm9iNzZvNGZsNVJaWG5lOHJZRkE?oc=5"
+        },
+        {
+          "src": "Komani News",
+          "h": "Buffalo City Council to Elect New Leadership as ANC Loses Majority",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcUNyb2lHdWJxd3dlQ3k3LWx3UGppeXZIXzdUNm41NUNYMVNNNks0Y090VzdkbXNmeDFkVl9CN1R4dHhqbVQ5ZU5qcmdNMDRib0wxM1JXYkFYUkg5WVpiS2VJMUJNMVJmQ2JGSDRPRVhMUEdkamRxUkp0QkVTTElYUjdxQXg4bG1VN2o0Wk41M1lqR1puNksw?oc=5"
+        },
+        {
+          "src": "Central News South Africa",
+          "h": "BREAKING | DA Secures Six-Party Coalition Deal to Govern Nelson Mandela Bay",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaFA4QmJpenE4TWpyNUh2N3NjTFNlM1lRdHg0a3hveUppZ2lmVXhlMlBpOUxrdWNZbllONWdnT2VQWHRqazU0a2VQUTBnZnpaQWhrRUg5cXhZek9jQXc5QWwtb0hDRHZsY2FzQkdFb2w5bVUwSUpBZ0dmX3ZucnRNVkFNdE9ZQ09HNnFwUzdaVVR5ZGNxSEd2T3BoQXp5NHUxUHc?oc=5"
+        },
+        {
+          "src": "EWN",
+          "h": "ANC’s Princess Faku re-elected as Buffalo City Metro mayor",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVUJrMXdTSkhxSXhYZ0MzMGx1RHl3TndkSzFhY3QwWEFqaHlieWx4dTFpX0lqdEdjbXE2RjloWkxyZTdIaWlKOUEtM2RnTUEzcEwteUhLb0tFRnkyTFR5a3F6dVNFb0FQY2JQLVN2dm15WWtKQzB6dXgzOHlTWVpwTnR1OGQtdEwzV1JSVnQxTEluUVhBZnc?oc=5"
+        },
+        {
+          "src": "BusinessTech",
+          "h": "ANC teams up with the EFF to run Buffalo City",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWTZtbUJrQnJya2VuTUpSOVhZaFdVQmQxVElnUEU1d1h5bk44dWtodXAtRElFYnNlRzgxNzBVOTNNZXVWNXU2T2ZmR3dWUmxPaVFUX0VVT3UyM1k3bGlPdy1tVGxyTFVGMzlMcm44U3pCVVdWZmFMRTA3ZEZGTTJLMV8xMFBMOS1LSXRoZG1iMkpQYnFPbmFlb2RET2Q?oc=5"
+        },
+        {
+          "src": "The Witness | Your compass in the community",
+          "h": "ANC elbowed out of government in Gqeberha, but keeps Buffalo City",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNT19UV0g3NGM2dWpISW9aWEQ5czA3M2Y2VHJqMGg2OFpEeWJCUEtoRWVKb0psWko1TnZPbC1tQlpHejk1N1NmV21rN2p2X2xfcTVRMzU5R1A2T094bnNxOUFRWk1iU283d0pONHpPNFV0ell1UWREUDE3bWFlb0xnYzVKcFpwcjZ2S1dJQXZrUmo3TVltZTZ4UkpRN2UyR3lNR1BEODdB?oc=5"
         }
       ],
       "sec": [
@@ -639,11 +819,11 @@
       "cat": "Johannesburg",
       "place": "Johannesburg",
       "h": "Malema takes Zille to court over her Joburg claims",
-      "dek": "EFF leader Julius Malema went to court to stop DA mayoral candidate Helen Zille repeating claims about him, in a dispute linked to the Johannesburg coalition fight. Zille refused to retract, and the court reserved judgment.",
+      "dek": "EFF leader Julius Malema went to court to stop DA mayoral candidate Helen Zille repeating claims about him, in a dispute linked to the Johannesburg coalition fight, and IOL reports he threatened R1m defamation action. Zille refused to retract, and the court reserved judgment.",
       "brief": [
         "Briefly News and the Mail & Guardian report Malema sought an urgent interdict to gag Zille over her Joburg claims.",
-        "IOL reports Malema demanded a retraction and apology over corruption claims; IOL also reports Zille said no.",
-        "eNCA describes the case as an alleged defamation battle.",
+        "IOL reports Malema demanded a retraction and apology and threatened R1m defamation action; IOL also reports Zille said no.",
+        "News24 reports Zille fought the gag bid using Malema’s own words, including 'we were controlling him'.",
         "IOL reports the court reserved judgment on the bid, which concerns claims of city power capture."
       ],
       "auto": true,
@@ -681,6 +861,12 @@
           "h": "Five things to know about Malema’s defamation bid against Zille",
           "d": "2026-11-24",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNzFNMlhqalE4ZGhQOE0ybWNlRVRfLVNObmRleWxFUEZ5TVBoaDhoTDE5Zm0zTThTNVM2NEc2S0lPNkJzMU92ZV9QemNOc2s0TjZfRl9Uems5UzRJYUxnLU9tQ0k1STQzbFJ5Z1BBcDRCdmFKTnU1cG1IVFB1amJDMnM4c2ZyYW5IeVdIY0l0LW9wN0hoNnlyYXJ1dGg3bmxnMFBXWTFPSFc?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "Court reserves judgment in Malema’s bid to gag Zille over city power capture claims",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPa0dNTWs3SjJoTzdOUktxUUg1ZHVvTXRNOTNpTEJhQmtIblFqQXpHTzdPSFYzRUQ3aTVQTC0xTXMzM1FwQThLMVQ3VGRPYnRTelNrZlZKQUhBTUpSRFk3UjQzV1JpQzhJb0N5dGNSOVJTQUZvYkJaZWJLUTJwLTVkUUNtYjZ1VHpJOVlTNE5kN21nWjRrbjBfRVd1QXRyTUVNYUVFc0hyVXJFemtjbEE1Y1RDS2Z0WEFvaVM2RW9JdzhQbEpl?oc=5"
         }
       ],
       "sec": [
@@ -711,6 +897,146 @@
           "h": "Ekurhuleni council meets tomorrow to elect new leadership",
           "d": "2026-11-24",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOZEt0LXp4Y0oyRWRVSW5fQTZGZ2lCWFJ3eVRfYldoLVoySXNtc0tVa01JZkpHSTFtb2JUUlVpR3FQbFVhZkszaFZoazRvYkJEb01LcWJnTkdWQlFfYkpsYlVQUjBkem9WYjBQbzhWcDJNaGw3MVhoYzVJT3RWVGFfdDN2eVc2YjN6UXp6a09WSEVNcnQtal9fVGhZMmNZNWRObnB1Ni02VE9jNHZlcUhjZF9YWm1yWVlXeEEyMTF3TEF4UkJBNUNQTFp4b29ERnBOQ3NiR2E5THZPc1NNTnZ0Njl6cmx4dw?oc=5"
+        },
+        {
+          "src": "EWN",
+          "h": "Coalition talks near conclusion ahead of Ekurhuleni’s inaugural council meeting",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeXlveHNCdVluYlNKc0hWX2VsdkhIb21meEllZ0x0Q0p2R1BZd05fY0JLWkVaX096Q2piS2xfUUw4VzRCb2ZkVi1ZVUswLXhYYmQ3T3RwQy1rcGJ3bEJlR3RISXRseEVwcmpKU3pzaTZsc2lTZ0ZhUlB1NUFqbFlWYjNEZnYzcEYyVElTQkZob1NyNkJqZENjeVc4RGNyYXdwbm1ZMGJXOGZaMEVvTlAzM0NB?oc=5"
+        }
+      ],
+      "sec": [
+
+      ],
+      "voices": {
+      },
+      "first": "2026-11-25"
+    },
+    {
+      "cat": "Beyond the metros",
+      "place": "Emfuleni",
+      "h": "Emfuleni’s mayoral sitting collapses as the DA trades posts for a majority",
+      "dek": "ANC, EFF and MK councillors disrupted Emfuleni’s mayoral election sitting, and Nova News reports the sitting collapsed. News24 reports the DA gave up MMC posts, the speakership and the chief whip position to secure a majority.",
+      "brief": [
+        "News24 reports chaos as ANC, EFF and MK councillors disrupted the Emfuleni mayoral election sitting.",
+        "Nova News reports the Emfuleni sitting collapsed.",
+        "News24 sets out what the DA gave up to secure its Emfuleni majority: MMC posts, the speaker and the chief whip."
+      ],
+      "auto": true,
+      "id": "emfuleni",
+      "items": [
+
+      ],
+      "coverage": [
+        {
+          "src": "News24",
+          "h": "MMCs, speaker, chief whip: What the DA gave up to secure Emfuleni majority",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPclRLMnlwWGhSWXhXa2hCTV93SnhPUVZPb0xFVnpPRG9XeUJ4UGU3MkxQMXhQWHlTWWpKZU1MRDlSNjZ5MG1BQUFhZjBDcmtzQlZUcGpmYVplVlNWd1pGdTBvM0NwQlVYX2pranoyV3liMDVfempCYjZZbkJ4OHhzUVBxcUJMYzVXMTFzQ1U0WjhwSFlkcUtIR3pTN1BtaDc1dXA5OUpTUFpRMGQxRmhscGVqd1FodV9sbEJlVk5YOWxlcmc?oc=5"
+        },
+        {
+          "src": "https://novanews.co.za/",
+          "h": "Joburg mayoral vote delayed to 27 November as Emfuleni sitting collapses",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeG9GbUNNdlZnR1k2M3JuZVQweGJMaHh5ZWtYemtJYUdlY0xkdDhZLXBmTlotMV9tb2t5LUhvMzMyUTJsQVQzLV91S001bmJKbldza1dxejBSaFU2cENYLVlpRVUtQURSSUpFQzNsa1VOOThHcVIzZng0clBkcEUyd3ByeFZLTE0?oc=5"
+        }
+      ],
+      "sec": [
+
+      ],
+      "voices": {
+      },
+      "first": "2026-11-25"
+    },
+    {
+      "cat": "Western Cape",
+      "place": "Western Cape",
+      "h": "The DA is shut out of Theewaterskloof as 16 Western Cape councils stay hung",
+      "dek": "News24 reports the ANC joined other parties to take control of Theewaterskloof, and the DA warns the new coalition could threaten the municipality’s financial recovery. IOL reports the DA has begun talks as 16 Western Cape councils remain hung.",
+      "brief": [
+        "News24 reports the ANC and other parties took control of Theewaterskloof, shutting out the DA.",
+        "The Cape Argus reports the DA warning that the Theewaterskloof coalition could threaten financial recovery.",
+        "IOL reports the DA has begun coalition talks with 16 Western Cape councils hung.",
+        "IOL reports the DA named Limberg as Cape Town deputy mayor, with Purchase keeping the speaker role."
+      ],
+      "auto": true,
+      "id": "western-cape",
+      "items": [
+
+      ],
+      "coverage": [
+        {
+          "src": "Cape Argus",
+          "h": "DA warns new Theewaterskloof coalition could threaten financial recovery",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWUJ1MHRzYVJraWl0Q1AyZFhnejhDdXByRDk3U0N2aTk0NDA1SnNaZFl1SEtQaWVqakJOZm5ud1dVX2plTXh6OWJQRnJ2NFVVUzBhc1hRbDBhdHp3VXJHQ2dONGVvb0d0Y1lHNl96d3dVX3lOU2wzNHNlSG9kVEFScjRVQ1czVzV6THFwUmY2Y3pDZWVBdERjcXNUdENka1BibkM2Nm16RzgzN0Vsd25XSUEzWQ?oc=5"
+        },
+        {
+          "src": "News24",
+          "h": "DA shut out: ANC joins other parties to take control of Theewaterskloof",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMElmdGdsVUk3NVpiWkRHUWFyYkZpWnBFc2NpNXQxRXJVZHFjMHlzdzcxWWpPc3RpTldjdzdIN21zVC16RU5SSndIdGZmeFB1aDJTcmZKNWUxOEhsd3dZdkZib0VqMTBnVHFUeDZmcmVoMEJTNEtIWGtuQ2hSUmRlZ3dTNzlOaTdmV3F6T19wemRYWG5XOHJQOTNCR253YWRjM1ROOFQyZ0piNi1TSzNKMEtGTG94S3ZLc3FPUC1HV3JrZw?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "DA names Limberg for Cape Town deputy mayor as Purchase retains speaker role",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSnJYZTdmQlZBZzBXSll0UGJkb04zR2RVTWk3MjR0VDhielZsMGIyM2JybXVkVTV5RDNZLWlENXdObVJ3a2xvTmJuNy1QV2piUVlYdlFNYnZKa2FBS2ZRNzJzOHhIcjBKeVhQQnR2RjcteVdxVVFUdXlKLVl2SFRyS0ZDd19KUURBOThyNGZRajB0cnRLeUpRVEZJMkl1YVV1VlhxY2lNeWVKa2lQM0tlNkdHM3ZrVWUxejYtaUZ3?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "DA begins coalition talks as 16 Western Cape councils remain hung",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdjMyVElRY0NPZ09qQk1YZnRxOW5kWlBoOXZVMDF5V2xEbjYtSjFzVUhUWjQwdU5Od3lrSlQ2RmpIX2dVNmpIUFc5MUpwcEp2SURTQTBvNmxBNU1Venl0NmctMWlKdEVnaGVyaFRMOS1aSEZYSkFPQXFMWEZuVzcwMVRlNE1TMEdrbHNrSXYyYjhUQl9jZU9qdTQwN0QyeGwwMFpaUllB?oc=5"
+        }
+      ],
+      "sec": [
+
+      ],
+      "voices": {
+      },
+      "first": "2026-11-25"
+    },
+    {
+      "cat": "ANC",
+      "place": "National",
+      "h": "The ANC leaves coalition choices to its provinces and regions",
+      "dek": "EWN and Dan Corder report the ANC’s NEC has let provinces and regions decide coalitions, with consequences for Gauteng, eThekwini, Nelson Mandela Bay and over 100 hung councils. The ANC says there is consensus as talks move towards conclusion.",
+      "brief": [
+        "EWN asks whether the ANC has given provinces and regions the final say in coalition talks.",
+        "Dan Corder says the NEC decided to let regional bodies choose, affecting well over 100 hung councils.",
+        "Newsnote reports the ANC asserting there is consensus as talks near conclusion; EWN reports the ANC was expected to brief the media.",
+        "Business Day reports the ANC is seeking a foothold in hung councils, and EWN quotes an analyst saying its choices could decide whether it enters a 'death spiral'."
+      ],
+      "auto": true,
+      "id": "anc-regions",
+      "items": [
+
+      ],
+      "coverage": [
+        {
+          "src": "Business Day",
+          "h": "ANC seeks foothold in hung councils as coalition talks continue",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcUJfOXZRemdhSEVvRkYxSWVXdV9pWmJwZzA0MlcyQlZiX0xXeERnNndqMlRZOEgyb1A2RXVPUUhPVkxEUDBESXdQekkzMVFTVkRsOHRMRkliQ2I0cVUzWDlGRm1JMVAtYURReVlFZlFwbmlIUWhEeDNtS1FUZ0hBcUdYd1djT1hQb2hXU1dHVzVJRmdyOWplOGVfa3JwQWo2N29zZmpudlUyajdqRmFQa2VyQXI?oc=5"
+        },
+        {
+          "src": "EWN",
+          "h": "ANC gives provinces and regions final say in coalition talks?",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcDFLeVRoazVjX2k1LXZTV2t0RjBhTjZvSml0LWZpVFdSQVZZNGExWkExd2czNFRDYndCU2FidmVtbHpnS1RzeW5sb2o0UFc4dWtWVUZidmx1RUtVbDRrZDNHRFNjeG9CZkJSVXM2VWtodEVjdnJteXFBdVpaS0c0MF9EWGZpeUw4Y2EzSThZRGI5Q19RalJRSA?oc=5"
+        },
+        {
+          "src": "EWN",
+          "h": "ANC expected to brief media on coalition talks",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9aZWM0dUJ2bmJRQVh0MUNGaS1fR1BiMzNXblphYnpSUUFyRG5WbDRvNjNDTktnT3ItTnp6LUJRUWVQMzBfdm1KaHNJQ21aMU5Ca2x6Zm9sQ1B5TlFhaVU0MWhJTW9Fekwxa3Q3WHdIX0RVNElGZFJHRg?oc=5"
+        },
+        {
+          "src": "EWN",
+          "h": "ANC coalition choices could determine whether it enters 'death spiral', says analyst",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOM015MVlpWWJyMTRsZ0FHckVHeWM1b0t1XzJaTWpCNHA1SUFiUTZKSkgzZDItMWVQamNQV3pJbG1qNGMwM0gxbU1VYnMwaXBXZWx3VGR5a01wbm1Qc3pSOHNQUzlDXzJPLVZxRkJjMEZfVW1qVXdMWWJXMW9oT0EzanNtbnU1b3NnQm1NcDYtSEkxSEV3MmJnVG5tRWtpdHFpWlB6czRHQ09CdWNDdm90OFZ2Sy0?oc=5"
         }
       ],
       "sec": [
@@ -860,6 +1186,49 @@
     "c0605baa4e06",
     "6d07fd4ef956",
     "d8d927124f86",
-    "d2da661d3c3d"
+    "d2da661d3c3d",
+    "25a37a9cb24b",
+    "7536f03b819d",
+    "8a1555903ead",
+    "9441c5e764e4",
+    "1c573b435590",
+    "2ad3105bce85",
+    "94611a4596f9",
+    "9b0dd3580119",
+    "6f6bb7410ea3",
+    "b0602f988320",
+    "a3dab65f5683",
+    "d2628ed44483",
+    "b564e55b34f5",
+    "45ea4a3fd360",
+    "e7c2d1fa8235",
+    "a82db5973ced",
+    "3395d0bdbc39",
+    "8caa7ccbd72d",
+    "9eace586831f",
+    "761ff49ba60f",
+    "481a1275abfd",
+    "d6e26ffd53ae",
+    "0195c7036282",
+    "20448be77941",
+    "7950337b7381",
+    "c9b077b7be81",
+    "26e81709a00e",
+    "c32ad758ff81",
+    "73c87ebee055",
+    "2354eff802a8",
+    "450523a958a0",
+    "32b1fcd5738c",
+    "aad5fff8cbc7",
+    "e5cd00566ab9",
+    "8783109b14d1",
+    "a0a86f1cc62b",
+    "b19ec74e2393",
+    "681849c418c5",
+    "8bb2c4797e6f",
+    "3909af0cc17f",
+    "b732792fa19b",
+    "c54c5deb5ac5",
+    "ee5ab4065193"
   ]
 }
