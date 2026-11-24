@@ -168,7 +168,7 @@
   const input = document.querySelector(".ask-in"); if (!input) return;
   const EX = [
     "Who won City of Johannesburg?", "Who is the mayor of Cape Town?", "Who won eThekwini?", "How did the ANC do?",
-    "Who won Gauteng?", "Who won Polokwane?", "Who was Patricia de Lille?", "Who won Nelson Mandela Bay?",
+    "Who won Gauteng?", "Who won Polokwane?", "Who is Patricia de Lille?", "Who won Nelson Mandela Bay?",
     "Mayor of Tshwane", "How many seats did the DA win in Ekurhuleni?", "Who won KwaZulu-Natal?", "Who won Stellenbosch?",
     "What did Clement Manyathela say?", "What is Julius Malema saying about coalitions?", "Coalition talks in Johannesburg", "What did MacG say?"
   ];
