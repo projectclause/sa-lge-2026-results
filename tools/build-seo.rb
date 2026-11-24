@@ -8,13 +8,18 @@
 #   sitemap.xml                 every page with its last-updated date
 #   llms.txt                    a plain-text guide to the site for AI assistants
 #   structured data (JSON-LD)   in the <head> of each main page
+Encoding.default_external = Encoding::UTF_8
 require "json"
 require "date"
 require "fileutils"
+require_relative "feed"
+
+# stable sort: items with the same date keep their order, so re-running this script on unchanged data changes no file
+class Array; def ssort(&k) each_with_index.sort_by { |x, i| [k.(x), i] }.map(&:first) end; end
 
 ROOT = File.expand_path("..", __dir__)
 SITE = "https://preamble.co.za"
-D = JSON.parse(File.read(File.join(ROOT, "data/coalition-feed.json")))
+D = Feed.load(ROOT) # data/coalition-feed.json plus the hourly additions in data/coalition-auto.json
 J = D["journalists"]
 BY = D["items"].to_h { |i| [i["id"], i] }
 X = D["intl"] || { "stories" => [], "pieces" => [], "voices" => {} }
@@ -35,23 +40,23 @@ PUBLISHER = { "@type" => "NewsMediaOrganization", "name" => "Preamble", "url" =>
 
 # ---------- one story = one page ----------
 sa = D["events"].map do |e|
-  items = e["items"].map { |id| BY[id] }.compact.sort_by { |i| i["d"] }
+  items = e["items"].map { |id| BY[id] }.compact.ssort { |i| i["d"] }
   dates = items.map { |i| i["d"] } + (e["coverage"] || []).map { |c| c["d"] }
   says = (e["voices"] || {}).map { |k, line| p = J[k] or next; [p, line, items.select { |i| i["j"] == k }] }.compact
   cov = (e["coverage"] || []) + items.reject { |i| i["src"] =~ /^(X|YouTube|TikTok|Instagram|LinkedIn|Facebook)/ }.map { |i| i.slice("src", "h", "d", "url") }
-  cov = cov.uniq { |c| c["url"] }.sort_by { |c| c["d"] }.reverse
+  cov = cov.uniq { |c| c["url"] }.ssort { |c| c["d"] }.reverse
   { id: e["id"], scope: "South Africa", cat: e["cat"], place: e["place"], h: e["h"], dek: e["dek"], brief: e["brief"] || [], sec: e["sec"] || [],
     first: dates.min, upd: dates.max, says: says.map { |p, l, its| [p["n"], p["role"] || p["o"], l, its.map { |i| [i["d"], i["h"], i["src"], i["url"]] }] },
     cov: cov.map { |c| [c["d"], c["src"], c["h"], c["url"]] }, live: "coalitions.html##{e["id"]}" }
 end
 intl = X["stories"].map do |t|
-  ps = t["p"].map { |id| XP[id] }.compact.sort_by { |p| p["d"] }.reverse
+  ps = t["p"].map { |id| XP[id] }.compact.ssort { |p| p["d"] }.reverse
   dates = ps.map { |p| p["d"] }
   says = (t["voices"] || {}).map { |k, line| v = X["voices"][k] or next; [v["n"], v["role"], line, ps.select { |p| p["j"].include?(k) }.map { |p| [p["d"], p["h"], p["src"], p["url"]] }] }.compact
   { id: t["id"], scope: "International", cat: t["cat"], place: t["place"], h: t["h"], dek: t["dek"], brief: t["brief"] || [], sec: t["sec"] || [],
     first: dates.min, upd: dates.max, says: says, cov: ps.map { |p| [p["d"], p["src"] + (p["lang"] ? " (#{p["lang"]})" : ""), p["h"], p["url"]] }, live: "coalitions.html##{t["id"]}" }
 end
-STORIES = (sa + intl).sort_by { |s| s[:upd].to_s }.reverse
+STORIES = (sa + intl).ssort { |s| s[:upd].to_s }.reverse
 
 # ---------- one person = one profile page (people/<name>.html) ----------
 # People search their names; Google and AI Overviews answer from pages *about* a person. Each profile is a ProfilePage
@@ -61,7 +66,7 @@ STORIES = (sa + intl).sort_by { |s| s[:upd].to_s }.reverse
 def slug(n); n.unicode_normalize(:nfkd).gsub(/[^\x00-\x7F]/, "").downcase.gsub(/[“”"']/, "").gsub(/[^a-z0-9]+/, "-").gsub(/^-|-$/, ""); end
 PEOPLE = []
 J.each do |k, p|
-  its = D["items"].select { |i| i["j"] == k }.sort_by { |i| i["d"] }.reverse
+  its = D["items"].select { |i| i["j"] == k }.ssort { |i| i["d"] }.reverse
   lines = D["events"].map { |e| (l = (e["voices"] || {})[k]) && [e["id"], e["h"], l] }.compact
   next if its.empty? && lines.empty?
   kind = p["group"] == "player" ? "Key player" : p["pb"] ? "Public broadcaster (SABC)" : p["beat"] == "reporting" ? "Reporter" : "Analyst and commentator"
@@ -69,7 +74,7 @@ J.each do |k, p|
               its: its.map { |i| [i["d"], i["h"], i["src"], i["url"], i["kind"], i["s"]] }, lines: lines, upd: its.first&.dig("d") || D["edition"]["date"] }
 end
 X["voices"].each do |k, v|
-  ps = X["pieces"].select { |q| Array(q["j"]).include?(k) }.sort_by { |q| q["d"] }.reverse
+  ps = X["pieces"].select { |q| Array(q["j"]).include?(k) }.ssort { |q| q["d"] }.reverse
   lines = X["stories"].map { |t| (l = (t["voices"] || {})[k]) && [t["id"], t["h"], l] }.compact
   next if ps.empty? && lines.empty?
   PEOPLE << { k: k, n: v["n"], role: v["role"], org: v["o"] || v["role"].to_s.split(", ").last, img: v["img"], kind: "International voice", scope: "International",
@@ -229,7 +234,7 @@ order = ["Key player", "Analyst and commentator", "Reporter", "Public broadcaste
 plist = { "@context" => "https://schema.org", "@type" => "CollectionPage", "name" => "People in South Africa’s 2026 coalition talks", "url" => "#{SITE}/people/", "inLanguage" => "en-ZA", "publisher" => PUBLISHER,
           "mainEntity" => { "@type" => "ItemList", "itemListElement" => PEOPLE.each_with_index.map { |q, i| { "@type" => "ListItem", "position" => i + 1, "url" => "#{SITE}/people/#{q[:slug]}.html", "name" => q[:n] } } } }
 pbody = +%(<p class="pl-back"><a href="../coalitions.html">← Coalitions Tracker</a></p>\n<article class="pl-ev"><h1 class="pl-evh">People in South Africa’s 2026 coalition talks</h1><p class="pl-dek pl-evdek">The key players negotiating the deals, and the journalists and commentators covering them, with everything they have said and published.</p>\n)
-order.each { |g| next unless groups[g]; pbody << %(<section class="pl-sec"><h2 class="pl-sh">#{esc(g)}s</h2><ul class="pl-plist">#{groups[g].sort_by { |q| q[:n] }.map { |q| %(<li><a href="#{q[:slug]}.html"><b>#{esc(q[:n])}</b></a> · #{esc(q[:role])}</li>) }.join}</ul></section>\n) }
+order.each { |g| next unless groups[g]; pbody << %(<section class="pl-sec"><h2 class="pl-sh">#{esc(g)}s</h2><ul class="pl-plist">#{groups[g].ssort { |q| q[:n] }.map { |q| %(<li><a href="#{q[:slug]}.html"><b>#{esc(q[:n])}</b></a> · #{esc(q[:role])}</li>) }.join}</ul></section>\n) }
 pbody << "</article>\n"
 File.write(File.join(ROOT, "people/index.html"), <<~HTML)
   <!doctype html>
@@ -261,7 +266,7 @@ snap << %(<header class="pl-ed"><p class="pl-kick">Coalitions Tracker · Preambl
 snap << %(<section class="pl-sec"><h2 class="pl-sh">Stories</h2>\n)
 STORIES.each { |s| snap << %(<p class="pl-row"><span class="pl-rt"><a href="coalitions/#{s[:id]}.html"><b>#{esc(s[:h])}</b></a><span>#{esc(s[:scope])} · #{esc(s[:cat])} · #{day(s[:upd])}</span><span>#{esc(s[:dek])}</span></span></p>\n) }
 snap << "</section>\n"
-voices = J.values.select { |p| p["group"] == "voice" }.sort_by { |p| -(p["score"] || 0) }
+voices = J.values.select { |p| p["group"] == "voice" }.ssort { |p| -(p["score"] || 0) }
 players = J.values.select { |p| p["group"] == "player" }
 snap << %(<section class="pl-sec"><h2 class="pl-sh">Voices</h2><p><a href="people/">Profiles of everyone we follow</a>. #{voices.map { |p| "#{NAMELINK[p["n"]] ? %(<a href="#{NAMELINK[p["n"]]}">#{esc(p["n"])}</a>) : esc(p["n"])} (#{esc(p["role"] || p["o"])})" }.join("; ")}.</p></section>\n)
 snap << %(<section class="pl-sec"><h2 class="pl-sh">Key players</h2><p>#{players.map { |p| "#{NAMELINK[p["n"]] ? %(<a href="#{NAMELINK[p["n"]]}">#{esc(p["n"])}</a>) : esc(p["n"])} (#{esc(p["role"] || p["o"])})" }.join("; ")}.</p></section>\n)
@@ -307,7 +312,7 @@ llms << "## Main pages\n\n- [2026 election results](#{SITE}/): national vote, wa
 llms << "## Coalition stories (newest first)\n\n"
 STORIES.each { |s| llms << "- [#{s[:h]}](#{SITE}/coalitions/#{s[:id]}.html) (#{s[:scope]}, updated #{day(s[:upd])}): #{s[:dek]}\n" }
 llms << "\n## People (profiles: who they are, what they said, every piece tracked)\n\n"
-PEOPLE.sort_by { |q| [q[:scope], q[:kind] == "Key player" ? 0 : 1, q[:n]] }.each { |q| llms << "- [#{q[:n]}](#{SITE}/people/#{q[:slug]}.html): #{q[:role]}; #{q[:kind].downcase}, #{q[:its].size} coalition #{q[:its].size == 1 ? "piece" : "pieces"}\n" }
+PEOPLE.ssort { |q| [q[:scope], q[:kind] == "Key player" ? 0 : 1, q[:n]] }.each { |q| llms << "- [#{q[:n]}](#{SITE}/people/#{q[:slug]}.html): #{q[:role]}; #{q[:kind].downcase}, #{q[:its].size} coalition #{q[:its].size == 1 ? "piece" : "pieces"}\n" }
 llms << "\n## Optional\n\n- [Tracker data (JSON)](#{SITE}/data/coalition-feed.json)\n- [Sitemap](#{SITE}/sitemap.xml)\n"
 File.write(File.join(ROOT, "llms.txt"), llms)
 

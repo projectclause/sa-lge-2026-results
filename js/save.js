@@ -8,7 +8,8 @@
   const setSaved = (a) => { try { localStorage.setItem("pre-saved", JSON.stringify(a)); } catch (e) {} };
   const signedUp = () => { try { return !!(PRE.me().email || localStorage.getItem("pre-signed")); } catch (e) { return false; } };
   let D = null;
-  fetch("data/coalition-feed.json").then((r) => r.json()).then((d) => { D = d; paint(); }).catch(() => {});
+  (window.PreambleFeed ? PreambleFeed.load() : fetch("data/coalition-feed.json").then((r) => r.json())).then((d) => { D = d; paint(); }).catch(() => {});
+  document.addEventListener("pl-data", (e) => { D = e.detail; paint(); }); // the tracker refreshed its data
 
   function toast(t) {
     const el = document.createElement("div"); el.className = "sv-toast"; el.setAttribute("role", "status"); el.textContent = t;

@@ -1,6 +1,7 @@
 // Coalitions Tracker, built like an AI news edition: each event is one story written from several people's reporting,
 // with "In brief", a timeline, sections and the pieces it was built from. Front page = edition; #<event-id> = one event.
-// Data: data/coalition-feed.json (journalists, items = source pieces, events = stories built from item ids).
+// Data: data/coalition-feed.json (journalists, items = source pieces, events = stories built from item ids), joined with the
+// hourly additions in data/coalition-auto.json by js/feed.js. The page re-checks every hour and redraws in place.
 (function () {
   "use strict";
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -185,7 +186,8 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
   function front() {
     const ev = D.events.slice().sort((a, b) => updated(b).localeCompare(updated(a)));
     const lead = ev[0], rest = ev.slice(1), L = itemsOf(lead);
-    const all = D.items.slice().sort((a, b) => b.d.localeCompare(a.d));
+    // newest first; on the same day, the piece added last comes first (the hourly job adds its pieces at the end)
+    const all = D.items.slice().reverse().sort((a, b) => b.d.localeCompare(a.d));
     root.innerHTML = `
       <header class="pl-ed">
         <p class="pl-kick">Coalitions Tracker · Preamble</p>
@@ -411,7 +413,8 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
     if (x) x.onclick = () => { const o = x.getAttribute("aria-expanded") !== "true"; if (o && sm && sm.getAttribute("aria-expanded") !== "true") sm.click(); root.querySelectorAll(".pl-ev .pl-piece").forEach((d) => d.open = o); x.setAttribute("aria-expanded", o); x.textContent = o ? "Collapse all" : "Expand all"; };
   }
 
-  function route() {
+  // draws whichever view the address asks for (front page, one story, international); route() also returns to the top
+  function render() {
     const it = D.intl && D.intl.stories.find((x) => "#" + x.id === location.hash);
     const isI = !!D.intl && (location.hash === "#international" || !!it);
     const e = !isI && D.events.find((x) => "#" + x.id === location.hash);
@@ -419,11 +422,61 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
     document.querySelectorAll(".pl-scope a").forEach((a) => a.toggleAttribute("aria-current", (a.dataset.s === "intl") === !!isI));
     document.querySelectorAll(".pl-scope a[aria-current]").forEach((a) => a.setAttribute("aria-current", "page"));
     document.title = it ? it.h + " · International · Coalitions Tracker" : isI ? "International · Coalitions Tracker" : e ? e.h + " · Coalitions Tracker" : "Coalitions Tracker: who will run South Africa’s metros | PREAMBLE";
-    window.scrollTo(0, 0);
   }
+  function route() { render(); window.scrollTo(0, 0); }
 
-  fetch("data/coalition-feed.json", { cache: "no-cache" }).then((r) => r.json()).then((d) => {
-    D = d; d.items.forEach((i) => BY[i.id] = i);
-    route(); addEventListener("hashchange", route);
+  // ---------- data: the hand-written feed plus the hourly additions (js/feed.js), refreshed in place every hour ----------
+  const loadFeed = () => window.PreambleFeed ? PreambleFeed.load() : fetch("data/coalition-feed.json", { cache: "no-cache" }).then((r) => r.json());
+  let raw = "", lastCheck = Date.now();
+  const use = (d) => {
+    raw = JSON.stringify(d); D = d; BY = {}; d.items.forEach((i) => BY[i.id] = i); IX = null;
+    document.dispatchEvent(new CustomEvent("pl-data", { detail: d })); // save.js and notify.js pick up the same data
+  };
+  // what the reader has open, so a refresh can put it back: chosen voice, tab, expanded lists, open pieces, scroll place
+  const ANCHORS = ".pl-ed, .pl-lead, .pl-sec, .pl-ev > *";
+  function snapshot() {
+    const q = (x) => root.querySelector(x), qa = (x) => [...root.querySelectorAll(x)];
+    const anchors = qa(ANCHORS); let ai = -1, top = 0;
+    anchors.forEach((el, i) => { const t = el.getBoundingClientRect().top; if (t <= 120) { ai = i; top = t; } });
+    const on = (x) => { const b = q(x); return !!b && b.getAttribute("aria-expanded") === "true"; };
+    return {
+      y: scrollY, ai, top, cls: ai >= 0 ? anchors[ai].className : "",
+      who: (q(".pl-voice[aria-pressed='true']") || {}).dataset?.k, tab: (q(".pl-vtabs [aria-selected='true']") || {}).dataset?.beat,
+      grids: qa(".pl-vall[aria-expanded='true']").map((b) => b.dataset.l),
+      stories: on(".pl-top3 .pl-stmore"), all: on(".pl-allmore"), say: on(".pl-saymore"),
+      tl: !!q(".pl-tl-more") && !q(".pl-tl-more").hidden,
+      open: qa("details.pl-piece[open] .pl-pb a").map((a) => a.href)
+    };
+  }
+  function restore(s) {
+    const q = (x) => root.querySelector(x), click = (b) => b && b.click();
+    if (s.tab) click(q(`.pl-vtabs [data-beat="${s.tab}"][aria-selected="false"]`));
+    s.grids.forEach((l) => click(q(`.pl-vall[data-l="${l}"][aria-expanded="false"]`)));
+    if (s.stories) click(q(".pl-top3 .pl-stmore[aria-expanded='false']"));
+    if (s.all) click(q(".pl-allmore[aria-expanded='false']"));
+    if (s.who) click(q(`.pl-voice[data-k="${s.who}"]`));
+    if (s.say) click(q(".pl-saymore[aria-expanded='false']"));
+    if (s.tl) click(q(".pl-tl .pl-more"));
+    const open = new Set(s.open);
+    root.querySelectorAll("details.pl-piece").forEach((d) => { const a = d.querySelector(".pl-pb a"); if (a && open.has(a.href)) d.open = true; });
+    // keep the section the reader was looking at in the same place on screen, even if new stories were added above it
+    const el = [...root.querySelectorAll(ANCHORS)][s.ai];
+    window.scrollTo(0, el && el.className === s.cls ? scrollY + el.getBoundingClientRect().top - s.top : s.y);
+  }
+  function refresh() {
+    lastCheck = Date.now();
+    return loadFeed().then((d) => {
+      if (JSON.stringify(d) === raw) return false;
+      const s = snapshot(); use(d); render(); restore(s);
+      return true;
+    }).catch(() => false);
+  }
+  loadFeed().then((d) => {
+    use(d); route(); addEventListener("hashchange", route);
+    // every hour, and when the reader comes back to a tab left open for more than an hour
+    setInterval(() => { if (!document.hidden) refresh(); }, 36e5);
+    document.addEventListener("visibilitychange", () => { if (!document.hidden && Date.now() - lastCheck > 36e5) refresh(); });
+    document.addEventListener("pl-feed-changed", refresh); // live.js noticed the data files change
+    window.plRefresh = refresh;
   }).catch(() => { root.innerHTML = '<p class="pl-none">The tracker could not load. Refresh the page to try again.</p>'; });
 })();
