@@ -53,6 +53,34 @@ intl = X["stories"].map do |t|
 end
 STORIES = (sa + intl).sort_by { |s| s[:upd].to_s }.reverse
 
+# ---------- one person = one profile page (people/<name>.html) ----------
+# People search their names; Google and AI Overviews answer from pages *about* a person. Each profile is a ProfilePage
+# whose mainEntity is a Person, with a plain answer to "who is X" and "what has X said", every piece they published
+# (subjectOf, with dates and links), and links to each story they appear in. People with no coalition piece and no
+# quoted line are skipped, so there are no thin pages.
+def slug(n); n.unicode_normalize(:nfkd).gsub(/[^\x00-\x7F]/, "").downcase.gsub(/[“”"']/, "").gsub(/[^a-z0-9]+/, "-").gsub(/^-|-$/, ""); end
+PEOPLE = []
+J.each do |k, p|
+  its = D["items"].select { |i| i["j"] == k }.sort_by { |i| i["d"] }.reverse
+  lines = D["events"].map { |e| (l = (e["voices"] || {})[k]) && [e["id"], e["h"], l] }.compact
+  next if its.empty? && lines.empty?
+  kind = p["group"] == "player" ? "Key player" : p["pb"] ? "Public broadcaster (SABC)" : p["beat"] == "reporting" ? "Reporter" : "Analyst and commentator"
+  PEOPLE << { k: k, n: p["n"], role: p["role"] || p["o"], org: p["o"], img: p["img"], kind: kind, scope: "South Africa",
+              its: its.map { |i| [i["d"], i["h"], i["src"], i["url"], i["kind"], i["s"]] }, lines: lines, upd: its.first&.dig("d") || D["edition"]["date"] }
+end
+X["voices"].each do |k, v|
+  ps = X["pieces"].select { |q| Array(q["j"]).include?(k) }.sort_by { |q| q["d"] }.reverse
+  lines = X["stories"].map { |t| (l = (t["voices"] || {})[k]) && [t["id"], t["h"], l] }.compact
+  next if ps.empty? && lines.empty?
+  PEOPLE << { k: k, n: v["n"], role: v["role"], org: v["o"] || v["role"].to_s.split(", ").last, img: v["img"], kind: "International voice", scope: "International",
+              its: ps.map { |q| [q["d"], q["h"], q["src"], q["url"], q["lang"] ? "Article (#{q["lang"]})" : "Article", q["s"]] }, lines: lines, upd: ps.first&.dig("d") || D["edition"]["date"] }
+end
+PEOPLE.each { |q| q[:slug] = slug(q[:n]) }
+PEOPLE.group_by { |q| q[:slug] }.each_value { |g| g.drop(1).each_with_index { |q, i| q[:slug] += "-#{i + 2}" } }
+PROFILE = PEOPLE.to_h { |q| [[q[:scope], q[:k]], "people/#{q[:slug]}.html"] }
+
+NAMELINK = PEOPLE.to_h { |q| [q[:n], "people/#{q[:slug]}.html"] }
+
 head = File.read(File.join(ROOT, "coalitions.html"))
 css = head[/<link rel="stylesheet" href="css\/style\.css\?v=[^"]+">/].sub('href="', 'href="../')
 mast = head[/<header class="masthead">.*?<\/header>/m].gsub('href="', 'href="../').sub(' aria-current="page"', ' aria-current="page"')
@@ -82,7 +110,7 @@ STORIES.each do |s|
   if s[:says].any?
     body << %(<section class="pl-sec pl-says"><h2 class="pl-sh">What they are saying</h2>\n)
     s[:says].each do |n, role, line, its|
-      body << %(<div class="pl-voicecard"><p><b>#{esc(n)}</b>, #{esc(role)}</p><p class="pl-vsays">#{esc(line)}</p>)
+      body << %(<div class="pl-voicecard"><p><b>#{NAMELINK[n] ? %(<a href="../#{NAMELINK[n]}">#{esc(n)}</a>) : esc(n)}</b>, #{esc(role)}</p><p class="pl-vsays">#{esc(line)}</p>)
       body << %(<ul>#{its.map { |d, h, src, u| %(<li>#{day(d)} · <a href="#{esc(u)}" rel="noopener">#{esc(h)}</a> (#{esc(src)})</li>) }.join}</ul>) if its.any?
       body << "</div>\n"
     end
@@ -127,6 +155,105 @@ STORIES.each do |s|
   File.write(File.join(ROOT, "coalitions/#{s[:id]}.html"), html)
 end
 
+FileUtils.mkdir_p(File.join(ROOT, "people"))
+Dir[File.join(ROOT, "people/*.html")].each { |f| File.delete(f) }
+pmast = mast.gsub('href="../', 'href="../')
+PEOPLE.each do |q|
+  url = "#{SITE}/people/#{q[:slug]}.html"
+  n, role = q[:n], q[:role]
+  latest = q[:its].first
+  who = "#{n} (#{role}) is " + (q[:kind] == "Key player" ? "one of the key players in the coalition talks after South Africa’s 4 November 2026 local government elections." : "one of the #{q[:scope] == "International" ? "international journalists and analysts" : "journalists and commentators"} Preamble’s Coalitions Tracker follows on the coalition talks after South Africa’s 4 November 2026 local government elections.")
+  said = q[:lines].map { |_, h, l| "On “#{h}”: #{l}" }
+  desc = "#{n} (#{role}) on South Africa’s 2026 coalition talks: #{q[:its].size} #{q[:its].size == 1 ? "piece" : "pieces"} tracked#{latest ? ", latest #{day(latest[0])}" : ""}. #{q[:lines].first ? q[:lines].first[2] : ""}".strip[0, 300]
+  title = "#{n} on the 2026 coalition talks | PREAMBLE"
+  person = { "@type" => "Person", "@id" => "#{url}#person", "name" => n, "jobTitle" => role.to_s.split(", ").first, "description" => who,
+             "worksFor" => q[:org] ? { "@type" => "Organization", "name" => q[:org] } : nil, "image" => q[:img] ? "#{SITE}/#{q[:img]}" : nil,
+             "knowsAbout" => ["2026 South African municipal elections", "Coalition government in South Africa"],
+             "subjectOf" => q[:its].first(30).map { |d, h, src, u, kd| { "@type" => kd.to_s.start_with?("Video") ? "VideoObject" : "CreativeWork", "name" => h, "url" => u, "datePublished" => d, "publisher" => { "@type" => "Organization", "name" => src } }.tap { |w| w["uploadDate"] = d if w["@type"] == "VideoObject"; w["thumbnailUrl"] = "#{SITE}/assets/share.png" if w["@type"] == "VideoObject" } } }.compact
+  ld = { "@context" => "https://schema.org", "@type" => "ProfilePage", "url" => url, "name" => title.sub(" | PREAMBLE", ""), "inLanguage" => "en-ZA",
+         "dateModified" => q[:upd], "isPartOf" => { "@id" => "#{SITE}/#website" }, "publisher" => PUBLISHER, "mainEntity" => person,
+         "about" => q[:lines].map { |id, h, _| { "@type" => "NewsArticle", "headline" => h[0, 110], "url" => "#{SITE}/coalitions/#{id}.html" } } }
+  crumbs = { "@context" => "https://schema.org", "@type" => "BreadcrumbList", "itemListElement" => [
+    { "@type" => "ListItem", "position" => 1, "name" => "PREAMBLE", "item" => "#{SITE}/" },
+    { "@type" => "ListItem", "position" => 2, "name" => "Coalitions Tracker", "item" => "#{SITE}/coalitions.html" },
+    { "@type" => "ListItem", "position" => 3, "name" => "People", "item" => "#{SITE}/people/" },
+    { "@type" => "ListItem", "position" => 4, "name" => n, "item" => url }] }
+  body = +""
+  body << %(<p class="pl-back"><a href="../coalitions.html">← Coalitions Tracker</a> · <a href="./">Everyone we follow</a></p>\n<article class="pl-ev pl-prof">\n)
+  body << %(<p class="pl-cat">#{esc(q[:scope])} · #{esc(q[:kind])}</p>\n<div class="pl-profh">#{q[:img] ? %(<img src="../#{esc(q[:img])}" alt="#{esc(n)}" width="96" height="96">) : ""}<div><h1 class="pl-evh">#{esc(n)}</h1><p class="pl-dek pl-evdek">#{esc(role)}</p></div></div>\n)
+  body << %(<p class="pl-credit">Updated <time datetime="#{q[:upd]}">#{day(q[:upd])}</time> · #{q[:its].size} coalition #{q[:its].size == 1 ? "piece" : "pieces"} tracked</p>\n)
+  body << %(<section class="pl-body"><h2>Who is #{esc(n)}?</h2><p>#{esc(who)}</p></section>\n)
+  if said.any?
+    body << %(<section class="pl-body"><h2>What has #{esc(n)} said about the coalition talks?</h2><ul>#{q[:lines].map { |id, h, l| %(<li>#{esc(l)} <span class="pl-as">Story: <a href="../coalitions/#{esc(id)}.html">#{esc(h)}</a></span></li>) }.join}</ul></section>\n)
+  end
+  if latest
+    body << %(<section class="pl-body"><h2>What is #{esc(n)}’s latest on the coalitions?</h2><p>On #{day(latest[0])}, #{esc(latest[2])}: <a href="#{esc(latest[3])}" rel="noopener">#{esc(latest[1])}</a>.#{latest[5] ? " #{esc(latest[5])}" : ""}</p></section>\n)
+    body << %(<section class="pl-sec pl-cov"><h2 class="pl-sh">Every piece we track, newest first</h2>\n#{q[:its].map { |d, h, src, u, kd, s| %(<p class="pl-art"><span class="pl-am2"><b>#{esc(src)}</b> · #{esc(kd)} <time datetime="#{d}">#{day(d)}</time></span> <a class="pl-ah" href="#{esc(u)}" rel="noopener">#{esc(h)}</a>#{s ? %(<span class="pl-as">#{esc(s)}</span>) : ""}</p>) }.join("\n")}\n</section>\n)
+  end
+  body << %(<p class="pl-how">Preamble summarises published reporting and links to every original. #{esc(n)} does not write for Preamble, and this page is not endorsed by them.</p>\n</article>\n)
+  html = <<~HTML
+    <!doctype html>
+    <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>#{esc(title)}</title>
+      <meta name="description" content="#{esc(desc)}">
+      <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+      <link rel="canonical" href="#{url}">
+      <meta property="og:site_name" content="PREAMBLE">
+      <meta property="og:type" content="profile">
+      <meta property="og:title" content="#{esc(title.sub(" | PREAMBLE", ""))}">
+      <meta property="og:description" content="#{esc(desc)}">
+      <meta property="og:url" content="#{url}">
+      <meta property="og:image" content="#{q[:img] ? "#{SITE}/#{q[:img]}" : "#{SITE}/assets/share.png"}">
+      <meta name="twitter:card" content="summary">
+      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+      #{css}
+      #{jsonld(ld)}
+      #{jsonld(crumbs)}
+    </head>
+    <body class="rs-page">
+      #{pmast}
+      <main class="rs-wrap pl-wrap"><div class="pl">
+    #{body}  </div></main>
+      #{foot}
+    </body>
+    </html>
+  HTML
+  File.write(File.join(ROOT, "people/#{q[:slug]}.html"), html)
+end
+# people/index.html: everyone we follow, grouped
+groups = PEOPLE.group_by { |q| q[:kind] }
+order = ["Key player", "Analyst and commentator", "Reporter", "Public broadcaster (SABC)", "International voice"]
+plist = { "@context" => "https://schema.org", "@type" => "CollectionPage", "name" => "People in South Africa’s 2026 coalition talks", "url" => "#{SITE}/people/", "inLanguage" => "en-ZA", "publisher" => PUBLISHER,
+          "mainEntity" => { "@type" => "ItemList", "itemListElement" => PEOPLE.each_with_index.map { |q, i| { "@type" => "ListItem", "position" => i + 1, "url" => "#{SITE}/people/#{q[:slug]}.html", "name" => q[:n] } } } }
+pbody = +%(<p class="pl-back"><a href="../coalitions.html">← Coalitions Tracker</a></p>\n<article class="pl-ev"><h1 class="pl-evh">People in South Africa’s 2026 coalition talks</h1><p class="pl-dek pl-evdek">The key players negotiating the deals, and the journalists and commentators covering them, with everything they have said and published.</p>\n)
+order.each { |g| next unless groups[g]; pbody << %(<section class="pl-sec"><h2 class="pl-sh">#{esc(g)}s</h2><ul class="pl-plist">#{groups[g].sort_by { |q| q[:n] }.map { |q| %(<li><a href="#{q[:slug]}.html"><b>#{esc(q[:n])}</b></a> · #{esc(q[:role])}</li>) }.join}</ul></section>\n) }
+pbody << "</article>\n"
+File.write(File.join(ROOT, "people/index.html"), <<~HTML)
+  <!doctype html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>People in South Africa’s 2026 coalition talks | PREAMBLE</title>
+    <meta name="description" content="Profiles of the key players negotiating South Africa’s 2026 coalition deals and the journalists and commentators covering them, with what each has said and published.">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <link rel="canonical" href="#{SITE}/people/">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+    #{css}
+    #{jsonld(plist)}
+  </head>
+  <body class="rs-page">
+    #{pmast}
+    <main class="rs-wrap pl-wrap"><div class="pl">
+  #{pbody}  </div></main>
+    #{foot}
+  </body>
+  </html>
+HTML
+
 # ---------- coalitions.html: plain-HTML snapshot the app replaces on load ----------
 ed = D["edition"]
 snap = +"\n"
@@ -136,8 +263,8 @@ STORIES.each { |s| snap << %(<p class="pl-row"><span class="pl-rt"><a href="coal
 snap << "</section>\n"
 voices = J.values.select { |p| p["group"] == "voice" }.sort_by { |p| -(p["score"] || 0) }
 players = J.values.select { |p| p["group"] == "player" }
-snap << %(<section class="pl-sec"><h2 class="pl-sh">Voices</h2><p>#{voices.map { |p| "#{esc(p["n"])} (#{esc(p["role"] || p["o"])})" }.join("; ")}.</p></section>\n)
-snap << %(<section class="pl-sec"><h2 class="pl-sh">Key players</h2><p>#{players.map { |p| "#{esc(p["n"])} (#{esc(p["role"] || p["o"])})" }.join("; ")}.</p></section>\n)
+snap << %(<section class="pl-sec"><h2 class="pl-sh">Voices</h2><p><a href="people/">Profiles of everyone we follow</a>. #{voices.map { |p| "#{NAMELINK[p["n"]] ? %(<a href="#{NAMELINK[p["n"]]}">#{esc(p["n"])}</a>) : esc(p["n"])} (#{esc(p["role"] || p["o"])})" }.join("; ")}.</p></section>\n)
+snap << %(<section class="pl-sec"><h2 class="pl-sh">Key players</h2><p>#{players.map { |p| "#{NAMELINK[p["n"]] ? %(<a href="#{NAMELINK[p["n"]]}">#{esc(p["n"])}</a>) : esc(p["n"])} (#{esc(p["role"] || p["o"])})" }.join("; ")}.</p></section>\n)
 if X["voices"].any?
   snap << %(<section class="pl-sec"><h2 class="pl-sh">International voices</h2><p>#{X["voices"].values.map { |v| "#{esc(v["n"])} (#{esc(v["role"])})" }.join("; ")}.</p></section>\n)
 end
@@ -169,6 +296,8 @@ end
 today = ed["date"]
 urls = [["#{SITE}/", today, "hourly", "1.0"], ["#{SITE}/coalitions.html", today, "hourly", "0.9"], ["#{SITE}/mayors.html", today, "daily", "0.8"], ["#{SITE}/map.html", today, "weekly", "0.7"]]
 urls += STORIES.map { |s| ["#{SITE}/coalitions/#{s[:id]}.html", s[:upd], "daily", "0.7"] }
+urls << ["#{SITE}/people/", today, "daily", "0.7"]
+urls += PEOPLE.map { |q| ["#{SITE}/people/#{q[:slug]}.html", q[:upd], "daily", "0.6"] }
 File.write(File.join(ROOT, "sitemap.xml"), %(<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n#{urls.map { |u, d, f, p| "  <url><loc>#{u}</loc><lastmod>#{d}</lastmod><changefreq>#{f}</changefreq><priority>#{p}</priority></url>" }.join("\n")}\n</urlset>\n))
 
 # ---------- llms.txt ----------
@@ -177,7 +306,9 @@ llms << "Data: Independent Electoral Commission (IEC). Summaries are written by 
 llms << "## Main pages\n\n- [2026 election results](#{SITE}/): national vote, ward map and who won each metro\n- [Coalitions Tracker](#{SITE}/coalitions.html): every story on the coalition talks, in South Africa and abroad\n- [Mayors](#{SITE}/mayors.html): who leads each metro, and who is tipped where talks continue\n- [Ward map](#{SITE}/map.html): results for every ward, searchable by address\n\n"
 llms << "## Coalition stories (newest first)\n\n"
 STORIES.each { |s| llms << "- [#{s[:h]}](#{SITE}/coalitions/#{s[:id]}.html) (#{s[:scope]}, updated #{day(s[:upd])}): #{s[:dek]}\n" }
+llms << "\n## People (profiles: who they are, what they said, every piece tracked)\n\n"
+PEOPLE.sort_by { |q| [q[:scope], q[:kind] == "Key player" ? 0 : 1, q[:n]] }.each { |q| llms << "- [#{q[:n]}](#{SITE}/people/#{q[:slug]}.html): #{q[:role]}; #{q[:kind].downcase}, #{q[:its].size} coalition #{q[:its].size == 1 ? "piece" : "pieces"}\n" }
 llms << "\n## Optional\n\n- [Tracker data (JSON)](#{SITE}/data/coalition-feed.json)\n- [Sitemap](#{SITE}/sitemap.xml)\n"
 File.write(File.join(ROOT, "llms.txt"), llms)
 
-puts "Built #{STORIES.size} story pages, sitemap (#{urls.size} URLs), llms.txt and structured data."
+puts "Built #{STORIES.size} story pages, #{PEOPLE.size} profiles, sitemap (#{urls.size} URLs), llms.txt and structured data."

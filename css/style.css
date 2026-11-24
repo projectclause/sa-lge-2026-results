@@ -1198,3 +1198,13 @@ body.has-ask { padding-bottom: 96px; }
 /* green pill: journalists at the national public broadcaster (SABC) */
 .pl-nm .pl-pb, .pl-voice .pl-nm .pl-pb { background: #e3f4e8; border-color: #8fd0a4; color: #17683a; padding: 2px 9px; }
 .pl-how-pb a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+
+/* people/<name>.html profile pages (static, for search) */
+.pl-profh { display: flex; gap: 16px; align-items: center; margin: 6px 0 4px; }
+.pl-profh img { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; object-position: top; flex: none; background: var(--soft); }
+.pl-profh .pl-evh { margin: 0; }
+.pl-prof .pl-body ul { padding-left: 18px; }
+.pl-prof .pl-body li { margin: 0 0 8px; }
+.pl-art .pl-as, .pl-prof li .pl-as { display: block; font-size: 13px; color: var(--muted2); margin-top: 3px; }
+.pl-plist { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
+@media (max-width: 720px) { .pl-profh img { width: 72px; height: 72px; } }
