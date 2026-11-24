@@ -573,6 +573,33 @@
       "org": "SABC",
       "beat": "analysis",
       "pb": true
+    },
+    "mrototo": {
+      "n": "Thembekile Mrototo",
+      "o": "SABC News",
+      "role": "Anchor, SABC News",
+      "group": "voice",
+      "org": "SABC",
+      "beat": "analysis",
+      "pb": true
+    },
+    "kotane": {
+      "n": "Thabiso Kotane",
+      "o": "SABC News",
+      "role": "Presenter, SABC News",
+      "group": "voice",
+      "org": "SABC",
+      "beat": "analysis",
+      "pb": true
+    },
+    "nyathi": {
+      "n": "Ayanda Nyathi",
+      "o": "SABC News",
+      "role": "Presenter, SABC News",
+      "group": "voice",
+      "org": "SABC",
+      "beat": "analysis",
+      "pb": true
     }
   },
   "items": [

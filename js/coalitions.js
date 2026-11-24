@@ -121,7 +121,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
   const pinTop = (list) => { list.filter(([, p]) => p.pin).forEach((x) => { const i = list.indexOf(x); if (i > PINAT) { list.splice(i, 1); list.splice(PINAT, 0, x); } }); return list; };
   // co-hosts sit together: anyone marked "after": "<key>" is placed right after that person
   const pairUp = (list) => { list.filter(([, p]) => p.after).forEach((x) => { const t = list.findIndex(([k]) => k === x[1].after); if (t < 0) return; list.splice(list.indexOf(x), 1); list.splice(list.findIndex(([k]) => k === x[1].after) + 1, 0, x); }); return list; };
-  const card = ([k, p], n) => `<button type="button" class="pl-voice${n >= TOPN ? " pl-vx" : ""}" data-k="${k}" aria-pressed="false"><img src="${p.img}" alt=""><span>${nameTag(p)}<span>${esc(p.role || p.o)}</span></span><em>${cnt(k)}</em></button>`;
+  const card = ([k, p], n) => `<button type="button" class="pl-voice${n >= TOPN ? " pl-vx" : ""}" data-k="${k}" aria-pressed="false">${p.img ? `<img src="${p.img}" alt="">` : `<i class="pl-av" aria-hidden="true">${esc(p.n.split(/\s+/).map((w) => w[0]).slice(0, 2).join("").toUpperCase())}</i>`}<span>${nameTag(p)}<span>${esc(p.role || p.o)}</span></span><em>${cnt(k)}</em></button>`;
   const grid = (list, label) => `<div class="pl-vgrid"><div class="pl-voices">${list.map(card).join("")}</div>${list.length > TOPN ? `<button type="button" class="pl-vall" aria-expanded="false" data-n="${list.length}" data-l="${label}">Show all ${list.length} ${label}</button>` : ""}</div>`;
   function peopleSections() {
     const J = Object.entries(D.journalists);
