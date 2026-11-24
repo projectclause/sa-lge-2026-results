@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Preamble News Tracker</title>
+  <meta name="description" content="An animated map of how South Africa’s 2026 coalition stories spread across outlets, journalists and commentators, day by day. Updated every hour.">
+  <meta property="og:site_name" content="PREAMBLE">
+  <meta property="og:title" content="Preamble News Tracker">
+  <meta property="og:description" content="Watch the 2026 coalition stories spread across outlets and voices, day by day.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://preamble.co.za/news-tracker.html">
+  <meta property="og:image" content="https://preamble.co.za/assets/share.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Preamble News Tracker">
+  <meta name="twitter:image" content="https://preamble.co.za/assets/share.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+  <link rel="canonical" href="https://preamble.co.za/news-tracker.html">
+  <link rel="stylesheet" href="css/style.css?v=20261124zh">
+  <link rel="stylesheet" href="css/news-tracker.css?v=20261124zh">
+</head>
+<body class="rs-page pnt-page">
+  <header class="masthead">
+    <div class="wrap masthead-row">
+      <a class="brand" href="index.html">PREAMBLE</a>
+      <nav class="page-tabs" aria-label="Pages"><a href="index.html">2026 Results</a><a href="coalitions.html">Coalitions<span class="tab-x"> Tracker</span></a><a href="mayors.html">Mayors</a><a href="map.html">Map</a><a class="tab-eye" href="news-tracker.html" aria-current="page" aria-label="Preamble News Tracker" title="Preamble News Tracker"><img src="assets/news-tracker-eye.png" alt="" width="24" height="24"></a></nav>
+    </div>
+  </header>
+
+  <main class="pnt" id="pnt">
+    <div class="pnt-head">
+      <h1 class="pnt-title">Preamble News Tracker</h1><span class="pnt-beta">BETA</span>
+    </div>
+
+    <div class="pnt-ctrl">
+      <button type="button" class="pnt-play" aria-label="Play"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="pnt-ic-play" d="M8 5v14l11-7z"/><path class="pnt-ic-pause" d="M7 5h4v14H7zM13 5h4v14h-4z"/></svg><span class="pnt-play-t">Play</span></button>
+      <span class="pnt-date" aria-live="polite"><span class="pnt-date-l"></span><span class="pnt-date-s"></span></span>
+      <input type="range" class="pnt-slider" min="0" max="0" value="0" step="1" aria-label="Day">
+      <span class="pnt-counts"></span>
+    </div>
+
+    <div class="pnt-body">
+      <div class="pnt-mapcol">
+        <div class="pnt-legend" role="group" aria-label="Show or hide layers">
+          <button type="button" class="pnt-chip" data-t="outlet" aria-pressed="true"><i style="background:#3a7bd5"></i>Outlets</button>
+          <button type="button" class="pnt-chip" data-t="story" aria-pressed="true"><i style="background:#f0501e"></i>Stories</button>
+          <button type="button" class="pnt-chip" data-t="piece" aria-pressed="true"><i style="background:#d61fbd"></i>Voice pieces</button>
+          <button type="button" class="pnt-chip" data-t="report" aria-pressed="true"><i style="background:#1fcf8f"></i>Reports</button>
+        </div>
+        <div class="pnt-stage">
+          <svg class="pnt-svg" role="img" aria-label="Network map of coalition stories, outlets, voice pieces and reports"></svg>
+          <div class="pnt-surge" aria-live="polite"></div>
+          <div class="pnt-reel" aria-hidden="true"><div class="pnt-reel-n"></div><div class="pnt-reel-l"></div></div>
+          <div class="pnt-confetti" aria-hidden="true"></div>
+          <div class="pnt-tip" role="tooltip"></div>
+          <div class="pnt-panel" hidden></div>
+          <p class="pnt-hint"></p>
+          <p class="pnt-msg">Loading…</p>
+        </div>
+        <section class="pnt-trend" aria-label="Trending">
+          <h2 class="pnt-trend-h">TRENDING</h2>
+          <div class="pnt-trend-rows"></div>
+        </section>
+      </div>
+      <div class="pnt-feed" aria-label="Latest pieces and reports" aria-live="off"></div>
+    </div>
+  </main>
+
+  <footer class="footer"><div class="wrap ft-row"><span>PREAMBLE · Data: Independent Electoral Commission</span><nav class="ft-social" aria-label="Preamble on social media"><a href="https://www.instagram.com/preamblehqdotcom/" target="_blank" rel="noopener" aria-label="Preamble on Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.4" cy="6.6" r="1.3" fill="currentColor"/></svg></a><a href="https://youtube.com/preambleyt" target="_blank" rel="noopener" aria-label="Preamble on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4" fill="currentColor"/><path d="M10 9l5 3-5 3z" fill="#fff"/></svg></a><a href="https://preamble.substack.com/" target="_blank" rel="noopener" aria-label="Preamble on Substack"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h14v2.4H5zM5 7.2h14v2.4H5zM5 11.4h14V21l-7-3.9L5 21z" fill="currentColor"/></svg></a><a href="mailto:preamblehq@gmail.com" aria-label="Email Preamble at preamblehq@gmail.com" title="preamblehq@gmail.com"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5A1.5 1.5 0 0 1 4.5 5h15A1.5 1.5 0 0 1 21 6.5v11a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.6 6.4 12 13l8.4-6.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></a></nav><a class="ft-mail" href="mailto:preamblehq@gmail.com">preamblehq@gmail.com</a></div></footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+  <script src="js/feed.js?v=20261124zh"></script>
+  <script src="js/news-tracker.js?v=20261124zh"></script>
+</body>
+</html>

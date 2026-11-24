@@ -1208,3 +1208,12 @@ body.has-ask { padding-bottom: 96px; }
 .pl-art .pl-as, .pl-prof li .pl-as { display: block; font-size: 13px; color: var(--muted2); margin-top: 3px; }
 .pl-plist { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
 @media (max-width: 720px) { .pl-profh img { width: 72px; height: 72px; } }
+
+/* eye icon at the end of the page tabs: links to the Preamble News Tracker (news-tracker.html).
+   On phones the tabs scroll sideways; the eye stays pinned at the right end so it is always visible. */
+.page-tabs a.tab-eye{padding:2px 4px;display:inline-flex;align-items:center;justify-content:center;position:sticky;right:0;flex:none;background:#fff;box-shadow:-10px 0 10px -2px #fff;border-radius:0}
+.page-tabs a.tab-eye img{width:24px;height:24px;display:block;border-radius:50%;transition:transform .2s ease}
+.page-tabs a.tab-eye:hover,.page-tabs a.tab-eye[aria-current="page"]{background:#fff}
+.page-tabs a.tab-eye:hover img{transform:scale(1.15) rotate(-8deg)}
+.page-tabs a.tab-eye[aria-current="page"] img{box-shadow:0 0 0 2px var(--text)}
+@media (max-width:640px){.page-tabs a.tab-eye img{width:22px;height:22px}}
