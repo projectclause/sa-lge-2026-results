@@ -613,6 +613,16 @@
       "org": "SABC",
       "beat": "analysis",
       "pb": true
+    },
+    "lemawane": {
+      "n": "Collen Lemawane",
+      "o": "SABC News",
+      "img": "assets/journalists/collen-lemawane.jpg",
+      "role": "Presenter, SABC News",
+      "group": "voice",
+      "org": "SABC",
+      "beat": "analysis",
+      "pb": true
     }
   },
   "items": [
