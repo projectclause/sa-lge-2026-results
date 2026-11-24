@@ -532,7 +532,8 @@
       "role": "Host, Three Beanies Network",
       "group": "voice",
       "org": "TBN",
-      "beat": "analysis"
+      "beat": "analysis",
+      "wide": true
     },
     "dooms": {
       "n": "Tessa Dooms",
@@ -643,7 +644,8 @@
       "org": "SABC",
       "beat": "reporting",
       "pb": true,
-      "slot": 3
+      "slot": 3,
+      "wide": true
     },
     "giokos": {
       "n": "Heidi Giokos",
@@ -653,7 +655,8 @@
       "group": "voice",
       "org": "SABC",
       "beat": "reporting",
-      "pb": true
+      "pb": true,
+      "wide": true
     },
     "bruce": {
       "n": "Peter Bruce",
@@ -690,6 +693,15 @@
       "group": "voice",
       "org": "BD",
       "beat": "reporting"
+    },
+    "tabane": {
+      "n": "JJ Tabane",
+      "o": "Frank Dialogue",
+      "img": "assets/journalists/jj-tabane.jpg",
+      "role": "Host, Frank Dialogue podcast; political analyst",
+      "group": "voice",
+      "org": "Frank Dialogue",
+      "beat": "analysis"
     }
   },
   "items": [
@@ -3002,6 +3014,28 @@
       "s": "Maeko reported that legal challenges and party disputes were delaying council inaugurations in key cities, with a directive postponing council meetings.",
       "src": "Sunday Times",
       "url": "https://www.sundaytimes.timeslive.co.za/politics/2026-11-24-coalition-talks-delay-sa-council-meetings-amid-legal-challenges/"
+    },
+    {
+      "id": "jt-truth",
+      "j": "tabane",
+      "d": "2026-11-16",
+      "kind": "Interview",
+      "place": "National",
+      "h": "JJ Tabane: Can South Africa’s coalitions deliver real change?",
+      "s": "In an interview with Truth Report, Tabane examined the ANC’s election losses, its record on accountability and the coalition negotiations.",
+      "src": "Truth Report",
+      "url": "https://www.youtube.com/watch?v=uYUZ7nLV1NA"
+    },
+    {
+      "id": "jt-panel",
+      "j": "tabane",
+      "d": "2026-11-18",
+      "kind": "Podcast",
+      "place": "National",
+      "h": "Coalition special with JJ Tabane",
+      "s": "Tabane hosted a Sunday World panel of political analysts, including Qaanitah Hunter and Brutus Malada, to debate the coalition negotiations taking place behind closed doors.",
+      "src": "Sunday World Podcast",
+      "url": "https://www.youtube.com/watch?v=tzHfOS5Vrq8"
     }
   ],
   "edition": {
