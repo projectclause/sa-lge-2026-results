@@ -9,6 +9,11 @@
   const ymd = (d) => d.split("-").map(Number);
   const day = (d) => { const [, m, dd] = ymd(d); return `${dd} ${MON[m - 1].slice(0, 3)}`; };
   const long = (d) => { const [y, m, dd] = ymd(d); return `${DAYS[new Date(y, m - 1, dd).getDay()]} ${dd} ${MON[m - 1]}`; };
+  // the edition header shows today's date in South Africa (SAST), rolling over at midnight on its own
+  const today = () => new Intl.DateTimeFormat("en-CA", { timeZone: "Africa/Johannesburg" }).format(new Date()); // YYYY-MM-DD
+  // "as of 09:00" when the data was updated today, otherwise when it was last updated
+  const asOf = (label, ed) => `${label} edition, ${today() === ed.date ? `as of ${ed.time}` : `last updated ${day(ed.date)} at ${ed.time}`}`;
+  setInterval(() => { const t = long(today()); document.querySelectorAll(".pl-date").forEach((h) => { if (h.textContent !== t) h.textContent = t; }); }, 60000);
   const and = (a) => a.length < 2 ? a.join("") : a.slice(0, -1).join(", ") + " and " + a[a.length - 1];
   const root = document.querySelector(".pl");
   // journalists and commentators first, then the politicians negotiating the deals
@@ -184,8 +189,8 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
     root.innerHTML = `
       <header class="pl-ed">
         <p class="pl-kick">Coalitions Tracker · Preamble</p>
-        <h1 class="pl-date">${long(D.edition.date)}</h1>
-        <p class="pl-asof">Coalitions edition, as of ${esc(D.edition.time)}</p>
+        <h1 class="pl-date">${long(today())}</h1>
+        <p class="pl-asof">${esc(asOf("Coalitions", D.edition))}</p>
         <p class="pl-intro">Preamble’s Coalitions Tracker gathers coverage of the 2026 coalition talks from established news outlets in South Africa and around the world. It groups reports on the same event into one story, writes a structured summary with AI, and links back to every original article. It also tracks what key journalists and politicians are saying. None of them write for Preamble.</p>
       </header>
       <a class="pl-lead" href="#${lead.id}">
@@ -324,8 +329,8 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
     root.innerHTML = `
       <header class="pl-ed">
         <p class="pl-kick">Coalitions Tracker · International</p>
-        <h1 class="pl-date">${long(D.edition.date)}</h1>
-        <p class="pl-asof">International edition, as of ${esc(D.edition.time)}</p>
+        <h1 class="pl-date">${long(today())}</h1>
+        <p class="pl-asof">${esc(asOf("International", D.edition))}</p>
         <p class="pl-intro">How news outlets outside South Africa are covering the 2026 coalition talks. Preamble groups their reports into stories, writes a short AI summary of the angle each one takes, and links back to every original article. ${X.brief[0]}. None of these journalists write for Preamble.</p>
       </header>
       <a class="pl-lead" href="#${lead.id}">
