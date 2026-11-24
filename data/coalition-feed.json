@@ -643,6 +643,16 @@
       "org": "SABC",
       "beat": "reporting",
       "pb": true
+    },
+    "giokos": {
+      "n": "Heidi Giokos",
+      "o": "SABC News",
+      "img": "assets/journalists/heidi-giokos.jpg",
+      "role": "Reporter, SABC News",
+      "group": "voice",
+      "org": "SABC",
+      "beat": "reporting",
+      "pb": true
     }
   },
   "items": [
@@ -2779,6 +2789,39 @@
       "s": "With the deadline for councils to sit approaching, Maseko unpacked the latest negotiations; the ANC, seen as kingmaker, was expected to announce outcomes on Friday.",
       "src": "SABC News",
       "url": "https://www.youtube.com/watch?v=tABbWAjBemU"
+    },
+    {
+      "id": "hg-brink",
+      "j": "giokos",
+      "d": "2026-11-07",
+      "kind": "Video",
+      "place": "Tshwane",
+      "h": "We’ll approach negotiations with humility: DA’s Cilliers Brink",
+      "s": "Giokos interviewed the DA’s Tshwane mayoral candidate Cilliers Brink, who said the party would go into coalition negotiations with humility and openness.",
+      "src": "SABC News",
+      "url": "https://www.youtube.com/watch?v=JxI8VIMMkj0"
+    },
+    {
+      "id": "hg-gauteng",
+      "j": "giokos",
+      "d": "2026-11-18",
+      "kind": "Video",
+      "place": "Gauteng",
+      "h": "Political parties explore coalition possibilities in Gauteng",
+      "s": "Giokos reported on the coalition negotiations and the latest developments in Gauteng’s three metros.",
+      "src": "SABC News",
+      "url": "https://www.youtube.com/watch?v=39I1_rMCENo"
+    },
+    {
+      "id": "hg-metros",
+      "j": "giokos",
+      "d": "2026-11-18",
+      "kind": "Video",
+      "place": "Gauteng",
+      "h": "Coalition negotiations over Gauteng metros",
+      "s": "A further update from Giokos on the talks over who will govern Johannesburg, Tshwane and Ekurhuleni.",
+      "src": "SABC News",
+      "url": "https://www.youtube.com/watch?v=0cIC1cnNzes"
     }
   ],
   "edition": {
