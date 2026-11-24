@@ -2534,11 +2534,68 @@
       "src": "News24",
       "url": "https://www.news24.com/opinions/columnists/adriaan-basson-how-mashaba-and-auctionsa-betrayed-their-gatvol-voters-20261123-1128",
       "pay": true
+    },
+    {
+      "id": "ls-live23",
+      "j": "simelane",
+      "d": "2026-11-23",
+      "kind": "Reported",
+      "place": "Johannesburg",
+      "h": "Joburg mayor vote pushed to Friday as coalition talks continue",
+      "s": "With Reitumetse Pilane and Naledi Mashishi, Simelane reported Daily Maverick’s live coverage of Johannesburg’s first council sitting: councillors were sworn in, the election of the speaker, mayor and deputy mayor was postponed to Friday, and parties were expected to sign their agreement on Tuesday, with issues still outstanding.",
+      "src": "Daily Maverick",
+      "url": "https://www.dailymaverick.co.za/article/2026-11-23-live-joburgs-new-council-sits-for-the-first-time/"
+    },
+    {
+      "id": "ho-unity",
+      "j": "omarjee",
+      "d": "2026-11-23",
+      "kind": "Reported",
+      "place": "National",
+      "h": "Ramaphosa faces tough ANC unity test in coalition talks",
+      "s": "Before Monday’s NEC, Omarjee reported that two Luthuli House sources said sidelining the DA for pacts with ActionSA, the EFF and MK had sparked fierce debate, but opponents of the “done deal” expected to be in the minority. The sources said Ramaphosa himself had told the party to avoid coalitions with the DA and to treat one as a last resort.",
+      "src": "Business Day",
+      "url": "https://www.timeslive.co.za/politics/2026-11-23-ramaphosa-faces-tough-anc-unity-test-in-coalition-talks/",
+      "pay": true
+    },
+    {
+      "id": "js-ramaphosa",
+      "j": "steinberg",
+      "d": "2026-11-22",
+      "kind": "Column",
+      "place": "National",
+      "h": "What happened to Cyril Ramaphosa?",
+      "s": "Steinberg argues that Ramaphosa spending one of the most important weeks of his presidency in California is a sign of his waning power.",
+      "src": "News24",
+      "url": "https://www.news24.com/opinions/columnists/jonny-steinberg-what-happened-to-cyril-ramaphosa-20261122-0837",
+      "pay": true
+    },
+    {
+      "id": "tg-ifp",
+      "j": "goba",
+      "d": "2026-11-11",
+      "kind": "Reported",
+      "place": "KwaZulu-Natal and nationally",
+      "h": "IFP pushes for countrywide coalition partnerships",
+      "s": "Goba reported that the IFP wants coalition partners across the country rather than deals in isolated municipalities.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/ifp-pushes-for-countrywide-coalition-partnerships"
+    },
+    {
+      "id": "hz-threshold",
+      "j": "helen",
+      "d": "2026-11-23",
+      "kind": "Interview",
+      "place": "Johannesburg",
+      "h": "Zille calls for electoral reform to stop small parties ‘making government unstable’",
+      "s": "Speaking to News24 before Johannesburg’s first sitting, Zille said the DA had submitted a private member’s bill for a 2% vote threshold for any party to be represented in legislatures and councils, calling it undemocratic that parties with under 1% can shape who governs. The DA has 91 of Johannesburg’s 270 seats.",
+      "src": "News24",
+      "url": "https://www.news24.com/politics/zille-calls-for-electoral-reform-to-stop-small-parties-making-government-unstable-20261123-0828"
     }
   ],
   "edition": {
     "date": "2026-11-24",
-    "time": "06:40"
+    "time": "09:00"
   },
   "events": [
     {
@@ -2654,7 +2711,9 @@
         "ar-fri",
         "mg-update",
         "sol-pc23",
-        "ab-auction"
+        "ab-auction",
+        "ls-live23",
+        "hz-threshold"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
@@ -2887,6 +2946,30 @@
           "h": "Brink to rule on DA bid to postpone Joburg council sitting after swearing-in",
           "d": "2026-11-23",
           "url": "https://thenational.co.za/news/2026-11-23-brink-to-rule-on-da-bid-to-postpone-joburg-council-sitting-after-swearing-in/"
+        },
+        {
+          "src": "IOL",
+          "h": "Former Joburg speaker Margaret Arnolds backs possible Mashaba mayoral bid",
+          "d": "2026-11-24",
+          "url": "https://iol.co.za/lge2026/2026-11-24-former-joburg-speaker-margaret-arnolds-backs-possible-mashaba-mayoral-bid/"
+        },
+        {
+          "src": "The Citizen",
+          "h": "D-day for Joburg mayor looms as council postpones election to Friday",
+          "d": "2026-11-24",
+          "url": "https://www.citizen.co.za/news/south-africa/politics/d-day-for-joburg-mayor-looms-as-council-postpones-election-to-friday/"
+        },
+        {
+          "src": "TimesLIVE",
+          "h": "‘We have not thrown in the towel’: DA on Joburg coalition talks",
+          "d": "2026-11-23",
+          "url": "https://www.timeslive.co.za/politics/2026-11-23-we-have-not-thrown-in-the-towel-da-on-joburg-coalition-talks/"
+        },
+        {
+          "src": "IOL",
+          "h": "Zille-Mashaba rivalry deepens as DA’s final coalition offer falters",
+          "d": "2026-11-23",
+          "url": "https://iol.co.za/the-star/news/2026-11-23-zille-mashaba-rivalry-deepens-as-das-final-coalition-offer-falters/"
         }
       ]
     },
@@ -3125,7 +3208,8 @@
       ],
       "items": [
         "j-lim",
-        "hl-sw"
+        "hl-sw",
+        "tg-ifp"
       ],
       "voices": {
         "julius": "Proposed the ANC lead 30 of Limpopo’s 39 hung councils and the EFF nine.",
@@ -3173,7 +3257,8 @@
         "The NEC has barred top officials from signing local deals without its approval, The Citizen reports",
         "The NEC meeting is under way at the Birchwood Hotel in Boksburg, spokesperson Mahlengi Bhengu said",
         "Bhengu says the negotiators’ report follows the coalition framework the ANC adopted in 2023",
-        "An earlier special NEC resolved that the DA should be the ANC’s last option, the Mail & Guardian reports"
+        "An earlier special NEC resolved that the DA should be the ANC’s last option, the Mail & Guardian reports",
+        "News24 reports the NEC has handed the decision on coalition partners to the ANC’s provinces and regions, which have very different preferences"
       ],
       "sec": [
         [
@@ -3183,6 +3268,10 @@
         [
           "What insiders say he said",
           "On 11 November the Sunday Times reported, citing unnamed insiders, that Ramaphosa told a closed ANC meeting to explore a Johannesburg coalition without the DA. ANC spokesperson Mahlengi Bhengu dismissed claims that he had stated a preference. Preamble has not seen this confirmed on the record."
+        ],
+        [
+          "The NEC decides",
+          "Before the meeting, Business Day’s Hajra Omarjee reported Luthuli House sources saying Ramaphosa had told the party to avoid coalitions with the DA and treat one as a last resort, with opponents of the four-party deal expecting to be in the minority. Late on Monday, News24 reported that the national executive committee had handed the power to choose coalition partners to its provinces and regions, which have very different preferences on whom to align with."
         ]
       ],
       "items": [
@@ -3191,12 +3280,16 @@
         "r-st",
         "mbh-deny",
         "lt-st",
-        "bh-nec"
+        "bh-nec",
+        "ho-unity",
+        "js-ramaphosa"
       ],
       "voices": {
         "cyril": "In public, asks every party to negotiate in good faith and form councils quickly. A report from unnamed insiders says he wants the DA kept out of Johannesburg; the ANC denies it.",
         "bhengu": "Said the NEC would weigh its negotiators’ report under the ANC’s 2023 coalition framework, and that any deal must deliver stable councils.",
-        "tandwa": "Broke the story, citing unnamed insiders, that Ramaphosa wants the DA kept out of Joburg."
+        "tandwa": "Broke the story, citing unnamed insiders, that Ramaphosa wants the DA kept out of Joburg.",
+        "omarjee": "Reported Luthuli House sources saying Ramaphosa himself told the ANC to treat the DA as a last resort.",
+        "steinberg": "Argued that Ramaphosa spending a crucial week in California shows his waning power."
       },
       "coverage": [
         {
@@ -3252,6 +3345,12 @@
           "h": "ANC NEC to make final call on coalition partners",
           "d": "2026-11-23",
           "url": "https://witness.co.za/news/kzn/2026/11/23/anc-nec-to-make-final-call-on-coalition-partners/"
+        },
+        {
+          "src": "News24",
+          "h": "ANC hands coalition decision to provincial and regional party structures",
+          "d": "2026-11-23",
+          "url": "https://www.news24.com/politics/anc-hands-coalition-decision-to-provincial-and-regional-party-structures-20261123-1277"
         }
       ]
     },
@@ -3535,6 +3634,30 @@
           "h": "eThekwini challenges Cogta directive to postpone inaugural council meeting",
           "d": "2026-11-24",
           "url": "https://iol.co.za/dailynews/news/2026-11-24-ethekwini-challenges-cogta-directive-to-postpone-inaugural-council-meeting/"
+        },
+        {
+          "src": "TimesLIVE",
+          "h": "ANC NEC mulls competing KZN coalition proposals with eye on Durban",
+          "d": "2026-11-23",
+          "url": "https://www.timeslive.co.za/politics/2026-11-23-anc-nec-mulls-competing-kzn-coalition-proposals-with-eye-on-durban/"
+        },
+        {
+          "src": "IOL",
+          "h": "Showdown in eThekwini as city manager refuses Cogta postponement order",
+          "d": "2026-11-23",
+          "url": "https://iol.co.za/news/politics/2026-11-23-showdown-in-ethekwini-as-city-manager-refuses-cogta-postponement-order/"
+        },
+        {
+          "src": "IOL",
+          "h": "First council sitting is a legal process, not a political favour, says ActionSA",
+          "d": "2026-11-24",
+          "url": "https://iol.co.za/news/politics/2026-11-24-first-council-sitting-is-a-legal-process-not-a-political-favour-says-actionsa/"
+        },
+        {
+          "src": "TimesLIVE",
+          "h": "eThekwini pushes back on provincial order to delay inaugural council meeting",
+          "d": "2026-11-24",
+          "url": "https://www.timeslive.co.za/politics/2026-11-24-ethekwini-pushes-back-on-provincial-order-to-delay-inaugural-council-meeting/"
         }
       ]
     },
