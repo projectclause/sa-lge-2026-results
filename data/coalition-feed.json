@@ -603,6 +603,16 @@
       "org": "SABC",
       "beat": "analysis",
       "pb": true
+    },
+    "tsimelane": {
+      "n": "Thulasizwe Simelane",
+      "o": "SABC News",
+      "img": "assets/journalists/thulasizwe-simelane.jpg",
+      "role": "Journalist, SABC News",
+      "group": "voice",
+      "org": "SABC",
+      "beat": "analysis",
+      "pb": true
     }
   },
   "items": [
