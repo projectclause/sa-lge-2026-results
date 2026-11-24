@@ -731,6 +731,16 @@
       "group": "voice",
       "org": "The Power Pod",
       "beat": "analysis"
+    },
+    "bingwa": {
+      "n": "Bongani Bingwa",
+      "o": "702",
+      "img": "assets/journalists/bongani-bingwa.jpg",
+      "role": "Host, 702 Breakfast",
+      "group": "voice",
+      "org": "702",
+      "beat": "analysis",
+      "wide": true
     }
   },
   "items": [
@@ -3362,6 +3372,61 @@
       "s": "Cohen spoke to Gareth Cliff about coalition chaos, what voters want, and the DA–ActionSA stand-off.",
       "src": "The Power Pod",
       "url": "https://www.youtube.com/watch?v=SplrdFMo4UQ"
+    },
+    {
+      "id": "bb-gnu",
+      "j": "bingwa",
+      "d": "2026-11-08",
+      "kind": "Interview",
+      "place": "National",
+      "h": "Can the GNU teach parties about governing SA’s municipalities?",
+      "s": "On 702 Breakfast, Bingwa asked what the national unity government could teach parties about governing municipalities through coalitions.",
+      "src": "702",
+      "url": "https://www.youtube.com/watch?v=J-OdD1uZMP0"
+    },
+    {
+      "id": "bb-metros",
+      "j": "bingwa",
+      "d": "2026-11-15",
+      "kind": "Interview",
+      "place": "Metros",
+      "h": "Coalition horse-trading: who will govern South Africa’s metros?",
+      "s": "A 702 Breakfast segment on the horse-trading over who will govern South Africa’s metros.",
+      "src": "702",
+      "url": "https://www.youtube.com/watch?v=81UgK9vnny8"
+    },
+    {
+      "id": "bb-swana",
+      "j": "bingwa",
+      "d": "2026-11-18",
+      "kind": "Interview",
+      "place": "Gauteng metros",
+      "h": "Coalition talks: Is ActionSA the kingmaker in Gauteng’s metros?",
+      "s": "Bingwa and analyst Sandile Swana unpacked the talks in Johannesburg, Tshwane and Ekurhuleni: ActionSA’s kingmaker role, the dispute over mayoral candidates and whether the ANC or DA can win its support.",
+      "src": "702",
+      "url": "https://www.youtube.com/watch?v=WPzDQB5ldL8"
+    },
+    {
+      "id": "bb-mashaba",
+      "j": "bingwa",
+      "d": "2026-11-18",
+      "kind": "Interview",
+      "place": "Gauteng metros",
+      "h": "Mashaba hints at possible coalition governments without DA in Gauteng",
+      "s": "ActionSA president Herman Mashaba spoke to Bingwa about the coalition negotiations in Johannesburg, Tshwane and Ekurhuleni.",
+      "src": "702",
+      "url": "https://www.youtube.com/watch?v=Ba0WzoC8EnU"
+    },
+    {
+      "id": "bb-calland",
+      "j": "bingwa",
+      "d": "2026-11-23",
+      "kind": "Interview",
+      "place": "Johannesburg",
+      "h": "The battle for South Africa’s hung councils",
+      "s": "Bingwa spoke to UCT’s Prof Richard Calland about the Johannesburg talks: 270 councillors sworn in, but still no mayor, speaker or mayoral committee.",
+      "src": "702",
+      "url": "https://www.youtube.com/watch?v=BmlII20wyy8"
     }
   ],
   "edition": {
@@ -3497,7 +3562,8 @@
         "bs-chaos",
         "bs-purse",
         "cw-zille",
-        "cw-chaos"
+        "cw-chaos",
+        "bb-calland"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
@@ -3539,7 +3605,8 @@
         "masuabi": "Reported ActionSA saying it was still far from a deal on 19 November, then that the ANC’s Adolph Marema was tipped for council speaker as the parties neared one.",
         "maeko": "Reported the ANC’s offer to make Mashaba mayor and bypass the DA, and that MK could take Joburg’s deputy mayor post.",
         "byron": "Says an ActionSA–ANC deal could make Mashaba mayor, with the ANC wanting control of city finances in return.",
-        "wyatt": "Reacted to reports that Zille conceded the mayoral race, and calls the Mashaba arrangement a coalition of chaos."
+        "wyatt": "Reacted to reports that Zille conceded the mayoral race, and calls the Mashaba arrangement a coalition of chaos.",
+        "bingwa": "Asked why Johannesburg still has no mayor, speaker or mayoral committee after 270 councillors were sworn in."
       },
       "coverage": [
         {
@@ -4537,7 +4604,9 @@
         "cw-incomp",
         "cw-never",
         "mc-standoff",
-        "mc-ffplus"
+        "mc-ffplus",
+        "bb-swana",
+        "bb-mashaba"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
@@ -4563,7 +4632,8 @@
         "masuabi": "Reported Beaumont saying ActionSA was still far from a deal, with mayoral committee posts, council seats and city programmes unsettled.",
         "byron": "Asks whether ActionSA has betrayed its voters, setting Mashaba’s 2021 promise not to help the ANC in Joburg against the party’s talks with it now.",
         "wyatt": "Sets Mashaba’s pledge never to go into coalition with the ANC against ActionSA’s talks with it now.",
-        "mathew": "Did the coalition maths on the metros, and covered ActionSA asking the FF Plus to mediate its talks with the DA."
+        "mathew": "Did the coalition maths on the metros, and covered ActionSA asking the FF Plus to mediate its talks with the DA.",
+        "bingwa": "Interviewed Mashaba, who hinted at coalition governments without the DA in Gauteng, and asked whether ActionSA is the kingmaker."
       },
       "coverage": [
         {
@@ -4765,7 +4835,8 @@
         "ah-biz",
         "sg-pod",
         "im-rand",
-        "dc-gnu"
+        "dc-gnu",
+        "bb-gnu"
       ],
       "voices": {
         "adriaan": "Named four coalition scenarios (Ukraine, Lesotho, Rainbow and Ghana), expected a DA-ANC deal, then warned the fight over the cities could bring down the unity government.",
@@ -4780,7 +4851,8 @@
         "hogg": "Interviewed Gayton McKenzie as the ANC’s national executive chose its path.",
         "gcilishe": "Hosted Malema on the EFF podcast as the talks continued.",
         "mafisa": "Reported the ANC rejecting claims that the coalition talks drove the rand down.",
-        "corder": "Asked whether the DA would quit the GNU as an ANC–ActionSA deal took shape."
+        "corder": "Asked whether the DA would quit the GNU as an ANC–ActionSA deal took shape.",
+        "bingwa": "Asked what the national unity government can teach parties about governing municipalities."
       },
       "coverage": [
         {
