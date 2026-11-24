@@ -150,6 +150,8 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
     root.querySelectorAll(".pl-vtabs button").forEach((t) => t.onclick = () => {
       root.querySelectorAll(".pl-vtabs button").forEach((x) => x.setAttribute("aria-selected", String(x === t)));
       root.querySelectorAll(".pl-beat").forEach((x) => { x.hidden = x.dataset.beat !== t.dataset.beat; });
+      // phones: slide the chosen tab fully into view in the carousel
+      const row = t.parentElement; if (row.scrollWidth > row.clientWidth) row.scrollTo({ left: Math.max(0, t.offsetLeft - row.offsetLeft - 16), behavior: "smooth" });
     });
   }
   // inside a story: the people who moved it most (decision-makers and the latest to speak first)

@@ -1126,6 +1126,8 @@ body.has-ask { padding-bottom: 96px; }
 .pl-vtabs button i { font-style: normal; font-size: 12px; color: var(--muted); }
 .pl-vtabs button[aria-selected="true"] { background: var(--text); border-color: var(--text); color: #fff; }
 .pl-vtabs button[aria-selected="true"] i { color: rgba(255,255,255,.7); }
+/* phones: the Voices tabs become a one-row swipe carousel that bleeds to the screen edge */
+@media (max-width:720px){ .pl-vtabs { flex-wrap: nowrap; overflow-x: auto; scroll-snap-type: x proximity; -webkit-overflow-scrolling: touch; scrollbar-width: none; margin-right: -16px; padding-right: 16px; scroll-padding-left: 0; } .pl-vtabs::-webkit-scrollbar { display: none; } .pl-vtabs button { flex: 0 0 auto; white-space: nowrap; scroll-snap-align: start; } }
 /* story page: who's driving this */
 .pl-drive { margin: 16px 0 6px; padding: 14px 0 4px; border-top: 1px solid var(--rule); }
 .pl-drive h2 { margin: 0 0 10px; font-size: 13px; font-weight: 800; letter-spacing: .07em; text-transform: uppercase; color: var(--muted2); }
