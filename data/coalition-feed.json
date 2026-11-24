@@ -542,6 +542,18 @@
       "group": "voice",
       "org": "RC",
       "beat": "analysis"
+    },
+    "sol": {
+      "n": "Sol Phenduka",
+      "o": "Podcast and Chill",
+      "img": "assets/journalists/sol-phenduka.jpg",
+      "role": "Co-host, Podcast and Chill",
+      "group": "voice",
+      "org": "IND",
+      "wide": true,
+      "beat": "analysis",
+      "score": 24.2,
+      "after": "macg"
     }
   },
   "items": [
@@ -2488,6 +2500,28 @@
       "s": "Dooms told Kaya 959 that the ANC appears to see a deal with the DA as a risk because of how its own supporters feel about it, and that the 14-day window may not prevent a revolving door of mayors. She called the DA’s outreach to MK, a party it had described as unconstitutional, one of the surprises of the talks, and said MK had learnt to respect its voters’ wishes.",
       "src": "Kaya 959",
       "url": "https://www.kaya959.co.za/news/elections-2026/johannesburg-power-struggle-why-herman-mashaba-holds-the-cards-in-da-coalition-talks"
+    },
+    {
+      "id": "sol-pc12",
+      "j": "sol",
+      "d": "2026-11-12",
+      "kind": "Video",
+      "place": "Johannesburg",
+      "h": "Post-election analysis on Podcast and Chill",
+      "s": "Co-hosting with MacG, Phenduka went through what the election revealed, the EFF’s decline and the fight for Johannesburg with the show’s political analyst Zimasa Vabaza.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=yaglpEGvBRs&t=2682s"
+    },
+    {
+      "id": "sol-pc23",
+      "j": "sol",
+      "d": "2026-11-23",
+      "kind": "Video",
+      "place": "Gauteng metros",
+      "h": "Podcast and Chill: coalition talks update",
+      "s": "Phenduka co-hosted Monday’s Podcast and Chill with MacG, which included an update on the coalition talks.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=mnGtdlWxZnM"
     }
   ],
   "edition": {
@@ -2606,7 +2640,8 @@
         "ls-ffp",
         "zv-macg",
         "ar-fri",
-        "mg-update"
+        "mg-update",
+        "sol-pc23"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
@@ -2640,7 +2675,8 @@
         "ramushwana": "Reported that Joburg’s mayor is now expected to be elected on Friday, with Ekurhuleni sitting Wednesday and Tshwane Thursday.",
         "moichela": "Followed the Joburg deal for IOL, from smaller parties backing Mashaba to the DA’s legal letter and MK’s Baloyi as deputy.",
         "simelane": "Reported that the FF Plus tried and failed to broker a DA–ActionSA deal between Zille and Mashaba.",
-        "zimasa": "On Podcast and Chill with MacG, went through who could control Johannesburg and whether the ANC can rebuild before 2029."
+        "zimasa": "On Podcast and Chill with MacG, went through who could control Johannesburg and whether the ANC can rebuild before 2029.",
+        "sol": "Co-hosted Podcast and Chill’s coalition talks update with MacG as Joburg’s council sat."
       },
       "coverage": [
         {
@@ -3857,7 +3893,8 @@
         "ls-rout",
         "dc-metros",
         "td-sowetan",
-        "td-capetalk"
+        "td-capetalk",
+        "sol-pc12"
       ],
       "voices": {
         "pieter": "Saw the ANC’s decline speeding up, with the party on the brink of second, third or fourth place in seven of the eight metros.",
@@ -3868,7 +3905,8 @@
         "berkowitz": "Says the ANC is “bleeding from a thousand cuts” to ActionSA, the DA, the UDM, the SACP and local movements.",
         "simelane": "Reported that the ANC had lost the lead in four metros and must choose between coalition deals and opposition.",
         "corder": "As results firmed up, set out how coalitions could take shape in the cities.",
-        "dooms": "Said the ANC’s dramatic decline is the defining feature of the results, reflecting disillusionment with incumbents rather than enthusiasm for any one party."
+        "dooms": "Said the ANC’s dramatic decline is the defining feature of the results, reflecting disillusionment with incumbents rather than enthusiasm for any one party.",
+        "sol": null
       },
       "coverage": [
         {

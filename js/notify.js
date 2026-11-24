@@ -1,9 +1,9 @@
 // A phone-style notification above the ask bar, rotating every 3 seconds (from the Coalitions Tracker).
-// Home page: what MacG, Clement Manyathela, Adriaan Basson, Sizwe Mpofu-Walsh, Alec Hogg and Prince Mashele are saying.
+// Home page: what MacG, Sol Phenduka, Clement Manyathela, Adriaan Basson, Sizwe Mpofu-Walsh, Alec Hogg and Prince Mashele are saying.
 // Coalitions page, phones only: the latest piece from each "Wide Reach" voice.
 (function () {
   "use strict";
-  const WHO = ["macg", "clement", "adriaan", "sizwe", "hogg", "mashele"];
+  const WHO = ["macg", "sol", "clement", "adriaan", "sizwe", "hogg", "mashele"];
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
   const day = (d) => { const [, m, dd] = d.split("-").map(Number); return `${dd} ${MON[m - 1]}`; };
@@ -23,6 +23,8 @@
       return { k, p, it, href: "coalitions.html" + (!phone && ev ? "#" + ev.id : "") };
     }).filter(Boolean);
     cards.sort((a, b) => b.it.d.localeCompare(a.it.d)); // newest first, so fresh pieces lead
+    // co-hosts appear back to back (Sol Phenduka right after MacG)
+    cards.slice().forEach((c) => { const t = c.p.after; if (!t) return; const ti = cards.findIndex((x) => x.k === t); if (ti < 0) return; cards.splice(cards.indexOf(c), 1); cards.splice(cards.findIndex((x) => x.k === t) + 1, 0, c); });
     if (!cards.length) return;
     const box = document.createElement("div");
     box.className = "nt"; box.setAttribute("aria-live", "polite");
