@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "note": "Where each hung council is leaning before its mayoral vote, based on news reports. lean: -2 likely A, -1 lean A, 0 toss-up, 1 lean B, 2 likely B. Bloc seats are counted from the council results.",
   "metros": {
     "JHB": {
@@ -20,26 +20,26 @@
           "MK"
         ]
       },
-      "lean": 1,
-      "why": "The ANC, ActionSA, EFF and MK pact that would make Herman Mashaba mayor is still unsigned, and the vote was postponed on Monday. The ANC rejected ActionSA’s offer of a council seat for Loyiso Masuku, and Mashaba says the ball is in the ANC’s court as its NEC decides.",
+      "lean": 2,
+      "why": "Daily Maverick reports the ANC, ActionSA, MK and EFF will form the core of Johannesburg’s government, with Herman Mashaba likely to be inaugurated this week. EWN says parties are in the final stages of talks and the mayor is now expected to be elected on Friday. The deal is still to be signed.",
       "src": [
         [
-          "eNCA",
-          "23 Nov",
-          "ActionSA places coalition ball in ANC’s court",
-          "https://www.enca.com/news/actionsa-places-coalition-ball-ancs-court"
+          "EWN",
+          "24 Nov",
+          "Coalition negotiations: new Joburg mayor now expected to be elected Friday",
+          "https://www.ewn.co.za/coalition-negotiations-new-joburg-mayor-now-expected-to-be-elected-friday"
         ],
         [
-          "IOL",
+          "Daily Maverick",
           "23 Nov",
-          "‘Madness’: ANC erupts over ActionSA’s offer to make Loyiso Masuku councillor",
-          "https://iol.co.za/lge2026/2026-11-23-madness-anc-erupts-over-actionsas-offer-to-make-loyiso-masuku-councillor/"
+          "ANC, ActionSA, MK and EFF seal metro pact",
+          "https://www.dailymaverick.co.za/article/2026-11-23-mashaba-set-for-joburg-mayoralty-as-anc-actionsa-mk-and-eff-seal-metro-pact/"
         ],
         [
-          "BusinessTech",
+          "Business Day",
           "23 Nov",
-          "No new mayor for Joburg as vote postponed",
-          "https://businesstech.co.za/news/government/885803/no-mayor-for-joburg-as-vote-postponed/"
+          "Political week ahead: deadline to form municipalities draws closer",
+          "https://www.businessday.co.za/politics/2026-11-23-political-week-ahead-deadline-to-form-municpalities-draws-closer/"
         ]
       ]
     },
@@ -61,26 +61,26 @@
           "MK"
         ]
       },
-      "lean": 1,
-      "why": "The ANC has reportedly offered ActionSA the Tshwane mayoralty, keeping Nasiphi Moya in office, and ActionSA turned down the DA. But the deal is unsigned: the ANC rejected ActionSA’s seat offer and its NEC has yet to decide. The council sits on Thursday.",
+      "lean": 2,
+      "why": "Under the four-party arrangement reported by Daily Maverick and Business Day, ActionSA’s Nasiphi Moya keeps the Tshwane mayoralty. The council sits on Thursday, EWN reports; the deal is still to be signed.",
       "src": [
         [
-          "eNCA",
+          "Business Day",
           "23 Nov",
-          "ActionSA places coalition ball in ANC’s court",
-          "https://www.enca.com/news/actionsa-places-coalition-ball-ancs-court"
+          "Political week ahead: deadline to form municipalities draws closer",
+          "https://www.businessday.co.za/politics/2026-11-23-political-week-ahead-deadline-to-form-municpalities-draws-closer/"
         ],
         [
-          "Rekord",
+          "Daily Maverick",
           "23 Nov",
-          "Tshwane coalition talks intensify ahead of Thursday council sitting",
-          "https://www.citizen.co.za/rekord/news-headlines/2026/11/23/tshwane-coalition-talks-intensify-ahead-of-thursday-council-sitting/"
+          "ANC, ActionSA, MK and EFF seal metro pact",
+          "https://www.dailymaverick.co.za/article/2026-11-23-mashaba-set-for-joburg-mayoralty-as-anc-actionsa-mk-and-eff-seal-metro-pact/"
         ],
         [
-          "IOL",
-          "18 Nov",
-          "ANC offers ActionSA Joburg and Tshwane mayoral seats, keeps Ekurhuleni in coalition deal",
-          "https://iol.co.za/news/politics/2026-11-18-anc-offers-actionsa-joburg-and-tshwane-mayoral-seats-keeps-ekurhuleni-in-coalition-deal/"
+          "EWN",
+          "24 Nov",
+          "Coalition negotiations: new Joburg mayor now expected to be elected Friday",
+          "https://www.ewn.co.za/coalition-negotiations-new-joburg-mayor-now-expected-to-be-elected-friday"
         ]
       ]
     },
@@ -102,26 +102,26 @@
           "MK"
         ]
       },
-      "lean": 1,
-      "why": "Under the ANC’s reported offer to ActionSA, the ANC would keep Ekurhuleni. No deal has been signed, and the ANC’s NEC is still deciding between ActionSA and the DA, whose offer would give the DA Ekurhuleni.",
+      "lean": 2,
+      "why": "Business Day reports the ANC is expected to take Ekurhuleni’s mayoralty under its deal with ActionSA, the EFF and MK, and Daily Maverick says the four parties will govern the metro. The council sits on Wednesday, EWN reports.",
       "src": [
         [
-          "eNCA",
+          "Business Day",
           "23 Nov",
-          "ActionSA places coalition ball in ANC’s court",
-          "https://www.enca.com/news/actionsa-places-coalition-ball-ancs-court"
-        ],
-        [
-          "IOL",
-          "18 Nov",
-          "ANC offers ActionSA Joburg and Tshwane mayoral seats, keeps Ekurhuleni in coalition deal",
-          "https://iol.co.za/news/politics/2026-11-18-anc-offers-actionsa-joburg-and-tshwane-mayoral-seats-keeps-ekurhuleni-in-coalition-deal/"
+          "Political week ahead: deadline to form municipalities draws closer",
+          "https://www.businessday.co.za/politics/2026-11-23-political-week-ahead-deadline-to-form-municpalities-draws-closer/"
         ],
         [
           "Daily Maverick",
-          "19 Nov",
-          "FF Plus fails to broker DA-ActionSA coalition after deadlocked Gauteng talks",
-          "https://www.dailymaverick.co.za/article/2026-11-20-ff-plus-fails-to-broker-da-actionsa-coalition-as-gauteng-talks-stall/"
+          "23 Nov",
+          "ANC, ActionSA, MK and EFF seal metro pact",
+          "https://www.dailymaverick.co.za/article/2026-11-23-mashaba-set-for-joburg-mayoralty-as-anc-actionsa-mk-and-eff-seal-metro-pact/"
+        ],
+        [
+          "EWN",
+          "24 Nov",
+          "Coalition negotiations: new Joburg mayor now expected to be elected Friday",
+          "https://www.ewn.co.za/coalition-negotiations-new-joburg-mayor-now-expected-to-be-elected-friday"
         ]
       ]
     },
@@ -142,13 +142,13 @@
         ]
       },
       "lean": 2,
-      "why": "IOL reports the ANC and MK have sealed an eThekwini deal, and a source says MK will take the mayoralty with ActionSA as deputy mayor and the ANC as speaker. KZN Cogta has ordered the first council meeting postponed; the city says it will go ahead.",
+      "why": "IOL reports the ANC and MK have sealed an eThekwini deal, with a source saying MK takes the mayoralty, ActionSA the deputy mayor post and the ANC the speaker. Despite a KZN Cogta order to postpone, the city says its first council meeting goes ahead on Tuesday, EWN reports.",
       "src": [
         [
           "EWN",
-          "23 Nov",
-          "eThekwini insists council meeting will go ahead despite KZN Cogta’s postponement order",
-          "https://www.ewn.co.za/2026/11/23/ethekwini-insists-council-meeting-will-go-ahead-despite-kzn-cogtas-postponement-order"
+          "24 Nov",
+          "eThekwini to go ahead with inaugural council meeting despite KZN Cogta directive",
+          "https://www.ewn.co.za/ethekwini-to-go-ahead-with-inaugural-council-meeting-despite-kzn-cogta-directive"
         ],
         [
           "IOL",
@@ -179,9 +179,15 @@
           "ANC"
         ]
       },
-      "lean": -1,
-      "why": "Analysts say the DA holds the upper hand, the DA in the Eastern Cape says a deal is near the finish line, and ActionSA says it will back the DA’s mayoral candidate. No deal has been reported as signed.",
+      "lean": -2,
+      "why": "IOL reports the DA, ActionSA, UDM and FF Plus are in advanced talks, with the DA’s Andrew Whitfield confident of a stable coalition. Analysts say the DA holds the upper hand, and ActionSA says it will back the DA’s mayoral candidate. No deal has been reported as signed.",
       "src": [
+        [
+          "IOL",
+          "20 Nov",
+          "Nelson Mandela Bay: DA-ActionSA-UDM-FF Plus in advanced coalition stages",
+          "https://iol.co.za/news/politics/2026-11-20-nelson-mandela-bay-da-actionsa-udm-ff-plus-in-advanced-coalition-stages/"
+        ],
         [
           "EWN",
           "22 Nov",
@@ -193,12 +199,6 @@
           "20 Nov",
           "DA Eastern Cape ‘very pleased’ as Nelson Mandela Bay coalition deal nears finish line",
           "https://www.news24.com/politics/da-eastern-cape-very-pleased-as-nelson-mandela-bay-coalition-deal-nears-finish-line-20261120-0484"
-        ],
-        [
-          "Daily Maverick",
-          "19 Nov",
-          "DA holds upper hand in Nelson Mandela Bay coalition talks, analysts say",
-          "https://www.dailymaverick.co.za/article/2026-11-19-da-holds-upper-hand-in-nelson-mandela-bay-coalition-talks-analysts-say/"
         ]
       ]
     },

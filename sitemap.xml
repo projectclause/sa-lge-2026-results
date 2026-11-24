@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://preamble.co.za/</loc><lastmod>2026-11-22</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://preamble.co.za/coalitions.html</loc><lastmod>2026-11-22</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://preamble.co.za/mayors.html</loc><lastmod>2026-11-22</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
-  <url><loc>https://preamble.co.za/map.html</loc><lastmod>2026-11-23</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://preamble.co.za/</loc><lastmod>2026-11-24</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://preamble.co.za/coalitions.html</loc><lastmod>2026-11-24</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://preamble.co.za/mayors.html</loc><lastmod>2026-11-24</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://preamble.co.za/map.html</loc><lastmod>2026-11-24</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://preamble.co.za/coalitions/johannesburg.html</loc><lastmod>2026-11-24</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://preamble.co.za/coalitions/mk.html</loc><lastmod>2026-11-24</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://preamble.co.za/coalitions/i-cities.html</loc><lastmod>2026-11-23</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://preamble.co.za/coalitions/grand-deal.html</loc><lastmod>2026-11-23</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://preamble.co.za/coalitions/ramaphosa.html</loc><lastmod>2026-11-23</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://preamble.co.za/coalitions/councils.html</loc><lastmod>2026-11-23</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://preamble.co.za/coalitions/da-offer.html</loc><lastmod>2026-11-23</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://preamble.co.za/coalitions/pr-seats.html</loc><lastmod>2026-11-23</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://preamble.co.za/coalitions/tshwane.html</loc><lastmod>2026-11-23</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://preamble.co.za/coalitions/actionsa.html</loc><lastmod>2026-11-23</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://preamble.co.za/coalitions/gnu.html</loc><lastmod>2026-11-22</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://preamble.co.za/coalitions/i-anc.html</loc><lastmod>2026-11-22</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://preamble.co.za/coalitions/anc-metros.html</loc><lastmod>2026-11-21</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://preamble.co.za/coalitions/i-gnu.html</loc><lastmod>2026-11-20</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://preamble.co.za/coalitions/i-joburg.html</loc><lastmod>2026-11-20</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://preamble.co.za/coalitions/i-rand.html</loc><lastmod>2026-11-19</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>

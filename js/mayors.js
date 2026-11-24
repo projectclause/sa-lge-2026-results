@@ -63,7 +63,7 @@
     fetch("data/mayors-history.json").then((r) => r.json()),
     fetch("data/municipalities.geojson").then((r) => r.json()),
     fetch("data/mayors.json").then((r) => r.json()).catch(() => ({})),
-    fetch("data/mayor-lean.json").then((r) => r.json()).catch(() => ({}))
+    fetch("data/mayor-lean.json", { cache: "no-cache" }).then((r) => r.json()).catch(() => ({}))
   ]).then(([HIST, fc, CANDS, LEANS]) => {
     const M = {}; fc.features.forEach((f) => { M[f.properties.id] = f.properties; });
     const chips = document.querySelector(".my-chips"), box = document.querySelector(".my-city");

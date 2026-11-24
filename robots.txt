@@ -1,4 +1,25 @@
+# PREAMBLE · preamble.co.za
+# Search engines and AI assistants are welcome to read and cite this site.
 User-agent: *
 Allow: /
+Disallow: /google-apps-script/
+Disallow: /launch-reel/
+
+# AI search and assistant crawlers (named so they are explicitly allowed)
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: Bingbot
+User-agent: CCBot
+Allow: /
+Disallow: /google-apps-script/
+Disallow: /launch-reel/
 
 Sitemap: https://preamble.co.za/sitemap.xml

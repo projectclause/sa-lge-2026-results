@@ -393,7 +393,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
     it ? intlEvent(it) : isI ? intl() : e ? event(e) : front();
     document.querySelectorAll(".pl-scope a").forEach((a) => a.toggleAttribute("aria-current", (a.dataset.s === "intl") === !!isI));
     document.querySelectorAll(".pl-scope a[aria-current]").forEach((a) => a.setAttribute("aria-current", "page"));
-    document.title = it ? it.h + " · International · Coalitions Tracker" : isI ? "International · Coalitions Tracker" : e ? e.h + " · Coalitions Tracker" : "Coalitions Tracker";
+    document.title = it ? it.h + " · International · Coalitions Tracker" : isI ? "International · Coalitions Tracker" : e ? e.h + " · Coalitions Tracker" : "Coalitions Tracker: who will run South Africa’s metros | PREAMBLE";
     window.scrollTo(0, 0);
   }
 
