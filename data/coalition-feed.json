@@ -2945,7 +2945,11 @@
         "sol-pc23",
         "ab-auction",
         "ls-live23",
-        "hz-threshold"
+        "hz-threshold",
+        "sm-gauteng",
+        "sm-deadline",
+        "hg-gauteng",
+        "hg-metros"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
@@ -2980,7 +2984,9 @@
         "moichela": "Followed the Joburg deal for IOL, from smaller parties backing Mashaba to the DA’s legal letter and MK’s Baloyi as deputy.",
         "simelane": "Reported that the FF Plus tried and failed to broker a DA–ActionSA deal between Zille and Mashaba.",
         "zimasa": "On Podcast and Chill with MacG, went through who could control Johannesburg and whether the ANC can rebuild before 2029.",
-        "sol": "Co-hosted Podcast and Chill’s coalition talks update with MacG as Joburg’s council sat."
+        "sol": "Co-hosted Podcast and Chill’s coalition talks update with MacG as Joburg’s council sat.",
+        "maseko": "Reported as the ANC, EFF, ActionSA and MK met to finalise their Gauteng coalition talks, and as the deadline for councils to sit drew near.",
+        "giokos": "Reported on the coalition negotiations and the latest developments in Gauteng’s three metros."
       },
       "coverage": [
         {
@@ -3514,14 +3520,16 @@
         "lt-st",
         "bh-nec",
         "ho-unity",
-        "js-ramaphosa"
+        "js-ramaphosa",
+        "sm-nec"
       ],
       "voices": {
         "cyril": "In public, asks every party to negotiate in good faith and form councils quickly. A report from unnamed insiders says he wants the DA kept out of Johannesburg; the ANC denies it.",
         "bhengu": "Said the NEC would weigh its negotiators’ report under the ANC’s 2023 coalition framework, and that any deal must deliver stable councils.",
         "tandwa": "Broke the story, citing unnamed insiders, that Ramaphosa wants the DA kept out of Joburg.",
         "omarjee": "Reported Luthuli House sources saying Ramaphosa himself told the ANC to treat the DA as a last resort.",
-        "steinberg": "Argued that Ramaphosa spending a crucial week in California shows his waning power."
+        "steinberg": "Argued that Ramaphosa spending a crucial week in California shows his waning power.",
+        "maseko": "Previewed the ANC NEC meeting that was to give the party direction on how to approach coalition talks."
       },
       "coverage": [
         {
@@ -3730,7 +3738,9 @@
         "tg-eth",
         "pb-eth",
         "tg-eth24",
-        "td-kaya"
+        "td-kaya",
+        "sm-waterfall",
+        "sm-damk"
       ],
       "voices": {
         "dali": "Says MK’s vote shows voters want cooperation, warns the ANC about its partners, and met the DA for the first time while saying MK wants like-minded partners.",
@@ -3746,7 +3756,8 @@
         "ramushwana": "Reported the ANC–MK eThekwini talks and the Council of the Left’s refusal to back ANC deals that include the DA.",
         "goba": "Reported that eThekwini would sit on Tuesday despite Cogta’s order to postpone.",
         "berkowitz": "Before the vote, found MK first in all four eThekwini polls, with the opposition reaching a majority in only two scenarios.",
-        "dooms": "Called the DA’s outreach to MK one of the surprises of the talks, and said MK had learnt to respect its voters’ wishes."
+        "dooms": "Called the DA’s outreach to MK one of the surprises of the talks, and said MK had learnt to respect its voters’ wishes.",
+        "maseko": "Reported from Waterfall in Johannesburg as the MK Party and the DA met for coalition talks and appeared to wrap them up."
       },
       "coverage": [
         {
@@ -3947,7 +3958,8 @@
         "dc-fights",
         "dc-dead",
         "s-crunch",
-        "gm-mulder"
+        "gm-mulder",
+        "sm-four"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
@@ -3966,7 +3978,8 @@
         "simelane": "Reported that ActionSA’s support would likely decide who governs Gauteng’s three metros.",
         "corder": "Covered the ANC’s struggle to commit to the DA as Mashaba claimed victory in Gauteng.",
         "sizwe": "Asked whether the DA’s vote share entitles it to govern the metros, as talks reached crunch time.",
-        "makin": "Interviewed Corné Mulder, who said ActionSA was wrong to negotiate with the ANC after voters rejected it."
+        "makin": "Interviewed Corné Mulder, who said ActionSA was wrong to negotiate with the ANC after voters rejected it.",
+        "maseko": "Spoke to ActionSA and MK representatives after the two parties met to discuss coalitions in municipalities across the country."
       },
       "coverage": [
         {
@@ -4069,7 +4082,8 @@
         "m-national",
         "my-enca",
         "cb-nd",
-        "w-tsh"
+        "w-tsh",
+        "hg-brink"
       ],
       "voices": {
         "clement": "In his interview, Mashaba made keeping Moya as mayor a condition of any deal.",
@@ -4078,7 +4092,8 @@
         "herman": "Made keeping Nasiphi Moya as Tshwane mayor a condition of any deal, and named the DA’s Cilliers Brink as a reason talks stalled.",
         "moya": "Calls the results a vote of confidence in her leadership of Tshwane.",
         "brink": "ActionSA demanded that he step aside as the DA’s Tshwane candidate; he had not said whether he would.",
-        "wayne": "Said the ANC appeared committed to a four-party deal in Tshwane, and that ActionSA was “on the cusp of big things”."
+        "wayne": "Said the ANC appeared committed to a four-party deal in Tshwane, and that ActionSA was “on the cusp of big things”.",
+        "giokos": "Interviewed the DA’s Cilliers Brink, who said the party would approach coalition negotiations with humility and openness."
       },
       "coverage": [
         {

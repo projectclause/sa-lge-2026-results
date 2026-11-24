@@ -165,11 +165,14 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
     const inStory = (k) => I.filter((i) => i.j === k).length;
     const pw = (k, p) => (named(p) ? 1000 : 0) + (p.core ? 100 : 0) + inStory(k) * 5;
     const players = P.filter(([, p]) => p.group === "player").sort((a, b) => pw(b[0], b[1]) - pw(a[0], a[1]) || last(b[0]).localeCompare(last(a[0])));
-    const analysts = P.filter(([, p]) => p.group === "voice" && p.beat !== "reporting").sort((a, b) => (b[1].score || 0) - (a[1].score || 0) || last(b[0]).localeCompare(last(a[0])));
+    // the public broadcaster (SABC) gets its own place: its busiest voice on this story
+    const pbs = P.filter(([, p]) => p.pb).sort((a, b) => inStory(b[0]) - inStory(a[0]) || last(b[0]).localeCompare(last(a[0])));
+    const analysts = P.filter(([, p]) => p.group === "voice" && !p.pb && p.beat !== "reporting").sort((a, b) => (b[1].score || 0) - (a[1].score || 0) || last(b[0]).localeCompare(last(a[0])));
     const reporters = P.filter(([, p]) => p.beat === "reporting").sort((a, b) => last(a[0]).localeCompare(last(b[0])));
     const top = players.slice(0, 2).concat(analysts.slice(0, 1));
     [...players, ...analysts].forEach((x) => { if (top.length < 3 && !top.includes(x)) top.push(x); });
-    return { top, players: players.filter((x) => !top.includes(x)), analysts: analysts.filter((x) => !top.includes(x)), reporters };
+    if (pbs.length) top.push(pbs[0]);
+    return { top, players: players.filter((x) => !top.includes(x)), analysts: analysts.filter((x) => !top.includes(x)), reporters: reporters.filter((x) => !top.includes(x)).concat(pbs.slice(1).filter(([, p]) => p.beat !== "reporting")) };
   }
   const outletOf = (p) => String(p.role || p.o).split(", ").pop();
   const firstLine = (t) => { t = String(t || ""); const m = t.match(/^.*?[.!?](\s|$)/); return (m ? m[0] : t).trim(); };
@@ -229,7 +232,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
 
   function sayCard(e, I, k, p, lead) {
     const mine = I.filter((i) => i.j === k).reverse();
-    const tag = p.group === "player" ? "Key player" : p.beat === "reporting" ? "Reporting" : "Analysis";
+    const tag = p.group === "player" ? "Key player" : p.pb ? "Public Broadcaster" : p.beat === "reporting" ? "Reporting" : "Analysis";
     return `
           <div class="pl-voicecard${lead ? " pl-lead3" : ""}" id="says-${k}">
             <div class="pl-vh"><img src="${p.img}" alt=""><span>${nameTag(p)}<span>${esc(p.role)}${lead ? ` · <i class="pl-vtag">${tag}</i>` : ""}</span></span></div>
@@ -249,7 +252,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
         <h1 class="pl-evh">${esc(e.h)}</h1>
         <p class="pl-dek pl-evdek">${esc(e.dek)}</p>
         <p class="pl-credit">Preamble’s AI summary of ${reports(e).length} reports from ${outletLine(e)}. Updated ${day(updated(e))}.</p>
-        ${R.top.length ? `<section class="pl-drive" aria-label="Who’s driving this"><h2>Who’s driving this</h2><div class="pl-drv">${R.top.map(([k, p]) => `<a class="pl-drvi" href="#says-${k}"><img src="${p.img}" alt=""><span><b>${esc(p.n)}</b><em>${esc(firstLine((e.voices || {})[k]) || p.role)}</em></span></a>`).join("")}</div></section>` : ""}
+        ${R.top.length ? `<section class="pl-drive" aria-label="Who’s driving this"><h2>Who’s driving this</h2><div class="pl-drv${R.top.length > 3 ? " pl-drv4" : ""}">${R.top.map(([k, p]) => `<a class="pl-drvi" href="#says-${k}"><img src="${p.img}" alt=""><span><b>${esc(p.n)}</b><em>${esc(firstLine((e.voices || {})[k]) || p.role)}</em></span></a>`).join("")}</div></section>` : ""}
         <section class="pl-brief"><h2>In brief</h2><ul>${e.brief.map((b) => `<li>${esc(b)}</li>`).join("")}</ul></section>
         <section class="pl-tl"><h2>How it came to this</h2><ol>${tl.slice(0, SHOW).join("")}</ol>${tl.length > SHOW ? `<ol class="pl-tl-more" hidden>${tl.slice(SHOW).join("")}</ol><button type="button" class="pl-more">Show the full timeline</button>` : ""}</section>
         ${e.sec.map(([t, p]) => `<section class="pl-body"><h2>${esc(t)}</h2><p>${esc(p)}</p></section>`).join("")}
