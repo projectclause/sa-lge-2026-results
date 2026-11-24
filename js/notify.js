@@ -1,4 +1,4 @@
-// A phone-style notification above the ask bar, rotating every 3 seconds (from the Coalitions Tracker).
+// A phone-style notification above the ask bar, rotating every 5 seconds (from the Coalitions Tracker).
 // Home page: what MacG, Sol Phenduka, Clement Manyathela, Adriaan Basson, Sizwe Mpofu-Walsh, Alec Hogg, Prince Mashele and Samkele Maseko (SABC) are saying.
 // Coalitions page, phones only: the latest piece from each "Wide Reach" voice, plus Samkele Maseko.
 (function () {
@@ -66,7 +66,7 @@
     // phones: tuck the card away while scrolling down, bring it back on scroll up or near the top
     let lastY = window.scrollY;
     addEventListener("scroll", () => { const y = window.scrollY; if (window.innerWidth <= 720) box.classList.toggle("nt-hide", y > lastY + 4 && y > 200 ? true : y < lastY - 4 || y < 200 ? false : box.classList.contains("nt-hide")); lastY = y; }, { passive: true });
-    timer = setInterval(() => { if (!paused && !document.hidden) show(); }, 3000);
+    timer = setInterval(() => { if (!paused && !document.hidden) show(); }, 5000);
     box.addEventListener("mouseenter", () => paused = true);
     box.addEventListener("mouseleave", () => paused = false);
     box.addEventListener("focusin", () => paused = true);
