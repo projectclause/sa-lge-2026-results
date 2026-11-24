@@ -11,6 +11,8 @@
   const send = (fields) => SIGNUP_URL
     ? fetch(SIGNUP_URL, { method: "POST", mode: "no-cors", body: new URLSearchParams(Object.assign({ page: location.pathname, device: matchMedia("(max-width: 720px)").matches ? "phone" : "desktop" }, fields)) })
     : Promise.reject(new Error("off"));
+  // under the submit button of any form that asks for an email
+  const PRIVACY = `<p class="su-priv">We’ll only use your email for Preamble updates. <a href="privacy.html">Privacy &amp; cookies</a></p>`;
   // a small form prompt in the same style as the sign-up box; resolves with the values, or null if closed
   function ask({ title, note, fields, button }) {
     return new Promise((resolve) => {
@@ -22,6 +24,7 @@
           <p class="su-brand">PREAMBLE</p><h2 id="su-h">${title}</h2>${note ? `<p class="su-note">${note}</p>` : ""}
           ${fields.map((f) => `<label class="su-lab" for="su-${f.name}">${f.label}</label><input class="su-in" id="su-${f.name}" name="${f.name}" type="${f.type || "text"}" autocomplete="${f.auto || "off"}" required>`).join("")}
           <button type="submit" class="su-go su-go-w">${button}</button>
+          ${fields.some((f) => f.type === "email") ? PRIVACY : ""}
           <p class="su-msg" aria-live="polite"></p></form>`;
       document.body.appendChild(wrap);
       const form = wrap.querySelector("form"), msg = wrap.querySelector(".su-msg");
@@ -66,6 +69,7 @@
           <button type="submit" class="su-go">Sign up</button>
         </div>
         <input type="text" name="website" class="su-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        ${PRIVACY}
         <p class="su-msg" aria-live="polite"></p>
       </form>`;
     document.body.appendChild(wrap);
