@@ -1,9 +1,10 @@
 // A phone-style notification above the ask bar, rotating every 3 seconds (from the Coalitions Tracker).
-// Home page: what MacG, Sol Phenduka, Clement Manyathela, Adriaan Basson, Sizwe Mpofu-Walsh, Alec Hogg and Prince Mashele are saying.
-// Coalitions page, phones only: the latest piece from each "Wide Reach" voice.
+// Home page: what MacG, Sol Phenduka, Clement Manyathela, Adriaan Basson, Sizwe Mpofu-Walsh, Alec Hogg, Prince Mashele and Samkele Maseko (SABC) are saying.
+// Coalitions page, phones only: the latest piece from each "Wide Reach" voice, plus Samkele Maseko.
 (function () {
   "use strict";
-  const WHO = ["macg", "sol", "clement", "adriaan", "sizwe", "hogg", "mashele"];
+  const WHO = ["macg", "sol", "clement", "adriaan", "sizwe", "hogg", "mashele", "maseko"];
+  const CO_EXTRA = ["maseko"]; // voices carded on the Coalitions page besides the Wide Reach ones
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
   const day = (d) => { const [, m, dd] = d.split("-").map(Number); return `${dd} ${MON[m - 1]}`; };
@@ -14,7 +15,7 @@
   if (closed) return;
 
   function start(ask, D) {
-    const who = onCo ? Object.keys(D.journalists).filter((k) => D.journalists[k].wide) : WHO;
+    const who = onCo ? Object.keys(D.journalists).filter((k) => D.journalists[k].wide || CO_EXTRA.includes(k)) : WHO;
     const cards = who.map((k) => {
       const p = D.journalists[k]; if (!p) return null;
       const it = D.items.filter((i) => i.j === k).sort((a, b) => b.d.localeCompare(a.d))[0]; if (!it) return null;
@@ -34,12 +35,12 @@
       <a class="nt-card" href="${c.href}" data-k="${c.k}">
         <img class="nt-ph" src="${c.p.img}" alt="">
         <span class="nt-t">
-          <span class="nt-top"><b>${esc(c.p.n)}</b>${onCo ? '<i class="nt-wide" title="Wide Reach">★</i>' : ""}<span>${esc(c.p.role || c.p.o)}</span><time>${day(c.it.d)}</time></span>
+          <span class="nt-top"><b>${esc(c.p.n)}</b>${onCo && c.p.wide ? '<i class="nt-wide" title="Wide Reach">★</i>' : ""}<span>${esc(c.p.role || c.p.o)}</span><time>${day(c.it.d)}</time></span>
           <span class="nt-h">${esc(c.it.h)}</span>
           <span class="nt-s">${esc(c.it.s)}</span>
         </span>
       </a>
-      <span class="nt-app">${onCo ? "Wide Reach voices" : "Coalitions Tracker"}</span>
+      <span class="nt-app">${onCo ? (c.p.wide ? "Wide Reach voices" : c.p.pb ? "Public Broadcaster" : "Voices") : "Coalitions Tracker"}</span>
       <button type="button" class="nt-x" aria-label="Hide these updates">×</button>`;
     const show = () => {
       const old = box.querySelector(".nt-in");
