@@ -533,6 +533,15 @@
       "group": "voice",
       "org": "TBN",
       "beat": "analysis"
+    },
+    "dooms": {
+      "n": "Tessa Dooms",
+      "o": "Rivonia Circle",
+      "img": "assets/journalists/tessa-dooms.jpg",
+      "role": "Political analyst, director of the Rivonia Circle",
+      "group": "voice",
+      "org": "RC",
+      "beat": "analysis"
     }
   },
   "items": [
@@ -2446,6 +2455,39 @@
       "s": "Mashele joined DJ Sbu on The Hustlers Corner SA podcast for a full episode on the ANC’s coalition deals.",
       "src": "YouTube",
       "url": "https://www.youtube.com/watch?v=xG6eYWmvG7I"
+    },
+    {
+      "id": "td-sowetan",
+      "j": "dooms",
+      "d": "2026-11-05",
+      "kind": "Interview",
+      "place": "National",
+      "h": "‘No party off limits’, say rivals, as coalition talks loom",
+      "s": "Dooms told Sowetan the elections were likely to produce more coalition governments than ever before, with smaller parties and independent candidates potentially holding the balance of power in municipalities across the country.",
+      "src": "Sowetan",
+      "url": "https://www.sowetan.co.za/news/2026-11-05-watch-no-party-off-limits-say-rivals-as-coalition-talks-loom/"
+    },
+    {
+      "id": "td-capetalk",
+      "j": "dooms",
+      "d": "2026-11-09",
+      "kind": "Interview",
+      "place": "Ekurhuleni",
+      "h": "DA’s Ekurhuleni breakthrough exposes an uncomfortable truth about the ANC",
+      "s": "Speaking to CapeTalk, Dooms said the ANC’s dramatic decline was a defining feature of the results. The DA had grown in Ekurhuleni, she said, but its improved position was largely the result of the ANC losing support, and the vote reflected disillusionment with incumbents rather than an endorsement of any one party.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/2026/11/09/analysis-da-ekurhuleni-breakthrough-exposes-uncomfortable-truth-about-anc-says-tessa-dooms"
+    },
+    {
+      "id": "td-kaya",
+      "j": "dooms",
+      "d": "2026-11-17",
+      "kind": "Interview",
+      "place": "Johannesburg",
+      "h": "Why Herman Mashaba holds the cards in DA coalition talks",
+      "s": "Dooms told Kaya 959 that the ANC appears to see a deal with the DA as a risk because of how its own supporters feel about it, and that the 14-day window may not prevent a revolving door of mayors. She called the DA’s outreach to MK, a party it had described as unconstitutional, one of the surprises of the talks, and said MK had learnt to respect its voters’ wishes.",
+      "src": "Kaya 959",
+      "url": "https://www.kaya959.co.za/news/elections-2026/johannesburg-power-struggle-why-herman-mashaba-holds-the-cards-in-da-coalition-talks"
     }
   ],
   "edition": {
@@ -3305,7 +3347,8 @@
         "ar-left",
         "tg-eth",
         "pb-eth",
-        "tg-eth24"
+        "tg-eth24",
+        "td-kaya"
       ],
       "voices": {
         "dali": "Says MK’s vote shows voters want cooperation, warns the ANC about its partners, and met the DA for the first time while saying MK wants like-minded partners.",
@@ -3320,7 +3363,8 @@
         "baloyi": "Tipped, in reports, as Mashaba’s deputy mayor in Johannesburg.",
         "ramushwana": "Reported the ANC–MK eThekwini talks and the Council of the Left’s refusal to back ANC deals that include the DA.",
         "goba": "Reported that eThekwini would sit on Tuesday despite Cogta’s order to postpone.",
-        "berkowitz": "Before the vote, found MK first in all four eThekwini polls, with the opposition reaching a majority in only two scenarios."
+        "berkowitz": "Before the vote, found MK first in all four eThekwini polls, with the opposition reaching a majority in only two scenarios.",
+        "dooms": "Called the DA’s outreach to MK one of the surprises of the talks, and said MK had learnt to respect its voters’ wishes."
       },
       "coverage": [
         {
@@ -3811,7 +3855,9 @@
         "gvo-biz",
         "pb-cuts",
         "ls-rout",
-        "dc-metros"
+        "dc-metros",
+        "td-sowetan",
+        "td-capetalk"
       ],
       "voices": {
         "pieter": "Saw the ANC’s decline speeding up, with the party on the brink of second, third or fourth place in seven of the eight metros.",
@@ -3821,7 +3867,8 @@
         "vanonselen": "Estimated the ANC lost about 25 points in black metro voting districts, mostly to MK and ActionSA.",
         "berkowitz": "Says the ANC is “bleeding from a thousand cuts” to ActionSA, the DA, the UDM, the SACP and local movements.",
         "simelane": "Reported that the ANC had lost the lead in four metros and must choose between coalition deals and opposition.",
-        "corder": "As results firmed up, set out how coalitions could take shape in the cities."
+        "corder": "As results firmed up, set out how coalitions could take shape in the cities.",
+        "dooms": "Said the ANC’s dramatic decline is the defining feature of the results, reflecting disillusionment with incumbents rather than enthusiasm for any one party."
       },
       "coverage": [
         {
@@ -3999,6 +4046,11 @@
       "k": "TBN",
       "n": "Three Beanies Network",
       "badge": "TBN"
+    },
+    {
+      "k": "RC",
+      "n": "Rivonia Circle",
+      "badge": "RC"
     }
   ],
   "intl": {
