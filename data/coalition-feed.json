@@ -681,6 +681,15 @@
       "group": "voice",
       "org": "Sunday World",
       "beat": "reporting"
+    },
+    "maeko": {
+      "n": "Thando Maeko",
+      "o": "BD",
+      "img": "assets/journalists/thando-maeko.jpg",
+      "role": "Political reporter, Business Day",
+      "group": "voice",
+      "org": "BD",
+      "beat": "reporting"
     }
   },
   "items": [
@@ -2949,6 +2958,50 @@
       "s": "Masuabi reported that the ANC’s Adolph Marema had emerged as frontrunner for council speaker as the ANC, ActionSA, EFF, MK and SACP moved closer to a deal making Mashaba mayor.",
       "src": "Sunday World",
       "url": "https://sundayworld.co.za/politics/ancs-adolph-marema-tipped-for-joburg-speaker-in-actionsa-coalition-deal"
+    },
+    {
+      "id": "tm-offer",
+      "j": "maeko",
+      "d": "2026-11-17",
+      "kind": "Report",
+      "place": "Gauteng metros",
+      "h": "ANC offers ActionSA mayorship deal to bypass DA",
+      "s": "Maeko reported that the ANC had proposed a coalition making Herman Mashaba mayor of Johannesburg, keeping Nasiphi Moya in Tshwane and giving the ANC Ekurhuleni, leaving the DA out.",
+      "src": "Business Day",
+      "url": "https://www.businessday.co.za/politics/2026-11-17-anc-offers-actionsa-mayorship-deal-to-bypass-da/"
+    },
+    {
+      "id": "tm-deputy",
+      "j": "maeko",
+      "d": "2026-11-19",
+      "kind": "Report",
+      "place": "Johannesburg and Tshwane",
+      "h": "Could MK Party claim deputy mayor of Joburg role?",
+      "s": "ActionSA and the ANC edged towards a deal but needed EFF and MK backing for majorities; the proposals discussed had MK taking Joburg’s deputy mayor post.",
+      "src": "Business Day",
+      "url": "https://www.businessday.co.za/politics/2026-11-19-gauteng-coalition-talks-intensify-with-deputy-mayor-roles-in-play/"
+    },
+    {
+      "id": "tm-kzn",
+      "j": "maeko",
+      "d": "2026-11-23",
+      "kind": "Report",
+      "place": "KwaZulu-Natal",
+      "h": "ANC NEC mulls competing KZN coalition proposals with eye on Durban",
+      "s": "The ANC’s national leadership was weighing several KwaZulu-Natal coalition proposals; one would pair the ANC, IFP, DA and a ratepayers’ association, with about 54% of eThekwini’s seats.",
+      "src": "Business Day",
+      "url": "https://www.businessday.co.za/politics/2026-11-23-anc-nec-mulls-competing-kzn-coalition-proposals-with-eye-on-durban/"
+    },
+    {
+      "id": "tm-delay",
+      "j": "maeko",
+      "d": "2026-11-24",
+      "kind": "Report",
+      "place": "National",
+      "h": "Coalition talks delay SA council meetings amid legal challenges",
+      "s": "Maeko reported that legal challenges and party disputes were delaying council inaugurations in key cities, with a directive postponing council meetings.",
+      "src": "Sunday Times",
+      "url": "https://www.sundaytimes.timeslive.co.za/politics/2026-11-24-coalition-talks-delay-sa-council-meetings-amid-legal-challenges/"
     }
   ],
   "edition": {
@@ -3078,7 +3131,9 @@
         "hg-metros",
         "pbr-joburg",
         "qm-far",
-        "qm-speaker"
+        "qm-speaker",
+        "tm-offer",
+        "tm-deputy"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
@@ -3117,7 +3172,8 @@
         "maseko": "Reported as the ANC, EFF, ActionSA and MK met to finalise their Gauteng coalition talks, and as the deadline for councils to sit drew near.",
         "giokos": "Reported on the coalition negotiations and the latest developments in Gauteng’s three metros.",
         "bruce": "Argued Mashaba’s best route to the mayoralty runs through ANC support, since he has said he won’t serve under a DA mayor.",
-        "masuabi": "Reported ActionSA saying it was still far from a deal on 19 November, then that the ANC’s Adolph Marema was tipped for council speaker as the parties neared one."
+        "masuabi": "Reported ActionSA saying it was still far from a deal on 19 November, then that the ANC’s Adolph Marema was tipped for council speaker as the parties neared one.",
+        "maeko": "Reported the ANC’s offer to make Mashaba mayor and bypass the DA, and that MK could take Joburg’s deputy mayor post."
       },
       "coverage": [
         {
@@ -3578,11 +3634,13 @@
       "items": [
         "j-lim",
         "hl-sw",
-        "tg-ifp"
+        "tg-ifp",
+        "tm-delay"
       ],
       "voices": {
         "julius": "Proposed the ANC lead 30 of Limpopo’s 39 hung councils and the EFF nine.",
-        "hlabisa": "Expects the IFP to seal its KwaZulu-Natal coalition deals this weekend."
+        "hlabisa": "Expects the IFP to seal its KwaZulu-Natal coalition deals this weekend.",
+        "maeko": "Reported that legal challenges and party disputes were delaying council inaugurations."
       },
       "coverage": [
         {
@@ -3871,7 +3929,8 @@
         "tg-eth24",
         "td-kaya",
         "sm-waterfall",
-        "sm-damk"
+        "sm-damk",
+        "tm-kzn"
       ],
       "voices": {
         "dali": "Says MK’s vote shows voters want cooperation, warns the ANC about its partners, and met the DA for the first time while saying MK wants like-minded partners.",
@@ -3888,7 +3947,8 @@
         "goba": "Reported that eThekwini would sit on Tuesday despite Cogta’s order to postpone.",
         "berkowitz": "Before the vote, found MK first in all four eThekwini polls, with the opposition reaching a majority in only two scenarios.",
         "dooms": "Called the DA’s outreach to MK one of the surprises of the talks, and said MK had learnt to respect its voters’ wishes.",
-        "maseko": "Reported from Waterfall in Johannesburg as the MK Party and the DA met for coalition talks and appeared to wrap them up."
+        "maseko": "Reported from Waterfall in Johannesburg as the MK Party and the DA met for coalition talks and appeared to wrap them up.",
+        "maeko": "Reported the ANC NEC weighing competing KwaZulu-Natal proposals, one pairing the ANC, IFP, DA and a ratepayers’ association in eThekwini."
       },
       "coverage": [
         {
