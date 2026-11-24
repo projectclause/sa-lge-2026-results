@@ -62,7 +62,7 @@ window.INITIALS = (id) => String(id).split(/\s+/).filter((w) => !/^(of|the|for|a
   });
   window.SHARE.panel = natShare;
   // breaking news: when set, this headline leads the home page whichever council is showing
-  const BREAKING = ["No mayor elected for Joburg,", "vote postponed", "Johannesburg’s 270 councillors were sworn in on Monday, then voted to put off electing a speaker, mayor and deputy mayor until later this week. <a href=\"coalitions.html#johannesburg\">Follow it in the Coalitions Tracker →</a>"];
+  const BREAKING = ["Joburg mayor vote", "set for Friday", "Johannesburg’s councillors were sworn in on Monday, and parties now expect to elect a mayor on Friday as they finish the ANC, ActionSA, EFF and MK deal. <a href=\"coalitions.html#johannesburg\">Follow it in the Coalitions Tracker →</a>"];
   function putBreaking() {
     const el = document.querySelector(".rs-headline"); el.hidden = !BREAKING;
     if (BREAKING) el.innerHTML = `<span class="hl-1">${BREAKING[0]}</span><span class="hl-2">${BREAKING[1]}</span><span class="hl-3">${BREAKING[2]}</span>`;

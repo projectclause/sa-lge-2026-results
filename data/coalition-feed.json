@@ -2391,24 +2391,46 @@
       "s": "Vabaza joined MacG and Sol Phenduka as the show’s political analyst to go through what the election revealed, the EFF’s decline, the battle for power in Johannesburg, how the Joburg coalitions could fall and whether the ANC can rebuild before 2029.",
       "src": "YouTube",
       "url": "https://www.youtube.com/watch?v=yaglpEGvBRs&t=2682s"
+    },
+    {
+      "id": "ar-fri",
+      "j": "ramushwana",
+      "d": "2026-11-24",
+      "kind": "Reported",
+      "place": "Johannesburg",
+      "h": "Coalition negotiations: new Joburg mayor now expected to be elected Friday",
+      "s": "Ramushwana reported that parties were in the final stages of coalition talks and that Johannesburg’s mayor is now expected to be elected on Friday, after councillors agreed on Monday to postpone the vote. Ekurhuleni’s council sits on Wednesday and Tshwane’s on Thursday.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/coalition-negotiations-new-joburg-mayor-now-expected-to-be-elected-friday"
+    },
+    {
+      "id": "tg-eth24",
+      "j": "goba",
+      "d": "2026-11-24",
+      "kind": "Reported",
+      "place": "eThekwini",
+      "h": "eThekwini to go ahead with inaugural council meeting despite KZN Cogta directive",
+      "s": "Goba reported that eThekwini would hold its first council meeting on Tuesday even though KZN Cogta had told 13 municipalities to postpone, without giving a reason beyond “continuing engagements”. All 224 councillors are to be sworn in and a speaker, mayor, deputy mayor and chief whip elected; KwaZulu-Natal’s 35 hung councils have no finalised coalition pacts.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/ethekwini-to-go-ahead-with-inaugural-council-meeting-despite-kzn-cogta-directive"
     }
   ],
   "edition": {
-    "date": "2026-11-23",
-    "time": "18:20"
+    "date": "2026-11-24",
+    "time": "06:40"
   },
   "events": [
     {
       "id": "johannesburg",
       "cat": "Johannesburg",
       "place": "City of Johannesburg",
-      "h": "Joburg’s mayoral vote is postponed after councillors are sworn in",
-      "dek": "All 270 councillors, Mashaba and Zille among them, took their oaths on Monday, then voted to put off electing a speaker, mayor and deputy mayor. The ANC, ActionSA, EFF and MK deal that would make Mashaba mayor is still to be signed.",
+      "h": "Joburg will elect its mayor on Friday as parties finish their deal",
+      "dek": "All 270 councillors were sworn in on Monday, but the election of a mayor, deputy mayor and speaker now waits until Friday, 27 November. The ANC, ActionSA, EFF and MK deal that would make Mashaba mayor is in its final stages but still to be signed.",
       "brief": [
         "Helen Zille, Herman Mashaba and the rest of the 270 councillors were sworn in on Monday",
-        "After an EFF motion, councillors voted to postpone the election of the speaker, mayor and deputy mayor, BusinessTech reports",
+        "Parties agreed to postpone the election of the speaker, mayor and deputy mayor; EWN now expects the mayor to be elected on Friday, 27 November",
+        "Ekurhuleni’s council sits on Wednesday and Tshwane’s on Thursday, EWN reports",
         "MK said it would be back to elect Mashaba; other parties said they would not vote for Zille",
-        "BusinessTech says the council next meets on Friday, 27 November; EWN understands Thursday",
         "The DA had asked for a postponement; Zille told eNCA it would not delay the council through the courts",
         "The ANC, ActionSA, EFF and MK together hold 137 of 270 seats, one more than a majority, The National reports",
         "The deal would make Mashaba mayor; IOL and Sunday World report MK’s Bongani Baloyi is expected to be his deputy"
@@ -2441,6 +2463,10 @@
         [
           "Monday, 23 November",
           "On Sunday, Inside Politics reported that Mashaba had made himself available for mayor ahead of a council sitting on Monday, while a source said no formal agreement had yet been reached. On Monday morning, Ferial Haffajee reported in Daily Maverick that the ANC, ActionSA, MK and EFF would form the core of the governments in Johannesburg, Tshwane and Ekurhuleni, and that Mashaba was likely to be inaugurated this week. She reported that the ANC wants to keep the finance portfolio and that the arrangement still had to be confirmed by a special meeting of the ANC’s national executive committee on Monday. The National reported that the council was due to sit at 1pm at the Constance Connie Bapela Council Chamber in Braamfontein, and that it was uncertain whether a mayor would be elected at the sitting. Beaumont told EWN the council would most likely be adjourned to Wednesday or so for the mayoral election, and EWN reported that the coalition agreement is likely to be signed on Tuesday. eNCA reported that the ANC’s national executive committee would meet on Monday to consider a report from its negotiating team and give it further direction. Later in the morning, The National reported that the DA had asked the city to postpone the sitting and had threatened legal action after city manager Floyd Brink rejected an earlier request, arguing that the first meeting need not be held before 27 November. It put the combined strength of the ANC, ActionSA, EFF and MK at 137 seats, against the 136 needed, and said MK was expected to take the deputy mayor post, with the agreement expected to be signed on Tuesday."
+        ],
+        [
+          "Tuesday, 24 November",
+          "Early on Tuesday, Alpha Ramushwana reported for EWN that parties were in the final stages of their coalition negotiations and that Johannesburg’s new mayor is now expected to be elected on Friday. He reported that Ekurhuleni’s council will sit on Wednesday and Tshwane’s only on Thursday."
         ]
       ],
       "items": [
@@ -2503,7 +2529,8 @@
         "km-small",
         "ar-official",
         "ls-ffp",
-        "zv-macg"
+        "zv-macg",
+        "ar-fri"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
@@ -2534,7 +2561,7 @@
         "mashele": "Argues an ActionSA–DA coalition is the only viable way forward, and says both parties asked him to help bring them together.",
         "mafisa": "Reported Mashaba’s condition that Zille and Brink step aside as mayoral candidates.",
         "baloyi": "Tipped, in reports, as Mashaba’s deputy mayor.",
-        "ramushwana": "Reported from the chamber as Joburg’s 270 councillors were sworn in, with the mayoral vote put off.",
+        "ramushwana": "Reported that Joburg’s mayor is now expected to be elected on Friday, with Ekurhuleni sitting Wednesday and Tshwane Thursday.",
         "moichela": "Followed the Joburg deal for IOL, from smaller parties backing Mashaba to the DA’s legal letter and MK’s Baloyi as deputy.",
         "simelane": "Reported that the FF Plus tried and failed to broker a DA–ActionSA deal between Zille and Mashaba.",
         "zimasa": "On Podcast and Chill with MacG, went through who could control Johannesburg and whether the ANC can rebuild before 2029."
@@ -3194,7 +3221,7 @@
         "Mpofu called MK’s first meeting with the DA historic",
         "But MK will focus on like-minded parties",
         "Talks with the ANC, EFF and ActionSA continue",
-        "KZN Cogta has told eThekwini and 12 other hung councils to move Tuesday’s first meetings to 26 or 27 November; eThekwini says its meeting will go ahead. A source told IOL MK would take the mayoralty, ActionSA the deputy mayor post and the ANC the speaker",
+        "KZN Cogta told eThekwini and 12 other hung councils to move Tuesday’s first meetings to 26 or 27 November, but eThekwini is going ahead on Tuesday. A source told IOL MK would take the mayoralty, ActionSA the deputy mayor post and the ANC the speaker",
         "MK’s Bongani Baloyi is tipped as Mashaba’s deputy mayor in Johannesburg, Sunday World reports"
       ],
       "sec": [
@@ -3213,6 +3240,10 @@
         [
           "A split in the ANC",
           "News24 reports, citing sources, that Fikile Mbalula is pushing the MK deal on KwaZulu-Natal while the province’s ANC leaders lean towards an ANC-DA-IFP coalition, ahead of a national executive meeting on Monday. EWN reports the ANC and MK are expected to discuss sharing power, including in eThekwini, where MK took 38% of the vote."
+        ],
+        [
+          "eThekwini sits",
+          "On Tuesday morning, Thabiso Goba reported for EWN that eThekwini would hold its inaugural meeting that day despite the provincial directive, with all 224 councillors to be sworn in and a speaker, mayor, deputy mayor and chief whip on the agenda. eNCA reported that MK, the largest party in the hung council, is in a potentially influential position."
         ]
       ],
       "items": [
@@ -3237,7 +3268,8 @@
         "ar-eth",
         "ar-left",
         "tg-eth",
-        "pb-eth"
+        "pb-eth",
+        "tg-eth24"
       ],
       "voices": {
         "dali": "Says MK’s vote shows voters want cooperation, warns the ANC about its partners, and met the DA for the first time while saying MK wants like-minded partners.",
@@ -3251,7 +3283,7 @@
         "phakathi": "MK’s eThekwini mayoral candidate: said MK was ready to govern Durban and fix its water problems within 100 days.",
         "baloyi": "Tipped, in reports, as Mashaba’s deputy mayor in Johannesburg.",
         "ramushwana": "Reported the ANC–MK eThekwini talks and the Council of the Left’s refusal to back ANC deals that include the DA.",
-        "goba": "Reported eThekwini saying its first council meeting would go ahead despite KZN Cogta’s order to postpone.",
+        "goba": "Reported that eThekwini would sit on Tuesday despite Cogta’s order to postpone.",
         "berkowitz": "Before the vote, found MK first in all four eThekwini polls, with the opposition reaching a majority in only two scenarios."
       },
       "coverage": [
@@ -3362,6 +3394,18 @@
           "h": "eThekwini insists council meeting will go ahead despite KZN Cogta’s postponement order",
           "d": "2026-11-23",
           "url": "https://www.ewn.co.za/2026/11/23/ethekwini-insists-council-meeting-will-go-ahead-despite-kzn-cogtas-postponement-order"
+        },
+        {
+          "src": "eNCA",
+          "h": "eThekwini pushes ahead with inaugural sitting despite Cogta directive",
+          "d": "2026-11-24",
+          "url": "https://www.enca.com/news-top-stories/ethekwini-council-proceed-inaugural-sitting-despite-cogta-directive"
+        },
+        {
+          "src": "IOL",
+          "h": "eThekwini challenges Cogta directive to postpone inaugural council meeting",
+          "d": "2026-11-24",
+          "url": "https://iol.co.za/dailynews/news/2026-11-24-ethekwini-challenges-cogta-directive-to-postpone-inaugural-council-meeting/"
         }
       ]
     },
