@@ -53,7 +53,7 @@
   const wait = Math.max(0, DELAY - (Date.now() - start));
 
   function open() {
-    if (document.querySelector(".su")) return;
+    if (document.querySelector(".su") || store("pre-signed")) return; // signed up elsewhere during this visit (e.g. the News Tracker search)
     const last = document.activeElement;
     const wrap = document.createElement("div");
     wrap.className = "su";
