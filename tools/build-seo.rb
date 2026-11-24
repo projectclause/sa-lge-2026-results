@@ -92,6 +92,8 @@ mast = head[/<header class="masthead">.*?<\/header>/m].gsub('href="', 'href="../
 foot = head[/<footer class="footer">.*?<\/footer>/m]
 
 FileUtils.mkdir_p(File.join(ROOT, "coalitions"))
+# the footer’s privacy link is relative: the story and profile pages sit one folder down
+foot = foot.gsub('href="privacy.html"', 'href="../privacy.html"')
 Dir[File.join(ROOT, "coalitions/*.html")].each { |f| File.delete(f) }
 STORIES.each do |s|
   url = "#{SITE}/coalitions/#{s[:id]}.html"
@@ -303,6 +305,7 @@ urls = [["#{SITE}/", today, "hourly", "1.0"], ["#{SITE}/coalitions.html", today,
 urls += STORIES.map { |s| ["#{SITE}/coalitions/#{s[:id]}.html", s[:upd], "daily", "0.7"] }
 urls << ["#{SITE}/people/", today, "daily", "0.7"]
 urls += PEOPLE.map { |q| ["#{SITE}/people/#{q[:slug]}.html", q[:upd], "daily", "0.6"] }
+urls << ["#{SITE}/privacy.html", "2026-11-25", "yearly", "0.3"]
 File.write(File.join(ROOT, "sitemap.xml"), %(<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n#{urls.map { |u, d, f, p| "  <url><loc>#{u}</loc><lastmod>#{d}</lastmod><changefreq>#{f}</changefreq><priority>#{p}</priority></url>" }.join("\n")}\n</urlset>\n))
 
 # ---------- llms.txt ----------

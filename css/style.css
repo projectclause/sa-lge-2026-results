@@ -890,11 +890,15 @@ body.has-ask { padding-bottom: 96px; }
 .su-msg { margin: 10px 0 0; min-height: 1.2em; font-size: 14px; }
 .su-ok { color: #146b1f; font-weight: 700; font-size: 16px; }
 .su-err { color: #b3261e; }
+.su-priv { margin: 10px 0 0; font-size: 12.5px; line-height: 1.4; color: var(--muted2); }
+.su-priv a { color: inherit; text-decoration: underline; }
 @media (max-width: 420px) { .su-row { flex-direction: column; } .su-go { padding: 12px; } }
 
 /* footer social links */
 .ft-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 20px; }
 .ft-social { display: flex; gap: 10px; }
+.ft-privacy { color: inherit; white-space: nowrap; }
+.ft-privacy:hover { color: var(--text); }
 .ft-social a { width: 40px; height: 40px; display: grid; place-items: center; border: 1px solid var(--rule2); border-radius: 50%; color: var(--text); }
 .ft-social a:hover { background: var(--text); color: #fff; border-color: var(--text); }
 .ft-social a:hover svg path[fill="#fff"] { fill: var(--text); }
