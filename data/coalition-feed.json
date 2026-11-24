@@ -672,6 +672,15 @@
       "group": "voice",
       "org": "DM",
       "beat": "analysis"
+    },
+    "masuabi": {
+      "n": "Queenin Masuabi",
+      "o": "Sunday World",
+      "img": "assets/journalists/queenin-masuabi.jpg",
+      "role": "Reporter, Sunday World",
+      "group": "voice",
+      "org": "Sunday World",
+      "beat": "reporting"
     }
   },
   "items": [
@@ -2896,6 +2905,50 @@
       "s": "Grootes wrote that the ANC and ActionSA staged a publicised first meeting, and that the arrangement could help Mashaba ahead of the 2029 elections.",
       "src": "Daily Maverick",
       "url": "https://www.dailymaverick.co.za/article/2026-11-18-the-smoke-and-mirrors-of-the-coalition-talks/"
+    },
+    {
+      "id": "qm-eff",
+      "j": "masuabi",
+      "d": "2026-11-06",
+      "kind": "Report",
+      "place": "National",
+      "h": "EFF ready to put service delivery ahead of politics in coalition talks",
+      "s": "EFF secretary-general Marshall Dlamini told Masuabi the party would work with parties it opposes nationally, but wants positions and a role in running municipalities in return.",
+      "src": "Sunday World",
+      "url": "https://sundayworld.co.za/politics/eff-ready-to-put-service-delivery-ahead-of-politics-in-coalition-talks/"
+    },
+    {
+      "id": "qm-126",
+      "j": "masuabi",
+      "d": "2026-11-08",
+      "kind": "Report",
+      "place": "National",
+      "h": "Power struggle begins: Coalition negotiations intensify across 126 hung municipalities",
+      "s": "With colleagues, Masuabi reported that 126 of 195 declared councils had no outright majority, almost double the number after 2021, with seven of eight metros heading for coalitions.",
+      "src": "Sunday World",
+      "url": "https://sundayworld.co.za/elections-2026/power-struggle-begins-coalition-negotiations-intensify-across-126-hung-municipalities/"
+    },
+    {
+      "id": "qm-far",
+      "j": "masuabi",
+      "d": "2026-11-19",
+      "kind": "Report",
+      "place": "Johannesburg and Tshwane",
+      "h": "ActionSA ‘still far from coalition deal in Joburg and Tshwane’",
+      "s": "ActionSA chair Michael Beaumont told Sunday World the party was far from a deal: posts on mayoral committees, council seats and a programme for each city were still unsettled.",
+      "src": "Sunday World",
+      "url": "https://sundayworld.co.za/news/actionsa-still-far-from-coalition-deal-in-joburg-and-tshwane/"
+    },
+    {
+      "id": "qm-speaker",
+      "j": "masuabi",
+      "d": "2026-11-23",
+      "kind": "Report",
+      "place": "Johannesburg",
+      "h": "ANC’s Adolph Marema tipped for Joburg speaker in ActionSA coalition deal",
+      "s": "Masuabi reported that the ANC’s Adolph Marema had emerged as frontrunner for council speaker as the ANC, ActionSA, EFF, MK and SACP moved closer to a deal making Mashaba mayor.",
+      "src": "Sunday World",
+      "url": "https://sundayworld.co.za/politics/ancs-adolph-marema-tipped-for-joburg-speaker-in-actionsa-coalition-deal"
     }
   ],
   "edition": {
@@ -3023,7 +3076,9 @@
         "sm-deadline",
         "hg-gauteng",
         "hg-metros",
-        "pbr-joburg"
+        "pbr-joburg",
+        "qm-far",
+        "qm-speaker"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
@@ -3061,7 +3116,8 @@
         "sol": "Co-hosted Podcast and Chill’s coalition talks update with MacG as Joburg’s council sat.",
         "maseko": "Reported as the ANC, EFF, ActionSA and MK met to finalise their Gauteng coalition talks, and as the deadline for councils to sit drew near.",
         "giokos": "Reported on the coalition negotiations and the latest developments in Gauteng’s three metros.",
-        "bruce": "Argued Mashaba’s best route to the mayoralty runs through ANC support, since he has said he won’t serve under a DA mayor."
+        "bruce": "Argued Mashaba’s best route to the mayoralty runs through ANC support, since he has said he won’t serve under a DA mayor.",
+        "masuabi": "Reported ActionSA saying it was still far from a deal on 19 November, then that the ANC’s Adolph Marema was tipped for council speaker as the parties neared one."
       },
       "coverage": [
         {
@@ -4038,7 +4094,8 @@
         "pbr-strings",
         "pbr-rise",
         "sg-crossroads",
-        "sg-smoke"
+        "sg-smoke",
+        "qm-far"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
@@ -4060,7 +4117,8 @@
         "makin": "Interviewed Corné Mulder, who said ActionSA was wrong to negotiate with the ANC after voters rejected it.",
         "maseko": "Spoke to ActionSA and MK representatives after the two parties met to discuss coalitions in municipalities across the country.",
         "bruce": "Called ActionSA’s position in Johannesburg and Tshwane the biggest coalition problem after the vote, and wrote that its rise complicates the Gauteng talks.",
-        "grootes": "Asks whether ActionSA can outlast Mashaba, and calls the ANC–ActionSA talks smoke and mirrors that could help Mashaba ahead of 2029."
+        "grootes": "Asks whether ActionSA can outlast Mashaba, and calls the ANC–ActionSA talks smoke and mirrors that could help Mashaba ahead of 2029.",
+        "masuabi": "Reported Beaumont saying ActionSA was still far from a deal, with mayoral committee posts, council seats and city programmes unsettled."
       },
       "coverage": [
         {
