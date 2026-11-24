@@ -17,7 +17,7 @@
   <meta name="twitter:image" content="https://preamble.co.za/assets/share.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css?v=20261124zg">
   <style>
     /* Everything for the tracker is prefixed pnt- so it never clashes with the site's .wrap, header or .nt styles */
@@ -177,19 +177,122 @@
       .pnt-row, .pnt-bt i, .pnt-fill, .pnt-dot { transition: none; }
       .pnt-caret { display: none; }
     }
+
+    /* ===== editorial design (last, so it overrides the rules above) ===== */
+    :root{--bg:#fff;--fg:#121212;--muted:#727272;--line:#dfdfdf;--chip:#f3f3f3;--domain:#9b9b9b;--story:#121212;--piece:#2b6a9c;--report:#c4c4c4;--go:#121212;--accent:#a8201a}
+    @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121212;--fg:#ededed;--muted:#a0a0a0;--line:#333;--chip:#1e1e1e;--domain:#7a7a7a;--story:#ededed;--piece:#6fa3cf;--report:#555;--go:#ededed;--accent:#e0574f}}
+    body{font-family:"DM Sans",-apple-system,sans-serif;background:var(--bg);color:var(--fg)}
+    .pnt{color:var(--fg)}
+    .pnt-in{max-width:1100px}
+    .ed-head{display:block;max-width:720px;margin:0 auto;padding:34px 20px 8px;border:0;text-align:left}
+    .ed-kicker{margin:0 0 10px;font:700 12px/1 "DM Sans",sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--fg)}
+    .ed-kicker .beta{display:inline-block;margin-left:6px;font:600 9px/1 "DM Sans",sans-serif;letter-spacing:.1em;padding:3px 5px 2px;border:1px solid var(--line);border-radius:2px;color:var(--muted);background:transparent;vertical-align:1px}
+    .ed-title{margin:0 0 14px;font:700 44px/1.06 "DM Sans",sans-serif;letter-spacing:-.025em}
+    .ed-byline{margin:0 0 18px;font:500 13px/1.4 "DM Sans",sans-serif;color:var(--muted)}.ed-byline b{color:var(--fg);font-weight:700}.ed-sep{margin:0 4px}
+    .greet{margin:0;padding:12px 0 0;border:0;border-top:1px solid var(--fg);font:italic 400 17px/1.4 "DM Sans",sans-serif;color:var(--fg);min-height:1.4em}
+    .pnt-ctrl{max-width:1100px;margin:0 auto;padding:14px 0 0;border:0;gap:14px}
+    .pnt-play{background:transparent!important;color:var(--fg)!important;border:1px solid var(--fg)!important;border-radius:999px!important;font:600 13px "DM Sans",sans-serif!important;padding:7px 16px 7px 13px!important;min-width:0}
+    .pnt-play:hover{background:var(--fg)!important;color:var(--bg)!important}
+    .pnt-date{font:700 15px "DM Sans",sans-serif}
+    .pnt-counts{font:500 12px "DM Sans",sans-serif;color:var(--muted);letter-spacing:.01em}
+    .pnt-bar{max-width:1060px;margin:0 auto;height:3px;background:var(--line)}
+    .pnt-fill{background:var(--fg)}.pnt-dot{background:var(--fg);width:10px;height:10px;margin:-5px 0 0 -5px}
+    .pnt-stage{max-width:1100px;margin:0 auto;border-top:0}
+    .pnt-map{background:var(--bg);border:0;border-radius:0}
+    .pnt-node{stroke:var(--bg)}
+    .pnt-link{stroke:var(--line)}.pnt-link.pnt-weak{stroke:var(--chip)}.pnt-focus .pnt-link.pnt-on{stroke:var(--muted)}
+    .pnt-ring{stroke:var(--accent)}
+    .pnt-legend{top:14px;left:20px;gap:2px}
+    .pnt-chip{background:transparent;border:0;border-radius:0;padding:3px 4px;font:500 12px "DM Sans",sans-serif;color:var(--fg);min-width:0}
+    .pnt-chip[aria-pressed="false"]{opacity:.35;color:var(--fg)}.pnt-chip[aria-pressed="false"] i{background:var(--muted)!important}.pnt-chip i{width:10px;height:10px}
+    .pnt-hint{color:var(--muted)}
+    @media (min-width:621px){.pnt-hint{top:auto;bottom:14px;right:12px;max-width:calc(100% - 300px);text-align:right}}
+    .pnt-tip{border-radius:0;border:1px solid var(--fg);box-shadow:none;background:var(--bg);color:var(--fg);font-family:"DM Sans",sans-serif}
+    .pnt-tip b{font:600 14px/1.3 "DM Sans",sans-serif}
+    .ann{font:700 11px "DM Sans",sans-serif;letter-spacing:.04em;text-transform:uppercase;fill:var(--fg);paint-order:stroke;stroke:var(--bg);stroke-width:4px;stroke-linejoin:round;pointer-events:none}
+    .ann.sub{font:400 11px "DM Sans",sans-serif;text-transform:none;letter-spacing:0;fill:var(--muted)}
+    .pnt-scene .ann{transition:opacity .3s}.pnt-focus .ann,.pnt-search .ann{opacity:.15}
+    .pnt-feed::before{content:"Latest coverage";display:block;font:700 12px "DM Sans",sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:0 0 8px;border-bottom:1px solid var(--fg);margin-bottom:4px}
+    .pnt-feed{gap:0}
+    .pnt-card{display:block;background:transparent!important;border:0;border-radius:0!important;box-shadow:none!important;border-bottom:1px solid var(--line);padding:10px 0!important;color:var(--fg);animation:fadein .5s ease}
+    .pnt-card:hover .pnt-ch{text-decoration:underline}
+    .pnt-ini{display:none}
+    .pnt-cm{font:600 11px "DM Sans",sans-serif;letter-spacing:.04em;color:var(--muted)}
+    .pnt-co{font-weight:600}
+    .pnt-tag,.pnt-c-c .pnt-tag,.pnt-c-a .pnt-tag{background:transparent!important;color:var(--muted)!important;padding:0;font:500 10px "DM Sans",sans-serif}
+    .pnt-tag::before{content:"· "}
+    .pnt-cw{font:700 12px "DM Sans",sans-serif;margin-top:4px;color:var(--fg)}
+    .pnt-ch{font:400 15px/1.32 "DM Sans",sans-serif;color:var(--fg)}
+    .pnt-card.pnt-hot{box-shadow:none!important;border-left:3px solid var(--accent);padding-left:10px!important}
+    .pnt-hotg{background:transparent!important;color:var(--accent)!important;padding:0!important;font:700 10px "DM Sans",sans-serif!important;letter-spacing:.06em}
+    @keyframes fadein{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+    .pnt-trend{border-radius:0;border:0;border-top:1px solid var(--fg);box-shadow:none;background:var(--bg);padding:8px 10px 4px;width:260px}
+    .pnt-trend h3{font:700 12px "DM Sans",sans-serif;color:var(--fg);letter-spacing:.08em}
+    .pnt-row{font:500 13px "DM Sans",sans-serif}.pnt-ph{filter:grayscale(1);border:0;background:var(--chip)}
+    .pnt-bt{height:4px;background:var(--chip);border-radius:0}.pnt-bt i{background:var(--fg)!important;border-radius:0}
+    .pnt-row.pnt-up .pnt-nm{color:var(--accent)}.pnt-row.pnt-up .pnt-ph{box-shadow:0 0 0 2px var(--accent)}
+    .pnt-num{color:var(--fg);font-size:72px;font-weight:700}
+    .pnt-rl{font:600 12px "DM Sans",sans-serif;color:var(--muted)}
+    .pnt-surge{border-radius:0;border:0;border-left:3px solid var(--accent);background:var(--bg);color:var(--fg);box-shadow:0 2px 12px rgba(0,0,0,.08);font:400 15px/1.35 "DM Sans",sans-serif;text-align:left;padding:10px 14px}
+    .pnt-surge b{display:block;font:700 11px "DM Sans",sans-serif;letter-spacing:.08em;color:var(--accent);margin-bottom:2px}
+    .pnt-confetti{display:none!important}
+    .pnt-panel{border-radius:0;border:1px solid var(--fg);background:var(--bg);color:var(--fg);box-shadow:0 8px 24px rgba(0,0,0,.12);font:400 13px "DM Sans",sans-serif}
+    .pnt-panel p{color:var(--fg)}.pnt-panel a{color:var(--fg)}
+    .pnt-results{max-width:1060px;margin:0 auto;padding:12px 0 4px;border-top:1px solid var(--line);font:400 13px "DM Sans",sans-serif;scroll-margin-top:70px}
+    .pnt-results[hidden]{display:none}
+    .ed-source{max-width:1060px;margin:6px auto 40px;padding:0;font:400 12px/1.5 "DM Sans",sans-serif;color:var(--muted)}
+    @media (max-width:1100px){.pnt-bar{margin:0 16px}}
+    @media (max-width:620px){.ed-head{padding:22px 16px 4px;position:relative}.ed-title{font-size:30px}.greet{font-size:15px}.pnt-ctrl{padding:12px 0 0}.pnt-num{font-size:48px}.pnt-trend{width:auto;padding:8px 0 4px}.pnt-legend{left:0}}
+    .info-wrap{position:relative;display:inline-block}
+    .info{width:17px;height:17px;border-radius:50%;border:1px solid var(--fg);background:transparent;color:var(--fg);font:700 11px/15px "DM Sans",sans-serif;font-style:italic;padding:0;margin-left:4px;cursor:pointer;vertical-align:1px;text-transform:none}
+    .info:hover,.info[aria-expanded="true"]{background:var(--fg);color:var(--bg)}
+    .info-pop{position:absolute;left:-8px;top:calc(100% + 10px);z-index:40;width:min(340px,80vw);padding:12px 14px;background:var(--bg);border:1px solid var(--fg);box-shadow:0 8px 24px rgba(0,0,0,.12);font:400 14px/1.45 "DM Sans",sans-serif;letter-spacing:0;text-transform:none;color:var(--fg)}
+    .info-pop[hidden]{display:none}
+    .info-pop::before{content:"";position:absolute;left:14px;top:-6px;width:10px;height:10px;background:var(--bg);border-left:1px solid var(--fg);border-top:1px solid var(--fg);transform:rotate(45deg)}
+    body{padding-bottom:96px}
+    .ed-ask{position:fixed;left:50%;transform:translateX(-50%);bottom:max(16px,env(safe-area-inset-bottom,0px));z-index:60;width:min(680px,calc(100vw - 32px));margin:0}
+    .ed-ask-bar{display:flex;align-items:center;gap:8px;background:var(--bg);border:1px solid #d6dae1;border-radius:28px;padding:6px 6px 6px 20px;box-shadow:0 8px 28px rgba(18,18,18,.16)}
+    .ed-ask-in{flex:1;min-width:0;border:0;outline:none;background:none;font:400 16px "DM Sans",sans-serif;color:var(--fg);padding:10px 0}
+    .ed-ask-in::-webkit-search-cancel-button{display:none}
+    .ed-ask-go{width:42px;height:42px;border-radius:50%;border:0;background:var(--fg);color:var(--bg);display:grid;place-items:center;cursor:pointer;flex:none}
+    .ed-ask-go svg{width:20px;height:20px}
+    .ed-sub{position:fixed;inset:0;z-index:100;display:grid;place-items:center;padding:16px}.ed-sub[hidden]{display:none}
+    .ed-sub-back{position:absolute;inset:0;background:rgba(18,18,18,.45)}
+    .ed-sub-box{position:relative;width:min(420px,100%);box-sizing:border-box;background:var(--bg);color:var(--fg);padding:26px 24px 20px;border-radius:14px;box-shadow:0 20px 60px rgba(0,0,0,.25);font-family:"DM Sans",sans-serif;animation:subin .25s ease}
+    @keyframes subin{from{transform:translateY(12px);opacity:0}to{transform:none;opacity:1}}
+    .ed-sub-x{position:absolute;right:12px;top:8px;border:0;background:none;font-size:26px;color:var(--muted);cursor:pointer}
+    .ed-sub-brand{margin:0 0 8px;font-size:13px;letter-spacing:.04em}
+    .ed-sub-box h2{margin:0 0 8px;font:700 24px/1.15 "DM Sans",sans-serif;letter-spacing:-.02em}
+    .ed-sub-note{margin:0 0 14px;font-size:15px;line-height:1.45;color:var(--muted)}
+    .ed-sub-q{margin:0 0 14px;padding:8px 12px;background:var(--chip);border-radius:8px;font-size:14px}
+    .ed-sub-box label{display:block;font-size:13px;font-weight:600;margin-bottom:6px}
+    .ed-sub-box input{width:100%;box-sizing:border-box;padding:12px 14px;border:1px solid #cfd3da;border-radius:10px;font:400 16px "DM Sans",sans-serif;background:var(--bg);color:var(--fg)}
+    .ed-sub-go{width:100%;margin-top:12px;padding:13px;border:0;border-radius:999px;background:var(--fg);color:var(--bg);font:700 15px "DM Sans",sans-serif;cursor:pointer}
+    .ed-sub-msg{min-height:1.2em;margin:10px 0 0;font-size:14px}.ed-sub-msg.err{color:var(--accent)}
+    .ed-sub-fine{margin:6px 0 0;font-size:12px;color:var(--muted)}.ed-sub-fine a{color:inherit}
+    @media (max-width:620px){.ed-ask{bottom:max(10px,env(safe-area-inset-bottom,0px))}.ed-ask-in{font-size:15px}}
+    .pnt-results b{font-weight:700}.pnt-results .clr{margin-left:10px;border:0;background:none;padding:0;font:600 13px "DM Sans",sans-serif;color:var(--accent);cursor:pointer;text-decoration:underline}
+    .pnt-res{margin:10px 0 0;padding:0 0 0 18px}.pnt-res li{margin:0 0 9px;font-size:15px;line-height:1.35}.pnt-res a{color:var(--fg);font-weight:600;text-decoration:none}.pnt-res a:hover{text-decoration:underline}.pnt-res span{display:block;font-size:12px;color:var(--muted);margin-top:2px}.pnt-more{margin:6px 0 0;font-size:13px;color:var(--muted)}
+    .pnt-search .pnt-node:not(.pnt-hit){opacity:.07}
+    @media (max-width:620px){.info-wrap{position:static}.info-pop{left:16px;right:16px;width:auto}.info-pop::before{display:none}}.pnt-search .pnt-link:not(.pnt-hit){opacity:.03}
   </style>
 </head>
 <body class="rs-page pnt-page">
   <header class="masthead">
     <div class="wrap masthead-row">
       <a class="brand" href="index.html">PREAMBLE</a>
-      <nav class="page-tabs" aria-label="Pages"><a href="index.html">2026 Results</a><a href="coalitions.html">Coalitions<span class="tab-x"> Tracker</span></a><a href="mayors.html">Mayors</a><a href="map.html">Map</a><a class="tab-eye" href="news-tracker.html" aria-label="Preamble News Tracker" title="Preamble News Tracker" aria-current="page"><img src="assets/news-tracker-eye.png" alt="" width="24" height="24"></a></nav>
+      <nav class="page-tabs" aria-label="Pages"><a href="index.html">2026 Results</a><a href="coalitions.html">Coalitions<span class="tab-x"> Tracker</span></a><a href="mayors.html">Mayors</a><a href="map.html">Map</a><a class="tab-eye" href="news-tracker.html" aria-label="Preamble News Tracker" title="Preamble News Tracker" aria-current="page"><img src="assets/news-tracker-icon.svg" alt="" width="24" height="24"></a></nav>
     </div>
   </header>
 
   <main class="pnt" id="top">
+    <header class="ed-head"><h1 hidden>Preamble News Tracker</h1>
+<p class="ed-kicker">Preamble News Tracker <span class="info-wrap"><button class="info" type="button" aria-expanded="false" aria-controls="info-pop" aria-label="About the News Tracker">i</button><span class="info-pop" id="info-pop" role="tooltip" hidden>Every report, column and video about South Africa’s 2026 coalition talks, traced from the outlet that published it to the story it belongs to. Press play to watch the coverage build, day by day.</span></span> <span class="beta">BETA</span></p>
+<h2 class="ed-title">How the Coalition Story Spread</h2>
+<p class="ed-byline">By <b>Preamble</b> <span class="ed-sep">·</span> <span id="ed-updated"></span></p>
+<p class="greet" id="greet"></p>
+</header>
     <div class="pnt-in">
-      <div class="pnt-titlerow"><h1 class="pnt-title">Preamble News Tracker</h1><span class="pnt-beta">BETA</span></div>
       <div class="pnt-ctrl">
         <button class="pnt-play" type="button" aria-label="Play the timeline"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1.5v11l9.5-5.5z" fill="currentColor"/></svg><span>Play</span></button>
         <b class="pnt-date" aria-live="off"><span class="pnt-dl">Loading…</span><span class="pnt-ds">Loading…</span></b>
@@ -201,7 +304,6 @@
       <input class="pnt-range" type="range" min="0" max="0" step="1" value="0" aria-label="Timeline: choose a day">
     </div>
     <div class="pnt-in">
-      <p class="pnt-greet"></p>
       <div class="pnt-stage">
         <div class="pnt-mapcol">
           <div class="pnt-map">
@@ -218,13 +320,18 @@
         </div>
         <aside class="pnt-feed" aria-label="Latest pieces and reports" aria-live="off"></aside>
       </div>
+      <section class="pnt-results" id="pnt-results" aria-live="polite" hidden></section>
+      <p class="ed-source">Source: Preamble Coalitions Tracker, compiled from South African and international news outlets. Each dot is one published piece; lines connect it to its story and its outlet. Updated hourly.</p>
     </div>
   </main>
 
   <footer class="footer"><div class="wrap ft-row"><span>PREAMBLE · Data: Independent Electoral Commission · <a class="ft-privacy" href="privacy.html">🍪 Privacy &amp; cookies</a></span><nav class="ft-social" aria-label="Preamble on social media"><a href="https://www.instagram.com/preamblehqdotcom/" target="_blank" rel="noopener" aria-label="Preamble on Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.4" cy="6.6" r="1.3" fill="currentColor"/></svg></a><a href="https://youtube.com/preambleyt" target="_blank" rel="noopener" aria-label="Preamble on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4" fill="currentColor"/><path d="M10 9l5 3-5 3z" fill="#fff"/></svg></a><a href="https://preamble.substack.com/" target="_blank" rel="noopener" aria-label="Preamble on Substack"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h14v2.4H5zM5 7.2h14v2.4H5zM5 11.4h14V21l-7-3.9L5 21z" fill="currentColor"/></svg></a><a href="mailto:preamblehq@gmail.com" aria-label="Email Preamble at preamblehq@gmail.com" title="preamblehq@gmail.com"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5A1.5 1.5 0 0 1 4.5 5h15A1.5 1.5 0 0 1 21 6.5v11a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.6 6.4 12 13l8.4-6.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></a></nav><a class="ft-mail" href="mailto:preamblehq@gmail.com">preamblehq@gmail.com</a></div></footer>
 
+  <form class="ed-ask" id="ed-ask" role="search" autocomplete="off"><div class="ed-ask-bar"><input class="ed-ask-in" id="ed-ask-in" type="search" placeholder="Search the tracker: who covered the Joburg mayor talks?" aria-label="Search the News Tracker"><button class="ed-ask-go" type="submit" aria-label="Search"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div></form>
+  <div class="ed-sub" id="ed-sub" hidden><div class="ed-sub-back"></div><form class="ed-sub-box" id="ed-sub-form" role="dialog" aria-modal="true" aria-labelledby="ed-sub-h" novalidate><button type="button" class="ed-sub-x" aria-label="Close">×</button><p class="ed-sub-brand">PREAMBLE</p><h2 id="ed-sub-h">Subscribe to search the tracker</h2><p class="ed-sub-note">Search every report, column and video in the News Tracker. It’s free for Preamble subscribers.</p><p class="ed-sub-q" id="ed-sub-q" hidden></p><label for="ed-sub-email">Email</label><input id="ed-sub-email" type="email" autocomplete="email" required><button type="submit" class="ed-sub-go">Subscribe and search</button><p class="ed-sub-msg" aria-live="polite"></p><p class="ed-sub-fine">We’ll only use your email for Preamble updates. <a href="privacy.html">Privacy &amp; cookies</a></p></form></div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
   <script src="js/feed.js?v=20261124zg"></script>
+  <script src="js/signup.js?v=20261124zg"></script>
   <script>
   (function () {
     "use strict";
@@ -232,8 +339,8 @@
     const RM = matchMedia("(prefers-reduced-motion: reduce)").matches;
     const PHONE = matchMedia("(max-width: 620px)");
     const TOUCH = matchMedia("(hover: none)").matches;
-    const COL = { outlet: "#3a7bd5", story: "#f0501e", piece: "#d61fbd", report: "#1fcf8f" };
-    const CONF = ["#12a150", "#f0501e", "#d61fbd", "#3a7bd5", "#f5b400", "#1fcf8f"];
+    // node colours come from the CSS variables, so the palette (and dark mode) follows the stylesheet
+    const COL = { outlet: "var(--domain)", story: "var(--story)", piece: "var(--piece)", report: "var(--report)" };
     const DAYW = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     const MON = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     const esc = (s) => String(s == null ? "" : s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -252,7 +359,7 @@
 
     /* ---------- greeting: Africa/Johannesburg time, types itself once ---------- */
     (function greet() {
-      const el = $(".pnt-greet");
+      const el = $("#greet");
       const h = +new Intl.DateTimeFormat("en-ZA", { timeZone: "Africa/Johannesburg", hour: "numeric", hourCycle: "h23" }).format(new Date());
       const g = h < 12 ? "Good morning" : h < 18 ? "Good afternoon" : "Good evening";
       const full = `${g}, here’s how the news spread in South Africa and went global today.`;
@@ -365,14 +472,46 @@
         .attr("x1", (l) => l.source.x).attr("y1", (l) => l.source.y).attr("x2", (l) => l.target.x).attr("y2", (l) => l.target.y);
       const ordered = d3.sort(S.nodes, (n) => ({ report: 0, piece: 1, outlet: 2, story: 3 }[n.type]));
       nodeSel = scene.append("g").selectAll("circle").data(ordered, (n) => n.id).join("circle")
-        .attr("class", "pnt-node").attr("cx", (n) => n.x).attr("cy", (n) => n.y).attr("r", 0).attr("fill", (n) => COL[n.type]);
+        .attr("class", "pnt-node").attr("cx", (n) => n.x).attr("cy", (n) => n.y).attr("r", 0).style("fill", (n) => COL[n.type]);
+      annotate();
+      fit(zg);
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => fit(zg));
       ringG = zg.append("g");
-      zoom = d3.zoom().scaleExtent([0.6, 8]).on("zoom", (e) => zg.attr("transform", e.transform));
+      // a plain scroll scrolls the page; pinch or Ctrl/⌘ + wheel zooms the map
+      zoom = d3.zoom().filter((e) => (e.type !== "wheel" || e.ctrlKey || e.metaKey) && !e.button).scaleExtent([0.6, 8]).on("zoom", (e) => zg.attr("transform", e.transform));
       svg.call(zoom).on("dblclick.zoom", null);
       nodeSel.on("mouseenter", (e, n) => { if (!TOUCH) tip(n, e.currentTarget); })
         .on("mouseleave", () => { if (!TOUCH) tip(null); })
         .on("click", (e, n) => { e.stopPropagation(); if (n.type === "story") { tip(null); focus(n); } else if (TOUCH) tip(n, e.currentTarget); });
       svg.on("click", () => { tip(null); focus(null); });
+    }
+
+    // label the five biggest stories just outside their clusters
+    let annSel;
+    function annotate() {
+      const cx = d3.mean(S.nodes, (n) => n.x), cy = d3.mean(S.nodes, (n) => n.y);
+      // one label per category: two "National" stories would read as a duplicate
+      const cats = new Set(), top = [];
+      d3.sort(S.stories, (s) => -s.total).forEach((s) => { const c = String(s.cat || s.place || s.label).toUpperCase(); if (top.length < 5 && !cats.has(c)) { cats.add(c); top.push(s); } });
+      annSel = scene.append("g").attr("class", "pnt-anns").selectAll("g").data(top).join("g").each(function (s) {
+        const ext = Math.max(s.full, d3.max(s.kids, (c) => Math.hypot(c.x - s.x, c.y - s.y) + c.full) || 0);
+        let ux = s.x - cx, uy = s.y - cy; const L = Math.hypot(ux, uy) || 1; ux /= L; uy /= L;
+        const ax = s.x + ux * (ext + 8), ay = s.y + uy * (ext + 8);
+        const mid = Math.abs(ux) < 0.35;
+        const anchor = mid ? "middle" : ux > 0 ? "start" : "end";
+        const dy = mid ? (uy > 0 ? 12 : -14) : 0;
+        const g = d3.select(this);
+        g.append("text").attr("class", "ann").attr("x", ax).attr("y", ay + dy).attr("text-anchor", anchor).text(String(s.cat || s.place || s.label).toUpperCase());
+        g.append("text").attr("class", "ann sub").attr("x", ax).attr("y", ay + dy + 13).attr("text-anchor", anchor);
+      });
+    }
+    // fit the viewBox to everything drawn (dots at full size, and the labels), plus 10px
+    function fit(zg) {
+      const b = zg.node().getBBox();
+      let x0 = Math.min(b.x, d3.min(S.nodes, (n) => n.x - n.full)), y0 = Math.min(b.y, d3.min(S.nodes, (n) => n.y - n.full));
+      let x1 = Math.max(b.x + b.width, d3.max(S.nodes, (n) => n.x + n.full)), y1 = Math.max(b.y + b.height, d3.max(S.nodes, (n) => n.y + n.full));
+      x0 -= 10; y0 -= 10 + 40; x1 += 10; y1 += 10; // the extra 40 at the top keeps the labels clear of the legend row
+      svg.attr("viewBox", [x0, y0, x1 - x0, y1 - y0].join(" "));
     }
 
     function visible(n) { return n.day <= S.cur && !S.hidden.has(n.type); }
@@ -391,6 +530,8 @@
       });
       linkSel.style("display", (l) => visible(l.source) && visible(l.target) ? null : "none");
       if (S.focus) mark(S.focus);
+      if (annSel) annSel.style("display", (s) => visible(s) ? null : "none")
+        .select(".sub").text((s) => { const k = s.kids.filter(shown).length; return `${k} ${k === 1 ? "piece" : "pieces"}`; });
       counts(); trending(); bar();
       $(".pnt-dl").textContent = longDate(S.days[S.cur]);
       $(".pnt-ds").textContent = shortDate(S.days[S.cur]);
@@ -454,7 +595,7 @@
       const com = c.type === "piece";
       a.className = "pnt-card " + (com ? "pnt-c-c" : "pnt-c-a") + (hot ? " pnt-hot" : "");
       a.href = c.url; a.target = "_blank"; a.rel = "noopener";
-      a.innerHTML = `<span class="pnt-ini" aria-hidden="true">${esc(initials(c.src))}</span><span class="pnt-cb"><span class="pnt-cm"><b class="pnt-co">${esc(c.src)}</b><span class="pnt-tag">${com ? "COMMENTARY" : "ARTICLE"}</span>${hot ? '<span class="pnt-hotg">🔥 Surge</span>' : ""}<span class="pnt-cd">${dayMon(c.d)}</span></span>${com && c.who ? `<span class="pnt-cw">${esc(c.who)}</span>` : ""}<span class="pnt-ch">${esc(c.label)}</span></span>`;
+      a.innerHTML = `<span class="pnt-ini" aria-hidden="true">${esc(initials(c.src))}</span><span class="pnt-cb"><span class="pnt-cm"><b class="pnt-co">${esc(c.src)}</b><span class="pnt-tag">${com ? "COMMENTARY" : "ARTICLE"}</span>${hot ? '<span class="pnt-hotg">SURGE</span>' : ""}<span class="pnt-cd">${dayMon(c.d)}</span></span>${com && c.who ? `<span class="pnt-cw">${esc(c.who)}</span>` : ""}<span class="pnt-ch">${esc(c.label)}</span></span>`;
       return a;
     }
     const hotSet = (day) => new Set((S.surges[day] || []).map((x) => x.story.id));
@@ -528,7 +669,7 @@
         });
         g.appendChild(b);
       });
-      $(".pnt-hint").textContent = TOUCH ? "Tap a dot for details · tap a story to see its network" : "Hover a dot for details · click a story to see its network";
+      $(".pnt-hint").textContent = TOUCH ? "Tap a dot for details · tap a story (large black dot) to see its network" : "Hover a dot for details · click a story (large black dot) to see its network";
     }
 
     /* ---------- spin and reveal, surges ---------- */
@@ -564,7 +705,7 @@
       if (!list.length) return;
       const top = list[0];
       const b = $(".pnt-surge");
-      b.textContent = `🔥 SURGE · ${top.story.label} · ${top.c} new today`;
+      b.innerHTML = `<b>SURGE IN COVERAGE</b>${esc(top.story.label)} · ${top.c} new ${top.c === 1 ? "piece" : "pieces"}`;
       b.classList.add("pnt-show");
       clearTimeout(surge.t); surge.t = setTimeout(() => b.classList.remove("pnt-show"), 2200);
       list.forEach(({ story }) => {
@@ -574,26 +715,7 @@
             .transition().delay(k * 280).duration(RM ? 0 : 1300).ease(d3.easeCubicOut).attr("r", r0 + 70).attr("stroke-width", 0.5).attr("opacity", 0).remove();
         }
       });
-      if (!RM) confetti(Math.min(70, 30 + 2 * top.c));
     }
-    function confetti(n) {
-      const layer = $(".pnt-confetti"), W = layer.clientWidth, H = layer.clientHeight;
-      for (let k = 0; k < n; k++) {
-        const i = document.createElement("i");
-        const dot = Math.random() < 0.25;
-        const w = 6 + Math.random() * 6, h = dot ? w : w * (0.35 + Math.random() * 0.9);
-        i.style.cssText = `left:${Math.random() * W}px;width:${w}px;height:${h}px;background:${CONF[k % CONF.length]};border-radius:${dot ? "50%" : "1.5px"}`;
-        layer.appendChild(i);
-        const drift = (Math.random() - 0.5) * 160, spin = (Math.random() - 0.5) * 900, dur = 1800 + Math.random() * 1400;
-        const an = i.animate([
-          { transform: "translate(0,0) rotate(0deg)", opacity: 1 },
-          { transform: `translate(${drift * 0.6}px,${H * 0.7}px) rotate(${spin * 0.7}deg)`, opacity: 1, offset: 0.7 },
-          { transform: `translate(${drift}px,${H + 20}px) rotate(${spin}deg)`, opacity: 0 }
-        ], { duration: dur, delay: Math.random() * 250, easing: "cubic-bezier(.25,.4,.5,1)", fill: "forwards" });
-        an.onfinish = () => i.remove();
-      }
-    }
-
     /* ---------- playback ---------- */
     function setPlaying(on) {
       S.playing = on;
@@ -638,10 +760,90 @@
       document.addEventListener("keydown", (e) => { if (e.key === "Escape") { tip(null); focus(null); } });
     }
 
+    /* ---------- the (i) button: what the tracker is ---------- */
+    (function info() {
+      const btn = $(".info"), pop = $("#info-pop");
+      const set = (on) => { pop.hidden = !on; btn.setAttribute("aria-expanded", String(on)); };
+      btn.addEventListener("click", (e) => { e.stopPropagation(); set(pop.hidden); });
+      document.addEventListener("click", (e) => { if (!pop.hidden && !pop.contains(e.target)) set(false); });
+      document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !pop.hidden) { set(false); btn.focus(); } });
+    })();
+
+    /* ---------- search: subscribers search the tracker; everyone else is asked to subscribe first ---------- */
+    const STOP = new Set(["the", "who", "and", "for", "of", "in", "on", "a", "to", "about", "what"]);
+    const subscribed = () => { try { return !!(JSON.parse(localStorage.getItem("pre-me") || "{}").email || localStorage.getItem("pre-signed") === "1"); } catch (e) { return false; } };
+    function clearSearch() {
+      const box = $("#pnt-results"); box.hidden = true; box.textContent = "";
+      $("#ed-ask-in").value = "";
+      if (scene) { scene.classed("pnt-search", false); nodeSel.classed("pnt-hit", false); linkSel.classed("pnt-hit", false); }
+    }
+    function runSearch(q) {
+      q = q.trim(); if (!q || !nodeSel) return;
+      pause(); tip(null); focus(null); jump(S.days.length - 1);
+      const toks = q.toLowerCase().replace(/[?.,]/g, " ").split(/\s+/).filter((w) => w.length > 1 && !STOP.has(w));
+      const hay = (c, full) => (c.label + " " + (c.who || "") + (full ? " " + c.src : "")).toLowerCase();
+      let hits = toks.length ? S.children.filter((c) => toks.every((t) => hay(c, true).includes(t))) : [];
+      if (!hits.length && toks.length) hits = S.children.filter((c) => toks.some((t) => hay(c, false).includes(t)));
+      const on = new Set();
+      hits.forEach((c) => { on.add(c.id); on.add(c.story.id); on.add(c.outlet.id); });
+      scene.classed("pnt-search", true);
+      nodeSel.classed("pnt-hit", (n) => on.has(n.id));
+      linkSel.classed("pnt-hit", (l) => on.has(l.source.id) && on.has(l.target.id));
+      const seen = new Set(), list = [];
+      d3.sort(hits, (a, b) => d3.descending(a.d, b.d)).forEach((c) => { const k = c.src + "|" + c.label; if (!seen.has(k)) { seen.add(k); list.push(c); } });
+      const box = $("#pnt-results");
+      if (!list.length) box.innerHTML = `<b>Nothing matched. Try a name, outlet or city.</b><button class="clr" type="button">Clear search</button>`;
+      else box.innerHTML = `<b>${list.length} ${list.length === 1 ? "result" : "results"} for “${esc(q)}”</b><button class="clr" type="button">Clear search</button>`
+        + `<ol class="pnt-res">${list.slice(0, 8).map((c) => `<li><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.label)}</a><span>${[c.who, c.src, dayMon(c.d)].filter(Boolean).map(esc).join(" · ")}</span></li>`).join("")}</ol>`
+        + (list.length > 8 ? `<p class="pnt-more">Showing 8 of ${list.length}. The matching pieces are highlighted on the map.</p>` : "");
+      box.hidden = false;
+      $(".clr", box).addEventListener("click", clearSearch);
+      box.scrollIntoView({ behavior: RM ? "auto" : "smooth", block: "start" });
+    }
+    (function ask() {
+      const form = $("#ed-ask"), input = $("#ed-ask-in"), modal = $("#ed-sub"), sub = $("#ed-sub-form"), email = $("#ed-sub-email"), msg = $(".ed-sub-msg", sub), qEl = $("#ed-sub-q");
+      let pending = "";
+      const close = () => { modal.hidden = true; document.removeEventListener("keydown", key); input.focus(); };
+      const key = (e) => { if (e.key === "Escape") close(); };
+      const open = (q) => {
+        pending = q;
+        qEl.hidden = !q; qEl.textContent = q ? `You searched: “${q}”` : "";
+        msg.textContent = ""; msg.className = "ed-sub-msg";
+        const go = $(".ed-sub-go", sub); go.disabled = false; go.textContent = "Subscribe and search";
+        modal.hidden = false; document.addEventListener("keydown", key); email.focus();
+      };
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const q = input.value.trim();
+        if (subscribed() && q) runSearch(q); else if (!subscribed()) open(q);
+      });
+      $(".ed-sub-x", sub).addEventListener("click", close);
+      $(".ed-sub-back", modal).addEventListener("click", close);
+      sub.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const v = email.value.trim();
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)) { msg.textContent = "Please enter a valid email address."; msg.className = "ed-sub-msg err"; email.focus(); return; }
+        if (!window.PRE) { msg.textContent = "Sign-ups aren’t available right now. Please try again soon."; msg.className = "ed-sub-msg err"; return; }
+        const go = $(".ed-sub-go", sub); go.disabled = true; go.textContent = "Subscribing…";
+        try {
+          // the site's existing sign-up pipeline (js/signup.js → google-apps-script/signup.gs); the page column marks where it came from
+          await PRE.send({ email: v, page: location.pathname + "#search" });
+        } catch (err) {
+          go.disabled = false; go.textContent = "Subscribe and search";
+          msg.textContent = "Something went wrong. Please try again."; msg.className = "ed-sub-msg err"; return;
+        }
+        PRE.remember({ email: v });
+        try { localStorage.setItem("pre-signed", "1"); } catch (err) {}
+        msg.textContent = "You’re subscribed. Searching…"; msg.className = "ed-sub-msg";
+        setTimeout(() => { close(); if (pending) { input.value = pending; runSearch(pending); } }, 700);
+      });
+    })();
+
     if (!window.d3 || !window.PreambleFeed) { $(".pnt-map").innerHTML = '<p class="pnt-err">The tracker could not load. Please refresh the page.</p>'; return; }
     PreambleFeed.load().then((D) => {
       build(D); layout(); draw(); legend(); controls();
       S.cur = S.days.length - 1; // idle: full, at the latest day
+      { const t = parse(S.days[S.cur]); $("#ed-updated").textContent = `Updated ${t.getUTCDate()} ${MON[t.getUTCMonth()]} ${t.getUTCFullYear()}`; }
       render(true); feedTo(S.cur);
     }).catch((err) => {
       console.warn(err);
