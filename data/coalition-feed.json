@@ -741,6 +741,15 @@
       "org": "702",
       "beat": "analysis",
       "wide": true
+    },
+    "zizipho": {
+      "n": "Zizipho Lubelwana",
+      "o": "Simple Politics",
+      "img": "assets/journalists/zizipho-lubelwana.jpg",
+      "role": "Host, Simple Politics (YouTube)",
+      "group": "voice",
+      "org": "Simple Politics",
+      "beat": "analysis"
     }
   },
   "items": [
@@ -3427,6 +3436,138 @@
       "s": "Bingwa spoke to UCT’s Prof Richard Calland about the Johannesburg talks: 270 councillors sworn in, but still no mayor, speaker or mayoral committee.",
       "src": "702",
       "url": "https://www.youtube.com/watch?v=BmlII20wyy8"
+    },
+    {
+      "id": "zl-against",
+      "j": "zizipho",
+      "d": "2026-11-09",
+      "kind": "Video",
+      "place": "Gauteng metros",
+      "h": "ActionSA to negotiate with DA against Mashaba’s wishes",
+      "s": "Lubelwana discussed Michael Beaumont pressing ahead with talks with the DA against Herman Mashaba’s wishes.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=f5fGjR0vhis"
+    },
+    {
+      "id": "zl-dump",
+      "j": "zizipho",
+      "d": "2026-11-10",
+      "kind": "Video",
+      "place": "National",
+      "h": "ANC to dump DA or continue?",
+      "s": "On the ANC at a crossroads over whether to keep working with the DA.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=z2ZvJtx0JP4"
+    },
+    {
+      "id": "zl-effmk",
+      "j": "zizipho",
+      "d": "2026-11-14",
+      "kind": "Video",
+      "place": "National",
+      "h": "DA wants to work with EFF and MKP",
+      "s": "South Africans’ reactions to the DA wanting to work with the EFF and MK.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=ypP5eHJuRfQ"
+    },
+    {
+      "id": "zl-gumani",
+      "j": "zizipho",
+      "d": "2026-11-15",
+      "kind": "Video",
+      "place": "National",
+      "h": "Coalition negotiations: EFF’s Dr Gumani’s view",
+      "s": "An EFF researcher on the party’s negotiating team spoke about the coalition talks.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=pLhMmKoWib8"
+    },
+    {
+      "id": "zl-notsale",
+      "j": "zizipho",
+      "d": "2026-11-16",
+      "kind": "Video",
+      "place": "Gauteng metros",
+      "h": "Herman Mashaba says he is not for sale",
+      "s": "Lubelwana covered Mashaba refusing to go against his principles and work with the DA, saying he is not for sale.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=djwVL6dnSlc"
+    },
+    {
+      "id": "zl-mkanc",
+      "j": "zizipho",
+      "d": "2026-11-16",
+      "kind": "Video",
+      "place": "KwaZulu-Natal",
+      "h": "MKP and ANC coalition agreement",
+      "s": "On MK and the ANC agreeing to a coalition without the DA.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=ytPAOmbgH4I"
+    },
+    {
+      "id": "zl-betrayed",
+      "j": "zizipho",
+      "d": "2026-11-17",
+      "kind": "Video",
+      "place": "National",
+      "h": "DA voters feel betrayed",
+      "s": "Voters reacted to coalition talks between the DA, MK and the EFF.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=OZc0U7ZlCZY"
+    },
+    {
+      "id": "zl-demand",
+      "j": "zizipho",
+      "d": "2026-11-17",
+      "kind": "Video",
+      "place": "Johannesburg",
+      "h": "Herman Mashaba has one demand for the DA",
+      "s": "On the DA considering dropping Helen Zille as its mayoral candidate because of Mashaba’s demand.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=H_GwT5ixvy4"
+    },
+    {
+      "id": "zl-offer",
+      "j": "zizipho",
+      "d": "2026-11-18",
+      "kind": "Video",
+      "place": "Gauteng metros",
+      "h": "ActionSA receives a big offer from the ANC",
+      "s": "On MK, the ANC, ActionSA and the EFF finding each other in negotiations.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=gAg0EBiKgTM"
+    },
+    {
+      "id": "zl-open",
+      "j": "zizipho",
+      "d": "2026-11-18",
+      "kind": "Video",
+      "place": "Gauteng metros",
+      "h": "Herman Mashaba has not ruled the DA out",
+      "s": "With talks still going, Mashaba confirmed the door was still open for the DA.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=G8u6paJ6waY"
+    },
+    {
+      "id": "zl-rejected",
+      "j": "zizipho",
+      "d": "2026-11-22",
+      "kind": "Video",
+      "place": "Gauteng metros",
+      "h": "ActionSA offered DA the best deal",
+      "s": "On the DA’s final offer to ActionSA being rejected.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=AZdHW3QyhB4"
+    },
+    {
+      "id": "zl-anc",
+      "j": "zizipho",
+      "d": "2026-11-22",
+      "kind": "Video",
+      "place": "National",
+      "h": "DA final offer to ANC",
+      "s": "Will the ANC accept the DA’s offer, or keep working with parties to its left?",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=7CO7zpVSuqE"
     }
   ],
   "edition": {
@@ -3959,7 +4100,9 @@
         "ar-insult",
         "ar-hl",
         "ls-93",
-        "mc-offer"
+        "mc-offer",
+        "zl-rejected",
+        "zl-anc"
       ],
       "voices": {
         "geordin": "Proposed that the ANC lead 93 hung councils, the DA 24 and the IFP 20, and told 702 the deal’s power is its simplicity.",
@@ -3971,7 +4114,8 @@
         "goba": "Reported both DA offers for EWN: the 93-24-20 split of hung councils, and ActionSA’s rejection of the Gauteng deal.",
         "ramushwana": "Reported the failed DA–ActionSA meeting and Hill-Lewis saying the DA wouldn’t match the ANC’s offer.",
         "simelane": "Reported the DA’s written “stability framework”, sent to Mbalula, and ActionSA’s rejection of its Gauteng offer.",
-        "mathew": "Went through the DA’s final offer to ActionSA and ActionSA’s response on social media."
+        "mathew": "Went through the DA’s final offer to ActionSA and ActionSA’s response on social media.",
+        "zizipho": "Covered the DA’s final offers to ActionSA, which was rejected, and to the ANC."
       },
       "coverage": [
         {
@@ -4370,7 +4514,9 @@
         "tm-kzn",
         "cw-daeffmk",
         "cw-owls1",
-        "cw-nocoal"
+        "cw-nocoal",
+        "zl-mkanc",
+        "zl-effmk"
       ],
       "voices": {
         "dali": "Says MK’s vote shows voters want cooperation, warns the ANC about its partners, and met the DA for the first time while saying MK wants like-minded partners.",
@@ -4389,7 +4535,8 @@
         "dooms": "Called the DA’s outreach to MK one of the surprises of the talks, and said MK had learnt to respect its voters’ wishes.",
         "maseko": "Reported from Waterfall in Johannesburg as the MK Party and the DA met for coalition talks and appeared to wrap them up.",
         "maeko": "Reported the ANC NEC weighing competing KwaZulu-Natal proposals, one pairing the ANC, IFP, DA and a ratepayers’ association in eThekwini.",
-        "wyatt": "Questions the DA talking to MK and the EFF after pledging it would not work with either."
+        "wyatt": "Questions the DA talking to MK and the EFF after pledging it would not work with either.",
+        "zizipho": "Covered MK and the ANC agreeing to a coalition without the DA, and the DA wanting to work with the EFF and MK."
       },
       "coverage": [
         {
@@ -4606,7 +4753,11 @@
         "mc-standoff",
         "mc-ffplus",
         "bb-swana",
-        "bb-mashaba"
+        "bb-mashaba",
+        "zl-against",
+        "zl-notsale",
+        "zl-offer",
+        "zl-open"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
@@ -4633,7 +4784,8 @@
         "byron": "Asks whether ActionSA has betrayed its voters, setting Mashaba’s 2021 promise not to help the ANC in Joburg against the party’s talks with it now.",
         "wyatt": "Sets Mashaba’s pledge never to go into coalition with the ANC against ActionSA’s talks with it now.",
         "mathew": "Did the coalition maths on the metros, and covered ActionSA asking the FF Plus to mediate its talks with the DA.",
-        "bingwa": "Interviewed Mashaba, who hinted at coalition governments without the DA in Gauteng, and asked whether ActionSA is the kingmaker."
+        "bingwa": "Interviewed Mashaba, who hinted at coalition governments without the DA in Gauteng, and asked whether ActionSA is the kingmaker.",
+        "zizipho": "Followed ActionSA’s talks with both sides: Beaumont talking to the DA, Mashaba saying he is not for sale, then the ANC’s offer."
       },
       "coverage": [
         {
