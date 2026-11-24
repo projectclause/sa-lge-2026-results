@@ -2522,6 +2522,18 @@
       "s": "Phenduka co-hosted Monday’s Podcast and Chill with MacG, which included an update on the coalition talks.",
       "src": "YouTube",
       "url": "https://www.youtube.com/watch?v=mnGtdlWxZnM"
+    },
+    {
+      "id": "ab-auction",
+      "j": "adriaan",
+      "d": "2026-11-23",
+      "kind": "Column",
+      "place": "Johannesburg",
+      "h": "How Mashaba and ‘AuctionSA’ betrayed their ‘gatvol’ voters",
+      "s": "In his weekly column, Basson argues that Herman Mashaba chose revenge politics over putting the wishes of ActionSA’s “gatvol” voters first.",
+      "src": "News24",
+      "url": "https://www.news24.com/opinions/columnists/adriaan-basson-how-mashaba-and-auctionsa-betrayed-their-gatvol-voters-20261123-1128",
+      "pay": true
     }
   ],
   "edition": {
@@ -2641,7 +2653,8 @@
         "zv-macg",
         "ar-fri",
         "mg-update",
-        "sol-pc23"
+        "sol-pc23",
+        "ab-auction"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
