@@ -462,6 +462,15 @@
       "beat": "analysis",
       "score": 15.0
     },
+    "djsbu": {
+      "n": "Sibusiso “DJ Sbu” Leope",
+      "o": "The Hustlers Corner SA",
+      "img": "assets/journalists/dj-sbu.jpg",
+      "role": "Host, The Hustlers Corner SA",
+      "group": "voice",
+      "org": "The Hustlers Corner SA",
+      "beat": "analysis"
+    },
     "macg": {
       "n": "MacGyver “MacG” Mukwevho",
       "o": "Podcast and Chill",
@@ -898,6 +907,17 @@
     }
   },
   "items": [
+    {
+      "id": "sbu-mashele",
+      "j": "djsbu",
+      "d": "2026-11-23",
+      "kind": "Interview",
+      "place": "National",
+      "h": "Prince Mashele: the truth about the ANC coalition they don’t want you to question",
+      "s": "On The Hustlers Corner SA podcast, DJ Sbu hosted Prince Mashele for a full episode on the ANC’s coalition deals.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=xG6eYWmvG7I"
+    },
     {
       "id": "tj-gauteng",
       "j": "masilela",
@@ -4965,7 +4985,8 @@
         "pm-hustlers",
         "gm-picks",
         "ab-deniable",
-        "lm-ballot"
+        "lm-ballot",
+        "sbu-mashele"
       ],
       "voices": {
         "sizwe": "Floated one bargain between the DA, ANC and ActionSA to share out the metro mayors, and asks whether South Africa is entering a political realignment.",
