@@ -685,6 +685,15 @@
       "org": "BD",
       "beat": "analysis"
     },
+    "allan": {
+      "n": "Kevin Allan",
+      "o": "Municipal IQ",
+      "img": "assets/journalists/kevin-allan.jpg",
+      "role": "Managing director, Municipal IQ; columnist, Business Day",
+      "group": "voice",
+      "org": "Municipal IQ",
+      "beat": "analysis"
+    },
     "bruce": {
       "n": "Peter Bruce",
       "o": "BD",
@@ -808,6 +817,17 @@
     }
   },
   "items": [
+    {
+      "id": "ka-failure",
+      "j": "allan",
+      "d": "2026-11-18",
+      "kind": "Column",
+      "place": "National",
+      "h": "Voters are punishing failure, but will our municipalities improve?",
+      "s": "Allan wrote that the ANC lost 24 of the 87 wards it held in 2021, warned that fragile coalitions of many parties may struggle to keep the discipline councils need, and said the real test is holding coalition agreements to account.",
+      "src": "Business Day",
+      "url": "https://www.businessday.co.za/opinion/2026-11-18-kevin-allan-voters-are-punishing-failure-but-will-our-municipalities-improve/"
+    },
     {
       "id": "zt-seal",
       "j": "teke",
@@ -4372,7 +4392,8 @@
         "tg-ifp",
         "tm-delay",
         "mc-limpopo",
-        "xm-business"
+        "xm-business",
+        "ka-failure"
       ],
       "voices": {
         "julius": "Proposed the ANC lead 30 of Limpopo’s 39 hung councils and the EFF nine.",
