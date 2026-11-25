@@ -542,6 +542,15 @@
       "org": "The National",
       "beat": "reporting"
     },
+    "phungula": {
+      "n": "Willem Phungula",
+      "o": "The National",
+      "img": "assets/journalists/willem-phungula.jpg",
+      "role": "Journalist, The National",
+      "group": "voice",
+      "org": "The National",
+      "beat": "reporting"
+    },
     "moichela": {
       "n": "Kamogelo Moichela",
       "o": "IOL",
@@ -862,6 +871,28 @@
     }
   },
   "items": [
+    {
+      "id": "wp-posts",
+      "j": "phungula",
+      "d": "2026-11-24",
+      "kind": "Report",
+      "place": "eThekwini",
+      "h": "eThekwini ANC seeks two top posts in coalition, council meeting adjourns",
+      "s": "Phungula reported the ANC saying it had reached a coalition agreement in eThekwini, wanting two of the top four posts and the water, electricity and sanitation portfolios, as the council meeting adjourned.",
+      "src": "The National",
+      "url": "https://thenational.co.za/news/2026-11-24-ethekwini-anc-seeks-two-top-posts-in-coalition-council-meeting-adjourns/"
+    },
+    {
+      "id": "wp-snub",
+      "j": "phungula",
+      "d": "2026-11-22",
+      "kind": "Report",
+      "place": "Gauteng metros",
+      "h": "ActionSA snubs DA as ANC weighs coalition deals with MK Party",
+      "s": "With Rapula Moatshe and Wendy Jasson da Costa, Phungula reported ActionSA turning down the DA as the ANC weighed coalition deals with the MK Party.",
+      "src": "The National",
+      "url": "https://thenational.co.za/news/2026-11-22-actionsa-snubs-da-as-anc-weighs-coalition-deals-with-mk-party/"
+    },
     {
       "id": "wj-snub",
       "j": "jasson",
@@ -4916,7 +4947,8 @@
         "zl-effmk",
         "xm-ethekwini",
         "zt-shut",
-        "zt-seal"
+        "zt-seal",
+        "wp-posts"
       ],
       "voices": {
         "dali": "Says MK’s vote shows voters want cooperation, warns the ANC about its partners, and met the DA for the first time while saying MK wants like-minded partners.",
@@ -5164,7 +5196,8 @@
         "dc-rand",
         "lm-veto",
         "rm-snub",
-        "wj-snub"
+        "wj-snub",
+        "wp-snub"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
