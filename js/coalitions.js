@@ -19,7 +19,7 @@
   const root = document.querySelector(".pl");
   // journalists and commentators first, then the politicians negotiating the deals
   const GROUPS = [["voice", "Voices", "Journalists and commentators"], ["player", "Key players", "The politicians in the talks"]];
-let D, BY = {};
+let D, BY = {}, LASTD = new Map(); // LASTD: each voice’s latest piece date, for the "New" tag
 // parties (key players) and outlets (voices): logo or name badge, in a fixed order
 const ORG = (k) => (D.orgs || []).find((o) => o.k === k) || { k, n: k, badge: k };
 const orgRank = (k) => { const i = (D.orgs || []).findIndex((o) => o.k === k); return i < 0 ? 99 : i; };
@@ -58,11 +58,16 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
   // green pill for journalists at the national public broadcaster; its "i" explains what the SABC is
   const PB = '<span class="pl-wide pl-pb">Public Broadcaster</span>';
   const INFO_PB = '<span class="pl-i" data-note="pb" role="button" tabindex="0" aria-label="About the public broadcaster" aria-haspopup="dialog">i</span>';
+  // green "New" pill for voices with a piece dated today (SAST); its "i" explains the tag
+  const NEW = '<span class="pl-wide pl-new">New</span>';
+  const INFO_NEW = '<span class="pl-i" data-note="new" role="button" tabindex="0" aria-label="About the New tag" aria-haspopup="dialog">i</span>';
+  const isNew = (p) => LASTD.get(p) === today();
   // Most Influential, Influential and Wide Reach pills are hidden for now; the ranking (p.top, p.inf, p.wide) stays in the data
   const SHOW_RANK = false;
-  const nameTag = (p) => { const t = !SHOW_RANK ? "" : p.top ? TOP : p.inf ? INF : p.wide ? WIDE : ""; return `<b class="pl-nm">${esc(p.n)}${p.alias ? "*" : ""}${t ? `<span class="pl-tagw">${t}${INFO}</span>` : ""}${p.pb ? `<span class="pl-tagw">${PB}${INFO_PB}</span>` : ""}</b>`; };
+  const nameTag = (p) => { const t = !SHOW_RANK ? "" : p.top ? TOP : p.inf ? INF : p.wide ? WIDE : ""; return `<b class="pl-nm">${esc(p.n)}${p.alias ? "*" : ""}${t ? `<span class="pl-tagw">${t}${INFO}</span>` : ""}${isNew(p) ? `<span class="pl-tagw">${NEW}${INFO_NEW}</span>` : ""}${p.pb ? `<span class="pl-tagw">${PB}${INFO_PB}</span>` : ""}</b>`; };
   const HOW = `<div class="pl-how" role="dialog" aria-label="How we rank voices" hidden>
       <button type="button" class="pl-how-x" aria-label="Close">×</button>
+      <div class="pl-how-new" hidden><p class="pl-how-h">New</p><p>Published a piece on the coalition talks today. The tag clears at midnight, South African time.</p></div>
       <div class="pl-how-pb" hidden><p class="pl-how-h">Public Broadcaster</p><p>South African Broadcasting Corporation (<a href="https://www.sabc.co.za/sabc/about-us/" target="_blank" rel="noopener">SABC</a>) is South Africa's national public broadcaster.</p></div>
       <div class="pl-how-c">
       <p class="pl-how-h">How we rank voices</p>
@@ -83,8 +88,9 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
     const open = (el) => {
       if (from === el) return close();
       from = el; el.setAttribute("aria-expanded", "true"); box.hidden = false;
-      const pb = el.dataset.note === "pb"; box.querySelector(".pl-how-pb").hidden = !pb; box.querySelector(".pl-how-c").hidden = pb;
-      box.setAttribute("aria-label", pb ? "About the public broadcaster" : "How we rank voices");
+      const note = el.dataset.note, pb = note === "pb", nw = note === "new";
+      box.querySelector(".pl-how-pb").hidden = !pb; box.querySelector(".pl-how-new").hidden = !nw; box.querySelector(".pl-how-c").hidden = pb || nw;
+      box.setAttribute("aria-label", pb ? "About the public broadcaster" : nw ? "About the New tag" : "How we rank voices");
       const phone = matchMedia("(max-width: 720px)").matches; bg.hidden = !phone;
       box.classList.toggle("sheet", phone);
       if (!phone) {
@@ -432,6 +438,10 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
   let raw = "", lastCheck = Date.now();
   const use = (d) => {
     raw = JSON.stringify(d); D = d; BY = {}; d.items.forEach((i) => BY[i.id] = i); IX = null;
+    LASTD = new Map();
+    const seen = (p, dd) => { if (p && dd > (LASTD.get(p) || "")) LASTD.set(p, dd); };
+    d.items.forEach((i) => seen(d.journalists[i.j], i.d));
+    if (d.intl) (d.intl.pieces || []).forEach((x) => (x.j || []).forEach((k) => seen(d.intl.voices[k], x.d)));
     document.dispatchEvent(new CustomEvent("pl-data", { detail: d })); // save.js and notify.js pick up the same data
   };
   // what the reader has open, so a refresh can put it back: chosen voice, tab, expanded lists, open pieces, scroll place

@@ -1202,6 +1202,8 @@ body.has-ask { padding-bottom: 96px; }
 /* green pill: journalists at the national public broadcaster (SABC) */
 .pl-nm .pl-pb, .pl-voice .pl-nm .pl-pb { background: #e3f4e8; border-color: #8fd0a4; color: #17683a; padding: 2px 9px; }
 .pl-how-pb a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+/* green "New" pill: the voice has a piece dated today (SAST) */
+.pl-nm .pl-new, .pl-voice .pl-nm .pl-new { background: #1f8a4c; border-color: #1f8a4c; color: #fff; padding: 2px 9px; }
 
 /* people/<name>.html profile pages (static, for search) */
 .pl-profh { display: flex; gap: 16px; align-items: center; margin: 6px 0 4px; }
