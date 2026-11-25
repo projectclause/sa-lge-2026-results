@@ -524,6 +524,15 @@
       "org": "IOL",
       "beat": "reporting"
     },
+    "moatshe": {
+      "n": "Rapula Moatshe",
+      "o": "The National",
+      "img": "assets/journalists/rapula-moatshe.jpg",
+      "role": "Journalist, The National",
+      "group": "voice",
+      "org": "The National",
+      "beat": "reporting"
+    },
     "moichela": {
       "n": "Kamogelo Moichela",
       "o": "IOL",
@@ -844,6 +853,17 @@
     }
   },
   "items": [
+    {
+      "id": "rm-snub",
+      "j": "moatshe",
+      "d": "2026-11-22",
+      "kind": "Report",
+      "place": "Gauteng metros",
+      "h": "ActionSA snubs DA as ANC weighs coalition deals with MK Party",
+      "s": "With Wendy Jasson da Costa and Willem Phungula, Moatshe reported ActionSA turning down the DA as the ANC weighed deals with the MK Party, with council sittings to elect Gauteng’s metro leaders expected the following week.",
+      "src": "The National",
+      "url": "https://thenational.co.za/news/2026-11-22-actionsa-snubs-da-as-anc-weighs-coalition-deals-with-mk-party/"
+    },
     {
       "id": "lm-centre",
       "j": "mathebula",
@@ -5087,7 +5107,8 @@
         "ab-water",
         "od-trap",
         "dc-rand",
-        "lm-veto"
+        "lm-veto",
+        "rm-snub"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
