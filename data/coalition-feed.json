@@ -759,6 +759,16 @@
       "group": "voice",
       "org": "IND",
       "beat": "analysis"
+    },
+    "commissioner": {
+      "n": "Julian Commissioner",
+      "alias": true,
+      "o": "YouTube",
+      "img": "assets/journalists/julian-commissioner.jpg",
+      "role": "Political commentator · *Pseudonym",
+      "group": "voice",
+      "org": "IND",
+      "beat": "analysis"
     }
   },
   "items": [
