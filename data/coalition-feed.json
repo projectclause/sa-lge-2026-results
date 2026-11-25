@@ -782,6 +782,28 @@
   },
   "items": [
     {
+      "id": "smw-beaumont",
+      "j": "sizwe",
+      "d": "2026-11-25",
+      "kind": "Interview",
+      "place": "Gauteng metros",
+      "h": "ActionSA’s Michael Beaumont on the coalitions, Mashaba, Zille and Joburg",
+      "s": "On SMWX, Mpofu-Walsh spoke to ActionSA’s Michael Beaumont about the party’s push for Herman Mashaba in Johannesburg and Nasiphi Moya in Tshwane, its red lines on Helen Zille and Cilliers Brink, and the offer he says the DA rejected.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=JRONw2ICG_k"
+    },
+    {
+      "id": "xm-ethekwini",
+      "j": "mngambi",
+      "d": "2026-11-24",
+      "kind": "Interview",
+      "place": "eThekwini",
+      "h": "MK Party’s busy with multi-party coalition negotiations in eThekwini",
+      "s": "Mngambi spoke to MK’s KwaZulu-Natal leader Willies Mchunu, who said the national leadership was leading talks with the ANC, EFF, ActionSA and IFP, and that the DA had approached the party, though he knew of no concrete engagement.",
+      "src": "Newzroom Afrika",
+      "url": "https://www.youtube.com/watch?v=ImHmn2s8PMQ"
+    },
+    {
       "id": "xm-business",
       "j": "mngambi",
       "d": "2026-11-24",
@@ -4556,7 +4578,8 @@
         "cw-owls1",
         "cw-nocoal",
         "zl-mkanc",
-        "zl-effmk"
+        "zl-effmk",
+        "xm-ethekwini"
       ],
       "voices": {
         "dali": "Says MK’s vote shows voters want cooperation, warns the ANC about its partners, and met the DA for the first time while saying MK wants like-minded partners.",
@@ -4797,7 +4820,8 @@
         "zl-against",
         "zl-notsale",
         "zl-offer",
-        "zl-open"
+        "zl-open",
+        "smw-beaumont"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
