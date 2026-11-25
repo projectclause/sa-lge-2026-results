@@ -101,6 +101,15 @@
       "org": "SMWX",
       "beat": "analysis"
     },
+    "masilela": {
+      "n": "Thapelo “TJ” Masilela",
+      "o": "Palatable Politics",
+      "img": "assets/journalists/tj-masilela.jpg",
+      "role": "Host, Palatable Politics",
+      "group": "voice",
+      "org": "Palatable Politics",
+      "beat": "analysis"
+    },
     "penuel": {
       "n": "Penuel Mlotshwa",
       "o": "The Black Pen",
@@ -889,6 +898,50 @@
     }
   },
   "items": [
+    {
+      "id": "tj-gauteng",
+      "j": "masilela",
+      "d": "2026-11-25",
+      "kind": "Video",
+      "place": "Gauteng metros",
+      "h": "Coalition chaos in Gauteng?",
+      "s": "On Palatable Politics, Masilela asked whether, with strained relationships and shifting alliances, the national unity government’s partnerships can hold at local level.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=gqKZhPWZ7-o"
+    },
+    {
+      "id": "tj-mk",
+      "j": "masilela",
+      "d": "2026-11-16",
+      "kind": "Video",
+      "place": "eThekwini",
+      "h": "The MK Party has strong choices to make",
+      "s": "Masilela weighed MK’s options after it overtook the EFF and won the most votes in KwaZulu-Natal: an ANC alliance, EFF cooperation or deals with smaller parties.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=0JpdOkbY3ks"
+    },
+    {
+      "id": "tj-sizwe",
+      "j": "masilela",
+      "d": "2026-11-13",
+      "kind": "Interview",
+      "place": "National",
+      "h": "Post-election reckoning: the ANC’s 30% drop, coalition scenarios and global shifts",
+      "s": "On Palatable Politics, Masilela spoke to Sizwe Mpofu-Walsh about the halving of ANC support to just over 30%, why the GNU failed to deliver and the coalition scenarios that follow.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=DULRjm6rM3M"
+    },
+    {
+      "id": "tj-actionsa",
+      "j": "masilela",
+      "d": "2026-11-12",
+      "kind": "Video",
+      "place": "Gauteng metros",
+      "h": "ActionSA is in a major position to influence governance",
+      "s": "Masilela said ActionSA was in a major position to shape who governs, with leadership clashes and strategic choices ahead, and asked which deal it should accept.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=24P37kujXh8"
+    },
     {
       "id": "jpl-second",
       "j": "landman",
@@ -5022,7 +5075,8 @@
         "xm-ethekwini",
         "zt-shut",
         "zt-seal",
-        "wp-posts"
+        "wp-posts",
+        "tj-mk"
       ],
       "voices": {
         "dali": "Says MK’s vote shows voters want cooperation, warns the ANC about its partners, and met the DA for the first time while saying MK wants like-minded partners.",
@@ -5273,7 +5327,8 @@
         "wj-snub",
         "wp-snub",
         "jc-ask",
-        "jc-feud"
+        "jc-feud",
+        "tj-actionsa"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
@@ -5507,7 +5562,8 @@
         "dc-gnu",
         "bb-gnu",
         "cm-2029",
-        "jpl-second"
+        "jpl-second",
+        "tj-gauteng"
       ],
       "voices": {
         "adriaan": "Named four coalition scenarios (Ukraine, Lesotho, Rainbow and Ghana), expected a DA-ANC deal, then warned the fight over the cities could bring down the unity government.",
@@ -5611,7 +5667,8 @@
         "sol-pc12",
         "gm-leon",
         "wj-begins",
-        "ks-soundbites"
+        "ks-soundbites",
+        "tj-sizwe"
       ],
       "voices": {
         "pieter": "Saw the ANC’s decline speeding up, with the party on the brink of second, third or fourth place in seven of the eight metros.",
