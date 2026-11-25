@@ -64,7 +64,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
   const isNew = (p) => LASTD.get(p) === today();
   // Most Influential, Influential and Wide Reach pills are hidden for now; the ranking (p.top, p.inf, p.wide) stays in the data
   const SHOW_RANK = false;
-  const nameTag = (p) => { const t = !SHOW_RANK ? "" : p.top ? TOP : p.inf ? INF : p.wide ? WIDE : ""; return `<b class="pl-nm">${esc(p.n)}${p.alias ? "*" : ""}${t ? `<span class="pl-tagw">${t}${INFO}</span>` : ""}${isNew(p) ? `<span class="pl-tagw">${NEW}${INFO_NEW}</span>` : ""}${p.pb ? `<span class="pl-tagw">${PB}${INFO_PB}</span>` : ""}</b>`; };
+  const nameTag = (p, fl = "") => { const t = !SHOW_RANK ? "" : p.top ? TOP : p.inf ? INF : p.wide ? WIDE : ""; return `<b class="pl-nm">${esc(p.n)}${p.alias ? "*" : ""}${fl}${t ? `<span class="pl-tagw">${t}${INFO}</span>` : ""}${isNew(p) ? `<span class="pl-tagw">${NEW}${INFO_NEW}</span>` : ""}${p.pb ? `<span class="pl-tagw">${PB}${INFO_PB}</span>` : ""}</b>`; };
   const HOW = `<div class="pl-how" role="dialog" aria-label="How we rank voices" hidden>
       <button type="button" class="pl-how-x" aria-label="Close">×</button>
       <div class="pl-how-new" hidden><p class="pl-how-h">New</p><p>Published a piece on the coalition talks today. The tag clears at midnight, South African time.</p></div>
@@ -317,6 +317,8 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
     // country where each outlet is based, shown as a small flag after the date
     const CC = { gb: "United Kingdom", us: "United States", qa: "Qatar", fr: "France", de: "Germany", es: "Spain", ar: "Argentina", it: "Italy", nl: "Netherlands", eg: "Egypt", lb: "Lebanon", dz: "Algeria", jp: "Japan", az: "Azerbaijan" };
     const HOME = { "Financial Times": "gb", "Reuters": "gb", "Bloomberg": "us", "Bloomberg Opinion": "us", "The New York Times": "us", "AP": "us", "BBC": "gb", "Al Jazeera": "qa", "Semafor": "us", "The Washington Post": "us", "The Economist": "gb", "AFP via France 24": "fr", "The Africa Report": "fr", "African Business": "gb", "Good Authority": "us", "RFI": "fr", "Les Echos": "fr", "DW": "de", "Der Spiegel": "de", "FAZ": "de", "El País": "es", "France 24": "fr", "Infobae": "ar", "Il Post": "it", "Il Sole 24 Ore": "it", "Nigrizia": "it", "IARI": "it", "NOS": "nl", "Reformatorisch Dagblad": "nl", "Ad-Diyar": "lb", "Africa News (Algeria)": "dz", "Youm7": "eg", "Al-Bawaba News": "eg", "Newsweek Japan": "jp", "Operativ Məlumat Mərkəzi": "az" };
+    // international voices: their outlet’s country flag beside the name, as tall as the outlet line below it
+    const vflag = (v) => { const c = HOME[v.o]; return c ? `<img class="pl-vflag" src="assets/flags/${c}.png" alt="${esc(CC[c])}" title="${esc(v.o)} · ${esc(CC[c])}">` : ""; };
     const flag = (p) => { const c = HOME[p.src]; return c ? `<img class="pl-flag" src="assets/flags/${c}.png" alt="${esc(CC[c])}" title="${esc(p.src)} · ${esc(CC[c])}">` : ""; };
     const trs = (p) => p.lang && p.s ? `<span class="pl-trs${p.sfull ? "" : " pl-trs-x"}">${p.sfull ? `<b>Translated from ${esc(p.lang)}:</b> ` : ""}${esc(p.s)}</span>` : "";
     const lang = (p) => p.lang ? `<i class="pl-lang" title="Originally in ${esc(p.lang)}: ${esc(p.orig || "")}">${esc(p.lang)}</i>` : "";
@@ -325,9 +327,9 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
       <summary>${p.j.length ? face(V[p.j[0]]) : `<i class="pl-av" aria-hidden="true">${esc(initials(p.src))}</i>`}<span class="pl-pt"><span class="pl-pm">${day(p.d)}${flag(p)} · ${esc(by(p))}${by(p) !== p.src ? ` · ${esc(p.src)}` : ""}${lang(p)}</span><b>${esc(p.h)}</b></span><span class="pl-plus" aria-hidden="true"></span></summary>
       <div class="pl-pb">${trs(p) ? `<p>${trs(p)}</p>` : ""}${p.orig ? `<p class="pl-orig" dir="auto">Original headline: ${esc(p.orig)}</p>` : ""}<a href="${esc(p.url)}" target="_blank" rel="noopener">Read on ${esc(p.src)}${p.lang ? ` (in ${esc(p.lang)})` : ""}${p.pay ? " · subscribers" : ""} →</a></div>
     </details>`;
-    const card = (k, i) => `<button type="button" class="pl-voice${i >= TOPN ? " pl-vx" : ""}" data-k="${k}" aria-pressed="false">${face(V[k])}<span>${nameTag(V[k])}<span>${esc(V[k].role)}</span></span><em>${n(k)}</em></button>`;
+    const card = (k, i) => `<button type="button" class="pl-voice${i >= TOPN ? " pl-vx" : ""}" data-k="${k}" aria-pressed="false">${face(V[k])}<span>${nameTag(V[k], vflag(V[k]))}<span>${esc(V[k].role)}</span></span><em>${n(k)}</em></button>`;
     const grid = (ks, label) => `<div class="pl-vgrid"><div class="pl-voices">${ks.map(card).join("")}</div>${ks.length > TOPN ? `<button type="button" class="pl-vall" aria-expanded="false" data-n="${ks.length}" data-l="${label}">Show all ${ks.length} ${label}</button>` : ""}</div>`;
-    return IX = { X, V, P, vOf, outs, upd, n, rank, iFaces, outLine, ipiece, grid, lang, trs, flag };
+    return IX = { X, V, P, vOf, outs, upd, n, rank, iFaces, outLine, ipiece, grid, lang, trs, flag, vflag };
   }
 
   function intl() {
@@ -387,12 +389,12 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
   }
 
   function intlEvent(t) {
-    const { V, P, vOf, outs, upd, rank, outLine, ipiece, lang, trs, flag } = ix();
+    const { V, P, vOf, outs, upd, rank, outLine, ipiece, lang, trs, flag, vflag } = ix();
     const I = P(t).sort((a, b) => b.d.localeCompare(a.d));
     const ks = rank(vOf(I)), top = ks.slice(0, 3), more = ks.slice(3);
     const says = (k, lead) => { const v = V[k], mine = I.filter((p) => p.j.includes(k)); return `
           <div class="pl-voicecard${lead ? " pl-lead3" : ""}" id="says-${k}">
-            <div class="pl-vh">${face(v)}<span>${nameTag(v)}<span>${esc(v.role)}${lead ? ` · <i class="pl-vtag">${v.beat === "analysis" ? "Analysis" : "Reporting"}</i>` : ""}</span></span></div>
+            <div class="pl-vh">${face(v)}<span>${nameTag(v, vflag(v))}<span>${esc(v.role)}${lead ? ` · <i class="pl-vtag">${v.beat === "analysis" ? "Analysis" : "Reporting"}</i>` : ""}</span></span></div>
             <p class="pl-vsays">${esc((t.voices || {})[k] || "")}</p>
             ${mine.map(ipiece).join("")}
           </div>`; };
