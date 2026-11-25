@@ -335,6 +335,15 @@
       "beat": "analysis",
       "score": 44.0
     },
+    "mathebula": {
+      "n": "Lucky Mathebula",
+      "o": "ST",
+      "img": "assets/journalists/lucky-mathebula.jpg",
+      "role": "Columnist, Sunday Times",
+      "group": "voice",
+      "org": "ST",
+      "beat": "analysis"
+    },
     "tandwa": {
       "n": "Lizeka Tandwa",
       "o": "ST",
@@ -835,6 +844,39 @@
     }
   },
   "items": [
+    {
+      "id": "lm-centre",
+      "j": "mathebula",
+      "d": "2026-11-24",
+      "kind": "Column",
+      "place": "Gauteng metros",
+      "h": "The meaning of ActionSA’s win: centre of gravity is shifting",
+      "s": "Mathebula wrote that in Gauteng’s three hung metros ActionSA has become the arbiter rather than a contender, with reports of a broad deal convened under premier Panyaza Lesufi that would make Mashaba Johannesburg’s mayor and keep Moya in Tshwane.",
+      "src": "Sunday Times",
+      "url": "https://www.timeslive.co.za/opinion/2026-11-24-lucky-mathebula-the-meaning-of-actionsas-win-centre-of-gravity-is-shifting/"
+    },
+    {
+      "id": "lm-veto",
+      "j": "mathebula",
+      "d": "2026-11-18",
+      "kind": "Column",
+      "place": "Johannesburg",
+      "h": "ActionSA’s veto tests whose mandate counts",
+      "s": "Mathebula argued that ActionSA, on 16% in Johannesburg, striking out the candidate of the DA, on 35%, inverts the logic of the mandate, though the veto may be an opening bid, and set out three ways the metros could still go.",
+      "src": "Sunday Times",
+      "url": "https://www.timeslive.co.za/opinion/2026-11-18-lucky-mathebula-actionsas-veto-tests-whose-mandate-counts/"
+    },
+    {
+      "id": "lm-ballot",
+      "j": "mathebula",
+      "d": "2026-11-07",
+      "kind": "Column",
+      "place": "National",
+      "h": "Coalition bargaining must honour the ballot, not betray it",
+      "s": "As the talks began, Mathebula argued that coalition bargaining must honour how people voted rather than betray it.",
+      "src": "Sunday Times",
+      "url": "https://www.sundaytimes.timeslive.co.za/opinion-and-analysis/opinion/2026-11-07-lucky-mathebula-coalition-bargaining-must-honour-the-ballot-not-betray-it/"
+    },
     {
       "id": "dc-doomsday",
       "j": "campher",
@@ -3976,7 +4018,8 @@
         "bb-calland",
         "on-mashaba",
         "dc-postpone",
-        "dc-doomsday"
+        "dc-doomsday",
+        "lm-centre"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
@@ -4688,7 +4731,8 @@
         "dc-cutda",
         "pm-hustlers",
         "gm-picks",
-        "ab-deniable"
+        "ab-deniable",
+        "lm-ballot"
       ],
       "voices": {
         "sizwe": "Floated one bargain between the DA, ANC and ActionSA to share out the metro mayors, and asks whether South Africa is entering a political realignment.",
@@ -5042,7 +5086,8 @@
         "smw-beaumont",
         "ab-water",
         "od-trap",
-        "dc-rand"
+        "dc-rand",
+        "lm-veto"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
