@@ -479,6 +479,15 @@
       "org": "King David Studio",
       "beat": "analysis"
     },
+    "sham": {
+      "n": "Michael “Mike” Sham",
+      "o": "State of the Nation",
+      "img": "assets/journalists/mike-sham.jpg",
+      "role": "Host, State of the Nation (YouTube)",
+      "group": "voice",
+      "org": "State of the Nation",
+      "beat": "analysis"
+    },
     "macg": {
       "n": "MacGyver “MacG” Mukwevho",
       "o": "Podcast and Chill",
@@ -915,6 +924,61 @@
     }
   },
   "items": [
+    {
+      "id": "ms-soul",
+      "j": "sham",
+      "d": "2026-11-25",
+      "kind": "Video",
+      "place": "Gauteng metros",
+      "h": "ActionSA has sold its soul! Themba Dlamini on Mashaba’s coalition gamble",
+      "s": "On Elephant in the Room, Sham and Themba Dlamini asked whether ActionSA has sold its soul for power, looking at Mashaba’s coalition gamble, Zille’s campaign, the ANC’s grip on municipal finances and Ramaphosa’s absence from the talks.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=o5VPbJ09kI4"
+    },
+    {
+      "id": "ms-billions",
+      "j": "sham",
+      "d": "2026-11-20",
+      "kind": "Video",
+      "place": "Johannesburg",
+      "h": "Mashaba’s coalition deal hands the ANC control of Joburg’s billions",
+      "s": "Sham broke down Mashaba’s proposed deal with the ANC, EFF and MK, asked whether voters wanted it, and looked at who could end up controlling Johannesburg’s budget.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=PIuRgl4h85Y"
+    },
+    {
+      "id": "ms-zille",
+      "j": "sham",
+      "d": "2026-11-18",
+      "kind": "Video",
+      "place": "Johannesburg",
+      "h": "Should Helen Zille step aside? Mashaba’s ultimatum could change Joburg",
+      "s": "On Elephant in the Room, Sham and Themba Dlamini debated whether Zille should step aside to save the DA’s coalition chances, Mashaba’s ultimatum and the future of the GNU.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=dY_mubaGHwY"
+    },
+    {
+      "id": "ms-shongwe",
+      "j": "sham",
+      "d": "2026-11-17",
+      "kind": "Interview",
+      "place": "National",
+      "h": "Bonsai Shongwe: the GNU is over",
+      "s": "Sham spoke to Bonsai Shongwe about the ANC’s election losses, Ramaphosa’s future, Mashaba’s coalition gamble and why Shongwe believes the national unity government is over.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=XgqXnBpMMKE"
+    },
+    {
+      "id": "ms-endres",
+      "j": "sham",
+      "d": "2026-11-23",
+      "kind": "Interview",
+      "place": "National",
+      "h": "John Endres: the ANC, EFF and MK are heading for defeat",
+      "s": "Sham spoke to SAIRR chief executive John Endres about the election results, the future of the GNU and the economic policies holding South Africa back.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=Dl15l8eC1qk"
+    },
     {
       "id": "sbu-mashele",
       "j": "djsbu",
@@ -4278,7 +4342,9 @@
         "dc-postpone",
         "dc-doomsday",
         "lm-centre",
-        "jc-concede"
+        "jc-concede",
+        "ms-zille",
+        "ms-billions"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
@@ -5357,7 +5423,8 @@
         "wp-snub",
         "jc-ask",
         "jc-feud",
-        "tj-actionsa"
+        "tj-actionsa",
+        "ms-soul"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
@@ -5592,7 +5659,9 @@
         "bb-gnu",
         "cm-2029",
         "jpl-second",
-        "tj-gauteng"
+        "tj-gauteng",
+        "ms-shongwe",
+        "ms-endres"
       ],
       "voices": {
         "adriaan": "Named four coalition scenarios (Ukraine, Lesotho, Rainbow and Ghana), expected a DA-ANC deal, then warned the fight over the cities could bring down the unity government.",
