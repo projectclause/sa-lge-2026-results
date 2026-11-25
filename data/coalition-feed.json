@@ -750,6 +750,15 @@
       "group": "voice",
       "org": "Simple Politics",
       "beat": "analysis"
+    },
+    "campher": {
+      "n": "Darren Campher",
+      "o": "TikTok",
+      "img": "assets/journalists/darren-campher.jpg",
+      "role": "Political commentator",
+      "group": "voice",
+      "org": "IND",
+      "beat": "analysis"
     }
   },
   "items": [
