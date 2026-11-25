@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-25",
-    "time": "18:21"
+    "time": "19:55"
   },
   "items": [
     {
@@ -2128,6 +2128,12 @@
           "h": "ActionSA rejects DA pressure over eThekwini coalition",
           "d": "2026-11-23",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPS2FEUzR4aFB6S3FERDdseFZiYnhzcFhhWWhqMWRQYzdvSWhXbkVtdEtHOUJ3NHAtZ1JqamxqTTdLRlhMdVdNSmg0bjIxcW95Ti1MTU9QeHVXbnVxMHBleDBDbzd6Z2d5Q1dLZjhTdklOb2JEcWNhZ1VRMkRETXNGd3pRS0J2RS1uUzBvVzc0MW9yVWtEWnBxNnhoTnVPemVDNTdz?oc=5"
+        },
+        {
+          "src": "SABC News",
+          "h": "DA vows to continue fighting for eThekwini people amid coalition talks",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTlhYd2hFTkthYXBhS2NBaUZDNjl2U2tiTnE5Umh6ZTYycjJpenVwTTd3NURPdlJ2VS1UWWhpYUlTM1BuY01RVk9JVmw1cDRSaEpiWXYwQVI1Zy1kUEUxSUMtemxnX2N6ZVc1LWlWc1JsM2Y1LW5PQXlmNzdUVGF4TFJhckVxQ3FxNFpKSTlPemtUQ0pJTk1Jc2haMXpTSXlDWGZjeFljNW9zYXRfWm9sWHJCWmJnZXR6YkxtLW1ab25OUk5sVUlCdW5Rc0VlZFV6?oc=5"
         }
       ],
       "sec": [
@@ -2490,11 +2496,11 @@
       "cat": "Ekurhuleni",
       "place": "Ekurhuleni",
       "h": "Ekurhuleni’s mayoral election moves to Friday as parties wait on the ANC to sign",
-      "dek": "Ekurhuleni’s new council held its inaugural meeting on 25 November, but the election of a mayor and speaker was postponed, and SABC News, The National and Inside Metros report the vote will take place on Friday. EWN and The National report parties are waiting on the ANC to sign off the coalition deal, while IOL reports the DA still holds out hope as an ANC-ActionSA deal takes shape.",
+      "dek": "Ekurhuleni’s new council held its inaugural meeting on 25 November, but the election of a mayor and speaker was postponed, and SABC News, The National and Inside Metros report the vote will take place on Friday. EWN, The National and Sunday World report parties are waiting on the ANC to sign off the coalition deal, while IOL reports the DA is still pursuing a deal as ANC-ActionSA talks continue.",
       "brief": [
         "The Citizen, EWN, IOL, News24, Briefly News and Business Day report the mayoral election was postponed so coalition partners could finish negotiations; SABC News, The National and Inside Metros report the vote moves to Friday.",
-        "EWN and The National report parties are waiting on the ANC to sign off the coalition deal, while IOL reports the ANC is closing in on a deal.",
-        "IOL reports the DA holds out hope for an Ekurhuleni coalition as an ANC-ActionSA deal takes shape.",
+        "EWN and The National report parties are waiting on the ANC to sign off the coalition deal, and Sunday World reports the ANC’s signature is all that is needed to seal it; IOL reports the ANC is closing in on a deal.",
+        "IOL reports the DA is still pursuing an Ekurhuleni mayoral deal and holds out hope as an ANC-ActionSA deal takes shape.",
         "EWN reports the ANC is set to field Mziyanda Mketsu for Ekurhuleni mayor.",
         "IOL and the Sunday Independent report Herman Mashaba backed Xolani Khumalo for deputy mayor and warned criminals to 'run'; IOL reports Kagiso Lerutla presided over the inaugural meeting."
       ],
@@ -2616,6 +2622,24 @@
           "h": "Ekurhuleni council sitting postponed to Friday as coalition deadlock delays election of metro leadership",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPeG9QcGlldXJoME52ZzBfY0Vfa3A2bi1lel9KRUNKdEFoUm1HaVg0Q3Q2eEdkVFM4UjFVUm02dHJ1Z3BnNjNFTTBFS0hLNUNCSFoyaW5TYlZzcmhoczIzSnhpS21vTm0xd085Sk4za1hXNy1QUHRGN1EzS01tR1h3TGdWUmxBaF9vRk5FR1N3Ui1OdWhlWUpISHFzcjV4UzJvTVFhQ2hoYUhra3FzX3luZThyVzhkZmc1bWZ4Q19ISHowaGt4d3otdEk1MUhLcmhDNkJuZUJKa3lWY3c?oc=5"
+        },
+        {
+          "src": "Central News South Africa",
+          "h": "Ekurhuleni Metro Set for Inaugural Council Sitting",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSlRudE9ONTJHeHFhNldwdklRYkl3Ty1IcFg4NmV1eTNHWThJc0J3Y2l3aW1UeF8xTVNKSFRscVl2dlVmNmxaTlRrZzgycEtqamJod01YejJrTU9uSWU2NzZyNGpia29TWmJaZFpsMWs4bTQ5cElXdUVjR2N6cWZXY3NDbw?oc=5"
+        },
+        {
+          "src": "Johannesburg Sunday World",
+          "h": "ANC’s signature all that’s needed to seal Ekurhuleni coalition deal",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNY3dvUm1iMXB2RnhSbWNTOXhTa3ZuQm42Rkp1Z3J2eE9tUDl3alZBQ0RDb0xJb3k5YUhPa1F2eDFvMFl2ZDRqTW5rOWthVFZGZG1vcFlGSmxkWW9OblFlcXg5YmZobnFSUkpISWdDZm1uYzM1RGF2aU9hRkt5dnhSSWNqeWdmTFdEbU1Bem5QVVFPTUJCMkFZbVd3NUJmS1g0MkF3?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "DA still pursuing Ekurhuleni mayoral deal despite ANC-ActionSA talks",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNVFybHl2Yk5ROXlIenI4QzlhNEh1MlViTFljSWVrV1NZS2h2RUVnLUNSWE1VQ2FuV0QyaDA4czItU0huOUd1M3loT1FxYTlCQTh2anFibm8yTGF0MGN2ZFgwQmd3RFhmUGxfTTlOTlNXUS1Vd1VNczZuNGtaZ1NBd0Q0RmtsQkE5NU1raUNBZ0pTM2s2aWtuVzU1NzQtaHlvMHJDOTA2NGJ2b0IzUGlyQWhQUW1ucVZHOXc?oc=5"
         }
       ],
       "sec": [
@@ -2794,12 +2818,13 @@
       "cat": "ANC",
       "place": "National",
       "h": "The ANC leaves coalition choices to its provinces and regions",
-      "dek": "EWN and Dan Corder report the ANC’s NEC has let provinces and regions decide coalitions, with consequences for Gauteng, eThekwini, Nelson Mandela Bay and over 100 hung councils, and SABC News reports the NEC resolved that DA coalitions should be a last resort. The ANC says there is consensus as talks move towards conclusion, while TimesLIVE and IOL report strains over Ramaphosa’s leadership.",
+      "dek": "EWN and Dan Corder report the ANC’s NEC has let provinces and regions decide coalitions, with consequences for Gauteng, eThekwini, Nelson Mandela Bay and over 100 hung councils, and SABC News reports the NEC resolved that DA coalitions should be a last resort. The ANC says there is consensus as talks move towards conclusion, while TimesLIVE and IOL report strains over Ramaphosa’s leadership and The Common Sense reports the SACP calling a Sol Plaatje deal with the DA a “betrayal”.",
       "brief": [
         "EWN asks whether the ANC has given provinces and regions the final say; Dan Corder says the NEC decided to let regional bodies choose, affecting well over 100 hung councils.",
         "SABC News reports the NEC resolved that coalitions with the DA should be a 'last resort'.",
         "Newsnote reports the ANC asserting there is consensus as talks near conclusion; The Witness reports the NEC weighing up its coalition future.",
         "Business Day reports the ANC is seeking a foothold in hung councils, EWN quotes an analyst saying its choices could decide whether it enters a 'death spiral', and IOL reports the SACP drawing a line over coalition support for the ANC.",
+        "The Common Sense reports the SACP called the ANC’s handling of a DA deal in Sol Plaatje a “betrayal”.",
         "TimesLIVE reports Ramaphosa faces a tough ANC unity test, IOL reports tensions over Ramaphosa, election losses and working with the DA, and The Common Sense argues ANC indecision has left a power vacuum."
       ],
       "auto": true,
@@ -2920,6 +2945,12 @@
           "h": "Will the ANC fall on the side of the DA or the ideological allies it helped spawn? Analysts weigh in",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNTkVLN1UyMjFoLWJGQjBiT0VVdVN3b21CNWk2Q0V3SVREbm53QWpvcmdMZkRla3RqSXJaek5RcHV1ZlJIdDh0MDkzSEJWdEtJUFFrUDhYMGd0STFVU19PWHVYcU9tNTdCQUFHSUduVE56bWNmOHkwSVIzTThRTmxKVjZ6Rkd2N1NDYzZWN05WeEprOWRVQnlhbHUySTZXVEVXZWtHM3Zaa3kwd0pYZ0Jub0VqaFY1ZkVReTk4bkxHN0lJWmVqbXFNMVN5Q2RCVXd0eTZIRDhpVFp5VEpwN193cThqZWIwemhJeFE?oc=5"
+        },
+        {
+          "src": "The Common Sense",
+          "h": "SACP Calls ANC’s Handling of Sol Plaatje DA Deal a ”Betrayal”",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPX1ZSd2F5dXJxRFY1NTVoNU1zTGtTMDk0dUZJY2NCVF9KSnBNVXpZdlN3OVFpaEl6Y3pseHdEV0d3bDUtZHRhS21abG5qeUVabllsY0lPNFZuUldFeXI3T1hhSXhXaFp6TTNDMEZLUnR3Wm84WlVRNjVZV1RURWxSZ2R3TkZPeGRhRnYzd2dIdjdlX1RuR1B3ckxiOA?oc=5"
         }
       ],
       "sec": [
@@ -3099,6 +3130,14 @@
     },
     "masilela": {
       "id": "UCMCj_4yQBzA2yqBEEi4-3CQ",
+      "checked": "2026-11-25"
+    },
+    "mighti": {
+      "id": "UCUe-mj19X5AfmEXhnC-Ipdg",
+      "checked": "2026-11-25"
+    },
+    "sham": {
+      "id": "UCMHEDVFW5sUeHr5KMIOHuyg",
       "checked": "2026-11-25"
     }
   },
@@ -3573,6 +3612,11 @@
     "bf394cbc00cf",
     "b0a6f772ab4c",
     "4f14e338ade0",
-    "5b0485881470"
+    "5b0485881470",
+    "ada9a6380152",
+    "ae19665d44ec",
+    "342adcb9b606",
+    "e493aba745f7",
+    "867b83c15ea0"
   ]
 }
