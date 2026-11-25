@@ -667,6 +667,15 @@
       "pb": true,
       "wide": true
     },
+    "butler": {
+      "n": "Anthony Butler",
+      "o": "BD",
+      "img": "assets/journalists/anthony-butler.jpg",
+      "role": "Columnist, Business Day",
+      "group": "voice",
+      "org": "BD",
+      "beat": "analysis"
+    },
     "bruce": {
       "n": "Peter Bruce",
       "o": "BD",
@@ -790,6 +799,28 @@
     }
   },
   "items": [
+    {
+      "id": "ab-water",
+      "j": "butler",
+      "d": "2026-11-19",
+      "kind": "Column",
+      "place": "Johannesburg",
+      "h": "Rumoured ActionSA–ANC pact: just add water",
+      "s": "In a satirical column, Butler mocked the rumoured ActionSA–ANC pact for Johannesburg and the leaked draft agreement said to be circulating.",
+      "src": "Business Day",
+      "url": "https://www.businessday.co.za/opinion/2026-11-19-anthony-butler-rumoured-actionsaanc-pact-just-add-water/"
+    },
+    {
+      "id": "ab-deniable",
+      "j": "butler",
+      "d": "2026-11-12",
+      "kind": "Column",
+      "place": "National",
+      "h": "Parties may strike deniable deals to avoid formal coalitions",
+      "s": "Butler argued that the ANC and DA have treated coalition talks as too important to leave to councillors, and warned that informal, deniable deals and minority governments may only leave councils more fragile.",
+      "src": "Business Day",
+      "url": "https://www.businessday.co.za/opinion/2026-11-12-anthony-butler-parties-may-strike-deniable-deals-to-avoid-formal-coalitions/"
+    },
     {
       "id": "on-mashaba",
       "j": "otsile",
@@ -4505,7 +4536,8 @@
         "mg-frank",
         "dc-cutda",
         "pm-hustlers",
-        "gm-picks"
+        "gm-picks",
+        "ab-deniable"
       ],
       "voices": {
         "sizwe": "Floated one bargain between the DA, ANC and ActionSA to share out the metro mayors, and asks whether South Africa is entering a political realignment.",
@@ -4854,7 +4886,8 @@
         "zl-notsale",
         "zl-offer",
         "zl-open",
-        "smw-beaumont"
+        "smw-beaumont",
+        "ab-water"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
