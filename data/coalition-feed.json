@@ -449,6 +449,15 @@
       "beat": "analysis",
       "score": 50.8
     },
+    "matseke": {
+      "n": "Charles Matseke",
+      "o": "EWN",
+      "img": "assets/journalists/charles-matseke.jpg",
+      "role": "Columnist, EWN",
+      "group": "voice",
+      "org": "EWN",
+      "beat": "analysis"
+    },
     "goba": {
       "n": "Thabiso Goba",
       "o": "EWN",
@@ -826,6 +835,17 @@
     }
   },
   "items": [
+    {
+      "id": "cm-2029",
+      "j": "matseke",
+      "d": "2026-11-19",
+      "kind": "Column",
+      "place": "National",
+      "h": "Towards the 2029 coalition realignment: SA’s new politics of power",
+      "s": "Matseke argued that the metro talks point to two competing political camps forming ahead of 2029, and that coalition agreements must put service delivery, stable administration and accountability first.",
+      "src": "EWN",
+      "url": "https://www.ewn.co.za/2026/11/19/charles-matseke-towards-the-2029-coalition-realignment-sa-s-new-politics-of-power"
+    },
     {
       "id": "od-trap",
       "j": "davhie",
@@ -5206,7 +5226,8 @@
         "sg-pod",
         "im-rand",
         "dc-gnu",
-        "bb-gnu"
+        "bb-gnu",
+        "cm-2029"
       ],
       "voices": {
         "adriaan": "Named four coalition scenarios (Ukraine, Lesotho, Rainbow and Ghana), expected a DA-ANC deal, then warned the fight over the cities could bring down the unity government.",
