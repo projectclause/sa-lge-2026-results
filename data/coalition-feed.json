@@ -373,6 +373,15 @@
       "beat": "analysis",
       "score": 35.3
     },
+    "landman": {
+      "n": "JP Landman",
+      "o": "N24",
+      "img": "assets/journalists/jp-landman.jpg",
+      "role": "Columnist, News24",
+      "group": "voice",
+      "org": "N24",
+      "beat": "analysis"
+    },
     "steinberg": {
       "n": "Jonny Steinberg",
       "o": "N24",
@@ -880,6 +889,17 @@
     }
   },
   "items": [
+    {
+      "id": "jpl-second",
+      "j": "landman",
+      "d": "2026-11-12",
+      "kind": "Column",
+      "place": "All hung councils",
+      "h": "Local government elections: the critical second round",
+      "s": "Landman counted 139 of 213 councils with no majority party and set out the two routes open to the ANC: a GNU-style coalition with the DA and IFP, or a left-leaning bloc with MK, the EFF and others, with party discipline, especially in the ANC, as the key test.",
+      "src": "News24",
+      "url": "https://www.news24.com/business/opinion/today-jp-landman-local-government-elections-the-critical-second-round-20261112-0875"
+    },
     {
       "id": "ks-soundbites",
       "j": "sithole",
@@ -5486,7 +5506,8 @@
         "im-rand",
         "dc-gnu",
         "bb-gnu",
-        "cm-2029"
+        "cm-2029",
+        "jpl-second"
       ],
       "voices": {
         "adriaan": "Named four coalition scenarios (Ukraine, Lesotho, Rainbow and Ghana), expected a DA-ANC deal, then warned the fight over the cities could bring down the unity government.",
