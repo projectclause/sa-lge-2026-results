@@ -782,6 +782,17 @@
   },
   "items": [
     {
+      "id": "xm-business",
+      "j": "mngambi",
+      "d": "2026-11-24",
+      "kind": "Interview",
+      "place": "National",
+      "h": "Business sector weighs in as Friday coalition deadline looms",
+      "s": "Mngambi spoke to Cape Chamber of Commerce and Industry CEO John Lawson about what the coalition talks in hung municipalities mean for business confidence, investment and stable local government.",
+      "src": "Newzroom Afrika",
+      "url": "https://www.youtube.com/watch?v=BbAQa8pBzGc"
+    },
+    {
       "j": "adriaan",
       "d": "2026-11-21",
       "kind": "Column",
@@ -4243,7 +4254,8 @@
         "hl-sw",
         "tg-ifp",
         "tm-delay",
-        "mc-limpopo"
+        "mc-limpopo",
+        "xm-business"
       ],
       "voices": {
         "julius": "Proposed the ANC lead 30 of Limpopo’s 39 hung councils and the EFF nine.",
