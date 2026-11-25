@@ -35,7 +35,7 @@ def replace_block(s, name, body)
 end
 
 PUBLISHER = { "@type" => "NewsMediaOrganization", "name" => "Preamble", "url" => "#{SITE}/",
-              "logo" => { "@type" => "ImageObject", "url" => "#{SITE}/assets/share.png" },
+              "logo" => { "@type" => "ImageObject", "url" => "#{SITE}/assets/share-card.png" },
               "sameAs" => ["https://www.instagram.com/preamblehqdotcom/", "https://youtube.com/preambleyt", "https://preamble.substack.com/"] }
 
 # ---------- one story = one page ----------
@@ -102,7 +102,7 @@ STORIES.each do |s|
   title = "#{s[:h]} | Coalitions Tracker | PREAMBLE"
   ld = { "@context" => "https://schema.org", "@type" => "NewsArticle", "headline" => s[:h][0, 110], "description" => s[:dek],
          "datePublished" => s[:first], "dateModified" => s[:upd], "url" => url, "mainEntityOfPage" => url, "inLanguage" => "en-ZA",
-         "image" => ["#{SITE}/assets/share.png"], "articleSection" => "Coalitions Tracker · #{s[:scope]}",
+         "image" => ["#{SITE}/assets/share-card.png"], "articleSection" => "Coalitions Tracker · #{s[:scope]}",
          "author" => { "@type" => "Organization", "name" => "Preamble", "url" => "#{SITE}/" }, "publisher" => PUBLISHER,
          "about" => ["2026 South African municipal elections", "Coalition government", s[:place]].compact,
          "isBasedOn" => s[:cov].first(20).map { |c| c[3] } }
@@ -142,12 +142,12 @@ STORIES.each do |s|
       <meta property="og:title" content="#{esc(s[:h])}">
       <meta property="og:description" content="#{esc(s[:dek])}">
       <meta property="og:url" content="#{url}">
-      <meta property="og:image" content="#{SITE}/assets/share.png">
+      <meta property="og:image" content="#{SITE}/assets/share-card.png">
       <meta property="article:modified_time" content="#{s[:upd]}">
       <meta name="twitter:card" content="summary_large_image">
       <meta name="twitter:title" content="#{esc(s[:h])}">
       <meta name="twitter:description" content="#{esc(s[:dek])}">
-      <meta name="twitter:image" content="#{SITE}/assets/share.png">
+      <meta name="twitter:image" content="#{SITE}/assets/share-card.png">
       <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
       #{css}
       #{jsonld(ld)}
@@ -178,7 +178,7 @@ PEOPLE.each do |q|
   person = { "@type" => "Person", "@id" => "#{url}#person", "name" => n, "jobTitle" => role.to_s.split(", ").first, "description" => who,
              "worksFor" => q[:org] ? { "@type" => "Organization", "name" => q[:org] } : nil, "image" => q[:img] ? "#{SITE}/#{q[:img]}" : nil,
              "knowsAbout" => ["2026 South African municipal elections", "Coalition government in South Africa"],
-             "subjectOf" => q[:its].first(30).map { |d, h, src, u, kd| { "@type" => kd.to_s.start_with?("Video") ? "VideoObject" : "CreativeWork", "name" => h, "url" => u, "datePublished" => d, "publisher" => { "@type" => "Organization", "name" => src } }.tap { |w| w["uploadDate"] = d if w["@type"] == "VideoObject"; w["thumbnailUrl"] = "#{SITE}/assets/share.png" if w["@type"] == "VideoObject" } } }.compact
+             "subjectOf" => q[:its].first(30).map { |d, h, src, u, kd| { "@type" => kd.to_s.start_with?("Video") ? "VideoObject" : "CreativeWork", "name" => h, "url" => u, "datePublished" => d, "publisher" => { "@type" => "Organization", "name" => src } }.tap { |w| w["uploadDate"] = d if w["@type"] == "VideoObject"; w["thumbnailUrl"] = "#{SITE}/assets/share-card.png" if w["@type"] == "VideoObject" } } }.compact
   ld = { "@context" => "https://schema.org", "@type" => "ProfilePage", "url" => url, "name" => title.sub(" | PREAMBLE", ""), "inLanguage" => "en-ZA",
          "dateModified" => q[:upd], "isPartOf" => { "@id" => "#{SITE}/#website" }, "publisher" => PUBLISHER, "mainEntity" => person,
          "about" => q[:lines].map { |id, h, _| { "@type" => "NewsArticle", "headline" => h[0, 110], "url" => "#{SITE}/coalitions/#{id}.html" } } }
@@ -215,7 +215,7 @@ PEOPLE.each do |q|
       <meta property="og:title" content="#{esc(title.sub(" | PREAMBLE", ""))}">
       <meta property="og:description" content="#{esc(desc)}">
       <meta property="og:url" content="#{url}">
-      <meta property="og:image" content="#{q[:img] ? "#{SITE}/#{q[:img]}" : "#{SITE}/assets/share.png"}">
+      <meta property="og:image" content="#{q[:img] ? "#{SITE}/#{q[:img]}" : "#{SITE}/assets/share-card.png"}">
       <meta name="twitter:card" content="summary">
       <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
       #{css}
