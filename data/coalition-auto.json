@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-25",
-    "time": "20:58"
+    "time": "22:02"
   },
   "items": [
     {
@@ -952,6 +952,18 @@
       "src": "YouTube",
       "url": "https://www.youtube.com/watch?v=VfwQkNeZd7k",
       "auto": true
+    },
+    {
+      "id": "a-64a1073ca4",
+      "j": "zizipho",
+      "d": "2026-11-25",
+      "kind": "Video",
+      "place": "North West",
+      "h": "EFF biggest winner in negotiations🤭🚨🚨",
+      "s": "Zizipho Lubelwana's Simple Politics video says the EFF has secured its first mayor in North West and calls the party the biggest winner in the negotiations.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=-yjqFM7ZTz0",
+      "auto": true
     }
   ],
   "attach": {
@@ -1006,6 +1018,9 @@
     "grand-deal": [
       "a-4aa7f8b650",
       "a-7f1f32e7d4"
+    ],
+    "councils": [
+      "a-64a1073ca4"
     ]
   },
   "coverage": {
@@ -2164,6 +2179,12 @@
           "h": "WATCH | eThekwini holds inaugural council meeting to elect mayor, speaker, and deputy mayor",
           "d": "2026-11-24",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaHB1VnNLN0pnSFJXX09wUVM1NFpCNlh1M2JLWG1YWnpBdWdiTWdLMmVLOVJWWTdUeXMyTWg2MXh0ektKSEhncEpXV1FQeWJ6S3M1QmJrQ01laldTcFQzTEhtTnRYSGlkN0hJVTQzRnBuSnZiaVNIazg5Qzl0djFENFN5dVRCRk10VFhGTnhtajltZjlyeXo5YnRxOWxGdW9MRnF1b09La0dPY1NfNFpqc2FnMGYzVWxnU2JqV1daOTNFYjFTOXhISnVzX0Faa19tWlFz?oc=5"
+        },
+        {
+          "src": "themercury.co.za",
+          "h": "WATCH | eThekwini holds inaugural council meeting to elect mayor, speaker, and deputy mayor",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPaHBRaG1LOEZxcXBDQ1c5OXJ3VzBNSmVQdDBEYTRoTVFuUmgwQW9ITGI5SDBIMUN2aUhKLWVKSHpqdHhzTkYwWHdDb0JoSU9RNnZZcnVmM0VtaWd2UVQyT3dHUks0SnFSZmtUM1lJZTBMcEstcHoyZjRyZ0Z2WF9vdUhQTGpjeXZLSTQxY1d0dXBONzhNVlNKVkV0Rllva0FjV3l5MXZLaW1lQ3I5dTJPNHBlSVUzRkRJUTY5Uzh5Smt1MG9zZHZGMEhBd1Vhbm5PcWxTXw?oc=5"
         }
       ],
       "sec": [
@@ -2676,6 +2697,18 @@
           "h": "MK Party Councillors Sworn In as Ekurhuleni Council Formation Continues",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcXhWSkhHRkpyeUhnT1E1blRHT280ODh3T0lzX2lPOGNRWVVmUnA5aWVFd3A1YmNZX3hZQ1VCZEY2NHBfOVVYNWxwRnBHcVNvMURTVFI4Y3JtQUhnT0ItV0MwSTRvYUN0SUhZMk5nMGlFUFBzWkVTclFkTHRxV2dYN0I4bFpSaXBQNHB4WWg5M1cyX1F6Mm1pMnpLcEFIZFU?oc=5"
+        },
+        {
+          "src": "themercury.co.za",
+          "h": "WATCH | Ekurhuleni elects new leadership",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRE40MXh1dHZydnd4clZibi1YWkJlbWZYdzd2dHJqblUzcElNLTVpNXUyanBmSXR3YzN1QVlabl9YWjJUVDNJSEp3eDJIWmtBR2tLZlhITW13Ri1XY3VUcTkzaDhBQVBSakNvZFJjLTJ2eHpxeFlTTmN5VW41NThHUw?oc=5"
+        },
+        {
+          "src": "The South African Star",
+          "h": "DA still pursuing Ekurhuleni mayoral deal despite ANC-ActionSA talks",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT1VZU2lRVDFLdlFMLW5ZVEFZc3p1YWloLVRDZGQzRFlsV1hKNnhQVEh3VnJHMWpQUmozdnRCOU51aW42bXVhTUFVN2pEYXh5MEhma1RFdjVKYlVvZGVFdVhHVURFZFgtMGRlMEpRTE96WHl3SVM2eU8tUWZDV2JnT3lkM1JJOXJOZWl1RC1idkY3RGxaaTBVLVFranUteTEwVFB3UXNYZmMxSXpVd1FrREZZMA?oc=5"
         }
       ],
       "sec": [
@@ -3661,6 +3694,11 @@
     "7dbaca94ab69",
     "59209b1f2dc6",
     "5e39de447a2a",
-    "59cd0622fd3a"
+    "59cd0622fd3a",
+    "2974eb38c228",
+    "64a1073ca425",
+    "dd693766ea6a",
+    "b15f09b659d8",
+    "fcbbc29b9664"
   ]
 }

@@ -1,6 +1,6 @@
 # PREAMBLE
 
-> South Africa’s global and local data. Live results of the 4 November 2026 local government elections, a ward-by-ward map, the mayors of the eight metros, and a Coalitions Tracker that groups reporting on the coalition talks into stories with summaries and links to every original article. Updated 25 November 2026, 20:58 SAST.
+> South Africa’s global and local data. Live results of the 4 November 2026 local government elections, a ward-by-ward map, the mayors of the eight metros, and a Coalitions Tracker that groups reporting on the coalition talks into stories with summaries and links to every original article. Updated 25 November 2026, 22:02 SAST.
 
 Data: Independent Electoral Commission (IEC). Summaries are written by Preamble with AI from published reporting; the journalists and politicians quoted do not write for Preamble.
 
@@ -147,7 +147,7 @@ Data: Independent Electoral Commission (IEC). Summaries are written by Preamble 
 - [Willem Phungula](https://preamble.co.za/people/willem-phungula.html): Journalist, The National; reporter, 2 coalition pieces
 - [Xoli Mngambi](https://preamble.co.za/people/xoli-mngambi.html): Anchor, Newzroom Afrika; analyst and commentator, 2 coalition pieces
 - [Zimasa Gcaga Vabaza](https://preamble.co.za/people/zimasa-gcaga-vabaza.html): Media entrepreneur and commentator, “Mooshtaffa”; analyst and commentator, 2 coalition pieces
-- [Zizipho Lubelwana](https://preamble.co.za/people/zizipho-lubelwana.html): Host, Simple Politics (YouTube); analyst and commentator, 13 coalition pieces
+- [Zizipho Lubelwana](https://preamble.co.za/people/zizipho-lubelwana.html): Host, Simple Politics (YouTube); analyst and commentator, 14 coalition pieces
 - [Zohra Teke](https://preamble.co.za/people/zohra-teke.html): Journalist, IOL and The Mercury; reporter, 2 coalition pieces
 
 ## Optional
