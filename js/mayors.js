@@ -13,6 +13,8 @@
   // mayors elected by the new councils after the 2026 election (as confirmed so far)
   const NEW = {
     CPT: { n: "Geordin Hill-Lewis", p: "DA", same: true, how: "Re-elected. The DA won Cape Town outright." },
+    EKU: { n: "Mziyanda Mketsu", p: "ANC", img: "assets/mayors/ekurhuleni/mziyanda-mketsu.png", expected: true, label: "Incoming mayor · council votes Friday",
+      how: "Reports on 25 November say the ANC will field councillor Mziyanda Mketsu as mayor under a deal with ActionSA, the EFF, MK and the SACP. The council put off its mayoral vote to Friday, 27 November." },
   };
   // where a hung council is leaning before its mayoral vote: a needle, like the NYT's election needle
   const ZONE = { "-2": "Likely", "-1": "Leans", "0": "Toss-up", "1": "Leans", "2": "Likely" };
@@ -120,7 +122,7 @@ function render() {
       if (on && chips.scrollWidth > chips.clientWidth) chips.scrollLeft = on.offsetLeft - chips.offsetLeft - (chips.clientWidth - on.offsetWidth) / 2;
       const now = nw
         ? `<div class="my-now">${photo(nw.same ? cur && cur.img : nw.img, nw.n, nw.p, "my-ph")}
-             <div><p class="my-lab">${nw.expected ? "Expected mayor · council vote pending" : CHECK + "Mayor after the 2026 election"}</p><p class="my-name">${nw.n}</p>
+             <div><p class="my-lab">${nw.expected ? nw.label || "Expected mayor · council vote pending" : CHECK + "Mayor after the 2026 election"}</p><p class="my-name">${nw.n}</p>
              <p class="my-party"><i style="background:${col(nw.p)}"></i>${PN[nw.p] || nw.p}</p><p class="my-how">${nw.how}</p></div></div>`
         : nd
         ? `<div class="my-now my-tbc my-lean"><div><p class="my-lab">Council vote pending · Where it leans</p>
@@ -167,7 +169,7 @@ function render() {
         sub: `${C.prov} · ${C.list.length} mayors since the first democratic council`,
         since: (C.list[0].y.match(/\d{4}/) || [""])[0],
         now: nw
-          ? { label: nw.expected ? "Expected mayor · council vote pending" : "Mayor after the 2026 election", n: nw.n, party: PN[nw.p] || nw.p, color: col(nw.p), img: nw.same ? cur && cur.img : nw.img, how: nw.how }
+          ? { label: nw.expected ? nw.label || "Expected mayor · council vote pending" : "Mayor after the 2026 election", n: nw.n, party: PN[nw.p] || nw.p, color: col(nw.p), img: nw.same ? cur && cur.img : nw.img, how: nw.how }
           : { label: "Council vote pending", how: nd ? `${nd.call}. ${L.why}` : `The new council elects the mayor at its first sitting.${cur ? ` ${cur.n} (${short(cur.p)}) stays in office until then.` : ""}` },
         list: C.list.slice().reverse().map((r, i) => ({ num: C.list.length - i, n: r.n, party: short(r.p), color: col(r.p), y: r.y, img: r.img, cur: !!r.cur,
           tag: !r.cur ? "" : nw && nw.same && nw.n === r.n ? "In office" : nw && !nw.expected ? "Previous" : "Outgoing" }))
