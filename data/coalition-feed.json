@@ -533,6 +533,15 @@
       "org": "The National",
       "beat": "reporting"
     },
+    "jasson": {
+      "n": "Wendy Jasson da Costa",
+      "o": "The National",
+      "img": "assets/journalists/wendy-jasson-da-costa.jpg",
+      "role": "Journalist, The National",
+      "group": "voice",
+      "org": "The National",
+      "beat": "reporting"
+    },
     "moichela": {
       "n": "Kamogelo Moichela",
       "o": "IOL",
@@ -853,6 +862,50 @@
     }
   },
   "items": [
+    {
+      "id": "wj-snub",
+      "j": "jasson",
+      "d": "2026-11-22",
+      "kind": "Report",
+      "place": "Gauteng metros",
+      "h": "ActionSA snubs DA as ANC weighs coalition deals with MK Party",
+      "s": "With Rapula Moatshe and Willem Phungula, Jasson da Costa reported ActionSA turning down the DA while the ANC, which was also talking to the DA, weighed deals with MK ahead of a report to its NEC.",
+      "src": "The National",
+      "url": "https://thenational.co.za/news/2026-11-22-actionsa-snubs-da-as-anc-weighs-coalition-deals-with-mk-party/"
+    },
+    {
+      "id": "wj-hlabisa",
+      "j": "jasson",
+      "d": "2026-11-12",
+      "kind": "Report",
+      "place": "All hung councils",
+      "h": "Coalition talks: Minister Hlabisa warns party spats must not stall service delivery",
+      "s": "Jasson da Costa reported Cogta minister Velenkosini Hlabisa warning that unstable coalitions bring repeated leadership changes, and noted that the government’s coalition guidelines are not binding.",
+      "src": "The National",
+      "url": "https://thenational.co.za/news/2026-11-12-coalition-talks-minister-hlabisa-warns-party-spats-must-not-stall-service-delivery/"
+    },
+    {
+      "id": "wj-next",
+      "j": "jasson",
+      "d": "2026-11-11",
+      "kind": "Report",
+      "place": "All hung councils",
+      "h": "SA local government coalition talks are underway: what happens next?",
+      "s": "Jasson da Costa set out what comes next in the hung councils, including Johannesburg, which will need a coalition government, and noted that recounts and by-elections could still be needed.",
+      "src": "The National",
+      "url": "https://thenational.co.za/news/2026-11-11-sa-local-government-coalition-talks-are-underway-what-happens-next/"
+    },
+    {
+      "id": "wj-begins",
+      "j": "jasson",
+      "d": "2026-11-09",
+      "kind": "Report",
+      "place": "National",
+      "h": "South Africa’s coalition negotiations: ANC weakened, DA advances as the fight for power begins",
+      "s": "Jasson da Costa reported that 138 municipalities were set for coalition governments, with the ANC weakened and the DA advancing.",
+      "src": "The National",
+      "url": "https://thenational.co.za/news/2026-11-09-south-africas-coalition-negotiations-the-fight-for-power-begins/"
+    },
     {
       "id": "rm-snub",
       "j": "moatshe",
@@ -4555,7 +4608,9 @@
         "tm-delay",
         "mc-limpopo",
         "xm-business",
-        "ka-failure"
+        "ka-failure",
+        "wj-next",
+        "wj-hlabisa"
       ],
       "voices": {
         "julius": "Proposed the ANC lead 30 of Limpopo’s 39 hung councils and the EFF nine.",
@@ -5108,7 +5163,8 @@
         "od-trap",
         "dc-rand",
         "lm-veto",
-        "rm-snub"
+        "rm-snub",
+        "wj-snub"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
@@ -5443,7 +5499,8 @@
         "td-sowetan",
         "td-capetalk",
         "sol-pc12",
-        "gm-leon"
+        "gm-leon",
+        "wj-begins"
       ],
       "voices": {
         "pieter": "Saw the ANC’s decline speeding up, with the party on the brink of second, third or fourth place in seven of the eight metros.",
