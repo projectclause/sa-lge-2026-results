@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-25",
-    "time": "13:06"
+    "time": "14:09"
   },
   "items": [
     {
@@ -796,6 +796,42 @@
       "src": "Business Day",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSDlnakxUQ0drYUdYZl94M0NIeGJ3OXlSVnNSVVZTQURXc0hfMnJkdGxNbjAxRHZTMkFOMmwyeGlqNFVwX2pjVWlNNU5RUl9PQzNrVjJsU25DWVJzQlFYQmhUZE0xZ1V3N0MyQUJhQkZMTjI5MnVSS0dsRkYzSVY3aHppcw?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-2640df8973",
+      "j": "makin",
+      "d": "2026-11-25",
+      "kind": "Video",
+      "place": "National",
+      "h": "Why the ANC Would Reject the DA's Generous Offer",
+      "s": "On Gabriel Makin's channel, Marius Roodt explains why the ANC might turn down the DA's offer to let it keep control of 93 municipalities in favour of working with MK, the EFF and ActionSA, pointing to the battle for metro mayoralties, budgets and finance portfolios.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=9NHLT497Udc",
+      "auto": true
+    },
+    {
+      "id": "a-03238a6a2d",
+      "j": "geordin",
+      "d": "2026-11-25",
+      "kind": "Article",
+      "place": "National",
+      "h": "Hill-Lewis warns ANC opposition could derail DA power-sharing plan for 137 hung councils",
+      "s": "IOL reports DA leader Geordin Hill-Lewis warned that ANC opposition could derail the DA's power-sharing plan for 137 hung councils.",
+      "src": "IOL",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWHlaN3BSNHlVSHJPNHdoek91aGJybms2dTI4MGFrc3JNS3VNVXNXTzdIR0RTbEFiSUgwTWI5VVVTUXEyalVGbGRjTDg3cVBuVGU5RFZUVDBUVU5BUFlMVnpWVTFsNm1hUm9ranlGWlVjZTZvUThIZmluOEplOHFRNzhTV2lWR3ZBemZ1VS1NYnV6bWFfbDVhcndKQWFkQVFnYVdZM0ZLQVNteUJQRnpWaWZlWEJ5THhOcUtKb0lVdVlJWGluWlpReHlFR1pWUQ?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-c23d08c2cb",
+      "j": "geordin",
+      "d": "2026-11-25",
+      "kind": "Article",
+      "place": "National",
+      "h": "Hill-Lewis cautiously optimistic about ANC support for DA coalition plan",
+      "s": "The South African Star reports Geordin Hill-Lewis is cautiously optimistic about ANC support for the DA's coalition plan.",
+      "src": "The South African Star",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOWRLSC10LVBYOFVEQTZxS2dLNWpKdDQ2ZmcwV3pZSWNjVzlSTUxvTjdQTlpjSklQU3ZzQWR3LXZ5aUN5YTZwYzRzaUVsUjFKcWgwUXEwYWZJZUtpWl96SE1DTWx4ZjBvYzloTy02SUdHNmNmNE1CY0FPSUtwM3IwOFlrUFhQbjlXRkh3NS1EYnVPZ0dJU01vU3o3SjktQVhCd01LR2JqTnI0czVDV1ZBQQ?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -830,7 +866,10 @@
       "a-ac6fa786f4",
       "a-11ac22d4a3",
       "a-ce24401c88",
-      "a-ccfc6fcbf8"
+      "a-ccfc6fcbf8",
+      "a-2640df8973",
+      "a-03238a6a2d",
+      "a-c23d08c2cb"
     ],
     "mk": [
       "a-7857ef5d3f",
@@ -1270,6 +1309,12 @@
         "h": "Kokstad mayor warns MKP, EFF against council chaos",
         "d": "2026-11-25",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5qeTRrYWF4aTZLRVNaTEJHWExKREQteVdSWUpxNHFjTlpoQnJOVFpUZG9DSU5BMG40UGhaVHc5aXRmNlVaYVpWd1hLcmZYUmhTLVFaUGdnNk9lTnl1cEpMT0dFX2NUdEdEX2wzQk5hd0JINXM?oc=5"
+      },
+      {
+        "src": "IOL",
+        "h": "Alfred Duma council adjourns without electing mayor after ANC, MKP motion",
+        "d": "2026-11-25",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMGtDUXhKcDRNYUt5WFUtNUVVWXJ3U2ZEa0FneXQzd0dIdVNpRGlpS194VDJsUGl6UzMzZXVzYVAzMTdzMW9wMGxqNWduV0ZxX0RwVGxhTi13cDN5QWE1ZDd5TXYtWnVPNGk3MVYtY3lmWDh2ZE1fRVpTd3BWY2Yxc25UajF5bWFMV0NQVkoxSDhObTZoSTgyMmpoX3BVQXZGbk5rSXFFVDlONHpyRi1IQk5kdjBQN2c?oc=5"
       }
     ],
     "tshwane": [
@@ -1580,6 +1625,18 @@
         "h": "A framework proposal to the ANC to stabilise 137 municipalities - DA",
         "d": "2026-11-22",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMVdzQ1RRWTREODlTS01WaFZWNkxaV2RjUEJaSFZZZnp1ZWtjMjJaZlBUcDd5V2ZERnBsSE1Rc2tqMDc2OVowaE9md2lKZHNoLURYaXJ2QlNBcldzR29paDBKTFA5cjBGUk5mTlhGMS1KNEwwdnVRSmxOaDh6akVwZGtLQVU0d0xobTF6TkZUUUpPcEdIemJ5NHM2UUotOG1aa01B?oc=5"
+      },
+      {
+        "src": "EWN",
+        "h": "Reluctance in talks threatens DA’s lead in Johannesburg, Tshwane, and Ekurhuleni",
+        "d": "2026-11-25",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQemtWR0JhZ1ZSOENqRWdFbXlpbTRERlZzMjBQUXo4R1VrRHVGTEljX1ZVUVdjN1RjS2NTU2VjZ0FyaW4zSjZrbVNTS2lnV1dIZ0lfbGRYcGxLZjIteU1lSWt6Z1djYVpvQS0zcWwyV3h4SGVMbklSXy13RGpPUkdHNWNiXzNHVUpVbmh5UTRGNkZLLXpDYWZWV1NKT3haNVJLLXVj?oc=5"
+      },
+      {
+        "src": "newsday.co.za",
+        "h": "DA downfall in ANC talks caused by opposing Constitutional Court application and comments by Cilliers Brink",
+        "d": "2026-11-25",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWV9HTlRGazVKS2ZrbUxzOVo0VHN0a2dDclFRUE0wUVJHQVJKOWcwbm8zY09aTnRQM0tVNmVNNEJJYXBnZFZoLTFXTmtjWTdiZ3FDWGd3azdHMEVSQzB5SVNvVm8xbXpubDkxdEFYRi02bWVPT1lUUzZxdFMtMU9QY2xLZGk1bG9DMDVqM2JkQWV3bkMyc2lVMEd2MWI3YUhoQ0lmY1RqS3VnX3JyWkp4REdDcy1rRTlqZ2FfTlFYalVzOXVqdlFKOWd6Um9qWURJdHV3ZThWQ3EtbHhIcEpJejBnaw?oc=5"
       }
     ]
   },
@@ -1871,6 +1928,12 @@
           "h": "WATCH: eThekwini delays mayoral election as coalition talks continue",
           "d": "2026-11-24",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTmYyeHRoNF80b1RMQXRMWndMOVZLSkRXN1ZxWmMxZFdLSVdyVEdpeTJCX0VkWE5PaEl2NEZRVVpwXzQ2aXR5QWwteTJvSTNiamtXbDVFTEJLdFBjMlNRVmp6Z1AwVHY3TkRHYXBXTXlWUHpTOXRzSzFfV2RUbVRiVzNwR1BxMG16MXhsTHVUN3gtMUZ5aGxQQV9iTGs5UkpsNElvREtvbjktUGRnQ0l3?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "Explained: Why eThekwini has an Exco instead of a Mayco",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYTBMX0pVWEJVdnctN09zTEsyRV9CWWhuM3l0S0RwT0VCSkI1cGU1aVV2U1o2aHIwUWdLZklleFhvamF5V3RZQ1QwNmpQMThVM0FnM19zNzNBUVpPLUVkVWJXcHp5Mjg0d2p5WmhDZnlVSE1WT3ZzWlV1VVhOMHlfX3VOZ1FsWE9fRmlGM2xrTVFiaGN4Q2tYTmFOdmk0V3c?oc=5"
         }
       ],
       "sec": [
@@ -2217,10 +2280,10 @@
     {
       "cat": "Ekurhuleni",
       "place": "Ekurhuleni",
-      "h": "Ekurhuleni’s council meets to elect its leaders as Mashaba confirms a deputy mayor",
-      "dek": "Ekurhuleni’s new council held its inaugural meeting on 25 November, with IOL reporting Kagiso Lerutla presided. IOL reports Herman Mashaba confirmed Xolani Khumalo as Ekurhuleni deputy mayor.",
+      "h": "Ekurhuleni’s mayoral election is postponed as coalition talks continue",
+      "dek": "Ekurhuleni’s new council held its inaugural meeting on 25 November, with IOL reporting Kagiso Lerutla presided, but The Citizen and EWN report the mayoral election was postponed so parties could finish coalition negotiations. IOL reports Herman Mashaba confirmed Xolani Khumalo as Ekurhuleni deputy mayor.",
       "brief": [
-        "The Citizen reports councillors are to elect a new mayor as coalition talks shape the leadership.",
+        "The Citizen and EWN report the Ekurhuleni mayoral election and council sitting were postponed for parties to iron out coalition negotiations.",
         "IOL reports Kagiso Lerutla presided over the inaugural council meeting.",
         "IOL reports Mashaba confirmed Xolani Khumalo as deputy mayor.",
         "EWN reported coalition talks were near conclusion ahead of the sitting, and IOL reported the EFF, ActionSA and ANC had started talks over the Gauteng metros."
@@ -2269,6 +2332,18 @@
           "h": "Ekurhuleni metro’s inaugural council sitting set to begin",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdld1ajluci1jTXFSSkQyUkh4Ry1tdDBzRU1QRFBuUUI3LVVUVEpSRGpJTDlqNjlibk9Lbzk4b3FMbjAyVG54QUZSNlBTR3E0ZUM4OXhiX05fNHZFYmxJWXhtUHlUSjVBbDViSlJJM0oxRmg2d2Jzam1jLVZJVElDZ05KNmR0OExJdkdWWDFBbUU2VnRCY0E?oc=5"
+        },
+        {
+          "src": "The Citizen",
+          "h": "WATCH: Ekurhuleni mayoral election postponed as coalition talks continue",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPWjBkUktYanFrVXdzdExHQ0pSMGhZR0Nnd3BMVDc3bkhPZFp6VHdNVFd0czZaMUV1cUFqM1oxYkJSZWo3cWRfcm0tX2hkYWRnaXg1OXd2SEZjWFNxZTNKQnJrWHVFVDhDWm4xNTVsSmxfMVVPTUtuUmJldTNreE10eFlyOEdLMnJCLVZENW1fNE0tc2hRZmRBMHRTcHhELTRUM0JoZU9kUno1TFQxU0V6dmZva1ppOEkzNDRfZWVGYUduQUkyQjR5bjI2dnhKZ3FaMzVpWEFRX2xpZFNzbVlySk1pSlJoVEVkSE4yN2dWUnNnbms1WjhkaA?oc=5"
+        },
+        {
+          "src": "EWN",
+          "h": "Ekurhuleni council sitting postponed for parties to iron out coalition negotiations",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMDVYQnFqdXh6aWIwZURjUHZlYU5lM2RNN1VRMFdWSTRjRGI1OW5ySU15M0ppZndJdzg3NzY5NWpVd0JIdDRDOVJXSG04TW1BdDFIMDh3bXpyTF9OZEMtVW81WkdCT0gtRjBQVFdjVGhQMHhLcUc4VHFzYTBMTU9GbVk5bE1jN2xZbWlZd09rTGV6OTNBQXd5cGVMbVl5ZlpOWGpOZ1VRa2k4d1JIZE5CRVZQcjJ6anM?oc=5"
         }
       ],
       "sec": [
@@ -2345,7 +2420,7 @@
       "h": "The DA is shut out of Theewaterskloof and Laingsburg as Western Cape councils pick partners",
       "dek": "News24 reports the ANC joined other parties to take control of Theewaterskloof, and IOL reports ActionSA formed a Laingsburg coalition with the PA and ANC, leaving the DA out. News24 reports the DA and FF Plus have entered coalitions in some hung Western Cape councils.",
       "brief": [
-        "News24 reports the ANC and other parties took control of Theewaterskloof, shutting out the DA; the Cape Argus reports the DA warning this could threaten financial recovery.",
+        "News24 reports the ANC and other parties took control of Theewaterskloof, shutting out the DA; the Cape Argus and IOL report the DA warning this could threaten financial recovery.",
         "IOL reports ActionSA formed a coalition with the PA and ANC in Laingsburg, leaving the DA out.",
         "News24 reports the DA and FF Plus entered coalitions in some hung councils; IOL reported the DA began talks with 16 councils hung.",
         "IOL reports the DA named deputy mayor and speaker candidates for seven Western Cape municipalities, and Limberg as Cape Town deputy mayor.",
@@ -2422,6 +2497,12 @@
           "h": "DA warns Theewaterskloof coalition change could derail financial recovery",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQb082eHAwSVhSUWdqbTFfYm83bVQxUzNNNDdsWWU0ZUlwYzBCQmh2MmRzeXhmS1k1cTllcGItdXJiVkxoRFFXNEFHTmNDcExYM0NPeTV3Y2JnM01hanRsQWtCdDY4SmlNNFk0NU1iS3dJLV9CN2dSUVFuYkxSUDRDRW9vNjYzOTJ0MlZTdG1KeDdWcVNuVF9ET1pEdWJrcXhxSlNHZjVmWnhKQU9oeHpHM3NrYl9LcmctN0E?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "DA warns new Theewaterskloof coalition could threaten financial recovery",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORm1KeGthaFczQ1VycVNJSzhNUXJWcXJfVmJ2LTFRd1h4R2Jqb2hLcExDMEk3V1p0X3U2MUR2RjRpakxnYzV3clpmM210MGZaRm9NZXcxYmNQZW1ubWk5cTl1bF82czBjZkRZamJTT290YnF3QS03eVJUci1QcUF5Q05TLTNzLUVaaDFqY21pZ0tza2ZQaXF4YTdrZzhCYVpxWTFybkJ4aHBWanFNUkhVVk1rODJsTk1l?oc=5"
         }
       ],
       "sec": [
@@ -2435,12 +2516,12 @@
       "cat": "ANC",
       "place": "National",
       "h": "The ANC leaves coalition choices to its provinces and regions",
-      "dek": "EWN and Dan Corder report the ANC’s NEC has let provinces and regions decide coalitions, with consequences for Gauteng, eThekwini, Nelson Mandela Bay and over 100 hung councils. The ANC says there is consensus as talks move towards conclusion, while TimesLIVE and IOL report strains over Ramaphosa’s leadership.",
+      "dek": "EWN and Dan Corder report the ANC’s NEC has let provinces and regions decide coalitions, with consequences for Gauteng, eThekwini, Nelson Mandela Bay and over 100 hung councils, and SABC News reports the NEC resolved that DA coalitions should be a last resort. The ANC says there is consensus as talks move towards conclusion, while TimesLIVE and IOL report strains over Ramaphosa’s leadership.",
       "brief": [
         "EWN asks whether the ANC has given provinces and regions the final say; Dan Corder says the NEC decided to let regional bodies choose, affecting well over 100 hung councils.",
+        "SABC News reports the NEC resolved that coalitions with the DA should be a 'last resort'.",
         "Newsnote reports the ANC asserting there is consensus as talks near conclusion; The Witness reports the NEC weighing up its coalition future.",
         "Business Day reports the ANC is seeking a foothold in hung councils, EWN quotes an analyst saying its choices could decide whether it enters a 'death spiral', and IOL reports the SACP drawing a line over coalition support for the ANC.",
-        "On Gabriel Makin’s channel, Marius Roodt argues the ANC has become a federal party, noting the Gauteng ANC wants to work with MK and the EFF while Limpopo’s prefers the DA.",
         "TimesLIVE reports Ramaphosa faces a tough ANC unity test, IOL reports tensions over Ramaphosa, election losses and working with the DA, and The Common Sense argues ANC indecision has left a power vacuum."
       ],
       "auto": true,
@@ -2540,6 +2621,12 @@
           "h": "ANC seeks foothold in hung councils as coalition talks continue",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNEtSZ2JyUExSa1BHc3dsT1JCaE1VM3MwSzd4VjdUcmdUa1A4MmpuTkxrVVhNbEV1eDVPZGFOLXRtdWNFUGJuOFVtNFdUZ3FSYVY2Y183UzlaR1NGZVNFamgxbTh1M2ZNbEx0VUtJd2p4Um50aXNGZzNxVHNSdEdsUDU5U3VKeHJDTlViZzJtX1N6TlVlOUJwbE5udE9KQTVDUWhLSnhQOUlWMG9WSnZRTnJR?oc=5"
+        },
+        {
+          "src": "SABC News",
+          "h": "ANC NEC resolves that DA coalitions should be’last resort’",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZ0h0VnllT1RYSXVSUnpkSjVxWTlTd0ZvcC05Z25tN3l5ZTV3OTJaVDYyZ3VSQzZUd0NjY2hqV0c2d2J4YUNmYXhTUlZaV2ZMVDE3cXJOYVYySWt6S3k0Z0Z4X3pXc1V0aGZJcm8yNGxyZk1zV2xBbFA3NWRLbkFPWGtSdkcxc2RxeUJJSXNadi1tSTlfOXplblpscXBDRW1mZkRVMnpCQnQ2WkNYN29Mc3gyd0Z4bXV2Ym9XZlFoUXZ5dw?oc=5"
         }
       ],
       "sec": [
@@ -2710,6 +2797,14 @@
     },
     "otsile": {
       "id": "UCk_qa4ssROH8aUDbgQXE5dA",
+      "checked": "2026-11-25"
+    },
+    "djsbu": {
+      "id": "UCNmytX4p-jp2eVatN6DJoTw",
+      "checked": "2026-11-25"
+    },
+    "masilela": {
+      "id": "UCMCj_4yQBzA2yqBEEi4-3CQ",
       "checked": "2026-11-25"
     }
   },
@@ -3124,6 +3219,18 @@
     "0c2c1a738af0",
     "2bce6c11bce1",
     "9a602b64edfd",
-    "4c4269030a30"
+    "4c4269030a30",
+    "2640df897352",
+    "e646a99b9d0c",
+    "b13a9c8aff50",
+    "03238a6a2dc5",
+    "c23d08c2cbd4",
+    "77e5a6ddb284",
+    "e189ddcc6710",
+    "b1f78eb5f6b8",
+    "07ca628a86c4",
+    "d516f158c30e",
+    "516d6d54ae60",
+    "4660a922733e"
   ]
 }
