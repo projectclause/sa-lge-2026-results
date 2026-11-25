@@ -6693,6 +6693,30 @@
         "sfull": false
       },
       {
+        "id": "rg1",
+        "d": "2026-11-07",
+        "j": [],
+        "src": "Rossiyskaya Gazeta",
+        "h": "South Africa’s elections strengthened the opposition and sharpened the fight for the municipalities",
+        "orig": "Выборы в ЮАР усилили роль оппозиции и обострили борьбу за муниципалитеты",
+        "lang": "Russian",
+        "url": "https://rg.ru/2026/11/07/vybory-v-iuar-usilili-rol-oppozicii-i-obostrili-borbu-za-municipalitety.html",
+        "s": "Preamble could not open this article. Only its headline is translated here.",
+        "sfull": false
+      },
+      {
+        "id": "rg2",
+        "d": "2026-11-19",
+        "j": [],
+        "src": "Rossiyskaya Gazeta",
+        "h": "In South Africa, the election winner may be left without power",
+        "orig": "В ЮАР победитель на выборах может остаться без власти",
+        "lang": "Russian",
+        "url": "https://rg.ru/2026/11/19/v-iuar-pobeditel-na-vyborah-mozhet-ostatsia-bez-vlasti.html",
+        "s": "Preamble could not open this article. Only its headline is translated here.",
+        "sfull": false
+      },
+      {
         "id": "rfi1",
         "d": "2026-11-05",
         "j": [
@@ -6733,7 +6757,8 @@
           "f7",
           "ar1",
           "ab1",
-          "fr2"
+          "fr2",
+          "rg2"
         ],
         "place": "Johannesburg and the Gauteng metros",
         "brief": [
@@ -6857,7 +6882,8 @@
           "ru1",
           "rfi1",
           "bw1",
-          "kas1"
+          "kas1",
+          "rg1"
         ],
         "place": "South Africa’s metros",
         "brief": [
