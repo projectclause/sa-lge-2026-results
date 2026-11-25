@@ -1202,6 +1202,9 @@ body.has-ask { padding-bottom: 96px; }
 /* green pill: journalists at the national public broadcaster (SABC) */
 .pl-nm .pl-pb, .pl-voice .pl-nm .pl-pb { background: #e3f4e8; border-color: #8fd0a4; color: #17683a; padding: 2px 9px; }
 .pl-how-pb a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+/* international voices: outlet flag beside the name, the height of the outlet line below (12.5px cards, 13px story cards) */
+.pl-nm img.pl-vflag, .pl-voice .pl-nm img.pl-vflag, .pl-vh .pl-nm img.pl-vflag { display: inline-block; width: auto; height: 12.5px; flex: none; border-radius: 2px; object-fit: fill; background: none; filter: none; box-shadow: 0 0 0 1px rgba(0,0,0,.08); margin-left: -2px; }
+.pl-vh .pl-nm img.pl-vflag { height: 13px; }
 /* green "New" pill: the voice has a piece dated today (SAST) */
 .pl-nm .pl-new, .pl-voice .pl-nm .pl-new { background: #1f8a4c; border-color: #1f8a4c; color: #fff; padding: 2px 9px; }
 
