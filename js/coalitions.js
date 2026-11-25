@@ -58,7 +58,9 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
   // green pill for journalists at the national public broadcaster; its "i" explains what the SABC is
   const PB = '<span class="pl-wide pl-pb">Public Broadcaster</span>';
   const INFO_PB = '<span class="pl-i" data-note="pb" role="button" tabindex="0" aria-label="About the public broadcaster" aria-haspopup="dialog">i</span>';
-  const nameTag = (p) => { const t = p.top ? TOP : p.inf ? INF : p.wide ? WIDE : ""; return `<b class="pl-nm">${esc(p.n)}${p.alias ? "*" : ""}${t ? `<span class="pl-tagw">${t}${INFO}</span>` : ""}${p.pb ? `<span class="pl-tagw">${PB}${INFO_PB}</span>` : ""}</b>`; };
+  // Most Influential / Influential pills are hidden for now; the ranking (p.top, p.inf) stays in the data
+  const SHOW_RANK = false;
+  const nameTag = (p) => { const t = SHOW_RANK && p.top ? TOP : SHOW_RANK && p.inf ? INF : p.wide ? WIDE : ""; return `<b class="pl-nm">${esc(p.n)}${p.alias ? "*" : ""}${t ? `<span class="pl-tagw">${t}${INFO}</span>` : ""}${p.pb ? `<span class="pl-tagw">${PB}${INFO_PB}</span>` : ""}</b>`; };
   const HOW = `<div class="pl-how" role="dialog" aria-label="How we rank voices" hidden>
       <button type="button" class="pl-how-x" aria-label="Close">×</button>
       <div class="pl-how-pb" hidden><p class="pl-how-h">Public Broadcaster</p><p>South African Broadcasting Corporation (<a href="https://www.sabc.co.za/sabc/about-us/" target="_blank" rel="noopener">SABC</a>) is South Africa's national public broadcaster.</p></div>
