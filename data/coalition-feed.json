@@ -694,6 +694,15 @@
       "org": "Municipal IQ",
       "beat": "analysis"
     },
+    "davhie": {
+      "n": "Ofentse Davhie",
+      "o": "BD",
+      "img": "assets/journalists/ofentse-davhie.jpg",
+      "role": "Columnist, Business Day",
+      "group": "voice",
+      "org": "BD",
+      "beat": "analysis"
+    },
     "bruce": {
       "n": "Peter Bruce",
       "o": "BD",
@@ -817,6 +826,28 @@
     }
   },
   "items": [
+    {
+      "id": "od-trap",
+      "j": "davhie",
+      "d": "2026-11-24",
+      "kind": "Column",
+      "place": "Gauteng metros",
+      "h": "ActionSA walking blindly into a blame-diffusion trap",
+      "s": "Davhie argued that the ANC’s offer gives ActionSA the mayors’ offices while the ANC keeps the money, so ActionSA would carry the blame, pointing to Tshwane, where the two shared an executive until ActionSA walked out in 2024.",
+      "src": "Business Day",
+      "url": "https://www.businessday.co.za/opinion/2026-11-24-ofentse-davhie-actionsa-walking-blindly-into-a-blame-diffusion-trap/"
+    },
+    {
+      "id": "od-da25",
+      "j": "davhie",
+      "d": "2026-11-20",
+      "kind": "Column",
+      "place": "National",
+      "h": "The DA’s 25% is a strength, not a failure",
+      "s": "Davhie argued that the DA’s 25% is a strength, not a failure, and that Herman Mashaba has chosen the ANC, EFF and MK bloc as ActionSA’s permanent partners.",
+      "src": "Business Day",
+      "url": "https://www.businessday.co.za/opinion/2026-11-20-ofentse-davhie-the-das-25-is-a-strength-not-a-failure/"
+    },
     {
       "id": "ka-failure",
       "j": "allan",
@@ -4278,7 +4309,8 @@
         "mc-offer",
         "zl-rejected",
         "zl-anc",
-        "gm-brink"
+        "gm-brink",
+        "od-da25"
       ],
       "voices": {
         "geordin": "Proposed that the ANC lead 93 hung councils, the DA 24 and the IFP 20, and told 702 the deal’s power is its simplicity.",
@@ -4941,7 +4973,8 @@
         "zl-offer",
         "zl-open",
         "smw-beaumont",
-        "ab-water"
+        "ab-water",
+        "od-trap"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
