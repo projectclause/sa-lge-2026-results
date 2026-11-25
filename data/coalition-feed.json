@@ -344,6 +344,15 @@
       "org": "ST",
       "beat": "analysis"
     },
+    "sithole": {
+      "n": "Khaya Sithole",
+      "o": "ST",
+      "img": "assets/journalists/khaya-sithole.jpg",
+      "role": "Columnist, Sunday Times",
+      "group": "voice",
+      "org": "ST",
+      "beat": "analysis"
+    },
     "tandwa": {
       "n": "Lizeka Tandwa",
       "o": "ST",
@@ -871,6 +880,17 @@
     }
   },
   "items": [
+    {
+      "id": "ks-soundbites",
+      "j": "sithole",
+      "d": "2026-11-14",
+      "kind": "Column",
+      "place": "National",
+      "h": "Soundbites won’t save the ANC now",
+      "s": "Sithole argued that the ANC, now on about 30%, needs substance rather than rhetoric whether it governs in coalition or sits in opposition, warning that partners may take credit for its achievements.",
+      "src": "Sunday Times",
+      "url": "https://www.sundaytimes.timeslive.co.za/opinion-and-analysis/opinion/2026-11-14-khaya-sithole-soundbites-wont-save-the-anc-now/"
+    },
     {
       "id": "jc-concede",
       "j": "commissioner",
@@ -5569,7 +5589,8 @@
         "td-capetalk",
         "sol-pc12",
         "gm-leon",
-        "wj-begins"
+        "wj-begins",
+        "ks-soundbites"
       ],
       "voices": {
         "pieter": "Saw the ANC’s decline speeding up, with the party on the brink of second, third or fourth place in seven of the eight metros.",
