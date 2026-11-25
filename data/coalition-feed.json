@@ -769,6 +769,15 @@
       "group": "voice",
       "org": "IND",
       "beat": "analysis"
+     },
+    "mngambi": {
+      "n": "Xoli Mngambi",
+      "o": "Broadcaster",
+      "img": "assets/journalists/xoli-mngambi.jpg",
+      "role": "Broadcaster and journalist",
+      "group": "voice",
+      "org": "IND",
+      "beat": "analysis"
     }
   },
   "items": [
