@@ -92,6 +92,15 @@
       "beat": "analysis",
       "score": 78.9
     },
+    "otsile": {
+      "n": "Otsile Nkadimeng",
+      "o": "SMWX",
+      "role": "SMWX",
+      "img": "assets/journalists/otsile-nkadimeng.jpg",
+      "group": "voice",
+      "org": "SMWX",
+      "beat": "analysis"
+    },
     "penuel": {
       "n": "Penuel Mlotshwa",
       "o": "The Black Pen",
@@ -781,6 +790,17 @@
     }
   },
   "items": [
+    {
+      "id": "on-mashaba",
+      "j": "otsile",
+      "d": "2026-11-23",
+      "kind": "Video",
+      "place": "Johannesburg",
+      "h": "Mayor Herman Mashaba loading?",
+      "s": "On SMWX, Nkadimeng looked at Johannesburg’s first council sitting since the election results were declared, as the city chases the 27 November deadline to elect its leadership.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=NerhPYl7QK8"
+    },
     {
       "id": "gm-brink",
       "j": "makin",
@@ -3776,7 +3796,8 @@
         "bs-purse",
         "cw-zille",
         "cw-chaos",
-        "bb-calland"
+        "bb-calland",
+        "on-mashaba"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
