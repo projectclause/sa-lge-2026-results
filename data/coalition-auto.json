@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-25",
-    "time": "15:28"
+    "time": "17:14"
   },
   "items": [
     {
@@ -892,6 +892,18 @@
       "src": "Cape Times",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVHdQcnVxblJuLVdkZlJQRFlKYTdoNGhxSlVNV1czTk8wWFN6WU1QN3p5WUtkdll2YWpCVUZIeUUtdWVEaEZNaTBab1M0MG5JSVFDa0Q3LU9pUmR5eUpVb1Q5ZTdYWkVOUmQyYWdfc3pSUGVnU3NoYzNWQWJOd2oySXQ3ZlpLcHdfeExxc1VSSXF2US1oVl9RNVJVZmZQTnd6YmZKMVcxVExCQnJNejk0UG1uZ0IyREJieWZfOFVOV0RwT3JRX3BIaA?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-3514dfa744",
+      "j": "herman",
+      "d": "2026-11-25",
+      "kind": "Article",
+      "place": "Ekurhuleni",
+      "h": "Mashaba backs Khumalo for Ekurhuleni deputy mayor, warns criminals to ‘run’",
+      "s": "The Sunday Independent reports Herman Mashaba backed Xolani Khumalo for Ekurhuleni deputy mayor and warned criminals to 'run'.",
+      "src": "Sunday Independent",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWlBVSlhraXV4cXktbHhrU2F2aWlUR1dESl9kNE9qdjFWSnNJSmVTVjE0dllONzd0YTFucjIyQk1Nb2k1Z1NuVHV3ZmU0V044QjJzNDJYaW9TMjVDamZ5YnhzbDZaVVc2S1JLVVBFTkctVkJGOURMQnEyb3ZqT1czMXNtUzdldEpsMGt4VURKOXdGQUs2RlJfakxOWFBsM3otZlVuaWZqckRWelZBYUE5aHh6SHR2TmtWREhnNkJn?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -1303,6 +1315,12 @@
         "h": "Coalition uncertainty deepens as DA seeks to delay Joburg council meeting",
         "d": "2026-11-22",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONzhTOHE1czhTUlhtemxCT1dSSDM0SU9yU0hWNGJWMVhtSnFiMENSWXBNLUZiOTZHVzRNVm5KUjRWWjE1QjZkLTdnYm5xUTBwU0QycmtIR1RvZHVTX281bXRoaFFYQzI1cFhBWTRFZ0p6Z1FDMkYwZkJFS1pIMS1rMHFPSm4yX1lwSV9OZFIxdmg4MUxubTV4TVdQRkVhLWRQMS1od2loOUJyUU5OdF9UdkZ6NVVsZw?oc=5"
+      },
+      {
+        "src": "IOL",
+        "h": "DA weighs Helen Zille’s future as ActionSA makes mayoral demand a coalition condition",
+        "d": "2026-11-24",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVllpYzJDaXhpcER2LWxCNjhLRzQtY0pMR21XYUp6V2MxOEl4YWZvWlNyZ0dZR3d4Sk1XTlpjUDd0b3VKbDh4Rms4cTcxVEFoeS1sOVBaMUdMbFRYcjFXWVhHZklfdWRBazhOaWRWcGdvZ3pYVWFCSGE4OWs4NXo5c05CQ1Y3UkIza0I3bS1EYnBySW1jQkdYX29TUVhwXzhMR3p6WWo4TXJkN0l5ei1KOFQ1clRYZ193WVlhTG5sbE40UQ?oc=5"
       }
     ],
     "councils": [
@@ -1389,6 +1407,12 @@
         "h": "Alfred Duma council adjourns without electing mayor after ANC, MKP motion",
         "d": "2026-11-25",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMGtDUXhKcDRNYUt5WFUtNUVVWXJ3U2ZEa0FneXQzd0dIdVNpRGlpS194VDJsUGl6UzMzZXVzYVAzMTdzMW9wMGxqNWduV0ZxX0RwVGxhTi13cDN5QWE1ZDd5TXYtWnVPNGk3MVYtY3lmWDh2ZE1fRVpTd3BWY2Yxc25UajF5bWFMV0NQVkoxSDhObTZoSTgyMmpoX3BVQXZGbk5rSXFFVDlONHpyRi1IQk5kdjBQN2c?oc=5"
+      },
+      {
+        "src": "News24",
+        "h": "‘They could not find one another’: ANC, MKP deadlocked in Msunduzi",
+        "d": "2026-11-25",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSXk2NkhseXVoQ0RYWmVHWlI1ZWNzaC1UUnBEV1JKeFh3a25HOGpwaU92OFVJTFVIN3ljLUE4di1KVGxpNXZOd25QQ3Q4MnZLbTB0WThIN1E2SVAtVlRnVC0yd3lJOHVTSnB2R1Ayd0VQQlBvdFM4UGNCQlpYY1BwWW03RTJ1bmFlZDlLc1lDVkY5RWNZeHRfSUJ0bWcxYlVmNXAzQkZnVjZhcWxZ?oc=5"
       }
     ],
     "tshwane": [
@@ -1711,6 +1735,12 @@
         "h": "DA downfall in ANC talks caused by opposing Constitutional Court application and comments by Cilliers Brink",
         "d": "2026-11-25",
         "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWV9HTlRGazVKS2ZrbUxzOVo0VHN0a2dDclFRUE0wUVJHQVJKOWcwbm8zY09aTnRQM0tVNmVNNEJJYXBnZFZoLTFXTmtjWTdiZ3FDWGd3azdHMEVSQzB5SVNvVm8xbXpubDkxdEFYRi02bWVPT1lUUzZxdFMtMU9QY2xLZGk1bG9DMDVqM2JkQWV3bkMyc2lVMEd2MWI3YUhoQ0lmY1RqS3VnX3JyWkp4REdDcy1rRTlqZ2FfTlFYalVzOXVqdlFKOWd6Um9qWURJdHV3ZThWQ3EtbHhIcEpJejBnaw?oc=5"
+      },
+      {
+        "src": "thestar.co.za",
+        "h": "137 hung councils: DA turns to ANC and IFP in bold coalition push",
+        "d": "2026-11-23",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLUFMNy04UXdrcVgtQXVzLW5MQkZRNVYxYTNRczhpWnltb1VDTktPQ0hRQS1YZEk0cGo4VkV6ZXpLNHVHem1XR0tmZFBKX1A1NXEzZndXMkI3b05uT0pZZXZhS1NCZ1dVSXlLV0JuYjBUeVl4Vnk2MHRNMUtjeXVaaU41cWw0MWtVLUJKTktqVXJ1X29VUWhPQXB5Nm51dlluWTB1c1p1M08zVmJnX3hJTEZn?oc=5"
       }
     ]
   },
@@ -2026,6 +2056,12 @@
           "h": "ActionSA rejects DA pressure over eThekwini coalition",
           "d": "2026-11-23",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMi14OERuRFZZMUhjdHNwaGlzeHhaRTJoeEszUFZxRWtodHFfSEJVbTk5ZEY2UTBHRnFnSDhnN2V3MUNxT20tUklGbXpFRjdEYVlCVGZ6OXJZOXg0aXEyZ1BXZ3dfOHpKWjRZbGdfMXFLaWVSSGtxZGF1amVCaDdrY0hLUm05NGxwcFZQVGs2SEd1WE1udS0wbDBlNG1PZmFZZWlhTEZhaHM3UFZ2bWp4cDVR?oc=5"
+        },
+        {
+          "src": "Sunday Tribune",
+          "h": "ActionSA rejects DA pressure over eThekwini coalition",
+          "d": "2026-11-23",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPS2FEUzR4aFB6S3FERDdseFZiYnhzcFhhWWhqMWRQYzdvSWhXbkVtdEtHOUJ3NHAtZ1JqamxqTTdLRlhMdVdNSmg0bjIxcW95Ti1MTU9QeHVXbnVxMHBleDBDbzd6Z2d5Q1dLZjhTdklOb2JEcWNhZ1VRMkRETXNGd3pRS0J2RS1uUzBvVzc0MW9yVWtEWnBxNnhoTnVPemVDNTdz?oc=5"
         }
       ],
       "sec": [
@@ -2275,6 +2311,12 @@
           "h": "ANC retains Buffalo City metro with crucial EFF coalition backing",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaUcwNGpiUWVOWVY0R1BsVU1hYU5lUjlGQzFteVFGUFR1SnpuRUE4QWRiVFlGdDRCQzluLWJtYTFKUXktSGdXbUdVblZfOTFNN2ZSRDk2dzI5Vld3YnVma3lfNFhIY2pDeVRCLWM3UWZwZHJiR0xDNzlrVXhVMHY3T29iX1JmVVpYUUMyWHp3SFNSeVRfSVpuYjJ0OW9nYW1jLVQyVzNwYlRkb0ZfTUNPYm1n?oc=5"
+        },
+        {
+          "src": "SABC News",
+          "h": "Princess Faku tops ANC’s list of PR councillors for Buffalo City",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOb1B3bnNvbGhKSFctUjA3c0hKRXZEQ1FsQ3ZsQV9rX3RveFNweWZPR3d4NklnLUsxTEVOVXp0eUFjUU50R1ZvdExiV2hnV1l4NmFIcXBKYUhTV09UeWRjWV9HbkxmdHdHUC1aWDVEeEdOMmRjTWFyQV9rdUkwVkVjSmF1MHZ6SVk1cUhOT09tejExMjJkX2U4ODRGS1k4N1h3VDRkQkUtczM1WGl4c045dzZ5Sjk2d1dRdi1TMmM1SGdHVmdiWXFQTnk2Yw?oc=5"
         }
       ],
       "sec": [
@@ -2380,14 +2422,14 @@
     {
       "cat": "Ekurhuleni",
       "place": "Ekurhuleni",
-      "h": "Ekurhuleni’s mayoral election moves to Friday as ActionSA waits on the ANC to sign",
-      "dek": "Ekurhuleni’s new council held its inaugural meeting on 25 November, but the mayoral election was postponed, and SABC News reports the sitting will resume on Friday. EWN reports ActionSA is waiting on the ANC to sign the coalition deal, and that the ANC is set to field Mziyanda Mketsu for mayor.",
+      "h": "Ekurhuleni’s mayoral election moves to Friday as parties wait on the ANC to sign",
+      "dek": "Ekurhuleni’s new council held its inaugural meeting on 25 November, but the election of a mayor and speaker was postponed, and SABC News and The National report the vote will take place on Friday. EWN and The National report parties are waiting on the ANC to sign off the coalition deal, while IOL reports the DA still holds out hope as an ANC-ActionSA deal takes shape.",
       "brief": [
-        "The Citizen, EWN and IOL report the mayoral election was postponed so parties could finish coalition negotiations; SABC News reports the sitting moves to Friday.",
-        "EWN reports ActionSA is waiting on the ANC to sign the Ekurhuleni coalition deal, while IOL reports the ANC is closing in on a deal.",
+        "The Citizen, EWN, IOL, News24 and Briefly News report the mayoral election was postponed so parties could finish coalition negotiations; SABC News and The National report the vote moves to Friday.",
+        "EWN and The National report parties are waiting on the ANC to sign off the coalition deal, while IOL reports the ANC is closing in on a deal.",
+        "IOL reports the DA holds out hope for an Ekurhuleni coalition as an ANC-ActionSA deal takes shape.",
         "EWN reports the ANC is set to field Mziyanda Mketsu for Ekurhuleni mayor.",
-        "IOL reports Herman Mashaba backed Xolani Khumalo for deputy mayor and warned criminals to 'run'.",
-        "IOL reports Kagiso Lerutla presided over the inaugural council meeting."
+        "IOL and the Sunday Independent report Herman Mashaba backed Xolani Khumalo for deputy mayor and warned criminals to 'run'; IOL reports Kagiso Lerutla presided over the inaugural meeting."
       ],
       "auto": true,
       "id": "ekurhuleni",
@@ -2396,7 +2438,8 @@
         "a-b5e06a5ecf",
         "a-cab5762753",
         "a-0167bda66b",
-        "a-b4620d2140"
+        "a-b4620d2140",
+        "a-3514dfa744"
       ],
       "coverage": [
         {
@@ -2470,6 +2513,30 @@
           "h": "Ekurhuleni postpones mayoral election as ANC closes in on coalition deal",
           "d": "2026-11-24",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOaEVOaXpSTzhsdDlmd1Z1QjBXVXplNGRhbngxOFYzOXJIazZ0NjlPcHo3bUdCckNUSC1PeGVId3VnVlRYaktnalhlVEFubGJicjI0amNaVTN1QVpua0VsbTcyOVBGOTE5aEVhekRldmxIRUxQZmFqSS1FZ3Zzb1B6X2pabnJEaHNMbExsVnFsV1dHYWNJV3hCQUFnYTZHVEpPS1RaMzdkc0RmNDdsRnZj?oc=5"
+        },
+        {
+          "src": "thenational.co.za",
+          "h": "Ekurhuleni mayor vote pushed to Friday as parties await ANC sign-off on deal",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONDR6S1drY0R3NUJ0dGhxM28tN0tSR1pPR0lOcFNZMGFodDBZeWVEdU9Dak1lTGpYaENaOUMxRk9HM1doTHM3VWtJdnRCSTA0ek1GQ2NlaS1tRmdEWExkQTZPR1Z1VUVlQlBHLUZHcHJQMTBDN2MxcENnNmZiTjVtczJ3LWloNW5WMkFmUE9Zd3RhWUdrVFRRYjBCUEdpRjlLMFpwRUdoUmRrb29FVjJyYjdFeHhqLUFXMjZn?oc=5"
+        },
+        {
+          "src": "News24",
+          "h": "Ekurhuleni delays election of mayor and speaker as coalition talks drag on",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZW1pOUpEWjhXQ1JNdjk1YzZHRlNVN3h4WEphRTJvN05yQXhWUEQ1VDhXNzF1MzhJdGEwT1VHOGNTbVpWWE9SeEo4V0I1ejJqcVZoLVlIelN5ejVVU2QyR09Ec3k5ZWpKSUpVRGRESTJNRk5xQVBpVWZidlRqMVRRVVBrQ0xSOWVGLTJkZ1A0MVVNNTFVSkxaZ0FrR0Nmc2VGVnYxQmlWWkoySU5aaFVDbTA3OVA4NDhqWjJqNg?oc=5"
+        },
+        {
+          "src": "Briefly News",
+          "h": "Ekurhuleni Council Meeting Postponed With No Leadership Elected as Coalition Negotiations Continue",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMTVJeUIwWXhDVTRUVEdZOXVEM2tjcElHdHBodzJFTk4tT3FVR3hsdFduNklLOHloTEtTSkJkbjliVU5nMzktbHhLaS1ETWw1dTdQQ29fTzczcktqQkNib0FoMFZYMVlZY1MwWUZqTDJWYTZ0STY2SG5PZXB3Nk1ULWY4cV9zZ0tyc1pjcEFNdmZiRHFjNHRFLVZ2b2dxOS15UUlVVVVsSGpCVzltWW9odzhEa3ZWWkNDeUhlUFJtYUR3VlZB?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "DA holds out hope for Ekurhuleni coalition as ANC-ActionSA deal takes shape",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMzBXb0FYWlY5M1MxTHFBOUlTVkxkenlnNHROTEwwTHZWOFBnVWxzREhtWlV1aEFoY3Rzc0tuSmt3QWhmdGJUdkR0NGNpZEh0aDBtaE41QVdiTnpncVE2TURPMG54S1dxeERDeVFHRzYzcjl4ZzdzaGtNRGlKYmFFdnVfNFJIWUxfeFJuazNLb095VWh4a0w2Yy16QmUxUmhkZkpIR3RucW0yZmRIeUNUN2VIQmxLa1R5T29Z?oc=5"
         }
       ],
       "sec": [
@@ -2754,6 +2821,12 @@
           "h": "ANC NEC resolves that DA coalitions should be’last resort’",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZ0h0VnllT1RYSXVSUnpkSjVxWTlTd0ZvcC05Z25tN3l5ZTV3OTJaVDYyZ3VSQzZUd0NjY2hqV0c2d2J4YUNmYXhTUlZaV2ZMVDE3cXJOYVYySWt6S3k0Z0Z4X3pXc1V0aGZJcm8yNGxyZk1zV2xBbFA3NWRLbkFPWGtSdkcxc2RxeUJJSXNadi1tSTlfOXplblpscXBDRW1mZkRVMnpCQnQ2WkNYN29Mc3gyd0Z4bXV2Ym9XZlFoUXZ5dw?oc=5"
+        },
+        {
+          "src": "Wisevoter",
+          "h": "ANC to Announce Municipal Coalition Decisions",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQLUZiQ2JJQk1XX2U5QWVUZi1EUHp1T09JdFdlSWpPSldsdnNtczRiTHVjQlJkT2FWRkI0VUtVZ2pkRzE3cmlCRkdtaUtKdTd6VlNZTDNEZU90M1FJLTlMdjZSMkl0cVZxcHJqNWZkWWhleVNOcDRndllSWDkyNW95bGFhOVlnYVdHT3YxdTNuTWtQZw?oc=5"
         }
       ],
       "sec": [
@@ -3377,6 +3450,22 @@
     "50e67d684dbf",
     "91067bd773bc",
     "9c72e267baa1",
-    "9a85b02e6883"
+    "9a85b02e6883",
+    "9e84add5da22",
+    "39cfefd71e60",
+    "431dab9cef7f",
+    "3514dfa74465",
+    "585921ec1b31",
+    "12f254cf38e3",
+    "067e40e548d6",
+    "5bf78da04bd5",
+    "d947b359504a",
+    "9a70229da94b",
+    "ef3fae170efd",
+    "22df7ab552a4",
+    "2542ec1f7dbb",
+    "4cf504af780e",
+    "6ae362fb3495",
+    "c4db6c13427b"
   ]
 }
