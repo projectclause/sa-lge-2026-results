@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-25",
-    "time": "19:55"
+    "time": "20:58"
   },
   "items": [
     {
@@ -1387,6 +1387,18 @@
         "h": "DA threatens to go to court if inaugural Joburg council meeting not postponed",
         "d": "2026-11-23",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQkdhb2tKZGh1Y0wzOHA1bjI0WWQ4eDFCUmVGMDJHVTU5OS1hM2pTbG1zNm1NVEU5Yk5iWFBjLUNBSkFFRGFwTzkyZEtFRldURlBScWc1U2pKVk4ySVdsTVNsVzFlWU1Zcl94TzlSRTJ6WUZpb1RzWDNlV1ZzcnhQbDVxRmtjcjN3X19GelRtMmlTejh1WHlYZ1NfSFBpb3FkdUNFd2lCXzZiZVRZaUdCc1lXMVlDbnZCbm8tOGdoVjRYTkdIc3E5eG5Law?oc=5"
+      },
+      {
+        "src": "The South African Star",
+        "h": "Joburg’s new council is in, but the battle for the mayor’s seat continues",
+        "d": "2026-11-24",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMTNhaDlqLUZ0cVpwZ0Y2aldkY3V4M1lGTko5R0lYQzduWDJYb2tMNzh5ZUxKT1J3TGRtSlFhOU8zbjBvNHMxWmRxeXpsMWl0NEkwY1hoQ1VhWnhqdFNCTGNIRHdrQV93dk52WmR6QUNqRFRrY3hGZ3doWk9uN2FMSTBKUTVuamdteWRRQ2gxUDdOZGtkd2ZBTlZKNGctSXVSXy1LN3VuQkE3TmRZSFE?oc=5"
+      },
+      {
+        "src": "TimesLIVE",
+        "h": "DA asks for Joburg council delay, says negotiations ongoing",
+        "d": "2026-11-23",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUUNsdlBZRTBzZXVjcDZlM1hyUzRVd0Y4NDd5T0ZDLXVCV0h6eWVEbS13NXBEMkd3RVowUzY0OUZmV2tnZ1Q1bEJmYWxzSVFCV3J0amlLeHBzUlVzZVhGMk80N09rZGEzYVVWQkpzNFJHX0JCNDNTOWVuYnRXYmloalVmbVNmSFlTZUx5SHkwZTNTc1BobHNZSVNUV0p3NTBhNWNfaXhtc3BvZUU?oc=5"
       }
     ],
     "councils": [
@@ -2134,6 +2146,24 @@
           "h": "DA vows to continue fighting for eThekwini people amid coalition talks",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTlhYd2hFTkthYXBhS2NBaUZDNjl2U2tiTnE5Umh6ZTYycjJpenVwTTd3NURPdlJ2VS1UWWhpYUlTM1BuY01RVk9JVmw1cDRSaEpiWXYwQVI1Zy1kUEUxSUMtemxnX2N6ZVc1LWlWc1JsM2Y1LW5PQXlmNzdUVGF4TFJhckVxQ3FxNFpKSTlPemtUQ0pJTk1Jc2haMXpTSXlDWGZjeFljNW9zYXRfWm9sWHJCWmJnZXR6YkxtLW1ab25OUk5sVUlCdW5Rc0VlZFV6?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "eThekwini postpones mayoral election as coalition talks continue",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVXlOQmxLUW10UGZEdVF2czdYcVVna2RQQ2E1cm1MakdzX1FnSXg5NGVRVlY0VThHRnBYcGo1WUxJcWRLbzljX0p6WkkzUVB2T0VvcEFSdV8tYXJ6OU1VSWNjblBhYkxUZ1N6VjFsckN6b3VDaEZLNVhwRXlSZDZndE80VFZfNzR2Y0kzTTFKWDB1bjJ3TVZpNnBNcFZEdTNralBnS0dzdjM3NzhFRTBULTYtblM?oc=5"
+        },
+        {
+          "src": "eNCA",
+          "h": "eThekwini council to proceed with inaugural sitting despite Cogta directive",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSlZESTg0a1hZdGVLN3lPU2lfbmg4akROcmJQTk1OWTRWN2hQQ1hfNl91LUduZm92cEw2a0oza2x2VXNibmlodEJPdy1QMWpxWEFaa1paRG9yQjFLb3lFZThrM0l1SVI5dW9mTGJFSFZYVHZpajc3NFJDMTBCYkFrWl9GTm5ua2xJNW10cmdTaTJKd1BKbW51MksyaWpSZ0lTbjlFX2huSkw?oc=5"
+        },
+        {
+          "src": "DailyNews.co.za",
+          "h": "WATCH | eThekwini holds inaugural council meeting to elect mayor, speaker, and deputy mayor",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaHB1VnNLN0pnSFJXX09wUVM1NFpCNlh1M2JLWG1YWnpBdWdiTWdLMmVLOVJWWTdUeXMyTWg2MXh0ektKSEhncEpXV1FQeWJ6S3M1QmJrQ01laldTcFQzTEhtTnRYSGlkN0hJVTQzRnBuSnZiaVNIazg5Qzl0djFENFN5dVRCRk10VFhGTnhtajltZjlyeXo5YnRxOWxGdW9MRnF1b09La0dPY1NfNFpqc2FnMGYzVWxnU2JqV1daOTNFYjFTOXhISnVzX0Faa19tWlFz?oc=5"
         }
       ],
       "sec": [
@@ -2640,6 +2670,12 @@
           "h": "DA still pursuing Ekurhuleni mayoral deal despite ANC-ActionSA talks",
           "d": "2026-11-24",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNVFybHl2Yk5ROXlIenI4QzlhNEh1MlViTFljSWVrV1NZS2h2RUVnLUNSWE1VQ2FuV0QyaDA4czItU0huOUd1M3loT1FxYTlCQTh2anFibm8yTGF0MGN2ZFgwQmd3RFhmUGxfTTlOTlNXUS1Vd1VNczZuNGtaZ1NBd0Q0RmtsQkE5NU1raUNBZ0pTM2s2aWtuVzU1NzQtaHlvMHJDOTA2NGJ2b0IzUGlyQWhQUW1ucVZHOXc?oc=5"
+        },
+        {
+          "src": "Central News South Africa",
+          "h": "MK Party Councillors Sworn In as Ekurhuleni Council Formation Continues",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcXhWSkhHRkpyeUhnT1E1blRHT280ODh3T0lzX2lPOGNRWVVmUnA5aWVFd3A1YmNZX3hZQ1VCZEY2NHBfOVVYNWxwRnBHcVNvMURTVFI4Y3JtQUhnT0ItV0MwSTRvYUN0SUhZMk5nMGlFUFBzWkVTclFkTHRxV2dYN0I4bFpSaXBQNHB4WWg5M1cyX1F6Mm1pMnpLcEFIZFU?oc=5"
         }
       ],
       "sec": [
@@ -3617,6 +3653,14 @@
     "ae19665d44ec",
     "342adcb9b606",
     "e493aba745f7",
-    "867b83c15ea0"
+    "867b83c15ea0",
+    "29c897ef1ffc",
+    "bf291e1f3c5a",
+    "b63bcdb6a86a",
+    "7568190f9a66",
+    "7dbaca94ab69",
+    "59209b1f2dc6",
+    "5e39de447a2a",
+    "59cd0622fd3a"
   ]
 }
