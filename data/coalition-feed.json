@@ -782,6 +782,17 @@
   },
   "items": [
     {
+      "id": "gm-brink",
+      "j": "makin",
+      "d": "2026-11-24",
+      "kind": "Interview",
+      "place": "Tshwane",
+      "h": "The DA won the most votes in Tshwane. Cilliers Brink may still not be mayor",
+      "s": "On Conversations with Gabriel, Cilliers Brink told Makin why the DA offered ActionSA the Tshwane mayoralty, why that offer was dismissed, and how the DA’s offer to the ANC on 137 hung councils would work.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=YcJZfCStulk"
+    },
+    {
       "id": "smw-beaumont",
       "j": "sizwe",
       "d": "2026-11-25",
@@ -4163,7 +4174,8 @@
         "ls-93",
         "mc-offer",
         "zl-rejected",
-        "zl-anc"
+        "zl-anc",
+        "gm-brink"
       ],
       "voices": {
         "geordin": "Proposed that the ANC lead 93 hung councils, the DA 24 and the IFP 20, and told 702 the deal’s power is its simplicity.",
@@ -4953,7 +4965,8 @@
         "my-enca",
         "cb-nd",
         "w-tsh",
-        "hg-brink"
+        "hg-brink",
+        "gm-brink"
       ],
       "voices": {
         "clement": "In his interview, Mashaba made keeping Moya as mayor a condition of any deal.",
