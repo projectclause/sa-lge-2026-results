@@ -100,7 +100,8 @@ window.INITIALS = (id) => String(id).split(/\s+/).filter((w) => !/^(of|the|for|a
 const HEADLINES = {
   CPT: ["Geordin Hill\u2011Lewis", "re\u2011elected Mayor of Cape Town", "The DA won Cape Town outright: 133 of 235 council seats."],
   JHB: ["Herman Mashaba", "expected to be elected Mayor of Johannesburg", "ActionSA\u2019s Herman Mashaba is expected to be elected by the new council with ANC and MK support."],
-      TSH: ["Nasiphi Moya", "expected to be elected Mayor of Tshwane", "ActionSA’s Nasiphi Moya is expected to be elected Mayor of Tshwane (Pretoria) by the new council."]
+      TSH: ["Nasiphi Moya", "expected to be elected Mayor of Tshwane", "ActionSA’s Nasiphi Moya is expected to be elected Mayor of Tshwane (Pretoria) by the new council."],
+  EKU: ["Mziyanda Mketsu", "expected to be elected Mayor of Ekurhuleni", "The ANC’s Mziyanda Mketsu is expected to be elected by the new council on Friday under a deal with ActionSA, the EFF, MK and the SACP."]
 };
 const hl = document.querySelector(".rs-headline"), H = BREAKING || HEADLINES[code];
 hl.hidden = !H;
