@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-25",
-    "time": "22:02"
+    "time": "23:02"
   },
   "items": [
     {
@@ -964,6 +964,18 @@
       "src": "YouTube",
       "url": "https://www.youtube.com/watch?v=-yjqFM7ZTz0",
       "auto": true
+    },
+    {
+      "id": "a-2d84ae2138",
+      "j": "herman",
+      "d": "2026-11-25",
+      "kind": "Article",
+      "place": "Ekurhuleni",
+      "h": "Mashaba blames ANC delays for stalled coalition talks as Ekurhuleni council sitting is postponed",
+      "s": "Herman Mashaba blames ANC delays for stalled coalition talks as the Ekurhuleni council sitting is postponed.",
+      "src": "newsnote",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWXNIaUFCWTEyYWJ3UWgzV1dXeE5tSGJyTUFwR0NhV2Z3WjNTVnBEUEZjN0I3a3dzUnN2N2Z3b1FENVlNMFNwZ2dFU3ZDQW4zQzVPMkd6UEpVWXozV0JpUmFEakZQQk1FTW5QeHF2TTc5a0pXVFZYaXNrUnhVYmZWOUtidXA4b0phNVA0NUcweFJmZVY3bjlSVFdHZUFNTmRfX3VPbExXOFFCU1FnV1VvWFM5V1pIbDN4Zlp3Ug?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -1414,6 +1426,18 @@
         "h": "DA asks for Joburg council delay, says negotiations ongoing",
         "d": "2026-11-23",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUUNsdlBZRTBzZXVjcDZlM1hyUzRVd0Y4NDd5T0ZDLXVCV0h6eWVEbS13NXBEMkd3RVowUzY0OUZmV2tnZ1Q1bEJmYWxzSVFCV3J0amlLeHBzUlVzZVhGMk80N09rZGEzYVVWQkpzNFJHX0JCNDNTOWVuYnRXYmloalVmbVNmSFlTZUx5SHkwZTNTc1BobHNZSVNUV0p3NTBhNWNfaXhtc3BvZUU?oc=5"
+      },
+      {
+        "src": "Daily Maverick",
+        "h": "Mashaba’s racial rhetoric overshadows voters’ demand for effective governance and service delivery",
+        "d": "2026-11-25",
+        "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPOUw4akhnbzF3TVk0WFAwNTFfZE5PSUluQmNFQ1hqWURyOE9tZzZvQjV5RnJMNkJ0MW1LRlhHV2ZsVDNtckNnU0lRVHV5NGZhTVFpNWgwSWNtV0dvOUtWVEItWXhSWGlKZFF1dHlVY0w4eEdpRms3Wkx3WUN1MGRFZTVqSjVFeS1ldWtmNnZPMG9pRlJ4M3M2SWZ5UUpJckxJYWtNUENkTVlNVjV1bzNENWdRczh6Y1pnMEduanNBaWhjYVFjQ0hUNzRucWRHbkVrSzlCbUdYSjNvTmJJdEdZd2VTRlg1RnNNbWhSamU1UzB2LWZ2c1JMaEN2TlRrcmxRRnIyT1I4UlBVV1hxM2ZvSVE5N1VDSGMwN0xHV3Bab09VWGZKaUJNZEhRR3Q5LXZ5RUpGUTR3?oc=5"
+      },
+      {
+        "src": "IOL",
+        "h": "ANC, ActionSA close in on Johannesburg coalition deal as DA weighs options",
+        "d": "2026-11-24",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUmpFVEV1YXN4bG1SUGNnNnA1amg2U1ZZME1XVS11VkNqUUZVaEtlakk3VGR3SUxDbFAta05oQlJsQklJREF1WEhhZk1odkZJdmpCWEFsbnJ1ajRHQkJhZTlYS2FJQ3ZLVzRiX2liSHNWWElYbVhRYklZeTIwd3JQSEw0S0R4bHQyWi1ubERGSGsxNzdRcDl3YXJHeGFxM0J6S1FYWVRsdVItNGlORzUwVktINA?oc=5"
       }
     ],
     "councils": [
@@ -1532,6 +1556,12 @@
         "h": "ActionSA and DA battle for Tshwane",
         "d": "2026-11-23",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85OEZtaXpPcnMwSW81TXFSOXR3NW0tQW1GN2htdjduWHNsbVFuZFZtS0FjMkswRU1BMllQQ3pCVlRfSUZJNGpjQmo2THpldTJPRHV2VmpIaVRKUWw2OThkWHJWQ0ZzWkp3dUNQQmxlcC0?oc=5"
+      },
+      {
+        "src": "themercury.co.za",
+        "h": "ActionSA and DA battle for Tshwane",
+        "d": "2026-11-24",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA5aEhhWWRVUHVmeXJCLVE5Mkc3dWlYM1JZaURvaWxXYjNPa3lwWl9YUzlWSXd4WlgtNkpXbUtQMk4yaFNYbnY3emEtUVk5S3czVDUxbUJfLU80TFhzd3M4emdzdEtrMEc4RnhLbmNB?oc=5"
       }
     ],
     "actionsa": [
@@ -1606,6 +1636,12 @@
         "h": "DA founder Tony Leon warns ActionSA leader Herman Mashaba about partnering with the ANC",
         "d": "2026-11-22",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPS094YzVIVGo5bmhxRHNQaExVd2ItZkEtX21PWFdJT0NZenQ4RlpiMDg4TkxTUHV4YXZuQlVfMXFoQ2lCZ0wtSDM4ak4tdUl2cDBsOWFrc1htZU1QWXpPZEJZUDFXcERFWmRjMHVNTC1jUS14ZW1DQV9sUkt6NzBrNjM1cGJpUmZpZDBMeklzNmFPMDJvUkF5MXhzUlpwWEIwcU9nd05RaGdVY2RnZkJ0R2c3SXM0cVZpbGFzS2dPV0hzRVA3TTdaRw?oc=5"
+      },
+      {
+        "src": "newsday.co.za",
+        "h": "ActionSA says it will partner with ANC, EFF, and MK to govern Johannesburg, Tshwane, and Ekurhuleni",
+        "d": "2026-11-25",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTC10UFBUTTIwaHNDVGZYdnFDYl9xLXNteVdiMnRLUEFjY0d5Y09YOUc1Wi1SQXZWZEpnM0NrTzRLMFdXQWo3NTkwZHR2OS1UeWpHZkE1czZwWTJpQTRnaXNXUkZrUGJhX1NQeXNZRnlycnlxaFRZalBGNEMxejEwVDZMWUs4UkxHNy1NUmpzX01JVElNcFUySFduSGxFZ1NuTUo3N2w4aDVwaEdRZldCY05BRWVGWlNkcVljTzkzMHZIRlhBUXNURUVxbktWOWx4Vm9R?oc=5"
       }
     ],
     "mk": [
@@ -2185,6 +2221,12 @@
           "h": "WATCH | eThekwini holds inaugural council meeting to elect mayor, speaker, and deputy mayor",
           "d": "2026-11-24",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPaHBRaG1LOEZxcXBDQ1c5OXJ3VzBNSmVQdDBEYTRoTVFuUmgwQW9ITGI5SDBIMUN2aUhKLWVKSHpqdHhzTkYwWHdDb0JoSU9RNnZZcnVmM0VtaWd2UVQyT3dHUks0SnFSZmtUM1lJZTBMcEstcHoyZjRyZ0Z2WF9vdUhQTGpjeXZLSTQxY1d0dXBONzhNVlNKVkV0Rllva0FjV3l5MXZLaW1lQ3I5dTJPNHBlSVUzRkRJUTY5Uzh5Smt1MG9zZHZGMEhBd1Vhbm5PcWxTXw?oc=5"
+        },
+        {
+          "src": "Cape Times",
+          "h": "ActionSA rejects DA pressure over eThekwini coalition",
+          "d": "2026-11-23",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb0FieXV4eUo3ZTN5ZEswRUxMajdhVnRGcmtvVXc4aWtvZFBZcXNyeDBLNEc0bjJYYVZNVUFnZ1IzYjljUGxiYUVGbWdXOWlHdFdYWDQwNmZMQkJHNzJhWmhHdVRJdXpJaXUyeG5OZEZfR3BnWkVfbm5WZ2dTT0x4YXNSTVY3aUJuelFDMVU1c2UwNEdraDZVbDFRZzBRS1JHYXZnZXdydU1pTjNlZk5OT1l3?oc=5"
         }
       ],
       "sec": [
@@ -2441,6 +2483,12 @@
           "h": "Princess Faku tops ANC’s list of PR councillors for Buffalo City",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOb1B3bnNvbGhKSFctUjA3c0hKRXZEQ1FsQ3ZsQV9rX3RveFNweWZPR3d4NklnLUsxTEVOVXp0eUFjUU50R1ZvdExiV2hnV1l4NmFIcXBKYUhTV09UeWRjWV9HbkxmdHdHUC1aWDVEeEdOMmRjTWFyQV9rdUkwVkVjSmF1MHZ6SVk1cUhOT09tejExMjJkX2U4ODRGS1k4N1h3VDRkQkUtczM1WGl4c045dzZ5Sjk2d1dRdi1TMmM1SGdHVmdiWXFQTnk2Yw?oc=5"
+        },
+        {
+          "src": "themercury.co.za",
+          "h": "DA and ActionSA strike six-party coalition deal in Nelson Mandela Bay",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4dzdOektuOVhEdGIzbHdVdXFWd2xXNWZnbXhmRWMtNmRzcE1Qd1dJUkNFZXQtRE9CZTVUUVdQLUN0LURpeXozcDlXRHJlTHlzQ19LTVdGREoxb0M4LWVn?oc=5"
         }
       ],
       "sec": [
@@ -2454,13 +2502,13 @@
       "cat": "Johannesburg",
       "place": "Johannesburg",
       "h": "Malema awaits judgment in his bid to gag Zille over her Joburg claims",
-      "dek": "EFF leader Julius Malema went to court to stop DA mayoral candidate Helen Zille repeating claims about him, in a dispute linked to the Johannesburg coalition fight, and the court reserved judgment. Zille refused to retract, and Briefly News reports ActionSA’s Michael Beaumont shared a 2016 email he says contradicts her claims.",
+      "dek": "EFF leader Julius Malema went to court to stop DA mayoral candidate Helen Zille repeating claims about him, in a dispute linked to the Johannesburg coalition fight, and the court reserved judgment. Zille refused to retract, and Briefly News and Central News South Africa report a 2016 email that they say contradicts her claims.",
       "brief": [
         "Briefly News and the Mail & Guardian report Malema sought an urgent interdict to gag Zille over her Joburg claims.",
         "IOL reports Malema demanded a retraction and apology and threatened R1m defamation action; IOL also reports Zille said no.",
         "News24 reports Zille fought the gag bid using Malema’s own words, including 'we were controlling him'.",
         "IOL reports the court reserved judgment, and eNCA reports Malema is awaiting the outcome.",
-        "Briefly News reports Michael Beaumont shared a 2016 email that he says contradicts Zille’s claims about Malema."
+        "Briefly News reports Michael Beaumont shared a 2016 email that he says contradicts Zille’s claims, and Central News South Africa reports the leaked email contradicts her claims linking Malema to Sibiya’s Joburg appointment."
       ],
       "auto": true,
       "id": "malema-zille-court",
@@ -2534,6 +2582,12 @@
           "h": "Malema awaits judgment in bid to gag Zille over alleged Joburg corruption claims",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUEVUc1hwNFA1c2VKZ2hZdWZ3ZnpNWnJKckQ4ZjVNb0V4RVhWUlVMZW43SW12MHFYX0JYVC1yVWYwUVZvT0I1TC0yRy12NG1zU3BOT21lR1Bkb1NDRVlCOXlkUU5vdmNXN2g2M2dFSkx5c1JoNVdZSV92el9Yd3pxT1A4NEt1bTc3bDdOTEFERTZreG0wNW1Bb1dLckFlT01EdzIxdldzSkcxMGdfVWhuZ0Jn?oc=5"
+        },
+        {
+          "src": "Central News South Africa",
+          "h": "Leaked 2016 Email Contradicts Helen Zille’s Claims Linking Malema to Sibiya’s Joburg Appointment",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSWNpTTZpaHdseWwxRTRYMl8zaE1DOG1ObzhLOFY3Rk0xLVowTktTdEtWVGVpWWZ5UHo5eTFHVTB4akU2RkJnNVNweGNxU1F1YXFwSlNRNm5WWFZBVko3Vzl1dUVSendjRlN0OGJINlBzX1FXZUV1cm1WYjkyQXNJOVB5SEtWdUl3akZhd2cyOVo0Q2J4U3ZGOFpyS21Mck5XNlRuZ2ROelNfLVd1THF1WGFGZGZkRFlELTE2bFVn?oc=5"
         }
       ],
       "sec": [
@@ -2547,10 +2601,10 @@
       "cat": "Ekurhuleni",
       "place": "Ekurhuleni",
       "h": "Ekurhuleni’s mayoral election moves to Friday as parties wait on the ANC to sign",
-      "dek": "Ekurhuleni’s new council held its inaugural meeting on 25 November, but the election of a mayor and speaker was postponed, and SABC News, The National and Inside Metros report the vote will take place on Friday. EWN, The National and Sunday World report parties are waiting on the ANC to sign off the coalition deal, while IOL reports the DA is still pursuing a deal as ANC-ActionSA talks continue.",
+      "dek": "Ekurhuleni’s new council held its inaugural meeting on 25 November, but the election of a mayor and speaker was postponed, and SABC News, The National and Inside Metros report the vote will take place on Friday. EWN, The National and Sunday World report parties are waiting on the ANC to sign off the coalition deal, and Newsnote reports Herman Mashaba blamed ANC delays for the stalled talks.",
       "brief": [
         "The Citizen, EWN, IOL, News24, Briefly News and Business Day report the mayoral election was postponed so coalition partners could finish negotiations; SABC News, The National and Inside Metros report the vote moves to Friday.",
-        "EWN and The National report parties are waiting on the ANC to sign off the coalition deal, and Sunday World reports the ANC’s signature is all that is needed to seal it; IOL reports the ANC is closing in on a deal.",
+        "EWN and The National report parties are waiting on the ANC to sign off the coalition deal, Sunday World reports the ANC’s signature is all that is needed to seal it, and Newsnote reports Mashaba blamed ANC delays for the stalled talks.",
         "IOL reports the DA is still pursuing an Ekurhuleni mayoral deal and holds out hope as an ANC-ActionSA deal takes shape.",
         "EWN reports the ANC is set to field Mziyanda Mketsu for Ekurhuleni mayor.",
         "IOL and the Sunday Independent report Herman Mashaba backed Xolani Khumalo for deputy mayor and warned criminals to 'run'; IOL reports Kagiso Lerutla presided over the inaugural meeting."
@@ -2563,7 +2617,8 @@
         "a-cab5762753",
         "a-0167bda66b",
         "a-b4620d2140",
-        "a-3514dfa744"
+        "a-3514dfa744",
+        "a-2d84ae2138"
       ],
       "coverage": [
         {
@@ -3699,6 +3754,15 @@
     "64a1073ca425",
     "dd693766ea6a",
     "b15f09b659d8",
-    "fcbbc29b9664"
+    "fcbbc29b9664",
+    "f07877dd587b",
+    "2d84ae213867",
+    "9e438c1f61e5",
+    "b004102ae6df",
+    "0285e58ef8c8",
+    "541c3245c997",
+    "c185c48c30b0",
+    "7d174cf66d5e",
+    "a8078a2c1012"
   ]
 }
