@@ -1,6 +1,6 @@
 # PREAMBLE
 
-> South Africa’s global and local data. Live results of the 4 November 2026 local government elections, a ward-by-ward map, the mayors of the eight metros, and a Coalitions Tracker that groups reporting on the coalition talks into stories with summaries and links to every original article. Updated 25 November 2026, 03:22 SAST.
+> South Africa’s global and local data. Live results of the 4 November 2026 local government elections, a ward-by-ward map, the mayors of the eight metros, and a Coalitions Tracker that groups reporting on the coalition talks into stories with summaries and links to every original article. Updated 25 November 2026, 06:13 SAST.
 
 Data: Independent Electoral Commission (IEC). Summaries are written by Preamble with AI from published reporting; the journalists and politicians quoted do not write for Preamble.
 
@@ -14,12 +14,12 @@ Data: Independent Electoral Commission (IEC). Summaries are written by Preamble 
 
 ## Coalition stories (newest first)
 
-- [Faku returns in Buffalo City with the EFF as a DA-led coalition signs for Nelson Mandela Bay](https://preamble.co.za/coalitions/eastern-cape-metros.html) (South Africa, updated 25 November 2026): Princess Faku was re-elected Buffalo City mayor, beating the UDM’s Nqabayomzi Kwankwa, and BusinessTech reports the ANC teamed up with the EFF. In Nelson Mandela Bay, six parties signed a DA-led coalition deal, but News24 reports an ANC-led filibuster blocked the vote for mayor and speaker.
+- [The ANC leaves coalition choices to its provinces and regions](https://preamble.co.za/coalitions/anc-regions.html) (South Africa, updated 25 November 2026): EWN and Dan Corder report the ANC’s NEC has let provinces and regions decide coalitions, with consequences for Gauteng, eThekwini, Nelson Mandela Bay and over 100 hung councils. The ANC says there is consensus as talks move towards conclusion, while TimesLIVE and IOL report strains over Ramaphosa’s leadership.
+- [The DA is shut out of Theewaterskloof and Laingsburg as Western Cape councils pick partners](https://preamble.co.za/coalitions/western-cape.html) (South Africa, updated 25 November 2026): News24 reports the ANC joined other parties to take control of Theewaterskloof, and IOL reports ActionSA formed a Laingsburg coalition with the PA and ANC, leaving the DA out. News24 reports the DA and FF Plus have entered coalitions in some hung Western Cape councils.
+- [Faku returns in Buffalo City with the EFF as a DA-led coalition signs for Nelson Mandela Bay](https://preamble.co.za/coalitions/eastern-cape-metros.html) (South Africa, updated 25 November 2026): Princess Faku was re-elected Buffalo City mayor, beating the UDM’s Nqabayomzi Kwankwa, and BusinessTech reports the ANC teamed up with the EFF. In Nelson Mandela Bay, a DA-led multiparty coalition has been formed, but News24 reports an ANC-led filibuster blocked the vote for mayor and speaker.
 - [eThekwini’s first council sitting ends without a mayor as the ANC and MK are reported to have a deal](https://preamble.co.za/coalitions/ethekwini.html) (South Africa, updated 25 November 2026): eThekwini’s inaugural council meeting adjourned on 24 November without electing a mayor, deputy mayor or speaker, to give parties time to finish coalition deals. IOL and Briefly News report the ANC and MK have reached an eThekwini agreement, though the parties were coy at the sitting.
 - [Will the coalition fights break the national unity government?](https://preamble.co.za/coalitions/gnu.html) (South Africa, updated 25 November 2026): Adriaan Basson first expected the DA and ANC to copy their national partnership in the councils. By mid-November he was warning that the fight over the cities could bring it down.
 - [Joburg will elect its mayor on Friday as parties finish their deal](https://preamble.co.za/coalitions/johannesburg.html) (South Africa, updated 25 November 2026): All 270 councillors were sworn in on Monday, but the election of a mayor, deputy mayor and speaker now waits until Friday, 27 November. The ANC, ActionSA, EFF and MK deal that would make Mashaba mayor is in its final stages but still to be signed.
-- [The ANC leaves coalition choices to its provinces and regions](https://preamble.co.za/coalitions/anc-regions.html) (South Africa, updated 24 November 2026): EWN and Dan Corder report the ANC’s NEC has let provinces and regions decide coalitions, with consequences for Gauteng, eThekwini, Nelson Mandela Bay and over 100 hung councils. The ANC says there is consensus as talks move towards conclusion, while TimesLIVE says Ramaphosa faces a unity test.
-- [The DA is shut out of Theewaterskloof and Laingsburg as Western Cape councils pick partners](https://preamble.co.za/coalitions/western-cape.html) (South Africa, updated 24 November 2026): News24 reports the ANC joined other parties to take control of Theewaterskloof, and IOL reports ActionSA formed a Laingsburg coalition with the PA and ANC, leaving the DA out. News24 reports the DA and FF Plus have entered coalitions in some hung Western Cape councils.
 - [Emfuleni’s mayoral sitting collapses as the DA trades posts for a majority](https://preamble.co.za/coalitions/emfuleni.html) (South Africa, updated 24 November 2026): ANC, EFF and MK councillors disrupted Emfuleni’s mayoral election sitting, and Nova News reports the sitting collapsed. News24 reports the DA gave up MMC posts, the speakership and the chief whip position to secure a majority.
 - [Ekurhuleni’s council meets to elect its leaders as talks near an end](https://preamble.co.za/coalitions/ekurhuleni.html) (South Africa, updated 24 November 2026): Ekurhuleni’s new council is due to hold its inaugural meeting on 25 November to elect new leadership. EWN reports coalition talks are nearing conclusion ahead of the sitting.
 - [Malema takes Zille to court over her Joburg claims](https://preamble.co.za/coalitions/malema-zille-court.html) (South Africa, updated 24 November 2026): EFF leader Julius Malema went to court to stop DA mayoral candidate Helen Zille repeating claims about him, in a dispute linked to the Johannesburg coalition fight, and IOL reports he threatened R1m defamation action. Zille refused to retract, and the court reserved judgment.
@@ -69,11 +69,11 @@ Data: Independent Electoral Commission (IEC). Summaries are written by Preamble 
 - [Floyd Shivambu](https://preamble.co.za/people/floyd-shivambu.html): Afrika Mayibuye Movement president; key player, 1 coalition piece
 - [Gayton McKenzie](https://preamble.co.za/people/gayton-mckenzie.html): Patriotic Alliance leader; key player, 2 coalition pieces
 - [Geordin Hill-Lewis](https://preamble.co.za/people/geordin-hill-lewis.html): DA leader; key player, 7 coalition pieces
-- [Helen Zille](https://preamble.co.za/people/helen-zille.html): DA mayoral candidate, Johannesburg; key player, 16 coalition pieces
-- [Herman Mashaba](https://preamble.co.za/people/herman-mashaba.html): ActionSA leader; key player, 12 coalition pieces
+- [Helen Zille](https://preamble.co.za/people/helen-zille.html): DA mayoral candidate, Johannesburg; key player, 18 coalition pieces
+- [Herman Mashaba](https://preamble.co.za/people/herman-mashaba.html): ActionSA leader; key player, 14 coalition pieces
 - [Julius Malema](https://preamble.co.za/people/julius-malema.html): EFF leader; key player, 4 coalition pieces
 - [Loyiso Masuku](https://preamble.co.za/people/loyiso-masuku.html): ANC Johannesburg regional chair; key player, 1 coalition piece
-- [Mahlengi Bhengu](https://preamble.co.za/people/mahlengi-bhengu.html): ANC national spokesperson; key player, 3 coalition pieces
+- [Mahlengi Bhengu](https://preamble.co.za/people/mahlengi-bhengu.html): ANC national spokesperson; key player, 4 coalition pieces
 - [Michael Beaumont](https://preamble.co.za/people/michael-beaumont.html): ActionSA national chairperson; key player, 13 coalition pieces
 - [Mxolisi Phakathi](https://preamble.co.za/people/mxolisi-phakathi.html): MK mayoral candidate, eThekwini; key player, 2 coalition pieces
 - [Nasiphi Moya](https://preamble.co.za/people/nasiphi-moya.html): ActionSA, mayor of Tshwane; key player, 1 coalition piece
@@ -92,7 +92,7 @@ Data: Independent Electoral Commission (IEC). Summaries are written by Preamble 
 - [Colonel Chris Wyatt](https://preamble.co.za/people/colonel-chris-wyatt.html): Host, Colonel Chris Wyatt (YouTube); analyst and commentator, 12 coalition pieces
 - [Dan Corder](https://preamble.co.za/people/dan-corder.html): Host, Three Beanies Network; analyst and commentator, 6 coalition pieces
 - [Ferial Haffajee](https://preamble.co.za/people/ferial-haffajee.html): Journalist, Daily Maverick; analyst and commentator, 2 coalition pieces
-- [Gabriel Makin](https://preamble.co.za/people/gabriel-makin.html): Research director, Social Research Foundation; host, Conversations with Gabriel; analyst and commentator, 6 coalition pieces
+- [Gabriel Makin](https://preamble.co.za/people/gabriel-makin.html): Research director, Social Research Foundation; host, Conversations with Gabriel; analyst and commentator, 7 coalition pieces
 - [Gareth van Onselen](https://preamble.co.za/people/gareth-van-onselen.html): Political analyst and pollster; analyst and commentator, 2 coalition pieces
 - [Hajra Omarjee](https://preamble.co.za/people/hajra-omarjee.html): Political editor, Business Day; analyst and commentator, 3 coalition pieces
 - [Heidi Giokos](https://preamble.co.za/people/heidi-giokos.html): Reporter, SABC News; public broadcaster (sabc), 3 coalition pieces
