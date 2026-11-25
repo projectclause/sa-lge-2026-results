@@ -71,7 +71,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
         <li><b>Reach 30%</b> · their YouTube and X audience, or their outlet’s</li>
         <li><b>Access 20%</b> · their pieces quoting key players</li>
         <li><b>Momentum 10%</b> · pickup in the last 14 days</li></ul>
-      <p><b>Most Influential Voice</b> is the top score; <b>Influential</b>, the next four. <b>Wide Reach</b> marks a large audience. International voices are ranked among themselves; wire reprints in other outlets count as pickup.</p>
+      <p>International voices are ranked among themselves; wire reprints in other outlets count as pickup.</p>
       <p class="pl-how-n">Data: Google News, YouTube and X. Updated 23 Nov.</p>
       </div>
     </div>`;
