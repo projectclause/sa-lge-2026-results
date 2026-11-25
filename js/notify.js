@@ -43,12 +43,12 @@
       <a class="nt-card" href="${c.href}" data-k="${c.k}">
         <img class="nt-ph" src="${c.p.img}" alt="">
         <span class="nt-t">
-          <span class="nt-top"><b>${esc(c.p.n)}</b>${onCo && c.p.wide ? '<i class="nt-wide" title="Wide Reach">★</i>' : ""}<span>${esc(c.p.role || c.p.o)}</span><time>${day(c.it.d)}</time></span>
+          <span class="nt-top"><b>${esc(c.p.n)}</b><span>${esc(c.p.role || c.p.o)}</span><time>${day(c.it.d)}</time></span>
           <span class="nt-h">${esc(c.it.h)}</span>
           <span class="nt-s">${esc(c.it.s)}</span>
         </span>
       </a>
-      <span class="nt-app">${onCo ? (c.p.wide ? "Wide Reach voices" : c.p.pb ? "Public Broadcaster" : "Voices") : "Coalitions Tracker"}</span>
+      <span class="nt-app">${onCo ? (c.p.pb ? "Public Broadcaster" : "Voices") : "Coalitions Tracker"}</span>
       <button type="button" class="nt-x" aria-label="Hide these updates">×</button>`;
     const show = () => {
       const old = box.querySelector(".nt-in");
