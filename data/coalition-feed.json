@@ -772,11 +772,11 @@
      },
     "mngambi": {
       "n": "Xoli Mngambi",
-      "o": "Broadcaster",
+      "o": "Newzroom Afrika",
       "img": "assets/journalists/xoli-mngambi.jpg",
-      "role": "Broadcaster and journalist",
+      "role": "Anchor, Newzroom Afrika",
       "group": "voice",
-      "org": "IND",
+      "org": "Newzroom Afrika",
       "beat": "analysis"
     }
   },
