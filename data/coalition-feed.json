@@ -5959,6 +5959,13 @@
         "beat": "analysis",
         "score": 9.0,
         "img": "assets/journalists/carolyn-holmes.jpg"
+      },
+      "jaecke": {
+        "n": "Gregor Jaecke",
+        "o": "Konrad-Adenauer-Stiftung",
+        "role": "Writer, Konrad-Adenauer-Stiftung",
+        "beat": "analysis",
+        "img": "assets/journalists/gregor-jaecke.jpg"
       }
     },
     "pieces": [
@@ -6339,6 +6346,17 @@
         "src": "Good Authority",
         "h": "South Africa’s 2026 local elections were highly competitive",
         "url": "https://goodauthority.org/news/south-africas-2026-local-elections-were-highly-competitive/"
+      },
+      {
+        "id": "kas1",
+        "d": "2026-11-11",
+        "j": [
+          "jaecke"
+        ],
+        "src": "Konrad-Adenauer-Stiftung",
+        "h": "South Africa after the 2026 local government elections",
+        "s": "In a country report with Nina Krasel, Jaecke wrote that the vote confirmed the ANC’s decline, strengthened the DA in the cities and sped up the shift to coalition government, with voters judging parties on local performance and service delivery.",
+        "url": "https://www.kas.de/en/country-reports/detail/-/content/south-africa-after-the-2026-local-government-elections"
       },
       {
         "id": "b9",
@@ -6838,7 +6856,8 @@
           "ja1",
           "ru1",
           "rfi1",
-          "bw1"
+          "bw1",
+          "kas1"
         ],
         "place": "South Africa’s metros",
         "brief": [
@@ -6862,7 +6881,8 @@
           "cele": "Reported that the cities faced coalition rule, and later that post-election bartering was trumping votes.",
           "peyton": "Reported that voters’ rebuff of the ANC was speeding up the shift to coalition politics.",
           "parakozov": "Co-wrote Reuters’ report that the ANC’s beating set up tough coalition talks.",
-          "magome": "Reported on the high-stakes coalition talks after the ANC’s worst results."
+          "magome": "Reported on the high-stakes coalition talks after the ANC’s worst results.",
+          "jaecke": "Wrote for the Konrad-Adenauer-Stiftung that the vote sped up the shift to coalition government in the cities."
         }
       },
       {
