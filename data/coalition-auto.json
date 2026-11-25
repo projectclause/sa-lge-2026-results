@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-25",
-    "time": "17:14"
+    "time": "18:21"
   },
   "items": [
     {
@@ -904,6 +904,54 @@
       "src": "Sunday Independent",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWlBVSlhraXV4cXktbHhrU2F2aWlUR1dESl9kNE9qdjFWSnNJSmVTVjE0dllONzd0YTFucjIyQk1Nb2k1Z1NuVHV3ZmU0V044QjJzNDJYaW9TMjVDamZ5YnhzbDZaVVc2S1JLVVBFTkctVkJGOURMQnEyb3ZqT1czMXNtUzdldEpsMGt4VURKOXdGQUs2RlJfakxOWFBsM3otZlVuaWZqckRWelZBYUE5aHh6SHR2TmtWREhnNkJn?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-4af9aec217",
+      "j": "makin",
+      "d": "2026-11-25",
+      "kind": "Video",
+      "place": "National",
+      "h": "The ANC Is Fighting Over the Deck Chairs on the Titanic",
+      "s": "Marius Roodt argues the ANC cannot decide who to govern with because it has run out of ideas and energy, comparing its mood to the National Party at the end of apartheid.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=3mA7G7u3FIk",
+      "auto": true
+    },
+    {
+      "id": "a-ac4f73464d",
+      "j": "helen",
+      "d": "2026-11-25",
+      "kind": "Article",
+      "place": "Johannesburg",
+      "h": "Helen Zille says privatisation lowers costs for poor in Joburg",
+      "s": "Helen Zille says privatisation lowers costs for poor residents in Johannesburg.",
+      "src": "Townpress Newspaper",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVTdmSHZtdnZZdnFQbTJUVFc0ODU1M29MYVFqYjA2T1BKekpzTXh6b1pfR09pdGE5MVNrejZJVUFrN0s3czg0clFzUjM5cDROT0RVMHhIbDZXdVMzSWx4X181Z0dqUE1tZWdQQnZrUHlCX0ZDaEEyODNKbkVhaFc1SEZ5ZmxmVUVkSHd5RG5vTTE?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-5545258a53",
+      "j": "wyatt",
+      "d": "2026-11-25",
+      "kind": "Video",
+      "place": "Nelson Mandela Bay",
+      "h": "Having lost the Election ANC & its Minions Disrupt Councils | Chris Wyatt Reports",
+      "s": "Chris Wyatt argues the ANC and its allies are disrupting councils after losing the election, with a focus on Port Elizabeth.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=PVzKwlpBOUY",
+      "auto": true
+    },
+    {
+      "id": "a-427962faeb",
+      "j": "masilela",
+      "d": "2026-11-25",
+      "kind": "Podcast",
+      "place": "National",
+      "h": "Can the ANC Come Back From 30%? Money in Politics, Renewal & Coalitions with Dr. Malusi Gigaba",
+      "s": "ANC NEC member Malusi Gigaba discusses the ANC's electoral decline, renewal, money in politics and coalitions on Palatable Politics.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=VfwQkNeZd7k",
+      "auto": true
     }
   ],
   "attach": {
@@ -1321,6 +1369,24 @@
         "h": "DA weighs Helen Zille’s future as ActionSA makes mayoral demand a coalition condition",
         "d": "2026-11-24",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVllpYzJDaXhpcER2LWxCNjhLRzQtY0pMR21XYUp6V2MxOEl4YWZvWlNyZ0dZR3d4Sk1XTlpjUDd0b3VKbDh4Rms4cTcxVEFoeS1sOVBaMUdMbFRYcjFXWVhHZklfdWRBazhOaWRWcGdvZ3pYVWFCSGE4OWs4NXo5c05CQ1Y3UkIza0I3bS1EYnBySW1jQkdYX29TUVhwXzhMR3p6WWo4TXJkN0l5ei1KOFQ1clRYZ193WVlhTG5sbE40UQ?oc=5"
+      },
+      {
+        "src": "Briefly News",
+        "h": "\"Stay strong, Gogo\": Masha's satirical jab at Zille's mayoral bid",
+        "d": "2026-11-25",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRWdPejQwRzN5X1FYdWlYUHZ5MHNBTWlXRS0ybU1DSGJtMXVYb0s3cWNVaWtGcmNaWEJiXzV6NFN5N1hFaWhtc3QzUjQxcjNqbVRzOWdZajNEaGh6dDZnZWRPNkRzRk5aVXdoc0ZXUzZSUThTMU5Cbk1ORDJnbldtMFl2Wjd5ZTBneFhCejZ3SC1NUG5EQmpPbXl2RXJjX2xHdmlKeHUxdnZHRThibkFab2g2NnZ2QkJrVXNaZDVJb0JKNXZ3Mmc?oc=5"
+      },
+      {
+        "src": "The South African Star",
+        "h": "WATCH | Who will wear the mayoral chain? Joburg set to elect new mayor",
+        "d": "2026-11-23",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZFRnTGdFZ3ZFUXA3ckxvczktNlhWTldYcjd5eVl1OWt0MTFSOW5tNEhvc25JY1NJUmN2LVhNbWRPZlJBT1RfX2loNndFQ1IxY2hoaDdqYWpENmJTYmpFbWkzZWhaSHBhN1VfRFVYZVVGS2Y0VER2T2pOdVpBaG9oX0tma3RITzBFTkJHQ2k1T0RQV3BmcUZtMGNBdVJlcDBqLWpja1Z1ZnNxTE9kV0FVQUNCaEtpekxBenp0bkczOEVOQTg1M3ZCTXpsbE02UQ?oc=5"
+      },
+      {
+        "src": "News24",
+        "h": "DA threatens to go to court if inaugural Joburg council meeting not postponed",
+        "d": "2026-11-23",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQkdhb2tKZGh1Y0wzOHA1bjI0WWQ4eDFCUmVGMDJHVTU5OS1hM2pTbG1zNm1NVEU5Yk5iWFBjLUNBSkFFRGFwTzkyZEtFRldURlBScWc1U2pKVk4ySVdsTVNsVzFlWU1Zcl94TzlSRTJ6WUZpb1RzWDNlV1ZzcnhQbDVxRmtjcjN3X19GelRtMmlTejh1WHlYZ1NfSFBpb3FkdUNFd2lCXzZiZVRZaUdCc1lXMVlDbnZCbm8tOGdoVjRYTkdIc3E5eG5Law?oc=5"
       }
     ],
     "councils": [
@@ -2087,7 +2153,8 @@
       "id": "eastern-cape-metros",
       "items": [
         "a-9878e0cb2a",
-        "a-1b64d77881"
+        "a-1b64d77881",
+        "a-5545258a53"
       ],
       "coverage": [
         {
@@ -2423,9 +2490,9 @@
       "cat": "Ekurhuleni",
       "place": "Ekurhuleni",
       "h": "Ekurhuleni’s mayoral election moves to Friday as parties wait on the ANC to sign",
-      "dek": "Ekurhuleni’s new council held its inaugural meeting on 25 November, but the election of a mayor and speaker was postponed, and SABC News and The National report the vote will take place on Friday. EWN and The National report parties are waiting on the ANC to sign off the coalition deal, while IOL reports the DA still holds out hope as an ANC-ActionSA deal takes shape.",
+      "dek": "Ekurhuleni’s new council held its inaugural meeting on 25 November, but the election of a mayor and speaker was postponed, and SABC News, The National and Inside Metros report the vote will take place on Friday. EWN and The National report parties are waiting on the ANC to sign off the coalition deal, while IOL reports the DA still holds out hope as an ANC-ActionSA deal takes shape.",
       "brief": [
-        "The Citizen, EWN, IOL, News24 and Briefly News report the mayoral election was postponed so parties could finish coalition negotiations; SABC News and The National report the vote moves to Friday.",
+        "The Citizen, EWN, IOL, News24, Briefly News and Business Day report the mayoral election was postponed so coalition partners could finish negotiations; SABC News, The National and Inside Metros report the vote moves to Friday.",
         "EWN and The National report parties are waiting on the ANC to sign off the coalition deal, while IOL reports the ANC is closing in on a deal.",
         "IOL reports the DA holds out hope for an Ekurhuleni coalition as an ANC-ActionSA deal takes shape.",
         "EWN reports the ANC is set to field Mziyanda Mketsu for Ekurhuleni mayor.",
@@ -2537,6 +2604,18 @@
           "h": "DA holds out hope for Ekurhuleni coalition as ANC-ActionSA deal takes shape",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMzBXb0FYWlY5M1MxTHFBOUlTVkxkenlnNHROTEwwTHZWOFBnVWxzREhtWlV1aEFoY3Rzc0tuSmt3QWhmdGJUdkR0NGNpZEh0aDBtaE41QVdiTnpncVE2TURPMG54S1dxeERDeVFHRzYzcjl4ZzdzaGtNRGlKYmFFdnVfNFJIWUxfeFJuazNLb095VWh4a0w2Yy16QmUxUmhkZkpIR3RucW0yZmRIeUNUN2VIQmxLa1R5T29Z?oc=5"
+        },
+        {
+          "src": "Business Day",
+          "h": "Ekurhuleni mayoral vote delayed as coalition partners haggle",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPc0YwSWR0MGs0X3hjcDk3QVRpU0Z3VUxZcUY2dVJRYy0tYVdsMWpXR2hRek1zbHZydzFYcGp6Q3hYSW90Yzl4YUZSMXNVQTVFNXk0OEhwZk9HX2FYRlZ5dWhFRndpWnVOTEhESDhXd0Q2RUpqN21HYjBWTXFMQ1pjdk9oQ0puZXotRl9FbXlJcWpzWWc4UVJtQ3A0eVYwbXJkMEt0dVg2WnhoYms?oc=5"
+        },
+        {
+          "src": "Inside Metros",
+          "h": "Ekurhuleni council sitting postponed to Friday as coalition deadlock delays election of metro leadership",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPeG9QcGlldXJoME52ZzBfY0Vfa3A2bi1lel9KRUNKdEFoUm1HaVg0Q3Q2eEdkVFM4UjFVUm02dHJ1Z3BnNjNFTTBFS0hLNUNCSFoyaW5TYlZzcmhoczIzSnhpS21vTm0xd085Sk4za1hXNy1QUHRGN1EzS01tR1h3TGdWUmxBaF9vRk5FR1N3Ui1OdWhlWUpISHFzcjV4UzJvTVFhQ2hoYUhra3FzX3luZThyVzhkZmc1bWZ4Q19ISHowaGt4d3otdEk1MUhLcmhDNkJuZUJKa3lWY3c?oc=5"
         }
       ],
       "sec": [
@@ -2613,7 +2692,7 @@
       "h": "The DA is shut out of Theewaterskloof and Laingsburg as Western Cape councils pick partners",
       "dek": "News24 reports the ANC joined other parties to take control of Theewaterskloof, and IOL reports ActionSA formed a Laingsburg coalition with the PA and ANC, leaving the DA out. News24 reports the DA and FF Plus have entered coalitions in some hung Western Cape councils.",
       "brief": [
-        "News24 reports the ANC and other parties took control of Theewaterskloof, shutting out the DA; the Cape Argus and IOL report the DA warning this could threaten financial recovery.",
+        "News24 reports the ANC and other parties took control of Theewaterskloof, shutting out the DA; the Cape Argus, Cape Times and IOL report the DA warning this could derail financial recovery.",
         "IOL reports ActionSA formed a coalition with the PA and ANC in Laingsburg, leaving the DA out.",
         "News24 reports the DA and FF Plus entered coalitions in some hung councils; IOL reported the DA began talks with 16 councils hung.",
         "IOL reports the DA named deputy mayor and speaker candidates for seven Western Cape municipalities, and Limberg as Cape Town deputy mayor.",
@@ -2696,6 +2775,12 @@
           "h": "DA warns new Theewaterskloof coalition could threaten financial recovery",
           "d": "2026-11-24",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORm1KeGthaFczQ1VycVNJSzhNUXJWcXJfVmJ2LTFRd1h4R2Jqb2hLcExDMEk3V1p0X3U2MUR2RjRpakxnYzV3clpmM210MGZaRm9NZXcxYmNQZW1ubWk5cTl1bF82czBjZkRZamJTT290YnF3QS03eVJUci1QcUF5Q05TLTNzLUVaaDFqY21pZ0tza2ZQaXF4YTdrZzhCYVpxWTFybkJ4aHBWanFNUkhVVk1rODJsTk1l?oc=5"
+        },
+        {
+          "src": "Cape Times",
+          "h": "DA warns Theewaterskloof coalition change could derail financial recovery",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZnptOEZNNzhITUpHOUtBQm5jb2tvRTU1S2lRMGhwMzhreTVHdTFHclVyM0dIaWtZOUd1TU1GNG9aUHhwUm9mRTBjSk56QVUweEcxeFR0cVZzX0Fnd2hfMDgwMUc0OUhsNVhBOGNteDE1VTE3S2ljd1BSOGJ3RnZFZ1NsMG1yRWxZR2NEU1FmSE9EeTRiTXJMaFlRMXlpV0tyX3BvdWhoaUhNN0lOME0tUjJCZzY?oc=5"
         }
       ],
       "sec": [
@@ -2723,7 +2808,9 @@
         "a-886b0872f0",
         "a-b1299e1660",
         "a-87af8d3c38",
-        "a-8d75d75d88"
+        "a-8d75d75d88",
+        "a-4af9aec217",
+        "a-427962faeb"
       ],
       "coverage": [
         {
@@ -2827,6 +2914,12 @@
           "h": "ANC to Announce Municipal Coalition Decisions",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQLUZiQ2JJQk1XX2U5QWVUZi1EUHp1T09JdFdlSWpPSldsdnNtczRiTHVjQlJkT2FWRkI0VUtVZ2pkRzE3cmlCRkdtaUtKdTd6VlNZTDNEZU90M1FJLTlMdjZSMkl0cVZxcHJqNWZkWWhleVNOcDRndllSWDkyNW95bGFhOVlnYVdHT3YxdTNuTWtQZw?oc=5"
+        },
+        {
+          "src": "The Citizen",
+          "h": "Will the ANC fall on the side of the DA or the ideological allies it helped spawn? Analysts weigh in",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNTkVLN1UyMjFoLWJGQjBiT0VVdVN3b21CNWk2Q0V3SVREbm53QWpvcmdMZkRla3RqSXJaek5RcHV1ZlJIdDh0MDkzSEJWdEtJUFFrUDhYMGd0STFVU19PWHVYcU9tNTdCQUFHSUduVE56bWNmOHkwSVIzTThRTmxKVjZ6Rkd2N1NDYzZWN05WeEprOWRVQnlhbHUySTZXVEVXZWtHM3Zaa3kwd0pYZ0Jub0VqaFY1ZkVReTk4bkxHN0lJWmVqbXFNMVN5Q2RCVXd0eTZIRDhpVFp5VEpwN193cThqZWIwemhJeFE?oc=5"
         }
       ],
       "sec": [
@@ -2934,7 +3027,8 @@
       "auto": true,
       "id": "auto-cape-town",
       "items": [
-        "a-259df6a8cb"
+        "a-259df6a8cb",
+        "a-ac4f73464d"
       ],
       "coverage": [
         {
@@ -3466,6 +3560,19 @@
     "2542ec1f7dbb",
     "4cf504af780e",
     "6ae362fb3495",
-    "c4db6c13427b"
+    "c4db6c13427b",
+    "3ad601a4c270",
+    "4af9aec2173f",
+    "1578c553f3ee",
+    "ac4f73464de4",
+    "5545258a53b9",
+    "dcc8cd8bb95c",
+    "c5e510fb87e9",
+    "b9f2af76c173",
+    "427962faeb6f",
+    "bf394cbc00cf",
+    "b0a6f772ab4c",
+    "4f14e338ade0",
+    "5b0485881470"
   ]
 }
