@@ -497,6 +497,15 @@
       "beat": "reporting",
       "score": 30.0
     },
+    "teke": {
+      "n": "Zohra Teke",
+      "o": "IOL",
+      "img": "assets/journalists/zohra-teke.jpg",
+      "role": "Journalist, IOL and The Mercury",
+      "group": "voice",
+      "org": "IOL",
+      "beat": "reporting"
+    },
     "moichela": {
       "n": "Kamogelo Moichela",
       "o": "IOL",
@@ -799,6 +808,28 @@
     }
   },
   "items": [
+    {
+      "id": "zt-seal",
+      "j": "teke",
+      "d": "2026-11-23",
+      "kind": "Report",
+      "place": "eThekwini",
+      "h": "ANC and MK Party seal eThekwini coalition deal as ActionSA’s future hangs in balance",
+      "s": "Teke reported ANC and MK insiders saying a deal had been finalised in eThekwini, with MK set to take the mayoralty, while ActionSA’s part was still being negotiated.",
+      "src": "IOL",
+      "url": "https://iol.co.za/news/politics/2026-11-23-anc-and-mk-party-seal-ethekwini-coalition-deal-as-actionsas-future-hangs-in-balance/"
+    },
+    {
+      "id": "zt-shut",
+      "j": "teke",
+      "d": "2026-11-16",
+      "kind": "Report",
+      "place": "eThekwini",
+      "h": "Coalition talks could shut DA out of eThekwini and Johannesburg",
+      "s": "Teke reported that the talks were heading towards an MK-led coalition with the ANC, EFF and ActionSA in eThekwini, which could keep the DA out there and in Johannesburg.",
+      "src": "The Mercury",
+      "url": "https://iol.co.za/mercury/news/2026-11-16-coalition-talks-could-shut-da-out-of-ethekwini-and-johannesburg/"
+    },
     {
       "id": "ab-water",
       "j": "butler",
@@ -4644,7 +4675,9 @@
         "cw-nocoal",
         "zl-mkanc",
         "zl-effmk",
-        "xm-ethekwini"
+        "xm-ethekwini",
+        "zt-shut",
+        "zt-seal"
       ],
       "voices": {
         "dali": "Says MK’s vote shows voters want cooperation, warns the ANC about its partners, and met the DA for the first time while saying MK wants like-minded partners.",
