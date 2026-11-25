@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-26",
-    "time": "01:00"
+    "time": "01:55"
   },
   "items": [
     {
@@ -1457,6 +1457,12 @@
         "h": "South Africa: Mashaba Set for Joburg Mayoralty As ANC, ActionSA, MK and EFF Seal Metro Pact",
         "d": "2026-11-23",
         "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KSHFpcklJaGFpVmRuc2dnNER0THVKRFE0THdRVDhaZ1czbndmUzNsMmx3ZjRNR0E2NTZwQXl6T3A4N2xTdDRfWDRGeTdveXItUlRvLThYNTFvMDQ?oc=5"
+      },
+      {
+        "src": "Financial Mail",
+        "h": "TIM COHEN: Why business is furious with Herman Mashaba",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTVRma2pQUmNuYVYyVHJCajRNb3F2czlpTVBqVEZlWVpzdW1uZTBWU0JGTDhxb2IzZVM3LXdmamZxOUp1T3dLOGExOHhPUGIxUERqLWFlVmwtaTZNZEVKaV9nNlFwbnNFeUhuUUhYdFl2NmF1bTZ4Y3UyWEREMGN0NG96TnVmSW91X1U1SXV6SDhkZW5k?oc=5"
       }
     ],
     "councils": [
@@ -3118,6 +3124,18 @@
           "h": "SACP Calls ANC’s Handling of Sol Plaatje DA Deal a ”Betrayal”",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPX1ZSd2F5dXJxRFY1NTVoNU1zTGtTMDk0dUZJY2NCVF9KSnBNVXpZdlN3OVFpaEl6Y3pseHdEV0d3bDUtZHRhS21abG5qeUVabllsY0lPNFZuUldFeXI3T1hhSXhXaFp6TTNDMEZLUnR3Wm84WlVRNjVZV1RURWxSZ2R3TkZPeGRhRnYzd2dIdjdlX1RuR1B3ckxiOA?oc=5"
+        },
+        {
+          "src": "Financial Mail",
+          "h": "NATASHA MARRIAN: The ANC’s coalition calculus could cost it in KZN",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdkRGQkNiS2lreUx2Q2ZjazNZaW9pUEhnb0RUOXJ3Tk1hZWlxdVVJZlVORENCQlRJd19EZWstUzhxUVFsQ3lnUnJndXZ4Vlp5VUFCMWZSNzE4Um9Sc3NTVnpmcGg1OXVna01PSjBYSWY3S0p6R3htc2YtYWFkN3lLZkl0aVhHb2d2R2NEMmZoQnc5TlRPanFGa0piaUtCYnJNeVp4cw?oc=5"
+        },
+        {
+          "src": "Fullview",
+          "h": "ANC NEC gives coalition talks report the green light.",
+          "d": "2026-11-23",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB1QU0zTzZIa2RaSzJoczlrMmZpY3VVdWR6dVlESGoyUlI0aXpVZno0LTJ6RXhmX1ZYa3NGcUktUGJVMzkxSnFPc3J5R3VITE44cnNpdE1tOUZ5c0IxRXFtck9xN3NkeXlKaVFfTzBoallNakF1eWhCMA?oc=5"
         }
       ],
       "sec": [
@@ -3812,6 +3830,9 @@
     "55362bcf9061",
     "3c0914e7cf27",
     "2065ef79df9d",
-    "a68f713f6f6b"
+    "a68f713f6f6b",
+    "127b929fcf83",
+    "7fefc5168580",
+    "ebf6b43595d4"
   ]
 }
