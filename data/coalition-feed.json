@@ -872,6 +872,39 @@
   },
   "items": [
     {
+      "id": "jc-concede",
+      "j": "commissioner",
+      "d": "2026-11-19",
+      "kind": "Video",
+      "place": "Johannesburg",
+      "h": "Helen Zille concedes defeat in Johannesburg",
+      "s": "Commissioner reacted to reports that Zille told the DA caucus a ‘doomsday coalition’ of the ANC, ActionSA, EFF and MK would run Johannesburg, and said that coalition has until the 2029 national elections to turn the city around.",
+      "src": "TikTok",
+      "url": "https://www.tiktok.com/@julian_vanillathunder/video/7709851599170260244"
+    },
+    {
+      "id": "jc-feud",
+      "j": "commissioner",
+      "d": "2026-11-10",
+      "kind": "Video",
+      "place": "Johannesburg",
+      "h": "Why Helen Zille and Herman Mashaba fell out",
+      "s": "Commissioner traced the Zille–Mashaba feud back to Mashaba’s EFF-backed Joburg mayoralty, the insourcing of city security guards that Zille opposed, and his resignation from the DA the day after she became its federal council chair in 2019.",
+      "src": "TikTok",
+      "url": "https://www.tiktok.com/@julian_vanillathunder/video/7706427064076832020"
+    },
+    {
+      "id": "jc-ask",
+      "j": "commissioner",
+      "d": "2026-11-08",
+      "kind": "Video",
+      "place": "Gauteng metros",
+      "h": "Should I explain the Zille–Mashaba feud?",
+      "s": "Commissioner asked viewers whether they wanted an explainer on the feud between Zille and Mashaba, saying the DA–ActionSA talks could fall apart over their relationship.",
+      "src": "TikTok",
+      "url": "https://www.tiktok.com/@julian_vanillathunder/video/7705817577192197396"
+    },
+    {
       "id": "wp-posts",
       "j": "phungula",
       "d": "2026-11-24",
@@ -4123,7 +4156,8 @@
         "on-mashaba",
         "dc-postpone",
         "dc-doomsday",
-        "lm-centre"
+        "lm-centre",
+        "jc-concede"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
@@ -5197,7 +5231,9 @@
         "lm-veto",
         "rm-snub",
         "wj-snub",
-        "wp-snub"
+        "wp-snub",
+        "jc-ask",
+        "jc-feud"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
