@@ -836,6 +836,50 @@
   },
   "items": [
     {
+      "id": "dc-doomsday",
+      "j": "campher",
+      "d": "2026-11-23",
+      "kind": "Video",
+      "place": "Johannesburg",
+      "h": "“Are you ready for the doomsday coalition?”",
+      "s": "Campher shared an ANC leader saying the door was closed on the DA and that the party’s proposed Johannesburg government left out the DA, FF Plus and ACDP, then predicted a media storm over the ANC, ActionSA, EFF and MK coalition and said it must now perform.",
+      "src": "TikTok",
+      "url": "https://www.tiktok.com/@darrencampher.com/video/7711471889494887732"
+    },
+    {
+      "id": "dc-postpone",
+      "j": "campher",
+      "d": "2026-11-23",
+      "kind": "Video",
+      "place": "Johannesburg",
+      "h": "The DA’s lawyers ask for Joburg’s first council meeting to be postponed",
+      "s": "Campher shared the presiding officer reading out a letter from the DA’s lawyers demanding that Johannesburg’s 23 November inaugural council meeting be postponed, and proposing to deal with it after councillors were sworn in.",
+      "src": "TikTok",
+      "url": "https://www.tiktok.com/@darrencampher.com/video/7711330285073517825"
+    },
+    {
+      "id": "dc-facade",
+      "j": "campher",
+      "d": "2026-11-22",
+      "kind": "Video",
+      "place": "National",
+      "h": "ActionSA says the DA’s offer of stability is a facade",
+      "s": "Campher played ActionSA telling Alec Hogg that Helen Zille had personally collapsed working coalitions, set it against the DA’s ‘framework for stability’ offer to the ANC, and argued the DA had isolated itself.",
+      "src": "TikTok",
+      "url": "https://www.tiktok.com/@darrencampher.com/video/7711060756380306689"
+    },
+    {
+      "id": "dc-rand",
+      "j": "campher",
+      "d": "2026-11-18",
+      "kind": "Video",
+      "place": "Gauteng metros",
+      "h": "The rand fell because of the dollar, not the coalition talks",
+      "s": "Campher argued that BizNews and News24 linked a weaker rand to the expected ANC, ActionSA, EFF and MK metro coalition, when News24’s own article put it down to a surging US dollar.",
+      "src": "TikTok",
+      "url": "https://www.tiktok.com/@darrencampher.com/video/7709544895655988486"
+    },
+    {
       "id": "cm-2029",
       "j": "matseke",
       "d": "2026-11-19",
@@ -3930,7 +3974,9 @@
         "cw-zille",
         "cw-chaos",
         "bb-calland",
-        "on-mashaba"
+        "on-mashaba",
+        "dc-postpone",
+        "dc-doomsday"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
@@ -4330,7 +4376,8 @@
         "zl-rejected",
         "zl-anc",
         "gm-brink",
-        "od-da25"
+        "od-da25",
+        "dc-facade"
       ],
       "voices": {
         "geordin": "Proposed that the ANC lead 93 hung councils, the DA 24 and the IFP 20, and told 702 the deal’s power is its simplicity.",
@@ -4994,7 +5041,8 @@
         "zl-open",
         "smw-beaumont",
         "ab-water",
-        "od-trap"
+        "od-trap",
+        "dc-rand"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
