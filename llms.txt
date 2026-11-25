@@ -1,6 +1,6 @@
 # PREAMBLE
 
-> South Africa’s global and local data. Live results of the 4 November 2026 local government elections, a ward-by-ward map, the mayors of the eight metros, and a Coalitions Tracker that groups reporting on the coalition talks into stories with summaries and links to every original article. Updated 25 November 2026, 23:02 SAST.
+> South Africa’s global and local data. Live results of the 4 November 2026 local government elections, a ward-by-ward map, the mayors of the eight metros, and a Coalitions Tracker that groups reporting on the coalition talks into stories with summaries and links to every original article. Updated 26 November 2026, 00:02 SAST.
 
 Data: Independent Electoral Commission (IEC). Summaries are written by Preamble with AI from published reporting; the journalists and politicians quoted do not write for Preamble.
 
@@ -73,7 +73,7 @@ Data: Independent Electoral Commission (IEC). Summaries are written by Preamble 
 - [Gayton McKenzie](https://preamble.co.za/people/gayton-mckenzie.html): Patriotic Alliance leader; key player, 2 coalition pieces
 - [Geordin Hill-Lewis](https://preamble.co.za/people/geordin-hill-lewis.html): DA leader; key player, 12 coalition pieces
 - [Helen Zille](https://preamble.co.za/people/helen-zille.html): DA mayoral candidate, Johannesburg; key player, 21 coalition pieces
-- [Herman Mashaba](https://preamble.co.za/people/herman-mashaba.html): ActionSA leader; key player, 25 coalition pieces
+- [Herman Mashaba](https://preamble.co.za/people/herman-mashaba.html): ActionSA leader; key player, 26 coalition pieces
 - [Julius Malema](https://preamble.co.za/people/julius-malema.html): EFF leader; key player, 5 coalition pieces
 - [Loyiso Masuku](https://preamble.co.za/people/loyiso-masuku.html): ANC Johannesburg regional chair; key player, 1 coalition piece
 - [Mahlengi Bhengu](https://preamble.co.za/people/mahlengi-bhengu.html): ANC national spokesperson; key player, 4 coalition pieces

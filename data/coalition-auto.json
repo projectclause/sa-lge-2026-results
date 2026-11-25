@@ -1,8 +1,8 @@
 {
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
-    "date": "2026-11-25",
-    "time": "23:02"
+    "date": "2026-11-26",
+    "time": "00:02"
   },
   "items": [
     {
@@ -976,6 +976,18 @@
       "src": "newsnote",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWXNIaUFCWTEyYWJ3UWgzV1dXeE5tSGJyTUFwR0NhV2Z3WjNTVnBEUEZjN0I3a3dzUnN2N2Z3b1FENVlNMFNwZ2dFU3ZDQW4zQzVPMkd6UEpVWXozV0JpUmFEakZQQk1FTW5QeHF2TTc5a0pXVFZYaXNrUnhVYmZWOUtidXA4b0phNVA0NUcweFJmZVY3bjlSVFdHZUFNTmRfX3VPbExXOFFCU1FnV1VvWFM5V1pIbDN4Zlp3Ug?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-e4500fdb5a",
+      "j": "herman",
+      "d": "2026-11-24",
+      "kind": "Article",
+      "place": "Gauteng metros",
+      "h": "Mashaba draws the line: ‘We have a Helen Zille and Cilliers Brink problem’",
+      "s": "IOL reports Herman Mashaba drawing a line in the coalition talks, saying ActionSA has \"a Helen Zille and Cilliers Brink problem\".",
+      "src": "IOL",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLUR1a09HanBUVmF1Unh3dkFDNEtSc0tyX29HbmRNeUNUVm1NdGlQOVExcHMtVWQ0T2c1REVabjc2UlB2b1hPcDYxdGlFV2ktczZ4cFdYUGstbXVJUk9WcjVHY25wQ1czOVRjZ2p1OENYYXFLR0d3TnlBNFJXT1BjVWZDQnFhd1hGWGhaeW5sR0NoQjE4OEEzblVheERLNDBqdkR3bGZ3bXIwV3pyWHc?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -1004,7 +1016,8 @@
       "a-df402dbdfa",
       "a-195b93c97c",
       "a-c32ad758ff",
-      "a-dc58319ec4"
+      "a-dc58319ec4",
+      "a-e4500fdb5a"
     ],
     "da-offer": [
       "a-7ec03aa2b8",
@@ -2764,6 +2777,12 @@
           "h": "DA still pursuing Ekurhuleni mayoral deal despite ANC-ActionSA talks",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT1VZU2lRVDFLdlFMLW5ZVEFZc3p1YWloLVRDZGQzRFlsV1hKNnhQVEh3VnJHMWpQUmozdnRCOU51aW42bXVhTUFVN2pEYXh5MEhma1RFdjVKYlVvZGVFdVhHVURFZFgtMGRlMEpRTE96WHl3SVM2eU8tUWZDV2JnT3lkM1JJOXJOZWl1RC1idkY3RGxaaTBVLVFranUteTEwVFB3UXNYZmMxSXpVd1FrREZZMA?oc=5"
+        },
+        {
+          "src": "Fullview",
+          "h": "Ekurhuleni delays election of mayor due to ongoing coalition talks.",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdVZWTnZFdHNxSnh3SjhQQ3U0a0xZbHNNc3F2TllOaFZJSTlTY3Q5WllhYlJkVGpQUlFsYU0tNC0yd09BYjl4Sk10SmhIRWdoM3d0WW9VUDBzQlFiSi03TkR2Zk1HT0F3ck5EQU9GOVJldVg3azB5YzduZDF4alRya2FIY3kwenI3aE9LdG9Lbw?oc=5"
         }
       ],
       "sec": [
@@ -3763,6 +3782,8 @@
     "541c3245c997",
     "c185c48c30b0",
     "7d174cf66d5e",
-    "a8078a2c1012"
+    "a8078a2c1012",
+    "84e9544d78ae",
+    "e4500fdb5a89"
   ]
 }
