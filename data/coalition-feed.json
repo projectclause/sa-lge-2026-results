@@ -488,6 +488,15 @@
       "org": "State of the Nation",
       "beat": "analysis"
     },
+    "mighti": {
+      "n": "Jamie Mighti",
+      "o": "Mighti Jamie TV",
+      "img": "assets/journalists/jamie-mighti.jpg",
+      "role": "Political analyst; host, Mighti Jamie TV (YouTube)",
+      "group": "voice",
+      "org": "Mighti Jamie TV",
+      "beat": "analysis"
+    },
     "macg": {
       "n": "MacGyver “MacG” Mukwevho",
       "o": "Podcast and Chill",
@@ -924,6 +933,17 @@
     }
   },
   "items": [
+    {
+      "id": "mj-zunami",
+      "j": "mighti",
+      "d": "2026-11-05",
+      "kind": "Video",
+      "place": "National",
+      "h": "Zunami! Blunami! The DA and MK Party dominate",
+      "s": "As the results came in, Mighti said the DA and MK had dominated, called it chest pains for the ANC, and said Floyd Shivambu had fizzled on the big stage.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=NsDz98wH7g0"
+    },
     {
       "id": "ms-soul",
       "j": "sham",
@@ -5766,7 +5786,8 @@
         "gm-leon",
         "wj-begins",
         "ks-soundbites",
-        "tj-sizwe"
+        "tj-sizwe",
+        "mj-zunami"
       ],
       "voices": {
         "pieter": "Saw the ANC’s decline speeding up, with the party on the brink of second, third or fourth place in seven of the eight metros.",
