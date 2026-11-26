@@ -15,10 +15,20 @@
   const initials = (n) => n.split(/\s+/).map((w) => w[0]).slice(0, 2).join("");
   Promise.all([fetch("data/saffa-key.json").then((r) => r.json()), fetch("data/saffa-key-news.json").then((r) => r.json()).catch(() => ({ people: {} }))])
     .then(([P, N]) => {
-      grid.innerHTML = P.map((p) => {
+      const REG = ["North America", "Europe", "Australia & Oceania", "Middle East & Asia", "Africa", "South America"];
+      const pills = document.querySelector(".sf-kp-pills");
+      const show = (reg) => {
+        pills.querySelectorAll("button").forEach((b) => b.setAttribute("aria-selected", b.dataset.reg === reg));
+        let any = false;
+        grid.querySelectorAll(".sf-kp").forEach((k) => { const on = k.dataset.reg === reg; k.hidden = !on; any = any || on; });
+        grid.querySelector(".sf-kp-empty").hidden = any;
+      };
+      pills.innerHTML = REG.map((r) => `<button type="button" role="tab" data-reg="${esc(r)}" aria-selected="false">${esc(r)} <small>${P.filter((p) => p.region === r).length}</small></button>`).join("");
+      pills.addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; show(b.dataset.reg); b.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "smooth" }); });
+      grid.innerHTML = `<p class="sf-kp-empty" hidden>No one from this region yet.</p>` + P.map((p) => {
         const arts = (N.people && N.people[p.id]) || [];
         const face = p.img ? `<img src="${esc(p.img)}" alt="" width="72" height="72" loading="lazy">` : `<span class="sf-kp-ini" aria-hidden="true">${esc(initials(p.n))}</span>`;
-        return `<article class="sf-kp">
+        return `<article class="sf-kp" data-reg="${esc(p.region)}">
           <header class="sf-kp-top">${face}<div><h3>${esc(p.n)}</h3><p class="sf-kp-role">${esc(p.role)}</p><p class="sf-kp-from">Born in ${esc(p.born)} · lives in ${esc(p.lives)}</p></div></header>
           <p class="sf-kp-lbl">Latest</p>
           ${arts.length ? `<ol class="sf-kp-list">${arts.map((a) => `<li><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.h)}</a><span>${esc(a.src)}${a.t ? " · " + esc(ago(a.t)) : ""}</span></li>`).join("")}</ol>` : `<p class="sf-kp-none">No recent articles.</p>`}
@@ -26,6 +36,7 @@
           ${p.credit ? `<p class="sf-kp-credit">Photo: ${esc(p.credit)}</p>` : ""}
         </article>`;
       }).join("");
+      show(REG[0]);
     })
     .then(() => grid.addEventListener("click", (e) => {
       const b = e.target.closest(".sf-kp-more"); if (!b) return;
