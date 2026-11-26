@@ -1,0 +1,101 @@
+/* SAFFA: South Africans around the world. A globe of the diaspora and South Africa's missions abroad. */
+.sf { --sf-green: #007a4d; --sf-green2: #2f9e6e; --sf-gold: #ffb612; --sf-ink: #121212; --sf-paper: #f6f4ef; --sf-land: #dedad1; --sf-serif: var(--font);
+  max-width: 1180px; margin: 0 auto; padding: 28px 20px 48px; }
+
+/* headline block */
+.sf-head { max-width: 760px; margin: 0 auto 22px; text-align: center; }
+.sf-kicker { margin: 0 0 10px; font-size: 12.5px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--sf-green); }
+.sf-kicker span { color: var(--rule2); margin: 0 4px; }
+.sf-beta { display: inline-block; margin-left: 8px; padding: 2px 6px 1px; border: 1px solid var(--rule2); border-radius: 3px; font-size: 10.5px; font-weight: 700; letter-spacing: .1em; color: var(--muted2); vertical-align: 1px; }
+.sf-title { margin: 0 0 12px; font-family: var(--sf-serif); font-weight: 700; letter-spacing: -.02em; font-size: clamp(32px, 5.4vw, 52px); line-height: 1.04; letter-spacing: -.012em; text-wrap: balance; }
+.sf-dek { margin: 0 auto; font-family: var(--sf-serif); font-size: clamp(17px, 2.1vw, 20px); line-height: 1.45; color: #333; text-wrap: pretty; }
+.sf-stats { display: flex; justify-content: center; flex-wrap: wrap; gap: 0; margin: 22px auto 0; border-top: 1px solid var(--sf-ink); border-bottom: 1px solid var(--rule); }
+.sf-stat { flex: 1 1 0; min-width: 150px; padding: 12px 14px; text-align: center; }
+.sf-stat + .sf-stat { border-left: 1px solid var(--rule); }
+.sf-stat b { display: block; font-family: var(--sf-serif); font-size: 28px; line-height: 1.1; font-weight: 700; }
+.sf-stat span { display: block; margin-top: 3px; font-size: 13px; line-height: 1.3; color: var(--muted2); }
+
+/* globe and side list */
+.sf-body { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 28px; align-items: start; margin-top: 18px; }
+.sf-stage { position: relative; }
+.sf-ctrl > * { min-width: 0; max-width: 100%; }
+.sf-ctrl { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 6px; }
+.sf-seg { display: inline-flex; border: 1px solid var(--sf-ink); border-radius: 999px; overflow: hidden; }
+.sf-seg button { border: 0; background: #fff; color: var(--sf-ink); font: 600 13px/1 var(--font); padding: 8px 13px; cursor: pointer; }
+.sf-seg button + button { border-left: 1px solid var(--sf-ink); }
+.sf-seg button[aria-pressed="true"] { background: var(--sf-ink); color: #fff; }
+.sf-go { display: flex; flex-wrap: wrap; gap: 6px; }
+.sf-go button { border: 1px solid var(--rule2); background: #fff; color: var(--muted2); font: 500 12.5px/1 var(--font); padding: 7px 10px; border-radius: 999px; cursor: pointer; }
+.sf-go button:hover, .sf-go button:focus-visible { border-color: var(--sf-ink); color: var(--sf-ink); }
+.sf-globe { position: relative; width: min(100%, 660px); aspect-ratio: 1 / 1; margin: 0 auto; touch-action: none; cursor: grab; }
+.sf-globe:active { cursor: grabbing; }
+.sf-globe svg { display: block; width: 100%; height: 100%; overflow: visible; }
+.sf-loading { position: absolute; inset: 0; display: grid; place-items: center; margin: 0; color: var(--muted); font-size: 14px; }
+.sf-sphere { fill: var(--sf-paper); }
+.sf-rim { fill: none; stroke: #c9c4b8; stroke-width: 1; }
+.sf-grat { fill: none; stroke: #e7e3da; stroke-width: .6; }
+.sf-land { fill: var(--sf-land); stroke: #fff; stroke-width: .5; }
+.sf-land.sf-has { stroke: #fff; }
+.sf-land.sf-za { fill: var(--sf-green); }
+.sf-land.sf-hot { stroke: var(--sf-ink); stroke-width: 1.2; }
+.sf-arc { fill: none; stroke: var(--sf-green); stroke-linecap: round; opacity: .32; pointer-events: none; }
+.sf-bub { fill: rgba(0, 122, 77, .18); stroke: var(--sf-green); stroke-width: 1.2; cursor: pointer; }
+.sf-bub.sf-hot { fill: rgba(0, 122, 77, .38); stroke-width: 2; }
+.sf-mis { fill: var(--sf-ink); stroke: #fff; stroke-width: .8; cursor: pointer; }
+.sf-mis.sf-cg { fill: #fff; stroke: var(--sf-ink); stroke-width: 1.2; }
+.sf-mis.sf-hot { fill: var(--sf-gold); stroke: var(--sf-ink); }
+.sf-lbl { font: 600 11.5px/1 var(--font); fill: var(--sf-ink); paint-order: stroke; stroke: rgba(246, 244, 239, .9); stroke-width: 3px; pointer-events: none; }
+.sf-lbl.sf-za-l { fill: #fff; stroke: var(--sf-green); }
+.sf-key { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 18px; margin-top: 8px; font-size: 12.5px; color: var(--muted2); }
+.sf-key span { display: inline-flex; align-items: center; gap: 6px; }
+.sf-key i { display: inline-block; flex: none; }
+.sf-key .k-bub { width: 14px; height: 14px; border-radius: 50%; background: rgba(0, 122, 77, .18); border: 1.2px solid var(--sf-green); }
+.sf-key .k-emb { width: 8px; height: 8px; border-radius: 50%; background: var(--sf-ink); }
+.sf-key .k-cg { width: 8px; height: 8px; border-radius: 50%; border: 1.4px solid var(--sf-ink); background: #fff; }
+.sf-key .k-za { width: 14px; height: 10px; background: var(--sf-green); border-radius: 2px; }
+.sf-tip { position: absolute; z-index: 5; max-width: 250px; padding: 9px 11px; background: #fff; border: 1px solid var(--sf-ink); box-shadow: 0 6px 18px rgba(0, 0, 0, .12); font-size: 13px; line-height: 1.35; pointer-events: none; }
+.sf-tip b { display: block; font-size: 14px; }
+.sf-tip .t-n { display: block; margin-top: 2px; font-family: var(--sf-serif); font-size: 20px; font-weight: 700; color: var(--sf-green); }
+.sf-tip .t-s { display: block; margin-top: 3px; font-size: 11.5px; color: var(--muted); }
+
+.sf-side { border-top: 1px solid var(--sf-ink); }
+.sf-tabs { display: flex; border-bottom: 1px solid var(--rule); }
+.sf-tabs button { flex: 1; border: 0; background: none; padding: 11px 6px 10px; font: 600 13.5px/1.2 var(--font); color: var(--muted2); cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -1px; }
+.sf-tabs button[aria-selected="true"] { color: var(--sf-ink); border-bottom-color: var(--sf-ink); }
+.sf-panel { max-height: 640px; overflow-y: auto; }
+.sf-row { display: grid; grid-template-columns: 22px minmax(0, 1fr) auto; gap: 2px 8px; align-items: center; width: 100%; padding: 9px 2px; border: 0; border-bottom: 1px solid var(--rule); background: none; text-align: left; font: inherit; color: inherit; cursor: pointer; }
+.sf-row:hover, .sf-row:focus-visible, .sf-row.sf-hot { background: #f3f8f5; }
+.sf-row .r-i { font-size: 12px; color: var(--muted); text-align: right; }
+.sf-row .r-n { font-weight: 600; font-size: 14.5px; }
+.sf-row .r-v { font-family: var(--sf-serif); font-weight: 700; font-size: 15.5px; }
+.sf-row .r-bar { grid-column: 2 / 4; height: 5px; background: #eceae4; border-radius: 3px; overflow: hidden; }
+.sf-row .r-bar i { display: block; height: 100%; background: var(--sf-green); border-radius: 3px; }
+.sf-row .r-s { grid-column: 2 / 4; font-size: 11.5px; color: var(--muted); }
+.sf-reg { margin: 0; padding: 12px 2px 4px; font-size: 11.5px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--muted2); }
+.sf-mrow { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; width: 100%; padding: 7px 2px; border: 0; border-bottom: 1px solid var(--rule); background: none; text-align: left; font: inherit; color: inherit; cursor: pointer; }
+.sf-mrow:hover, .sf-mrow:focus-visible, .sf-mrow.sf-hot { background: #fff8e6; }
+.sf-mrow b { font-size: 14px; font-weight: 600; }
+.sf-mrow span { font-size: 12.5px; color: var(--muted2); }
+.sf-mrow em { font-style: normal; font-size: 12px; color: var(--muted); white-space: nowrap; align-self: center; }
+
+.sf-notes { max-width: 760px; margin: 34px auto 0; padding-top: 14px; border-top: 1px solid var(--rule); }
+.sf-notes h2 { margin: 0 0 6px; font-size: 13px; letter-spacing: .1em; text-transform: uppercase; }
+.sf-src { margin: 0; font-size: 13.5px; line-height: 1.55; color: var(--muted2); }
+.sf-src a { color: inherit; }
+
+@media (max-width: 900px) {
+  .sf-body { grid-template-columns: minmax(0, 1fr); }
+  .sf-panel { max-height: none; }
+}
+@media (max-width: 620px) {
+  .sf { padding: 18px 16px 36px; }
+  .sf-head { text-align: left; }
+  .sf-stats { justify-content: flex-start; }
+  .sf-stat { min-width: 0; padding: 10px 8px; }
+  .sf-stat b { font-size: 22px; }
+  .sf-stat span { font-size: 12px; }
+  .sf-ctrl { flex-direction: column; align-items: stretch; }
+  .sf-seg { align-self: flex-start; }
+  .sf-go { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 2px; }
+  .sf-go button { white-space: nowrap; }
+}
