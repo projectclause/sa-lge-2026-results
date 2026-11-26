@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T23:27:23+02:00",
+  "updated": "2026-11-26T23:32:15+02:00",
   "people": {
     "elon-musk": [
       {
@@ -9,16 +9,16 @@
         "t": "2026-11-26T23:01:35+02:00"
       },
       {
-        "h": "Musk pledges two SpaceX shares for every US child",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOallsaGNFV2ltRll3MlRUYkc2dW1ON19FOUYwVzhETGhkY1lYa3h0b0RrMklHNUtKdU8yc0RWck9hT3JUb1ZJQUNjSFl2bm1fekIta3R6eW45M2xEX3FTV3llVGVoRG5rYU5GUGViMi1idXp3aGNIZUJHVE1La2lLdmd3cWwtRDhNSmlsY2FFdGZhRG1uWnk2akgyU0dvazjSAZ8BQVVfeXFMTmpZbGhjRVdpbUZZdzJUVGJHNnVtTjdfRTlGMFc4RExoZGNZWGt4dG9EazJJRzVLSnVPMnNEVnJPYU9yVG9WSUFDY0hZdm5tX3pCLWt0enluOTNsRF9xU1d5ZVRlaERua2FORlBlYjItYnV6d2hjSGVCR1RNS2tpS3Znd3FsLUQ4TUppbGNhRXRmYURtblp5NmpIMlNHb2s4?oc=5",
-        "src": "Al Jazeera",
-        "t": "2026-11-26T22:20:34+02:00"
-      },
-      {
         "h": "Can Elon Musk really put AI datacentres in space? - The Latest",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTk5xVGhiS1JwU3E5a2ptd0hOY1BGdEJWQUdjWVhEZlh1UmZHNXpTNUhsYlFhOE80MHA2RmwtTmc5X1FwYzlkRnVyZEFLMC14SmtlOHcxTy1ib0c5UFowUDY2TEUtV0JGcGVGYzBucTg5amRpVjZfZ3V4OG0yTnE5S1JnbU5ZTFdzN1FJZHR3VDlCOHFydXFxQ2I1UlgtZTlRb3FVLTBSYVJ6NlNod0xn?oc=5",
         "src": "The Guardian",
         "t": "2026-11-26T20:35:00+02:00"
+      },
+      {
+        "h": "How Elon Musk paved the way for Jensen Huang’s return",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMHdOZ2dnTzhpU0U1a0dWU3cwdjdVNUdPZ1ZNV0oweDMyQUJOa2xSMGNZb18wa2hhUUpEbUpHc2RLZEJ1ZXpfSGpTeVdMUnNiYXFvcDM4WnlSVHJFQW1Ubk1pX25SSmFvSHFqSHFxU1pPWVlTWDBET0pNRW1pcHBySnYwcTkyMnNDQUVQbjM5S0ZkbGhmMi02VzlTWm9MSEE?oc=5",
+        "src": "The Washington Post",
+        "t": "2026-11-26T20:00:00+02:00"
       }
     ],
     "trevor-noah": [
@@ -35,10 +35,10 @@
         "t": "2026-11-17T15:00:00+02:00"
       },
       {
-        "h": "Trevor Noah Earns Grammy Nod for Joy in the Trenches",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQzA3MllqeEdLYnp3N0MtSV9aaE1sLUpEbDByUlplSThWRmFENmNzTUJkRnpkZHFGazhKT3hBeVdhSzQ3M3JHZFFtSUV5d0xUTFdtenVVaDYxR2dnVEVXSXNiRnVsWXdCV1JyWlFZMU9PVmx6SEFnQWZxNmdTNHZvN085bm5ablhWUEJ4S3dlVjJBSnJZZmc?oc=5",
-        "src": "Wisevoter",
-        "t": "2026-11-17T13:22:47+02:00"
+        "h": "Trevor Noah scores 5th Grammy nomination for Netflix comedy special",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUVd5b0RYcmFGRTNmVzQtSzB6S0g3ejZGaGJSdVNZbGlfNWJBclpwSjBCY0dtZG9ON2piYnh2VGRrcDFiZ192WWt5dm9xcl9PTnplZzI2aEV4bzVCV2lsVDVzZnlPeDZzVGFvYzRGWERtUGp2clVaQlNJSnRGVy11NmlvTXpqWDNlNmhJemw1dWRRSUtoZU9NTDF6QnVfYjJuckwtV1FlM3dyRldrVnBCb1JSYU9tNU9JaTJXQU4zYks?oc=5",
+        "src": "Briefly News",
+        "t": "2026-11-17T14:50:10+02:00"
       }
     ],
     "peter-thiel": [
@@ -55,10 +55,10 @@
         "t": "2026-11-26T20:36:42+02:00"
       },
       {
-        "h": "PLTR Stock $163.59: Palantir Up 14% Since Thiel’s $122M Buy",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMVI3Wk9VT0R5eEdqN01OS2tBMllkVzVkc2Y2akpQQkh1bXlJWFduZEU3b0l0N0FhcDBoTlNBT3JiN09qd0ptMWFzNVJBLTEzUk5mY3lqSTUyMHMwXzQ4YzQ3eDQzN0J5X29EZjBVYXktTEw0SnR6c0FsOEZmYzgyb0VGNWtKUjhENEwta1NnOGpLVVJBOHFVSDBqajNyLU9fS0RZV21VdmlTRHkw?oc=5",
-        "src": "FinanceFeeds",
-        "t": "2026-11-26T15:20:50+02:00"
+        "h": "PETER THIEL BUY ALERT $PLTR The Co-Founder of Palantir r",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wZEd3dzg5aTJIVmtpSkJDUGVHWTliOUZ4STE4QUdCVEg3MTdHTUhrMHNKMm1aaU9NSkNEWGw0VUNJY0JqeGNIQU42SVZxQmFXMm8wb2Y0b0IwWXlpTDNDSFY5aEJGMTZpcUZRTXJTTjZ6QQ?oc=5",
+        "src": "KuCoin",
+        "t": "2026-11-26T16:15:05+02:00"
       }
     ],
     "thuso-mbedu": [
@@ -360,7 +360,7 @@
         "h": "‘Giving is not charity, it is justice’: Judge Navi Pillay challenges corporate South Africa at UKZN Gala",
         "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVWVETXQ1RzMxT3RrN25wSUl4Z0EtOHNCRnpSRHNFRW1Rdnc3VVl0cF8zZGpZdVpMa2p2UGhFQ2xKWHJuODVGZ0dJbWpmSDFsbnRMcHlBUHE5ZDFHdDh6R0NaN19jRElVZXBpV2Vidnc0LWhFSjI0a2Y0VTlQZVUzZGozSFY1SFBKVnlFT25UbXB2Vi1Rb052R0sxLWM5X3JuR1RkTjNRM0VvU2hCVDZwTDNnVlJlcm1iSWNuWUo4dHBFTHk4X0xTUDRwLWF2b3RVVy1aNkJrVWZuOVJ2bFE?oc=5",
         "src": "IOL",
-        "t": "2026-11-26T20:17:00+02:00"
+        "t": "2026-11-25T10:00:00+02:00"
       },
       {
         "h": "Nobel Peace Prize winner Navi Pillay to address UKZN donors in Durban",
@@ -394,6 +394,26 @@
         "src": "The Guardian",
         "t": "2026-09-18T09:00:00+02:00"
       }
+    ],
+    "arnold-vosloo": [
+      {
+        "h": "ARNOLD VOSLOO CONFIRMS RETURN IN “THE MUMMY: BOOK OF THE DEAD”",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVng4OUlRanoySnduVDhtYjRjU28zUEN6UElNVHpxMDZIenRxWE5FcXRMamZQUUQ3dlU5NHgyUkxjMWZpa1lfVHlkeVUxSWhVcU9UY2xQd1QtbGJrTFFVZ2NNZC1WN0xiMFVvVTBvZkpnVi1NRWdYTHp4Q05JQnh6a3ZBMVNJc0VsVGE0WWlYT0V0NVkyMWdv?oc=5",
+        "src": "Scream Horror Magazine",
+        "t": "2026-11-22T08:33:45+02:00"
+      },
+      {
+        "h": "The Mummy: Book of the Dead – Arnold Vosloo Returns as Imhotep, but Could the Book Itself Be the Real Villain?",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPUjZJajcwZEkteEF2ZlAyYkdRVGZfZzVZVVh5VW1EcDV6TjUtbXlZaGNrbl81VGxYUE5DVkVSaE1DX0k4QlRiQ25xd3ZJeGI1eURLYUpmSnROdXN3TExDYTFNLTlyWkxLNVNTVWFjcVpMX3BINnJLSGhUNjVBY2pTQnlZV2JXdk1kNGRBcTlKX3JlS2dNbWNUcm1SOGtxYkgtUTFHNGFLNlJZaDVqcU5IMXpyUThwcFBudzI3YnFVVGh6SU5hVnRQcF9EcEhMRHhPcE55am9ieFJ1dk81MmlZ?oc=5",
+        "src": "The Fan Carpet",
+        "t": "2026-11-16T10:00:00+02:00"
+      },
+      {
+        "h": "Sylvia Ahí: Arnold Vosloo Marriage, Separation and Divorce",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53NGFTaGJ4QVpVVm51dURwUEhiX01zeEtDVXVqd19XWjBlYXRmblhaS0pTQVdtbXNFaWo1LUYxR3RzOWNfY0pPRkN3dWc1amVPbzJWQQ?oc=5",
+        "src": "theflaremagazine.co.uk",
+        "t": "2026-11-14T10:00:00+02:00"
+      }
     ]
   },
   "week": {
@@ -419,6 +439,7 @@
     "lyndon-rive": 0,
     "kandyse-mcclure": 0,
     "navi-pillay": 4,
-    "jm-coetzee": 0
+    "jm-coetzee": 0,
+    "arnold-vosloo": 1
   }
 }
