@@ -45,7 +45,7 @@ def articles(q, days)
     t = (Time.parse(tag(b, "pubDate")) rescue nil)
     { "h" => tag(b, "title").sub(/\s+-\s+#{Regexp.escape(src)}\z/, ""), "url" => tag(b, "link"), "src" => src,
       "t" => t&.getlocal("+02:00")&.iso8601 }
-  end.select { |x| x["t"] && !x["h"].empty? && !x["url"].empty? && !(JUNK =~ "#{x["h"]} | #{x["src"]}") }
+  end.select { |x| x["t"] && !x["h"].empty? && !x["url"].empty? && !(JUNK =~ "#{x["h"]} | #{x["src"]}") && x["h"] !~ /\b(photos|pics|gallery|wallpapers?)\z/i && x["src"] !~ /[\p{Han}\p{Hiragana}\p{Katakana}\p{Hangul}]/ } # an English feed: sources named in CJK script are usually spam sites
 end
 
 # newest first, one per outlet, three in all
