@@ -35,7 +35,7 @@
         grid.innerHTML = `<div class="pl-voices">${ps.map((p) => `<button type="button" class="pl-voice" data-k="${esc(p.id)}" aria-pressed="${who === p.id}" aria-expanded="false">${face(p)}<span><b class="pl-nm">${esc(p.n)}</b><span>${esc(p.role)}</span></span><em title="Articles naming ${esc(p.n)} in the past 7 days">${week(p)}</em></button>`).join("")}</div>
           <p class="sf-kp-lbl">Latest${who ? ` <span>· ${esc(by[who].n)}</span>` : ""}</p>
           <ol class="sf-kp-list">${feed.map((a) => piece(a, !who)).join("")}</ol>
-          ${ps.some((p) => p.credit) ? `<p class="sf-kp-credit">Photos: ${ps.filter((p) => p.credit).map((p) => `${esc(p.n)}, ${esc(p.credit)}`).join("; ")}.</p>` : ""}`;
+          ${ps.some((p) => p.credit && p.img) ? `<p class="sf-kp-credit">Photos: ${ps.filter((p) => p.credit && p.img).map((p) => `${esc(p.n)}, ${esc(p.credit)}`).join("; ")}.</p>` : ""}`;
       };
 
       pills.innerHTML = REG.map((r) => `<button type="button" role="tab" data-reg="${esc(r)}" aria-selected="false">${esc(r)} <small>${P.filter((p) => p.region === r).length}</small></button>`).join("");
