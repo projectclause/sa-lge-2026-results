@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T21:21:18+02:00",
+  "updated": "2026-11-26T21:23:27+02:00",
   "people": {
     "elon-musk": [
       {
@@ -89,16 +89,16 @@
         "t": "2026-11-26T17:28:44+02:00"
       },
       {
-        "h": "Tyla and Nasty C $500,000 Feature Rumour: What Actually Happened",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQWJvODFLS1I2WElYMWZVYXVXclJ1ZW9USnNmSWJGNGRiempoQ2NScHl0S1lHSGVrLW9aYXdPcFQ0aXgtbVoyRXAzamNtbjdDSjk3QjBhb1lYa0wxVE02d1BHeUR1SHFDQm9pbU5PV05QUWJWTW1YN3FmeEdhUmVHM3Q1Zjl6U293QzNvUExvNzRUSmxyZVhIaldPOUZlLTlMdkJrRmVCRQ?oc=5",
-        "src": "Briefly News",
-        "t": "2026-11-25T21:46:57+02:00"
+        "h": "Tyla Sings ADÉLA’s “Nicole Kidman” During Boston A*POP World Tour Stop",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1BaG4ySU5WWi0zd2NrbUptbzVqTG5ZZU1KQW4zbTJTWVZqajNvN0VVTy0xS0VLVmI0OXpUdXFZNV9hcjR4VzcwZm1qYVFEQzlkREhHUWFsbGNEVDVzWklMT1lHSjBuR25CXzdUcGJHbUFqSG1ibVB6SQ?oc=5",
+        "src": "inmusicblog.com",
+        "t": "2026-11-26T17:24:02+02:00"
       },
       {
-        "h": "Tyla Calls Chicago One of Her Favourite Crowds",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBmTTVPU2JmbHl1QUlobDJxM0lQdjliVlFSLU5wQkRVenREX09qb1RUdG4wcGlQcmZXUV8xRjVFV0hHaEVJNExnMng4V0tINjFURWJLbU9zcEw3VGhSUWlWRTY4WG5aWVR0dkQ1ekFSSQ?oc=5",
-        "src": "HOLR Magazine",
-        "t": "2026-11-24T10:04:56+02:00"
+        "h": "\"I really want to know who the father is.\": AI fake sends Tyla fans guessing",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSVB5NnVhc1d3UXBUaWNyY2hnYktocy0xTjdjbkpyQ2M4MjhvRk56M3llUjFzU2MtbVg0UHlLMTdIWUJ3SlRGLUh6MjQ2ajZMRW80ME0ySzF3QlFQak02cVpsUnM2WTFsRUNWdEt0ZXBhNFQtZlE2QjA3SVB2T3NXS19rUnNPOWFuTUM3Ynd5M25sTDdBZTBzd2ltQXN6bjNNQktvX3E0VVY3cFlmajk3Wng0SHc1NEpQSFRVUmRLSEI?oc=5",
+        "src": "Briefly News",
+        "t": "2026-11-26T09:56:59+02:00"
       }
     ],
     "roelof-botha": [
@@ -184,18 +184,28 @@
       }
     ],
     "willem-van-biljon": [
-
+      {
+        "h": "Willem van Biljon joins Takealot as co-CEO",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQUY5emZ6cWJtTmRQSDZZMVN3VEJULVo0OEhQenAtNGhJY1hGQ09QaGY5eEUybkMwaGxmbm9fY3g5NnBlQWpVUGJRZV9OYl9OTkV2TjdhdVJlQWE0UF96WlJPQ3B3MUVsU1UtYW83cnJjendhUnlfYkJNM0Q2WHRNYkxR?oc=5",
+        "src": "TechCentral",
+        "t": "2014-06-02T09:00:00+02:00"
+      }
     ],
     "pieter-de-villiers": [
-
+      {
+        "h": "Pieter de Villiers creates bars of happiness",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN1Bha1JGUmFxbkN2SVgzYVpiekRMOTdjOUxIbHk0ZHR0RkNFUm5kV3A1OW8yZEVWSHFIcXVlbHcwSE9TcUZGeGhsSHFyaG9Sb1dVcjdQRmNtY21LTFlZdUMybEg0UldPVGNXY2dYSDJPVXpVZTZLZGZIRjNZeElCWHgzRkpVRDRRWmVGUk5UWjJVSWU2YktBSGhDTlI?oc=5",
+        "src": "Daily Maverick",
+        "t": "2020-10-16T09:00:00+02:00"
+      }
     ]
   },
   "week": {
     "elon-musk": 92,
     "trevor-noah": 1,
-    "peter-thiel": 38,
+    "peter-thiel": 34,
     "thuso-mbedu": 3,
-    "tyla": 5,
+    "tyla": 11,
     "roelof-botha": 2,
     "black-coffee": 5,
     "david-sacks": 1,

@@ -38,7 +38,8 @@ JUNK = /net worth|MRC Video|mp3|download|lyrics|wikipedia|\A(19|20)\d\d |tickets
 
 out = { "updated" => Time.now.getlocal("+02:00").iso8601, "people" => {}, "week" => {} }
 def articles(q, days)
-  xml = get("https://news.google.com/rss/search?q=#{CGI.escape("#{q} when:#{days}d")}&hl=en-ZA&gl=ZA&ceid=ZA:en")
+  q = days ? "#{q} when:#{days}d" : q # no days: any time, for people with no recent coverage
+  xml = get("https://news.google.com/rss/search?q=#{CGI.escape(q)}&hl=en-ZA&gl=ZA&ceid=ZA:en")
   (xml || "").scan(%r{<item>(.*?)</item>}m).map do |(b)|
     src = tag(b, "source")
     t = (Time.parse(tag(b, "pubDate")) rescue nil)
@@ -61,6 +62,7 @@ PEOPLE.each do |p|
   top = pick(week)
   top = pick(week + named.(articles(p["q"], 30))) if top.size < 3 # a quiet week: fill from the past month
   top = pick(top + named.(articles(p["q"], 365))) if top.size < 3 # a quiet month: fill from the past year
+  top = pick(top + named.(articles(p["q"], nil))).first(1) if top.empty? # nothing this year: their last report, whenever it was
   if top.empty? # keep the last good list if the feed fails
     top = old.dig("people", p["id"]) || []
     out["week"][p["id"]] = old.dig("week", p["id"]) || 0
