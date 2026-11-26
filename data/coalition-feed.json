@@ -5986,7 +5986,8 @@
     {
       "k": "BLACKPEN",
       "n": "The Black Pen",
-      "badge": "BP"
+      "badge": "BP",
+      "logo": "blackpen"
     },
     {
       "k": "IND",
