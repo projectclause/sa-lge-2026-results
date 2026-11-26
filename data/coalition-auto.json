@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-26",
-    "time": "01:55"
+    "time": "03:23"
   },
   "items": [
     {
@@ -988,6 +988,18 @@
       "src": "IOL",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLUR1a09HanBUVmF1Unh3dkFDNEtSc0tyX29HbmRNeUNUVm1NdGlQOVExcHMtVWQ0T2c1REVabjc2UlB2b1hPcDYxdGlFV2ktczZ4cFdYUGstbXVJUk9WcjVHY25wQ1czOVRjZ2p1OENYYXFLR0d3TnlBNFJXT1BjVWZDQnFhd1hGWGhaeW5sR0NoQjE4OEEzblVheERLNDBqdkR3bGZ3bXIwV3pyWHc?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-664049db17",
+      "j": "geordin",
+      "d": "2026-11-24",
+      "kind": "Article",
+      "place": "Cape Town",
+      "h": "Hill-Lewis puts DA's township gains at centre of second term as opposition demands delivery",
+      "s": "IOL reports Geordin Hill-Lewis put the DA's township gains at the centre of its second term, while the opposition demands delivery.",
+      "src": "IOL",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZTlFTmtEMzZvblBobTNFajl6UDNzRkxGTmpFeERnT2dObmZ1QTdLQktjOC1oa3hIS2E4ODY3V1p2OHY5cm93b01PZDQtc1BQVTJSZk9xRGZoV05qTDdzeFpVcDlQT1JoU1haX3Vpa1Y2S05CZlFKOC1nY2ZZQUNwNThma0VQYVVGR3FUN0xPVHo3QjhCNzJVODZmTEVrNENVUnE1cjhwOS1rd0hWb2xLdncyZDgxOGNxdHJfZUVzdUN0YXkxZFhlSmc1VlcycXlQ?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -1463,6 +1475,12 @@
         "h": "TIM COHEN: Why business is furious with Herman Mashaba",
         "d": "2026-11-26",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTVRma2pQUmNuYVYyVHJCajRNb3F2czlpTVBqVEZlWVpzdW1uZTBWU0JGTDhxb2IzZVM3LXdmamZxOUp1T3dLOGExOHhPUGIxUERqLWFlVmwtaTZNZEVKaV9nNlFwbnNFeUhuUUhYdFl2NmF1bTZ4Y3UyWEREMGN0NG96TnVmSW91X1U1SXV6SDhkZW5k?oc=5"
+      },
+      {
+        "src": "IOL",
+        "h": "DA dismisses Zille swap speculation as ANC, ActionSA move close to coalition deal in Joburg",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQekY3dUNHV3hpMW45VUxnUHBZcHM1T29tc3VFVjN1cE5DanBaVC01VnJKaExxSTRHWk1aSnlNZ2VWZWVmOWVVbHZuU3JuU0UtazJ5bXFCZUYteUlpWmhOQUZId2Zvazc3TW1SZVdIbVVSMWl2SThBNlFUZndIRDJXcjFxSThEVnpNX3BJckozSkhiMW1qTTBGUV9OVG8tQV9yZy1abDVIX2RYUGtzWDJ5bWF4TDNHVVRjZHR5YzhDMVBJX25tQlkxOE80ejFsMHc?oc=5"
       }
     ],
     "councils": [
@@ -2526,6 +2544,12 @@
           "h": "DA and ActionSA strike six-party coalition deal in Nelson Mandela Bay",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4dzdOektuOVhEdGIzbHdVdXFWd2xXNWZnbXhmRWMtNmRzcE1Qd1dJUkNFZXQtRE9CZTVUUVdQLUN0LURpeXozcDlXRHJlTHlzQ19LTVdGREoxb0M4LWVn?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "Who will govern Buffalo City after the ANC loses its majority? Experts weigh in",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQ1l6ckxIS3NyZFhiUTNvSHNHekZiYlJTZnlIMDN6N0ZXdjhGNF9CYWJXYm1GX0daSk1BdW4zOFJNSjZ5R2JSRVhUNG1GSlQweWlmT0pqRTRhaUZ0YTVXbVkxdmc2N0gtdHJqejd0MmttMEhOZnFsUVlXNjlHV2NtemZuaEVHRGNxUG14TVFSQldyb0IzanhXVWQzZzNacUtHT0tQSktmZF8xTHFYRHZybVhXZm9RbHM?oc=5"
         }
       ],
       "sec": [
@@ -3244,7 +3268,8 @@
       "id": "auto-cape-town",
       "items": [
         "a-259df6a8cb",
-        "a-ac4f73464d"
+        "a-ac4f73464d",
+        "a-664049db17"
       ],
       "coverage": [
         {
@@ -3833,6 +3858,9 @@
     "a68f713f6f6b",
     "127b929fcf83",
     "7fefc5168580",
-    "ebf6b43595d4"
+    "ebf6b43595d4",
+    "ab5ecc1f5f81",
+    "3701ffd1f8de",
+    "664049db173c"
   ]
 }
