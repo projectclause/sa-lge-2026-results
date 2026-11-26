@@ -70,6 +70,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
   const HOW = `<div class="pl-how" role="dialog" aria-label="How we rank voices" hidden>
       <button type="button" class="pl-how-x" aria-label="Close">×</button>
       <div class="pl-how-new" hidden><p class="pl-how-h">New</p><p>Published a piece on the coalition talks today. The tag clears at midnight, South African time.</p></div>
+      <div class="pl-how-yt" hidden><p class="pl-how-h">YouTube views</p><p class="pl-how-ytt"></p></div>
       <div class="pl-how-pb" hidden><p class="pl-how-h">Public Broadcaster</p><p>South African Broadcasting Corporation (<a href="https://www.sabc.co.za/sabc/about-us/" target="_blank" rel="noopener">SABC</a>) is South Africa's national public broadcaster.</p></div>
       <div class="pl-how-c">
       <p class="pl-how-h">How we rank voices</p>
@@ -90,9 +91,11 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
     const open = (el) => {
       if (from === el) return close();
       from = el; el.setAttribute("aria-expanded", "true"); box.hidden = false;
-      const note = el.dataset.note, pb = note === "pb", nw = note === "new";
-      box.querySelector(".pl-how-pb").hidden = !pb; box.querySelector(".pl-how-new").hidden = !nw; box.querySelector(".pl-how-c").hidden = pb || nw;
-      box.setAttribute("aria-label", pb ? "About the public broadcaster" : nw ? "About the New tag" : "How we rank voices");
+      const note = el.dataset.note, pb = note === "pb", nw = note === "new", yt = note === "yt";
+      box.querySelector(".pl-how-pb").hidden = !pb; box.querySelector(".pl-how-new").hidden = !nw; box.querySelector(".pl-how-yt").hidden = !yt; box.querySelector(".pl-how-c").hidden = pb || nw || yt;
+      if (yt) { const u = (D.youtube_tv || {}).updated, t = u ? new Date(u + "T12:00:00Z").toLocaleDateString("en-ZA", { day: "numeric", month: "long", year: "numeric" }) : "";
+        box.querySelector(".pl-how-ytt").textContent = `Last updated ${t}. Views on the channel’s videos posted in the 7 days before then, from YouTube’s public channel feed. Channels that post more than 15 videos a week show at least this many.`; }
+      box.setAttribute("aria-label", pb ? "About the public broadcaster" : nw ? "About the New tag" : yt ? "About the YouTube views" : "How we rank voices");
       const phone = matchMedia("(max-width: 720px)").matches; bg.hidden = !phone;
       box.classList.toggle("sheet", phone);
       if (!phone) {
@@ -180,7 +183,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
     // a pill on each YouTube TV card: views on videos posted in the past 7 days
     const V7 = (D.youtube_tv || {}).views7 || {};
     beat.querySelectorAll(".pl-voice").forEach((c) => { const v = V7[c.dataset.k], t = c.querySelector(":scope > span");
-      if (v && t && !t.querySelector(".pl-ytviews")) t.insertAdjacentHTML("beforeend", `<i class="pl-ytviews">Views, last 7 days: <b>${esc(v)}</b></i>`); });
+      if (v && t && !t.querySelector(".pl-ytviews")) t.insertAdjacentHTML("beforeend", `<span class="pl-ytrow"><i class="pl-ytviews">Views, last 7 days: <b>${esc(v)}</b></i><span class="pl-i" data-note="yt" role="button" tabindex="0" aria-label="When these views were last updated" aria-haspopup="dialog">i</span></span>`); });
     const wrap = beat.querySelector(".pl-vgrid"); if (!wrap) return;
     wrap.querySelectorAll(".pl-ytlock").forEach((x) => x.remove());
     const cards = [...wrap.querySelectorAll(".pl-voice")];
