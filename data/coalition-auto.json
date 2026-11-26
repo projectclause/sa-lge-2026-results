@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-26",
-    "time": "11:16"
+    "time": "12:24"
   },
   "items": [
     {
@@ -1096,6 +1096,42 @@
       "src": "newsday.co.za",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORUc4NElkanV4Rnk5SDI0SzRjcG1KVWZxQmRWSHhFbHpMblp1LVJibDhUZ0VkeWRlekRiNnFWVWF3dndEWUd1TmpnNG1PcUkzRDlTZk5Eb09aa0ZHUlQwbHBzVmg1eEtpdW9zTXEtZFhaM2p3ZmcxampaRXFfbVhBWHNza0t5OWRrNjRXQnhjak9SaTBWbXAwNGRhaW9jVnhPNGxQeHE0RQ?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-bf2ecd0362",
+      "j": "herman",
+      "d": "2026-11-26",
+      "kind": "Article",
+      "place": "Tshwane",
+      "h": "Mashaba tips Moya for Tshwane mayor return in coalition shift",
+      "s": "Townpress Newspaper reports Herman Mashaba tipped Nasiphi Moya to return as Tshwane mayor in a coalition shift.",
+      "src": "Townpress Newspaper",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOd01WeXJTZ2luclhCdGpDbW82VjJsWFl5REhtLVV3eE1OWjJfdnlrUGZhYW80WjhnSnN6TTdVRlVJOGNoazV3MWZhendBYnl6X3FqSktSNDR0ZnFyS0ZUMXA0VUtSZlVqM2FxNUk4MUpNaHVCU3prUU5OblpyWUJ6N2NiZGt2UG1lQnByTWlFdw?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-d046c38b86",
+      "j": "zizipho",
+      "d": "2026-11-26",
+      "kind": "Video",
+      "place": "Mandeni",
+      "h": "Did EFF betray MKP in Mandeni?? 🚨🚨",
+      "s": "Zizipho Lubelwana asks whether the EFF betrayed the MK Party in Mandeni after the EFF secured a deputy mayor post in KwaZulu-Natal.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=6E-edL4yUY0",
+      "auto": true
+    },
+    {
+      "id": "a-5ada39e348",
+      "j": "michael",
+      "d": "2026-11-26",
+      "kind": "Article",
+      "place": "Johannesburg",
+      "h": "Beaumont says DA recommended Sibiya, challenging Zille’s claims about Malema and Mashaba",
+      "s": "IOL reports Michael Beaumont says the DA recommended Sibiya, challenging Helen Zille's claims about Julius Malema and Herman Mashaba.",
+      "src": "IOL",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9lSmdjMzYxVVZFdmN2ZVVBMkp5WjgyUEd2QzVuMmkxZ1pnT3NMSzFLbFdIb0Y1RWlmMGVGanpab29ZZlVoaU1qa0NJYUJpUXF5VGlENEJJTEZfdVAxbEE?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -1152,14 +1188,16 @@
     "tshwane": [
       "a-d028b4fa30",
       "a-b9832fe12a",
-      "a-77f01ea28d"
+      "a-77f01ea28d",
+      "a-bf2ecd0362"
     ],
     "grand-deal": [
       "a-4aa7f8b650",
       "a-7f1f32e7d4"
     ],
     "councils": [
-      "a-64a1073ca4"
+      "a-64a1073ca4",
+      "a-d046c38b86"
     ]
   },
   "coverage": {
@@ -1637,6 +1675,12 @@
         "h": "ActionSA takes News24 to Press Ombudsman over allegations against Herman Mashaba",
         "d": "2026-11-26",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObHRFWVQxOHVBY0QtcVZmTXo0NkF6bEZURVRTNVJHSmVmOWZwRkh0WExYTktqX3BaT3VWSHI2Rnd5dnRMQ1lmbnhhVmFISDdVdW5hSzg3bFA5MmFGZTBCcjJZaUJZbE8zU2ZrVXZFQnJWNTUxdUxEcG9rNFZCNlJtWTdqQVFGSXppN3pOQnhCQWtHcmdMaVdHNzRxbG1abzE3bmp0c3ZITQ?oc=5"
+      },
+      {
+        "src": "sundayindependent.co.za",
+        "h": "Johannesburg mayor to be elected on Friday following councillors’ swearing-in",
+        "d": "2026-11-24",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTGdTX25ITnlkN09RVnR4ZGFaSTJNMFpXckdLbG5rZlRlTmptejZEdF81d056NzlKUkpXLU5ESG0tUE1TZVd6SFBxb3NYck00b2lCVjFOa1JfdVAwbTBBN3pMNFBBQWFjWFFyRnpQYTZDOTZ4SlR2SXNBdWZLWlBrVlJzLWR2NlgwcFlZdHpSd09rRVQyY2lzaVFDVi10Vk4yeHNaLU1lanNkNFY4blFraF9LQmp5czBjdHZPSHlpVjh2dlJBSU9Z?oc=5"
       }
     ],
     "councils": [
@@ -1741,6 +1785,12 @@
         "h": "ANC aligns with MK, EFF and ActionSA in Mpumalanga councils",
         "d": "2026-11-26",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZW5OMm9tVjlDenlKSjg1S1R0WndfcmQyYVZGXzc2MWNuekhRaTRaQ1hJM0FHQ01SRGI4TnpOTmVfSG15RjlrT2tkQkJZaGU4MkF5bVBmaEFQcFZXbE9ISW1SNnlNUnp1c0UtWHBicThpbDJuRWRuV21pNEgwaUo4RVBmdnFrSGlZN05rTHl6ZUJlV1JLUE43NGdmTy1YcFphX2MwVmxQYXZUVU5rM1NhcEVR?oc=5"
+      },
+      {
+        "src": "SABC News",
+        "h": "First ANC-MKP coalition takes control of uPhongolo Local Municipality",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNLUZ5Z3YxaERlS2tvQ3JkSl9oeGVjTjVwbVVkSHUwNVZCcm9qYktEdEN0ckpVZmZDbzlmN2FPS1BwNUJINDYtZTFKOHdiT2FBTmVocHdlTnI0WEY5Zlh1a3poTEQxODhsd09LSVh6Y1lBZVpHZjM4OFNHaDdEdVB2aWhRTFJQZUpUZ3J3V0RybkoxcWxKek9tcVpoaEZIQm9JMmRfRmplbw?oc=5"
       }
     ],
     "tshwane": [
@@ -1791,6 +1841,12 @@
         "h": "WATCH: EFF’s Omphile Maotwe poised to become Tshwane deputy mayor as Mashaba backs Moya for another five years",
         "d": "2026-11-26",
         "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOb1ZSeEgzZnpPRWFNbk1WSlh6enVoaEd1UGFIemJrNnNYV3NVUGEyME03SzdyQTVyVVQ4OTllVU15bnc4dmN0Y25sM1hZM1p3Vk5XT1BoWE56TTBrVnBSRklUUlhOVlZtNGsxTkZITkVkR0hmXzVvTmdLN0R1U1BRdjRZRnh6ZFRWTklGbnNPQy1BUXlrVlhfYnR5MExsdXJhMFNhdGkwWFMxd1l1RGNrQnB2RXd3WmpVYk9Mck9JU0JIcHBDZExPRURSWExLd3dibFRkcVNkRHUyWGh1Z3VV?oc=5"
+      },
+      {
+        "src": "EWN",
+        "h": "ANC, ActionSA, EFF, MK Party reportedly reach Tshwane coalition deal",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWE9WcnUyX3lJNG9WVkFqbzVTQTc5UEhObDFGNW1YQnZUem1kNEV4ckY0X2xQN1NJVXVqQkN3ZTJFdUpSTmRFTVAweExWcm9EOEZBT2lnUUpSSGVnRFdYTTE4WjdnWEtSMW1yZ3VRNEZGMjN6bjEyQnZVdlduMGJWMUNtTGJmWlVqOXNhS0NnVlRlMm0tZ3VYalpxaDJBMGs?oc=5"
       }
     ],
     "actionsa": [
@@ -2146,10 +2202,10 @@
       "dek": "eThekwini’s inaugural council meeting adjourned on 24 November without electing a mayor, deputy mayor or speaker, and IOL reports the council will reconvene on Friday to do so. IOL and Briefly News report the ANC and MK have reached an eThekwini agreement, and IOL reports the ANC is seeking two of the top four positions.",
       "brief": [
         "Several outlets report the council adjourned without filling a leadership position to allow coalition talks to conclude; IOL reports it reconvenes on Friday to elect a mayor and speaker, and The Mercury reports parties were divided over postponing the mayoral vote.",
-        "Central News South Africa reports the EFF welcomed the adjournment, and DailyNews reports ActionSA rejected DA pressure over the eThekwini coalition.",
+        "Central News South Africa reports the EFF welcomed the adjournment, DailyNews reports ActionSA rejected DA pressure over the eThekwini coalition, and The South African reports the IFP and EFF mayoral hopefuls will not take up their council seats.",
         "eNCA reports the sitting went ahead despite a KwaZulu-Natal Cogta directive to delay it, which IOL, DailyNews and the Sunday Tribune report the city manager challenged.",
         "IOL reports the ANC and MK sealed an eThekwini deal and that the ANC seeks two of the city’s top four positions; Briefly News reports an agreement was reportedly reached, and EWN reports the parties were coy at the sitting.",
-        "The MK Party says its mayoral candidate has an “unblemished record”, IOL and The Mercury report."
+        "The MK Party says its mayoral candidate has an “unblemished record”, IOL and The Mercury report, and IOL reports mayoral candidates are pitching coalition stability."
       ],
       "auto": true,
       "id": "ethekwini",
@@ -2540,6 +2596,18 @@
           "h": "eThekwini coalition talks intensify ahead of inaugural council sitting on November 24",
           "d": "2026-11-24",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeDU0VjdPdzdCV0o2NmJNS1ptTjU1YWhJYVdGUlBFaFEwYXhSNFFlc2xiSHNWVGM2RjJuQk9SOW1MS0EyUkFkWGs4dnJQTFA0cE1SV2ktdmpycVBlaHlKU0REbEZ4dV9FOTc2UU5hSEpqa0ZiVlRKM0cyTmRZQmNXT29Denh6NW9IZWxwbVFwaWkxUmtqUDNtTTdISnZnYzh4UFRFZFl5Qlo4OGpNU0dIOURIdHFEX1hOaV9ZVXA0QWM2OS1femxCamhZRVF5NmtVNFFz?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "eThekwini mayoral candidates pitch coalition stability ahead of elections",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeFBFVkZrOElMYTZyVzZCNFFPR2h0RWVLVUVINHc0QlF3LTRGajVqaS11b2FNYUZfSkN5Q3FNVXc4VW5QRmVnMUtjZDc5MERiWjhTTFdDLW1KTnVFcjg0MENlUnJPZDFVS0V3X2lHcEwxUDRsbzliWS01aG9hb0ZVb043Rmh6SVRZcXE3QWZYdzFHUnBKOUNlTzZNNTZ3UHdxb0I1aF9iT0E4RU1pczFMVlk2c2QzaC1UVWc?oc=5"
+        },
+        {
+          "src": "The South African",
+          "h": "IFP, EFF mayoral hopefuls won’t take up eThekwini council seats",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUjctTjVZQ2ExUjhMaU1OdGdwQm1PNDlnZUJxNTdWX2VuMmV0U2o3dkN2MUFiTnZSa3ZyLWtmWXBJT3NzcGE3eHBwZ1FDMUxnUXU1X2RndkFyeWFmQ243RGFZcVFqa0xDMk9DcjZhTmpXQnZraDRZMnZ1LWktWU9PUHAyOEZmUi1jSnM0SWNnNEFTSFhvS2lmd1VMX3F0TG90enFYQU5ndnpyY0Iw?oc=5"
         }
       ],
       "sec": [
@@ -2833,19 +2901,20 @@
       "cat": "Johannesburg",
       "place": "Johannesburg",
       "h": "Malema awaits judgment in his bid to gag Zille over her Joburg claims",
-      "dek": "EFF leader Julius Malema went to court to stop DA mayoral candidate Helen Zille repeating claims about him, in a dispute linked to the Johannesburg coalition fight, and the court reserved judgment. Zille refused to retract, and Briefly News and Central News South Africa report a 2016 email that they say contradicts her claims.",
+      "dek": "EFF leader Julius Malema went to court to stop DA mayoral candidate Helen Zille repeating claims about him, in a dispute linked to the Johannesburg coalition fight, and the court reserved judgment. Zille refused to retract, and Briefly News, Central News South Africa and IOL report Michael Beaumont challenging her claims, including with a 2016 email.",
       "brief": [
         "Briefly News and the Mail & Guardian report Malema sought an urgent interdict to gag Zille over her Joburg claims.",
         "IOL reports Malema demanded a retraction and apology and threatened R1m defamation action; IOL also reports Zille said no.",
         "News24 reports Zille fought the gag bid using Malema’s own words, including 'we were controlling him'.",
         "IOL reports the court reserved judgment, and eNCA reports Malema is awaiting the outcome.",
-        "Briefly News reports Michael Beaumont shared a 2016 email that he says contradicts Zille’s claims, and Central News South Africa reports the leaked email contradicts her claims linking Malema to Sibiya’s Joburg appointment."
+        "Briefly News reports Michael Beaumont shared a 2016 email that he says contradicts Zille’s claims, Central News South Africa reports the leaked email contradicts her claims linking Malema to Sibiya’s Joburg appointment, and IOL reports Beaumont says the DA recommended Sibiya."
       ],
       "auto": true,
       "id": "malema-zille-court",
       "items": [
         "a-e5a4a61bd8",
-        "a-331e0064cd"
+        "a-331e0064cd",
+        "a-5ada39e348"
       ],
       "coverage": [
         {
@@ -3633,9 +3702,10 @@
       "cat": "Beyond the metros",
       "place": "North West",
       "h": "The EFF wins its first mayoralty in Lekwa-Teemane as a Madibeng plan sidelines the ANC and ActionSA",
-      "dek": "Newsnote reports the EFF has secured its first-ever mayoralty, with Justice Dabampe taking charge of Lekwa-Teemane Municipality. The Citizen reports the ANC and ActionSA face exclusion from a Madibeng leadership plan.",
+      "dek": "Newsnote and Central News South Africa report the EFF’s Justice Dabampe has taken charge of Lekwa-Teemane Municipality, giving the party its first-ever mayoralty. The Citizen reports the ANC and ActionSA face exclusion from a Madibeng leadership plan.",
       "brief": [
         "Newsnote reports Justice Dabampe has taken charge of Lekwa-Teemane, giving the EFF its first-ever mayoralty.",
+        "Central News South Africa reports Dabampe was elected unopposed as Lekwa-Teemane mayor.",
         "The Citizen reports the ANC and ActionSA face exclusion from a Madibeng leadership plan."
       ],
       "auto": true,
@@ -3655,6 +3725,12 @@
           "h": "ANC and ActionSA face exclusion from Madibeng leadership plan",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSjNEYUY5ZS1RTGExb01qT1Q3eXNlSGpPZ2tIVzBhOUdFUS14d3kybFc4RGlGYVQzc05MbHVhTk9WSVEtYTVYQ1c3XzRmMkRzeVhmTDUwNF9DLXk1SnNxbWlVNUkzN3NCSXlsZVJwRXRYd1gtNTBvTGtiak5sR1NKRXRRZC1KSFBSMUxOa1UwcnFINVNfQURSSFc5TDYzbHBIVlNLQlV1ejZHbFdna2FOVHI3YlZldw?oc=5"
+        },
+        {
+          "src": "Central News South Africa",
+          "h": "EFF’s Justice Dabampe Elected Unopposed as Mayor of Lekwa-Teemane Municipality in North West",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ3A0NE1yU3V2ajBqWEVCWkpfSk9pRnE5MTZWeU00UWd5WkYyREFBa2txVi1SdnVnRXpoUjJtTHJzUWQzRE4yeksyVUpIcF9nY1U5MnBYc3F0TjVsSVBhVkU0dXdEbTc4WG1VdmFtdlZPcHhrWDVHdklpNDFnUzd6RVVxTk1GVERwcXNDZG1oeFZFM3VBSEFGTEJCN2FWWHh6dkdGcVVwNURDcUhDR043WkE5cXhfSzV3NXc?oc=5"
         }
       ],
       "sec": [
@@ -4290,6 +4366,17 @@
     "57e075631f7d",
     "2cf3cb06194c",
     "750d099bf5be",
-    "b69472868ecd"
+    "b69472868ecd",
+    "0dc8f50c8bce",
+    "bf2ecd03621a",
+    "6c3989a9fa1d",
+    "a13684f1d1b9",
+    "cf92470dc985",
+    "ea69065f0c0e",
+    "4c6e9253a0b1",
+    "d046c38b86cc",
+    "5ada39e34886",
+    "7b641bbb1ce0",
+    "a05ea87d0cc0"
   ]
 }
