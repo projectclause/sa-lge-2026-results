@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T20:05:15+02:00",
+  "updated": "2026-11-26T20:08:19+02:00",
   "people": {
     "elon-musk": [
       {
@@ -80,12 +80,33 @@
         "src": "linitiative.ca",
         "t": "2026-11-18T06:26:47+02:00"
       }
+    ],
+    "tyla": [
+      {
+        "h": "Fact Check: Is Tyla pregnant? Here’s the truth behind the viral baby bump photos spotted in Brooklyn",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOdkZpTHFQRV9IVU8wNlozMEFqUFQzay1jaU5wVFd5NDYydm9ta1FRelhhX0NtWkowdTZzSzU1enlyRVI2QURTbEZTXzluMTZxRkQ4T2xsUkM5c0tJc2lVeUgxMGRrQTVYRFM0WVpQQXVsOUNoVFg0SDlNdzVvU2hIUVNfODN1ZnQybmViV2VYNzA4T18yZnBlV1ZFeFFyQXpEcXExZExqN2tLbDE1UkpkZTc2WmdpVkRTeDVKOV9xbU9fNUdOUVNxVFhGNnJMS21zbTRzZmtuUkY5MFVMc1FET0xfWWhadk4xd1N3d25CLXNiUdIB9wFBVV95cUxPRGlQTUU4TEtBT1l5U29yTnBMRXBmUkdOOEVyTVJzbzF1MFJvX1dfekZqWEljNTFQeEJiYTVCTUUzVm5fSVRwVHZhSUhQaXBodDRrdWdBR0UyV01BQ0Y0TU11VzBudWF0eDJQRjBqanJwcFdDWmczQUZYNWFHSW9aakNmejRsck5OYUdJdWxhb0w5cTBtUFF1NjFpbVlVUEpUUmtKcERNMllqR2piZ3JITkczX1p5YWMybUltakZMYnlSbHB0Vm5tWm1sMDN0dGNmcGtCbjgyMTAyMnpLN0YtMk00bHRJUFdNM0c5Sk1KejdCNmJUNmI4?oc=5",
+        "src": "Indiatimes",
+        "t": "2026-11-26T17:28:44+02:00"
+      },
+      {
+        "h": "Tyla Sings ADÉLA’s “Nicole Kidman” During Boston A*POP World Tour Stop",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1BaG4ySU5WWi0zd2NrbUptbzVqTG5ZZU1KQW4zbTJTWVZqajNvN0VVTy0xS0VLVmI0OXpUdXFZNV9hcjR4VzcwZm1qYVFEQzlkREhHUWFsbGNEVDVzWklMT1lHSjBuR25CXzdUcGJHbUFqSG1ibVB6SQ?oc=5",
+        "src": "inmusicblog.com",
+        "t": "2026-11-26T17:24:02+02:00"
+      },
+      {
+        "h": "\"I really want to know who the father is.\": AI fake sends Tyla fans guessing",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSVB5NnVhc1d3UXBUaWNyY2hnYktocy0xTjdjbkpyQ2M4MjhvRk56M3llUjFzU2MtbVg0UHlLMTdIWUJ3SlRGLUh6MjQ2ajZMRW80ME0ySzF3QlFQak02cVpsUnM2WTFsRUNWdEt0ZXBhNFQtZlE2QjA3SVB2T3NXS19rUnNPOWFuTUM3Ynd5M25sTDdBZTBzd2ltQXN6bjNNQktvX3E0VVY3cFlmajk3Wng0SHc1NEpQSFRVUmRLSEI?oc=5",
+        "src": "Briefly News",
+        "t": "2026-11-26T09:56:59+02:00"
+      }
     ]
   },
   "week": {
     "elon-musk": 93,
     "trevor-noah": 1,
-    "peter-thiel": 37,
-    "thuso-mbedu": 3
+    "peter-thiel": 33,
+    "thuso-mbedu": 3,
+    "tyla": 11
   }
 }
