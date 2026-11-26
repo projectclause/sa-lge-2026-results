@@ -1,0 +1,4 @@
+[
+  {"id": "elon-musk", "n": "Elon Musk", "role": "Founder of SpaceX, chief executive of Tesla, owner of X", "born": "Pretoria", "lives": "United States", "img": "assets/saffa-people/elon-musk.jpg", "credit": "Wikipedia", "q": "\"Elon Musk\""},
+  {"id": "trevor-noah", "n": "Trevor Noah", "role": "Comedian, author and former host of The Daily Show", "born": "Johannesburg", "lives": "United States", "img": "", "credit": "", "q": "\"Trevor Noah\""}
+]
