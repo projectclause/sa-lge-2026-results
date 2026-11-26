@@ -33,7 +33,7 @@
     const countries = new Set([...S.data.people.map((p) => p.name), ...S.data.missions.map((m) => m.country), ...(S.data.world || []).map((n) => WN[n] || n).filter((n) => n !== "South Africa")]);
     const regions = []; S.data.states.forEach((c) => c.regions.forEach((r, i) => regions.push({ r, c, rank: i + 1 })));
     const items = [...countries].map((n) => ({ kind: "Country", label: n, n }))
-      .concat(regions.map(({ r, c }) => ({ kind: c.unit === "province" ? "Province" : "State", label: r.name, sub: c.name, reg: r })))
+      .concat(regions.map(({ r, c }) => ({ kind: c.unit === "province" ? "Province" : c.unit === "region" ? "Region" : "State", label: r.name, sub: c.name, reg: r })))
       .concat(S.data.missions.map((m) => ({ kind: m.type, label: m.city, sub: m.country, m })));
     IDX = { people, countries: [...countries], regions, items };
     return IDX;
@@ -50,13 +50,15 @@
   const missionsIn = (S, country) => S.data.missions.filter((m) => m.country === country);
   const art = (t) => /^[aeiou]/i.test(t) ? "an" : "a";
   const listMissions = (ms) => ms.map((m) => `${art(m.type)} ${m.type.toLowerCase().replace("consulate-general", "consulate-general")} in ${m.city}`).join(" and ");
+  const THE = /^(United |Netherlands$|North East$|North West$|South East$|South West$|East Midlands$|West Midlands$|East of England$)/;
+  const the = (n) => (THE.test(n) ? "the " : "") + n;
   const peopleLine = (p) => `${p.approx ? "About " : ""}${fmt(p.n)} people born in South Africa live in ${p.name === "United Kingdom" || p.name === "United States" || p.name === "Netherlands" || p.name === "United Arab Emirates" ? "the " : ""}${p.name} (${p.source}${p.year ? ", " + p.year : ""}).`;
 
   function answer(text, S) {
     const I = index(S), raw = low(text).replace(/[’']/g, "'"), q = raw.replace(/[?.!,]/g, " ").replace(/\s+/g, " ").trim();
     const wantsMission = /embass|consul|high commission|mission|visa|passport|diplomat|liaison|representative office/.test(q);
     const wantsRank = /\b(most|largest|biggest|top|highest|where do|where are)\b/.test(q);
-    const wantsStateRank = /\b(which|what)\b.*\b(state|province|states|provinces)\b/.test(q) || (/\b(state|province)s?\b/.test(q) && wantsRank);
+    const wantsStateRank = /\b(which|what)\b.*\b(state|province|region|states|provinces|regions)\b/.test(q) || (/\b(state|province|region)s?\b/.test(q) && wantsRank);
     const country = findCountry(q, I), reg = findRegion(q, I);
     const P = (name) => I.people.get(low(name));
     const go = (label, d) => ({ act: ["Show " + label + " on the globe", () => S.focus(d)] });
@@ -64,15 +66,15 @@
     // a state or province
     if (reg && !wantsMission) {
       const { r, c, rank } = reg;
-      const ADJ = { "United States": "US", "Australia": "Australian", "Canada": "Canadian" };
+      const ADJ = { "United States": "US", "Australia": "Australian", "Canada": "Canadian", "United Kingdom": "UK", "Netherlands": "Dutch" };
       const where = rank === 1 ? `the most of any ${ADJ[c.name] || c.name} ${c.unit}` : `the ${rank === 2 ? "second" : rank === 3 ? "third" : rank + "th"} most of any ${ADJ[c.name] || c.name} ${c.unit}`;
-      return { text: `${fmt(r.n)} people born in South Africa live in ${r.name}, ${where} (${srcY(c)}).`, ...go(r.name, r) };
+      return { text: `${fmt(r.n)} people born in South Africa live in ${the(r.name)}, ${where} (${srcY(c)}).`, ...go(r.name, r) };
     }
     // which state or province in a country
     if (wantsStateRank) {
-      const c = S.data.states.find((x) => x.name === (country || "")) || (/australia/.test(q) ? S.data.states.find((x) => x.name === "Australia") : /canad/.test(q) ? S.data.states.find((x) => x.name === "Canada") : S.data.states.find((x) => x.name === "United States"));
+      const c = S.data.states.find((x) => x.name === (country || "")) || (/australia/.test(q) ? S.data.states.find((x) => x.name === "Australia") : /canad/.test(q) ? S.data.states.find((x) => x.name === "Canada") : /\b(uk|britain|british|england)\b/.test(q) ? S.data.states.find((x) => x.name === "United Kingdom") : /netherlands|dutch|holland/.test(q) ? S.data.states.find((x) => x.name === "Netherlands") : S.data.states.find((x) => x.name === "United States"));
       const t = c.regions.slice(0, 3);
-      return { text: `In ${c.name === "United States" ? "the United States" : c.name}, the most South African-born people live in ${t[0].name} (${fmt(t[0].n)}), then ${t[1].name} (${fmt(t[1].n)}) and ${t[2].name} (${fmt(t[2].n)}). Source: ${srcY(c)}.`, ...go(t[0].name, t[0]) };
+      return { text: `In ${the(c.name)}, the most South African-born people live in ${the(t[0].name)} (${fmt(t[0].n)}), then ${the(t[1].name)} (${fmt(t[1].n)}) and ${the(t[2].name)} (${fmt(t[2].n)}). Source: ${srcY(c)}.`, ...go(t[0].name, t[0]) };
     }
     // missions in a country or a city
     if (wantsMission) {
@@ -91,7 +93,7 @@
     if (country) {
       const p = P(country), ms = missionsIn(S, country), st = S.data.states.find((x) => x.name === country);
       if (p) {
-        const extra = st ? ` Most live in ${st.regions[0].name} (${fmt(st.regions[0].n)}), ${st.regions[1].name} and ${st.regions[2].name}.` : "";
+        const extra = st ? ` Most live in ${the(st.regions[0].name)} (${fmt(st.regions[0].n)}), ${the(st.regions[1].name)} and ${the(st.regions[2].name)}.` : "";
         const m = ms.length ? ` South Africa has ${listMissions(ms)}.` : "";
         return { text: peopleLine(p) + extra + m, ...go(country, p) };
       }
@@ -144,7 +146,7 @@
   const EX = [
     "How many South Africans live in Australia?", "Where do most South Africans live?", "Is there a South African embassy in Japan?",
     "Which US state has the most South Africans?", "South Africans in Western Australia", "How many South Africans live abroad?",
-    "South African consulate in Dubai", "How many South Africans live in Canada?", "Which Australian state has the most South Africans?",
+    "South African consulate in Dubai", "How many South Africans live in Canada?", "Which Australian state has the most South Africans?", "Which UK region has the most South Africans?", "South Africans in North Holland",
     "South Africans in the UK", "Embassy in Brazil", "South Africans in Ontario", "How many South Africans live in New Zealand?",
     "Where is South Africa's high commission in India?", "South Africans in California", "How many South African missions are there?"
   ];
