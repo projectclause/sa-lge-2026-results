@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T20:40:59+02:00",
+  "updated": "2026-11-26T21:07:29+02:00",
   "people": {
     "elon-musk": [
       {
@@ -9,16 +9,16 @@
         "t": "2026-11-26T20:35:00+02:00"
       },
       {
+        "h": "Elon Musk and SpaceX pledge two shares per U.S. child in Trump Accounts, doubling his commitment",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBucWJtNDJwZk05RGVQcmg2bmFFcFR0dlhMdVc2YmFRc1A0MnpGcmY5cXNFcGsyMEpiYjBfMlRkQ0RKNzJFNXRKMEFoTTBPbWlnenh3VDQ4NlZlbVZTZDRjWnlJVGpyUjlleWhzdXoyZnI2ZFdDSkww?oc=5",
+        "src": "CBS News",
+        "t": "2026-11-26T20:22:34+02:00"
+      },
+      {
         "h": "How Elon Musk paved the way for Jensen Huang’s return",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMHdOZ2dnTzhpU0U1a0dWU3cwdjdVNUdPZ1ZNV0oweDMyQUJOa2xSMGNZb18wa2hhUUpEbUpHc2RLZEJ1ZXpfSGpTeVdMUnNiYXFvcDM4WnlSVHJFQW1Ubk1pX25SSmFvSHFqSHFxU1pPWVlTWDBET0pNRW1pcHBySnYwcTkyMnNDQUVQbjM5S0ZkbGhmMi02VzlTWm9MSEE?oc=5",
         "src": "The Washington Post",
         "t": "2026-11-26T19:37:46+02:00"
-      },
-      {
-        "h": "Elon Musk to launch up to a million satellites into space",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSXJheVIxQ3hhTWZKcU9weFBhVXR3UTRLVF9QOXZYM19xb0lSV2xSVjV4X0lhQnl6c09XV2Y2QXpZa1p3Y1NFV0RMTzBjNEhBdnR5d2ZxdzlsTnpMUlppbmNjVXR3X1ZIMkVGbUpSdHFUR0NNSVRMUjJoTzZQQVBKM1FFV2tLOGoxVnFxNWhnbjlsc2Frd1BSTQ?oc=5",
-        "src": "Sky News",
-        "t": "2026-11-26T19:22:17+02:00"
       }
     ],
     "trevor-noah": [
@@ -43,6 +43,12 @@
     ],
     "peter-thiel": [
       {
+        "h": "Palantir Stocks Rise 1.5% After Peter Thiel Discloses a $122 Mil",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSlJzODhCU0p6WHZFMWFGTU5fNllLZkNKd1dkZHpBZUVmSkdyS1hSVmZWc3ZjOWdDX1NSNGREbkRkeHhOMHAtUEEyV1Ezdk13RDdRNTFRdTh3bWZkMG41M090RTVISjdfR3JuemlVdDc5TlBRcDByVnA4SmI4RnZIbWJ6S1p3UWx2ZjNSMjQyRHNIVWJhOGtxVXQwLWpmekJxRmc0U2o2LWVmYi1BSzFXNUR0a2hYT056S3BZ?oc=5",
+        "src": "GuruFocus",
+        "t": "2026-11-26T20:48:45+02:00"
+      },
+      {
         "h": "PLTR Stock $163.59: Palantir Up 14% Since Thiel’s $122M Buy",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMVI3Wk9VT0R5eEdqN01OS2tBMllkVzVkc2Y2akpQQkh1bXlJWFduZEU3b0l0N0FhcDBoTlNBT3JiN09qd0ptMWFzNVJBLTEzUk5mY3lqSTUyMHMwXzQ4YzQ3eDQzN0J5X29EZjBVYXktTEw0SnR6c0FsOEZmYzgyb0VGNWtKUjhENEwta1NnOGpLVVJBOHFVSDBqajNyLU9fS0RZV21VdmlTRHkw?oc=5",
         "src": "FinanceFeeds",
@@ -53,12 +59,6 @@
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMmVMQnI2T2E0UHRqUzh5cUYzVW5mZDlKYXI1NUhUQWNBZmdmRksyU0FoZjRVYzYzVm5zQ2NRUmliQ2RRVFhnMFg5RUFaNzI0T1g2WHhXUUdEY183VDVKX0VtMkJYZUc0WFFITjNNaFYtM0NDSDJFSnY5Q0ZPTWpBN3BDZ2FUaXFVTGIxYUR5M3g1WFRuMDJyaG5CUW5lbG5nVXhLVEJiWXkzZmJzaGNSWHZEeW8?oc=5",
         "src": "IndiaIPO",
         "t": "2026-11-26T04:33:32+02:00"
-      },
-      {
-        "h": "Billionaire Peter Thiel Buys $122 Million In Palantir Shares Amid AI Stock Turmoil",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPdHV4b1RfV0cxU1RSeGgzSkVZSUYxNzBzbk5mb2paUVZxbDNoNUozUVJTVWI2TXFkbjVza3JNOU1VSzdOdm8xT1MwU0tZYUJocWpIaVNwUnFnRDhabF81ak13cjJRcjk3VXRDNldJeXgzR3k4MGdSenViVW44RDJOTWEtdzlYRC1CV2dRT2ZsM0JrV3RPR2xjUFk5VGFWNHhjd2NTQVM4RmkyOFYwQVVqN21DVTFHMkVXVFktWTlaVnlmM0dZWTJicHN0NnpSSk82Qzc2RnJSN0U3OWxuc3c?oc=5",
-        "src": "Forbes Middle East",
-        "t": "2026-11-26T03:30:10+02:00"
       }
     ],
     "thuso-mbedu": [
@@ -89,16 +89,16 @@
         "t": "2026-11-26T17:28:44+02:00"
       },
       {
-        "h": "Tyla and Nasty C $500,000 Feature Rumour: What Actually Happened",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQWJvODFLS1I2WElYMWZVYXVXclJ1ZW9USnNmSWJGNGRiempoQ2NScHl0S1lHSGVrLW9aYXdPcFQ0aXgtbVoyRXAzamNtbjdDSjk3QjBhb1lYa0wxVE02d1BHeUR1SHFDQm9pbU5PV05QUWJWTW1YN3FmeEdhUmVHM3Q1Zjl6U293QzNvUExvNzRUSmxyZVhIaldPOUZlLTlMdkJrRmVCRQ?oc=5",
-        "src": "Briefly News",
-        "t": "2026-11-25T21:46:57+02:00"
+        "h": "Tyla Sings ADÉLA’s “Nicole Kidman” During Boston A*POP World Tour Stop",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1BaG4ySU5WWi0zd2NrbUptbzVqTG5ZZU1KQW4zbTJTWVZqajNvN0VVTy0xS0VLVmI0OXpUdXFZNV9hcjR4VzcwZm1qYVFEQzlkREhHUWFsbGNEVDVzWklMT1lHSjBuR25CXzdUcGJHbUFqSG1ibVB6SQ?oc=5",
+        "src": "inmusicblog.com",
+        "t": "2026-11-26T17:24:02+02:00"
       },
       {
-        "h": "Tyla Calls Chicago One of Her Favourite Crowds",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBmTTVPU2JmbHl1QUlobDJxM0lQdjliVlFSLU5wQkRVenREX09qb1RUdG4wcGlQcmZXUV8xRjVFV0hHaEVJNExnMng4V0tINjFURWJLbU9zcEw3VGhSUWlWRTY4WG5aWVR0dkQ1ekFSSQ?oc=5",
-        "src": "HOLR Magazine",
-        "t": "2026-11-24T10:04:56+02:00"
+        "h": "\"I really want to know who the father is.\": AI fake sends Tyla fans guessing",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSVB5NnVhc1d3UXBUaWNyY2hnYktocy0xTjdjbkpyQ2M4MjhvRk56M3llUjFzU2MtbVg0UHlLMTdIWUJ3SlRGLUh6MjQ2ajZMRW80ME0ySzF3QlFQak02cVpsUnM2WTFsRUNWdEt0ZXBhNFQtZlE2QjA3SVB2T3NXS19rUnNPOWFuTUM3Ynd5M25sTDdBZTBzd2ltQXN6bjNNQktvX3E0VVY3cFlmajk3Wng0SHc1NEpQSFRVUmRLSEI?oc=5",
+        "src": "Briefly News",
+        "t": "2026-11-26T09:56:59+02:00"
       }
     ],
     "roelof-botha": [
@@ -188,11 +188,11 @@
     ]
   },
   "week": {
-    "elon-musk": 91,
+    "elon-musk": 92,
     "trevor-noah": 1,
-    "peter-thiel": 33,
+    "peter-thiel": 38,
     "thuso-mbedu": 3,
-    "tyla": 5,
+    "tyla": 11,
     "roelof-botha": 2,
     "black-coffee": 5,
     "david-sacks": 1,

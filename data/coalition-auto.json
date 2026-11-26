@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-26",
-    "time": "20:03"
+    "time": "21:05"
   },
   "items": [
     {
@@ -1264,6 +1264,30 @@
       "src": "IOL",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbTV2S2NJZjFWZ0FjNThxbkhSV1JsRURzb3JGNFR6RGZBLTZCRWlWclR0VDNHdjE4U21rZHhQa2YxQjRvU3I2MDBvNlNnTEdhQWMwQlZVNm5XWGVLYzFGVncwZm1odzVNeUhvLXdZXzVUR3RkbVdSN2wweUVjNEVleE94Q21GVFljbVJYeDNYXzVPYVBOd0tHT0tVMVlPVHFudkdRb1VZc29xNFRQYlAtZg?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-bf997775d7",
+      "j": "geordin",
+      "d": "2026-11-26",
+      "kind": "Article",
+      "place": "Tshwane",
+      "h": "Hill-Lewis condemns ANC-ActionSA coalition following Moya’s re-election as Tshwane mayor",
+      "s": "IOL reports Geordin Hill-Lewis condemned the ANC-ActionSA coalition after Nasiphi Moya's re-election as Tshwane mayor.",
+      "src": "IOL",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaDhSU1lDeExaVVI2Sml2Z3cxWnluYUplbUR4cFpKaFMtNjhFd1czX1E4RmJSZllaZEZfNUlRam1ncFNoWjlVeEcyRUp2bFJnc2x6N2s2RW8tMy1nLTFyWm9kN3paREI4ckE4dW05TjhucUJQTVJYSHdWcXJPemFfUGRabk5PTWhWMmJPMjFzRTQtY0NyZ1FCNF9JQ2tRUG1HdDktb0p4WDRvMkNscy1hS1Fsb29QQlRWX1VBTlBZSVNUVnBhN1RCZGRZcw?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-606bc2a82b",
+      "j": "michael",
+      "d": "2026-11-26",
+      "kind": "Article",
+      "place": "Gauteng metros",
+      "h": "ActionSA chose ANC over DA: Michael Beaumont says the DA tried to play singles when coalitions are a team sport",
+      "s": "Michael Beaumont says ActionSA chose the ANC over the DA because the DA tried to play singles when coalitions are a team sport.",
+      "src": "newsday.co.za",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQZ1k1MDI5SWVjNHB0bkRKSzlsR0ZGUWphUGRRX3ZpWTNnSzVGbnJZN2VFODhsRnExU3lSRmhBR3RSejh3eEpnRjlYSDQ5ZzVOWTZaSElMVGFzdlFjVjhMZ1ZRSDMzNzVvNXhSZ2NIUnA5QUE3aExQdnhaczN1UDRjTWFsVDZ1M1JzLW1OQU55M3pGcU9tMktEUjNXeC1iOThQQi1UUFVmdDFONG9DMEk4Tjk0YWtFZGNMQTI1NUUwd1E0QWo0YmNpNHpYdmt5eWFnZWREY3pOWkx2ODVLT2pPWktZOGQxaDQ?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -1303,7 +1327,8 @@
       "a-cc72085f3b",
       "a-a4287bc0b9",
       "a-3f708af217",
-      "a-50687e0bcb"
+      "a-50687e0bcb",
+      "a-606bc2a82b"
     ],
     "da-offer": [
       "a-7ec03aa2b8",
@@ -1328,7 +1353,8 @@
       "a-d028b4fa30",
       "a-b9832fe12a",
       "a-77f01ea28d",
-      "a-bf2ecd0362"
+      "a-bf2ecd0362",
+      "a-bf997775d7"
     ],
     "grand-deal": [
       "a-4aa7f8b650",
@@ -2091,6 +2117,54 @@
         "h": "Nasiphi Moya re-elected Tshwane mayor",
         "d": "2026-11-26",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE05ME1lNXFmMXlnYVE5UGhtUWF0T3l0LUhNS0txWHVvQTIxbjFzZWJjTzRvdUpKVjV0bFUtNGloclc5a0VYbm9mSWhITm1tXzFXLWFKS0R0OE1wbkx6eGhkUGh4cFdoaURNYXJiSzl3WVZxemd1TjF0NA?oc=5"
+      },
+      {
+        "src": "Briefly News",
+        "h": "Tshwane has a new mayor: Nasiphi Moya defeats Cilliers Brink",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMjg4U25XakdGVTNrbWZsTnBoaWxVaTU3OF9GREZ2MUlmR3ZQbEstd29FVEpaYXMtYXh4WF9talF5dFVtUFJQTXZPdnNjVDVSMEhCWUt3WEhMTkZrLVhkMnNCWU1uLVJtM2xPazFCSS1IbTVNcWhPc2FDS1NPUHJnNTgzUUhoM3ZpNGNnQ1plRkVVYWhCeC1NdDBHY3htS19xRnZhU2oxZFFPbnBRRDFQY2hhRQ?oc=5"
+      },
+      {
+        "src": "The Citizen",
+        "h": "Tshwane council re-elects Moya as executive mayor",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVFF3X2w5eDFsUTEwX0N1MWhNbnNnSzY4S2JxOTJPSWExQmM2b0VoSFluTWUzYmhIVEh5SElZemp6bHdKTmVFckVheE85N3h3am9MOVRTRWlmVE1na1MzQnZZSUdqZW9pWjZSUl9SR1I5dC1FaklkOEhqNjBDeTFPUzZENXBHcWp2bHgtTlNRRFp5OXRYVl9uYlFGWGw4aThMSW5fRDloQmtUOXFoTHE1Sk1JcW0tLWE2cmJtYXUtRnZxNmRsbWtKWURB?oc=5"
+      },
+      {
+        "src": "thenational.co.za",
+        "h": "ActionSA’s Nasiphi Moya re-elected Tshwane mayor as multiparty coalition holds firm",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQa0lsSGE4UmlVVnE4ZmZnVFhGXzg4UDlfbE52WktucnRhcUFUR1owRjFsdGJDcHpqR2cySTZSOWcwYUZzemFraHVhRmVGdWtBcUVMTi0ySDA0V1lud2k3LW91ek1OYnNGa01rYV94WnpnSFhzQWUyWGpkZVlzWHRpMkprbU5oYTQtWjUxcW5fRWxDb0JOZWstdVJzV3IwNlZSejFBNjd0eE5VUkxnZURoVy1BWVA4N2dDdk5sc0tTcUVlWTA3?oc=5"
+      },
+      {
+        "src": "Sowetan",
+        "h": "ActionSA’s Nasiphi Moya beats DA’s Cilliers Brink to retain Tshwane mayoral seat",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdFZSY2pQRW5kSy1HM2wwcEYwTTRDSER3U2V3WkgycUtLblNrdmgwWEtYVktub0dtbUxYM0hCTG9XQXNmOWJGRlZocURaOWU5WDFJTE1kc0dOREJud0lHVGt6RWZ5ZTBKcWtfRHVhMUV6dDZuQUpDTkFLNVFyazMtZVRBcWp3M3hvVFRDS2NJNzU1Q3FBNGM0RndrYnU1X2VHMTRpNkV0UXJocmEyaUpwOHhYQmFEcHdQZHY4Si1n?oc=5"
+      },
+      {
+        "src": "SABC News",
+        "h": "ActionSA’s Moya re-elected as Tshwane Mayor",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVS16bHpkeTlZRVFOcUhPZ2t1RTc0anFRNHdlMHp5YnNNZ19uY1NCTGpNQTZmS3hoWkExX0FWM0x5NGdoclJZMnNiNXFNQTBCeWd1YjE0ZFZCek0xb1BSLVpYUWJYYWwyZjRSTGR4aHd1WVpzakFBNGN1WEZZWWJKZlF3NA?oc=5"
+      },
+      {
+        "src": "News24",
+        "h": "ActionSA–ANC victorious in Tshwane as Moya is re-elected",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRF9RWmNhVE05N010b2JXd2dDbFMtQ19IZ3F6Y2t1THl5V0tVMEpwZEtHa2RpM1hHdWM1dTFmWUREaXpOd3lRVDd3N2hsaEZESTh3SnU0ZDZXek1KcF9WRjMwalpNSU1JN1prcV9WUkFIU3BfZ29aaE1POS1KamRad09lRUw0TzNmT0tmcEF3dmVabC04cUIzVWMyaUF2N1M4OWtj?oc=5"
+      },
+      {
+        "src": "Inside Metros",
+        "h": "ANC, ActionSA, EFF and MK unite to keep DA out of Tshwane as Moya returns as mayor",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObE93YmhvWGdURzRjLU1hMlNSaks1aWpXYjdLeWQ5WUhfd1V6b2o0Y2RtWGNJMmlYS2VFRUtQQy1Ea2k0Y3VVQU00UGFLNjFCMkpJRE9Sa0lQNk1TS216Wm1oRDdsdkpBam5Xa2R0S1hCTGtvWVpQZjF2WkFHN2FTQ19yY05Fd3ZEdVZ3SlBieDBLa0FWaEJfT2JvVEV5MXNvVnpGdWhxb0pValZjYlF4Zk1WXzgtdWF5M0dJ?oc=5"
+      },
+      {
+        "src": "IOL",
+        "h": "ANC secures speaker of Tshwane, signalling a governing bloc",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTmdndk5pbTZNVy1XVlpmS2dkMlRVaTdBd2J4eUVTTGJPck5zZy1DTzdSYnpVMVp0dkJycS1MbHhGS3JtZnVENkdpanVHSm85LUhnOHdET2hpUmVFSHFQc3hoQVBfVmdkZGZqM3U5TkpYdnNyUVhScXRVS0liQ3lVTWxWMUNmTmJhTW5acEdaYVdlZ1pCbE9SZGFSVWlnTmxaM3g2SmpOVnF6YU0?oc=5"
       }
     ],
     "actionsa": [
@@ -2919,6 +2993,12 @@
           "h": "223 councillors prepare to take office as eThekwini gears up for new council",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOTVzMnBESEdYcTVDc0pXRXFxTVAxbHFsdWxKOGtDU0ZNVU9KWEo2dVNLTGZOOW5FcmctaEt6Z0NlZ01Rd1d5ZGVxQkZfekZMNDhaNFp0a3NOMUJzOVR2b1FGdlUyMEhGZTVpN21HbUc4aGc2eGhmOV9Fd25nS2t4dWcwYXBrOWV3OWhUUjZjQ1d5eUtDcDlZMkFTblJja3hVdlYwOFRVYlNaY1JvNkU5dUtwY3k0MjV5VUgwUQ?oc=5"
+        },
+        {
+          "src": "thepost.co.za",
+          "h": "MK Party tipped for eThekwini mayor as coalition talks near conclusion",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcWduMGNuQ0FhUXJsUGd3RjNqeUhoOXh3ZWl1anVIVG9GQ2JoUmROczM1RDJ1UFlMbG9YTUVGQk9Yc1RmTFBwaGJwT3c1SWVMcmJKV1NZZ1ZqYk5uZjlNazZFSE8tczFOcElfOWpwX3VtcVdVQXhMQ3haUS1ZUmhMMTZaV3hGV3AzNGI0bEhQNU0zQXZzU2ZpOWx3SEVfREdLckhGZW9rWl9ZNW1zTk5OcURBMHVKcTVMeGlpbnNEbDFTNDg?oc=5"
         }
       ],
       "sec": [
@@ -3615,12 +3695,12 @@
     {
       "cat": "Western Cape",
       "place": "Western Cape",
-      "h": "The DA is shut out of Theewaterskloof and Laingsburg as Western Cape councils pick partners",
-      "dek": "News24 reports the ANC joined other parties to take control of Theewaterskloof, and IOL and the Cape Times report ActionSA formed a Laingsburg coalition with the PA and ANC, leaving the DA out. IOL reports a three-party agreement puts the DA in line to govern Knysna, and SABC News reports Matzikama council will sit on Thursday after a deadlock over an EFF councillor.",
+      "h": "The DA takes Knysna and Bitou but is shut out of Theewaterskloof, Laingsburg and Langeberg",
+      "dek": "News24 reports the ANC joined other parties to take control of Theewaterskloof, IOL and the Cape Times report ActionSA formed a Laingsburg coalition with the PA and ANC, and the Cape Argus reports an ANC-PA coalition won Langeberg, all leaving the DA out. The Cape Argus reports the DA has taken Knysna and Bitou, and SABC News reports Matzikama council will sit on Thursday after a deadlock over an EFF councillor.",
       "brief": [
         "News24 reports the ANC and other parties took control of Theewaterskloof, shutting out the DA; the Cape Argus, Cape Times and IOL report the DA warning this could derail financial recovery.",
         "IOL and the Cape Times report ActionSA formed a coalition with the PA and ANC in Laingsburg, leaving the DA out, and SABC News reports Matzikama council sits on Thursday after a deadlock over an EFF councillor.",
-        "IOL reports a three-party coalition agreement puts the DA in line to govern Knysna.",
+        "IOL reported a three-party coalition agreement put the DA in line to govern Knysna; the Cape Argus reports the DA has taken Knysna and Bitou, while an ANC-PA coalition won Langeberg.",
         "News24 reports the DA and FF Plus entered coalitions in some hung councils; IOL reported the DA began talks with 16 councils hung, and named deputy mayor and speaker candidates for seven Western Cape municipalities.",
         "IOL and the Weekend Argus carry an argument that the opposition’s voice in Cape Town is growing smaller and meeker."
       ],
@@ -3731,6 +3811,12 @@
           "h": "DA secures key mayoral positions in Western Cape municipalities",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOWl5VnFEcFhPSkp6dHRHeVVhSjBUdi10UkNKYkVWOE00OEJHOW40Q2F0TFZ3T01rcDJVQkVFNVFFOERnaFBhcE9ybDJYVGhEcTBIeTA0czR4dFJDZnMtcmtxTkx6V0otN2VLc21oNEttdkQ0bjdSOWRvckZ2U2RKYlBybHE5M2JEb2NGR0dMYmNwOWlwQW11cGxadDlFVWNOXzlBcw?oc=5"
+        },
+        {
+          "src": "Cape Argus",
+          "h": "DA takes Knysna and Bitou as ANC-PA coalition wins Langeberg",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRE1ia0R3U2haOVEwSUg5YVdwbHhnTlE1czVidVl2WXFFcTdMVVpoVVRNOVJmUTVpTXUxaWRsSjVJWThYUEJJOVZINFBwcWxTOWI5dWJHUUs2Mlo3YkZ1T1R2UHBzX1czb0NwaFRMZ19raFQ4b2MwYmVSR3NYRXgzVzZwN09saDFPQTZtNEs3eThrcU02cnBDcGpjNWJqellyQ2ZF?oc=5"
         }
       ],
       "sec": [
@@ -4963,6 +5049,19 @@
     "4cc3cfe00dd2",
     "665c7b21a380",
     "0a53ebea9161",
-    "8e9eba22c615"
+    "8e9eba22c615",
+    "0127c46043c9",
+    "10fad9c27004",
+    "bf997775d77b",
+    "57049f8f3bc7",
+    "4a15c0736d5b",
+    "ff438ed4da01",
+    "7a37ee651f64",
+    "606bc2a82bfa",
+    "1281f6f89a86",
+    "b576261708e2",
+    "32174e4f0258",
+    "4dff9b72b24f",
+    "0c2edb6da218"
   ]
 }
