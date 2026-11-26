@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-26",
-    "time": "15:28"
+    "time": "17:10"
   },
   "items": [
     {
@@ -1180,6 +1180,54 @@
       "src": "Politicsweb",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOVhYdUM5c0h5aFg4Z05xQ3ZVV09BZ05KUlpUMTZNQjFlYlNFa3NreVV2RUNZMzllUlE1eXFoRXhLdXhBUkF2a01mVkR6WEVxaEU0U0pXRWhzdjJxbG5FLVpuOGtDd25DYjlQZGlkTzlta0trbkZPdjlMNmJ4Z1FXM1NYYTJ3WTEySGRKR1BPOS1QWUl3bWtMM29EQVk4dlV4OS1F?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-3f708af217",
+      "j": "herman",
+      "d": "2026-11-26",
+      "kind": "Article",
+      "place": "Gauteng metros",
+      "h": "Herman Mashaba Confirms ANC, ActionSA, EFF and MK Party Coalition Deal Across Gauteng’s Metros",
+      "s": "Briefly News reports Herman Mashaba confirmed an ANC, ActionSA, EFF and MK Party coalition deal across Gauteng’s metros.",
+      "src": "Briefly News",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQV19NM0FDWFpzX0wxcXpmZXZiMFhNTUZ5MUdCajlCXzRRbzdfcHdmMnRoNjZVU1l3SFpwTUpKb01pMktXd0R0Ny1mLUhCVjZFNDdodUN6YWdoTk9vMHlLaEFPSVVOUlNGd0w1LThGN0Y0Nlo3WWdFUWE3dzJOUkV2WGs2b2sxXzBBODJ1NlR0UlpqUjhNZC1UWGUzbVRtajdpUEpMVWphYUZJS1V3TjFpQ2dhbmx0amRJOWc0?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-bce041a3cd",
+      "j": "sizwe",
+      "d": "2026-11-26",
+      "kind": "Show",
+      "place": "National",
+      "h": "Gogo Aubrey Matshiqi unpacks: 2026 election, Phala Phala, GNU, EFF-MK-ActionSA-ANC, SACP, Ramaphosa",
+      "s": "On SMWX, Aubrey Matshiqi discusses the 2026 election results, the coalition negotiations, the SACP’s performance and the stability of the GNU.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=cr8UQRYTP2k",
+      "auto": true
+    },
+    {
+      "id": "a-95debb332c",
+      "j": "helen",
+      "d": "2026-11-25",
+      "kind": "Article",
+      "place": "Johannesburg",
+      "h": "Zille says Mashaba is not a mayor-elect yet",
+      "s": "The Cape Argus reports Helen Zille says Herman Mashaba is not yet Johannesburg’s mayor-elect.",
+      "src": "Cape Argus",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVXI1YkxZdlNhXzRmQ0xndnI2dEdZYVUxOWp2NmpoWU8yNVdSOF9kclFXVG9jQ1h2SkN5M3J2SGtOM1pXa3JLcUFwUktFUmZZcmdSUUJZV3Z1S2JSM1J1T2NILS1sWjlBdlJ1SHVlMlFacHlOWTRiNWMzUG9GbXo1ZF91d0tVTVNPQnhRYlhWMDl6aGhZcFVwdmhKdzNTcEdCajFKdVR5NndIdklHZ0E1dnNwcTNVUGM?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-d9008b098b",
+      "j": "helen",
+      "d": "2026-11-25",
+      "kind": "Article",
+      "place": "Gauteng metros",
+      "h": "Leaked message: Zille tells DA caucus “Die is cast, we will be shut out in Gauteng\"",
+      "s": "IOL reports a leaked message in which Helen Zille tells the DA caucus 'the die is cast' and the party will be shut out in Gauteng.",
+      "src": "IOL",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOFo0Ymw2TEphQWNZVjEwekRyOS12TXFCNXBxTjJFdWZtZEdpa3FPdlFQRU9ESnN4MlJ1LW5IbnZYdmhmb3c5VDVWVjJXRlRLd3lGWDctMXoxaWoyQ1V3WE9HVzF5clFNQi10a1dyZDhfRnRFeldZUW5aaGI0ZDRDUGhwRzVaRVVqOEJYQXFsQVNFYXI4c2w1NEVmcy12X3AzRjZOUHBpOXlxd3hzZmFaaHBxd2VjaTRj?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -1205,7 +1253,9 @@
       "a-ead3d10c86",
       "a-d1ba803226",
       "a-1f104c47e0",
-      "a-daa4656d07"
+      "a-daa4656d07",
+      "a-95debb332c",
+      "a-d9008b098b"
     ],
     "actionsa": [
       "a-773fa265cd",
@@ -1215,7 +1265,8 @@
       "a-dc58319ec4",
       "a-e4500fdb5a",
       "a-cc72085f3b",
-      "a-a4287bc0b9"
+      "a-a4287bc0b9",
+      "a-3f708af217"
     ],
     "da-offer": [
       "a-7ec03aa2b8",
@@ -1249,6 +1300,9 @@
     "councils": [
       "a-64a1073ca4",
       "a-d046c38b86"
+    ],
+    "gnu": [
+      "a-bce041a3cd"
     ]
   },
   "coverage": {
@@ -1732,6 +1786,12 @@
         "h": "Johannesburg mayor to be elected on Friday following councillors’ swearing-in",
         "d": "2026-11-24",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTGdTX25ITnlkN09RVnR4ZGFaSTJNMFpXckdLbG5rZlRlTmptejZEdF81d056NzlKUkpXLU5ESG0tUE1TZVd6SFBxb3NYck00b2lCVjFOa1JfdVAwbTBBN3pMNFBBQWFjWFFyRnpQYTZDOTZ4SlR2SXNBdWZLWlBrVlJzLWR2NlgwcFlZdHpSd09rRVQyY2lzaVFDVi10Vk4yeHNaLU1lanNkNFY4blFraF9LQmp5czBjdHZPSHlpVjh2dlJBSU9Z?oc=5"
+      },
+      {
+        "src": "Cape Argus",
+        "h": "Johannesburg mayor to be elected on Friday following councillors’ swearing-in",
+        "d": "2026-11-24",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVDhaa0tiT1ZKd2hfcGhncnVZR3NVblZiaExXaWd2M2c1akpqanQ4NlQzR3htRnhPT3BSaDZhR3JhSkhEZXRVVmxQbWo5TnJJcW1oN2x5UEpJeGdiUFB2SFkwdndKTF90S3NwTklBMFVxTUN4UlNRX1BXUTVDMXlyUzEzOEZuUm54RzhjaFJGQmVrYWdFWTk3REFwaUNjR29SLUp5RTc5dVRTeEFQajZsY1M2RGJ2RVlvOU4zMw?oc=5"
       }
     ],
     "councils": [
@@ -1928,6 +1988,24 @@
         "h": "ActionSA's Nasiphi Moya set to be appointed Tshwane mayor",
         "d": "2026-11-26",
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMG5qSU1heHR1a2VjczBzalFpOURLcjNtTXRMbVoxckVkbDFaSGV0U3lDMTEzZ3FqLWJVUm0zajBTNnVrUU83THVST2FOdXNvWWVRWWpZMGFhZW51bTZmang4azlWd19peDB5RWsyNDNwalhYbmF1d0tsclViWDJadTFfZDRINnlrYTlVRg?oc=5"
+      },
+      {
+        "src": "Cape Argus",
+        "h": "WATCH: EFF’s Omphile Maotwe poised to become Tshwane deputy mayor as Mashaba backs Moya for another five years",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMnlaZ3QyU28yZ1hUQXdxRzZDUDhYYkVqR3RPVjVfaXdJOTNWekZDamRCdUU0MFA1ejFiUmt4V3d3Y1AyTXFaakdmRzZQNFUxd3BjdFZOWlFVNG1ydkt1dm9SUTR0RWFjRlRTTDU5dEItTkhvSGtZa1MwZDc4LUNUT2Z0dHFmNDE3YVVlNVdCLVNpdC1KSDZ0YVhQWU14ZGNmU3Z4Mk85Rk43OFVWUTJjbTBQZmVyNUJJbk53a1VMY0l1bF9Rb2tNdEhTT2s4UUVBdHdNdUx0emhFeVlIOUcxS0JGWkxZRDQ?oc=5"
+      },
+      {
+        "src": "Democratic Alliance",
+        "h": "DA condemns Tshwane coalition of chaos",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBzMzVMNkJsbUc4QndxRENudGhCTVNxQUMyM3U2V2dOeUFySzNhSEJqa0x3UjRRRFdvOWRzQTdFV2hFR0I2QVVJc1FrSDYwYzBGOHJJTzZwTUo4TkZWR1hDYThXZkYybjZDZUlaSy1lMDZSd0E4VWRN?oc=5"
+      },
+      {
+        "src": "EWN",
+        "h": "ANC’s Naeem Patel elected new Tshwane council Speaker",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcC1CUjRZS3E5V2o5Rlg5bVBXUmp1ai1vYlhpWUJZNEltRmpZTmUteVRVWUtiY2dJc19rcjM4UWZudGlDNHRTT0JGQlBQeThmclJVRVk2UkhZNllmSDlyNUd2WUNDWm9GU1ktR2pZLUxONzZMUlYybFBnay1qSHh2RTh3TW0wQVZ5aldMU3RlVQ?oc=5"
       }
     ],
     "actionsa": [
@@ -2020,6 +2098,12 @@
         "h": "ActionSA banking on ANC to secure positions in leadership of Gauteng's 3 big metros",
         "d": "2026-11-26",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObFNwQ0pQN3YyNHUzVElLSFVqbGMtcHFpSWxySHN6cG94ZTlfREJtY3hZdXN2cUpEMDFnY21QczVKbmRaZHA2UWNEeUoxS0Q2SHcycVFTM0ZJM21ySGg0S3A1bTU0WDdfdXE3WG5pR0hhUjNqVzdZUUJjYlBTYTExdUtyZnVpZHBBSXEtb3U3cVZrTHh2aFFvRUNrQnZ0ZDhzZ2VyRml3WEQzZXkzdk1qelBESGFaQQ?oc=5"
+      },
+      {
+        "src": "Polity.org.za",
+        "h": "ActionSA files second press ombudsman complaint against News24",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMk5rQUNKOUZCaXZIWEZkMWpyTDdYUEtoSU9yc0Flb1VZNjdxb2NmVkdoN1NUUThkdUphWC1DUVVLR1QtMkdBWmdmY2o5YWJBemxRcHhZVTNZSGFGc25kdHZad3VvR1BoN0l3anJNbzN5SjNRczBPYWNFanNQcF8wYkZWY2FITGNtU2lTU2UzZVluN3A0M3o5MEhHX2dreF83X2xXQk4zWDNLQXc?oc=5"
       }
     ],
     "mk": [
@@ -2140,6 +2224,12 @@
         "h": "JOHN DAVENPORT | The DA was never in coalition with the ANC — it was in coalition with Cyril Ramaphosa",
         "d": "2026-11-26",
         "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZ2FERjhNRGhWak8wREZUTjB3RGs0TzBTTV9zdHIzeWdKOVlQU3BCb3BoMEFoelJXeHJRVTVQX1VkYVNxTVJBVXdSRDIycEo5N2pYaDJ6X3l4ZFNnTXRPZlIzTjg4Vk05VWpGczc3YmhyOFo0NmNLeG9sSmtYd3hzVW1Sb1V0dDctR3lpOHZTb21MUE50NlJwVm5Sbl8zXzZYdktpQXBfSmI3TWdIMzBOd0pkYXY4d3NTdXhwTTVDQnA0Mnl0N1M3NWhvcEZTZlpHeldVM2tyRklTNWxsbzNxQUF3?oc=5"
+      },
+      {
+        "src": "Sunday Independent",
+        "h": "‘Don’t threaten us’: ANC hits back at DA over GNU threats",
+        "d": "2026-11-24",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObm9McnpkOFNnV1RzMVZRZHd1UzJGV2RLQ2FnaU5LSm9iMkZfS2pGYmNKMHpuUEp5NkF6aEt6Z1BGZUgtaHRGOHF6SzN1TFA1NlhCNlptd3VCaU8wVWI4enlDWDZzQUQwS1JGX0hNdHU4NDYtTjZDV3RCVVU4RGJnaGRHcExMMkVnZkdsbEF1ck9WM2pqUkx1akgxNzJ5anJ2M0lTaWotVFg?oc=5"
       }
     ],
     "pr-seats": [
@@ -2174,6 +2264,12 @@
         "h": "Qaanitah Hunter | Ramaphosa and the art of political ambivalence",
         "d": "2026-11-26",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbUNNVndoRVhXUlhrZHFVUnlFd0FTQmVZWno1VERkSF9KLWo0bEF6MDFXbGI5VEtjU0FDM0hBWlZRTXZISmhBX08zaFpXVzZXTkZhYnN4bjJjUnoyS2tEMW9ZSWZQbHptNDFPQ1lybU9kWjhQaTdNR3FsU09EUk1EWWMyNks3MS1PaE5yTTRyWEVfUGY0d1lJZU1QUVBHSmZpQTQ4V0lVUTI5dV9SQzZBSHJUYmJRRGNxWHV3?oc=5"
+      },
+      {
+        "src": "The Economist",
+        "h": "Cyril Ramaphosa is letting South Africa drift into chaos",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRXVHWnEtQ25PLVZZRHhmNGY0WHd4U25BNlY5aWRNN2prTkRFQUE4RTRXcFhRS1g0aTlHVTRMLXhyVURmUmVVNlFWakJENDA3OGh4NlJNMTRORkZTOW9XWW0tN1lKYlN5c0xsQ3luYmwtYVBHNlh4M1pfaURSNHVtMUpNbm1wNjlLejJQcV9NQjFOV1lOQU5VRmxsdDZGblV6MmdXYi1JMEhJUV9qZzhTUXRDSW5ab1U?oc=5"
       }
     ],
     "da-offer": [
@@ -2713,6 +2809,12 @@
           "h": "eThekwini council to reconvene on Friday to elect mayor and speaker",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWU1XRVZObGtrMlN2STRYQ2pzTU1TaVNETWdHYWdmMF90N0p4YlpTbGRkczVBT0R6WS1QNFBOWXFlVHVKR3BtUkFILXF3ZGFfZERxU3pGOXItZmJiaW5HVXdwdkE5NHktU3FwWlFLTGhxZUFvNEZwN2ZQY3JsdEo4d0o2RDRWX01ueGMtODFnQUxXNXZmeUlUUVZya1dYMml1WkRlUUl1V2hscTZodk9sRm5SWlJkeGFN?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "Former eThekwini mayor among four ANC councillors to resign from eThekwini council",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNVc4cmNMbmtldkFyRFJmbzJGOUNtTjN0blFRbUpYMG5XVFFiOW00N2g2dGM2R19TU2JWeU5xUmcyNlJlNEstV2hlSE11LWFXTWFEMjNiYVFldXhUWEo5Nzc5UlcyWktYc1ZkNzRJMndnamFIZURkOXZwMVVMVmRkMEZqSl9ReUhtNE1xQWU3eERoLUtCQnJZN01iUmEtNmdOUHd2ZE02NWktamVIc0Q3RFBPNUloMlpyQW81UmlIanQxdm8?oc=5"
         }
       ],
       "sec": [
@@ -3111,6 +3213,12 @@
           "h": "Breytenbach Confirms Recommending Shadrack Sibiya to Herman Mashaba in 2016",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQblVTUWZ3UkxHT3VDa1FKeVRnNFVoZ3J0NnZXb2txLTZrcF9UTWEwX09waWNfNkR4dU5YWmtRSmVid3ZaSU80YXRha0dTOTRCZ0NSTVp2Y2ZQQ0hDMmM5Q3VBMXVoWG5selg0MWY0emdMYjcxZXBsQkppYk9XS0c5ZzlTcExUVjV4MUdhQjR0N0FhQnRqWVk5Ym93UFFPdjlkRWRzSw?oc=5"
+        },
+        {
+          "src": "Daily Sun",
+          "h": "Malema takes Zille to court!",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1WYW9YdzdmQ2t6bzY3OHBWbHJYU2k5RXBELU5pWVZ4RE1HemFSYVc5Q2I1bGp0VElMY203N0pTbmQzV2V2cmtHN21yWXdwdXJVRW1jY0VqMkxMTHp2YnpodV81bW9WVXFoQW9vbk84c1NXZw?oc=5"
         }
       ],
       "sec": [
@@ -3317,6 +3425,12 @@
           "h": "Ekurhuleni mayoral vote postponed as DA pursues coalition deal",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9aQ2FpUHNEMWlhVms1RnpUV3V6MUR4WTlsdEtGclB5bk1ZY0llQUhuOF9sVjNJQ0hKRnQtX3J2TjItOFRnZjVlcGVWRDQ4YlJMSVl5OTVRUlBDOWRSdHdCLW8zRDdIUTJ3YU5vZUVkTnRGNTd0VzFjQjc5RUo?oc=5"
+        },
+        {
+          "src": "Cape Argus",
+          "h": "WATCH | Kagiso Lerutla presides over Ekurhuleni’s inaugural council meeting",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9vUmxOWmRNMVJxaUFRWEU2VGtGY3BrVF9nNlluclN0MjI0ZGk5c04xSHpmc3RsZXUtcmtNbE1XVHFoRnlpYnhVTzRMTUIxaW4wdkxvZEdpZDk1TUpiVDRvdEtxYm11dw?oc=5"
         }
       ],
       "sec": [
@@ -3732,6 +3846,18 @@
           "h": "ANC NEC Meets to Assess Coalition Talks and Determine Next Steps",
           "d": "2026-11-24",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOWVwS1VYa2tvYlQ5eWVnVGx2RlR4OWo5aDUtbWF4U3V5VEszY0VhWXpnSlRESXNmTTBLQ1FBR2xOSUl2YjFVQVdXWmIyVXV3WExVRk1LZHgyckthTWpTR0JqS2VrVnZMNDQxb1luVVhtZHR3emIwSEd2bDNuRE94dHc2dTU5VkdZUlZjaUxYZ29JRFFNMEE?oc=5"
+        },
+        {
+          "src": "News24",
+          "h": "DA, ANC join forces across Northern Cape, leaving PA in the cold",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTTY0ZkQ3MW8xRGNMdmcxWEJsWFFZaUhXWWdONVg0Qm56aVQtNFhTa0ZEZXZNeEdjYlBPNmJPeEpFeXEwdUlIQksteHBjbXNNcnpCNFUzM2tmVlAyR04wRUdsLXhpRXQwTk5ha2FPRklPNUtlRXRlOFFDQVM1TUtHWWMwb0VobFlyRm1zZFlRNlZwMEFvS2lqR3dmb1B5cXFnbU53ZWVMOExXcnJk?oc=5"
+        },
+        {
+          "src": "Central News South Africa",
+          "h": "BREAKING | ANC Postpones Coalition Negotiations Media Briefing",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUFpwNWdjbUtoVGV2aXJBQ3JDR18tdmVyM284dzFmY2VfbTFtVF9MNHlaSk5Rd3dfSG16aTZDZk5ZbGpfWkJqNlNXSDVTZktaRkZxdmlVZ0o0Q0d5ZkJXV2lQUW5ZNWprZEQ5djg0WUtDS1VpcF9BUFdtSEJmVFVGMXRqd3JMNFRiWlR3OXdiLU8?oc=5"
         }
       ],
       "sec": [
@@ -3904,6 +4030,48 @@
           "h": "EFF’s Justice Dabampe Elected Unopposed as Mayor of Lekwa-Teemane Municipality in North West",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ3A0NE1yU3V2ajBqWEVCWkpfSk9pRnE5MTZWeU00UWd5WkYyREFBa2txVi1SdnVnRXpoUjJtTHJzUWQzRE4yeksyVUpIcF9nY1U5MnBYc3F0TjVsSVBhVkU0dXdEbTc4WG1VdmFtdlZPcHhrWDVHdklpNDFnUzd6RVVxTk1GVERwcXNDZG1oeFZFM3VBSEFGTEJCN2FWWHh6dkdGcVVwNURDcUhDR043WkE5cXhfSzV3NXc?oc=5"
+        }
+      ],
+      "sec": [
+
+      ],
+      "voices": {
+      },
+      "first": "2026-11-26"
+    },
+    {
+      "cat": "Beyond the metros",
+      "place": "KwaZulu-Natal",
+      "h": "The ANC partners MK in uMhlathuze and uPhongolo, and the DA in KwaDukuza",
+      "dek": "EWN reports an MK Party and ANC coalition has ousted the IFP in uMhlathuze, and Central News South Africa reports the two parties have taken control of uPhongolo. In KwaDukuza, The Witness reports the ANC and DA have partnered to keep the MK Party out of government.",
+      "brief": [
+        "EWN reports an MK Party and ANC coalition ousted the IFP to take control of uMhlathuze.",
+        "Central News South Africa reports the ANC and MK Party formed a coalition to take control of uPhongolo Municipality.",
+        "The Witness reports the ANC and DA partnered to keep the MK Party out of the KwaDukuza government."
+      ],
+      "auto": true,
+      "id": "kzn-councils",
+      "items": [
+
+      ],
+      "coverage": [
+        {
+          "src": "EWN",
+          "h": "MK Party and ANC coalition ousts IFP to take control of uMhlathuze",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQR3FCRFJvOFdoaGlxRnJMZk9JTVV0cW5pZXhUUmNFQWdvcXVqdDVLUFFhZ0x6OXRGRE4yN19RbUdCV1VHeEdvdEJ6aXlFd2xmaEVzX29HR1E0VGtSSnd4cDhCOFRObTZXOGdBZktRaU43XzFqczRDeWFld0piZDd4QXVEMEYxRktnVHBIOWl6RkkwMVFfNGhTemQyNGVUcEE2?oc=5"
+        },
+        {
+          "src": "The Witness | Your compass in the community",
+          "h": "BREAKING | ANC, DA partner to keep MKP out of KwaDukuza government",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMjdhUEVTMWlrY2VOR0txVUlVckdXa0JVZURiRGdwV2l1My1McDVaSTEtNG92bGl1WWdocXUwRVNwaWxHT3B1OFQzNkFSMVJqenNjT1czTnV2YlctRXMzOXhrempwbjB1d1ViUVlQRFJHdlNBZHVKV3k4VHBGaGk4Q3NxQmxWajRCZENseVcwQmY2ZHhQQUM4bHlFSEVLVjFTWWx4dw?oc=5"
+        },
+        {
+          "src": "Central News South Africa",
+          "h": "BREAKING | ANC and MK Party Form Coalition to Take Control of uPhongolo Municipality",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdXlxNmhnVHF5UmZzTGc1VXZMNVZyam95NXg5eXZxdVYwWEEzMTg1Rzd2NFRUVWxZMkVWSW9ISGE5LWZraXhHZmYyNGhERTBqLWFLUVg4czFQeWx3MEhWQlo3UURHRGlwd19UMG02NkdlenMwNGhfeHZKcVNBcjBHZkNRZ1czSVFaRTY2aE5tVldLZmx5WVk5Vk9fNFNpZmFaNkFQWG9kVU51UFY0X3c?oc=5"
         }
       ],
       "sec": [
@@ -4585,6 +4753,26 @@
     "a828f7fe68c3",
     "b239520ef06d",
     "6573b2780799",
-    "e8d8d7c23424"
+    "e8d8d7c23424",
+    "8b5de156a8ee",
+    "2e178de7ad80",
+    "9ec3d7b91b20",
+    "3f708af21730",
+    "bce041a3cd1f",
+    "10415561c09a",
+    "782dc7b88e18",
+    "456f5260107d",
+    "0d073ea28445",
+    "a60f5ba92fe0",
+    "5f5b129d222e",
+    "a424bd300221",
+    "eea878b0d09a",
+    "2397eb7804a3",
+    "66ac0f9bf713",
+    "95debb332c7e",
+    "d9008b098bd7",
+    "3623786b12aa",
+    "8f9a7d075f82",
+    "e73efc65241d"
   ]
 }
