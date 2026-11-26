@@ -1,7 +1,13 @@
 {
-  "updated": "2026-11-26T21:57:36+02:00",
+  "updated": "2026-11-26T22:13:29+02:00",
   "people": {
     "elon-musk": [
+      {
+        "h": "Elon Musk pledges two SpaceX shares to every child’s Trump Account",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPajRBdVhVZ1BHemVtZnBQNGh0RTMyUkFGMkZYUzB5OWg5cjlCd1dyYk93N2Exd3RST25sSW03VnRCUkpzT0RvbEduLWxCTlIzSHhubWNJMmdPTVB4ajlDbTFDTDBSbkNnTEd4cjlQNDN2UGMwQkthR0VQS1J4U2dPZG9VYXFXdGFmX3dHaEh4MC1mRG1MdUdpYnA0LW4xZw?oc=5",
+        "src": "WORLD News Group",
+        "t": "2026-11-26T21:58:00+02:00"
+      },
       {
         "h": "Can Elon Musk really put AI datacentres in space? - The Latest",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTk5xVGhiS1JwU3E5a2ptd0hOY1BGdEJWQUdjWVhEZlh1UmZHNXpTNUhsYlFhOE80MHA2RmwtTmc5X1FwYzlkRnVyZEFLMC14SmtlOHcxTy1ib0c5UFowUDY2TEUtV0JGcGVGYzBucTg5amRpVjZfZ3V4OG0yTnE5S1JnbU5ZTFdzN1FJZHR3VDlCOHFydXFxQ2I1UlgtZTlRb3FVLTBSYVJ6NlNod0xn?oc=5",
@@ -9,16 +15,10 @@
         "t": "2026-11-26T20:35:00+02:00"
       },
       {
-        "h": "Elon Musk and SpaceX pledge two shares per U.S. child in Trump Accounts, doubling his commitment",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBucWJtNDJwZk05RGVQcmg2bmFFcFR0dlhMdVc2YmFRc1A0MnpGcmY5cXNFcGsyMEpiYjBfMlRkQ0RKNzJFNXRKMEFoTTBPbWlnenh3VDQ4NlZlbVZTZDRjWnlJVGpyUjlleWhzdXoyZnI2ZFdDSkww?oc=5",
-        "src": "CBS News",
-        "t": "2026-11-26T20:22:34+02:00"
-      },
-      {
-        "h": "How Elon Musk paved the way for Jensen Huang’s return",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMHdOZ2dnTzhpU0U1a0dWU3cwdjdVNUdPZ1ZNV0oweDMyQUJOa2xSMGNZb18wa2hhUUpEbUpHc2RLZEJ1ZXpfSGpTeVdMUnNiYXFvcDM4WnlSVHJFQW1Ubk1pX25SSmFvSHFqSHFxU1pPWVlTWDBET0pNRW1pcHBySnYwcTkyMnNDQUVQbjM5S0ZkbGhmMi02VzlTWm9MSEE?oc=5",
-        "src": "The Washington Post",
-        "t": "2026-11-26T20:00:00+02:00"
+        "h": "Two SpaceX shares for every child in America — that's the pledge made by the world's richest man amid public pressure to share AI spoils. With around 72 million children under 18 in the US, Elon Musk's promise is worth about $18 billion. #DWNews",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTnR0T0luNE5Wd1BSdGI0UHktcW9QTmJlVEk1UzVtWjlfNnlOME1BaU9BOVZwRjktLVBXbzROOEI2QmRWQUs5YnNYZGhIU29sOXpPSlN1aEVKM1l3VXN5YXgtcEhncE0zWGFSeWs4b25YUU1iSkZQdVMwenhyR3pEOGdtQWhzekc4M0tXUWp5c1hPY0dOMGVCZGJ1aUtpbHdEcnRUV3NWblBsM2Q5VnM1elRSbmZHeVJMcVZ0NThPVVZIVXpYZmhtYy0tcGdGbmNCVUVpOGc1aDU2UTRMa1R5RQ?oc=5",
+        "src": "Facebook",
+        "t": "2026-11-26T20:33:13+02:00"
       }
     ],
     "trevor-noah": [
@@ -286,12 +286,32 @@
         "src": "The Globe and Mail",
         "t": "2026-09-07T09:00:00+02:00"
       }
+    ],
+    "gary-player": [
+      {
+        "h": "From Gary Player to hackers who shoot 172! The 'Carnoustie Caddie' has seen it all",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWXljbjJzRVhOcmNFSjVWVG5CZlltOXJmdWZaVDkzYzFxalA0cU4wNXpSYVdiUVhWVVc3Y29vWUNBVGhlLUs0ckxvQW9nOVV2TXByUjh5ZlM3QXB3dXVETG9seEd2Znl3RS1sSlJFdHZtU1Y2dXlEYWpWS053N3NtUmFRbkVzejFNMXFiWFc3T211Z9IBlwFBVV95cUxNc3VGSjg5SmhCYmVxNF9kRmpMLXk4VnVYdmF3TTVvVzRJXzhUaVpqaDFOdjhJZGZRV0d3QzgtM3VsYndNM2R3cTBIZDFzT3MySUVYYjNPaXpxSVlxUXJpbkdxaXc0UEQtNDRsc0FlVlA0VUpycnNYWDNlOW0tbktxb00xRS02VXp3SU0wS0l2TkhsbGMyNzNV?oc=5",
+        "src": "Scottish Daily Express",
+        "t": "2026-11-25T17:33:00+02:00"
+      },
+      {
+        "h": "Gary Player’s warning for amateur golfers about the common mistake they make out of fairway bunkers",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNG0tdVVzNjk2VHRqMEZSWF9ZbXNXRzhoQ0xKRVpnQUM4QmxVOWhEQ1VNTFdCRVVqVnlqMmsxVWZlZzFxOHMyNFJ5TUhHUlNyMlV1SktXMTAxbGdKT2tWdWhRdkpGQ256ODJrVFRUUlRRN2dwNnh2dWpsb0VtYVBPMTBiVzJyYlF5NjBhN3J5QnpPdTNCblBWbWJLUWhFYnkzbnFHdi1Pei1qd3Jtem5YOE5VMVBQcDE2bS1VLVFBUldueWEwenVSdUJZSXo3NUZxR3UtZVo0OFBuUFU?oc=5",
+        "src": "The Golfing Gazette",
+        "t": "2026-11-25T14:00:00+02:00"
+      },
+      {
+        "h": "Tee Times - Nedbank Golf Challenge in honour of Gary Player 2026",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSlYtMDdub2g0QmtXRXBRSVpDU2pTZEwzZE9uSDVQLXJmTEFlWHM4N2s0N2lIUmhjcldJUzViT1hqcDJQX2VobEtISUo2eDNsR0p6Sk8zRkl3YWFzRzNGV2lkQXd1Y05velF5N2ZEWi1YcHEtN21QcUxENE9BVWV0cGJHMUV1WVR3REtNaTVNaWNXck9OZ2VMRXlORTh6NkY5MjVHc05JYkJKZw?oc=5",
+        "src": "DP World Tour",
+        "t": "2026-11-23T19:00:00+02:00"
+      }
     ]
   },
   "week": {
-    "elon-musk": 91,
+    "elon-musk": 92,
     "trevor-noah": 1,
-    "peter-thiel": 38,
+    "peter-thiel": 34,
     "thuso-mbedu": 2,
     "tyla": 5,
     "roelof-botha": 2,
@@ -305,6 +325,7 @@
     "patrick-soon-shiong": 0,
     "chad-le-clos": 0,
     "neil-sandilands": 0,
-    "ivan-glasenberg": 1
+    "ivan-glasenberg": 1,
+    "gary-player": 3
   }
 }
