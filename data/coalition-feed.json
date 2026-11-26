@@ -5996,6 +5996,30 @@
       "k": "SABC",
       "n": "SABC",
       "badge": "SABC"
+    },
+    {
+      "k": "BD",
+      "n": "Business Day",
+      "badge": "Business Day",
+      "logo": "businessday"
+    },
+    {
+      "k": "BEELD",
+      "n": "Beeld",
+      "badge": "Beeld",
+      "logo": "beeld"
+    },
+    {
+      "k": "BRIEFLY",
+      "n": "Briefly News",
+      "badge": "Briefly",
+      "logo": "briefly"
+    },
+    {
+      "k": "BTECH",
+      "n": "BusinessTech",
+      "badge": "BusinessTech",
+      "logo": "businesstech"
     }
   ],
   "intl": {
