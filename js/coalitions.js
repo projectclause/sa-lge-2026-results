@@ -61,7 +61,9 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
   // green "New" pill for voices with a piece dated today (SAST); its "i" explains the tag
   const NEW = '<span class="pl-wide pl-new">New</span>';
   const INFO_NEW = '<span class="pl-i" data-note="new" role="button" tabindex="0" aria-label="About the New tag" aria-haspopup="dialog">i</span>';
-  const isNew = (p) => LASTD.get(p) === today();
+  // the green New pill is retired: the red "Latest …" line on each card now says when they last published
+  const SHOW_NEW = false;
+  const isNew = (p) => SHOW_NEW && LASTD.get(p) === today();
   // Most Influential, Influential and Wide Reach pills are hidden for now; the ranking (p.top, p.inf, p.wide) stays in the data
   const SHOW_RANK = false;
   const nameTag = (p, fl = "") => { const t = !SHOW_RANK ? "" : p.top ? TOP : p.inf ? INF : p.wide ? WIDE : ""; return `<b class="pl-nm">${esc(p.n)}${p.alias ? "*" : ""}${fl}${t ? `<span class="pl-tagw">${t}${INFO}</span>` : ""}${isNew(p) ? `<span class="pl-tagw">${NEW}${INFO_NEW}</span>` : ""}${p.pb ? `<span class="pl-tagw">${PB}${INFO_PB}</span>` : ""}</b>`; };
