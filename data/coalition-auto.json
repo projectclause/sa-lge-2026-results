@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-26",
-    "time": "12:24"
+    "time": "14:07"
   },
   "items": [
     {
@@ -1132,6 +1132,54 @@
       "src": "IOL",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9lSmdjMzYxVVZFdmN2ZVVBMkp5WjgyUEd2QzVuMmkxZ1pnT3NMSzFLbFdIb0Y1RWlmMGVGanpab29ZZlVoaU1qa0NJYUJpUXF5VGlENEJJTEZfdVAxbEE?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-75f827ad34",
+      "j": "duduzane",
+      "d": "2026-11-26",
+      "kind": "Video",
+      "place": "KwaZulu-Natal",
+      "h": "WATCH | ‘The mission will be accomplished’: Duduzane Zuma votes as MK eyes council seats",
+      "s": "IOL video shows MK’s Duduzane Zuma voting and saying ‘the mission will be accomplished’ as the party eyes council seats.",
+      "src": "IOL",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPb1duZUszaHFNQmFucml0S3BHNnhSczZxUzYtSzE3X3dmSUo3ZGEyZzNvejZ0TXZLZ0VpV08ycEJ0dU03OXlTcmwzVWZlZU1ORGlHVkczMHlSb0lJQWVvN0UxSXJQS0FuSjREVUQ3Y291Z1JMTUZYWlRCS3gzUTFvdmk2NGx2aVF5VU83SGlWdVdhaDlHRjhsU0FvUG5Ba2JUUHYwYk94QXV4cmpGZk1VcExrX0NuM2otY3ZjUmR3?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-cc72085f3b",
+      "j": "makin",
+      "d": "2026-11-26",
+      "kind": "Video",
+      "place": "Johannesburg",
+      "h": "Is Herman Mashaba Overplaying His Hand?",
+      "s": "Marius Roodt explains why Herman Mashaba’s conduct in coalition negotiations appears to have frustrated some in the ANC, noting Johannesburg was the one Gauteng metro where ActionSA went backwards.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=sYZkzgo8afc",
+      "auto": true
+    },
+    {
+      "id": "a-a4287bc0b9",
+      "j": "helen",
+      "d": "2026-11-26",
+      "kind": "Article",
+      "place": "Johannesburg",
+      "h": "Helen Zille warns that a reckoning is coming for Herman Mashaba and ActionSA",
+      "s": "Newsday reports Helen Zille warns that a reckoning is coming for Herman Mashaba and ActionSA.",
+      "src": "newsday.co.za",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPa3RNcWphZVRSR1hKOEN2M1NYdHhITGY0eTE5bDAzdFNKSXUzX1JSU3JEeU5nWGhGS3dJMXZ1MUZON0tBZndyNi1MUVltX2FscFhiVlVldFhhWDNTakNtNDl2dVlOalNqNU8teTJQSktyd3NwbW5jcklyTXg4X1R6anhqUkJORkk5NTdSRGF0MVFCZDA1azNsQXdRN0VzUTRkWFFrRkJzVk52OXdmenlyYVBRU19yQllGc0E?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-e47cf3ba36",
+      "j": "ashor",
+      "d": "2026-11-23",
+      "kind": "Statement",
+      "place": "Emfuleni",
+      "h": "DA condemns EFF violence at Emfuleni council sitting - Ashor Sarupen",
+      "s": "In a statement carried by Politicsweb, the DA’s Ashor Sarupen condemns EFF violence at the Emfuleni council sitting.",
+      "src": "Politicsweb",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOVhYdUM5c0h5aFg4Z05xQ3ZVV09BZ05KUlpUMTZNQjFlYlNFa3NreVV2RUNZMzllUlE1eXFoRXhLdXhBUkF2a01mVkR6WEVxaEU0U0pXRWhzdjJxbG5FLVpuOGtDd25DYjlQZGlkTzlta0trbkZPdjlMNmJ4Z1FXM1NYYTJ3WTEySGRKR1BPOS1QWUl3bWtMM29EQVk4dlV4OS1F?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -1165,7 +1213,9 @@
       "a-195b93c97c",
       "a-c32ad758ff",
       "a-dc58319ec4",
-      "a-e4500fdb5a"
+      "a-e4500fdb5a",
+      "a-cc72085f3b",
+      "a-a4287bc0b9"
     ],
     "da-offer": [
       "a-7ec03aa2b8",
@@ -1180,7 +1230,8 @@
     ],
     "mk": [
       "a-7857ef5d3f",
-      "a-0296244abc"
+      "a-0296244abc",
+      "a-75f827ad34"
     ],
     "ramaphosa": [
       "a-8b8a61c941"
@@ -1791,6 +1842,12 @@
         "h": "First ANC-MKP coalition takes control of uPhongolo Local Municipality",
         "d": "2026-11-26",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNLUZ5Z3YxaERlS2tvQ3JkSl9oeGVjTjVwbVVkSHUwNVZCcm9qYktEdEN0ckpVZmZDbzlmN2FPS1BwNUJINDYtZTFKOHdiT2FBTmVocHdlTnI0WEY5Zlh1a3poTEQxODhsd09LSVh6Y1lBZVpHZjM4OFNHaDdEdVB2aWhRTFJQZUpUZ3J3V0RybkoxcWxKek9tcVpoaEZIQm9JMmRfRmplbw?oc=5"
+      },
+      {
+        "src": "Mail & Guardian",
+        "h": "MK party muscled out as ANC, DA, IFP and EFF join forces to govern Mandeni local municipality",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQQ09EcExpbnlBek16RW1td2lFSW5vVHozcmtlckJPU0gtNmlBVGZDYU10M1loMFNWOGlSa2k3dHJOWmRqLTNiR2UxSEFYMGFsbDRxS0JkZ181bEhpQm9pYm1rVXRjVmlNalBVYk5mQ3ZFWllRM1YtY0hGUVQ2VERiRHU5Mlp3SzFSY2w0Vm1DSHpZR1dCSFhOdURZMWhCamRrQ2g2Tl85R1Z6Ym1uRklPQTNKZDZUSzh4UEdEY2NpbUs0d3BVU21FMkZDUlBjWklKbldtOA?oc=5"
       }
     ],
     "tshwane": [
@@ -1847,6 +1904,18 @@
         "h": "ANC, ActionSA, EFF, MK Party reportedly reach Tshwane coalition deal",
         "d": "2026-11-26",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWE9WcnUyX3lJNG9WVkFqbzVTQTc5UEhObDFGNW1YQnZUem1kNEV4ckY0X2xQN1NJVXVqQkN3ZTJFdUpSTmRFTVAweExWcm9EOEZBT2lnUUpSSGVnRFdYTTE4WjdnWEtSMW1yZ3VRNEZGMjN6bjEyQnZVdlduMGJWMUNtTGJmWlVqOXNhS0NnVlRlMm0tZ3VYalpxaDJBMGs?oc=5"
+      },
+      {
+        "src": "Sowetan",
+        "h": "WATCH | EFF’s Omphile Maotwe poised for deputy mayor role in Tshwane",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSmxURnNKeWd1WDlqeG1YYTRaQk5Nd2pVZjNvRnlwQTE2VEVYOE9qN3haR29Gdnk5WFlHQVRKR0U1bEdqWFVuTmdrYXNDWkNqOU1rdFN0ekhQTEE0WEpobm9kNTN6MTBja25mZVZRVTNxRE1Fd0tKYWhRNENOUW45YzR5dUZZRVM1QUNxb0FmZlRjbzJxQTNYbnJWdTlSVzJFYWU1M0FXTlRCSDJG?oc=5"
+      },
+      {
+        "src": "IOL",
+        "h": "DA loses bid to postpone Tshwane mayoral election as ANC, EFF, MK Party and ActionSA prevail",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSUJiNG5NaEpVWDFYQmNsa3g5WERNYnZId2FHNkIwY3pzc1BLRVkxbTM3YlV6Q2hwNGhtTFdXeXRvVHNtZFRuaWMzSWdfSHZUcWJnMHJqRFBFYmNMOVozdk1JdExzc1hNMWE3ZFpCQWJTeWNZRWpsSl8waXRheTJ3aHVTX1Ntc3J5eXFTZ0xaVUlTNkI3Sm1haHV0Ti1mRHloN3V1cTZIU2RfSHk0bmpjVmtsMFllQTA1X2lXd2ZrRUw2T0FBeHhJ?oc=5"
       }
     ],
     "actionsa": [
@@ -2199,9 +2268,9 @@
       "cat": "eThekwini",
       "place": "eThekwini",
       "h": "eThekwini council will reconvene on Friday to elect a mayor and speaker",
-      "dek": "eThekwini’s inaugural council meeting adjourned on 24 November without electing a mayor, deputy mayor or speaker, and IOL reports the council will reconvene on Friday to do so. IOL and Briefly News report the ANC and MK have reached an eThekwini agreement, and IOL reports the ANC is seeking two of the top four positions.",
+      "dek": "eThekwini’s inaugural council meeting adjourned on 24 November without electing a mayor, deputy mayor or speaker, and IOL and DailyNews report the council will reconvene on Friday to do so. IOL reports party sources linking the adjournment to coalition posts, and IOL and Briefly News report the ANC and MK have reached an eThekwini agreement.",
       "brief": [
-        "Several outlets report the council adjourned without filling a leadership position to allow coalition talks to conclude; IOL reports it reconvenes on Friday to elect a mayor and speaker, and The Mercury reports parties were divided over postponing the mayoral vote.",
+        "Several outlets report the council adjourned without filling a leadership position to allow coalition talks to conclude; IOL and DailyNews report it reconvenes on Friday to elect a mayor and speaker, and IOL reports party sources say the adjournment was linked to coalition posts.",
         "Central News South Africa reports the EFF welcomed the adjournment, DailyNews reports ActionSA rejected DA pressure over the eThekwini coalition, and The South African reports the IFP and EFF mayoral hopefuls will not take up their council seats.",
         "eNCA reports the sitting went ahead despite a KwaZulu-Natal Cogta directive to delay it, which IOL, DailyNews and the Sunday Tribune report the city manager challenged.",
         "IOL reports the ANC and MK sealed an eThekwini deal and that the ANC seeks two of the city’s top four positions; Briefly News reports an agreement was reportedly reached, and EWN reports the parties were coy at the sitting.",
@@ -2608,6 +2677,18 @@
           "h": "IFP, EFF mayoral hopefuls won’t take up eThekwini council seats",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUjctTjVZQ2ExUjhMaU1OdGdwQm1PNDlnZUJxNTdWX2VuMmV0U2o3dkN2MUFiTnZSa3ZyLWtmWXBJT3NzcGE3eHBwZ1FDMUxnUXU1X2RndkFyeWFmQ243RGFZcVFqa0xDMk9DcjZhTmpXQnZraDRZMnZ1LWktWU9PUHAyOEZmUi1jSnM0SWNnNEFTSFhvS2lmd1VMX3F0TG90enFYQU5ndnpyY0Iw?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "eThekwini council adjournment linked to coalition posts, party sources say",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOb2MtWU0xZTRrNUdPN2ktbHJnUVBwUkNOXzg0YWhLdXBlRFA1MG5qa3dIYjlzN2pvRU0xZTBidVllMFBuaHVqc3ItM3pqVUxoRGdSeTNGYWRDSUhTNGJCR3JzX3F2MFZiQktTQWhiMi1hUUt0ejNkZUJKWWtsVTEycHBKUTBuMnZKVjVFVkppdUx0b1VlUWMwMUItcjlJZHpVUE52Wm42a0FoTjFRZVZmcDZWWGgzVzZFVVE?oc=5"
+        },
+        {
+          "src": "DailyNews.co.za",
+          "h": "eThekwini council to reconvene on Friday to elect mayor and speaker",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWU1XRVZObGtrMlN2STRYQ2pzTU1TaVNETWdHYWdmMF90N0p4YlpTbGRkczVBT0R6WS1QNFBOWXFlVHVKR3BtUkFILXF3ZGFfZERxU3pGOXItZmJiaW5HVXdwdkE5NHktU3FwWlFLTGhxZUFvNEZwN2ZQY3JsdEo4d0o2RDRWX01ueGMtODFnQUxXNXZmeUlUUVZya1dYMml1WkRlUUl1V2hscTZodk9sRm5SWlJkeGFN?oc=5"
         }
       ],
       "sec": [
@@ -2901,13 +2982,13 @@
       "cat": "Johannesburg",
       "place": "Johannesburg",
       "h": "Malema awaits judgment in his bid to gag Zille over her Joburg claims",
-      "dek": "EFF leader Julius Malema went to court to stop DA mayoral candidate Helen Zille repeating claims about him, in a dispute linked to the Johannesburg coalition fight, and the court reserved judgment. Zille refused to retract, and Briefly News, Central News South Africa and IOL report Michael Beaumont challenging her claims, including with a 2016 email.",
+      "dek": "EFF leader Julius Malema went to court to stop DA mayoral candidate Helen Zille repeating claims about him, in a dispute linked to the Johannesburg coalition fight, and the court reserved judgment. Zille refused to retract, and Michael Beaumont has challenged her claims, while Central News South Africa reports Glynnis Breytenbach confirmed recommending Shadrack Sibiya to Herman Mashaba in 2016.",
       "brief": [
         "Briefly News and the Mail & Guardian report Malema sought an urgent interdict to gag Zille over her Joburg claims.",
-        "IOL reports Malema demanded a retraction and apology and threatened R1m defamation action; IOL also reports Zille said no.",
-        "News24 reports Zille fought the gag bid using Malema’s own words, including 'we were controlling him'.",
+        "IOL reports Malema demanded a retraction and apology and threatened R1m defamation action; IOL also reports Zille said no, and News24 reports she fought the gag bid using Malema’s own words.",
         "IOL reports the court reserved judgment, and eNCA reports Malema is awaiting the outcome.",
-        "Briefly News reports Michael Beaumont shared a 2016 email that he says contradicts Zille’s claims, Central News South Africa reports the leaked email contradicts her claims linking Malema to Sibiya’s Joburg appointment, and IOL reports Beaumont says the DA recommended Sibiya."
+        "Briefly News reports Michael Beaumont shared a 2016 email that he says contradicts Zille’s claims, and IOL reports Beaumont says the DA recommended Sibiya.",
+        "Central News South Africa reports Breytenbach confirmed recommending Sibiya to Mashaba in 2016."
       ],
       "auto": true,
       "id": "malema-zille-court",
@@ -3000,6 +3081,12 @@
           "h": "2016 Emails Reveal DA’s Glynnis Breytenbach Recommended Shadrack Sibiya, Contradicting Helen Zille’s Claims About Julius Malema",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNRWZIR1diUHJlR1JmZ1lrSG1BNC0tZjR3NkFtMXAzb1ZIdmp2UjdjbDNidDNHbHNjT0hPd1dCM3k5TGNTMzRJRVJHOXQyeFFmaUtfVThiUkFyS0k0eUZIVnVnWndyd181ZDVTeURFbHg1NkFzdVN3bmpUQTZkMjVsamU4RGRKNF9sS2p6ZGdCbmVpaHozemhrRDRXcTN1WEJldkY0b3RKS3owdUs5WlVERlZlaS11bVB6UVduMnFTYjJpLWhNN29uR2I5cEw2b1ZPcHFaSFFzRHQtaTNXa2hIZ0ctQlh1Zw?oc=5"
+        },
+        {
+          "src": "Central News South Africa",
+          "h": "Breytenbach Confirms Recommending Shadrack Sibiya to Herman Mashaba in 2016",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQblVTUWZ3UkxHT3VDa1FKeVRnNFVoZ3J0NnZXb2txLTZrcF9UTWEwX09waWNfNkR4dU5YWmtRSmVid3ZaSU80YXRha0dTOTRCZ0NSTVp2Y2ZQQ0hDMmM5Q3VBMXVoWG5selg0MWY0emdMYjcxZXBsQkppYk9XS0c5ZzlTcExUVjV4MUdhQjR0N0FhQnRqWVk5Ym93UFFPdjlkRWRzSw?oc=5"
         }
       ],
       "sec": [
@@ -3200,6 +3287,12 @@
           "h": "WATCH | Ekurhuleni elects new leadership",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9GcFNsYklfWVowWVZXWHlRQ1Axb2hyMHFrUkZ6TllRMVRzdy0tOFM4c3lFemRQS29pNmJJNFFDZmV6OXp4XzVna283b3ZBR1NsRXFpazJxbWdSWW1SUDUwTEcxbkxhNDJtVVdaMlVlUjJ3aFhWWWFMUkg2TV8?oc=5"
+        },
+        {
+          "src": "sundayindependent.co.za",
+          "h": "Ekurhuleni mayoral vote postponed as DA pursues coalition deal",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9aQ2FpUHNEMWlhVms1RnpUV3V6MUR4WTlsdEtGclB5bk1ZY0llQUhuOF9sVjNJQ0hKRnQtX3J2TjItOFRnZjVlcGVWRDQ4YlJMSVl5OTVRUlBDOWRSdHdCLW8zRDdIUTJ3YU5vZUVkTnRGNTd0VzFjQjc5RUo?oc=5"
         }
       ],
       "sec": [
@@ -3215,15 +3308,16 @@
       "h": "The DA secures a five-party coalition in Emfuleni after a sitting collapses",
       "dek": "ANC, EFF and MK councillors disrupted Emfuleni’s mayoral election sitting, and Nova News reports it collapsed. News24 reports the DA has secured a five-party coalition to take control of the municipality, giving up posts to do so.",
       "brief": [
-        "News24 reports chaos as ANC, EFF and MK councillors disrupted the Emfuleni mayoral election sitting.",
-        "Nova News reports the Emfuleni sitting collapsed.",
+        "News24 reports chaos as ANC, EFF and MK councillors disrupted the Emfuleni mayoral election sitting, and Nova News reports the sitting collapsed.",
+        "The DA’s Ashor Sarupen condemned what he called EFF violence at the Emfuleni council sitting, in a statement carried by Politicsweb.",
         "News24 reports the DA secured a five-party coalition to take control of Emfuleni.",
         "News24 sets out what the DA gave up to secure its majority: MMC posts, the speaker and the chief whip."
       ],
       "auto": true,
       "id": "emfuleni",
       "items": [
-        "a-197d6621f5"
+        "a-197d6621f5",
+        "a-e47cf3ba36"
       ],
       "coverage": [
         {
@@ -3274,10 +3368,10 @@
       "cat": "Western Cape",
       "place": "Western Cape",
       "h": "The DA is shut out of Theewaterskloof and Laingsburg as Western Cape councils pick partners",
-      "dek": "News24 reports the ANC joined other parties to take control of Theewaterskloof, and IOL reports ActionSA formed a Laingsburg coalition with the PA and ANC, leaving the DA out. SABC News reports Matzikama council will sit on Thursday after a deadlock over an EFF councillor.",
+      "dek": "News24 reports the ANC joined other parties to take control of Theewaterskloof, and IOL and the Cape Times report ActionSA formed a Laingsburg coalition with the PA and ANC, leaving the DA out. SABC News reports Matzikama council will sit on Thursday after a deadlock over an EFF councillor.",
       "brief": [
         "News24 reports the ANC and other parties took control of Theewaterskloof, shutting out the DA; the Cape Argus, Cape Times and IOL report the DA warning this could derail financial recovery.",
-        "IOL reports ActionSA formed a coalition with the PA and ANC in Laingsburg, leaving the DA out, and SABC News reports Matzikama council sits on Thursday after a deadlock over an EFF councillor.",
+        "IOL and the Cape Times report ActionSA formed a coalition with the PA and ANC in Laingsburg, leaving the DA out, and SABC News reports Matzikama council sits on Thursday after a deadlock over an EFF councillor.",
         "News24 reports the DA and FF Plus entered coalitions in some hung councils; IOL reported the DA began talks with 16 councils hung.",
         "IOL reports the DA named deputy mayor and speaker candidates for seven Western Cape municipalities, and Limberg as Cape Town deputy mayor.",
         "IOL and the Weekend Argus carry an argument that the opposition’s voice in Cape Town is growing smaller and meeker."
@@ -3371,6 +3465,12 @@
           "h": "Matzikama council sits on Thursday after deadlock over EFF councillor",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQa2dPVmctVTBlNGQ5WDhTTWhjUVU2a3BfNGxYVU9RQ0ExWnhVMW52Z2JhZ3ViSDB2LU0tNzN4alltT09BMDB4eHdIaUF3MnJEd0xNUFd4UTVEcWRfSDNDTUJzZ3dWMmJZWnJwOEdCSURxVVBvUGRLeVg0aWZxcXZXRGVyUVR2c3U4dlR4VzdHT2ZJdFJORDBXOS12cUx0V25qV1poRnNUNA?oc=5"
+        },
+        {
+          "src": "Cape Times",
+          "h": "ActionSA forms Laingsburg coalition with PA and ANC, leaving DA out",
+          "d": "2026-11-23",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbjR2VnF4ZFQ5Smw2dEFadkZHN3A0Y0tKY1VkaEF0WXZQQk9xUUNMZlNCa0Vzd0c5VnVmZFZPc3pJNXR1cmNSZWJPbHlrU2ZGSHphVlNBUEh2QS1XU1FRdHp0R0ZJdm45T2FuRDZiUkFsOHRLT1pwQ3lXa2NWZUhzbnZueWxPcEZ5MDdUS0p6ZW5za2VBVEFqRy1hLVNuY1VpZmREVk0yU3VGaHM?oc=5"
         }
       ],
       "sec": [
@@ -3566,6 +3666,24 @@
           "h": "ANC moves Mbalula’s coalition briefing to Friday",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMkZycDNZUXA4Skhpb1lzNU1oaXlmSFRjZEpVT0JBTVNoMnozWUJ6SFZLazRFZ0tJS1JYRkt1MFlDQkREV1YzY0JVbjdvWWgyU3lxTGZpY3lFdjB3OU02bmdDcnRhMFlETUtRc2JMQUZOOE5jWFdiY0xVRmNCemM4eExmZTIwT2NmeTh0TFhmOA?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "ANC hits back at claims coalition talks are weakening rand as currency nears R17 to dollar",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQY1ZxTjhicXR4eW1tMTBmRnhfZWRreHZuclJORWdKU0h3aHdJLUdyTE1ycDZ1MmFDamRfanl0dDRkT3FKdUNZVjlKRHNrZ29Gb3VTanoxZnJ5X3JQcEw2WDI3MnR3LTI4TU5yTG1kMlVJeFZCQ1ZXRy1GYjFBal9pdVhId18xNHJ6RkVUU1ZyeDc2N0xNVlFIU1BvSk5qeUU5eFRNNUZHUUF6RVgxWTgwRVpQd3lWUF9yQ3owdW1oX1NPOUVqMEFwM0NNN3VIWUU?oc=5"
+        },
+        {
+          "src": "https://explain.co.za/",
+          "h": "ANC coalition talks: Provinces get more power to decide",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOFhKUXlRbzFNanlaLXFjQmdEcVFRNGlGdlpOcHY4Sm5mQkktX2NxQXRLT0JIa1Myb1JOVkJQZk13VFBaTldrb1cwTlQ3TWh1bEJyb3VvOVp6Q2lTOTFjMl94TXF1WFhhRi16elRrUTJLRTlfWUN0MThuYnRCci1PSHlGZEgzdXVT?oc=5"
+        },
+        {
+          "src": "Primedia Plus",
+          "h": "ANC NEC Meeting and COJ council meeting",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1WMTFBSXNGNzFtSUIyWnlPdno4RVM2NzNNQU1yb1VnUlBIcnduY05ocG1VX2VGUHE1MUlRbWNRTDh5bW1QcTBlRFZmekFaSi1SSWJRR2dJbWozY0hoQ3hRQ3dDcm1DcHhQbUdEUGNmbzZOUllvY2c4WA?oc=5"
         }
       ],
       "sec": [
@@ -3578,12 +3696,13 @@
     {
       "cat": "MK Party",
       "place": "Eastern Cape and KwaZulu-Natal",
-      "h": "MK members dispute the party’s PR councillor lists",
-      "dek": "The Witness and IOL report the MK Party faces internal discontent and a backlash over its KwaZulu-Natal proportional representation list. The Daily Dispatch reports the party’s Port St Johns branch is threatening court action over a contested PR councillor list.",
+      "h": "MK members dispute the party’s PR councillor lists and candidates",
+      "dek": "The Witness and IOL report the MK Party faces internal discontent and a backlash over its KwaZulu-Natal proportional representation list, and Inside Politic reports MK structures are clashing over a KwaZulu-Natal mayoral candidate. The Daily Dispatch reports the party’s Port St Johns branch is threatening court action over a contested PR councillor list.",
       "brief": [
         "The Witness reports internal discontent in the MK Party over its PR list.",
         "IOL reports MK faces a backlash over its KwaZulu-Natal PR councillor list.",
-        "The Daily Dispatch reports MK’s Port St Johns branch threatens court action over a contested PR councillor list."
+        "The Daily Dispatch reports MK’s Port St Johns branch threatens court action over a contested PR councillor list.",
+        "Inside Politic reports MK structures are locking horns over a KwaZulu-Natal municipality’s mayoral candidate."
       ],
       "auto": true,
       "id": "mk-pr-lists",
@@ -3608,6 +3727,12 @@
           "h": "MK Party faces backlash over KwaZulu-Natal PR councillor list",
           "d": "2026-11-23",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQT2QxZUhCc3hGcVpEOG5jUVRac3FXV3JxUnBFYUV6aEtkalJLbWN5WlZnYTl6Wk9TRmhQUG1INDhzWHlzZktvbF9aLXdON251d0xIVWx6UndtNTNnMXdId2dfbTBIQlBpTWtZWW1jR2d2OWNwSVJfdWMtMjU0dWY4QTQ4OWc0QlVrRU5sQW1Qa2F6WDVzakZ1ZHZwYWRGckNVNmVv?oc=5"
+        },
+        {
+          "src": "Inside Politic",
+          "h": "MKP structures lock horns over KZN municipality mayoral candidate",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYjM1SkFFbloycGdVdTQtQnVPQko3SGw2QnZBcTVhbEJEdHdCQndfS0VmeFRGZXNTZUdwR1JvY084ZGFyeF96bVlSTG1HanNpc3FnQjJJX3BVU1VKdEhPaHJyRGxvQmNZR2o0TnBRWVIybUlDUW1HUUN3eHd1VmV5Qk1fMmJRRF9uam8wXzcxUnVPRTV3X1dNZEZn?oc=5"
         }
       ],
       "sec": [
@@ -4377,6 +4502,29 @@
     "d046c38b86cc",
     "5ada39e34886",
     "7b641bbb1ce0",
-    "a05ea87d0cc0"
+    "a05ea87d0cc0",
+    "cfbed30664d5",
+    "75f827ad34db",
+    "a1e964bab125",
+    "37ec162a06fe",
+    "074946da8dfc",
+    "3524565c1780",
+    "ece56c952bd9",
+    "cc72085f3b5d",
+    "a4287bc0b98c",
+    "88bfd5067269",
+    "f6111cc145d9",
+    "31e54c6e0bbd",
+    "2dd0a58bf3de",
+    "56e0014ab924",
+    "0d8ea27eca88",
+    "6cf6a8223ac1",
+    "7369c9f339dc",
+    "8216d59a8093",
+    "5c8128c32509",
+    "d5f89b26ac4e",
+    "5d7f9a9e3afa",
+    "e47cf3ba3693",
+    "d77f2827c432"
   ]
 }
