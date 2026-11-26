@@ -173,7 +173,34 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
         ${grid(pl, "key players")}
       </section>`;
   }
+  // YouTube TV is for subscribers past the top 3: places 4 onwards are blurred, with a subscribe button over them
+  const subscribed = () => { try { return !!((window.PRE && PRE.me().email) || localStorage.getItem("pre-signed") === "1"); } catch (e) { return false; } };
+  function lockYouTube() {
+    const beat = root.querySelector('.pl-beat[data-beat="yt"]'); if (!beat) return;
+    const wrap = beat.querySelector(".pl-vgrid"); if (!wrap) return;
+    wrap.querySelectorAll(".pl-ytlock").forEach((x) => x.remove());
+    const cards = [...wrap.querySelectorAll(".pl-voice")];
+    if (subscribed() || cards.length < 4) { beat.classList.remove("pl-locked"); return; }
+    beat.classList.add("pl-locked");
+    const lock = document.createElement("div");
+    lock.className = "pl-ytlock";
+    lock.innerHTML = `<p><b>See the full YouTube TV ranking</b><span>Places 4 to ${cards.length} are for Preamble subscribers. It’s free.</span></p><button type="button">Subscribe to see all</button>`;
+    wrap.appendChild(lock);
+    const place = () => { const c3 = cards[2], c4 = cards[3]; lock.style.top = Math.max(c3.offsetTop + c3.offsetHeight, c4.offsetTop) + "px"; }; // below place 3, even when 3 and 4 share a row
+    place(); new ResizeObserver(place).observe(wrap);
+    lock.querySelector("button").onclick = async () => {
+      if (!window.PRE) return;
+      const v = await PRE.ask({ title: "Subscribe to see YouTube TV", note: "The full ranking of South Africa’s political YouTube channels is for Preamble subscribers. It’s free.",
+        fields: [{ name: "email", label: "Email address", type: "email", auto: "email" }], button: "Subscribe and see all" });
+      if (!v) return;
+      PRE.send({ email: v.email, page: location.pathname + "#youtube-tv" }).catch(() => {});
+      PRE.remember({ email: v.email });
+      try { localStorage.setItem("pre-signed", "1"); } catch (e) {}
+      lockYouTube();
+    };
+  }
   function bindPeople() {
+    lockYouTube();
     root.querySelectorAll(".pl-vall").forEach((b) => b.onclick = () => {
       const o = b.getAttribute("aria-expanded") !== "true"; b.setAttribute("aria-expanded", o);
       b.closest(".pl-vgrid").classList.toggle("open", o);
