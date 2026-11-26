@@ -60,6 +60,7 @@ PEOPLE.each do |p|
   week = named.(articles(p["q"], 7)).select { |x| x["t"] >= since } # Google’s when:7d lets older pieces through
   top = pick(week)
   top = pick(week + named.(articles(p["q"], 30))) if top.size < 3 # a quiet week: fill from the past month
+  top = pick(top + named.(articles(p["q"], 365))) if top.size < 3 # a quiet month: fill from the past year
   if top.empty? # keep the last good list if the feed fails
     top = old.dig("people", p["id"]) || []
     out["week"][p["id"]] = old.dig("week", p["id"]) || 0
