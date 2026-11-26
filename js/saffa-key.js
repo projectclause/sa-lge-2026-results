@@ -34,7 +34,7 @@
         const feed = (who ? arts(by[who]) : ps.flatMap(arts)).sort((a, b) => (b.t || "").localeCompare(a.t || ""));
         grid.innerHTML = `<div class="pl-voices">${ps.map((p) => `<button type="button" class="pl-voice" data-k="${esc(p.id)}" aria-pressed="${who === p.id}" aria-expanded="false">${face(p)}<span><b class="pl-nm">${esc(p.n)}</b><span>${esc(p.role)}</span>${arts(p)[0] && arts(p)[0].t ? `<i class="sf-kp-last">Latest ${esc(ago(arts(p)[0].t))}</i>` : ""}</span><em title="Articles naming ${esc(p.n)} in the past 7 days">${week(p)}</em></button>`).join("")}</div>
           <p class="sf-kp-lbl">Latest${who ? ` <span>· ${esc(by[who].n)}</span>` : ""}</p>
-          <ol class="sf-kp-list">${feed.map((a) => piece(a, !who)).join("")}</ol>
+          ${feed.length ? `<ol class="sf-kp-list">${feed.map((a) => piece(a, !who)).join("")}</ol>` : `<p class="sf-kp-none">No news coverage in the past year.</p>`}
           ${ps.some((p) => p.credit && p.img) ? `<p class="sf-kp-credit">Photos: ${ps.filter((p) => p.credit && p.img).map((p) => `${esc(p.n)}, ${esc(p.credit)}`).join("; ")}.</p>` : ""}`;
       };
 
@@ -47,7 +47,7 @@
           const open = b.getAttribute("aria-expanded") !== "true";
           grid.querySelectorAll(".sf-kp-vlist").forEach((l) => l.remove());
           grid.querySelectorAll(".pl-voice").forEach((x) => { x.setAttribute("aria-expanded", open && x === b); x.setAttribute("aria-pressed", open && x === b); });
-          if (open) b.insertAdjacentHTML("afterend", `<ol class="sf-kp-list sf-kp-vlist">${arts(by[k]).map((a) => piece(a, false)).join("")}</ol>`);
+          if (open) b.insertAdjacentHTML("afterend", arts(by[k]).length ? `<ol class="sf-kp-list sf-kp-vlist">${arts(by[k]).map((a) => piece(a, false)).join("")}</ol>` : `<p class="sf-kp-none">No news coverage in the past year.</p>`);
           return;
         }
         who = who === k ? null : k; draw();
