@@ -38,6 +38,8 @@
 .sf-land.sf-has { stroke: #fff; }
 .sf-land.sf-za { fill: var(--sf-green); }
 .sf-land.sf-hot { stroke: var(--sf-ink); stroke-width: 1.2; }
+.sf-sub { stroke: #fff; stroke-width: .4; cursor: pointer; }
+.sf-sub.sf-hot { stroke: var(--sf-ink); stroke-width: 1.2; }
 .sf-arc { fill: none; stroke: var(--sf-green); stroke-linecap: round; opacity: .32; pointer-events: none; }
 .sf-bub { fill: rgba(0, 122, 77, .18); stroke: var(--sf-green); stroke-width: 1.2; cursor: pointer; }
 .sf-bub.sf-hot { fill: rgba(0, 122, 77, .38); stroke-width: 2; }
@@ -71,6 +73,15 @@
 .sf-row .r-bar { grid-column: 2 / 4; height: 5px; background: #eceae4; border-radius: 3px; overflow: hidden; }
 .sf-row .r-bar i { display: block; height: 100%; background: var(--sf-green); border-radius: 3px; }
 .sf-row .r-s { grid-column: 2 / 4; font-size: 11.5px; color: var(--muted); }
+.sf-row .r-s u { text-decoration: none; color: var(--sf-green); font-weight: 600; }
+.sf-regs { padding: 4px 0 10px 30px; border-bottom: 1px solid var(--rule); background: #fafaf7; }
+.sf-regs-h { margin: 8px 0 4px; font-size: 11.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted2); }
+.sf-regs-s { margin: 8px 8px 0 0; font-size: 11px; line-height: 1.4; color: var(--muted); }
+.sf-rrow { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 8px; width: 100%; padding: 5px 8px 5px 0; border: 0; background: none; text-align: left; font: inherit; font-size: 13px; color: inherit; cursor: pointer; }
+.sf-rrow b { font-weight: 600; }
+.sf-rrow .r-bar { grid-column: 1 / 3; height: 3px; background: #eceae4; border-radius: 2px; overflow: hidden; }
+.sf-rrow .r-bar i { display: block; height: 100%; background: var(--sf-green2); }
+.sf-rrow:hover, .sf-rrow:focus-visible, .sf-rrow.sf-hot { background: #eef6f1; }
 .sf-reg { margin: 0; padding: 12px 2px 4px; font-size: 11.5px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--muted2); }
 .sf-mrow { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; width: 100%; padding: 7px 2px; border: 0; border-bottom: 1px solid var(--rule); background: none; text-align: left; font: inherit; color: inherit; cursor: pointer; }
 .sf-mrow:hover, .sf-mrow:focus-visible, .sf-mrow.sf-hot { background: #fff8e6; }

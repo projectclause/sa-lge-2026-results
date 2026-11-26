@@ -11,10 +11,13 @@
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const VIEWS = [["Africa", [-22, 2]], ["Europe", [-12, -48]], ["Middle East & Asia", [-75, -22]], ["Americas", [88, -18]], ["Oceania", [-150, 28]]];
 
-  Promise.all([d3.json("data/saffa.json"), d3.json("data/saffa-world.json")]).then(([D, W]) => {
+  Promise.all([d3.json("data/saffa.json"), d3.json("data/saffa-world.json"), d3.json("data/saffa-states.json").catch(() => []), d3.json("data/saffa-states-map.json").catch(() => ({ features: [] }))]).then(([D, W, ST, SM]) => {
     const people = D.diaspora.slice().sort((a, b) => b.n - a.n), missions = D.missions;
     const byMap = new Map(people.map((p) => [p.map, p]));
     const isCG = (m) => /consul/i.test(m.type);
+    // countries broken down by state or province (US, Australia, Canada): their census figures by region
+    const STATE = new Map(ST.map((c) => [c.map, c]));
+    const regOf = new Map(); ST.forEach((c) => c.regions.forEach((r) => { r.country = c; regOf.set(c.gu + "-" + r.id, r); }));
 
     // ---------- key figures ----------
     const nCountries = new Set(missions.map((m) => m.country)).size;
@@ -33,6 +36,7 @@
     const gSphere = svg.append("path").attr("class", "sf-sphere");
     const gGrat = svg.append("path").attr("class", "sf-grat").datum(d3.geoGraticule10());
     const gLand = svg.append("g");
+    const gSub = svg.append("g");
     const gArc = svg.append("g");
     const gBub = svg.append("g");
     const gMis = svg.append("g");
@@ -43,7 +47,11 @@
       .attr("class", (f) => "sf-land" + (f.properties.n === "South Africa" ? " sf-za" : byMap.has(f.properties.n) ? " sf-has" : ""));
     const max = people[0].n;
     const shade = d3.scaleSequentialLog([people[people.length - 1].n, max], d3.interpolate("#e3efe7", "#7fbf9d"));
-    lands.filter((f) => byMap.has(f.properties.n)).style("fill", (f) => shade(byMap.get(f.properties.n).n));
+    lands.filter((f) => byMap.has(f.properties.n) && !STATE.has(f.properties.n)).style("fill", (f) => shade(byMap.get(f.properties.n).n));
+    const allReg = [...regOf.values()];
+    const shadeR = d3.scaleSequentialLog([Math.max(10, d3.min(allReg, (r) => r.n) || 10), d3.max(allReg, (r) => r.n) || 10], d3.interpolate("#eef6f1", "#3f9b6e"));
+    const subs = gSub.selectAll("path").data(SM.features.filter((f) => regOf.has(f.properties.c + "-" + f.properties.id))).join("path")
+      .attr("class", "sf-sub").style("fill", (f) => shadeR(Math.max(10, regOf.get(f.properties.c + "-" + f.properties.id).n)));
 
     const arcs = gArc.selectAll("path").data(people).join("path").attr("class", "sf-arc")
       .datum((p) => ({ p, type: "LineString", coordinates: [ORIGIN, p.ll] }));
@@ -71,6 +79,7 @@
       gRim.attr("d", path({ type: "Sphere" }));
       gGrat.attr("d", path);
       lands.attr("d", path);
+      subs.attr("d", show === "missions" ? null : path).classed("sf-hot", (f) => hot === regOf.get(f.properties.c + "-" + f.properties.id));
       const P = show !== "missions", M = show !== "people";
       arcs.attr("d", (d) => (P ? path(d) : null)).attr("stroke-width", (d) => wid(d.p.n));
       bubs.each(function (p) {
@@ -117,6 +126,7 @@
     // ---------- tooltips ----------
     const yearNote = (p) => `${p.source ? esc(p.source) : "Source not stated"}${p.year ? ", " + esc(p.year) : ""}`;
     function tipFor(d) {
+      if (d.country && d.country.regions) return `<b>${esc(d.name)}, ${esc(d.country.name)}</b><span class="t-n">${fmt(d.n)}</span>South African-born residents<span class="t-s">${esc(d.country.source)}, ${esc(d.country.year)}</span>`;
       if (d.n != null) return `<b>${esc(d.name)}</b><span class="t-n">${d.approx ? "~" : ""}${fmt(d.n)}</span>South African-born residents<span class="t-s">${yearNote(d)}</span>`;
       return `<b>${esc(d.city)}, ${esc(d.country)}</b>${esc(d.type)}`;
     }
@@ -135,6 +145,9 @@
       .on("mouseenter", function (e, d) { const c = proj(d.ll); hot = d; draw(); showTip(d, c[0], c[1]); })
       .on("mouseleave", () => { hot = null; draw(); hideTip(); })
       .on("click", function (e, d) { e.stopPropagation(); stop(); pick(d, this); }));
+    subs.on("mouseenter", function (e, f) { const r = regOf.get(f.properties.c + "-" + f.properties.id), c = proj(r.ll); if (!c) return; hot = r; draw(); showTip(r, c[0], c[1]); })
+      .on("mouseleave", () => { hot = null; draw(); hideTip(); })
+      .on("click", function (e, f) { e.stopPropagation(); stop(); pick(regOf.get(f.properties.c + "-" + f.properties.id)); });
     svg.on("click", () => { hot = null; draw(); hideTip(); syncList(); });
 
     // ---------- controls ----------
@@ -150,17 +163,26 @@
     const pPanel = root.querySelector('[data-panel="people"]'), mPanel = root.querySelector('[data-panel="missions"]');
     pPanel.innerHTML = people.map((p, i) => `<button type="button" class="sf-row" data-i="${i}">
         <span class="r-i">${i + 1}</span><span class="r-n">${esc(p.name)}</span><span class="r-v">${p.approx ? "~" : ""}${fmt(p.n)}</span>
-        <span class="r-bar"><i style="width:${(p.n / max * 100).toFixed(1)}%"></i></span><span class="r-s">${yearNote(p)}</span>
-      </button>`).join("");
+        <span class="r-bar"><i style="width:${(p.n / max * 100).toFixed(1)}%"></i></span><span class="r-s">${yearNote(p)}${STATE.has(p.map) ? ` · <u>By ${STATE.get(p.map).unit}</u>` : ""}</span>
+      </button>${STATE.has(p.map) ? regionList(STATE.get(p.map)) : ""}`).join("");
+    function regionList(c) {
+      const top = c.regions[0].n;
+      return `<div class="sf-regs" data-c="${c.gu}" hidden><p class="sf-regs-h">South African-born residents by ${esc(c.unit)}, ${esc(c.year)}</p>` + c.regions.map((r) => `<button type="button" class="sf-rrow" data-r="${c.gu}-${r.id}"><span>${esc(r.name)}</span><b>${fmt(r.n)}</b><span class="r-bar"><i style="width:${(r.n / top * 100).toFixed(1)}%"></i></span></button>`).join("") + `<p class="sf-regs-s">${esc(c.source)}. Totals by ${esc(c.unit)} come from a different count than the national figure above, so they don’t add up to it exactly.</p></div>`;
+    }
     const ORDER = ["Africa", "Europe", "Asia", "Americas", "Oceania"];
     const groups = d3.groups(missions.map((m, i) => ({ m, i })), (x) => x.m.region).sort((a, b) => ORDER.indexOf(a[0]) - ORDER.indexOf(b[0]));
     mPanel.innerHTML = groups.map(([reg, list]) => `<p class="sf-reg">${esc(reg)} · ${list.length}</p>` + list
       .sort((a, b) => a.m.country.localeCompare(b.m.country) || (isCG(a.m) - isCG(b.m)))
       .map(({ m, i }) => `<button type="button" class="sf-mrow" data-i="${i}"><span><b>${esc(m.city)}</b><br><span>${esc(m.country)}</span></span><em>${esc(m.type)}</em></button>`).join("")).join("");
-    pPanel.addEventListener("click", (e) => { const b = e.target.closest(".sf-row"); if (!b) return; const p = people[+b.dataset.i]; if (show === "missions") root.querySelector('[data-show="both"]').click(); hot = p; syncList(); hideTip(); fly(p.ll, () => pick(p)); });
+    pPanel.addEventListener("click", (e) => {
+      const rr = e.target.closest(".sf-rrow");
+      if (rr) { const r = regOf.get(rr.dataset.r); if (show === "missions") root.querySelector('[data-show="both"]').click(); hot = r; syncList(); hideTip(); fly(r.ll, () => pick(r)); return; }
+    });
+    pPanel.addEventListener("click", (e) => { const b = e.target.closest(".sf-row"); if (!b) return; const p = people[+b.dataset.i]; const st = STATE.get(p.map); if (st) { const box2 = pPanel.querySelector(`.sf-regs[data-c="${st.gu}"]`); box2.hidden = false; } if (show === "missions") root.querySelector('[data-show="both"]').click(); hot = p; syncList(); hideTip(); fly(p.ll, () => pick(p)); });
     mPanel.addEventListener("click", (e) => { const b = e.target.closest(".sf-mrow"); if (!b) return; const m = missions[+b.dataset.i]; if (show === "people") root.querySelector('[data-show="both"]').click(); hot = m; syncList(); hideTip(); fly(m.ll, () => pick(m)); });
     function syncList() {
       pPanel.querySelectorAll(".sf-row").forEach((b) => b.classList.toggle("sf-hot", hot === people[+b.dataset.i]));
+      pPanel.querySelectorAll(".sf-rrow").forEach((b) => b.classList.toggle("sf-hot", hot === regOf.get(b.dataset.r)));
       mPanel.querySelectorAll(".sf-mrow").forEach((b) => b.classList.toggle("sf-hot", hot === missions[+b.dataset.i]));
     }
     root.querySelectorAll(".sf-tabs button").forEach((b) => b.addEventListener("click", () => {
@@ -170,8 +192,13 @@
 
     // ---------- key and sources ----------
     root.querySelector(".sf-key").innerHTML = `<span><i class="k-bub"></i>South Africans living there</span><span><i class="k-emb"></i>Embassy or high commission</span><span><i class="k-cg"></i>Consulate</span><span><i class="k-za"></i>South Africa</span>`;
-    root.querySelector(".sf-src").innerHTML = `People: South African-born residents of each country, from each country's own census or statistics office where available, otherwise the UN's International Migrant Stock (2020), as compiled on Wikipedia's <a href="https://en.wikipedia.org/wiki/South_African_diaspora" target="_blank" rel="noopener">South African diaspora</a> page. Figures come from different years and some are estimates (marked ~), so they are not exactly comparable. The worldwide total is the UN's 2020 estimate. The list shows the ${people.length} countries with the largest communities. Missions: South Africa's embassies, high commissions, consulates and other offices abroad, from DIRCO's list as compiled on Wikipedia's <a href="https://en.wikipedia.org/wiki/List_of_diplomatic_missions_of_South_Africa" target="_blank" rel="noopener">list of diplomatic missions of South Africa</a>; missions to the UN are not shown. Map outlines: Natural Earth. Updated ${esc(D.updated)}.`;
+    root.querySelector(".sf-src").innerHTML = `People: South African-born residents of each country, from each country's own census or statistics office where available, otherwise the UN's International Migrant Stock (2020), as compiled on Wikipedia's <a href="https://en.wikipedia.org/wiki/South_African_diaspora" target="_blank" rel="noopener">South African diaspora</a> page. Figures come from different years and some are estimates (marked ~), so they are not exactly comparable. The worldwide total is the UN's 2020 estimate. The list shows the ${people.length} countries with the largest communities. Missions: South Africa's embassies, high commissions, consulates and other offices abroad, from DIRCO's list as compiled on Wikipedia's <a href="https://en.wikipedia.org/wiki/List_of_diplomatic_missions_of_South_Africa" target="_blank" rel="noopener">list of diplomatic missions of South Africa</a>; missions to the UN are not shown. States and provinces: ${ST.map((c) => `${esc(c.name)}, ${esc(c.source)} (${esc(c.year)})`).join("; ")}. Map outlines: Natural Earth (via world-atlas and sane-topojson). Updated ${esc(D.updated)}.`;
 
+    // for the ask bar: turn the globe to a country, state or mission and show its card
+    window.SAFFA = {
+      data: { people, missions, states: ST, total: D.total, world: W.features.map((f) => f.properties.n) },
+      focus(d) { if (!d) return; if (show !== "both") root.querySelector('[data-show="both"]').click(); if (d.country && d.country.regions) { const b = pPanel.querySelector(`.sf-regs[data-c="${d.country.gu}"]`); if (b) b.hidden = false; } hot = d; syncList(); hideTip(); root.querySelector(".sf-globe").scrollIntoView({ behavior: REDUCE ? "auto" : "smooth", block: "center" }); fly(d.ll, () => pick(d)); }
+    };
     size();
     addEventListener("resize", size);
     document.addEventListener("visibilitychange", () => { if (document.hidden) timer.stop(); });
