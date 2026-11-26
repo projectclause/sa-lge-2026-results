@@ -1,7 +1,13 @@
 {
-  "updated": "2026-11-26T20:38:12+02:00",
+  "updated": "2026-11-26T20:40:59+02:00",
   "people": {
     "elon-musk": [
+      {
+        "h": "Can Elon Musk really put AI datacentres in space? - The Latest",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTk5xVGhiS1JwU3E5a2ptd0hOY1BGdEJWQUdjWVhEZlh1UmZHNXpTNUhsYlFhOE80MHA2RmwtTmc5X1FwYzlkRnVyZEFLMC14SmtlOHcxTy1ib0c5UFowUDY2TEUtV0JGcGVGYzBucTg5amRpVjZfZ3V4OG0yTnE5S1JnbU5ZTFdzN1FJZHR3VDlCOHFydXFxQ2I1UlgtZTlRb3FVLTBSYVJ6NlNod0xn?oc=5",
+        "src": "The Guardian",
+        "t": "2026-11-26T20:35:00+02:00"
+      },
       {
         "h": "How Elon Musk paved the way for Jensen Huang’s return",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMHdOZ2dnTzhpU0U1a0dWU3cwdjdVNUdPZ1ZNV0oweDMyQUJOa2xSMGNZb18wa2hhUUpEbUpHc2RLZEJ1ZXpfSGpTeVdMUnNiYXFvcDM4WnlSVHJFQW1Ubk1pX25SSmFvSHFqSHFxU1pPWVlTWDBET0pNRW1pcHBySnYwcTkyMnNDQUVQbjM5S0ZkbGhmMi02VzlTWm9MSEE?oc=5",
@@ -13,12 +19,6 @@
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSXJheVIxQ3hhTWZKcU9weFBhVXR3UTRLVF9QOXZYM19xb0lSV2xSVjV4X0lhQnl6c09XV2Y2QXpZa1p3Y1NFV0RMTzBjNEhBdnR5d2ZxdzlsTnpMUlppbmNjVXR3X1ZIMkVGbUpSdHFUR0NNSVRMUjJoTzZQQVBKM1FFV2tLOGoxVnFxNWhnbjlsc2Frd1BSTQ?oc=5",
         "src": "Sky News",
         "t": "2026-11-26T19:22:17+02:00"
-      },
-      {
-        "h": "Elon Musk to give every US child SpaceX shares in $18bn giveaway",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQazVpMnhheXVEU1IxMElhY0VTNW1FOXNGYTY4bnVJQTBydU41elctRWJFOXJJVlZONnNBOHlidEYzcE9UcHRsUW9STTZfVEJQTGE0VWI4aFFsUDg4WEFvbEhsY01Rcm9XWnlLQjVSb0s2cEhwNzhhcXFMS29ITjZMWVUxNmRzX3B4VFlYZG04M1FkVE1hMXZ0SnZZSFdPVEhsX0FCZkNOcFBvUQ?oc=5",
-        "src": "The Times",
-        "t": "2026-11-26T17:30:20+02:00"
       }
     ],
     "trevor-noah": [
@@ -182,6 +182,9 @@
         "src": "Bitcoin News",
         "t": "2026-06-25T09:00:00+02:00"
       }
+    ],
+    "willem-van-biljon": [
+
     ]
   },
   "week": {
@@ -194,6 +197,7 @@
     "black-coffee": 5,
     "david-sacks": 1,
     "paul-maritz": 0,
-    "vinny-lingham": 1
+    "vinny-lingham": 1,
+    "willem-van-biljon": 0
   }
 }
