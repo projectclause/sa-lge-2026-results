@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-26",
-    "time": "17:10"
+    "time": "18:12"
   },
   "items": [
     {
@@ -1792,6 +1792,24 @@
         "h": "Johannesburg mayor to be elected on Friday following councillors’ swearing-in",
         "d": "2026-11-24",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVDhaa0tiT1ZKd2hfcGhncnVZR3NVblZiaExXaWd2M2c1akpqanQ4NlQzR3htRnhPT3BSaDZhR3JhSkhEZXRVVmxQbWo5TnJJcW1oN2x5UEpJeGdiUFB2SFkwdndKTF90S3NwTklBMFVxTUN4UlNRX1BXUTVDMXlyUzEzOEZuUm54RzhjaFJGQmVrYWdFWTk3REFwaUNjR29SLUp5RTc5dVRTeEFQajZsY1M2RGJ2RVlvOU4zMw?oc=5"
+      },
+      {
+        "src": "EWN",
+        "h": "ActionSA adamant on Zille withdrawal condition as Joburg coalition talks loom",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUWlnb1gyMlNLR180V3NNRnZXSlNiaExKNXVvMHdDZ3o2eTFOdVltMlVOSV9nSGMyaUNpQ051UlZyMWNNamNGMUQ5UkprdjlaR3V4SlpzZUo0SE41NXFldUJJWWFhMFdKU1pwbzhxaEo5SVhUWGtOWEZacGRMQmwxM01QTTBNVk5CSUNldWRaRHAzdmJ4Nm12c1FsY2txWlFlOUE?oc=5"
+      },
+      {
+        "src": "Cape Argus",
+        "h": "‘We are not interested’: ANC shuts DA, FF Plus and ACDP out of Johannesburg coalition plan",
+        "d": "2026-11-25",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNjBCclNFNFVXZnFsaHpySC1sTHUwUmt0S29UQU1uczEwZHI1dEJudlJYd2h0YXZseDJQMzRaQUUxRlJPOWtGWVlCODk2N2Q0SFJVUUVfckF1RDA5NGhFemRMM1JwRF82NDRoalhSNlpYREtWZHYyTU8yZGNIZ3pTN0tVOE5hVVpLb3ZGVmJZQzBFbzB4UWNORkE5M1Y4X0FPcll0U283MVFCbDBpWEdoanM2SldXbUJTc01HamJXVmgyemp2MmZzTjRB?oc=5"
+      },
+      {
+        "src": "dailynews.co.za",
+        "h": "Johannesburg mayor to be elected on Friday following councillors’ swearing-in",
+        "d": "2026-11-24",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMkRuWlkwLUQzeUVHSU9DYUQyMUhpelUxZW1GSThLMTJtWURpazVuSzlVUDhmWjdxQ3lRTmdzWWxfcjJSdzA3cWZFTEdTWlBmUi1MbzlxOU1LQ05ScW5XMDY0Y2JLTGp5MmVMMXN4bjQyc0ZRT0g4T3prT3lETzYwYlZ3OGtSQ0NDZ2hVTW9iT01KbzJXZUZFNTdYTEMxMjZYejhqaHVUQkVra1FfdjdtVEJIZTY0V1hXOGhqaw?oc=5"
       }
     ],
     "councils": [
@@ -2006,6 +2024,12 @@
         "h": "ANC’s Naeem Patel elected new Tshwane council Speaker",
         "d": "2026-11-26",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcC1CUjRZS3E5V2o5Rlg5bVBXUmp1ai1vYlhpWUJZNEltRmpZTmUteVRVWUtiY2dJc19rcjM4UWZudGlDNHRTT0JGQlBQeThmclJVRVk2UkhZNllmSDlyNUd2WUNDWm9GU1ktR2pZLUxONzZMUlYybFBnay1qSHh2RTh3TW0wQVZ5aldMU3RlVQ?oc=5"
+      },
+      {
+        "src": "Jacaranda FM",
+        "h": "ANC's Naeem Patel elected as new Tshwane Speaker",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdHViVFNnbi1Bb0lha3VCQ1o1Skw4U2FaZ2c5NmJsZ0FydF81eWQxODkwTjFrUG9Hd0lDaEhTbWZDVlFaTF85WGVnSW5hQ1N5b2ZhdHhMcXFQRlp3RDl2U2IwdXRkT0VuLVlsTUVvZHVVRU8xSXQ2LTNfcXRKeFBUZXJmLXFQbVJMSmZLUFNQVQ?oc=5"
       }
     ],
     "actionsa": [
@@ -2148,6 +2172,12 @@
         "h": "ANC tipped for Ekurhuleni mayor as council meets in Germiston",
         "d": "2026-11-25",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ2c2c0JxSHFjT2VqYXNpdFlsMGd4TTZYaTI3WEU5V3AtUGVsa3ZKM21LLXM1SEVaU2FYeV9DbUk3TjZmZHRCZlY3VjNONlJlVDg3dVJ2U0JJX085YUZoWDdNMm9jOFBYSXJsdXpYa0QwdEEwV2ExWlhHYkN6T0t3SWhpcDVvbWpCS05ycWY1bw?oc=5"
+      },
+      {
+        "src": "Mail & Guardian",
+        "h": "MK party issues deadline to ANC over coalition deal",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1uQnF0OFlFZFNXbXFIMEtnYm8yVlFGTGp5S09ST0VxX3lTSHlVdFBUb1lOaTBtOW1JWkVmcGJBM1dqbUZMakoxeVdxSVg0WW9zelVlMGdzeEIwZXA1ckNUV0h1bVZpamNMR2Z5NVh6TWs1a1lOY1BIYg?oc=5"
       }
     ],
     "anc-metros": [
@@ -3858,6 +3888,12 @@
           "h": "BREAKING | ANC Postpones Coalition Negotiations Media Briefing",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUFpwNWdjbUtoVGV2aXJBQ3JDR18tdmVyM284dzFmY2VfbTFtVF9MNHlaSk5Rd3dfSG16aTZDZk5ZbGpfWkJqNlNXSDVTZktaRkZxdmlVZ0o0Q0d5ZkJXV2lQUW5ZNWprZEQ5djg0WUtDS1VpcF9BUFdtSEJmVFVGMXRqd3JMNFRiWlR3OXdiLU8?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "ANC NEC faces decisive coalition meeting",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQc2ZnN2ZENjdrcm9PMnNoUDhLdDFUY2QxakpPT01OZVZSZ0l3d1dCdzVJTkpvNWZla21mSzJ1a001c0U5NzJFRGUwYmJzSmV6WXZrUzhQcDZMQS1mR1JLR3dzVnAxX285X3hvVk9qZ2FrZzZUVHctaXpzVnM4c0tCdVJCRjdCNlRXMTNodA?oc=5"
         }
       ],
       "sec": [
@@ -4042,12 +4078,12 @@
     {
       "cat": "Beyond the metros",
       "place": "KwaZulu-Natal",
-      "h": "The ANC partners MK in uMhlathuze and uPhongolo, and the DA in KwaDukuza",
-      "dek": "EWN reports an MK Party and ANC coalition has ousted the IFP in uMhlathuze, and Central News South Africa reports the two parties have taken control of uPhongolo. In KwaDukuza, The Witness reports the ANC and DA have partnered to keep the MK Party out of government.",
+      "h": "MK’s Nomathamsanqa Mthembu becomes uMhlathuze mayor as the ANC, DA and IFP take KwaDukuza",
+      "dek": "IOL, News24 and SABC News report the MK Party’s Nomathamsanqa Mthembu has been elected uMhlathuze mayor, with News24 saying an ANC-MK pact sidelined the IFP and DA. In KwaDukuza, The Citizen reports a last-minute deal has put the ANC, DA and IFP in control, and Central News South Africa reports the ANC and MK have taken uPhongolo.",
       "brief": [
-        "EWN reports an MK Party and ANC coalition ousted the IFP to take control of uMhlathuze.",
+        "IOL, News24 and SABC News report the MK Party’s Nomathamsanqa Mthembu was elected uMhlathuze mayor; News24 says the ANC-MK pact sidelined the IFP and DA, and EWN earlier reported the coalition ousted the IFP.",
         "Central News South Africa reports the ANC and MK Party formed a coalition to take control of uPhongolo Municipality.",
-        "The Witness reports the ANC and DA partnered to keep the MK Party out of the KwaDukuza government."
+        "The Citizen reports a last-minute coalition deal saw the ANC, DA and IFP take control of KwaDukuza, and The Witness reports the ANC and DA partnered to keep the MK Party out of government there."
       ],
       "auto": true,
       "id": "kzn-councils",
@@ -4072,6 +4108,30 @@
           "h": "BREAKING | ANC and MK Party Form Coalition to Take Control of uPhongolo Municipality",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdXlxNmhnVHF5UmZzTGc1VXZMNVZyam95NXg5eXZxdVYwWEEzMTg1Rzd2NFRUVWxZMkVWSW9ISGE5LWZraXhHZmYyNGhERTBqLWFLUVg4czFQeWx3MEhWQlo3UURHRGlwd19UMG02NkdlenMwNGhfeHZKcVNBcjBHZkNRZ1czSVFaRTY2aE5tVldLZmx5WVk5Vk9fNFNpZmFaNkFQWG9kVU51UFY0X3c?oc=5"
+        },
+        {
+          "src": "SABC News",
+          "h": "MK Party’s Mthembu takes uMhlathuze Mayoral seat",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSVFKN2p3NTNkZFBaek1pUEE1RGZVcFpPaU9EamEwTW95ZHFNaHkzTElmbUpWYUEyeEJERDNtNkJ4QUJWZkxWSzBWeVVuZTlhbXp3ZG5QTmxrMEt0dzV0bHhuNmlVQ1l5MkFwWk5pcmhaaWh5ekdXSHV0ZHN2UkNnU09TUW9Ub3I2bXc?oc=5"
+        },
+        {
+          "src": "News24",
+          "h": "MK Party’s Mthembu elected uMhlathuze mayor as ANC-MK pact sidelines IFP and DA",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdW41dU5Mc1hiMVNQdkFmUzZ2NklKMnNHQzJnSlVJMVl6bU8tWTVRMWVvUDdOQWQxbGQxTTdVQnBMVEU5eWVNV1h1dUdhMzNuTzBlZVRFMWQ1bDBLNE5BNW5YeDNDYWxxR3BNV1NVNUdfUTJNNWxSMWx6SmhXbWlvZnNudG9VRWFjNGJ5VHBSRG1YMmV5LVpDckdJY013OFhyLXA3bnJERWZWX3lsMXdIQ1hzVzVLYXc3QTl0dkpRT0k2dw?oc=5"
+        },
+        {
+          "src": "The Citizen",
+          "h": "Last-minute coalition deal sees ANC, DA and IFP take control of KwaDukuza",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNS0pVdzk5WnVEVzJiUGU2NjBaVW9yZmVvdFhKdDFuU2U1V0oySnV5R1dRQlFNTkE0ckw2ZkR5TU56TDVrVW5ybnlQbzlmcnpmS3dmWTV4M1A2YW9fZUJzaFQ4N1JrcGlkTjhKbnlvc0NrUWNCS09Hdm9IVHRYOS1jTTlranFXeHFSdEtfTDQ3UVowU3RreWFpZUNqNFRFamJmd1A0YnJPMWkyZWs4MENCTVdlQTc5a1FWRDB2ZmtzbFRsSTZhYUlPMWFySXU5V0wxMjR2alNUV09xQmdtSWJLajJoaEw5Rnh4c014X2lLb3ZuMW9EdXlGc1h3?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "MKP’s Nomathamsanqa Mthembu elected uMhlathuze mayor",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOb1pzVW1xd2hnNGQwQjdhTGhqbjA2NWl4WEx3UEJySDRPUFpEeHRQNmpvR1d2QlVNTzRlb3VEcVM3bzlKaU5aSGZuXzdrQUI5RGx2RDUyN0JKbkFCOWJVUXFybW94aG1DeGFlQXAwSjFRNkZwLV8za21JQXFQa3BpLW10eGg0ci1VaEhUbk9PRHhESTFMM1hDXzdFTQ?oc=5"
         }
       ],
       "sec": [
@@ -4773,6 +4833,18 @@
     "d9008b098bd7",
     "3623786b12aa",
     "8f9a7d075f82",
-    "e73efc65241d"
+    "e73efc65241d",
+    "2a4fbb4ec33d",
+    "676adbcee185",
+    "f083777463b7",
+    "6b03b26717b0",
+    "ef14ae706420",
+    "4320b992ad9d",
+    "99dd5aa15fcb",
+    "b4b7bf76596a",
+    "46dd3bef6bcb",
+    "2253eb86db41",
+    "af69092e4edf",
+    "b9a302bb1522"
   ]
 }
