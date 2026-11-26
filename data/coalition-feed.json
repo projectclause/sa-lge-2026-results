@@ -5949,7 +5949,8 @@
     {
       "k": "N24",
       "n": "News24",
-      "badge": "N24"
+      "badge": "N24",
+      "logo": "news24"
     },
     {
       "k": "DM",
@@ -6020,6 +6021,42 @@
       "n": "BusinessTech",
       "badge": "BusinessTech",
       "logo": "businesstech"
+    },
+    {
+      "k": "The Citizen",
+      "n": "The Citizen",
+      "badge": "The Citizen",
+      "logo": "citizen"
+    },
+    {
+      "k": "MERCURY",
+      "n": "The Mercury",
+      "badge": "The Mercury",
+      "logo": "mercury"
+    },
+    {
+      "k": "TSA",
+      "n": "The South African",
+      "badge": "The South African",
+      "logo": "thesouthafrican"
+    },
+    {
+      "k": "WITNESS",
+      "n": "The Witness",
+      "badge": "The Witness",
+      "logo": "witness"
+    },
+    {
+      "k": "Sunday World",
+      "n": "Sunday World",
+      "badge": "Sunday World",
+      "logo": "sundayworld"
+    },
+    {
+      "k": "NETWERK24",
+      "n": "Netwerk24",
+      "badge": "Netwerk24",
+      "logo": "netwerk24"
     }
   ],
   "intl": {
