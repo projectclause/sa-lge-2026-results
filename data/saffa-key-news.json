@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T00:36:08+02:00",
+  "updated": "2026-11-27T00:38:13+02:00",
   "people": {
     "elon-musk": [
       {
@@ -233,10 +233,10 @@
         "t": "2026-10-25T09:00:00+02:00"
       },
       {
-        "h": "NantWorks' Soon-Shiong puts chips behind manufacturing disruptors in new rounds for Prolific Machines, Multiply Labs",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb185cmswR2dwOUowYUFwemExcWMtQlF6MDM5Z0pDakwtSmtnOUtBb2J5cjI5ZHhIaEdvT091VGZnczFZRTNFc0I3d1V4UEs1bmFFMTdiNHBGeHhBZXN4Z3ktbC1iRXM1NnJEWkZsS24yTnFaWHJ0MHo5dnFwODZxZWIzUHNBQ19NaWVvM2tFR01qNWIxVzZKSW01NXlmQzl4ZExGOUU1bzJkSHBCczNnQnMzdm1aX09ZTWpqdg?oc=5",
-        "src": "Fierce Pharma",
-        "t": "2026-10-14T09:00:00+02:00"
+        "h": "Billionaire Patrick Soon-Shiong wins wider FDA approval for bladder cancer drug",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSEdDUUVUSU9PN296clluY1F0NjI3Ykg3Wk8zR19iSVpTX19rQWRDM2ZuRjlfWG4tSFNIOWpjN1VJQWRTckdqNzZQVWtqVGZ5Q2xBTE51cmM1VHM5N0lNa1pHbHplT256TzFaVTdCVmZkZTYzUlpMbnhsZ1Q2RU5DWUFiMXRrQnhfcFNQVjRUZXpDSlp5RXdwNVJuZV9XUzk2a2I2MzFSVmpKY0tvbExuMGstSzkzNXhHbVJ0ZWJHWHc?oc=5",
+        "src": "Billionaires.Africa",
+        "t": "2026-10-16T09:00:00+02:00"
       }
     ],
     "chad-le-clos": [
@@ -406,7 +406,7 @@
         "h": "The Mummy: Book of the Dead – Arnold Vosloo Returns as Imhotep, but Could the Book Itself Be the Real Villain?",
         "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPUjZJajcwZEkteEF2ZlAyYkdRVGZfZzVZVVh5VW1EcDV6TjUtbXlZaGNrbl81VGxYUE5DVkVSaE1DX0k4QlRiQ25xd3ZJeGI1eURLYUpmSnROdXN3TExDYTFNLTlyWkxLNVNTVWFjcVpMX3BINnJLSGhUNjVBY2pTQnlZV2JXdk1kNGRBcTlKX3JlS2dNbWNUcm1SOGtxYkgtUTFHNGFLNlJZaDVqcU5IMXpyUThwcFBudzI3YnFVVGh6SU5hVnRQcF9EcEhMRHhPcE55am9ieFJ1dk81MmlZ?oc=5",
         "src": "The Fan Carpet",
-        "t": "2026-11-16T10:00:00+02:00"
+        "t": "2026-11-16T13:07:13+02:00"
       },
       {
         "h": "Sylvia Ahí: Arnold Vosloo Marriage, Separation and Divorce",
@@ -537,12 +537,32 @@
         "src": "eJewishPhilanthropy",
         "t": "2026-01-05T10:00:00+02:00"
       }
+    ],
+    "nicky-oppenheimer": [
+      {
+        "h": "Billionaire Nicky Oppenheimer’s family transformed 43 former cattle and sheep farms into a 118,000-hectar",
+        "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxORmtfNWVfQXVrNFpfSWctWEduTkVoc2thOF8zbExSek5IQl9HOFA3NkRhR1dvTlVHWWkxSk50LXN1T0pUVENPN3F6WTFxaUV0NU5NUUd2S3d6S2lJczdOU0I0ejlSbFAwX2ptXzZmZXNqT2FOaUFSN1YyQVdfNUo1R1BlYUg4SWhNYXVzSDBjbXhRSUhXcnJZQzRNdDRWOFJmQy01S3lmQmwyeWZRZVZUd1FMNHhBUno0LXpKc2tpaUItajJtR3ZtX3RWSlk1SlRvcGx5ZFVyYWhMVlg4NzNPTURjc2FsRFpsWURLOERDeFVXRG5sS0hVRTcxdldIcFNnWmdoeDRwNWVzZnhNRENsU3UxTTJjSi1XU0RJdEVRV0pQM3hEOGoySjVDYjZDc0x1bmEtUFY3S3k1UEpMUWtzZk9UUURuaGRsM2d5MG1B0gHTAkFVX3lxTFBmeWw4YTZBSXZ6YUdETnBqaldUbUhQVEx0Y2h0YmNDakRnNzVxenRGY3BfQjRkdEU5eTNYR29WNzk3UmRwMzFmOXFzYU1BTkVGZ1U2TGNtaW0wWHVtSFRZMzB1UU1MemdsXzczdzF4QUhlZjVnb3JxNnZILVNMUS16eGlCd0M2NHpSb256eGlUVEtjNWlKb21YVHRiM2Q4OXdqekY3OUZ0Sl9wUnRJX0RIMlMyU0l3OWpfZjNNMFhvVGJCSllUMXdEdFRkelJMQWtzNWJIa0ZvUWkyRHh6VjlZNVZITTFKN0djX1NLTk9ZZWdTRnRMSmdqS3VQZmVzQ2daMFU2ZG9KNEg0U2dib0hSWmZKcDI0cVF4cjdVWU01ME1vSVlySmxUSFpNZjVxRWk0S1VGcWI4aV9MOTV0ZjE3aGZMeS0wcVhOUXJPQjRZd3ZHWQ?oc=5",
+        "src": "The Times of India",
+        "t": "2026-11-16T10:00:00+02:00"
+      },
+      {
+        "h": "Nicky and Jonathan Oppenheimer build vast wildlife reserve",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZGZhZnhIN0drZUdkeTY3NkxYNnhzS09XNy1fTm1BaThwTjJaWGk3NXFrTm9iWmxMcE5Eb1dtbEhIRjlrZENNQlJtenRaZFVFWW8zcW9JcjlzcEh4WHdMeW9xWW9yS0h0WVdaOEo1MlJsRFI0cE85ZEc3WHNiYTVIUzdnMHRvdDZkZ1RqbzREdGdXMEstNnZlX0ZqLUtBWW1kZWhhcGlsRHhJNnpmVE5kUEF3bXY4Z25DeWhqazBwNEJfNUNiclVfVnluRlRxRFU?oc=5",
+        "src": "Billionaires.Africa",
+        "t": "2026-11-12T10:00:00+02:00"
+      },
+      {
+        "h": "SU climate change expert to lead new Oppenheimer Research Chair",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRFgyQkZtYjR4eTBYejZMY0FZMEhkdFQtZFZaYm1fSzlheVF3eHc1YjZya05WTWkyNklKT0NkcnBFN09RcVRyalNiTFZmcHQwTGxhQkZ4R0lqYXdpZFpxUWFXSUYycVJvaXBZRXFzMUFvUmlFU2J3MU5WZ2hRTE1pQjI1R0dfU255cXNKcUktb0tZaktjbm8yS3lIVy1YV3ZxQlE?oc=5",
+        "src": "https://novanews.co.za/",
+        "t": "2026-11-11T10:00:00+02:00"
+      }
     ]
   },
   "week": {
-    "elon-musk": 91,
+    "elon-musk": 92,
     "trevor-noah": 1,
-    "peter-thiel": 38,
+    "peter-thiel": 37,
     "thuso-mbedu": 2,
     "tyla": 10,
     "roelof-botha": 2,
@@ -570,6 +590,7 @@
     "marnus-labuschagne": 8,
     "maxine-fassberg": 0,
     "brian-joffe": 0,
-    "morris-kahn": 0
+    "morris-kahn": 0,
+    "nicky-oppenheimer": 0
   }
 }
