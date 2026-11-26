@@ -161,10 +161,15 @@
 
     // ---------- side lists ----------
     const pPanel = root.querySelector('[data-panel="people"]'), mPanel = root.querySelector('[data-panel="missions"]');
-    pPanel.innerHTML = people.map((p, i) => `<button type="button" class="sf-row" data-i="${i}">
+    const TOP = 5;
+    pPanel.innerHTML = people.map((p, i) => `<button type="button" class="sf-row${i >= TOP ? " sf-more" : ""}" data-i="${i}">
         <span class="r-i">${i + 1}</span><span class="r-n">${esc(p.name)}</span><span class="r-v">${p.approx ? "~" : ""}${fmt(p.n)}</span>
         <span class="r-bar"><i style="width:${(p.n / max * 100).toFixed(1)}%"></i></span><span class="r-s">${yearNote(p)}${STATE.has(p.map) ? ` · <u>By ${STATE.get(p.map).unit}</u>` : ""}</span>
       </button>${STATE.has(p.map) ? regionList(STATE.get(p.map), p) : ""}`).join("");
+    pPanel.insertAdjacentHTML("beforeend", `<button type="button" class="sf-all-btn" aria-expanded="false">Show all ${people.length} countries</button>`);
+    const allBtn = pPanel.querySelector(".sf-all-btn");
+    const showAll = (on) => { pPanel.classList.toggle("sf-all", on); allBtn.setAttribute("aria-expanded", on); allBtn.textContent = on ? "Show top 5 only" : `Show all ${people.length} countries`; };
+    allBtn.addEventListener("click", () => { const on = !pPanel.classList.contains("sf-all"); showAll(on); if (!on) pPanel.scrollTop = 0; });
     function regionList(c, p) {
       const top = c.regions[0].n;
       return `<div class="sf-regs" data-c="${c.gu}" hidden><p class="sf-regs-h">South African-born residents by ${esc(c.unit)}, ${esc(c.year)}</p>` + c.regions.map((r) => `<button type="button" class="sf-rrow" data-r="${c.gu}-${r.id}"><span>${esc(r.name)}</span><b>${fmt(r.n)}</b><span class="r-bar"><i style="width:${(r.n / top * 100).toFixed(1)}%"></i></span></button>`).join("") + `<p class="sf-regs-s">${esc(c.source)}.${c.total === p.n ? "" : ` Totals by ${esc(c.unit)} come from a different count than the national figure above, so they don’t add up to it exactly.`}</p></div>`;
@@ -182,6 +187,8 @@
     mPanel.addEventListener("click", (e) => { const b = e.target.closest(".sf-mrow"); if (!b) return; const m = missions[+b.dataset.i]; if (show === "people") root.querySelector('[data-show="both"]').click(); hot = m; syncList(); hideTip(); fly(m.ll, () => pick(m)); });
     function syncList() {
       pPanel.querySelectorAll(".sf-row").forEach((b) => b.classList.toggle("sf-hot", hot === people[+b.dataset.i]));
+      const hi = people.indexOf(hot), hr = hot && hot.country ? people.findIndex((q) => q.map === hot.country.map) : -1;
+      if (Math.max(hi, hr) >= TOP) showAll(true); // something picked on the globe that sits below the top 5
       pPanel.querySelectorAll(".sf-rrow").forEach((b) => b.classList.toggle("sf-hot", hot === regOf.get(b.dataset.r)));
       mPanel.querySelectorAll(".sf-mrow").forEach((b) => b.classList.toggle("sf-hot", hot === missions[+b.dataset.i]));
     }
