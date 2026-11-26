@@ -1,6 +1,6 @@
 # PREAMBLE
 
-> South Africa’s global and local data. Live results of the 4 November 2026 local government elections, a ward-by-ward map, the mayors of the eight metros, and a Coalitions Tracker that groups reporting on the coalition talks into stories with summaries and links to every original article. Updated 26 November 2026, 18:12 SAST.
+> South Africa’s global and local data. Live results of the 4 November 2026 local government elections, a ward-by-ward map, the mayors of the eight metros, and a Coalitions Tracker that groups reporting on the coalition talks into stories with summaries and links to every original article. Updated 26 November 2026, 19:16 SAST.
 
 Data: Independent Electoral Commission (IEC). Summaries are written by Preamble with AI from published reporting; the journalists and politicians quoted do not write for Preamble.
 
@@ -31,7 +31,7 @@ Data: Independent Electoral Commission (IEC). Summaries are written by Preamble 
 - [In public, Ramaphosa asks for good faith. In private, insiders say he wants the DA kept out of Joburg](https://preamble.co.za/coalitions/ramaphosa.html) (South Africa, updated 26 November 2026): The president told all parties to bargain in good faith and form councils quickly. A report based on unnamed insiders says he steered the ANC away from the DA in Johannesburg, which the ANC denies.
 - [Outside the metros, councils start to pick partners, and Limpopo’s ANC turns to the DA](https://preamble.co.za/coalitions/councils.html) (South Africa, updated 26 November 2026): With deadlines close, deals are being struck in smaller councils. In Limpopo, the ANC chose the DA over a left-wing bloc, while the IFP expects to seal its KwaZulu-Natal deals this weekend.
 - [Joburg will elect its mayor on Friday as parties finish their deal](https://preamble.co.za/coalitions/johannesburg.html) (South Africa, updated 26 November 2026): All 270 councillors were sworn in on Monday, but the election of a mayor, deputy mayor and speaker now waits until Friday, 27 November. The ANC, ActionSA, EFF and MK deal that would make Mashaba mayor is in its final stages but still to be signed.
-- [‘Privatisation is meant for the poor’: Helen Zille defends DA's plans, cites Cape Town example](https://preamble.co.za/coalitions/auto-cape-town.html) (South Africa, updated 25 November 2026): 3 outlets are reporting on the coalition talks in Cape Town. Preamble’s editors have not yet summarised this story; the latest reports are listed below.
+- [Geordin Hill-Lewis is re-elected Cape Town mayor](https://preamble.co.za/coalitions/auto-cape-town.html) (South Africa, updated 25 November 2026): IOL reports Geordin Hill-Lewis has been re-elected mayor of Cape Town, pledging jobs and stronger policing. IOL also reports Helen Zille defending the DA's privatisation plans with Cape Town as an example, and Sunday World reports suburban voters secured the DA's Cape Town victory.
 - [MK Party promises stable eThekwini government](https://preamble.co.za/coalitions/auto-ethekwini.html) (South Africa, updated 25 November 2026): 3 outlets are reporting on the coalition talks in eThekwini. Preamble’s editors have not yet summarised this story; the latest reports are listed below.
 - [The ANC loses its grip on South Africa’s metros](https://preamble.co.za/coalitions/anc-metros.html) (South Africa, updated 25 November 2026): News24’s columnists saw the ANC’s decline speeding up, and after the count it was left without control of a single metro.
 - [Should one deal settle all eight metros?](https://preamble.co.za/coalitions/grand-deal.html) (South Africa, updated 25 November 2026): Instead of eight separate fights, Sizwe Mpofu-Walsh floated a single bargain between the DA, ANC and ActionSA over the metro mayors. Others have pitched their own national formulas.
@@ -101,7 +101,7 @@ Data: Independent Electoral Commission (IEC). Summaries are written by Preamble 
 - [Dan Corder](https://preamble.co.za/people/dan-corder.html): Host, Three Beanies Network; analyst and commentator, 6 coalition pieces
 - [Darren Campher](https://preamble.co.za/people/darren-campher.html): Political commentator; analyst and commentator, 4 coalition pieces
 - [Ferial Haffajee](https://preamble.co.za/people/ferial-haffajee.html): Journalist, Daily Maverick; analyst and commentator, 2 coalition pieces
-- [Gabriel Makin](https://preamble.co.za/people/gabriel-makin.html): Research director, Social Research Foundation; host, Conversations with Gabriel; analyst and commentator, 14 coalition pieces
+- [Gabriel Makin](https://preamble.co.za/people/gabriel-makin.html): Research director, Social Research Foundation; host, Conversations with Gabriel; analyst and commentator, 15 coalition pieces
 - [Gareth van Onselen](https://preamble.co.za/people/gareth-van-onselen.html): Political analyst and pollster; analyst and commentator, 2 coalition pieces
 - [Hajra Omarjee](https://preamble.co.za/people/hajra-omarjee.html): Political editor, Business Day; analyst and commentator, 3 coalition pieces
 - [Heidi Giokos](https://preamble.co.za/people/heidi-giokos.html): Reporter, SABC News; public broadcaster (sabc), 3 coalition pieces
@@ -123,7 +123,7 @@ Data: Independent Electoral Commission (IEC). Summaries are written by Preamble 
 - [Makhudu Sefara](https://preamble.co.za/people/makhudu-sefara.html): Editor, Sunday Times; analyst and commentator, 1 coalition piece
 - [Mandy Wiener](https://preamble.co.za/people/mandy-wiener.html): Presenter, 702’s Midday Report; analyst and commentator, 3 coalition pieces
 - [Mathew Cohen](https://preamble.co.za/people/mathew-cohen.html): Host, The Power Pod; analyst and commentator, 7 coalition pieces
-- [Michael “Mike” Sham](https://preamble.co.za/people/michael-mike-sham.html): Host, State of the Nation (YouTube); analyst and commentator, 5 coalition pieces
+- [Michael “Mike” Sham](https://preamble.co.za/people/michael-mike-sham.html): Host, State of the Nation (YouTube); analyst and commentator, 6 coalition pieces
 - [Mondli Makhanya](https://preamble.co.za/people/mondli-makhanya.html): Journalist, Daily Maverick; analyst and commentator, 1 coalition piece
 - [Nicholas Dawes](https://preamble.co.za/people/nicholas-dawes.html): Journalist; analyst and commentator, 1 coalition piece
 - [Ofentse Davhie](https://preamble.co.za/people/ofentse-davhie.html): Columnist, Business Day; analyst and commentator, 3 coalition pieces

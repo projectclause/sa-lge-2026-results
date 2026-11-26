@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-26",
-    "time": "18:12"
+    "time": "19:16"
   },
   "items": [
     {
@@ -1228,6 +1228,30 @@
       "src": "IOL",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOFo0Ymw2TEphQWNZVjEwekRyOS12TXFCNXBxTjJFdWZtZEdpa3FPdlFQRU9ESnN4MlJ1LW5IbnZYdmhmb3c5VDVWVjJXRlRLd3lGWDctMXoxaWoyQ1V3WE9HVzF5clFNQi10a1dyZDhfRnRFeldZUW5aaGI0ZDRDUGhwRzVaRVVqOEJYQXFsQVNFYXI4c2w1NEVmcy12X3AzRjZOUHBpOXlxd3hzZmFaaHBxd2VjaTRj?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-50687e0bcb",
+      "j": "sham",
+      "d": "2026-11-26",
+      "kind": "Interview",
+      "place": "Johannesburg",
+      "h": "Michael Beaumont: Why ActionSA Chose the ANC Over the DA",
+      "s": "Mike Sham questions ActionSA's Michael Beaumont about why the party chose a coalition with the ANC over the DA, and about Helen Zille, Herman Mashaba and ActionSA's promises for Johannesburg.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=1AYGkb3SwRQ",
+      "auto": true
+    },
+    {
+      "id": "a-bd98865552",
+      "j": "makin",
+      "d": "2026-11-26",
+      "kind": "Video",
+      "place": "National",
+      "h": "ANC and DA Together in the Northern Cape, Enemies in Joburg: Who Governs Where?",
+      "s": "Gabriel Makin and Marius Roodt look at who governs where after the elections as the ANC's coalition briefing is delayed again, noting the ANC and DA work together in the Northern Cape but are rivals in Johannesburg.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=7sM11SBMBUc",
+      "auto": true
     }
   ],
   "attach": {
@@ -1266,7 +1290,8 @@
       "a-e4500fdb5a",
       "a-cc72085f3b",
       "a-a4287bc0b9",
-      "a-3f708af217"
+      "a-3f708af217",
+      "a-50687e0bcb"
     ],
     "da-offer": [
       "a-7ec03aa2b8",
@@ -2030,6 +2055,24 @@
         "h": "ANC's Naeem Patel elected as new Tshwane Speaker",
         "d": "2026-11-26",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdHViVFNnbi1Bb0lha3VCQ1o1Skw4U2FaZ2c5NmJsZ0FydF81eWQxODkwTjFrUG9Hd0lDaEhTbWZDVlFaTF85WGVnSW5hQ1N5b2ZhdHhMcXFQRlp3RDl2U2IwdXRkT0VuLVlsTUVvZHVVRU8xSXQ2LTNfcXRKeFBUZXJmLXFQbVJMSmZLUFNQVQ?oc=5"
+      },
+      {
+        "src": "SABC News",
+        "h": "ANC’s Nadeem Patel elected City of Tshwane Speaker",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOM0pIdU51VzgwdGtsTU0wVjRONGtIVmkwU0lNOVJkbzJTcWRyQVlNOW5kbk9HazZ6UmNTb0xhLVNTNDdDMzVLTl9lX2hhZExaNVdpMGpCdWQtb3RPaGMtMWNMMW9WVGRnYjF2T3M4Ynd3S2VORTZENW5Gby1nUFgtWURjRHNzTGNBckNRRg?oc=5"
+      },
+      {
+        "src": "The Citizen",
+        "h": "ANC takes City of Tshwane council speaker position",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSDFpdENVNVg0VzZQMVo2SlZ4em11Q0tINkh5dDlNekluNVd6TUw3T3NSaENZZzVYNmx5SUUwRHJKZXVzSkQ5cUdGOV96NUxpY2ZudUpfSVJoSVdjXzFHNXJ6NGh5ckJBRUdJOURjc0NLUmE2alE0LTU0eWFxOWlNLWJQaVF1SUViaFp0aGJrWkVJYThGMWZyajlzNUhxVjg?oc=5"
+      },
+      {
+        "src": "Cape Argus",
+        "h": "Tshwane leadership vote hangs on coalition talks",
+        "d": "2026-11-25",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUjF6VkNZdFFWX3hJaXNoMHJtUERZNU41WHlNR3VwcDY0VHg5SUh5XzVrWjVBaVBCNVY4NVZTc2gwVXZLTV9saldPNnRHWWtJRXBoalh4eXNmNUtId2FNTks2N2xrZWl2aUlBTnBTVC1uTE1jc1QtT1dkMENwRWVjYlhCZGVlZ09EVW1PMGFpeFR0NlBDdm4wSTY3cFg5c01la0JqZ3VB?oc=5"
       }
     ],
     "actionsa": [
@@ -2178,6 +2221,12 @@
         "h": "MK party issues deadline to ANC over coalition deal",
         "d": "2026-11-26",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1uQnF0OFlFZFNXbXFIMEtnYm8yVlFGTGp5S09ST0VxX3lTSHlVdFBUb1lOaTBtOW1JWkVmcGJBM1dqbUZMakoxeVdxSVg0WW9zelVlMGdzeEIwZXA1ckNUV0h1bVZpamNMR2Z5NVh6TWs1a1lOY1BIYg?oc=5"
+      },
+      {
+        "src": "Cape Argus",
+        "h": "From political rivals to coalition partners: ANC and MK Party agree to work together in hung municipalities",
+        "d": "2026-11-24",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcHRqMTc5Z21SQVNXMzhwTTFyTUZkLWlBX0VLQ1R3YUd1T0djTnVoc0xUY1ZHOEJGTE5sa1VaZU1jbzd3cUg3UmpaMkpiQ3hwQWtqeEFPdl9JRUNFS0dsd25EelVQa19JM2paMmRFX2d4NWlaYVpnSlBNWFNIQlNtRGxLSlVNUFhTY2REU1FvRmFpLUhNTzdzRWJPUnVNZUprNE1tRHFURFNxTEd2MERkQV9CNzFNWXlabklCU1A5NWo5V1ZFUW9VcGpKSWQzWlpLZUtvZXRZeDdOOWdvXzcwUEpGSG0?oc=5"
       }
     ],
     "anc-metros": [
@@ -2845,6 +2894,12 @@
           "h": "Former eThekwini mayor among four ANC councillors to resign from eThekwini council",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNVc4cmNMbmtldkFyRFJmbzJGOUNtTjN0blFRbUpYMG5XVFFiOW00N2g2dGM2R19TU2JWeU5xUmcyNlJlNEstV2hlSE11LWFXTWFEMjNiYVFldXhUWEo5Nzc5UlcyWktYc1ZkNzRJMndnamFIZURkOXZwMVVMVmRkMEZqSl9ReUhtNE1xQWU3eERoLUtCQnJZN01iUmEtNmdOUHd2ZE02NWktamVIc0Q3RFBPNUloMlpyQW81UmlIanQxdm8?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "223 councillors prepare to take office as eThekwini gears up for new council",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOTVzMnBESEdYcTVDc0pXRXFxTVAxbHFsdWxKOGtDU0ZNVU9KWEo2dVNLTGZOOW5FcmctaEt6Z0NlZ01Rd1d5ZGVxQkZfekZMNDhaNFp0a3NOMUJzOVR2b1FGdlUyMEhGZTVpN21HbUc4aGc2eGhmOV9Fd25nS2t4dWcwYXBrOWV3OWhUUjZjQ1d5eUtDcDlZMkFTblJja3hVdlYwOFRVYlNaY1JvNkU5dUtwY3k0MjV5VUgwUQ?oc=5"
         }
       ],
       "sec": [
@@ -3651,6 +3706,12 @@
           "h": "Three-party coalition agreement puts DA in line to govern Knysna",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSzZTYzUxRm4zVG5SOWtKYU91Nk9UWHF6NFJXakVEeTFCd21RWXlDZnBzSS10Qm50TURuQ3A0ZjZIaU5naHZCdkQyRU90Qm9lbHpmTDBTdEcxd1VLZ3A0Tk5HV2JnYTVXcjI4VWFGTFp2elZZdlJjZlNmdHF5djhwUHh0N3pjYm9JdjJlRWRxS3NQTm5MSG9WOGVnZkktNjJMQUNxTTQ1aHpqOGxl?oc=5"
+        },
+        {
+          "src": "Inside Metros",
+          "h": "DA secures key mayoral positions in Western Cape municipalities",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOWl5VnFEcFhPSkp6dHRHeVVhSjBUdi10UkNKYkVWOE00OEJHOW40Q2F0TFZ3T01rcDJVQkVFNVFFOERnaFBhcE9ybDJYVGhEcTBIeTA0czR4dFJDZnMtcmtxTkx6V0otN2VLc21oNEttdkQ0bjdSOWRvckZ2U2RKYlBybHE5M2JEb2NGR0dMYmNwOWlwQW11cGxadDlFVWNOXzlBcw?oc=5"
         }
       ],
       "sec": [
@@ -3682,7 +3743,8 @@
         "a-4af9aec217",
         "a-427962faeb",
         "a-d0a1d3a6ae",
-        "a-55fab69453"
+        "a-55fab69453",
+        "a-bd98865552"
       ],
       "coverage": [
         {
@@ -3997,13 +4059,12 @@
     {
       "cat": "Cape Town",
       "place": "Cape Town",
-      "h": "‘Privatisation is meant for the poor’: Helen Zille defends DA's plans, cites Cape Town example",
-      "dek": "3 outlets are reporting on the coalition talks in Cape Town. Preamble’s editors have not yet summarised this story; the latest reports are listed below.",
+      "h": "Geordin Hill-Lewis is re-elected Cape Town mayor",
+      "dek": "IOL reports Geordin Hill-Lewis has been re-elected mayor of Cape Town, pledging jobs and stronger policing. IOL also reports Helen Zille defending the DA's privatisation plans with Cape Town as an example, and Sunday World reports suburban voters secured the DA's Cape Town victory.",
       "brief": [
-        "IOL: ‘Privatisation is meant for the poor’: Helen Zille defends DA's plans, cites Cape Town example",
-        "IOL: Cape Town forum explores India-Africa cooperation and strategic autonomy",
-        "Politicsweb: Cape Town crime stats: Progress in LEAP precincts welcome - GHL",
-        "Johannesburg Sunday World: How suburban voters secured the DA’s Cape Town election victory"
+        "IOL reports Geordin Hill-Lewis was re-elected Cape Town mayor and pledged jobs and stronger policing.",
+        "IOL reports Helen Zille defended the DA's privatisation plans, citing Cape Town as an example and saying privatisation is meant for the poor.",
+        "Sunday World reports suburban voters secured the DA's election victory in Cape Town."
       ],
       "auto": true,
       "id": "auto-cape-town",
@@ -4024,6 +4085,12 @@
           "h": "How suburban voters secured the DA’s Cape Town election victory",
           "d": "2026-11-22",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObkNvWXFMdDk2Z1hYZ090Y2F4am0tUERUNV9kUjdQdFlHYTlmWjFNSWtHSzB2UlMyRkw2RXpCWVRmSjVCb3lmRGx2dE5Odi1SU0hiY29GTllHVDNZcllwcmNTWUNvLVV6TjdOd1JManF4NFpHZExtVnZXNUZsUklpb0ZqbWVxQkJDN0pySUNqZ1BZbDRaSlN3cWt6cnd4YUtIWHV1Yg?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "Geordin Hill-Lewis re-elected Cape Town mayor, pledges jobs and stronger policing",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMkswU25HVUo4aHJQYWpWQmxNVHpfbzZ0V1NSQ2I5Z1N1NHk2eENUNURfQkF4bE1KdVJnbWtoLThaMnM4VDk5anBKVEVaMkNEZE0tT1pndjJFYXh6YUtUbnUxV09DTlEwOUJLMkw4YWxXNXFIeU1YTW5yZmVlUXJQSEdLeW1pZC1uYXVrN01Yc0h1UnJiSFA5ZktpOEs5T1Y5dHdjSEZMUFhoTXllbFBDZUpZNGM5R0EycURIUEduVUJZUQ?oc=5"
         }
       ],
       "sec": [
@@ -4132,6 +4199,12 @@
           "h": "MKP’s Nomathamsanqa Mthembu elected uMhlathuze mayor",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOb1pzVW1xd2hnNGQwQjdhTGhqbjA2NWl4WEx3UEJySDRPUFpEeHRQNmpvR1d2QlVNTzRlb3VEcVM3bzlKaU5aSGZuXzdrQUI5RGx2RDUyN0JKbkFCOWJVUXFybW94aG1DeGFlQXAwSjFRNkZwLV8za21JQXFQa3BpLW10eGg0ci1VaEhUbk9PRHhESTFMM1hDXzdFTQ?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "ActionSA says no coalition deal reached with MK Party or ANC in KZN",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMVJMcG9DaUNGSDdjZHhIVERUVG43Ukg4Q1lfdUdPZ1E0Rllic2h1dXV0X1JpXzNnRnJXb3NYOERfN09DOGJOZXJCWkxwYjh2NnhWemsxV0w2TzJVMVdJU1kycW4wSFQxZDRRMkViYmNzVTdEUGFBVjRZREdVeTNLUWhVX2h0dkU3UVQ1MDVTQUk4TlR4eDFWLUJkbEZHdTdDZ2htS3BpcHBMQmVVeENESQ?oc=5"
         }
       ],
       "sec": [
@@ -4845,6 +4918,18 @@
     "46dd3bef6bcb",
     "2253eb86db41",
     "af69092e4edf",
-    "b9a302bb1522"
+    "b9a302bb1522",
+    "50687e0bcbb2",
+    "bfaf2dee1c92",
+    "16848f7d77e5",
+    "c93810f319d6",
+    "bd988655521b",
+    "daab8356d539",
+    "48f87ae56090",
+    "03be4328e7aa",
+    "c4e77e236895",
+    "01c311f6be50",
+    "11b4fc0248eb",
+    "ee2f0f8e04ad"
   ]
 }
