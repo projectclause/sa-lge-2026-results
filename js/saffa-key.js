@@ -28,7 +28,7 @@
       const piece = (a, named) => `<li><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.h)}</a><span>${named ? `<b>${esc(a.p.n)}</b> · ` : ""}${esc(a.src)}${a.t ? " · " + esc(ago(a.t)) : ""}</span></li>`;
       let reg = REG[0], who = null;
 
-      const draw = () => {
+      const render = () => {
         pills.querySelectorAll("button").forEach((b) => b.setAttribute("aria-selected", b.dataset.reg === reg));
         const ps = P.filter((p) => p.region === reg).sort((a, b) => week(b) - week(a));
         if (!ps.length) { grid.innerHTML = `<p class="sf-kp-empty">No one from this region yet.</p>`; return; }
@@ -40,6 +40,27 @@
           ${ps.some((p) => p.credit && p.img) ? `<p class="sf-kp-credit">Photos: ${ps.filter((p) => p.credit && p.img).map((p) => `${esc(p.n)}, ${esc(p.credit)}`).join("; ")}.</p>` : ""}`;
       };
 
+      // Australia & Oceania, Middle East & Asia and Africa are for subscribers: blurred, with a subscribe prompt over them
+      const LOCKED = ["Australia & Oceania", "Middle East & Asia", "Africa"];
+      const subscribed = () => { try { return !!((window.PRE && PRE.me().email) || localStorage.getItem("pre-signed") === "1"); } catch (e) { return false; } };
+      const draw = () => {
+        render();
+        const lock = LOCKED.includes(reg) && !subscribed() && !!grid.querySelector(".pl-voice");
+        grid.classList.toggle("sf-kp-locked", lock);
+        if (!lock) return;
+        const n = P.filter((p) => p.region === reg).length;
+        grid.insertAdjacentHTML("beforeend", `<div class="sf-kp-lock"><p><b>See South Africans in ${esc(reg)}</b><span>${n} ${n === 1 ? "person" : "people"} here. This region is for Preamble subscribers. It’s free.</span></p><button type="button">Subscribe to see</button></div>`);
+        grid.querySelector(".sf-kp-lock button").onclick = async () => {
+          if (!window.PRE) return;
+          const v = await PRE.ask({ title: "Subscribe to see more of SAFFA", note: `South Africans in ${reg} and the other regions are for Preamble subscribers. It’s free.`,
+            fields: [{ name: "email", label: "Email address", type: "email", auto: "email" }], button: "Subscribe and see" });
+          if (!v) return;
+          PRE.send({ email: v.email, page: location.pathname + "#key-south-africans" }).catch(() => {});
+          PRE.remember({ email: v.email });
+          try { localStorage.setItem("pre-signed", "1"); } catch (e) {}
+          draw();
+        };
+      };
       pills.innerHTML = REG.map((r) => `<button type="button" role="tab" data-reg="${esc(r)}" aria-selected="false">${esc(r)} <small>${P.filter((p) => p.region === r).length}</small></button>`).join("");
       pills.addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; reg = b.dataset.reg; who = null; draw(); b.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "smooth" }); });
       grid.addEventListener("click", (e) => {
