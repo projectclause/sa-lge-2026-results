@@ -1237,3 +1237,14 @@ body.has-ask { padding-bottom: 96px; }
 .pl-voice .pl-nm img.pl-plogo { border-radius: 0; box-shadow: none; background: none; padding: 0; border: 0; }
 /* very wide wordmarks (Financial Times, Rossiyskaya Gazeta…) are capped so a card's name line doesn't overflow */
 .pl-voice .pl-nm img.pl-plogo { max-width: 9em; object-fit: contain; object-position: left center; }
+/* YouTube TV: places 4+ blurred for non-subscribers, with a subscribe panel over them */
+.pl-beat[data-beat="yt"] .pl-vgrid { position: relative; }
+.pl-beat[data-beat="yt"].pl-locked .pl-voice:nth-child(n+4) { filter: blur(6px); pointer-events: none; user-select: none; }
+.pl-beat[data-beat="yt"].pl-locked .pl-vall { display: none; }
+.pl-beat[data-beat="yt"].pl-locked .pl-voices .pl-voice.pl-vx { display: flex; }
+.pl-ytlock { position: absolute; left: 0; right: 0; bottom: 0; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 12px; padding: 28px 18px 18px; text-align: center;
+  background: linear-gradient(to bottom, rgba(255,255,255,.55), rgba(255,255,255,.85)); z-index: 2; }
+.pl-ytlock p { margin: 0; display: grid; gap: 4px; }
+.pl-ytlock b { font-size: 17px; }
+.pl-ytlock span { font-size: 14px; color: var(--muted2); }
+.pl-ytlock button { border: 0; border-radius: 999px; background: #121212; color: #fff; font: 600 14.5px/1 var(--font); padding: 12px 20px; cursor: pointer; }
