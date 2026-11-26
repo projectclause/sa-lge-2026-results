@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-26",
-    "time": "05:00"
+    "time": "06:08"
   },
   "items": [
     {
@@ -1024,6 +1024,30 @@
       "src": "Business Day",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONUIxQlZDcWtIeTZNY2N4ZC1jelEyS0l3WE5RYm1jdnNfMGV5YXZQcGVOTGFKckphY2w0aWJlaTU0cDlhWVJhTU9idFlVbW84SHl4Rms1U0lyQ3ZFT0dSY0FIQlk4VXZaYXA3c1BPdzhfd21RU01jcm4tSWdSVF9mVnhsZElIb0JZdVFXRVQ5MWZIOFZlOUk4WkRJUm9UNVlaUE5HMVNWSXRxS21QWTJDOU5xWEhiQQ?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-d1ba803226",
+      "j": "makin",
+      "d": "2026-11-26",
+      "kind": "Interview",
+      "place": "Johannesburg",
+      "h": "Helen Zille: 17 Parties Joined Forces to Keep the DA Out of Joburg. It Won't Last.",
+      "s": "Helen Zille tells Gabriel Makin the DA won 35% in Johannesburg to become the biggest party, and calls the grouping of parties lined up against it a short-lived hold on power.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=wkYHwBM8ctA",
+      "auto": true
+    },
+    {
+      "id": "a-1f104c47e0",
+      "j": "helen",
+      "d": "2026-11-25",
+      "kind": "Article",
+      "place": "Johannesburg",
+      "h": "‘Voters should have backed the DA’: Zille reacts to proposed Joburg ‘chaotic’ coalition",
+      "s": "The Post reports Helen Zille said voters should have backed the DA, reacting to what she calls a proposed 'chaotic' Joburg coalition.",
+      "src": "thepost.co.za",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSEU5SjJqbm9qanNpdmthemdIY2xsYzJ1RFZaLURVT1JKOGdVOHRpRjZmdGRFYTg1b2h0Tk9nZG42anhhSl9LZlMtY1FkZVRCMDRvSzZ1N0FjbXdwZDAzcWg2UkxKcHZSS3FocVVkek5sbGJIeFJXZFFta1MyZjB4TDhoTTBENkhsNzIxd1ktdGtjRE94MnV5dld4dTZ4aGRqX2NiWnljZklyOGRTRk41Q3M1d1NPaDJ3Z2xZYmFjYUJzdw?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -1046,7 +1070,9 @@
       "a-c77151322d",
       "a-8946796aee",
       "a-0b99ad38e9",
-      "a-ead3d10c86"
+      "a-ead3d10c86",
+      "a-d1ba803226",
+      "a-1f104c47e0"
     ],
     "actionsa": [
       "a-773fa265cd",
@@ -1506,6 +1532,12 @@
         "h": "DA dismisses Zille swap speculation as ANC, ActionSA move close to coalition deal in Joburg",
         "d": "2026-11-26",
         "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQekY3dUNHV3hpMW45VUxnUHBZcHM1T29tc3VFVjN1cE5DanBaVC01VnJKaExxSTRHWk1aSnlNZ2VWZWVmOWVVbHZuU3JuU0UtazJ5bXFCZUYteUlpWmhOQUZId2Zvazc3TW1SZVdIbVVSMWl2SThBNlFUZndIRDJXcjFxSThEVnpNX3BJckozSkhiMW1qTTBGUV9OVG8tQV9yZy1abDVIX2RYUGtzWDJ5bWF4TDNHVVRjZHR5YzhDMVBJX25tQlkxOE80ejFsMHc?oc=5"
+      },
+      {
+        "src": "dailynews.co.za",
+        "h": "DA threatens legal action over Johannesburg council’s inaugural meeting",
+        "d": "2026-11-24",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ZQUdvQUNQYnR2cWRZakJCa3ViemNxNXNzN2JsNDZLN0k2eWZkVnloN0t6a0hxTGVXWTM0ZUdabUFPVUJQNXB5SkxUc2pfU3J2bkdhSHdGTHkyTzdqSWc?oc=5"
       }
     ],
     "councils": [
@@ -1636,6 +1668,12 @@
         "h": "Tshwane leadership vote hangs on coalition talks",
         "d": "2026-11-24",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSGRlVEh6YnRxOENCRmNSTGw4OVBtVno1Z1ZBU3dpNkYzX2RvU0luLTNuNnc1OXcxaDJzMEphOWp2Y1ZRT1EyMVN2ZU1EcFBmQTcxSEZlQjBXYTdnby1HbXlNYm8xQ0VfRW9pZnpleWdnWjRFcHkzZE1aTXljMlhpcWp4VXM4S2hwVWN1YVpsc1liZlJZZS1ReXFMT2hwQQ?oc=5"
+      },
+      {
+        "src": "eNCA",
+        "h": "Tshwane councillors to elect new mayor amid coalition uncertainty",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcTZOQU1TSWtoOTNwRmFfZmJSUUpsRngwa2tCWXV5N1pFYnpaNld4OWRWT0Z6Q0hsLUhMd3dEa2NNZW95N3U5VWdXNE1ob1NWMEt4UVZlbXhDcTczaW5YSGE1S1d2S25qQVZ4bzNHOTFnMEo0U0xSc2ZNTlE2UEQ4ekRaSHlLMWVkcDZDUUJZdkZCSlpIbEktRVRHSW5BbEp3VlE?oc=5"
       }
     ],
     "actionsa": [
@@ -2331,6 +2369,12 @@
           "h": "MK Party and ANC in talks over possible eThekwini coalition",
           "d": "2026-11-24",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORVl6YWNtd01DZFk2R29YWk9LeXF0eXphT2swX01QcFB3WjdsS0x4a3Vkb2o3TGY4U01lclJtTUE4SXBIc1ZxSU9lRldoeFhuSnFKcDg1MGhLc2QteFBYXzFkcFlKOEJvaXFpRGxVQm5KRVd0eG5fQl9QZDI4ZlZYTnBkX1BCQjBZMjV2ZUg2c3kxWUZBaFBJbHJsU2hNbVFLUnJBMlFjQQ?oc=5"
+        },
+        {
+          "src": "thepost.co.za",
+          "h": "WATCH | eThekwini holds inaugural council meeting to elect mayor, speaker, and deputy mayor",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONXJzZW53dE13Ynp3Y1lvUzdmZDllN0xCX0twZ3ZpZDdXaXhWZkw3NW5ydFBHenVpdGtROFFQRXQ0ZFNBdV9mTGsyWTk4UEt4T1ZQOWRDVGptSFAyYXYxcktTc1dZRkJkUTBGRzlKRW9lM2hISlVYQklFc1UtX19TNFdRWmZqVE81dVlpdHNkcmRMYmN2U2thelBac1RRUjFSUU1YOHdXU3JPdy1VQ0VQSVVZbkpoekdYNG9iSEZvVUtLWWgyNTJEdEYzRkNGeWha?oc=5"
         }
       ],
       "sec": [
@@ -2892,6 +2936,12 @@
           "h": "WATCH | Ekurhuleni elects new leadership",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TVWVFdEowMXI4LVZLclM4V0JrMTRhX2ttbk9rbGppeWRaaWhFR1ZHNzA4eVNTeV9zNTJDTGNzSnplQkZzRjc5MzFGNjhxcDJOTGhGczhkX0RkNlU2emc4eU84d083MmtZcHA5UnFWVkhCTldGN1haaEZBVmtMMjQ?oc=5"
+        },
+        {
+          "src": "thepost.co.za",
+          "h": "WATCH | Ekurhuleni elects new leadership",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9GcFNsYklfWVowWVZXWHlRQ1Axb2hyMHFrUkZ6TllRMVRzdy0tOFM4c3lFemRQS29pNmJJNFFDZmV6OXp4XzVna283b3ZBR1NsRXFpazJxbWdSWW1SUDUwTEcxbkxhNDJtVVdaMlVlUjJ3aFhWWWFMUkg2TV8?oc=5"
         }
       ],
       "sec": [
@@ -3070,14 +3120,13 @@
       "cat": "ANC",
       "place": "National",
       "h": "The ANC leaves coalition choices to its provinces and regions",
-      "dek": "EWN and Dan Corder report the ANC’s NEC has let provinces and regions decide coalitions, with consequences for Gauteng, eThekwini, Nelson Mandela Bay and over 100 hung councils, and SABC News reports the NEC resolved that DA coalitions should be a last resort. The ANC says there is consensus as talks move towards conclusion, while TimesLIVE and IOL report strains over Ramaphosa’s leadership and The Common Sense reports the SACP calling a Sol Plaatje deal with the DA a “betrayal”.",
+      "dek": "EWN and Dan Corder report the ANC’s NEC has let provinces and regions decide coalitions, affecting over 100 hung councils, and SABC News reports the NEC resolved that DA coalitions should be a last resort. IOL reports the ANC postponed its coalition update again as ActionSA and DA talks intensify, while TimesLIVE, IOL and SABC News report strains over the party’s leadership and decline.",
       "brief": [
-        "EWN asks whether the ANC has given provinces and regions the final say; Dan Corder says the NEC decided to let regional bodies choose, affecting well over 100 hung councils.",
-        "SABC News reports the NEC resolved that coalitions with the DA should be a 'last resort'.",
-        "Newsnote reports the ANC asserting there is consensus as talks near conclusion; The Witness reports the NEC weighing up its coalition future.",
-        "Business Day reports the ANC is seeking a foothold in hung councils, EWN quotes an analyst saying its choices could decide whether it enters a 'death spiral', and IOL reports the SACP drawing a line over coalition support for the ANC.",
-        "The Common Sense reports the SACP called the ANC’s handling of a DA deal in Sol Plaatje a “betrayal”.",
-        "TimesLIVE reports Ramaphosa faces a tough ANC unity test, IOL reports tensions over Ramaphosa, election losses and working with the DA, and The Common Sense argues ANC indecision has left a power vacuum."
+        "EWN asks whether the ANC has given provinces and regions the final say; Dan Corder says the NEC let regional bodies choose, affecting well over 100 hung councils, and SABC News reports the NEC resolved that DA coalitions should be a 'last resort'.",
+        "Newsnote reports the ANC asserting there is consensus as talks near conclusion, The Witness reports the NEC weighing up its coalition future, and IOL reports the ANC postponed its coalition update again as ActionSA and DA talks intensify.",
+        "Business Day reports the ANC is seeking a foothold in hung councils, EWN quotes an analyst warning of a 'death spiral', IOL reports the SACP drawing a line over coalition support, and The Common Sense reports the SACP called a Sol Plaatje deal with the DA a “betrayal”.",
+        "TimesLIVE reports Ramaphosa faces a tough ANC unity test, IOL reports tensions over Ramaphosa and working with the DA, and SABC News reports Malatji saying the ANC’s decline goes beyond its current leadership.",
+        "The Common Sense argues ANC indecision has left a power vacuum and that the ANC is fighting over the deck chairs on the Titanic."
       ],
       "auto": true,
       "id": "anc-regions",
@@ -3216,6 +3265,24 @@
           "h": "ANC NEC gives coalition talks report the green light.",
           "d": "2026-11-23",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB1QU0zTzZIa2RaSzJoczlrMmZpY3VVdWR6dVlESGoyUlI0aXpVZno0LTJ6RXhmX1ZYa3NGcUktUGJVMzkxSnFPc3J5R3VITE44cnNpdE1tOUZ5c0IxRXFtck9xN3NkeXlKaVFfTzBoallNakF1eWhCMA?oc=5"
+        },
+        {
+          "src": "The Common Sense",
+          "h": "The ANC Is Fighting Over the Deck Chairs on the Titanic",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVTZfcUExUnhWX2xCU1A5WHA1d1JRM2c4Y2tnUW1WUFc1YXM3Ry1HWjRQNkdfbURzQ0dVb3FIeHhveVMxeHY3RlhGNGFJSUpjbUFJampmblpyajYzWms1U2I1b2VWbGFoaGpveldFVGw1a25EdW1OcGRsSDZNZWdvX3hNME9WaVJDWlFpZ1Bfd2dydnR4NUV3ck5mdw?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "ANC postpones coalition update again as ActionSA, DA talks intensify",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaVdBRVRqVzl6ZDZLMEUwWmdDdWphTmRsUkNfbkt5LW84RmEtbFAwUEJ5dkRGd3RCTC16VEdILXh1bjFIWlBoRWhFY01BcHNJbzAyYlU2alY2bmpYV0RvSVdrNjNfdnJRZE82emNuM0JaMUoyMm5DM0JIdlNtYm5oQlRhcVhvNjlzWndnaEhGd080Qi00dkNCcUIySDNrdW5VTTR0YXktZzc?oc=5"
+        },
+        {
+          "src": "SABC News",
+          "h": "ANC’s electoral decline goes beyond current leadership: Malatji",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNS1sS3FFR2RzRE80dGpKbmNYM0lLVWZDby02anU5b3VsMEowczhkeElUWDVtcENSQzl5RVpkQ04yNno5T3gtY1Y2X1ZGLXBWSGttNVhfVzFZQUtTdDdCTElyVXVvRmxzbTNoblJHOVptZzI1S2VzVzM2bFFvNVJWLXdBbDN0UlBNR296dTNCVjRZR3Z4TmV1Z3VfVDc2S05HSlZxQXJWZE9aMTkzUk1scnp4bkdqZU5pZTVlUDl1Q0dncnRrR3RTTA?oc=5"
         }
       ],
       "sec": [
@@ -3926,6 +3993,16 @@
     "e418ba3ebc61",
     "6ccc6bc4711a",
     "2871503ad527",
-    "0784b7c41761"
+    "0784b7c41761",
+    "0c34b1c79605",
+    "5f5da018ebeb",
+    "3c66fc1827dd",
+    "d1ba803226c0",
+    "c15d4c4045fc",
+    "1f104c47e05a",
+    "cab4b2cbdb2d",
+    "37c359dacc41",
+    "7b7f2308084f",
+    "b2020dfc17f1"
   ]
 }
