@@ -113,8 +113,21 @@
   }
 
   function bubble(cls, html) { const d = document.createElement("div"); d.className = "ask-msg " + cls; d.innerHTML = html; msgs.appendChild(d); msgs.scrollTop = msgs.scrollHeight; return d; }
-  function send(text) {
+  // searching SAFFA is for subscribers: anyone else is asked to subscribe first (as on the News Tracker), then their search runs
+  const subscribed = () => { try { return !!((window.PRE && PRE.me().email) || localStorage.getItem("pre-signed") === "1"); } catch (e) { return false; } };
+  async function gate(text) {
+    if (subscribed() || !window.PRE) return true;
+    const v = await PRE.ask({ title: "Subscribe to search SAFFA", note: `Searching South Africans abroad is for Preamble subscribers. It’s free.${text.trim() ? ` You searched: “${esc(text.trim())}”` : ""}`,
+      fields: [{ name: "email", label: "Email address", type: "email", auto: "email" }], button: "Subscribe and search" });
+    if (!v) return false;
+    PRE.send({ email: v.email, page: location.pathname + "#search" }).catch(() => {});
+    PRE.remember({ email: v.email });
+    try { localStorage.setItem("pre-signed", "1"); } catch (e) {}
+    return true;
+  }
+  async function send(text) {
     if (!text.trim()) return;
+    if (!(await gate(text))) { input.focus(); return; }
     thread.hidden = false; sug.hidden = true;
     bubble("me", esc(text));
     input.value = "";
