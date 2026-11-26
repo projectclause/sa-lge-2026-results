@@ -12,7 +12,8 @@
     if (m < 60) return m <= 1 ? "just now" : m + " min ago";
     const h = Math.round(m / 60); if (h < 24) return h + (h === 1 ? " hour ago" : " hours ago");
     const d = Math.round(h / 24); if (d < 7) return d === 1 ? "yesterday" : d + " days ago";
-    return new Date(t).toLocaleDateString("en-ZA", { day: "numeric", month: "short" });
+    const old = Date.now() - new Date(t) > 300 * 864e5; // more than about a year back: say which year
+    return new Date(t).toLocaleDateString("en-ZA", old ? { day: "numeric", month: "short", year: "numeric" } : { day: "numeric", month: "short" });
   };
   const face = (p) => p.img ? `<img src="${esc(p.img)}" alt="">` : `<i class="pl-av" aria-hidden="true">${esc(p.n.split(/\s+/).map((w) => w[0]).slice(0, 2).join(""))}</i>`;
   const REG = ["North America", "Europe", "Australia & Oceania", "Middle East & Asia", "Africa", "South America"];
@@ -34,7 +35,7 @@
         const feed = (who ? arts(by[who]) : ps.flatMap(arts)).sort((a, b) => (b.t || "").localeCompare(a.t || ""));
         grid.innerHTML = `<div class="pl-voices">${ps.map((p) => `<button type="button" class="pl-voice" data-k="${esc(p.id)}" aria-pressed="${who === p.id}" aria-expanded="false">${face(p)}<span><b class="pl-nm">${esc(p.n)}</b><span>${esc(p.role)}</span>${arts(p)[0] && arts(p)[0].t ? `<i class="sf-kp-last">Latest ${esc(ago(arts(p)[0].t))}</i>` : ""}</span><em title="Articles naming ${esc(p.n)} in the past 7 days">${week(p)}</em></button>`).join("")}</div>
           <p class="sf-kp-lbl">Latest${who ? ` <span>· ${esc(by[who].n)}</span>` : ""}</p>
-          ${feed.length ? `<ol class="sf-kp-list">${feed.map((a) => piece(a, !who)).join("")}</ol>` : `<p class="sf-kp-none">No news coverage in the past year.</p>`}
+          ${feed.length ? `<ol class="sf-kp-list">${feed.map((a) => piece(a, !who)).join("")}</ol>` : `<p class="sf-kp-none">No news coverage found.</p>`}
           ${ps.some((p) => p.credit && p.img) ? `<p class="sf-kp-credit">Photos: ${ps.filter((p) => p.credit && p.img).map((p) => `${esc(p.n)}, ${esc(p.credit)}`).join("; ")}.</p>` : ""}`;
       };
 
@@ -47,7 +48,7 @@
           const open = b.getAttribute("aria-expanded") !== "true";
           grid.querySelectorAll(".sf-kp-vlist").forEach((l) => l.remove());
           grid.querySelectorAll(".pl-voice").forEach((x) => { x.setAttribute("aria-expanded", open && x === b); x.setAttribute("aria-pressed", open && x === b); });
-          if (open) b.insertAdjacentHTML("afterend", arts(by[k]).length ? `<ol class="sf-kp-list sf-kp-vlist">${arts(by[k]).map((a) => piece(a, false)).join("")}</ol>` : `<p class="sf-kp-none">No news coverage in the past year.</p>`);
+          if (open) b.insertAdjacentHTML("afterend", arts(by[k]).length ? `<ol class="sf-kp-list sf-kp-vlist">${arts(by[k]).map((a) => piece(a, false)).join("")}</ol>` : `<p class="sf-kp-none">No news coverage found.</p>`);
           return;
         }
         who = who === k ? null : k; draw();
