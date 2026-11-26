@@ -95,7 +95,7 @@ foot = head[/<footer class="footer">.*?<\/footer>/m]
 
 FileUtils.mkdir_p(File.join(ROOT, "coalitions"))
 # the footer’s privacy link is relative: the story and profile pages sit one folder down
-foot = foot.gsub('href="privacy.html"', 'href="../privacy.html"')
+foot = foot.gsub('href="privacy.html"', 'href="../privacy.html"').gsub('src="assets/', 'src="../assets/')
 Dir[File.join(ROOT, "coalitions/*.html")].each { |f| File.delete(f) }
 STORIES.each do |s|
   url = "#{SITE}/coalitions/#{s[:id]}.html"
