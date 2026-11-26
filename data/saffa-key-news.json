@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T19:43:13+02:00",
+  "updated": "2026-11-26T19:45:04+02:00",
   "people": {
     "elon-musk": [
       {
@@ -60,11 +60,32 @@
         "src": "Forbes Middle East",
         "t": "2026-11-26T03:30:10+02:00"
       }
+    ],
+    "thuso-mbedu": [
+      {
+        "h": "Thuso Mbedu looks back on her iconic hairstyle moments",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOE4tQmt2d2NYa01MZU9sNlZ6XzNHX2R6czBSV1FWQ3lMQi02YkdUYlZMR3pBcGMzUTl1LWpPWXYzbTVOSGZLcDA4Z2NwcFJUVkdmdnlhSEQybzFMeDRHdkpWTUptbzV3OHlDdW1leFhsMXhYM0xPTDFKZFdkc3hBWlVfbjJ3RDQ3RmM4SF9fY2R6YUNhWmdxdmtNVFVMZw?oc=5",
+        "src": "Bona Magazine",
+        "t": "2026-11-26T16:42:08+02:00"
+      },
+      {
+        "h": "\"We mean business\": Thuso Mbedu spotlighted on The Hollywood Reporter",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPU0o5S2xFckxuNnZmZXlkWnhCMk9KTjhCallGc1E1T2lYekJBMTRpTkstd0lfSFlMQkhtaUQ2UUF5SnhzakR3aFA4UHJVZFZNRTRMRzRuVUVINWYyRnZ4MmVPMmxDVnBqR2VhREhCNzBpclFid21JbnMwNDBHWDRoVkdDM2VicXhSVEw3dVMtMkhuS2xPYng2bnJrcHBjZW5ZVVFCR2pwcDdJY1hGd1BkTDJCMlgxaFpBOXl4OTdBM1g?oc=5",
+        "src": "Briefly News",
+        "t": "2026-11-19T21:33:26+02:00"
+      },
+      {
+        "h": "Magic within Children of Blood and Bone (2027) – Thuso Mbedu, Damson Idris, Amandla Stenberg",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdWtOVHhSM1RzdTl2RkJxOXU3Q0gzODRYNTR2el9ocjNycVdLNkNKaWV3Q3RmbXJWV3g3Y3ZFbU5nbXFtbFdXLVVFQ09hTmMzMWdGTndFNTZIc1N6ejlvTl9peURqZ3Y3YVRsbjV1dWdBWWV5eWhHVDVJN3B3U2dlRmNGd0tHNXkxNW1aVUJlallQVmZWVGw1ZzR2Zk1ZM1pXWGpCVENWcGtnTDZqYjdQNktxMVdYd0psV1E?oc=5",
+        "src": "linitiative.ca",
+        "t": "2026-11-18T06:26:47+02:00"
+      }
     ]
   },
   "week": {
     "elon-musk": 94,
     "trevor-noah": 2,
-    "peter-thiel": 37
+    "peter-thiel": 37,
+    "thuso-mbedu": 3
   }
 }
