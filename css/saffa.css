@@ -112,7 +112,7 @@
 }
 
 /* Key South Africans abroad */
-.sf-key-people { margin: 40px auto 0; padding-top: 16px; border-top: 1px solid var(--sf-ink); }
+.sf-key-people { margin: 28px auto 0; padding-top: 16px; border-top: 1px solid var(--sf-ink); }
 .sf-kp-head h2 { margin: 0 0 4px; font-family: var(--sf-serif); font-size: clamp(22px, 2.6vw, 28px); font-weight: 700; letter-spacing: -.01em; }
 .sf-kp-head p { margin: 0 0 16px; font-size: 14.5px; color: var(--muted2); }
 .sf-kp-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 16px; }
@@ -131,3 +131,11 @@
 .sf-kp-list span { display: block; margin-top: 3px; font-size: 12px; color: var(--muted); }
 .sf-kp-none { margin: 0; font-size: 13px; color: var(--muted); }
 .sf-kp-credit { margin: 8px 0 0; font-size: 11px; color: var(--muted); }
+.sf-kp-more { display: none; margin-top: 4px; padding: 8px 0 0; border: 0; border-top: 1px solid var(--rule); width: 100%; background: none; text-align: left; font: 600 13px/1.2 var(--font); color: var(--sf-green); cursor: pointer; }
+.sf-kp-more::after { content: " ▾"; }
+.sf-kp-more[aria-expanded="true"]::after { content: " ▴"; }
+@media (max-width: 620px) {
+  .sf-kp-list li:nth-child(n+2) { display: none; }
+  .sf-kp-open .sf-kp-list li { display: block; }
+  .sf-kp-more { display: block; }
+}
