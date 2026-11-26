@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T19:39:18+02:00",
+  "updated": "2026-11-26T19:43:13+02:00",
   "people": {
     "elon-musk": [
       {
@@ -40,10 +40,31 @@
         "src": "Algoa FM",
         "t": "2026-11-17T15:00:00+02:00"
       }
+    ],
+    "peter-thiel": [
+      {
+        "h": "PLTR Stock $163.59: Palantir Up 14% Since Thiel’s $122M Buy",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMVI3Wk9VT0R5eEdqN01OS2tBMllkVzVkc2Y2akpQQkh1bXlJWFduZEU3b0l0N0FhcDBoTlNBT3JiN09qd0ptMWFzNVJBLTEzUk5mY3lqSTUyMHMwXzQ4YzQ3eDQzN0J5X29EZjBVYXktTEw0SnR6c0FsOEZmYzgyb0VGNWtKUjhENEwta1NnOGpLVVJBOHFVSDBqajNyLU9fS0RZV21VdmlTRHkw?oc=5",
+        "src": "FinanceFeeds",
+        "t": "2026-11-26T15:20:50+02:00"
+      },
+      {
+        "h": "Peter Thiel buys historic Bel Air mansion Casa Encantada at auction, see inside",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMmVMQnI2T2E0UHRqUzh5cUYzVW5mZDlKYXI1NUhUQWNBZmdmRksyU0FoZjRVYzYzVm5zQ2NRUmliQ2RRVFhnMFg5RUFaNzI0T1g2WHhXUUdEY183VDVKX0VtMkJYZUc0WFFITjNNaFYtM0NDSDJFSnY5Q0ZPTWpBN3BDZ2FUaXFVTGIxYUR5M3g1WFRuMDJyaG5CUW5lbG5nVXhLVEJiWXkzZmJzaGNSWHZEeW8?oc=5",
+        "src": "IndiaIPO",
+        "t": "2026-11-26T04:33:32+02:00"
+      },
+      {
+        "h": "Billionaire Peter Thiel Buys $122 Million In Palantir Shares Amid AI Stock Turmoil",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPdHV4b1RfV0cxU1RSeGgzSkVZSUYxNzBzbk5mb2paUVZxbDNoNUozUVJTVWI2TXFkbjVza3JNOU1VSzdOdm8xT1MwU0tZYUJocWpIaVNwUnFnRDhabF81ak13cjJRcjk3VXRDNldJeXgzR3k4MGdSenViVW44RDJOTWEtdzlYRC1CV2dRT2ZsM0JrV3RPR2xjUFk5VGFWNHhjd2NTQVM4RmkyOFYwQVVqN21DVTFHMkVXVFktWTlaVnlmM0dZWTJicHN0NnpSSk82Qzc2RnJSN0U3OWxuc3c?oc=5",
+        "src": "Forbes Middle East",
+        "t": "2026-11-26T03:30:10+02:00"
+      }
     ]
   },
   "week": {
-    "elon-musk": 93,
-    "trevor-noah": 2
+    "elon-musk": 94,
+    "trevor-noah": 2,
+    "peter-thiel": 37
   }
 }

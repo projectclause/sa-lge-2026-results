@@ -1,4 +1,5 @@
 [
   {"id": "elon-musk", "n": "Elon Musk", "role": "SpaceX, Tesla and X", "born": "Pretoria", "lives": "United States", "img": "assets/saffa-people/elon-musk.jpg", "credit": "Wikipedia", "q": "\"Elon Musk\"", "region": "North America"},
-  {"id": "trevor-noah", "n": "Trevor Noah", "role": "Comedian and author", "born": "Johannesburg", "lives": "United States", "img": "assets/saffa-people/trevor-noah.jpg", "credit": "", "q": "\"Trevor Noah\"", "region": "North America"}
+  {"id": "trevor-noah", "n": "Trevor Noah", "role": "Comedian and author", "born": "Johannesburg", "lives": "United States", "img": "assets/saffa-people/trevor-noah.jpg", "credit": "", "q": "\"Trevor Noah\"", "region": "North America"},
+  {"id": "peter-thiel", "n": "Peter Thiel", "role": "PayPal and Palantir co-founder, investor", "born": "Frankfurt, West Germany; grew up partly in South Africa and Namibia", "lives": "United States", "img": "", "credit": "Gage Skidmore, via Wikipedia (CC BY-SA)", "q": "\"Peter Thiel\"", "region": "North America"}
 ]
