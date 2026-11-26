@@ -1,8 +1,8 @@
 {
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
-    "date": "2026-11-26",
-    "time": "22:14"
+    "date": "2026-11-27",
+    "time": "01:03"
   },
   "items": [
     {
@@ -1324,6 +1324,54 @@
       "src": "IOL",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdF8zSmhkRTh6NTktbWstZThNR3FKclF2RWllMUlTd0J3SVdDOW50d04zQTZUcWU2RmtJdmlyeUEzWkk3SFlxM3FzYWJ0dUdjVHNfMXZ0Z21EVGNwbUwzTlBEVFlXNEI2eVZyd1RXWjA5TnlSd2dfVU0xc01kaXV3VlVsNWlkVUVyRXNSaUU2QjgtQ2VFZkw4UmpQUUUyZ0hDQ0ducw?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-726817dbbe",
+      "j": "herman",
+      "d": "2026-11-27",
+      "kind": "Reported",
+      "place": "Johannesburg",
+      "h": "Mashaba reveals 100-day blueprint for Johannesburg turnaround",
+      "s": "The Mail & Guardian reports Herman Mashaba has revealed a 100-day blueprint for turning Johannesburg around.",
+      "src": "Mail & Guardian",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zLXphRGZBQXdxNlJiUXR1U01tYk90NzVWS0ljQjk1SzNBOTl2TGpWZGpONkZ6X0VLZ184ck5EUVd5ZC1oNHJaZ19CdkFNSE5KcEpqaGZNSzhhMjI3cVNXZlEtal9kVVk1dUI5OGI5MGNNUlpubVNiUHVCeUpRNDg?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-dc3c648345",
+      "j": "moya",
+      "d": "2026-11-26",
+      "kind": "Statement",
+      "place": "Tshwane",
+      "h": "Tshwane to get 100-day programme of action - Nasiphi Moya",
+      "s": "Nasiphi Moya says Tshwane will get a 100-day programme of action, in a statement carried by Politicsweb.",
+      "src": "Politicsweb",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcng1czl4YWwzMVI3SXAzNDFNSUlYWVBWV1FEN3BfX3U3THJvMmpPT1JoRFpGelRhOW9nZHEwUkVEN2VNOWRjV2JhQWtpVlFhYTJxMTNFSWQ2WGVsREYwUmpULW1kbmdtMlNwMWFZb2t1d2pWRmtiSVFiYnRTZHlRS2dKUk1KdFpoTk5TOTFyZ3pCSDNF?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-e841800590",
+      "j": "brink",
+      "d": "2026-11-26",
+      "kind": "Statement",
+      "place": "Tshwane",
+      "h": "DA goes into opposition in Tshwane - Cilliers Brink",
+      "s": "Cilliers Brink says the DA is going into opposition in Tshwane, in a statement carried by Politicsweb.",
+      "src": "Politicsweb",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUVpVSVJ4QXU3RXQ3ZXdWbUlCeWo4T3dPT0t4aU41akFIYmgzQkZGSXRqUWNEVy1FeEhqck9PUzg4TWtHdlVMLXNNMVNiczZTZDZnZHl2RjgxbDdJRWJkTDhUMVFqS1p0NXV3cDNHYkZZR0ktTWZsUGRrNGlUOTR5c2lWb2FXaGozejBUeQ?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-2af0827b08",
+      "j": "geordin",
+      "d": "2026-11-26",
+      "kind": "Statement",
+      "place": "Tshwane",
+      "h": "DA condemns Tshwane coalition of chaos - GHL",
+      "s": "Geordin Hill-Lewis condemns what he calls Tshwane’s coalition of chaos, in a DA statement carried by Politicsweb.",
+      "src": "Politicsweb",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUlpDR2M4cURRREVGUUMxd3d4YjYyM2dwbjNCNmNZLU5XblJEX2NYTXQxM2xlaEQtbGdJWEZxd2pyTnZoZVBVVTFGVl94ZnRVWGdfLWNoaHJxYk10NGcxRFBRNU1yOHJHNXgwMk9OWEx1YkpCTF9vZk1Kc19PNWxsMlF4cw?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -1351,7 +1399,8 @@
       "a-1f104c47e0",
       "a-daa4656d07",
       "a-95debb332c",
-      "a-d9008b098b"
+      "a-d9008b098b",
+      "a-726817dbbe"
     ],
     "actionsa": [
       "a-773fa265cd",
@@ -1391,7 +1440,10 @@
       "a-77f01ea28d",
       "a-bf2ecd0362",
       "a-bf997775d7",
-      "a-0ffae0e2f4"
+      "a-0ffae0e2f4",
+      "a-dc3c648345",
+      "a-e841800590",
+      "a-2af0827b08"
     ],
     "grand-deal": [
       "a-4aa7f8b650",
@@ -1916,6 +1968,18 @@
         "h": "‘We definitely never throw in the towel’: Zille on Joburg fight",
         "d": "2026-11-26",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSW9GMmFxd0x4cnYyV0xITFozV2oyRm93ZWVHUlpTaHFjalZOXzJ1SEpGZnJtTTB3c2xCcnVaazhwRFFqRDdncDlrMTBhenRadHpEc1FBVHNOVEEtemFfQmtrRk9hZ2Q5TDVTdTB1TXlFVVo0bnZJdi14djRmQ0Q1RTc0cVJVaGh6V2VSaV9MZXlicXptUTNqQjNRQ2RpOG4xNDBR?oc=5"
+      },
+      {
+        "src": "Johannesburg Sunday World",
+        "h": "MKP coalition standoff puts Joburg deal at risk",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPV0Voak9FUno3ZXRlY3VISTVOOG5BTGlEUzQ2U3kzalFlNkVJNk1mTnNkUXJSbUZSby1PaUMzM2E5R3JDUjNzVzNsZEhMTlltd3NzQUlrUzRBX2I5Q2lSMGtsQmZjWlBEN05pd2lQbEJWRjR3bng2M1gzVHUtUndqM2NCT2hRSmx5M2NtN0VtUEhEcHc?oc=5"
+      },
+      {
+        "src": "themercury.co.za",
+        "h": "Johannesburg mayoral election postponed to Friday as coalition talks continue",
+        "d": "2026-11-24",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mMnRNN0x4TjRXVm9YZnNlREFXcV9vTm9LbmtWVmdlWDh6QUE3WVY1YWJNRl9xV2RyTEdaOWNmcElRWU96UDhFanF6WHhXWEtObEp2eVF5NmxOYU1vRVFnaWVFTUo0QVk?oc=5"
       }
     ],
     "councils": [
@@ -2208,6 +2272,42 @@
         "h": "ANC secures speaker of Tshwane, signalling a governing bloc",
         "d": "2026-11-26",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTmdndk5pbTZNVy1XVlpmS2dkMlRVaTdBd2J4eUVTTGJPck5zZy1DTzdSYnpVMVp0dkJycS1MbHhGS3JtZnVENkdpanVHSm85LUhnOHdET2hpUmVFSHFQc3hoQVBfVmdkZGZqM3U5TkpYdnNyUVhScXRVS0liQ3lVTWxWMUNmTmJhTW5acEdaYVdlZ1pCbE9SZGFSVWlnTmxaM3g2SmpOVnF6YU0?oc=5"
+      },
+      {
+        "src": "Cape Times",
+        "h": "WATCH: EFF’s Omphile Maotwe poised to become Tshwane deputy mayor as Mashaba backs Moya for another five years",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSmRIOW1TUXFuX1laa3l5LVgtcl81dEhzUnpLQ0c1LWdMS0thZFVEZ1JjVDkwdlM3RHgxNE9jR0c5RTIybEZVRzhta2RtakUySW5tNUo2MVZVbWtNWWh0TTFoYmt6c3FoeHpaN0tIbnk4TGxTUFprc0Y1NkJabGNGaDJRNHViLXBkdDU0RzdPRkZ3YnhJbkpTaWx1T3JKNnpqdGN6ZmtRWDA5WlVUaTJpdUNLWHNiUk9jTndVNEpKMmRSNld3YklxZ0NvenVFc21DM2RJNUZwVDZVLUJrdHZpZkFsX2w5c1E?oc=5"
+      },
+      {
+        "src": "Pretoria News",
+        "h": "Tshwane to be led by two women as Moya and Maotwe take top posts",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAtbjVyYUtXc2ZVRE9Xcm9VVkxYTmxQUkFnbjQ1TG13bnZyVWJkeE9KS3RYQTZDRTBNOEVjSjdmY3N6MzFyNXMxcUl4ejl3amEwc3plZURHQzB2b2txaUl3ZWd0cS1DS2RsdDJaU2oyc2k?oc=5"
+      },
+      {
+        "src": "Townpress Newspaper",
+        "h": "Nasiphi Moya wins Tshwane mayoral vote against Brink",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaTR3blhoMFMtYUt3cXpxMXhLR3ZCbnVhMHVHYmxxMi1DMEZUdFREYXNsMThDczFHaVVPTFljeFRLdnpvc1h5TndxS0Y0WnpLYUlVXzk5UXhacHF6Z2NhS1JfTFJWdzJ2dmVFOTZYRS1vajNITlJ3UXplMjBfNnQ4MmNpcw?oc=5"
+      },
+      {
+        "src": "South African Daily",
+        "h": "Nasiphi Moya re-elected Tshwane mayor, vows to improve service delivery",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNY1kyWHpjVXNIY2h0TDVOczVCSUkzcnpZWUY0RkVYZUlsY2VWb3U4eUhGT2dZck5iM014U2xET0VIY2dLQmlRQTNhX0FtQkJVN1RjbjlvV1g2anN1NDJKc1BKV2M1Tk1idGZQbTE4Mk8tMUJrTWpkRWhja2ViVVA3YjYyUjFLTGdhaG5NSWZDZk44di12amZoUmszS0dUcVlvTW10aFcyRlNrNUZsTG9FeA?oc=5"
+      },
+      {
+        "src": "Cape Times",
+        "h": "Confirmed: Nasiphi Moya re-elected as Tshwane Mayor",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN1VqaEZFMERSTTBBZUtLOWY4aVVnaU1OVjAtd2NIeVBIVWxnQi1JamZyRDlZZnpVVmFlZVJXLXlZTjM3bm5JT09CcFdTV0ZYckVoSy1yZGZZZmViNmlOT3hWQnlCWmNlb0pZN0JsVjVycEptdzZvN1FqSzdPQkZ1dVE1RmFDNUJkN0RVUjduUmtjSnVUc2w4dUhR?oc=5"
+      },
+      {
+        "src": "Daily Maverick",
+        "h": "ActionSA takes Tshwane mayor as coalitions with ANC set to sweep GP metros",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMlRVYzZqNW5ua2pWcl9JTjVnZ041R1A2Ukp2Um9YdEtmQzdtOXExam9ZVi1sZGdRWGR2S2tNRzlQTGZsTmNXNnVPLWlfS3lqek1SSm5pQUE5NmpsamVNbmJOajNtUkI5cGtoMW55eVhiRVRtNU42MWprUGVYaWNDUGNXZ1lfWVdHQ1FrUkRBdDhnd2YxRzd0ZVNfLXlMbDMwVHBvNTNmbG9Gc0w0bmU1aGlEc2dwakI5bm85WThBWTc5UEEw?oc=5"
       }
     ],
     "actionsa": [
@@ -2394,6 +2494,12 @@
         "h": "Why the IFP still holds ground in KZN despite MK Party rise",
         "d": "2026-11-25",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTGVIZEN0a2hDMF9fYjJ1V2plR2VQRzZwYmhEanpEa2RQYXZoVzBBQXRpRlEzYmk5UmVuMlkwSWN1b0Q5eXlyZFpVbi01T2VlSTQ2TkJCZHpLUGcxZ09ycXVoUUItb0p2YlFPbHJYdUc3UW1xMURheVY1RVVpb0hYSjVxWFdENVpHMHFBVW5nWDl6RkFURTU2MHZZTGZwQUp4Y2Vlc1NzYw?oc=5"
+      },
+      {
+        "src": "Mail & Guardian",
+        "h": "The ANC limps from diminished appeal",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0yR25GRXdOZXJYR1RCYkJMaFR4UTZTb2dTX2JDREhlRTJYMzN3UnNVMWJqR2p6cFdXVHRjNFVBYWlmMFlMeUw3ZFZ3OW9CdXpraTU2ZWx6alpTcEJrekNTcVp1bE0yR2tlTU0wOUUzOGJGcHA3QVI1TmZuNTdrZDg?oc=5"
       }
     ],
     "gnu": [
@@ -2602,13 +2708,13 @@
       "cat": "eThekwini",
       "place": "eThekwini",
       "h": "eThekwini council will reconvene on Friday to elect a mayor and speaker",
-      "dek": "eThekwini’s inaugural council meeting adjourned on 24 November without electing a mayor, deputy mayor or speaker, and IOL and DailyNews report the council will reconvene on Friday to do so. IOL reports party sources linking the adjournment to coalition posts, and IOL and Briefly News report the ANC and MK have reached an eThekwini agreement.",
+      "dek": "eThekwini’s inaugural council meeting adjourned on 24 November without electing a mayor, deputy mayor or speaker, and IOL and DailyNews report the council will reconvene on Friday to do so as parties finalise coalition positions. IOL and Briefly News report the ANC and MK have reached an eThekwini agreement, while the Mail & Guardian reports allegations of dirty deals and sudden resignations are clouding the mayoral race.",
       "brief": [
-        "Several outlets report the council adjourned without filling a leadership position to allow coalition talks to conclude; IOL and DailyNews report it reconvenes on Friday to elect a mayor and speaker, and IOL reports party sources say the adjournment was linked to coalition posts.",
+        "Several outlets report the council adjourned without filling a leadership position to allow coalition talks to conclude; IOL and DailyNews report it reconvenes on Friday to elect a mayor and speaker, IOL reports parties are finalising coalition positions, and the Cape Argus reports parties are divided over the postponement.",
+        "The Mail & Guardian reports allegations of dirty deals and sudden resignations are clouding the eThekwini mayoral race.",
         "Central News South Africa reports the EFF welcomed the adjournment, DailyNews reports ActionSA rejected DA pressure over the eThekwini coalition, and The South African reports the IFP and EFF mayoral hopefuls will not take up their council seats.",
         "eNCA reports the sitting went ahead despite a KwaZulu-Natal Cogta directive to delay it, which IOL, DailyNews and the Sunday Tribune report the city manager challenged.",
-        "IOL reports the ANC and MK sealed an eThekwini deal and that the ANC seeks two of the city’s top four positions; Briefly News reports an agreement was reportedly reached, and EWN reports the parties were coy at the sitting.",
-        "The MK Party says its mayoral candidate has an “unblemished record”, IOL and The Mercury report, and IOL reports mayoral candidates are pitching coalition stability."
+        "IOL reports the ANC and MK sealed an eThekwini deal and that the ANC seeks two of the city’s top four positions; Briefly News reports an agreement was reportedly reached, and the MK Party says its mayoral candidate has an “unblemished record”, IOL and The Mercury report."
       ],
       "auto": true,
       "id": "ethekwini",
@@ -3043,6 +3149,24 @@
           "h": "MK Party tipped for eThekwini mayor as coalition talks near conclusion",
           "d": "2026-11-24",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcWduMGNuQ0FhUXJsUGd3RjNqeUhoOXh3ZWl1anVIVG9GQ2JoUmROczM1RDJ1UFlMbG9YTUVGQk9Yc1RmTFBwaGJwT3c1SWVMcmJKV1NZZ1ZqYk5uZjlNazZFSE8tczFOcElfOWpwX3VtcVdVQXhMQ3haUS1ZUmhMMTZaV3hGV3AzNGI0bEhQNU0zQXZzU2ZpOWx3SEVfREdLckhGZW9rWl9ZNW1zTk5OcURBMHVKcTVMeGlpbnNEbDFTNDg?oc=5"
+        },
+        {
+          "src": "Mail & Guardian",
+          "h": "Allegations of dirty deals and sudden resignations cloud eThekwini mayoral race",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5leEVWQTRtMlVzZ2VaazRXSFZwNEFiVlVpWUxQUHZFWG02aTFzbW13dmluRzFjZ09SVWx6WXQxMGxxa1pMVV9tMkpQNFp5cngxQ0gtWkJfdzA2cTNmSFNCRC1XT01uX3RqaFdqSW5zdG5Jc2p0ZmdB?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "eThekwini council to reconvene as parties finalise coalition positions",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdXVoaTNSNXNHNDZFRTVOUmFhZzBSRzk0YnNhS3gzNXowcnJpZ3UxUjdqaDFxUnMtMWx4akV5TVcxNzJ6QUF1eXNHMDI1V2trMFc0SEpGQUtkZjNxTjBwclo1OEdfTktoTDUzZlZPd3dXVG1CMWU5bTNSTUhSY202QmtrejdRT3FJUVh6cXVXdlVJVXFfbWlnaFI2V2duZHVxNmxMUGdxRTB1VVByLXRSRzVPdXk4S0x3bnBiVw?oc=5"
+        },
+        {
+          "src": "Cape Argus",
+          "h": "WATCH: Parties divided over postponement of eThekwini mayoral vote",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYUdtSE02SUNfWV9iNjQxTFRzcm9qVDNfYi1TYzItSlF6akk4QnI5RHpCaUcwZ0YwTnpBWHk2RXBoWXdoWUM2dDZ0cGNhTzd5bE5rbHNUNGlTZWJjX0hGbkN1bW1iSXVIMDB5NGl4amJyRXJleV9pZTdibTFJWFV5TE1tZWJ3RTRWSkVzaTJKNElQVmEtWnE4ZGpmVGtBLU1ySGp2MDhpcWtydTBxQVpsV3l2Nlh5MGc?oc=5"
         }
       ],
       "sec": [
@@ -3447,6 +3571,12 @@
           "h": "Malema takes Zille to court!",
           "d": "2026-11-24",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1WYW9YdzdmQ2t6bzY3OHBWbHJYU2k5RXBELU5pWVZ4RE1HemFSYVc5Q2I1bGp0VElMY203N0pTbmQzV2V2cmtHN21yWXdwdXJVRW1jY0VqMkxMTHp2YnpodV81bW9WVXFoQW9vbk84c1NXZw?oc=5"
+        },
+        {
+          "src": "Inside Politic",
+          "h": "Court reserves judgment in Malema’s bid to gag Zille",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaW1WeHNSTXFyLVJ4VWlTejduRDdFelFsOENDVFlQNGFNT3VzbWItMlpsNjVIN1JBSnVpSl9ISVZ4dThiN2pNOGRzeHppc1hwamhZQlZLRy1rcGRjRE5nRVBxQnhEUWtBOFpMV0prRUp2SkdhZ2lmVF9HU0FwWWlWazhTV2hVcjQ?oc=5"
         }
       ],
       "sec": [
@@ -3665,6 +3795,12 @@
           "h": "LIVESTREAM | Tshwane councillors elect new mayor",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYUdxZ0pLR3JZX25WVnhOc04tRUpvTFFWUlpLVTFXQWlVU3Ywb0NVRlVrQmNuTlQ5cUp1OUpTUlRCMm9PUHFGdW1aeWV0WjVlX2pkaGJEMWVyMlZmblc5NUpKbjF1ZWlyWkRuNUNzTURNbHNSRExTdlJWNWpETXdhcjNia2xCNnYwOEg4NQ?oc=5"
+        },
+        {
+          "src": "Cape Times",
+          "h": "WATCH | Ekurhuleni elects new leadership",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NLXVVaU1IZ240TWppQTZ6YklYQ0JuQ0FXM19YZzdwNkVlbWJjQnd3aDlpXzBRZU1YSHpMVVhvS3MteEVfMk85RWxnOUVUakZTNWV6RFp6QWh5a1N5bExURmxXS3p5LUlmRFl5Yk5nUmYzTUFIZ1N0ejlheXNqVTQ?oc=5"
         }
       ],
       "sec": [
@@ -5127,6 +5263,25 @@
     "1120456f1cbd",
     "014a16f1f273",
     "18254748a6e3",
-    "ea667dad5a5f"
+    "ea667dad5a5f",
+    "980e38a78f39",
+    "726817dbbecb",
+    "37e706ea9548",
+    "7fa4c4b19083",
+    "3517aba7bbc2",
+    "503829174c61",
+    "dc3c64834546",
+    "6daf6c85d65d",
+    "c3e454b711b9",
+    "f6bbff842000",
+    "eae6a72c89f7",
+    "e841800590ae",
+    "2af0827b0843",
+    "3f605a2a37db",
+    "c129b31e9ef7",
+    "076cca883e34",
+    "c92f754cf863",
+    "3945f5ecefe8",
+    "80244588720b"
   ]
 }
