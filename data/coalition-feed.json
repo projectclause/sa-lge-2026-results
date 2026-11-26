@@ -5957,7 +5957,8 @@
     {
       "k": "DM",
       "n": "Daily Maverick",
-      "badge": "DM"
+      "badge": "DM",
+      "logo": "dailymaverick"
     },
     {
       "k": "ENCA",
@@ -6060,6 +6061,36 @@
       "n": "Netwerk24",
       "badge": "Netwerk24",
       "logo": "netwerk24"
+    },
+    {
+      "k": "Daily Maverick",
+      "n": "Daily Maverick",
+      "badge": "Daily Maverick",
+      "logo": "dailymaverick"
+    },
+    {
+      "k": "CT",
+      "n": "CapeTalk",
+      "badge": "CapeTalk",
+      "logo": "capetalk"
+    },
+    {
+      "k": "CAPETIMES",
+      "n": "Cape Times",
+      "badge": "Cape Times",
+      "logo": "capetimes"
+    },
+    {
+      "k": "CNBCA",
+      "n": "CNBC Africa",
+      "badge": "CNBC Africa",
+      "logo": "cnbcafrica"
+    },
+    {
+      "k": "DISPATCH",
+      "n": "Daily Dispatch",
+      "badge": "Daily Dispatch",
+      "logo": "dailydispatch"
     }
   ],
   "intl": {
