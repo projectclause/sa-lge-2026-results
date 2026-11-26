@@ -177,6 +177,10 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
   const subscribed = () => { try { return !!((window.PRE && PRE.me().email) || localStorage.getItem("pre-signed") === "1"); } catch (e) { return false; } };
   function lockYouTube() {
     const beat = root.querySelector('.pl-beat[data-beat="yt"]'); if (!beat) return;
+    // a pill on each YouTube TV card: views on videos posted in the past 7 days
+    const V7 = (D.youtube_tv || {}).views7 || {};
+    beat.querySelectorAll(".pl-voice").forEach((c) => { const v = V7[c.dataset.k], t = c.querySelector(":scope > span");
+      if (v && t && !t.querySelector(".pl-ytviews")) t.insertAdjacentHTML("beforeend", `<i class="pl-ytviews">Views, last 7 days: <b>${esc(v)}</b></i>`); });
     const wrap = beat.querySelector(".pl-vgrid"); if (!wrap) return;
     wrap.querySelectorAll(".pl-ytlock").forEach((x) => x.remove());
     const cards = [...wrap.querySelectorAll(".pl-voice")];
