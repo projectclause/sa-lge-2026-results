@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-26",
-    "time": "19:16"
+    "time": "20:03"
   },
   "items": [
     {
@@ -1252,6 +1252,18 @@
       "src": "YouTube",
       "url": "https://www.youtube.com/watch?v=7sM11SBMBUc",
       "auto": true
+    },
+    {
+      "id": "a-0a53ebea91",
+      "j": "phakathi",
+      "d": "2026-11-25",
+      "kind": "Interview",
+      "place": "eThekwini",
+      "h": "MK Party's eThekwini mayoral candidate: 'We are going to take over eThekwini'",
+      "s": "IOL reports the MK Party’s eThekwini mayoral candidate saying the party is going to take over eThekwini.",
+      "src": "IOL",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbTV2S2NJZjFWZ0FjNThxbkhSV1JsRURzb3JGNFR6RGZBLTZCRWlWclR0VDNHdjE4U21rZHhQa2YxQjRvU3I2MDBvNlNnTEdhQWMwQlZVNm5XWGVLYzFGVncwZm1odzVNeUhvLXdZXzVUR3RkbVdSN2wweUVjNEVleE94Q21GVFljbVJYeDNYXzVPYVBOd0tHT0tVMVlPVHFudkdRb1VZc29xNFRQYlAtZg?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -2073,6 +2085,12 @@
         "h": "Tshwane leadership vote hangs on coalition talks",
         "d": "2026-11-25",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUjF6VkNZdFFWX3hJaXNoMHJtUERZNU41WHlNR3VwcDY0VHg5SUh5XzVrWjVBaVBCNVY4NVZTc2gwVXZLTV9saldPNnRHWWtJRXBoalh4eXNmNUtId2FNTks2N2xrZWl2aUlBTnBTVC1uTE1jc1QtT1dkMENwRWVjYlhCZGVlZ09EVW1PMGFpeFR0NlBDdm4wSTY3cFg5c01la0JqZ3VB?oc=5"
+      },
+      {
+        "src": "EWN",
+        "h": "Nasiphi Moya re-elected Tshwane mayor",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE05ME1lNXFmMXlnYVE5UGhtUWF0T3l0LUhNS0txWHVvQTIxbjFzZWJjTzRvdUpKVjV0bFUtNGloclc5a0VYbm9mSWhITm1tXzFXLWFKS0R0OE1wbkx6eGhkUGh4cFdoaURNYXJiSzl3WVZxemd1TjF0NA?oc=5"
       }
     ],
     "actionsa": [
@@ -2478,7 +2496,8 @@
       "auto": true,
       "id": "ethekwini",
       "items": [
-        "a-fec66e76f8"
+        "a-fec66e76f8",
+        "a-0a53ebea91"
       ],
       "coverage": [
         {
@@ -3956,6 +3975,12 @@
           "h": "ANC NEC faces decisive coalition meeting",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQc2ZnN2ZENjdrcm9PMnNoUDhLdDFUY2QxakpPT01OZVZSZ0l3d1dCdzVJTkpvNWZla21mSzJ1a001c0U5NzJFRGUwYmJzSmV6WXZrUzhQcDZMQS1mR1JLR3dzVnAxX285X3hvVk9qZ2FrZzZUVHctaXpzVnM4c0tCdVJCRjdCNlRXMTNodA?oc=5"
+        },
+        {
+          "src": "The Common Sense",
+          "h": "ANC and DA Together in the Northern Cape, Enemies in Jo'burg: Who Governs Where?",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUEdrRVhmNTg2bVNldE16ODRKZ0xaSVpGZXV4SEozNlVsVXhrNFh0ZDJ6T0czbzVkbEdpaWQ4U0tlRk95ckYyZk5YZC1oVUVlWXFVMW5CVWRwMzVMVkZhRk9uQ0duVC1GTjk2Wk1jRnpGeG14T25hNDhZZ1hSbWZwOVhDWWQwUlRuVlN0ZnZjZVR3ek9tTkoxNnJXYUNkUmVBcTRfUTZqanZWS3h3ZWlTQTJJYWI5bEE?oc=5"
         }
       ],
       "sec": [
@@ -4930,6 +4955,14 @@
     "c4e77e236895",
     "01c311f6be50",
     "11b4fc0248eb",
-    "ee2f0f8e04ad"
+    "ee2f0f8e04ad",
+    "f030f98a8670",
+    "810a4f246702",
+    "f190521177c4",
+    "f7e05c897aa2",
+    "4cc3cfe00dd2",
+    "665c7b21a380",
+    "0a53ebea9161",
+    "8e9eba22c615"
   ]
 }

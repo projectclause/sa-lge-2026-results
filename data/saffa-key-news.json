@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T19:46:15+02:00",
+  "updated": "2026-11-26T20:05:15+02:00",
   "people": {
     "elon-musk": [
       {
@@ -23,12 +23,6 @@
     ],
     "trevor-noah": [
       {
-        "h": "Trevor Noah thinks America is obsessed with the wrong problems",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZzFwYVhteE80VmdIX1NPV0o5OTZxMG1yeGE4bTNGWDZhY0VJdkdUbVoxU1c0VGdzS3pHSkV4RFFuclBycjVhOWJWQVJqNmtxUC13dmJkd0R3OU9fQjAzZFJPQ1hBRUFheVlzVXFlUGlNTDI2TXZBeFBuMm94V3BqcVc3S3RjM2gtbFI3UUlCZWFVUEZGLWRfMTFwanBzaUd6Rkd1aVFVRVc3ZUJFUDZ5NHdfVDRPamxueG9VaWRMZw?oc=5",
-        "src": "MSN",
-        "t": "2026-11-25T07:32:13+02:00"
-      },
-      {
         "h": "Trevor Noah Talks Childhood on Michelle Obama's 'IMO' Podcast",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNblRIVUlWNUFxbUR0Y0MxS1AycmthS3lLZGhvUFE1ZUh4WVBfanoyZEt4V3lwWHNpX2hjcHpIRFRFOTkxdXFoZ1lFOWNyajJNTjRZcHd2SXBXYWlUQmxpOG9wZWk4SnplUEpmRzBqZHVRMFNXZXdEQmJNSmxtcTFieG9XSGFVam9QTTUxaEN1dHRXMUhxTHVfWFY4MEE5VmR0Zk5vc25RUGxJNGR4UVdCQTB0VVZVakVR?oc=5",
         "src": "Yahoo",
@@ -39,6 +33,12 @@
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUkZ0WjNQeVNJb0FoUVlfNHM5d1lZNXJJR2o2YTVBSGc3clk1SzZUN2RFNV9RQnlpQkRoZm8tb00tenZzNEl5UE5TaThsMDFUd0dxQUZrOHlFTTNKeVE2UHdpY3FnRkFMcE1ocml0aWUxVjZiZjlKMXpobFE5d29BLS10bDJweU1icFBGaQ?oc=5",
         "src": "Algoa FM",
         "t": "2026-11-17T15:00:00+02:00"
+      },
+      {
+        "h": "Trevor Noah scores 5th Grammy nomination for Netflix comedy special",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUVd5b0RYcmFGRTNmVzQtSzB6S0g3ejZGaGJSdVNZbGlfNWJBclpwSjBCY0dtZG9ON2piYnh2VGRrcDFiZ192WWt5dm9xcl9PTnplZzI2aEV4bzVCV2lsVDVzZnlPeDZzVGFvYzRGWERtUGp2clVaQlNJSnRGVy11NmlvTXpqWDNlNmhJemw1dWRRSUtoZU9NTDF6QnVfYjJuckwtV1FlM3dyRldrVnBCb1JSYU9tNU9JaTJXQU4zYks?oc=5",
+        "src": "Briefly News",
+        "t": "2026-11-17T14:50:10+02:00"
       }
     ],
     "peter-thiel": [
@@ -83,9 +83,9 @@
     ]
   },
   "week": {
-    "elon-musk": 94,
-    "trevor-noah": 2,
-    "peter-thiel": 33,
+    "elon-musk": 93,
+    "trevor-noah": 1,
+    "peter-thiel": 37,
     "thuso-mbedu": 3
   }
 }

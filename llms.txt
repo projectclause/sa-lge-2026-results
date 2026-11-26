@@ -1,6 +1,6 @@
 # PREAMBLE
 
-> South Africa’s global and local data. Live results of the 4 November 2026 local government elections, a ward-by-ward map, the mayors of the eight metros, and a Coalitions Tracker that groups reporting on the coalition talks into stories with summaries and links to every original article. Updated 26 November 2026, 19:16 SAST.
+> South Africa’s global and local data. Live results of the 4 November 2026 local government elections, a ward-by-ward map, the mayors of the eight metros, and a Coalitions Tracker that groups reporting on the coalition talks into stories with summaries and links to every original article. Updated 26 November 2026, 20:03 SAST.
 
 Data: Independent Electoral Commission (IEC). Summaries are written by Preamble with AI from published reporting; the journalists and politicians quoted do not write for Preamble.
 
@@ -81,7 +81,7 @@ Data: Independent Electoral Commission (IEC). Summaries are written by Preamble 
 - [Loyiso Masuku](https://preamble.co.za/people/loyiso-masuku.html): ANC Johannesburg regional chair; key player, 1 coalition piece
 - [Mahlengi Bhengu](https://preamble.co.za/people/mahlengi-bhengu.html): ANC national spokesperson; key player, 5 coalition pieces
 - [Michael Beaumont](https://preamble.co.za/people/michael-beaumont.html): ActionSA national chairperson; key player, 16 coalition pieces
-- [Mxolisi Phakathi](https://preamble.co.za/people/mxolisi-phakathi.html): MK mayoral candidate, eThekwini; key player, 2 coalition pieces
+- [Mxolisi Phakathi](https://preamble.co.za/people/mxolisi-phakathi.html): MK mayoral candidate, eThekwini; key player, 3 coalition pieces
 - [Nasiphi Moya](https://preamble.co.za/people/nasiphi-moya.html): ActionSA, mayor of Tshwane; key player, 1 coalition piece
 - [Nomvula Mokonyane](https://preamble.co.za/people/nomvula-mokonyane.html): ANC deputy secretary-general; key player, 2 coalition pieces
 - [Sixolise Gcilishe](https://preamble.co.za/people/sixolise-gcilishe.html): EFF elections spokesperson; key player, 1 coalition piece
