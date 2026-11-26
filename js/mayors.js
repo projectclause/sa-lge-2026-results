@@ -13,6 +13,7 @@
   // mayors elected by the new councils after the 2026 election (as confirmed so far)
   const NEW = {
     CPT: { n: "Geordin Hill-Lewis", p: "DA", same: true, how: "Re-elected. The DA won Cape Town outright." },
+    TSH: { n: "Nasiphi Moya", p: "ASA", same: true, how: "Re-elected by the new council on Thursday, 26 November 2026, under a coalition deal between ActionSA, the ANC, the EFF and MK. The ANC’s Naeem Patel was elected Speaker with 119 votes." },
     EKU: { n: "Mziyanda Mketsu", p: "ANC", img: "assets/mayors/ekurhuleni/mziyanda-mketsu.png", expected: true, label: "Incoming mayor · council votes Friday",
       how: "Reports on 25 November say the ANC will field councillor Mziyanda Mketsu as mayor under a deal with ActionSA, the EFF, MK and the SACP. The council put off its mayoral vote to Friday, 27 November." },
   };
