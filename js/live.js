@@ -7,7 +7,7 @@
   const el = document.querySelector(".live"); if (!el) return;
   const tEl = el.querySelector(".live-time"), nEl = el.querySelector(".live-n");
   const FILES = ["data/wards-final-2026.json", "data/municipalities.geojson", "data/metro-pr-2026.json"];
-  const FEEDS = document.querySelector(".pl") ? ["data/coalition-feed.json", "data/coalition-auto.json"] : [];
+  const FEEDS = document.querySelector(".pl") ? ["data/coalition-feed.json", "data/coalition-auto.json", "data/youtube-tv.json"] : [];
   const stamp = () => {
     const d = new Date();
     const t = d.toLocaleTimeString("en-ZA", { hour: "2-digit", minute: "2-digit", timeZone: "Africa/Johannesburg", hour12: false });

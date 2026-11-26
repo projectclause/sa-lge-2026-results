@@ -42,6 +42,8 @@
     return d;
   }
   const get = (f) => fetch(f, { cache: "no-cache" }).then((r) => { if (!r.ok) throw new Error(f + " " + r.status); return r.json(); });
-  const load = () => Promise.all([get("data/coalition-feed.json"), get("data/coalition-auto.json").catch(() => null)]).then(([d, a]) => merge(d, a));
+  // data/youtube-tv.json (written hourly by tools/youtube-tv.rb) refreshes the YouTube TV ranking and view counts
+  const yt = (d, y) => { if (y && y.order && d.youtube_tv) d.youtube_tv = Object.assign({}, d.youtube_tv, { order: y.order, views7: y.views7, updated: y.updated, checked: y.checked }); return d; };
+  const load = () => Promise.all([get("data/coalition-feed.json"), get("data/coalition-auto.json").catch(() => null), get("data/youtube-tv.json").catch(() => null)]).then(([d, a, y]) => yt(merge(d, a), y));
   window.PreambleFeed = { load, merge };
 })();
