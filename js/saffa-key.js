@@ -1,0 +1,30 @@
+// SAFFA: Key South Africans abroad. People from data/saffa-key.json, each with their latest three articles from
+// data/saffa-key-news.json (written hourly by tools/saffa-news.rb from Google News RSS).
+(function () {
+  const grid = document.querySelector(".sf-kp-grid");
+  if (!grid) return;
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const ago = (t) => {
+    const m = Math.round((Date.now() - new Date(t)) / 60000);
+    if (!(m >= 0)) return "";
+    if (m < 60) return m <= 1 ? "just now" : m + " min ago";
+    const h = Math.round(m / 60); if (h < 24) return h + (h === 1 ? " hour ago" : " hours ago");
+    const d = Math.round(h / 24); if (d < 7) return d === 1 ? "yesterday" : d + " days ago";
+    return new Date(t).toLocaleDateString("en-ZA", { day: "numeric", month: "short" });
+  };
+  const initials = (n) => n.split(/\s+/).map((w) => w[0]).slice(0, 2).join("");
+  Promise.all([fetch("data/saffa-key.json").then((r) => r.json()), fetch("data/saffa-key-news.json").then((r) => r.json()).catch(() => ({ people: {} }))])
+    .then(([P, N]) => {
+      grid.innerHTML = P.map((p) => {
+        const arts = (N.people && N.people[p.id]) || [];
+        const face = p.img ? `<img src="${esc(p.img)}" alt="" width="72" height="72" loading="lazy">` : `<span class="sf-kp-ini" aria-hidden="true">${esc(initials(p.n))}</span>`;
+        return `<article class="sf-kp">
+          <header class="sf-kp-top">${face}<div><h3>${esc(p.n)}</h3><p class="sf-kp-role">${esc(p.role)}</p><p class="sf-kp-from">Born in ${esc(p.born)} · lives in ${esc(p.lives)}</p></div></header>
+          <p class="sf-kp-lbl">Latest</p>
+          ${arts.length ? `<ol class="sf-kp-list">${arts.map((a) => `<li><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.h)}</a><span>${esc(a.src)}${a.t ? " · " + esc(ago(a.t)) : ""}</span></li>`).join("")}</ol>` : `<p class="sf-kp-none">No recent articles.</p>`}
+          ${p.credit ? `<p class="sf-kp-credit">Photo: ${esc(p.credit)}</p>` : ""}
+        </article>`;
+      }).join("");
+    })
+    .catch(() => { grid.closest(".sf-key-people").hidden = true; });
+})();

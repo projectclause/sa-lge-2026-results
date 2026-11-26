@@ -1,6 +1,7 @@
 # Keeps the Coalitions Tracker current every hour, with no one touching it.
 #   1. tools/auto-update.rb finds new coalition coverage and writes data/coalition-auto.json
 #      (new pieces by the voices and key players, new reports, new stories). It never edits data/coalition-feed.json.
+#      tools/saffa-news.rb refreshes the latest articles about SAFFA's Key South Africans (data/saffa-key-news.json).
 #   2. tools/build-seo.rb rebuilds the static story pages, profiles, sitemap and llms.txt from both files.
 #   3. If anything changed, the files are committed to main; Netlify publishes the push within a minute or two.
 #   4. Search engines that use IndexNow (Bing, which also feeds ChatGPT search and Copilot) are told which pages changed.
@@ -46,13 +47,17 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: ruby tools/auto-update.rb
 
+      - name: Latest news about SAFFA's Key South Africans
+        continue-on-error: true
+        run: ruby tools/saffa-news.rb
+
       - name: Rebuild story pages, profiles and sitemap
         run: ruby tools/build-seo.rb
 
       - name: Publish if anything changed
         id: commit
         run: |
-          git add -A data/coalition-auto.json coalitions coalitions.html people sitemap.xml llms.txt index.html mayors.html
+          git add -A data/coalition-auto.json data/saffa-key-news.json coalitions coalitions.html people sitemap.xml llms.txt index.html mayors.html
           if git diff --cached --quiet; then echo "Nothing new this hour."; echo "pushed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
           git diff --cached --name-only -- 'coalitions/*.html' 'people/*.html' | sed 's#^#https://preamble.co.za/#' > /tmp/changed-urls.txt
           git config user.name "preamble-tracker[bot]"
@@ -61,7 +66,7 @@ jobs:
           # someone may have pushed a hand edit while this ran: put this update on top of it
           for n in 1 2 3; do
             if git push origin HEAD:main; then echo "pushed=true" >> "$GITHUB_OUTPUT"; exit 0; fi
-            git pull --rebase origin main || { git rebase --abort; git reset --hard origin/main; ruby tools/auto-update.rb; ruby tools/build-seo.rb; git add -A data/coalition-auto.json coalitions coalitions.html people sitemap.xml llms.txt index.html mayors.html; git commit -m "Coalitions Tracker: hourly update (rebuilt)" || exit 0; }
+            git pull --rebase origin main || { git rebase --abort; git reset --hard origin/main; ruby tools/auto-update.rb; ruby tools/build-seo.rb; git add -A data/coalition-auto.json data/saffa-key-news.json coalitions coalitions.html people sitemap.xml llms.txt index.html mayors.html; git commit -m "Coalitions Tracker: hourly update (rebuilt)" || exit 0; }
             sleep 5
           done
           exit 1
