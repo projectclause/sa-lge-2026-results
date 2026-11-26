@@ -2,25 +2,11 @@
 [build]
   publish = "."
 
-# photos, logos and fonts rarely change: let browsers keep them for a week
+# Every page, script, style, data file and image is checked for a newer version on each visit, so a
+# refresh after a deploy always shows the latest. Unchanged files come back as a tiny "not modified"
+# reply (Netlify sends an ETag), so this stays fast.
 [[headers]]
-  for = "/assets/*"
-  [headers.values]
-    Cache-Control = "public, max-age=604800"
-
-# code and styles: check for a newer version on every visit, so pushed edits show up straight away
-# (unchanged files come back as a tiny "not modified" reply, so this stays fast)
-[[headers]]
-  for = "/js/*"
-  [headers.values]
-    Cache-Control = "public, max-age=0, must-revalidate"
-[[headers]]
-  for = "/css/*"
+  for = "/*"
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
 
-# results and tracker data update live: always check for a newer version
-[[headers]]
-  for = "/data/*"
-  [headers.values]
-    Cache-Control = "public, max-age=0, must-revalidate"
