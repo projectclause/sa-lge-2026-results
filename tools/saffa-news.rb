@@ -34,7 +34,7 @@ def tag(b, n)
 end
 
 # reference pages, old clips and listings that Google News files as news
-JUNK = /net worth|MRC Video|mp3|download|lyrics|wikipedia|\A(19|20)\d\d |tickets|events to look forward|horoscope|quiz/i
+JUNK = /net worth|obituar|MRC Video|\| IMDb|mp3|download|lyrics|wikipedia|\A(19|20)\d\d |tickets|events to look forward|horoscope|quiz/i
 
 out = { "updated" => Time.now.getlocal("+02:00").iso8601, "people" => {}, "week" => {} }
 def articles(q, days)
