@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-26",
-    "time": "14:07"
+    "time": "15:28"
   },
   "items": [
     {
@@ -1916,6 +1916,18 @@
         "h": "DA loses bid to postpone Tshwane mayoral election as ANC, EFF, MK Party and ActionSA prevail",
         "d": "2026-11-26",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSUJiNG5NaEpVWDFYQmNsa3g5WERNYnZId2FHNkIwY3pzc1BLRVkxbTM3YlV6Q2hwNGhtTFdXeXRvVHNtZFRuaWMzSWdfSHZUcWJnMHJqRFBFYmNMOVozdk1JdExzc1hNMWE3ZFpCQWJTeWNZRWpsSl8waXRheTJ3aHVTX1Ntc3J5eXFTZ0xaVUlTNkI3Sm1haHV0Ti1mRHloN3V1cTZIU2RfSHk0bmpjVmtsMFllQTA1X2lXd2ZrRUw2T0FBeHhJ?oc=5"
+      },
+      {
+        "src": "EWN",
+        "h": "DA bid to postpone Tshwane mayoral election rejected by council majority",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaFlfQkZjQmFETFVmVmpOWDBMY3JfNXg4bHdyUjJlbmxZeHg3cUhBcXJUbXZSbHhYcXViWTY3OTJuSkQxc0FudTdlaGtNWHU0a0Vqdk12alBpLVpTY0FYVEhfMVU5NW1TQXR3b0pMVG9CdWFueFJwczItMnZZMG9fNWdWMGxvR2JDWFU2T1VHVUhGZUlUMERLb0lUQzQzRXhvaFY3RkJuV0k?oc=5"
+      },
+      {
+        "src": "Mail & Guardian",
+        "h": "ActionSA's Nasiphi Moya set to be appointed Tshwane mayor",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMG5qSU1heHR1a2VjczBzalFpOURLcjNtTXRMbVoxckVkbDFaSGV0U3lDMTEzZ3FqLWJVUm0zajBTNnVrUU83THVST2FOdXNvWWVRWWpZMGFhZW51bTZmang4azlWd19peDB5RWsyNDNwalhYbmF1d0tsclViWDJadTFfZDRINnlrYTlVRg?oc=5"
       }
     ],
     "actionsa": [
@@ -2122,6 +2134,12 @@
         "h": "ANC Warns DA Over GNU Threats",
         "d": "2026-11-23",
         "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9IbkxRelRRRUM4RmFURUVtRmxTZ0tzallrSXJweDRDN3R6Y2VWenhTVkpSWF9IV3NGY0dIMGJvc1NSQ0VTYlVRdnQ3SDZYbTZTNUVzQkRMdDh3X1NUY2UtQVlRRnpCeDVzYXpjdkMxb0x0NW1MZV8tSW5VWQ?oc=5"
+      },
+      {
+        "src": "Business Day",
+        "h": "JOHN DAVENPORT | The DA was never in coalition with the ANC — it was in coalition with Cyril Ramaphosa",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZ2FERjhNRGhWak8wREZUTjB3RGs0TzBTTV9zdHIzeWdKOVlQU3BCb3BoMEFoelJXeHJRVTVQX1VkYVNxTVJBVXdSRDIycEo5N2pYaDJ6X3l4ZFNnTXRPZlIzTjg4Vk05VWpGczc3YmhyOFo0NmNLeG9sSmtYd3hzVW1Sb1V0dDctR3lpOHZTb21MUE50NlJwVm5Sbl8zXzZYdktpQXBfSmI3TWdIMzBOd0pkYXY4d3NTdXhwTTVDQnA0Mnl0N1M3NWhvcEZTZlpHeldVM2tyRklTNWxsbzNxQUF3?oc=5"
       }
     ],
     "pr-seats": [
@@ -2260,6 +2278,12 @@
         "h": "137 hung councils: DA turns to ANC and IFP in bold coalition push",
         "d": "2026-11-23",
         "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAyMUp5Rm5HYUNCcnZ0d1paNFAyeHkzaGhMQkV3X2lpTU1YNVRGWk9KWDNadE54T2hmTmhheXN3eUNpQkVoYzVaM1RwcVcydk5lVHVIaXdxcklFc1BLOWQ0dDZJdnhwQQ?oc=5"
+      },
+      {
+        "src": "Sunday Independent",
+        "h": "137 hung councils: DA turns to ANC and IFP in bold coalition push",
+        "d": "2026-11-24",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdDJ4bm9ZdkNrLTJRNjVnZjlsZTdpbk1yaXZZNnN0dFlORFUxdTVSbV81aThIc254MlZNRG5oeXc3WWJRNFQ3alI0cmRKcmdleTlkekFGWmpBUlVNUUcwMTBfSllxYUpBdk16T3ZSbXBDdkk3OFF2SC02VjgxNmVOMG0zTF9ldFZ6dVNTSW1wdW1OQUUtN3VmMl9oTUNlYXQ4a1BmQ2YtcllETU5qbWJxRHJVZU1XQ0ZzY05LYldrcw?oc=5"
       }
     ]
   },
@@ -3308,7 +3332,7 @@
       "h": "The DA secures a five-party coalition in Emfuleni after a sitting collapses",
       "dek": "ANC, EFF and MK councillors disrupted Emfuleni’s mayoral election sitting, and Nova News reports it collapsed. News24 reports the DA has secured a five-party coalition to take control of the municipality, giving up posts to do so.",
       "brief": [
-        "News24 reports chaos as ANC, EFF and MK councillors disrupted the Emfuleni mayoral election sitting, and Nova News reports the sitting collapsed.",
+        "News24 reports chaos as ANC, EFF and MK councillors disrupted the Emfuleni mayoral election sitting, Nova News reports the sitting collapsed, and The South African Star reports police were called in despite a DA warning.",
         "The DA’s Ashor Sarupen condemned what he called EFF violence at the Emfuleni council sitting, in a statement carried by Politicsweb.",
         "News24 reports the DA secured a five-party coalition to take control of Emfuleni.",
         "News24 sets out what the DA gave up to secure its majority: MMC posts, the speaker and the chief whip."
@@ -3355,6 +3379,12 @@
           "h": "DA secures five-party coalition to take control of embattled Emfuleni municipality",
           "d": "2026-11-24",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUVVPdlZTWFE4Ukw3YmtJbHVHa0tXWlpJTVlNMy1wbTdnSE9fVXBTd1A1c01yeFQwUnNGdzZ0TVpsUGUzZkJSTFFfS0doWjIzSE83NlMyRC1ENktBRUVYRjNIczN6UU8yWnByTGdtRkJCRjU3bzFZdWx5b2RnR0E2cFRuNU1aRlZQcEN6ZDVIRk9IZDFUblRJcHVUUTFKSllfdXpraFMySFhiQ1FDZVdCMVJ1ZWw5dHVDLVdZTjRvU2JBUVFvel9z?oc=5"
+        },
+        {
+          "src": "The South African Star",
+          "h": "Police called in as chaos erupts at Emfuleni council sitting despite DA warning",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5qRTdBRmFxMkZ0WGlHdUJ2S2hKWWZYVmFya3pvM21zTVJrN1AtT1dWaFdhelNlaXNiRmFHZXdLVEI4SXdEY01qellCN0VPUk1YT2Y5Y1NDdw?oc=5"
         }
       ],
       "sec": [
@@ -3368,12 +3398,12 @@
       "cat": "Western Cape",
       "place": "Western Cape",
       "h": "The DA is shut out of Theewaterskloof and Laingsburg as Western Cape councils pick partners",
-      "dek": "News24 reports the ANC joined other parties to take control of Theewaterskloof, and IOL and the Cape Times report ActionSA formed a Laingsburg coalition with the PA and ANC, leaving the DA out. SABC News reports Matzikama council will sit on Thursday after a deadlock over an EFF councillor.",
+      "dek": "News24 reports the ANC joined other parties to take control of Theewaterskloof, and IOL and the Cape Times report ActionSA formed a Laingsburg coalition with the PA and ANC, leaving the DA out. IOL reports a three-party agreement puts the DA in line to govern Knysna, and SABC News reports Matzikama council will sit on Thursday after a deadlock over an EFF councillor.",
       "brief": [
         "News24 reports the ANC and other parties took control of Theewaterskloof, shutting out the DA; the Cape Argus, Cape Times and IOL report the DA warning this could derail financial recovery.",
         "IOL and the Cape Times report ActionSA formed a coalition with the PA and ANC in Laingsburg, leaving the DA out, and SABC News reports Matzikama council sits on Thursday after a deadlock over an EFF councillor.",
-        "News24 reports the DA and FF Plus entered coalitions in some hung councils; IOL reported the DA began talks with 16 councils hung.",
-        "IOL reports the DA named deputy mayor and speaker candidates for seven Western Cape municipalities, and Limberg as Cape Town deputy mayor.",
+        "IOL reports a three-party coalition agreement puts the DA in line to govern Knysna.",
+        "News24 reports the DA and FF Plus entered coalitions in some hung councils; IOL reported the DA began talks with 16 councils hung, and named deputy mayor and speaker candidates for seven Western Cape municipalities.",
         "IOL and the Weekend Argus carry an argument that the opposition’s voice in Cape Town is growing smaller and meeker."
       ],
       "auto": true,
@@ -3471,6 +3501,12 @@
           "h": "ActionSA forms Laingsburg coalition with PA and ANC, leaving DA out",
           "d": "2026-11-23",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbjR2VnF4ZFQ5Smw2dEFadkZHN3A0Y0tKY1VkaEF0WXZQQk9xUUNMZlNCa0Vzd0c5VnVmZFZPc3pJNXR1cmNSZWJPbHlrU2ZGSHphVlNBUEh2QS1XU1FRdHp0R0ZJdm45T2FuRDZiUkFsOHRLT1pwQ3lXa2NWZUhzbnZueWxPcEZ5MDdUS0p6ZW5za2VBVEFqRy1hLVNuY1VpZmREVk0yU3VGaHM?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "Three-party coalition agreement puts DA in line to govern Knysna",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSzZTYzUxRm4zVG5SOWtKYU91Nk9UWHF6NFJXakVEeTFCd21RWXlDZnBzSS10Qm50TURuQ3A0ZjZIaU5naHZCdkQyRU90Qm9lbHpmTDBTdEcxd1VLZ3A0Tk5HV2JnYTVXcjI4VWFGTFp2elZZdlJjZlNmdHF5djhwUHh0N3pjYm9JdjJlRWRxS3NQTm5MSG9WOGVnZkktNjJMQUNxTTQ1aHpqOGxl?oc=5"
         }
       ],
       "sec": [
@@ -3684,6 +3720,18 @@
           "h": "ANC NEC Meeting and COJ council meeting",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1WMTFBSXNGNzFtSUIyWnlPdno4RVM2NzNNQU1yb1VnUlBIcnduY05ocG1VX2VGUHE1MUlRbWNRTDh5bW1QcTBlRFZmekFaSi1SSWJRR2dJbWozY0hoQ3hRQ3dDcm1DcHhQbUdEUGNmbzZOUllvY2c4WA?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "ANC insists Ramaphosa is ‘going nowhere’ despite resignation calls",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZWcyVkdQMk1hTXVhdnl1QUFfX2VGc2JKckEtTDRVa3c1UGpCX2FGVUNSc2twYkRwSk00TG9oWWV0NElkSFpyMG9iOEFSdy1QdFZUXzVjYldSOGhZdEpIdkpUVTNUS3hteEFZcmE0bzNSWnNReHJteHl6SFlaTmVqNEtsZU5sU1BvUFQ0NmUtQkgtZHRFaVlTajVOcW5WRS1NZ1EyZA?oc=5"
+        },
+        {
+          "src": "Central News South Africa",
+          "h": "ANC NEC Meets to Assess Coalition Talks and Determine Next Steps",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOWVwS1VYa2tvYlQ5eWVnVGx2RlR4OWo5aDUtbWF4U3V5VEszY0VhWXpnSlRESXNmTTBLQ1FBR2xOSUl2YjFVQVdXWmIyVXV3WExVRk1LZHgyckthTWpTR0JqS2VrVnZMNDQxb1luVVhtZHR3emIwSEd2bDNuRE94dHc2dTU5VkdZUlZjaUxYZ29JRFFNMEE?oc=5"
         }
       ],
       "sec": [
@@ -4525,6 +4573,18 @@
     "d5f89b26ac4e",
     "5d7f9a9e3afa",
     "e47cf3ba3693",
-    "d77f2827c432"
+    "d77f2827c432",
+    "8b471be85f49",
+    "9c1c1fda4bde",
+    "9ff4b894b910",
+    "ab02c16bf5b8",
+    "5897506924a8",
+    "8ca316a825b2",
+    "cb20e2de5288",
+    "ce1198b8c837",
+    "a828f7fe68c3",
+    "b239520ef06d",
+    "6573b2780799",
+    "e8d8d7c23424"
   ]
 }
