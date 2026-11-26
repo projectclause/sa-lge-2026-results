@@ -93,8 +93,10 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
       from = el; el.setAttribute("aria-expanded", "true"); box.hidden = false;
       const note = el.dataset.note, pb = note === "pb", nw = note === "new", yt = note === "yt";
       box.querySelector(".pl-how-pb").hidden = !pb; box.querySelector(".pl-how-new").hidden = !nw; box.querySelector(".pl-how-yt").hidden = !yt; box.querySelector(".pl-how-c").hidden = pb || nw || yt;
-      if (yt) { const u = (D.youtube_tv || {}).updated, t = u ? new Date(u + "T12:00:00Z").toLocaleDateString("en-ZA", { day: "numeric", month: "long", year: "numeric" }) : "";
-        box.querySelector(".pl-how-ytt").textContent = `Last updated ${t}. Views on the channel’s videos posted in the 7 days before then, from YouTube’s public channel feed. Channels that post more than 15 videos a week show at least this many.`; }
+      if (yt) { const Y = D.youtube_tv || {}, c = Y.checked ? new Date(Y.checked) : null, u = Y.updated;
+        const t = c ? c.toLocaleString("en-ZA", { timeZone: "Africa/Johannesburg", day: "numeric", month: "long", year: "numeric", hour: "2-digit", minute: "2-digit", hour12: false }) + " SAST"
+          : u ? new Date(u + "T12:00:00Z").toLocaleDateString("en-ZA", { day: "numeric", month: "long", year: "numeric" }) : "";
+        box.querySelector(".pl-how-ytt").textContent = `Last updated ${t}. Views on the channel’s videos posted in the 7 days before then, from YouTube’s public channel feed, checked every hour. Channels that post more than 15 videos a week show at least this many.`; }
       box.setAttribute("aria-label", pb ? "About the public broadcaster" : nw ? "About the New tag" : yt ? "About the YouTube views" : "How we rank voices");
       const phone = matchMedia("(max-width: 720px)").matches; bg.hidden = !phone;
       box.classList.toggle("sheet", phone);
