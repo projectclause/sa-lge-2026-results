@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T22:13:29+02:00",
+  "updated": "2026-11-26T22:19:33+02:00",
   "people": {
     "elon-musk": [
       {
@@ -43,6 +43,12 @@
     ],
     "peter-thiel": [
       {
+        "h": "Palantir Stocks Rise 1.5% After Peter Thiel Discloses a $122 Mil",
+        "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPaEZ4V01xUjhrMWlKZ0prX2RaLVRFdHNyVUtvN3o4UzFORUM1Z2VYZHJQTElJbFJCUXV5bTFnano5VmY5TUttbFFMbTF0WlFmSUpfaTBGb25Hbk02WHYwY0gxYXBvdmxGS2c2alUzOGVxWEdMNmxkUGRMLVVBd0tiQjFCSEc2U2dWRDg3cU1FVDEyM1NqenI5RVlFV2lHTGpqYVV1b2VSaVltNXYtS3hWeUpYbUVnbEVLQUt4TFoteWoxYVVEN1JHTFB4YTlZTEtVMUg4S2hqbzY5bkNEbHp1WkNjRjFld01nWUVVeTZyN3dmd2lnbnFsU1ZrZnJiZXRaRGFGcnYyMjBWdnhveFBrNXR5Snc4UTFmYzNCYUhsUEVZSnJ5N0xTdjJyQm9KUVRDUEJPRVVuTk5Vb1RTZWs5SWZ0Yng1SFZM?oc=5",
+        "src": "GuruFocus",
+        "t": "2026-11-26T20:48:45+02:00"
+      },
+      {
         "h": "Palantir Stocks Rise 1.5% After Peter Thiel Discloses a $122 Million Share Purchase",
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbjMtTW1nYmpGMWo0T1BuMU9ILXJ3Mzg3WGZ3NksxUnJnYWlpOHUtRExWSFdLak1GbnRKVHRIRjFrUElkLTV5UWoxY1NlZFI5X2owc0RHNWYyWERWRGVoaDRYdjZYbEJTQjJDZmlVYmlNQUZoSFd4aWdUa1pzRkloZ05xTHp0SEM0V210aUROTGRLdXBPdkpzdldOM093MzE0LXA3bUg5TTZycDgya3lpRC1JeVBCeDVWdW15S0g3ZF9DRmhnQWN1N3JHR3FnWTNRRmstWnVSTUY?oc=5",
         "src": "TradingView",
@@ -53,12 +59,6 @@
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMVI3Wk9VT0R5eEdqN01OS2tBMllkVzVkc2Y2akpQQkh1bXlJWFduZEU3b0l0N0FhcDBoTlNBT3JiN09qd0ptMWFzNVJBLTEzUk5mY3lqSTUyMHMwXzQ4YzQ3eDQzN0J5X29EZjBVYXktTEw0SnR6c0FsOEZmYzgyb0VGNWtKUjhENEwta1NnOGpLVVJBOHFVSDBqajNyLU9fS0RZV21VdmlTRHkw?oc=5",
         "src": "FinanceFeeds",
         "t": "2026-11-26T15:20:50+02:00"
-      },
-      {
-        "h": "Peter Thiel buys historic Bel Air mansion Casa Encantada at auction, see inside",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMmVMQnI2T2E0UHRqUzh5cUYzVW5mZDlKYXI1NUhUQWNBZmdmRksyU0FoZjRVYzYzVm5zQ2NRUmliQ2RRVFhnMFg5RUFaNzI0T1g2WHhXUUdEY183VDVKX0VtMkJYZUc0WFFITjNNaFYtM0NDSDJFSnY5Q0ZPTWpBN3BDZ2FUaXFVTGIxYUR5M3g1WFRuMDJyaG5CUW5lbG5nVXhLVEJiWXkzZmJzaGNSWHZEeW8?oc=5",
-        "src": "IndiaIPO",
-        "t": "2026-11-26T04:33:32+02:00"
       }
     ],
     "thuso-mbedu": [
@@ -233,10 +233,10 @@
         "t": "2026-10-25T09:00:00+02:00"
       },
       {
-        "h": "NantWorks' Soon-Shiong puts chips behind manufacturing disruptors in new rounds for Prolific Machines, Multiply Labs",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb185cmswR2dwOUowYUFwemExcWMtQlF6MDM5Z0pDakwtSmtnOUtBb2J5cjI5ZHhIaEdvT091VGZnczFZRTNFc0I3d1V4UEs1bmFFMTdiNHBGeHhBZXN4Z3ktbC1iRXM1NnJEWkZsS24yTnFaWHJ0MHo5dnFwODZxZWIzUHNBQ19NaWVvM2tFR01qNWIxVzZKSW01NXlmQzl4ZExGOUU1bzJkSHBCczNnQnMzdm1aX09ZTWpqdg?oc=5",
-        "src": "Fierce Pharma",
-        "t": "2026-10-14T09:00:00+02:00"
+        "h": "Billionaire Patrick Soon-Shiong wins wider FDA approval for bladder cancer drug",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSEdDUUVUSU9PN296clluY1F0NjI3Ykg3Wk8zR19iSVpTX19rQWRDM2ZuRjlfWG4tSFNIOWpjN1VJQWRTckdqNzZQVWtqVGZ5Q2xBTE51cmM1VHM5N0lNa1pHbHplT256TzFaVTdCVmZkZTYzUlpMbnhsZ1Q2RU5DWUFiMXRrQnhfcFNQVjRUZXpDSlp5RXdwNVJuZV9XUzk2a2I2MzFSVmpKY0tvbExuMGstSzkzNXhHbVJ0ZWJHWHc?oc=5",
+        "src": "Billionaires.Africa",
+        "t": "2026-10-16T09:00:00+02:00"
       }
     ],
     "chad-le-clos": [
@@ -306,12 +306,32 @@
         "src": "DP World Tour",
         "t": "2026-11-23T19:00:00+02:00"
       }
+    ],
+    "charlize-theron": [
+      {
+        "h": "Charlize Theron’s Brutal ‘John Wick’ Replacement Officially Removed From HBO Max",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMTRpNEZGREhqY1Z4Q19YdE9KUVZ0Q2ZobEp1U2VBOVUyRkNkME93ZW9KVmNucXdmNFIxZ2xuUks3eFBUNGowanJPdEdBV2N0NXlVZ3lXdldSNFBmOE12NWxRM3FEanVuYUI3RkxHOUFZdDIzcEQxcExTSkdrZDNtV1pzNHhkSFA0?oc=5",
+        "src": "Collider",
+        "t": "2026-11-26T19:00:12+02:00"
+      },
+      {
+        "h": "In 1997, Tara Reid was cast in ‘The Big Lebowski’. When she saw Charlize Theron at the audition, she thought she’d never get it",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQN1pLa1hudlRadzNSM282a1VDR3ZXMzlVckV2cmZWUVBfVVpYLWViQjdVTGFibHRHdGpwNHdRSjlobEtuSG9PVFlGVlJPanpSdFVfX2dfWTczNndkd1d6eXR0azFCYlpiOW5TRnItRG9abXE4TUpXVjRiS28yMEJLMDY5Z1o?oc=5",
+        "src": "Far Out Magazine",
+        "t": "2026-11-23T22:15:00+02:00"
+      },
+      {
+        "h": "What ‘Digger’ Has in Common with Gary Oldman’s Winston Churchill and Charlize Theron’s Megyn Kelly",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOGNscG5Oc1NNTlgtLVJNSk96SXRmeGI0T3RuUmxnRWZ5SmxiMFVkMUplMkxmckxGU0JjSFRxQkdTUjZDTHE1SFdYXzl6QUFRV3VJRC1yMUVVenI4RThFS2ZRTDRzWFJJRjMtb0dQQ2pVYVhSSEllSmloTGNOSGdjNDZsbEF6a29YUEFLajlrUXdzQTJ0amdkUGk5dlBIVG9QYWlF?oc=5",
+        "src": "IndieWire",
+        "t": "2026-11-20T21:00:00+02:00"
+      }
     ]
   },
   "week": {
-    "elon-musk": 92,
+    "elon-musk": 91,
     "trevor-noah": 1,
-    "peter-thiel": 34,
+    "peter-thiel": 38,
     "thuso-mbedu": 2,
     "tyla": 5,
     "roelof-botha": 2,
@@ -326,6 +346,7 @@
     "chad-le-clos": 0,
     "neil-sandilands": 0,
     "ivan-glasenberg": 1,
-    "gary-player": 3
+    "gary-player": 3,
+    "charlize-theron": 3
   }
 }
