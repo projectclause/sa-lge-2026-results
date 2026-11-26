@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-26",
-    "time": "06:08"
+    "time": "07:17"
   },
   "items": [
     {
@@ -1538,6 +1538,12 @@
         "h": "DA threatens legal action over Johannesburg council’s inaugural meeting",
         "d": "2026-11-24",
         "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ZQUdvQUNQYnR2cWRZakJCa3ViemNxNXNzN2JsNDZLN0k2eWZkVnloN0t6a0hxTGVXWTM0ZUdabUFPVUJQNXB5SkxUc2pfU3J2bkdhSHdGTHkyTzdqSWc?oc=5"
+      },
+      {
+        "src": "dailynews.co.za",
+        "h": "Joburg mayoral race: How much can the mayor and councillors earn?",
+        "d": "2026-11-24",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWmRUZUszZTlkTHFkc1hUQ2RUWVMzdlppb1pyRDhyOV9yUlJraGdOU0QwX3N3cFVaUHJFc0hzQWVucG5xYzZKZ2RIODNtMXJDNC0zZW1zbkVlMVV0RWZuaDVWZjJrUHZHczR0VHJidWZGS1pWMEpDbmFiOGZ1a09MN1JvNjZ4a2EzTUFYZnVrSjItZXlUZUpoTW40ZGhNb1l2YkV1QXlKSWNWcng1cFRIcWx6Zw?oc=5"
       }
     ],
     "councils": [
@@ -1630,6 +1636,18 @@
         "h": "‘They could not find one another’: ANC, MKP deadlocked in Msunduzi",
         "d": "2026-11-25",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSXk2NkhseXVoQ0RYWmVHWlI1ZWNzaC1UUnBEV1JKeFh3a25HOGpwaU92OFVJTFVIN3ljLUE4di1KVGxpNXZOd25QQ3Q4MnZLbTB0WThIN1E2SVAtVlRnVC0yd3lJOHVTSnB2R1Ayd0VQQlBvdFM4UGNCQlpYY1BwWW03RTJ1bmFlZDlLc1lDVkY5RWNZeHRfSUJ0bWcxYlVmNXAzQkZnVjZhcWxZ?oc=5"
+      },
+      {
+        "src": "IOL",
+        "h": "MK Party gets its first mayor in South Africa after Richmond win",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRWVvTE9ObU5jLUstV19ZMVpqaDU5clFGcV9hUzBLWk9wR3hCeThDaXdQR0t5ZXJmbWpOTmlPaUFhTGp6ZHZqUUtDNm1OaThUMTdRYXRnLXJhRWNJYUlYajh3LUN1UXhIZ1ZHajhMNTVtWmFpb3lUeGZsbjVZZVROOFN6eVduZ0R1V0JuWmFHc2ZVd2YzakFfUVhoeHlHbmhCUm9lbTlEN2VhakU?oc=5"
+      },
+      {
+        "src": "The Citizen",
+        "h": "ANC aligns with MK, EFF and ActionSA in Mpumalanga councils",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZW5OMm9tVjlDenlKSjg1S1R0WndfcmQyYVZGXzc2MWNuekhRaTRaQ1hJM0FHQ01SRGI4TnpOTmVfSG15RjlrT2tkQkJZaGU4MkF5bVBmaEFQcFZXbE9ISW1SNnlNUnp1c0UtWHBicThpbDJuRWRuV21pNEgwaUo4RVBmdnFrSGlZN05rTHl6ZUJlV1JLUE43NGdmTy1YcFphX2MwVmxQYXZUVU5rM1NhcEVR?oc=5"
       }
     ],
     "tshwane": [
@@ -2016,9 +2034,9 @@
       "h": "eThekwini council will reconvene on Friday to elect a mayor and speaker",
       "dek": "eThekwini’s inaugural council meeting adjourned on 24 November without electing a mayor, deputy mayor or speaker, and IOL reports the council will reconvene on Friday to do so. IOL and Briefly News report the ANC and MK have reached an eThekwini agreement, though the parties were coy at the sitting.",
       "brief": [
-        "Several outlets report the council adjourned without filling a leadership position to allow coalition talks to conclude; IOL reports it reconvenes on Friday to elect a mayor and speaker.",
+        "Several outlets report the council adjourned without filling a leadership position to allow coalition talks to conclude; IOL reports it reconvenes on Friday to elect a mayor and speaker, and The Mercury reports parties were divided over postponing the mayoral vote.",
         "Central News South Africa reports the EFF welcomed the adjournment, and DailyNews reports ActionSA rejected DA pressure over the eThekwini coalition.",
-        "eNCA reports the sitting went ahead despite a KwaZulu-Natal Cogta directive to delay it, which DailyNews and the Sunday Tribune report the city manager challenged.",
+        "eNCA reports the sitting went ahead despite a KwaZulu-Natal Cogta directive to delay it, which IOL, DailyNews and the Sunday Tribune report the city manager challenged.",
         "IOL reports the ANC and MK sealed an eThekwini deal and Briefly News reports an agreement was reportedly reached; EWN reports the parties were coy at the sitting.",
         "The MK Party says its mayoral candidate has an “unblemished record”, IOL and The Mercury report."
       ],
@@ -2375,6 +2393,18 @@
           "h": "WATCH | eThekwini holds inaugural council meeting to elect mayor, speaker, and deputy mayor",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONXJzZW53dE13Ynp3Y1lvUzdmZDllN0xCX0twZ3ZpZDdXaXhWZkw3NW5ydFBHenVpdGtROFFQRXQ0ZFNBdV9mTGsyWTk4UEt4T1ZQOWRDVGptSFAyYXYxcktTc1dZRkJkUTBGRzlKRW9lM2hISlVYQklFc1UtX19TNFdRWmZqVE81dVlpdHNkcmRMYmN2U2thelBac1RRUjFSUU1YOHdXU3JPdy1VQ0VQSVVZbkpoekdYNG9iSEZvVUtLWWgyNTJEdEYzRkNGeWha?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "eThekwini city manager challenges Cogta directive to postpone inaugural council meeting",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcUpKb3FsN2ZIZTFoZFR4MGRid2xPYURkZHA2QmhDWnpnRmVfMlRiVUZNQ0dQTy11NHJSTnF3dTRiU2V3cG1yTzg0bFA2M2ZLNkFaajNXRmxhaldDSmsyMDBEci14Q3IwQzZPbzh0bG1FRG5SZ3lJRjlVX2NHYnVxNHZncWdXLXFON3RUWmRCWWNlMThydEd5N0FPYnNBVXFYQ3FOd01ycVpvN21XUm5IaV9Sd01wS3diUHk0N3VONmhGdUIyVVdHXzZ3?oc=5"
+        },
+        {
+          "src": "The Mercury.co.za",
+          "h": "WATCH: Parties divided over postponement of eThekwini mayoral vote",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdlFVUzdMb0JIaHVzOWZOLTB3TVV4SVBhS1psSHgzVUw1SVoyMFUySWMxQkhEOHVfUFZYNk9lVlNnbkEydmRndm5PaWlPamFXQVhYMzlOLVBaNEFLT2I2eFdhTzY5S2JHNWtOUFhLVXlhSjEwQXVuT2JIY0wxeEZuVzNqeHYzREF4THBLdXFCU29sVU43V3R3ek1EMkhObkc4cE1zSktZWERmd1ZGY1k1ak9SNWxqdmd5?oc=5"
         }
       ],
       "sec": [
@@ -4003,6 +4033,12 @@
     "cab4b2cbdb2d",
     "37c359dacc41",
     "7b7f2308084f",
-    "b2020dfc17f1"
+    "b2020dfc17f1",
+    "4d2b2ecd37c7",
+    "99532ed17c46",
+    "261e33e91ad6",
+    "9fb55b5b5f73",
+    "34f95556a733",
+    "c9e80cad293b"
   ]
 }
