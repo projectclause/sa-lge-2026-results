@@ -146,3 +146,11 @@
 .sf-all-btn { display: block; width: 100%; padding: 12px 2px; border: 0; border-bottom: 1px solid var(--rule); background: none; text-align: left; font: 600 13.5px/1.2 var(--font); color: var(--sf-green); cursor: pointer; }
 .sf-all-btn::after { content: " ▾"; }
 .sf-all-btn[aria-expanded="true"]::after { content: " ▴"; }
+/* locked regions (Australia & Oceania, Middle East & Asia, Africa) for non-subscribers */
+.sf-kp-grid { position: relative; }
+.sf-kp-grid.sf-kp-locked > :not(.sf-kp-lock) { filter: blur(6px); pointer-events: none; user-select: none; }
+.sf-kp-lock { position: absolute; inset: 0; z-index: 2; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 12px; padding: 34px 18px 18px; text-align: center; background: linear-gradient(to bottom, rgba(255,255,255,.55), rgba(255,255,255,.85)); }
+.sf-kp-lock p { margin: 0; display: grid; gap: 4px; }
+.sf-kp-lock b { font-size: 17px; }
+.sf-kp-lock span { font-size: 14px; color: var(--muted2); }
+.sf-kp-lock button { border: 0; border-radius: 999px; background: #121212; color: #fff; font: 600 14.5px/1 var(--font); padding: 12px 20px; cursor: pointer; }
