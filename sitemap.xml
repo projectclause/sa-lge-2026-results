@@ -6,6 +6,7 @@
   <url><loc>https://preamble.co.za/map.html</loc><lastmod>2026-11-26</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://preamble.co.za/coalitions/anc-regions.html</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://preamble.co.za/coalitions/eastern-cape-metros.html</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://preamble.co.za/coalitions/ramaphosa.html</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://preamble.co.za/coalitions/johannesburg.html</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://preamble.co.za/coalitions/auto-cape-town.html</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://preamble.co.za/coalitions/auto-ethekwini.html</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
@@ -25,7 +26,6 @@
   <url><loc>https://preamble.co.za/coalitions/pr-seats.html</loc><lastmod>2026-11-24</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://preamble.co.za/coalitions/i-cities.html</loc><lastmod>2026-11-23</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://preamble.co.za/coalitions/mk-pr-lists.html</loc><lastmod>2026-11-23</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-  <url><loc>https://preamble.co.za/coalitions/ramaphosa.html</loc><lastmod>2026-11-23</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://preamble.co.za/coalitions/i-anc.html</loc><lastmod>2026-11-22</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://preamble.co.za/coalitions/i-gnu.html</loc><lastmod>2026-11-20</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://preamble.co.za/coalitions/i-joburg.html</loc><lastmod>2026-11-20</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
@@ -59,7 +59,7 @@
   <url><loc>https://preamble.co.za/people/zimasa-gcaga-vabaza.html</loc><lastmod>2026-11-19</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://preamble.co.za/people/cilliers-brink.html</loc><lastmod>2026-11-16</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://preamble.co.za/people/nomvula-mokonyane.html</loc><lastmod>2026-11-22</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://preamble.co.za/people/mahlengi-bhengu.html</loc><lastmod>2026-11-23</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://preamble.co.za/people/mahlengi-bhengu.html</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://preamble.co.za/people/loyiso-masuku.html</loc><lastmod>2026-11-21</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://preamble.co.za/people/dada-morero.html</loc><lastmod>2026-11-03</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://preamble.co.za/people/athol-trollip.html</loc><lastmod>2026-11-21</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -105,7 +105,7 @@
   <url><loc>https://preamble.co.za/people/gabriel-makin.html</loc><lastmod>2026-11-25</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://preamble.co.za/people/samkele-maseko.html</loc><lastmod>2026-11-19</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://preamble.co.za/people/heidi-giokos.html</loc><lastmod>2026-11-18</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://preamble.co.za/people/anthony-butler.html</loc><lastmod>2026-11-19</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://preamble.co.za/people/anthony-butler.html</loc><lastmod>2026-11-26</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://preamble.co.za/people/kevin-allan.html</loc><lastmod>2026-11-18</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://preamble.co.za/people/ofentse-davhie.html</loc><lastmod>2026-11-24</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://preamble.co.za/people/peter-bruce.html</loc><lastmod>2026-11-19</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>

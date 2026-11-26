@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-26",
-    "time": "03:23"
+    "time": "05:00"
   },
   "items": [
     {
@@ -1000,6 +1000,30 @@
       "src": "IOL",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZTlFTmtEMzZvblBobTNFajl6UDNzRkxGTmpFeERnT2dObmZ1QTdLQktjOC1oa3hIS2E4ODY3V1p2OHY5cm93b01PZDQtc1BQVTJSZk9xRGZoV05qTDdzeFpVcDlQT1JoU1haX3Vpa1Y2S05CZlFKOC1nY2ZZQUNwNThma0VQYVVGR3FUN0xPVHo3QjhCNzJVODZmTEVrNENVUnE1cjhwOS1rd0hWb2xLdncyZDgxOGNxdHJfZUVzdUN0YXkxZFhlSmc1VlcycXlQ?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-d0a1d3a6ae",
+      "j": "bhengu",
+      "d": "2026-11-26",
+      "kind": "Column",
+      "place": "National",
+      "h": "MAHLENGI BHENGU | When coalition politics benefits DA, it’s democracy. When it doesn’t, it’s betrayal",
+      "s": "ANC spokesperson Mahlengi Bhengu argues that coalition politics is called democracy when it benefits the DA and betrayal when it does not.",
+      "src": "TimesLIVE",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQa0FyZzZ2b0Y5M0kyMFNydUVqaEg3bm9vZVMyTEhTNXRnN1U4SDdobXRUMkgwS1NNek5EZmhCNGszTjRhZkx2eERUWVJQSHdvdkRtZFVVRzFudFAzdE50ZzItZlFpYTdTRU5YLWFydjNPZnJ5cUdVQVBRLTZTT2pYSFlSLTdNNVpGRmJpSE92VTNoUXFBNEh3MXRYWDRrU2JLZ1NqTi1pSGYtRjVLWkpsZEdLNWZyRVFRTW44OUVfUHJvVmNhSFNEYTV3c1ozU3Rkc0dDYWE2QXAyUk1UQmVEMl9YdmZTSlUyOWY3Y25MUFhKZUVYZXZoNHhQVm1NVGg1V0pzXw?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-ead3d10c86",
+      "j": "butler",
+      "d": "2026-11-26",
+      "kind": "Column",
+      "place": "Johannesburg",
+      "h": "ANTHONY BUTLER | Secret ballot rules shape Joburg leadership battle",
+      "s": "Anthony Butler argues that secret ballot rules shape the battle over Johannesburg's leadership.",
+      "src": "Business Day",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONUIxQlZDcWtIeTZNY2N4ZC1jelEyS0l3WE5RYm1jdnNfMGV5YXZQcGVOTGFKckphY2w0aWJlaTU0cDlhWVJhTU9idFlVbW84SHl4Rms1U0lyQ3ZFT0dSY0FIQlk4VXZaYXA3c1BPdzhfd21RU01jcm4tSWdSVF9mVnhsZElIb0JZdVFXRVQ5MWZIOFZlOUk4WkRJUm9UNVlaUE5HMVNWSXRxS21QWTJDOU5xWEhiQQ?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -1021,7 +1045,8 @@
       "a-010624c377",
       "a-c77151322d",
       "a-8946796aee",
-      "a-0b99ad38e9"
+      "a-0b99ad38e9",
+      "a-ead3d10c86"
     ],
     "actionsa": [
       "a-773fa265cd",
@@ -1605,6 +1630,12 @@
         "h": "ActionSA and DA battle for Tshwane",
         "d": "2026-11-24",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA5aEhhWWRVUHVmeXJCLVE5Mkc3dWlYM1JZaURvaWxXYjNPa3lwWl9YUzlWSXd4WlgtNkpXbUtQMk4yaFNYbnY3emEtUVk5S3czVDUxbUJfLU80TFhzd3M4emdzdEtrMEc4RnhLbmNB?oc=5"
+      },
+      {
+        "src": "IOL",
+        "h": "Tshwane leadership vote hangs on coalition talks",
+        "d": "2026-11-24",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSGRlVEh6YnRxOENCRmNSTGw4OVBtVno1Z1ZBU3dpNkYzX2RvU0luLTNuNnc1OXcxaDJzMEphOWp2Y1ZRT1EyMVN2ZU1EcFBmQTcxSEZlQjBXYTdnby1HbXlNYm8xQ0VfRW9pZnpleWdnWjRFcHkzZE1aTXljMlhpcWp4VXM4S2hwVWN1YVpsc1liZlJZZS1ReXFMT2hwQQ?oc=5"
       }
     ],
     "actionsa": [
@@ -1827,6 +1858,12 @@
         "h": "Ramaphosa faces tough ANC unity test in coalition talks",
         "d": "2026-11-23",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdWdzMUx2Z01ObHQzTXc0ZThlbVdGTVp6MXJBX1dfSklVSjduZGpCYTBDWUFDNTItNUs5RUVNR0tRNkFPMmVQanZQT1VlZElQTkNtQTBEMjlhUEVWVkdwWTNYc0F5WkRiNUZOM2lKbVpzYW1iVE5xWU1fRDhuZWxJVG85a3NRc1oycVZFTUVDNm5NbmN2akNDWDNMR2dTOWwzNC1qSFpDOHdhLThOTkhPSlR6SUtEVlU?oc=5"
+      },
+      {
+        "src": "News24",
+        "h": "Qaanitah Hunter | Ramaphosa and the art of political ambivalence",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbUNNVndoRVhXUlhrZHFVUnlFd0FTQmVZWno1VERkSF9KLWo0bEF6MDFXbGI5VEtjU0FDM0hBWlZRTXZISmhBX08zaFpXVzZXTkZhYnN4bjJjUnoyS2tEMW9ZSWZQbHptNDFPQ1lybU9kWjhQaTdNR3FsU09EUk1EWWMyNks3MS1PaE5yTTRyWEVfUGY0d1lJZU1QUVBHSmZpQTQ4V0lVUTI5dV9SQzZBSHJUYmJRRGNxWHV3?oc=5"
       }
     ],
     "da-offer": [
@@ -1919,6 +1956,18 @@
         "h": "DA Offers to let ANC Lead 93 of 137 Hung Councils",
         "d": "2026-11-23",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNk8yaVhCLTQtM2dNaHY2YnU4amxLTVo1T0tLaFVVZDJRT0xfUU40LUF6VWljdGRLMWFWMHZWYWRSRVk5VEJLM0pWa0VwRFJoTnFSUjF1bTBITTJFUGNBdHc3NjN5ZTlJZ25HWmVfakFVZTNzUE1sZ3JZY3J5X0U3dlZVakdXdlFmbUFCbUd3?oc=5"
+      },
+      {
+        "src": "The Mercury.co.za",
+        "h": "DA proposes ANC-IFP power-sharing deal for 137 hung municipalities",
+        "d": "2026-11-23",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOV292Q0c0X2xuaXN3QU90ZHpWamdJSFBGRTNnLV9kMjNzZzJDWWlQUTVxOXBSNHY2TDlHMW8xRmJlSzJpZEtoZTVyQW9QM2x3RDF2Wnp6ZzZReGRCN0t4bVhBUjdYcTRBTWg2TGZ6Z3NxQVMyMXp5U01JanFXVEJsSnQxcnBNMklyWjZZQ2xKOVVmeXpRSTh0VFQxd2JYWUtZX0JObFdGZjhQVDFl?oc=5"
+      },
+      {
+        "src": "dailynews.co.za",
+        "h": "137 hung councils: DA turns to ANC and IFP in bold coalition push",
+        "d": "2026-11-23",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAyMUp5Rm5HYUNCcnZ0d1paNFAyeHkzaGhMQkV3X2lpTU1YNVRGWk9KWDNadE54T2hmTmhheXN3eUNpQkVoYzVaM1RwcVcydk5lVHVIaXdxcklFc1BLOWQ0dDZJdnhwQQ?oc=5"
       }
     ]
   },
@@ -2837,6 +2886,12 @@
           "h": "Ekurhuleni Metro Council inaugural sitting postponed to Friday",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPblRFMzZPSlkyNFFRa1NRZ09HQnpRQ0piRGhvTHFRY3YzandWZVM1S2ZFZTFuWU1JMElra1hnMnd2X21mWExCZVVCV0c5YmJuY2duLXV6QmNEMWZ6aGVZVnB0X1FOQUJKNHNweGozXzFxNG9jRGxKTTloMnNMNFpTRVE2a0M3b2NabVcxYWRMc21OR0E?oc=5"
+        },
+        {
+          "src": "dailynews.co.za",
+          "h": "WATCH | Ekurhuleni elects new leadership",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TVWVFdEowMXI4LVZLclM4V0JrMTRhX2ttbk9rbGppeWRaaWhFR1ZHNzA4eVNTeV9zNTJDTGNzSnplQkZzRjc5MzFGNjhxcDJOTGhGczhkX0RkNlU2emc4eU84d083MmtZcHA5UnFWVkhCTldGN1haaEZBVmtMMjQ?oc=5"
         }
       ],
       "sec": [
@@ -3032,7 +3087,8 @@
         "a-87af8d3c38",
         "a-8d75d75d88",
         "a-4af9aec217",
-        "a-427962faeb"
+        "a-427962faeb",
+        "a-d0a1d3a6ae"
       ],
       "coverage": [
         {
@@ -3861,6 +3917,15 @@
     "ebf6b43595d4",
     "ab5ecc1f5f81",
     "3701ffd1f8de",
-    "664049db173c"
+    "664049db173c",
+    "fb6994a4d87c",
+    "2cc35f00abae",
+    "d0a1d3a6ae72",
+    "ead3d10c8667",
+    "5474ac8481a2",
+    "e418ba3ebc61",
+    "6ccc6bc4711a",
+    "2871503ad527",
+    "0784b7c41761"
   ]
 }
