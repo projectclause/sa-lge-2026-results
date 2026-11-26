@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-26",
-    "time": "07:17"
+    "time": "09:26"
   },
   "items": [
     {
@@ -1048,6 +1048,42 @@
       "src": "thepost.co.za",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSEU5SjJqbm9qanNpdmthemdIY2xsYzJ1RFZaLURVT1JKOGdVOHRpRjZmdGRFYTg1b2h0Tk9nZG42anhhSl9LZlMtY1FkZVRCMDRvSzZ1N0FjbXdwZDAzcWg2UkxKcHZSS3FocVVkek5sbGJIeFJXZFFta1MyZjB4TDhoTTBENkhsNzIxd1ktdGtjRE94MnV5dld4dTZ4aGRqX2NiWnljZklyOGRTRk41Q3M1d1NPaDJ3Z2xZYmFjYUJzdw?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-b9832fe12a",
+      "j": "sizwe",
+      "d": "2026-11-26",
+      "kind": "Video",
+      "place": "Tshwane",
+      "h": "Tshwane holds first council sitting",
+      "s": "SMWX covers Tshwane's first council sitting, where councillors were expected to be sworn in and the mayor, deputy mayor and speaker elected.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=ejFTr6xWGWc",
+      "auto": true
+    },
+    {
+      "id": "a-55fab69453",
+      "j": "cyril",
+      "d": "2026-11-26",
+      "kind": "Article",
+      "place": "National",
+      "h": "Ramaphosa says he’s ‘not resigning’ after election setback",
+      "s": "TimesLIVE reports Ramaphosa says he is 'not resigning' after the ANC's election setback.",
+      "src": "TimesLIVE",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQb2E4akNXTFZmVG5mRkJOWXJhdFBtVW80WmFERjRuMWJMbHkyQUtCc2hyd1NWNVNkbEF2TWozZnpxVklZMkdlOUhCTnVnZFR4bHh4SmpkQ25MMEx6U0dNVmVEVXZYZ28tZFR3OXRJM2dXX1paTXRiNHR5SVdRZklfckJDREFZVkZfX3NOd3dSUWlnSDhFVVpJTlZfcENLRjBHOURxSmhqWQ?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-77f01ea28d",
+      "j": "herman",
+      "d": "2026-11-26",
+      "kind": "Article",
+      "place": "Tshwane",
+      "h": "ActionSA’s Mashaba confident Moya will return to Tshwane’s mayoral office",
+      "s": "EWN reports ActionSA's Herman Mashaba is confident Nasiphi Moya will return to Tshwane's mayoral office.",
+      "src": "EWN",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQanl0MExRTHRYWElTbkFDWEdETEVRNFRJa2Jadk40V000NFhRTkVfc2Mtc2VqSGxBQ0hISlZLVy10Rlh2S3hxbjFlLUt1dG9MSS1FMkw1Y3lHR1JhbU5QaTQ1Ti1rdG8wZHpLYm1OaFhvMXlYRVdwWVlULWtub01zWWx0ekI3b0ZRbGJmWmxnbXJxWlhBeEZUTzdKdWlTTkVZOFVOU1FGR0g0dw?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -1101,7 +1137,9 @@
       "a-8b8a61c941"
     ],
     "tshwane": [
-      "a-d028b4fa30"
+      "a-d028b4fa30",
+      "a-b9832fe12a",
+      "a-77f01ea28d"
     ],
     "grand-deal": [
       "a-4aa7f8b650",
@@ -1544,6 +1582,24 @@
         "h": "Joburg mayoral race: How much can the mayor and councillors earn?",
         "d": "2026-11-24",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWmRUZUszZTlkTHFkc1hUQ2RUWVMzdlppb1pyRDhyOV9yUlJraGdOU0QwX3N3cFVaUHJFc0hzQWVucG5xYzZKZ2RIODNtMXJDNC0zZW1zbkVlMVV0RWZuaDVWZjJrUHZHczR0VHJidWZGS1pWMEpDbmFiOGZ1a09MN1JvNjZ4a2EzTUFYZnVrSjItZXlUZUpoTW40ZGhNb1l2YkV1QXlKSWNWcng1cFRIcWx6Zw?oc=5"
+      },
+      {
+        "src": "Sunday Independent",
+        "h": "Joburg residents demand service-delivery commitments as coalition talks continue",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRVAxY3hYMGozLVhESzh2ZW5BTm9WUXFSYmdmdDM4SklobkdnaGI0RUNlT3JYNGI1bmtMNE9KaVpDUFZ4NGFzVGxFOHVvLWhPNVJaRUQ1dVNkY0ppRHg3MGVDLTFNZVBlWlVqenQxcGxaTjB2dXZ4VjA2QlAzNG5oZW1IMWkyaERVa2xNMEhxcHdTNFFqQl9UUjJfU1BwNktCX3pUVDN6aGI2TGlLQUtPbGZnYTdoSVN2R0xDQ2x0eGZ3M2RGSVptcHZ2aTgzUQ?oc=5"
+      },
+      {
+        "src": "Inside Politic",
+        "h": "Control of Joburg’s water portfolio hangs over coalition talks",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcjBXb0czYmtyUHA5QTYtUFBJSFZaX3dweUtuRVU4MzZWUlptdG1ZTWFmTEJyLTg4eEpZaURLOF9ObEduUzVMbnF4Y3FCRG5vVVRnNzZhZmQ0QVp1YVhNLUR2UkNxRmxGUUtEWGRvMTU4S0ZsUHRGaHdIZFd6aWdHZ2lGRzBxUmVFQkYzNlBJQ2dVNkJ2?oc=5"
+      },
+      {
+        "src": "thepost.co.za",
+        "h": "Joburg mayoral race: How much can the mayor and councillors earn?",
+        "d": "2026-11-24",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxON3VrcTM5SVlDZmJleXdhbkUwc3hicXI3MVp5TEVKcG5sdXl2VXh0NVIwdTUySVFWZVNMNmFETnZvOEpTd2JseG1mWUxTQm03S2hWMlAtYWZ1LVhDRWJ3R1dCYnBOZDRuSHB5VC1ud0pxN3BiUDduZmV6NkF6VFNTN0hMT3U3SGY0TkNvdUJ0RUMtbjhNMEd0RE1mR3A2dm1xRmE2TnQ3TC1JY3JpWnF1Xw?oc=5"
       }
     ],
     "councils": [
@@ -2405,6 +2461,18 @@
           "h": "WATCH: Parties divided over postponement of eThekwini mayoral vote",
           "d": "2026-11-24",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdlFVUzdMb0JIaHVzOWZOLTB3TVV4SVBhS1psSHgzVUw1SVoyMFUySWMxQkhEOHVfUFZYNk9lVlNnbkEydmRndm5PaWlPamFXQVhYMzlOLVBaNEFLT2I2eFdhTzY5S2JHNWtOUFhLVXlhSjEwQXVuT2JIY0wxeEZuVzNqeHYzREF4THBLdXFCU29sVU43V3R3ek1EMkhObkc4cE1zSktZWERmd1ZGY1k1ak9SNWxqdmd5?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "eThekwini council to elect mayor and other leaders on Friday",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVm5IUjdCNXhBdTh1SU5WZkE0ejdIRDBuQ25fVnRoR2xrbVpEUHFhRTRqWHRrLWwySVNQQ2U1R3VJWE50c1h0QWtROVBwV1poSVVPeG1YTE83a0lPa1RUUjIxWjV5WkoxUGtMTThnNlBRNklkWDRDbUZZSndBNC1vclZxeHRIdGxVX1FFdlhNZHFrUy1jNnNPejRjNFdTb3NaNTJ3Y2JR?oc=5"
+        },
+        {
+          "src": "thepost.co.za",
+          "h": "ANC and MK Party seal eThekwini coalition deal as ActionSA's future hangs in balance",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRHpIUUNRZ1M4V1dvdkpDU1E0eV8tbDlBUDBiQy1maF92T2wwQVVHRy1SY01yZUpZRFEwV3ZpWU9yWTM3ckppRVJvS1pXVmhIOUFfaXliOWpUbmpyMlpacXNtM290MjAzenRqUnlyTjEzTWsyOUJMSXlaUFdrT3ZNcHJycVhOaGNvdDlvSkQ5Rm9iNkVPQWxJSjg4eTNrbmJGOW9HRkhuWnZWbVRpRmZSQlpIRUJJUndRZEV6R0tOWUU4b0liMzRmZnhwVQ?oc=5"
         }
       ],
       "sec": [
@@ -2772,6 +2840,12 @@
           "h": "Leaked 2016 Email Contradicts Helen Zille’s Claims Linking Malema to Sibiya’s Joburg Appointment",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSWNpTTZpaHdseWwxRTRYMl8zaE1DOG1ObzhLOFY3Rk0xLVowTktTdEtWVGVpWWZ5UHo5eTFHVTB4akU2RkJnNVNweGNxU1F1YXFwSlNRNm5WWFZBVko3Vzl1dUVSendjRlN0OGJINlBzX1FXZUV1cm1WYjkyQXNJOVB5SEtWdUl3akZhd2cyOVo0Q2J4U3ZGOFpyS21Mck5XNlRuZ2ROelNfLVd1THF1WGFGZGZkRFlELTE2bFVn?oc=5"
+        },
+        {
+          "src": "Briefly News",
+          "h": "\"Play the full video\": South Africans challenge Zille's latest post about Malema",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWkhyWjZTSERBU3pPQm1LVW9hb2RjVUNwLWNsZXZVUm5Ua1o3MmJUUVVxZzNnc1JqRVhmY0tfMUdhVDZ3RHJsS3U3WHNXXzhYMDFmLWNTenhYYlRTeFhZVHBtd0l3VjVFcHFFcnpZaGtKWkJ3N2VoeXJhMjlmb0pNVGdITnJHelBOcVFhUGFNeDZRSnVlb0ZwRlNIdHBHNG1vc1pQSE54VTVXek5WRU9sNVAwUXBObnR6b2xrMkVoLTBZY0xON05iZURBOFVuYVEz?oc=5"
         }
       ],
       "sec": [
@@ -3150,12 +3224,12 @@
       "cat": "ANC",
       "place": "National",
       "h": "The ANC leaves coalition choices to its provinces and regions",
-      "dek": "EWN and Dan Corder report the ANC’s NEC has let provinces and regions decide coalitions, affecting over 100 hung councils, and SABC News reports the NEC resolved that DA coalitions should be a last resort. IOL reports the ANC postponed its coalition update again as ActionSA and DA talks intensify, while TimesLIVE, IOL and SABC News report strains over the party’s leadership and decline.",
+      "dek": "EWN and Dan Corder report the ANC’s NEC has let provinces and regions decide coalitions, affecting over 100 hung councils, and SABC News reports the NEC resolved that DA coalitions should be a last resort. IOL and Smile 90.4FM report the ANC postponed its coalition announcement again, while TimesLIVE reports Ramaphosa says he is 'not resigning' after the election setback.",
       "brief": [
         "EWN asks whether the ANC has given provinces and regions the final say; Dan Corder says the NEC let regional bodies choose, affecting well over 100 hung councils, and SABC News reports the NEC resolved that DA coalitions should be a 'last resort'.",
-        "Newsnote reports the ANC asserting there is consensus as talks near conclusion, The Witness reports the NEC weighing up its coalition future, and IOL reports the ANC postponed its coalition update again as ActionSA and DA talks intensify.",
+        "Newsnote reports the ANC asserting there is consensus as talks near conclusion, The Witness reports the NEC weighing up its coalition future, and IOL and Smile 90.4FM report the ANC postponed its coalition announcement again as ActionSA and DA talks intensify.",
         "Business Day reports the ANC is seeking a foothold in hung councils, EWN quotes an analyst warning of a 'death spiral', IOL reports the SACP drawing a line over coalition support, and The Common Sense reports the SACP called a Sol Plaatje deal with the DA a “betrayal”.",
-        "TimesLIVE reports Ramaphosa faces a tough ANC unity test, IOL reports tensions over Ramaphosa and working with the DA, and SABC News reports Malatji saying the ANC’s decline goes beyond its current leadership.",
+        "TimesLIVE reports Ramaphosa says he is 'not resigning' after the election setback and faces a tough ANC unity test, IOL reports tensions over Ramaphosa and working with the DA, and SABC News reports Malatji saying the ANC’s decline goes beyond its current leadership.",
         "The Common Sense argues ANC indecision has left a power vacuum and that the ANC is fighting over the deck chairs on the Titanic."
       ],
       "auto": true,
@@ -3167,7 +3241,8 @@
         "a-8d75d75d88",
         "a-4af9aec217",
         "a-427962faeb",
-        "a-d0a1d3a6ae"
+        "a-d0a1d3a6ae",
+        "a-55fab69453"
       ],
       "coverage": [
         {
@@ -3313,6 +3388,12 @@
           "h": "ANC’s electoral decline goes beyond current leadership: Malatji",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNS1sS3FFR2RzRE80dGpKbmNYM0lLVWZDby02anU5b3VsMEowczhkeElUWDVtcENSQzl5RVpkQ04yNno5T3gtY1Y2X1ZGLXBWSGttNVhfVzFZQUtTdDdCTElyVXVvRmxzbTNoblJHOVptZzI1S2VzVzM2bFFvNVJWLXdBbDN0UlBNR296dTNCVjRZR3Z4TmV1Z3VfVDc2S05HSlZxQXJWZE9aMTkzUk1scnp4bkdqZU5pZTVlUDl1Q0dncnRrR3RTTA?oc=5"
+        },
+        {
+          "src": "Smile 90.4FM",
+          "h": "DEVELOPING: ANC again postpones public announcement on coalitions",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQYlFYUGk2Y0o4ekttU2tQRkpCQUYwMVNKUHh2OHBRdldITUlVRkxxLVUxbnIzRkNwUHVYdGh3OVNwT1UyVFdQOFp0WGpKd0dhUi1KMTFpeE5RUm5xdWNuR19fMUdIajduNmdiUk9kcTQ0QTRPbl9selJIZDg2QWgtVDQ0aWduOWFPM2pQanpwd0w?oc=5"
         }
       ],
       "sec": [
@@ -3444,6 +3525,41 @@
       "voices": {
       },
       "first": "2026-11-25"
+    },
+    {
+      "cat": "Beyond the metros",
+      "place": "North West",
+      "h": "The EFF wins its first mayoralty in Lekwa-Teemane as a Madibeng plan sidelines the ANC and ActionSA",
+      "dek": "Newsnote reports the EFF has secured its first-ever mayoralty, with Justice Dabampe taking charge of Lekwa-Teemane Municipality. The Citizen reports the ANC and ActionSA face exclusion from a Madibeng leadership plan.",
+      "brief": [
+        "Newsnote reports Justice Dabampe has taken charge of Lekwa-Teemane, giving the EFF its first-ever mayoralty.",
+        "The Citizen reports the ANC and ActionSA face exclusion from a Madibeng leadership plan."
+      ],
+      "auto": true,
+      "id": "north-west-councils",
+      "items": [
+
+      ],
+      "coverage": [
+        {
+          "src": "newsnote",
+          "h": "EFF secures first-ever mayoralty as Justice Dabampe takes charge of Lekwa-Teemane Municipality",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPY0dUTzJnMDVQRE4zNC12blVYc0VmdHlwQUlUaVRnNGNQSkpRMUlmM2JCTWVIWXA4UGdscC1oZ2VSZU9PVlBwU1J2ZGVJNDVxVWd6SWdqMjF0N1V1dE5IbG42MnVOTlp0MXZyVnFlanVhQ0MtanRZT1FuY2k4VFBwQ3k5Y0dIUUdrUnJsUzRJTXd5WFhYRkFUekYxcUE0NlZjblVlUW85Wk5QTkZJby13TDFROXZnN202bVE?oc=5"
+        },
+        {
+          "src": "The Citizen",
+          "h": "ANC and ActionSA face exclusion from Madibeng leadership plan",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSjNEYUY5ZS1RTGExb01qT1Q3eXNlSGpPZ2tIVzBhOUdFUS14d3kybFc4RGlGYVQzc05MbHVhTk9WSVEtYTVYQ1c3XzRmMkRzeVhmTDUwNF9DLXk1SnNxbWlVNUkzN3NCSXlsZVJwRXRYd1gtNTBvTGtiak5sR1NKRXRRZC1KSFBSMUxOa1UwcnFINVNfQURSSFc5TDYzbHBIVlNLQlV1ejZHbFdna2FOVHI3YlZldw?oc=5"
+        }
+      ],
+      "sec": [
+
+      ],
+      "voices": {
+      },
+      "first": "2026-11-26"
     }
   ],
   "channels": {
@@ -4039,6 +4155,19 @@
     "261e33e91ad6",
     "9fb55b5b5f73",
     "34f95556a733",
-    "c9e80cad293b"
+    "c9e80cad293b",
+    "91cba1dedffa",
+    "b9832fe12a72",
+    "55fab6945325",
+    "950df5830828",
+    "aeafa4191def",
+    "746bae735070",
+    "462a5dd663cd",
+    "c5a4c6d122a9",
+    "77f01ea28d53",
+    "fb2cc42c9dcc",
+    "f763feadb188",
+    "e200887cb3b0",
+    "4eeacedc55de"
   ]
 }
