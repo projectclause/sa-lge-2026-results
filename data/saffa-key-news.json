@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T20:28:06+02:00",
+  "updated": "2026-11-26T20:33:30+02:00",
   "people": {
     "elon-musk": [
       {
@@ -89,16 +89,16 @@
         "t": "2026-11-26T17:28:44+02:00"
       },
       {
-        "h": "Tyla and Nasty C $500,000 Feature Rumour: What Actually Happened",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQWJvODFLS1I2WElYMWZVYXVXclJ1ZW9USnNmSWJGNGRiempoQ2NScHl0S1lHSGVrLW9aYXdPcFQ0aXgtbVoyRXAzamNtbjdDSjk3QjBhb1lYa0wxVE02d1BHeUR1SHFDQm9pbU5PV05QUWJWTW1YN3FmeEdhUmVHM3Q1Zjl6U293QzNvUExvNzRUSmxyZVhIaldPOUZlLTlMdkJrRmVCRQ?oc=5",
-        "src": "Briefly News",
-        "t": "2026-11-25T21:46:57+02:00"
+        "h": "Tyla Sings ADÉLA’s “Nicole Kidman” During Boston A*POP World Tour Stop",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1BaG4ySU5WWi0zd2NrbUptbzVqTG5ZZU1KQW4zbTJTWVZqajNvN0VVTy0xS0VLVmI0OXpUdXFZNV9hcjR4VzcwZm1qYVFEQzlkREhHUWFsbGNEVDVzWklMT1lHSjBuR25CXzdUcGJHbUFqSG1ibVB6SQ?oc=5",
+        "src": "inmusicblog.com",
+        "t": "2026-11-26T17:24:02+02:00"
       },
       {
-        "h": "Tyla Calls Chicago One of Her Favourite Crowds",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBmTTVPU2JmbHl1QUlobDJxM0lQdjliVlFSLU5wQkRVenREX09qb1RUdG4wcGlQcmZXUV8xRjVFV0hHaEVJNExnMng4V0tINjFURWJLbU9zcEw3VGhSUWlWRTY4WG5aWVR0dkQ1ekFSSQ?oc=5",
-        "src": "HOLR Magazine",
-        "t": "2026-11-24T10:04:56+02:00"
+        "h": "\"I really want to know who the father is.\": AI fake sends Tyla fans guessing",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSVB5NnVhc1d3UXBUaWNyY2hnYktocy0xTjdjbkpyQ2M4MjhvRk56M3llUjFzU2MtbVg0UHlLMTdIWUJ3SlRGLUh6MjQ2ajZMRW80ME0ySzF3QlFQak02cVpsUnM2WTFsRUNWdEt0ZXBhNFQtZlE2QjA3SVB2T3NXS19rUnNPOWFuTUM3Ynd5M25sTDdBZTBzd2ltQXN6bjNNQktvX3E0VVY3cFlmajk3Wng0SHc1NEpQSFRVUmRLSEI?oc=5",
+        "src": "Briefly News",
+        "t": "2026-11-26T09:56:59+02:00"
       }
     ],
     "roelof-botha": [
@@ -160,6 +160,14 @@
         "src": "primetimer.com",
         "t": "2026-11-14T11:38:00+02:00"
       }
+    ],
+    "paul-maritz": [
+      {
+        "h": "PAUL MARITZ | Is home affairs a glimpse of what might be, or a lone star?",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUnV1dndLLU1mSjBDTTRzWjQ0THUzV2hQVEZ0NUU1Y3FOc3p6NHc2NnZxSEVmMmk1MXlMRU9mVE5mQkU2TkxxV1hQcVJMekJmR0xMdUtmNEZfLTUtREloaGFBeVc3RDBHSkFpTldrSkFGV1dJN3VTeDNjWUxITGRWdFpHVVNZV0VtcVRXOGtVVmtxS1ZFNnU0ZjhLQU9MTjdTQW4xTG9YYjgxQk9YSDdPQVhwU2pPZ1BwSl9B?oc=5",
+        "src": "Business Day",
+        "t": "2026-06-21T09:00:00+02:00"
+      }
     ]
   },
   "week": {
@@ -167,9 +175,10 @@
     "trevor-noah": 1,
     "peter-thiel": 33,
     "thuso-mbedu": 3,
-    "tyla": 5,
+    "tyla": 11,
     "roelof-botha": 2,
     "black-coffee": 5,
-    "david-sacks": 1
+    "david-sacks": 1,
+    "paul-maritz": 0
   }
 }
