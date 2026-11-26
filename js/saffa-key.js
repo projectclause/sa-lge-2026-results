@@ -22,9 +22,16 @@
           <header class="sf-kp-top">${face}<div><h3>${esc(p.n)}</h3><p class="sf-kp-role">${esc(p.role)}</p><p class="sf-kp-from">Born in ${esc(p.born)} · lives in ${esc(p.lives)}</p></div></header>
           <p class="sf-kp-lbl">Latest</p>
           ${arts.length ? `<ol class="sf-kp-list">${arts.map((a) => `<li><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.h)}</a><span>${esc(a.src)}${a.t ? " · " + esc(ago(a.t)) : ""}</span></li>`).join("")}</ol>` : `<p class="sf-kp-none">No recent articles.</p>`}
+          ${arts.length > 1 ? `<button type="button" class="sf-kp-more" aria-expanded="false">${arts.length - 1} more ${arts.length === 2 ? "article" : "articles"}</button>` : ""}
           ${p.credit ? `<p class="sf-kp-credit">Photo: ${esc(p.credit)}</p>` : ""}
         </article>`;
       }).join("");
     })
+    .then(() => grid.addEventListener("click", (e) => {
+      const b = e.target.closest(".sf-kp-more"); if (!b) return;
+      const open = b.getAttribute("aria-expanded") !== "true", n = b.closest(".sf-kp").querySelectorAll(".sf-kp-list li").length - 1;
+      b.setAttribute("aria-expanded", open); b.closest(".sf-kp").classList.toggle("sf-kp-open", open);
+      b.textContent = open ? "Show less" : `${n} more ${n === 1 ? "article" : "articles"}`;
+    }))
     .catch(() => { grid.closest(".sf-key-people").hidden = true; });
 })();
