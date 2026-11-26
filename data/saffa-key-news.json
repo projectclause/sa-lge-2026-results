@@ -1,7 +1,13 @@
 {
-  "updated": "2026-11-26T19:27:15+02:00",
+  "updated": "2026-11-26T19:39:18+02:00",
   "people": {
     "elon-musk": [
+      {
+        "h": "How Elon Musk paved the way for Jensen Huang’s return",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMHdOZ2dnTzhpU0U1a0dWU3cwdjdVNUdPZ1ZNV0oweDMyQUJOa2xSMGNZb18wa2hhUUpEbUpHc2RLZEJ1ZXpfSGpTeVdMUnNiYXFvcDM4WnlSVHJFQW1Ubk1pX25SSmFvSHFqSHFxU1pPWVlTWDBET0pNRW1pcHBySnYwcTkyMnNDQUVQbjM5S0ZkbGhmMi02VzlTWm9MSEE?oc=5",
+        "src": "The Washington Post",
+        "t": "2026-11-26T19:37:46+02:00"
+      },
       {
         "h": "Elon Musk to launch up to a million satellites into space",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSXJheVIxQ3hhTWZKcU9weFBhVXR3UTRLVF9QOXZYM19xb0lSV2xSVjV4X0lhQnl6c09XV2Y2QXpZa1p3Y1NFV0RMTzBjNEhBdnR5d2ZxdzlsTnpMUlppbmNjVXR3X1ZIMkVGbUpSdHFUR0NNSVRMUjJoTzZQQVBKM1FFV2tLOGoxVnFxNWhnbjlsc2Frd1BSTQ?oc=5",
@@ -9,16 +15,10 @@
         "t": "2026-11-26T19:22:17+02:00"
       },
       {
-        "h": "How Elon Musk paved the way for Jensen Huang’s return",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMHdOZ2dnTzhpU0U1a0dWU3cwdjdVNUdPZ1ZNV0oweDMyQUJOa2xSMGNZb18wa2hhUUpEbUpHc2RLZEJ1ZXpfSGpTeVdMUnNiYXFvcDM4WnlSVHJFQW1Ubk1pX25SSmFvSHFqSHFxU1pPWVlTWDBET0pNRW1pcHBySnYwcTkyMnNDQUVQbjM5S0ZkbGhmMi02VzlTWm9MSEE?oc=5",
-        "src": "The Washington Post",
-        "t": "2026-11-26T19:18:50+02:00"
-      },
-      {
-        "h": "Elon Musk to give every US child SpaceX shares in $18bn giveaway",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQazVpMnhheXVEU1IxMElhY0VTNW1FOXNGYTY4bnVJQTBydU41elctRWJFOXJJVlZONnNBOHlidEYzcE9UcHRsUW9STTZfVEJQTGE0VWI4aFFsUDg4WEFvbEhsY01Rcm9XWnlLQjVSb0s2cEhwNzhhcXFMS29ITjZMWVUxNmRzX3B4VFlYZG04M1FkVE1hMXZ0SnZZSFdPVEhsX0FCZkNOcFBvUQ?oc=5",
-        "src": "The Times",
-        "t": "2026-11-26T17:30:20+02:00"
+        "h": "Elon Musk will give American children shares in SpaceX",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAwOEstaVNjYkdYQTAzQUE3T2tlMzQzeDE0Y3JsTkZVRmMzaHpCdDdueGJWRjB6S2pOZkhSN2VsZHZjQ242aThYRTFCRS12bE04cXNOdWtuU2ZTTHhyNVVDQWozMF9McVI1WlhrMHFvdU1pQQ?oc=5",
+        "src": "mobidevices.com",
+        "t": "2026-11-26T19:09:26+02:00"
       }
     ],
     "trevor-noah": [
@@ -33,7 +33,17 @@
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNblRIVUlWNUFxbUR0Y0MxS1AycmthS3lLZGhvUFE1ZUh4WVBfanoyZEt4V3lwWHNpX2hjcHpIRFRFOTkxdXFoZ1lFOWNyajJNTjRZcHd2SXBXYWlUQmxpOG9wZWk4SnplUEpmRzBqZHVRMFNXZXdEQmJNSmxtcTFieG9XSGFVam9QTTUxaEN1dHRXMUhxTHVfWFY4MEE5VmR0Zk5vc25RUGxJNGR4UVdCQTB0VVZVakVR?oc=5",
         "src": "Yahoo",
         "t": "2026-11-21T17:47:14+02:00"
+      },
+      {
+        "h": "Trevor Noah nominated for fifth Grammy Award",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUkZ0WjNQeVNJb0FoUVlfNHM5d1lZNXJJR2o2YTVBSGc3clk1SzZUN2RFNV9RQnlpQkRoZm8tb00tenZzNEl5UE5TaThsMDFUd0dxQUZrOHlFTTNKeVE2UHdpY3FnRkFMcE1ocml0aWUxVjZiZjlKMXpobFE5d29BLS10bDJweU1icFBGaQ?oc=5",
+        "src": "Algoa FM",
+        "t": "2026-11-17T15:00:00+02:00"
       }
     ]
+  },
+  "week": {
+    "elon-musk": 93,
+    "trevor-noah": 2
   }
 }

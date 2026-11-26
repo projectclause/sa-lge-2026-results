@@ -36,26 +36,38 @@ end
 # reference pages, old clips and listings that Google News files as news
 JUNK = /net worth|MRC Video|wikipedia|\A(19|20)\d\d |tickets|events to look forward|horoscope|quiz/i
 
-out = { "updated" => Time.now.getlocal("+02:00").iso8601, "people" => {} }
-PEOPLE.each do |p|
-  url = "https://news.google.com/rss/search?q=#{CGI.escape("#{p["q"]} when:7d")}&hl=en-ZA&gl=ZA&ceid=ZA:en"
-  xml = get(url)
-  items = (xml || "").scan(%r{<item>(.*?)</item>}m).map do |(b)|
+out = { "updated" => Time.now.getlocal("+02:00").iso8601, "people" => {}, "week" => {} }
+def articles(q, days)
+  xml = get("https://news.google.com/rss/search?q=#{CGI.escape("#{q} when:#{days}d")}&hl=en-ZA&gl=ZA&ceid=ZA:en")
+  (xml || "").scan(%r{<item>(.*?)</item>}m).map do |(b)|
     src = tag(b, "source")
     t = (Time.parse(tag(b, "pubDate")) rescue nil)
     { "h" => tag(b, "title").sub(/\s+-\s+#{Regexp.escape(src)}\z/, ""), "url" => tag(b, "link"), "src" => src,
       "t" => t&.getlocal("+02:00")&.iso8601 }
   end.select { |x| x["t"] && !x["h"].empty? && !x["url"].empty? && !(JUNK =~ "#{x["h"]} | #{x["src"]}") }
-  # newest first, one per outlet, three in all; only headlines that name the person (passing mentions only if there are none)
+end
+
+# newest first, one per outlet, three in all
+def pick(list)
   seen = {}
+  list.sort_by { |x| x["t"] }.reverse.select { |x| seen[x["src"]] ? false : (seen[x["src"]] = true) }.first(3)
+end
+
+PEOPLE.each do |p|
   last = p["n"].split.last.downcase
-  named = items.select { |x| x["h"].downcase.include?(last) }
-  top = (named.empty? ? items : named).sort_by { |x| x["t"] }.reverse
-             .select { |x| seen[x["src"]] ? false : (seen[x["src"]] = true) }.first(3)
-  top = old.dig("people", p["id"]) || [] if top.empty? # keep the last good list if the feed fails
+  named = ->(xs) { xs.select { |x| x["h"].downcase.include?(last) } } # only headlines that name the person
+  week = named.(articles(p["q"], 7))
+  top = pick(week)
+  top = pick(week + named.(articles(p["q"], 30))) if top.size < 3 # a quiet week: fill from the past month
+  if top.empty? # keep the last good list if the feed fails
+    top = old.dig("people", p["id"]) || []
+    out["week"][p["id"]] = old.dig("week", p["id"]) || 0
+  else # how many articles named them in the past 7 days (Google News returns up to 100)
+    out["week"][p["id"]] = week.map { |x| x["h"].downcase }.uniq.size
+  end
   out["people"][p["id"]] = top
-  warn "#{p["n"]}: #{top.size} articles"
+  warn "#{p["n"]}: #{top.size} articles, #{out["week"][p["id"]]} this week"
   sleep 0.5
 end
-same = old["people"] == out["people"]
+same = old["people"] == out["people"] && old["week"] == out["week"]
 File.write(OUT, JSON.pretty_generate(same ? old : out) + "\n")
