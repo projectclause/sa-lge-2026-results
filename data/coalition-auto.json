@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-26",
-    "time": "21:05"
+    "time": "22:14"
   },
   "items": [
     {
@@ -1288,6 +1288,42 @@
       "src": "newsday.co.za",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQZ1k1MDI5SWVjNHB0bkRKSzlsR0ZGUWphUGRRX3ZpWTNnSzVGbnJZN2VFODhsRnExU3lSRmhBR3RSejh3eEpnRjlYSDQ5ZzVOWTZaSElMVGFzdlFjVjhMZ1ZRSDMzNzVvNXhSZ2NIUnA5QUE3aExQdnhaczN1UDRjTWFsVDZ1M1JzLW1OQU55M3pGcU9tMktEUjNXeC1iOThQQi1UUFVmdDFONG9DMEk4Tjk0YWtFZGNMQTI1NUUwd1E0QWo0YmNpNHpYdmt5eWFnZWREY3pOWkx2ODVLT2pPWktZOGQxaDQ?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-fdd286a6c5",
+      "j": "moya",
+      "d": "2026-11-26",
+      "kind": "Reported",
+      "place": "Tshwane",
+      "h": "Tshwane to be led by two women as Moya and Maotwe take top posts",
+      "s": "Reported by IOL.",
+      "src": "IOL",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYWN3ZkhCbmg2bUJpcFd6OGhqR2R6Wi0xU056UVVndEtXUDlZU1NBenlkZUo5anA2eE9GYm5xOC1uNUVkZERmWHExTlB4VDhkb0RyUkxKSnp4TW1ieDBCM0J2NGhVZHk1RTltYVNpdHZvX2EtSWRvQVNWQnBzQVJTelFFbkFkU2tzTFVVN0JxbEx0azRMSkpFS3pQempWa3FxVmNvbnVhVEs5QnBvaV9FenJqQ192Y0st?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-0ffae0e2f4",
+      "j": "moya",
+      "d": "2026-11-26",
+      "kind": "Reported",
+      "place": "Tshwane",
+      "h": "New Tshwane coalition faces major test as Nasiphi Moya returns as mayor",
+      "s": "Reported by newsnote.",
+      "src": "newsnote",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPY1hjOEd2WmtrMmptWWRXWk1wTEc0ZmNHWVhtREVucktHTEVWaWhlWGQ3SE50TGFJU0F2WlJfTV9mZGVYZTA0eEFNS0ZCdTY0bkxiS0RXenhSOWo1ekM2akhHc3NNc0lscXZRYkZ5SFNiU3FOS2luOXZNVG16eDJRVTN2VnZFQ3hlQnQtNk1nbXBsa2ZPRGJQQS1sUQ?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-18254748a6",
+      "j": "moichela",
+      "d": "2026-11-25",
+      "kind": "Article",
+      "place": "Tshwane",
+      "h": "EFF’s Omphile Maotwe elected Tshwane deputy mayor unopposed",
+      "s": "Reported by IOL.",
+      "src": "IOL",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdF8zSmhkRTh6NTktbWstZThNR3FKclF2RWllMUlTd0J3SVdDOW50d04zQTZUcWU2RmtJdmlyeUEzWkk3SFlxM3FzYWJ0dUdjVHNfMXZ0Z21EVGNwbUwzTlBEVFlXNEI2eVZyd1RXWjA5TnlSd2dfVU0xc01kaXV3VlVsNWlkVUVyRXNSaUU2QjgtQ2VFZkw4UmpQUUUyZ0hDQ0ducw?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -1354,7 +1390,8 @@
       "a-b9832fe12a",
       "a-77f01ea28d",
       "a-bf2ecd0362",
-      "a-bf997775d7"
+      "a-bf997775d7",
+      "a-0ffae0e2f4"
     ],
     "grand-deal": [
       "a-4aa7f8b650",
@@ -1873,6 +1910,12 @@
         "h": "Johannesburg mayor to be elected on Friday following councillors’ swearing-in",
         "d": "2026-11-24",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMkRuWlkwLUQzeUVHSU9DYUQyMUhpelUxZW1GSThLMTJtWURpazVuSzlVUDhmWjdxQ3lRTmdzWWxfcjJSdzA3cWZFTEdTWlBmUi1MbzlxOU1LQ05ScW5XMDY0Y2JLTGp5MmVMMXN4bjQyc0ZRT0g4T3prT3lETzYwYlZ3OGtSQ0NDZ2hVTW9iT01KbzJXZUZFNTdYTEMxMjZYejhqaHVUQkVra1FfdjdtVEJIZTY0V1hXOGhqaw?oc=5"
+      },
+      {
+        "src": "African Insider",
+        "h": "‘We definitely never throw in the towel’: Zille on Joburg fight",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSW9GMmFxd0x4cnYyV0xITFozV2oyRm93ZWVHUlpTaHFjalZOXzJ1SEpGZnJtTTB3c2xCcnVaazhwRFFqRDdncDlrMTBhenRadHpEc1FBVHNOVEEtemFfQmtrRk9hZ2Q5TDVTdTB1TXlFVVo0bnZJdi14djRmQ0Q1RTc0cVJVaGh6V2VSaV9MZXlicXptUTNqQjNRQ2RpOG4xNDBR?oc=5"
       }
     ],
     "councils": [
@@ -2571,7 +2614,8 @@
       "id": "ethekwini",
       "items": [
         "a-fec66e76f8",
-        "a-0a53ebea91"
+        "a-0a53ebea91",
+        "a-fdd286a6c5"
       ],
       "coverage": [
         {
@@ -3615,6 +3659,12 @@
           "h": "WATCH | Kagiso Lerutla presides over Ekurhuleni’s inaugural council meeting",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9vUmxOWmRNMVJxaUFRWEU2VGtGY3BrVF9nNlluclN0MjI0ZGk5c04xSHpmc3RsZXUtcmtNbE1XVHFoRnlpYnhVTzRMTUIxaW4wdkxvZEdpZDk1TUpiVDRvdEtxYm11dw?oc=5"
+        },
+        {
+          "src": "eNCA",
+          "h": "LIVESTREAM | Tshwane councillors elect new mayor",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYUdxZ0pLR3JZX25WVnhOc04tRUpvTFFWUlpLVTFXQWlVU3Ywb0NVRlVrQmNuTlQ5cUp1OUpTUlRCMm9PUHFGdW1aeWV0WjVlX2pkaGJEMWVyMlZmblc5NUpKbjF1ZWlyWkRuNUNzTURNbHNSRExTdlJWNWpETXdhcjNia2xCNnYwOEg4NQ?oc=5"
         }
       ],
       "sec": [
@@ -4224,7 +4274,7 @@
       "auto": true,
       "id": "north-west-councils",
       "items": [
-
+        "a-18254748a6"
       ],
       "coverage": [
         {
@@ -4244,6 +4294,12 @@
           "h": "EFF’s Justice Dabampe Elected Unopposed as Mayor of Lekwa-Teemane Municipality in North West",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ3A0NE1yU3V2ajBqWEVCWkpfSk9pRnE5MTZWeU00UWd5WkYyREFBa2txVi1SdnVnRXpoUjJtTHJzUWQzRE4yeksyVUpIcF9nY1U5MnBYc3F0TjVsSVBhVkU0dXdEbTc4WG1VdmFtdlZPcHhrWDVHdklpNDFnUzd6RVVxTk1GVERwcXNDZG1oeFZFM3VBSEFGTEJCN2FWWHh6dkdGcVVwNURDcUhDR043WkE5cXhfSzV3NXc?oc=5"
+        },
+        {
+          "src": "Townpress Newspaper",
+          "h": "Maotwe elected Tshwane deputy mayor unopposed after council vote",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQnRMb19kUGZkS3B5eWlqc0l2NHU2Z3BQbGFGWFU4aVdnY1pCYWk2cjY0WExJRzFyQjZzbkxfMEk2X3AzcnRzSkRFSWRwQ1hCN0l4ZWEyRVBMeFFyV1hOOC1HODZyQU10Y2xQeDZVYWZfb3FLT2pseXZQbnQ2MHFKbGRvR1N4ampZVEZ6N1NEcENZd0E?oc=5"
         }
       ],
       "sec": [
@@ -5062,6 +5118,15 @@
     "b576261708e2",
     "32174e4f0258",
     "4dff9b72b24f",
-    "0c2edb6da218"
+    "0c2edb6da218",
+    "cfd122f67966",
+    "fdd286a6c5ca",
+    "5d2acb386b4e",
+    "0ffae0e2f407",
+    "44faa3db2b31",
+    "1120456f1cbd",
+    "014a16f1f273",
+    "18254748a6e3",
+    "ea667dad5a5f"
   ]
 }

@@ -1,6 +1,6 @@
 # PREAMBLE
 
-> South Africa’s global and local data. Live results of the 4 November 2026 local government elections, a ward-by-ward map, the mayors of the eight metros, and a Coalitions Tracker that groups reporting on the coalition talks into stories with summaries and links to every original article. Updated 26 November 2026, 21:05 SAST.
+> South Africa’s global and local data. Live results of the 4 November 2026 local government elections, a ward-by-ward map, the mayors of the eight metros, and a Coalitions Tracker that groups reporting on the coalition talks into stories with summaries and links to every original article. Updated 26 November 2026, 22:14 SAST.
 
 Data: Independent Electoral Commission (IEC). Summaries are written by Preamble with AI from published reporting; the journalists and politicians quoted do not write for Preamble.
 
@@ -82,7 +82,7 @@ Data: Independent Electoral Commission (IEC). Summaries are written by Preamble 
 - [Mahlengi Bhengu](https://preamble.co.za/people/mahlengi-bhengu.html): ANC national spokesperson; key player, 5 coalition pieces
 - [Michael Beaumont](https://preamble.co.za/people/michael-beaumont.html): ActionSA national chairperson; key player, 17 coalition pieces
 - [Mxolisi Phakathi](https://preamble.co.za/people/mxolisi-phakathi.html): MK mayoral candidate, eThekwini; key player, 3 coalition pieces
-- [Nasiphi Moya](https://preamble.co.za/people/nasiphi-moya.html): ActionSA, mayor of Tshwane; key player, 1 coalition piece
+- [Nasiphi Moya](https://preamble.co.za/people/nasiphi-moya.html): ActionSA, mayor of Tshwane; key player, 3 coalition pieces
 - [Nomvula Mokonyane](https://preamble.co.za/people/nomvula-mokonyane.html): ANC deputy secretary-general; key player, 2 coalition pieces
 - [Sixolise Gcilishe](https://preamble.co.za/people/sixolise-gcilishe.html): EFF elections spokesperson; key player, 1 coalition piece
 - [Tlaleng Mofokeng](https://preamble.co.za/people/tlaleng-mofokeng.html): EFF mayoral candidate, Johannesburg; key player, 1 coalition piece
@@ -112,7 +112,7 @@ Data: Independent Electoral Commission (IEC). Summaries are written by Preamble 
 - [John Perlman](https://preamble.co.za/people/john-perlman.html): Presenter, 702 Drive; analyst and commentator, 1 coalition piece
 - [Jonny Steinberg](https://preamble.co.za/people/jonny-steinberg.html): Writer and News24 columnist; analyst and commentator, 3 coalition pieces
 - [Julian Commissioner](https://preamble.co.za/people/julian-commissioner.html): Political commentator · *Pseudonym; analyst and commentator, 3 coalition pieces
-- [Kamogelo Moichela](https://preamble.co.za/people/kamogelo-moichela.html): Journalist, IOL; reporter, 7 coalition pieces
+- [Kamogelo Moichela](https://preamble.co.za/people/kamogelo-moichela.html): Journalist, IOL; reporter, 8 coalition pieces
 - [Katy Katopodis](https://preamble.co.za/people/katy-katopodis.html): Journalist and editor; analyst and commentator, 1 coalition piece
 - [Kevin Allan](https://preamble.co.za/people/kevin-allan.html): Managing director, Municipal IQ; columnist, Business Day; analyst and commentator, 1 coalition piece
 - [Khaya Sithole](https://preamble.co.za/people/khaya-sithole.html): Columnist, Sunday Times; analyst and commentator, 1 coalition piece
