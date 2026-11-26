@@ -96,7 +96,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
       if (yt) { const Y = D.youtube_tv || {}, c = Y.checked ? new Date(Y.checked) : null, u = Y.updated;
         const t = c ? c.toLocaleString("en-ZA", { timeZone: "Africa/Johannesburg", day: "numeric", month: "long", year: "numeric", hour: "2-digit", minute: "2-digit", hour12: false }) + " SAST"
           : u ? new Date(u + "T12:00:00Z").toLocaleDateString("en-ZA", { day: "numeric", month: "long", year: "numeric" }) : "";
-        box.querySelector(".pl-how-ytt").textContent = `Last updated ${t}. Views on the channel’s videos posted in the 7 days before then, from YouTube’s public channel feed, checked every hour. Channels that post more than 15 videos a week show at least this many.`; }
+        box.querySelector(".pl-how-ytt").textContent = `YouTube reaches roughly 25 million adults on mobile in South Africa (with an additional 8 million via Connected TV), and around 25.3 million users overall. Last updated ${t}. Views on the channel’s videos posted in the 7 days before then, from YouTube’s public channel feed, checked every hour. Channels that post more than 15 videos a week show at least this many.`; }
       box.setAttribute("aria-label", pb ? "About the public broadcaster" : nw ? "About the New tag" : yt ? "About the YouTube views" : "How we rank voices");
       const phone = matchMedia("(max-width: 720px)").matches; bg.hidden = !phone;
       box.classList.toggle("sheet", phone);
