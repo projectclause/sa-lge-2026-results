@@ -56,7 +56,8 @@ end
 PEOPLE.each do |p|
   last = p["n"].split.last.downcase
   named = ->(xs) { xs.select { |x| x["h"].downcase.include?(last) } } # only headlines that name the person
-  week = named.(articles(p["q"], 7))
+  since = (Time.now - 7 * 86_400).getlocal("+02:00").iso8601
+  week = named.(articles(p["q"], 7)).select { |x| x["t"] >= since } # Google’s when:7d lets older pieces through
   top = pick(week)
   top = pick(week + named.(articles(p["q"], 30))) if top.size < 3 # a quiet week: fill from the past month
   if top.empty? # keep the last good list if the feed fails
