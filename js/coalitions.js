@@ -340,7 +340,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
       <summary>${p.j.length ? face(V[p.j[0]]) : `<i class="pl-av" aria-hidden="true">${esc(initials(p.src))}</i>`}<span class="pl-pt"><span class="pl-pm">${day(p.d)}${flag(p)} · ${esc(by(p))}${by(p) !== p.src ? ` · ${esc(p.src)}` : ""}${lang(p)}</span><b>${esc(p.h)}</b></span><span class="pl-plus" aria-hidden="true"></span></summary>
       <div class="pl-pb">${trs(p) ? `<p>${trs(p)}</p>` : ""}${p.orig ? `<p class="pl-orig" dir="auto">Original headline: ${esc(p.orig)}</p>` : ""}<a href="${esc(p.url)}" target="_blank" rel="noopener">Read on ${esc(p.src)}${p.lang ? ` (in ${esc(p.lang)})` : ""}${p.pay ? " · subscribers" : ""} →</a></div>
     </details>`;
-    const card = (k, i) => `<button type="button" class="pl-voice${i >= TOPN ? " pl-vx" : ""}" data-k="${k}" aria-pressed="false">${face(V[k])}<span>${nameTag(V[k], vflag(V[k]))}<span>${esc(V[k].role)}</span></span><em>${n(k)}</em></button>`;
+    const card = (k, i) => `<button type="button" class="pl-voice${i >= TOPN ? " pl-vx" : ""}" data-k="${k}" aria-pressed="false">${face(V[k])}<span>${nameTag(V[k], vflag(V[k]) + partyMark({ org: V[k].o, logo: V[k].logo, o: V[k].o }))}<span>${esc(V[k].role)}</span></span><em>${n(k)}</em></button>`;
     const grid = (ks, label) => `<div class="pl-vgrid"><div class="pl-voices">${ks.map(card).join("")}</div>${ks.length > TOPN ? `<button type="button" class="pl-vall" aria-expanded="false" data-n="${ks.length}" data-l="${label}">Show all ${ks.length} ${label}</button>` : ""}</div>`;
     return IX = { X, V, P, vOf, outs, upd, n, rank, iFaces, outLine, ipiece, grid, lang, trs, flag, vflag };
   }
