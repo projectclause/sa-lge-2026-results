@@ -16,7 +16,7 @@
     return new Date(t).toLocaleDateString("en-ZA", old ? { day: "numeric", month: "short", year: "numeric" } : { day: "numeric", month: "short" });
   };
   const face = (p) => p.img ? `<img src="${esc(p.img)}" alt="">` : `<i class="pl-av" aria-hidden="true">${esc(p.n.split(/\s+/).map((w) => w[0]).slice(0, 2).join(""))}</i>`;
-  const CN = { us: "United States", gb: "United Kingdom", es: "Spain", za: "South Africa", nl: "Netherlands", de: "Germany", fr: "France", ae: "United Arab Emirates", au: "Australia", ca: "Canada" };
+  const CN = { us: "United States", gb: "United Kingdom", es: "Spain", ch: "Switzerland", za: "South Africa", nl: "Netherlands", de: "Germany", fr: "France", ae: "United Arab Emirates", au: "Australia", ca: "Canada" };
   const REG = ["North America", "Europe", "Australia & Oceania", "Middle East & Asia", "Africa", "South America"];
   const phone = window.matchMedia("(max-width: 720px)");
 
