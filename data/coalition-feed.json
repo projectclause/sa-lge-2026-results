@@ -6172,6 +6172,174 @@
       "n": "Bloomberg Opinion",
       "badge": "Bloomberg Opinion",
       "logo": "bloombergopinion"
+    },
+    {
+      "k": "Bloomberg",
+      "n": "Bloomberg",
+      "badge": "Bloomberg",
+      "logo": "bloomberg"
+    },
+    {
+      "k": "Financial Times",
+      "n": "Financial Times",
+      "badge": "Financial Times",
+      "logo": "financialtimes"
+    },
+    {
+      "k": "Reuters",
+      "n": "Reuters",
+      "badge": "Reuters",
+      "logo": "reuters"
+    },
+    {
+      "k": "AP",
+      "n": "AP",
+      "badge": "AP",
+      "logo": "ap"
+    },
+    {
+      "k": "Al Jazeera",
+      "n": "Al Jazeera",
+      "badge": "Al Jazeera",
+      "logo": "aljazeera"
+    },
+    {
+      "k": "BBC",
+      "n": "BBC",
+      "badge": "BBC",
+      "logo": "bbc"
+    },
+    {
+      "k": "Semafor",
+      "n": "Semafor",
+      "badge": "Semafor",
+      "logo": "semafor"
+    },
+    {
+      "k": "Il Post",
+      "n": "Il Post",
+      "badge": "Il Post",
+      "logo": "ilpost"
+    },
+    {
+      "k": "Rossiyskaya Gazeta",
+      "n": "Rossiyskaya Gazeta",
+      "badge": "Rossiyskaya Gazeta",
+      "logo": "rossiyskayagazeta"
+    },
+    {
+      "k": "The New York Times",
+      "n": "The New York Times",
+      "badge": "The New York Times",
+      "logo": "thenewyorktimes-wordmark"
+    },
+    {
+      "k": "The Africa Report",
+      "n": "The Africa Report",
+      "badge": "The Africa Report",
+      "logo": "theafricareport"
+    },
+    {
+      "k": "Konrad-Adenauer-Stiftung",
+      "n": "Konrad-Adenauer-Stiftung",
+      "badge": "Konrad-Adenauer-Stiftung",
+      "logo": "konradadenauerstiftung"
+    },
+    {
+      "k": "The Economist",
+      "n": "The Economist",
+      "badge": "The Economist",
+      "logo": "theeconomist"
+    },
+    {
+      "k": "France 24",
+      "n": "France 24",
+      "badge": "France 24",
+      "logo": "france24"
+    },
+    {
+      "k": "AFP via France 24",
+      "n": "AFP via France 24",
+      "badge": "AFP via France 24",
+      "logo": "afp"
+    },
+    {
+      "k": "RFI",
+      "n": "RFI",
+      "badge": "RFI",
+      "logo": "rfi"
+    },
+    {
+      "k": "Les Echos",
+      "n": "Les Echos",
+      "badge": "Les Echos",
+      "logo": "lesechos"
+    },
+    {
+      "k": "DW",
+      "n": "DW",
+      "badge": "DW",
+      "logo": "dw"
+    },
+    {
+      "k": "Der Spiegel",
+      "n": "Der Spiegel",
+      "badge": "Der Spiegel",
+      "logo": "derspiegel"
+    },
+    {
+      "k": "FAZ",
+      "n": "FAZ",
+      "badge": "FAZ",
+      "logo": "faz"
+    },
+    {
+      "k": "El País",
+      "n": "El País",
+      "badge": "El País",
+      "logo": "elpais"
+    },
+    {
+      "k": "Il Sole 24 Ore",
+      "n": "Il Sole 24 Ore",
+      "badge": "Il Sole 24 Ore",
+      "logo": "ilsole24ore"
+    },
+    {
+      "k": "NOS",
+      "n": "NOS",
+      "badge": "NOS",
+      "logo": "nos"
+    },
+    {
+      "k": "Reformatorisch Dagblad",
+      "n": "Reformatorisch Dagblad",
+      "badge": "Reformatorisch Dagblad",
+      "logo": "reformatorischdagblad"
+    },
+    {
+      "k": "Infobae",
+      "n": "Infobae",
+      "badge": "Infobae",
+      "logo": "infobae"
+    },
+    {
+      "k": "Newsweek Japan",
+      "n": "Newsweek Japan",
+      "badge": "Newsweek Japan",
+      "logo": "newsweek"
+    },
+    {
+      "k": "Youm7",
+      "n": "Youm7",
+      "badge": "Youm7",
+      "logo": "youm7"
+    },
+    {
+      "k": "The Washington Post",
+      "n": "The Washington Post",
+      "badge": "The Washington Post",
+      "logo": "thewashingtonpost"
     }
   ],
   "intl": {
