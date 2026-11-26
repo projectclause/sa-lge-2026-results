@@ -70,8 +70,8 @@
 .sf-row .r-i { font-size: 12px; color: var(--muted); text-align: right; }
 .sf-row .r-n { font-weight: 600; font-size: 14.5px; }
 .sf-row .r-v { font-family: var(--sf-serif); font-weight: 700; font-size: 15.5px; }
-.sf-row .r-bar { grid-column: 2 / 4; height: 5px; background: #eceae4; border-radius: 3px; overflow: hidden; }
-.sf-row .r-bar i { display: block; height: 100%; background: var(--sf-green); border-radius: 3px; }
+.sf-row .r-bar { grid-column: 2 / 4; height: 16px; background: #e5e8ed; overflow: hidden; }
+.sf-row .r-bar i { display: block; height: 100%; background: var(--sf-green); }
 .sf-row .r-s { grid-column: 2 / 4; font-size: 11.5px; color: var(--muted); }
 .sf-row .r-s u { text-decoration: none; color: var(--sf-green); font-weight: 600; }
 .sf-regs { padding: 4px 0 10px 30px; border-bottom: 1px solid var(--rule); background: #fafaf7; }
@@ -79,7 +79,7 @@
 .sf-regs-s { margin: 8px 8px 0 0; font-size: 11px; line-height: 1.4; color: var(--muted); }
 .sf-rrow { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 8px; width: 100%; padding: 5px 8px 5px 0; border: 0; background: none; text-align: left; font: inherit; font-size: 13px; color: inherit; cursor: pointer; }
 .sf-rrow b { font-weight: 600; }
-.sf-rrow .r-bar { grid-column: 1 / 3; height: 3px; background: #eceae4; border-radius: 2px; overflow: hidden; }
+.sf-rrow .r-bar { grid-column: 1 / 3; height: 16px; background: #e5e8ed; overflow: hidden; }
 .sf-rrow .r-bar i { display: block; height: 100%; background: var(--sf-green2); }
 .sf-rrow:hover, .sf-rrow:focus-visible, .sf-rrow.sf-hot { background: #eef6f1; }
 .sf-reg { margin: 0; padding: 12px 2px 4px; font-size: 11.5px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--muted2); }
