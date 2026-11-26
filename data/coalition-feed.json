@@ -6000,7 +6000,8 @@
     {
       "k": "SABC",
       "n": "SABC",
-      "badge": "SABC"
+      "badge": "SABC",
+      "logo": "sabcnews"
     },
     {
       "k": "BD",
@@ -6091,6 +6092,30 @@
       "n": "Daily Dispatch",
       "badge": "Daily Dispatch",
       "logo": "dailydispatch"
+    },
+    {
+      "k": "ST",
+      "n": "Sunday Times",
+      "badge": "Sunday Times",
+      "logo": "sundaytimes"
+    },
+    {
+      "k": "POWER",
+      "n": "Power 98.7",
+      "badge": "Power 98.7",
+      "logo": "power987"
+    },
+    {
+      "k": "RAPPORT",
+      "n": "Rapport",
+      "badge": "Rapport",
+      "logo": "rapport"
+    },
+    {
+      "k": "SOWETAN",
+      "n": "Sowetan",
+      "badge": "Sowetan",
+      "logo": "sowetan"
     }
   ],
   "intl": {
