@@ -6020,6 +6020,30 @@
       "n": "BusinessTech",
       "badge": "BusinessTech",
       "logo": "businesstech"
+    },
+    {
+      "k": "The Citizen",
+      "n": "The Citizen",
+      "badge": "The Citizen",
+      "logo": "citizen"
+    },
+    {
+      "k": "MERCURY",
+      "n": "The Mercury",
+      "badge": "The Mercury",
+      "logo": "mercury"
+    },
+    {
+      "k": "TSA",
+      "n": "The South African",
+      "badge": "The South African",
+      "logo": "thesouthafrican"
+    },
+    {
+      "k": "WITNESS",
+      "n": "The Witness",
+      "badge": "The Witness",
+      "logo": "witness"
     }
   ],
   "intl": {
