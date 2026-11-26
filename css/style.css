@@ -1233,3 +1233,5 @@ body.has-ask { padding-bottom: 96px; }
 .pl-voice .pl-nm img.pl-plogo { height: 15px; border-radius: 3px; box-shadow: none; margin-left: 0; object-fit: contain; }
 /* logos and flags beside a name are exactly the name's height (1em), centred on it */
 .pl-voice .pl-nm img.pl-vflag, .pl-voice .pl-nm img.pl-plogo, .pl-vh .pl-nm img.pl-vflag { height: 1em; width: auto; vertical-align: -0.12em; }
+/* logos sit loose beside the name: no pill, frame, rounding or background */
+.pl-voice .pl-nm img.pl-plogo { border-radius: 0; box-shadow: none; background: none; padding: 0; border: 0; }
