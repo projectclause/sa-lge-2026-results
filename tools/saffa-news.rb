@@ -55,7 +55,7 @@ def pick(list)
 end
 
 PEOPLE.each do |p|
-  last = p["n"].split.last.downcase
+  last = (p["match"] || p["n"].split.last).downcase # "match": a fuller name, where relatives share the surname
   named = ->(xs) { xs.select { |x| x["h"].downcase.include?(last) } } # only headlines that name the person
   since = (Time.now - 7 * 86_400).getlocal("+02:00").iso8601
   week = named.(articles(p["q"], 7)).select { |x| x["t"] >= since } # Google’s when:7d lets older pieces through
