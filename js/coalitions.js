@@ -137,7 +137,16 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
   const atSlot = (list) => { list.filter(([, p]) => p.slot).forEach((x) => { list.splice(list.indexOf(x), 1); list.splice(x[1].slot - 1, 0, x); }); return list; };
   // co-hosts sit together: anyone marked "after": "<key>" is placed right after that person
   const pairUp = (list) => { list.filter(([, p]) => p.after).forEach((x) => { const t = list.findIndex(([k]) => k === x[1].after); if (t < 0) return; list.splice(list.indexOf(x), 1); list.splice(list.findIndex(([k]) => k === x[1].after) + 1, 0, x); }); return list; };
-  const card = ([k, p], n) => `<button type="button" class="pl-voice${n >= TOPN ? " pl-vx" : ""}" data-k="${k}" aria-pressed="false">${p.img ? `<img src="${p.img}" alt="">` : `<i class="pl-av" aria-hidden="true">${esc(p.n.split(/\s+/).map((w) => w[0]).slice(0, 2).join("").toUpperCase())}</i>`}<span>${nameTag(p)}<span>${esc(p.role || p.o)}</span></span><em>${cnt(k)}</em></button>`;
+  // when a person's latest piece came out, as a small red line on their card (pieces carry a date, not a time)
+  const lastD = (k) => D.items.reduce((m, i) => (i.j === k && i.d > m ? i.d : m), "");
+  const lastLine = (k) => {
+    const d = lastD(k); if (!d) return "";
+    const today = new Date(Date.now() + 2 * 36e5).toISOString().slice(0, 10); // SAST
+    const n = Math.round((Date.parse(today) - Date.parse(d)) / 864e5);
+    const t = n <= 0 ? "today" : n === 1 ? "yesterday" : n < 7 ? n + " days ago" : new Date(d).toLocaleDateString("en-ZA", { day: "numeric", month: "short" });
+    return `<i class="pl-vlast">Latest ${t}</i>`;
+  };
+  const card = ([k, p], n) => `<button type="button" class="pl-voice${n >= TOPN ? " pl-vx" : ""}" data-k="${k}" aria-pressed="false">${p.img ? `<img src="${p.img}" alt="">` : `<i class="pl-av" aria-hidden="true">${esc(p.n.split(/\s+/).map((w) => w[0]).slice(0, 2).join("").toUpperCase())}</i>`}<span>${nameTag(p)}<span>${esc(p.role || p.o)}</span>${lastLine(k)}</span><em>${cnt(k)}</em></button>`;
   const grid = (list, label) => `<div class="pl-vgrid"><div class="pl-voices">${list.map(card).join("")}</div>${list.length > TOPN ? `<button type="button" class="pl-vall" aria-expanded="false" data-n="${list.length}" data-l="${label}">Show all ${list.length} ${label}</button>` : ""}</div>`;
   function peopleSections() {
     const J = Object.entries(D.journalists);

@@ -1228,3 +1228,5 @@ body.has-ask { padding-bottom: 96px; }
 .page-tabs a.tab-eye img { border-radius: 0; }
 .page-tabs a.tab-eye[aria-current="page"] img { box-shadow: none; }
 .page-tabs a.tab-eye[aria-current="page"] { box-shadow: inset 0 -2px 0 var(--text), -10px 0 10px -2px #fff; }
+
+.pl-voice .pl-vlast { display: block; margin-top: 2px; font-style: normal; font-size: 6pt; line-height: 1.2; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: #d0021b; }
