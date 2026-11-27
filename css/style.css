@@ -1475,3 +1475,17 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.01e
 }
 /* the Listen bar under the tracker's lead story, after its "Reported by … voices and key players" line */
 .ls-bar.ls-lead { margin: 12px 0 6px; }
+
+/* voices.html (unlisted): choose the Listen bar voice */
+.vc-title { margin: 8px 0 8px; font-size: clamp(28px, 4vw, 40px); }
+.vc-dek { margin: 0 0 18px; font-size: 17px; line-height: 1.55; color: #333; }
+.vc-text { margin: 0 0 22px; padding: 14px 16px; background: var(--soft); border-left: 3px solid var(--text); font-size: 16px; line-height: 1.55; }
+.vc-text:empty { display: none; }
+.vc-list { list-style: none; margin: 0 0 40px; padding: 0; }
+.vc-list li { display: flex; align-items: center; gap: 14px; padding: 12px 0; border-bottom: 1px solid var(--rule); }
+.vc-list li span { display: grid; gap: 2px; }
+.vc-list b { font-size: 17px; }
+.vc-list em { font-style: normal; font-size: 14px; color: var(--muted2); }
+.vc-play { flex: none; width: 48px; height: 48px; border: 1px solid var(--rule2); border-radius: 50%; background: #fff; font-size: 16px; cursor: pointer; }
+.vc-play:hover { border-color: var(--text); }
+.vc-empty { color: var(--muted2); }

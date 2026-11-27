@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Listen Voices | PREAMBLE</title>
+  <meta name="description" content="Choose the voice that reads Preamble stories aloud.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css?v=20261128vc">
+</head>
+<body class="rs-page">
+  <header class="masthead">
+    <div class="wrap masthead-row">
+      <a class="brand" href="index.html">PREAMBLE</a>
+      <nav class="page-tabs" aria-label="Pages"><a class="sn-home" href="index.html">2026 LGE Results<span class="sn-chev" aria-hidden="true">›</span></a><span class="sn-sep" aria-hidden="true"></span><a href="coalitions.html">Coalitions<span class="tab-x"> Tracker</span></a><a href="mayors.html">Mayors</a><a href="map.html">Map</a><a class="tab-eye" href="news-tracker.html"><img src="assets/news-tracker-icon.svg" alt="" width="18" height="18">News Tracker</a></nav>
+    </div>
+  </header>
+
+  <main id="top" class="rs-wrap pl-page vc-page">
+    <h1 class="vc-title">Choose the Listen voice</h1>
+    <p class="vc-dek">The same paragraph read by Microsoft Azure voices. Play a few, then tell Claude which name you want, and every story’s Listen button will use it.</p>
+    <blockquote class="vc-text" id="vc-text"></blockquote>
+    <ol class="vc-list" id="vc-list"><li class="vc-empty">The samples haven’t been recorded yet.</li></ol>
+  </main>
+
+  <footer class="footer"><div class="wrap ft-row"><span>PREAMBLE · Data: Independent Electoral Commission · <a class="ft-privacy" href="editorial-standards.html">Editorial standards</a> (we follow the Press Code’s principles; not a Press Council member) · <a class="ft-privacy" href="privacy.html"><img class="ft-cookie" src="assets/cookie.png" alt="" width="14" height="14">Privacy &amp; cookies</a></span><nav class="ft-social" aria-label="Preamble on social media"><a href="https://www.instagram.com/preamblehqdotcom/" target="_blank" rel="noopener" aria-label="Preamble on Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.4" cy="6.6" r="1.3" fill="currentColor"/></svg></a><a href="https://youtube.com/preambleyt" target="_blank" rel="noopener" aria-label="Preamble on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4" fill="currentColor"/><path d="M10 9l5 3-5 3z" fill="#fff"/></svg></a><a href="https://preamble.substack.com/" target="_blank" rel="noopener" aria-label="Preamble on Substack"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h14v2.4H5zM5 7.2h14v2.4H5zM5 11.4h14V21l-7-3.9L5 21z" fill="currentColor"/></svg></a><a href="mailto:preamblehq@gmail.com" aria-label="Email Preamble at preamblehq@gmail.com" title="preamblehq@gmail.com"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5A1.5 1.5 0 0 1 4.5 5h15A1.5 1.5 0 0 1 21 6.5v11a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.6 6.4 12 13l8.4-6.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></a></nav><a class="ft-mail" href="mailto:preamblehq@gmail.com">preamblehq@gmail.com</a></div></footer>
+
+  <script>
+  (function () {
+    "use strict";
+    const list = document.getElementById("vc-list"); let cur = null;
+    const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+    fetch("data/voice-samples.json", { cache: "no-cache" }).then((r) => (r.ok ? r.json() : null)).then((d) => {
+      if (!d || !d.voices || !d.voices.length) return;
+      document.getElementById("vc-text").textContent = d.text;
+      list.innerHTML = d.voices.map((v, i) => `<li><button type="button" class="vc-play" data-f="${esc(v.file)}" aria-label="Play ${esc(v.name)}">▶</button><span><b>${i + 1}. ${esc(v.name)}</b><em>${esc(v.desc)}</em></span></li>`).join("");
+    }).catch(() => {});
+    list.addEventListener("click", (e) => {
+      const b = e.target.closest(".vc-play"); if (!b) return;
+      if (cur && cur.btn === b && !cur.a.paused) { cur.a.pause(); b.textContent = "▶"; return; }
+      if (cur) { cur.a.pause(); cur.btn.textContent = "▶"; }
+      const a = new Audio(b.dataset.f + "?v=" + Date.now()); cur = { a, btn: b };
+      a.addEventListener("ended", () => { b.textContent = "▶"; });
+      a.play(); b.textContent = "❚❚";
+    });
+  })();
+  </script>
+  <script src="js/mobile.js?v=20261124zg"></script>
+</body>
+</html>
