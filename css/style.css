@@ -1407,10 +1407,14 @@ html.shp-on { overflow: hidden; }
 }
 .page-tabs a.tab-eye { display: inline-flex; align-items: center; gap: 6px; }
 
-/* Coalitions Tracker, desktop: South Africa | International centred, both tabs the same width, a thin divider in the middle */
+/* Coalitions Tracker: South Africa | International as a secondary menu, a full-width bar under the masthead.
+   Desktop: the two tabs centred, the same width, a thin divider in the middle; the current one is dark, the other grey. */
+.pl-subnav { background: #fff; border-bottom: 1px solid var(--rule); padding: 0 max(16px, env(safe-area-inset-right, 0px)) 0 max(16px, env(safe-area-inset-left, 0px)); }
+.pl-subnav .pl-scope { max-width: 720px; margin: 0 auto; border-bottom: 0; }
 @media (min-width: 721px) {
-  .pl-scope { position: relative; justify-content: center; }
-  .pl-scope a, .pl-scope a:first-child { flex: 0 0 220px; padding: 10px 14px 11px; text-align: center; }
-  .pl-scope a[aria-current]::after, .pl-scope a:first-child[aria-current]::after { left: 0; right: 0; }
-  .pl-scope::before { content: ""; position: absolute; left: 50%; top: 12px; bottom: 13px; width: 1px; background: var(--rule2); }
+  .pl-subnav .pl-scope { position: relative; justify-content: center; }
+  .pl-subnav .pl-scope a, .pl-subnav .pl-scope a:first-child { flex: 0 0 220px; padding: 14px 14px 15px; text-align: center; font-size: 16px; }
+  .pl-subnav .pl-scope a[aria-current]::after { display: none; }
+  .pl-subnav .pl-scope::before { content: ""; position: absolute; left: 50%; top: 14px; bottom: 15px; width: 1px; background: var(--rule2); }
 }
+@media (max-width: 720px) { .pl-subnav .pl-scope { margin: 0 auto; } .pl-subnav .pl-scope a[aria-current]::after { bottom: 0; } }
