@@ -1,0 +1,78 @@
+{
+  "text": "Herman Mashaba was re-elected Mayor of Johannesburg on Friday, seven years after he resigned. In Tshwane, ActionSA’s Nasiphi Moya returns as mayor, and in eThekwini the MK Party’s Mxolisi Phakathi was elected with the ANC’s support. In brief: the ANC no longer runs any of South Africa’s eight metros.",
+  "at": "2026-11-27T23:41:43Z",
+  "voices": [
+    {
+      "id": "en-ZA-LeahNeural",
+      "name": "Leah",
+      "desc": "South African English, female",
+      "file": "audio/samples/en-ZA-LeahNeural.mp3"
+    },
+    {
+      "id": "en-ZA-LukeNeural",
+      "name": "Luke",
+      "desc": "South African English, male",
+      "file": "audio/samples/en-ZA-LukeNeural.mp3"
+    },
+    {
+      "id": "en-GB-SoniaNeural",
+      "name": "Sonia",
+      "desc": "British English, female",
+      "file": "audio/samples/en-GB-SoniaNeural.mp3"
+    },
+    {
+      "id": "en-GB-RyanNeural",
+      "name": "Ryan",
+      "desc": "British English, male",
+      "file": "audio/samples/en-GB-RyanNeural.mp3"
+    },
+    {
+      "id": "en-US-AvaMultilingualNeural",
+      "name": "Ava",
+      "desc": "American English, female, very natural",
+      "file": "audio/samples/en-US-AvaMultilingualNeural.mp3"
+    },
+    {
+      "id": "en-US-AndrewMultilingualNeural",
+      "name": "Andrew",
+      "desc": "American English, male, very natural",
+      "file": "audio/samples/en-US-AndrewMultilingualNeural.mp3"
+    },
+    {
+      "id": "en-US-EmmaMultilingualNeural",
+      "name": "Emma",
+      "desc": "American English, female, warm",
+      "file": "audio/samples/en-US-EmmaMultilingualNeural.mp3"
+    },
+    {
+      "id": "en-US-BrianMultilingualNeural",
+      "name": "Brian",
+      "desc": "American English, male, relaxed",
+      "file": "audio/samples/en-US-BrianMultilingualNeural.mp3"
+    },
+    {
+      "id": "en-AU-NatashaNeural",
+      "name": "Natasha",
+      "desc": "Australian English, female",
+      "file": "audio/samples/en-AU-NatashaNeural.mp3"
+    },
+    {
+      "id": "en-IE-EmilyNeural",
+      "name": "Emily",
+      "desc": "Irish English, female",
+      "file": "audio/samples/en-IE-EmilyNeural.mp3"
+    },
+    {
+      "id": "en-KE-AsiliaNeural",
+      "name": "Asilia",
+      "desc": "Kenyan English, female",
+      "file": "audio/samples/en-KE-AsiliaNeural.mp3"
+    },
+    {
+      "id": "en-NG-AbeoNeural",
+      "name": "Abeo",
+      "desc": "Nigerian English, male",
+      "file": "audio/samples/en-NG-AbeoNeural.mp3"
+    }
+  ]
+}
