@@ -19,8 +19,9 @@
     fc.features.forEach((f) => { const p = f.properties; if (METROS.some(([c]) => c === p.id)) { const s = {}; (p.seats || []).forEach(([q, n]) => { s[norm(q)] = (s[norm(q)] || 0) + n; }); SEATS[p.id] = s; } });
     let code = "JHB", picked = new Set(), mayorP = null;
 
-    box.innerHTML = `<p class="bc-kick">Interactive</p>
-      <h2 class="bc-h">Build your coalition</h2>
+    const own = box.classList.contains("bc-page"); // on build-your-coalition.html the page title already says it
+    box.innerHTML = `${own ? "" : `<p class="bc-kick">Interactive</p>
+      <h2 class="bc-h">Build your coalition</h2>`}
       <p class="bc-dek">Pick a metro and add parties until they hold a majority of council seats. The mayoral candidate of the largest party in your coalition takes the chain unless you choose another.</p>
       <div class="bc-metros" role="tablist" aria-label="Metro">${METROS.map(([c, n]) => `<button type="button" role="tab" data-c="${c}">${esc(n)}</button>`).join("")}</div>
       <div class="bc-bar" aria-hidden="true"><div class="bc-fill"></div><i class="bc-line"></i></div>
