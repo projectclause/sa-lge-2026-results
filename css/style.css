@@ -1342,9 +1342,11 @@ body.has-ask { padding-bottom: 96px; }
 /* home page: "Results by municipality" as one centred reading column on computers (like a news article) */
 @media (min-width: 721px) {
   .rs-bymuni { max-width: 680px; margin-left: auto; margin-right: auto; }
-  .rs-bymuni .bm-pn { font-size: 18px; }
-  .rs-bymuni .bm-meta { font-size: 13px; }
-  .rs-bymuni .bm-rows { grid-template-columns: minmax(0, 1fr); padding-left: 54px; }
+  .rs-bymuni .bm-pn { font-size: 16px; }
+  .rs-bymuni .bm-meta { font-size: 12.5px; }
+  .rs-bymuni .bm-arms { width: 30px; height: 30px; }
+  .rs-bymuni .bm-prov summary { gap: 12px; padding: 11px 4px; }
+  .rs-bymuni .bm-rows { grid-template-columns: minmax(0, 1fr); padding-left: 42px; }
 }
 
 /* share icon on each card, and the image preview it opens */
