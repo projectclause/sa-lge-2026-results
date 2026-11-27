@@ -1290,3 +1290,8 @@ body.has-ask { padding-bottom: 96px; }
 .bc-alt button { margin: 3px 4px 0 0; border: 1px solid var(--rule2, #d6dae1); background: #fff; border-radius: 999px; padding: 4px 10px; font: 600 12px/1.2 var(--font); cursor: pointer; }
 .bc-foot { margin: 12px 0 0; font-size: 12px; color: var(--muted); }
 .bc-reset { border: 0; background: none; padding: 0; font: 600 12.5px var(--font); color: #121212; text-decoration: underline; cursor: pointer; margin-right: 6px; }
+/* Mayors: button in the top bar that jumps to Build your coalition */
+.rs-top .bc-jump { display: inline-flex; align-items: center; gap: 6px; margin-left: auto; margin-right: 8px; padding: 9px 14px; border-radius: 999px; background: #121212; color: #fff; font: 600 13.5px/1 var(--font); text-decoration: none; white-space: nowrap; }
+.rs-top .bc-jump svg { width: 15px; height: 15px; }
+.rs-top .bc-jump:hover, .rs-top .bc-jump:focus-visible { background: #333; }
+#build-your-coalition { scroll-margin-top: 90px; }
