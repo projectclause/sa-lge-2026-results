@@ -1,18 +1,19 @@
 # Audio for the Listen bar on Coalitions Tracker stories (js/listen.js): each story's headline, standfirst and
-# "In brief", read by a South African English voice, saved as audio/<story-id>.mp3 and listed in data/listen.json.
+# "In brief", read aloud, saved as audio/<story-id>.mp3 and listed in data/listen.json.
 # Runs in the hourly GitHub Action after tools/build-seo.rb, reading the static story pages.
 #
 # Voice service (GitHub > Settings > Secrets and variables > Actions), first one set wins:
-#   1. Microsoft Azure Speech: AZURE_SPEECH_KEY and AZURE_SPEECH_REGION (e.g. southafricanorth). Voice en-GB-RyanNeural
-#      (British English, male); set LISTEN_VOICE to another Azure voice to change it (samples: voices.html). The free F0 tier
-#      allows 500,000 characters a month.
-#   2. ElevenLabs: ELEVENLABS_API_KEY. Voice "Peter" (South African English, from the ElevenLabs voice library).
-# With neither, this does nothing and the site falls back to the reader's own device reading the story aloud.
+#   1. ElevenLabs: ELEVENLABS_API_KEY. Voice "Preamble" (Preamble's own cloned voice in its ElevenLabs account,
+#      O7k0UDqsTM66CUbEZc8K). ElevenLabs bills by character, so it is capped (below).
+#   2. Microsoft Azure Speech: AZURE_SPEECH_KEY and AZURE_SPEECH_REGION. Voice en-GB-RyanNeural (British English, male).
+#      The free F0 tier allows 500,000 characters a month.
+# Set LISTEN_PROVIDER to "azure" or "elevenlabs" to force one, and LISTEN_VOICE to change the voice.
+# With neither key, this does nothing and the site falls back to the reader's own device reading the story aloud.
 #
 # Keeping within the allowance:
 #   - a story is only read again when its text changed, and not more than once every REDO_HOURS hours;
 #   - at most RUN_CHARS characters per hourly run and MONTH_CHARS per calendar month (Johannesburg time).
-# Set LISTEN_MONTH_CHARS / LISTEN_RUN_CHARS / LISTEN_REDO_HOURS / LISTEN_VOICE in the workflow to change them.
+# Set LISTEN_MONTH_CHARS / LISTEN_RUN_CHARS / LISTEN_REDO_HOURS in the workflow to change them.
 require "json"
 require "net/http"
 require "digest"
@@ -24,18 +25,22 @@ MAN_PATH = File.join(ROOT, "data/listen.json")
 AZ_KEY = ENV["AZURE_SPEECH_KEY"].to_s.strip
 AZ_REGION = ENV["AZURE_SPEECH_REGION"].to_s.strip.downcase.delete(" ")
 EL_KEY = ENV["ELEVENLABS_API_KEY"].to_s.strip
-PROVIDER = !AZ_KEY.empty? && !AZ_REGION.empty? ? "azure" : !EL_KEY.empty? ? "elevenlabs" : nil
+HAVE = { "elevenlabs" => !EL_KEY.empty?, "azure" => !AZ_KEY.empty? && !AZ_REGION.empty? }.freeze
+PROVIDER = if HAVE[ENV["LISTEN_PROVIDER"].to_s] then ENV["LISTEN_PROVIDER"]
+           elsif HAVE["elevenlabs"] then "elevenlabs"
+           elsif HAVE["azure"] then "azure"
+           end
 VOICE = if !ENV["LISTEN_VOICE"].to_s.empty? then ENV["LISTEN_VOICE"]
         elsif PROVIDER == "azure" then "en-GB-RyanNeural" # Ryan, British English, male (chosen by ear on voices.html)
-        else "wldVCiOxtkWPlsr2mHyo" # "Peter", ElevenLabs
+        else "O7k0UDqsTM66CUbEZc8K" # "Preamble", Preamble's own ElevenLabs voice
         end
 MONTH_CHARS = (ENV["LISTEN_MONTH_CHARS"] || (PROVIDER == "azure" ? 400_000 : 40_000)).to_i
-RUN_CHARS = (ENV["LISTEN_RUN_CHARS"] || (PROVIDER == "azure" ? 60_000 : 8_000)).to_i
+RUN_CHARS = (ENV["LISTEN_RUN_CHARS"] || (PROVIDER == "azure" ? 60_000 : 30_000)).to_i # ElevenLabs: enough for the first pass over every story
 REDO_HOURS = (ENV["LISTEN_REDO_HOURS"] || (PROVIDER == "azure" ? 2 : 12)).to_i
 KBPS = PROVIDER == "azure" ? 48 : 64 # the MP3 bit rate asked for, so the length can be worked out from the file size
 
 unless PROVIDER
-  puts "Listen: no AZURE_SPEECH_KEY + AZURE_SPEECH_REGION or ELEVENLABS_API_KEY secret; skipping (the site reads stories aloud on the reader's device instead)"
+  puts "Listen: no ELEVENLABS_API_KEY or AZURE_SPEECH_KEY + AZURE_SPEECH_REGION secret; skipping (the site reads stories aloud on the reader's device instead)"
   exit 0
 end
 puts "Listen: using #{PROVIDER}, voice #{VOICE}"
@@ -65,6 +70,8 @@ man = File.exist?(MAN_PATH) ? JSON.parse(File.read(MAN_PATH)) : {}
 man["stories"] ||= {}
 month = Time.now.getlocal("+02:00").strftime("%Y-%m")
 if man["month"] != month then man["month"] = month; man["used"] = 0 end
+# the monthly count is per service: characters read by Azure (free) don't use up the ElevenLabs allowance
+if man["provider"] != PROVIDER then man["used"] = 0 end
 man["provider"] = PROVIDER
 man["voice"] = VOICE
 
