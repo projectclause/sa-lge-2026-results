@@ -324,6 +324,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
         <h1 class="pl-evh">${esc(e.h)}</h1>
         <p class="pl-dek pl-evdek">${esc(e.dek)}</p>
         <p class="pl-credit">Preamble’s AI summary of ${reports(e).length} reports from ${outletLine(e)}. Updated ${day(updated(e))}.</p>
+        <div class="ls-bar" data-id="${esc(e.id)}"><button type="button" class="sv-btn ls-ic" data-id="${esc(e.id)}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h11v17l-5.5-4-5.5 4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><span></span></button></div>
         ${R.top.length ? `<section class="pl-drive" aria-label="Who’s driving this"><h2>Who’s driving this</h2><div class="pl-drv${R.top.length > 3 ? " pl-drv4" : ""}">${R.top.map(([k, p]) => `<a class="pl-drvi" href="#says-${k}"><img src="${p.img}" alt=""><span><b>${esc(p.n)}</b><em>${esc(firstLine((e.voices || {})[k]) || p.role)}</em></span></a>`).join("")}</div></section>` : ""}
         <section class="pl-brief"><h2>In brief</h2><ul>${e.brief.map((b) => `<li>${esc(b)}</li>`).join("")}</ul></section>
         <section class="pl-tl"><h2>How it came to this</h2><ol>${tl.slice(0, SHOW).join("")}</ol>${tl.length > SHOW ? `<ol class="pl-tl-more" hidden>${tl.slice(SHOW).join("")}</ol><button type="button" class="pl-more">Show the full timeline</button>` : ""}</section>
@@ -462,6 +463,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
         <h1 class="pl-evh">${esc(t.h)}</h1>
         <p class="pl-dek pl-evdek">${esc(t.dek)}</p>
         <p class="pl-credit">Preamble’s AI summary of ${I.length} reports from ${outLine(I)}, written from their headlines and published text. Updated ${day(upd(t))}.</p>
+        <div class="ls-bar" data-id="${esc(t.id)}"></div>
         ${top.length ? `<section class="pl-drive" aria-label="Who’s driving this"><h2>Who’s driving this</h2><div class="pl-drv">${top.map((k) => `<a class="pl-drvi" href="#says-${k}">${face(V[k])}<span><b>${esc(V[k].n)}</b><em>${esc(firstLine((t.voices || {})[k]) || V[k].role)}</em></span></a>`).join("")}</div></section>` : ""}
         <section class="pl-brief"><h2>In brief</h2><ul>${(t.brief || []).map((b) => `<li>${esc(b)}</li>`).join("")}</ul></section>
         ${(t.sec || []).map(([h, p]) => `<section class="pl-body"><h2>${esc(h)}</h2><p>${esc(p)}</p></section>`).join("")}

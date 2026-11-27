@@ -71,10 +71,16 @@ jobs:
       - name: Rebuild story pages, profiles and sitemap
         run: ruby tools/build-seo.rb
 
+      - name: Listen bar audio (ElevenLabs South African voice; only when the ELEVENLABS_API_KEY secret is set)
+        continue-on-error: true
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: ruby tools/listen.rb
+
       - name: Publish if anything changed
         id: commit
         run: |
-          git add -A data/coalition-auto.json data/saffa-key-news.json data/youtube-tv.json data/mayors-elected.json data/madlanga-auto.json data/madlanga-log.json data/madlanga-checks.json data/coalition-replies.json data/flights-live.json coalitions coalitions.html people sitemap.xml llms.txt index.html mayors.html
+          git add -A data/coalition-auto.json data/saffa-key-news.json data/youtube-tv.json data/mayors-elected.json data/madlanga-auto.json data/madlanga-log.json data/madlanga-checks.json data/coalition-replies.json data/flights-live.json data/listen.json audio coalitions coalitions.html people sitemap.xml llms.txt index.html mayors.html
           if git diff --cached --quiet; then echo "Nothing new this hour."; echo "pushed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
           git diff --cached --name-only -- 'coalitions/*.html' 'people/*.html' | sed 's#^#https://preamble.co.za/#' > /tmp/changed-urls.txt
           git config user.name "preamble-tracker[bot]"
