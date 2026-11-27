@@ -170,15 +170,15 @@ function render() {
       box.innerHTML = `
         <header class="my-ch"><h2>${C.title}</h2><p>${C.prov} · ${C.list.length} mayors since the first democratic council</p></header>
 
+        <div class="my-2026">
+          <div class="my-council">${k.svg}<p class="my-res">${LOGO[k.top[0]] ? `<img src="assets/logos-sm/${LOGO[k.top[0]]}.png" alt="">` : ""}${k.maj ? `${PN[k.top[0]] || k.top[0]} won a majority with ${k.top[1]} of ${k.N} seats` : `No majority · ${PN[k.top[0]] || k.top[0]} largest with ${k.top[1]} of ${k.N} seats`}</p></div>
+          ${now}
+        </div>
         ${DEP[C.code] ? `<div class="my-dep">
           <p class="my-lab">${CHECK}${DEP[C.code].lab || "New deputy mayor"}</p>
           <div class="my-dep-row">${DEP[C.code].prev ? `<span class="my-dep-old${DEP[C.code].prev === DEP[C.code].n ? " same" : ""}"><b>${DEP[C.code].prev}</b><span>${DEP[C.code].prevSub || "Outgoing deputy mayor"}</span></span><span class="my-dep-arw" aria-hidden="true">→</span>` : ""}
             <span class="my-dep-new">${photo(DEP[C.code].img, DEP[C.code].n, DEP[C.code].p, "my-ph")}<span><b class="my-name">${DEP[C.code].n}${DEP[C.code].star ? "*" : ""}</b><span class="my-party"><i style="background:${col(DEP[C.code].p)}"></i>${PN[DEP[C.code].p] || DEP[C.code].p}</span></span></span></div>
           <p class="my-how">${DEP[C.code].how}</p>${DEP[C.code].foot ? `<p class="my-dep-foot">${DEP[C.code].foot}</p>` : ""}</div>` : ""}
-        <div class="my-2026">
-          <div class="my-council">${k.svg}<p class="my-res">${LOGO[k.top[0]] ? `<img src="assets/logos-sm/${LOGO[k.top[0]]}.png" alt="">` : ""}${k.maj ? `${PN[k.top[0]] || k.top[0]} won a majority with ${k.top[1]} of ${k.N} seats` : `No majority · ${PN[k.top[0]] || k.top[0]} largest with ${k.top[1]} of ${k.N} seats`}</p></div>
-          ${now}
-        </div>
         <h3 class="my-sub">Previous mayors</h3>
         <p class="my-key">${parties.map((p) => `<span><i style="background:${col(p)}"></i>${PN[p] || p}</span>`).join("")}</p>
         <ol class="my-list">${past}</ol>
