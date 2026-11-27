@@ -6596,6 +6596,18 @@
       "n": "The Washington Post",
       "badge": "The Washington Post",
       "logo": "thewashingtonpost"
+    },
+    {
+      "k": "Mail & Guardian",
+      "n": "Mail & Guardian",
+      "badge": "Mail & Guardian",
+      "logo": "mailguardian"
+    },
+    {
+      "k": "TimesLIVE",
+      "n": "TimesLIVE",
+      "badge": "TimesLIVE",
+      "logo": "timeslive"
     }
   ],
   "intl": {
