@@ -14,7 +14,7 @@
 .mc-hd { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin: 14px 0 0; padding: 10px 12px; background: #121212; color: #fff; font-size: 14px; line-height: 1.4; }
 .mc-hd .mc-tag { background: #d63a3a; padding: 2px 7px; border-radius: 3px; font-size: 11px; font-weight: 800; letter-spacing: .06em; }
 .mc-hd a { color: #fff; text-decoration: underline; }
-.mc-note { margin: 16px 0 0; padding: 12px 14px; border-left: 3px solid var(--text); background: #f6f6f4; font-size: 14px; line-height: 1.5; }
+.mc-note { margin: 16px 0 0; padding: 12px 14px; background: #f6f6f4; font-size: 14px; line-height: 1.5; }
 .mc-paused { margin: 14px 0 0; padding: 10px 12px; background: #fdf0d5; color: #8a5a00; font-size: 14px; font-weight: 600; }
 .mc-panel { border: 1px solid var(--text); margin-top: 8px; padding: 14px 16px; }
 .mc-ph2 { margin: 0 0 8px; font-weight: 700; font-size: 13px; letter-spacing: .06em; text-transform: uppercase; }
@@ -62,7 +62,7 @@
   .m-expl { order: 100 } .m-com { order: 110 } .m-ev { order: 120 } .m-staff { order: 125 } .m-tl { order: 130 } .m-vs { order: 140 } .m-gl { order: 150 } .m-doc { order: 160 }
   .m-only { display: block; }
   .pl-ed .mc-note { display: none; }
-  .m-note { margin: 14px 0 0; padding: 10px 12px; border-left: 3px solid #121212; background: #f6f6f4; font-size: 14px; line-height: 1.45; }
+  .m-note { margin: 14px 0 0; padding: 10px 12px; background: #f6f6f4; font-size: 14px; line-height: 1.45; }
   .m-note a, .m-new a { color: #121212; font-weight: 700; }
   .m-new { margin: 10px 0 0; font-size: 14.5px; }
   .m-wit .mc-panel:not(.tapped) { display: none; }
