@@ -8,6 +8,7 @@
 require "json"
 require "time"
 require "date"
+require "cgi"
 
 module MadlangaCheck
   MF = "https://www.madlangafiles.co.za/api/timeline"
@@ -147,5 +148,82 @@ module MadlangaCheck
     rank = { "high" => 0, "medium" => 1, "low" => 2 }
     issues = issues.uniq { |i| [i["area"], i["what"], i["theirs"]] }.sort_by { |i| [rank[i["level"]], i["area"]] }
     { "checked" => now.iso8601, "sources" => sources, "day_ok" => day_ok, "issues" => issues }
+  end
+
+  # ---- the archive is the authority: our page never contradicts madlangacommission.co.za/witnesses ----
+  # Every card on that page: its slug, name, status line, role and "Last heard" note.
+  def archive_cards(page)
+    return [] unless page
+    page.scan(%r{<a class="witness-card" href="/witnesses/([a-z0-9-]+)">(.*?)</a>}m).map do |slug, b|
+      g = ->(cls) { CGI.unescapeHTML(b[%r{class="#{cls}"[^>]*>(.*?)</}m, 1].to_s.gsub(/<[^>]+>/, "")).strip }
+      { "slug" => slug, "name" => g.("wc-name"), "status" => g.("status"), "role" => g.("wc-role"), "heard" => g.("date-pill date-pill--plain") }
+    end.reject { |c| c["name"].empty? }
+  end
+
+  # the archive's status line as one of our status codes (nil when it says nothing we can map)
+  def archive_status(card)
+    s = card["status"].downcase
+    return "tp" if s.start_with?("testified") && s =~ /in camera|in private|private session|behind closed doors/
+    return "t" if s.start_with?("testified")
+    return "n" if s.start_with?("named")
+    return "s" if s =~ /\A(subpoenaed|under subpoena)/
+    return "w" if card["heard"] =~ /not yet heard/i
+    nil
+  end
+
+  # statuses that agree with the archive's even though the code differs (ours adds detail, never denies it)
+  AGREES = { "t" => %w[t tp], "w" => %w[w s c] }.freeze
+
+  def bare_name(n) = plain(n.sub(/[‘'"“].+?[’'"”]/, "")).sub(TITLES, "").sub(/\A(?:Brig|Maj-Gen|Major-Gen|Lieutenant-Gen|Lt-Gen|Adv)\.?\s+/i, "").strip
+
+  # For each of our witnesses on the archive: the name, role and status our page must show, and what changed.
+  def align(cfg, cards)
+    out = {}; changes = []
+    return [out, changes] if cards.empty?
+    names = cards.map { |c| c["name"] }
+    witnesses = (cfg["people"] || []).select { |p| p["g"] == "witness" }
+    surnames = witnesses.map { |p| parts(p["n"])[1] }.tally
+    witnesses.each do |p|
+      card = cards.find { |c| c["slug"] == p["k"] }
+      unless card
+        firsts, sur = parts(p["n"])
+        hits, strong = find(firsts, sur, names)
+        nm = strong.first || (surnames[sur] == 1 && hits.size == 1 ? hits.first : nil)
+        card = nm && cards.find { |c| c["name"] == nm }
+      end
+      next unless card
+      o = { "src" => "madlangacommission.co.za", "url" => "#{ARCHIVE}/witnesses/#{card['slug']}", "status_text" => card["status"] }
+      # name: their spelling wins; a surname-only name takes their full name
+      ours_f, ours_s = parts(p["n"]); theirs = bare_name(card["name"]); th_w = theirs.downcase.split
+      if !theirs.empty? && (ours_s != th_w.last || ours_f.empty? || !same_first?(ours_f, th_w[0...-1]))
+        title = p["n"][/\A(?:Lt Gen|Gen|Dr|Chief Supt|Lt-Col|Brigadier|Adv|Justice)\s+/].to_s
+        o["n"] = title + card["name"].sub(TITLES, "").sub(/\A(?:Brig|Maj-Gen|Major-Gen|Lieutenant-Gen|Lt-Gen|Adv|Advocate)\.?\s+/i, "").tr("'", "’").sub(/’(.+?)’/, "‘\\1’")
+        changes << "#{p['n']}: name as the archive spells it, #{o['n']}"
+      end
+      # role: theirs
+      if !card["role"].empty? && card["role"] != p["role"]
+        o["role"] = card["role"]
+      end
+      # status: theirs, unless ours only adds detail to it
+      if (st = archive_status(card)) && !(AGREES[st] || [st]).include?(p["st"].to_s)
+        o["st"] = st
+        changes << "#{p['n']}: status #{p['st']} to #{st} (archive: #{card['status'].empty? ? card['heard'] : card['status']})"
+      elsif st
+        o["st"] = p["st"]
+      end
+      out[p["k"]] = o
+    end
+    [out, changes]
+  end
+
+  # a "what has happened since" event the archive's status line contradicts
+  def contradicts?(tag, status_text)
+    s = status_text.to_s.downcase
+    case tag
+    when "charged" then s =~ /charges? (?:were |was )?withdrawn|acquitted|not charged|cleared/
+    when "withdrawn" then s =~ /\bon trial\b|\bconvicted\b/
+    when "dismissed" then s =~ /reinstated/
+    else false
+    end
   end
 end
