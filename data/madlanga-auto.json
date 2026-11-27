@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T12:59:15Z",
+  "updated": "2026-11-27T13:26:03Z",
   "today": {
     "day": 202,
     "live": {
@@ -18,6 +18,20 @@
   },
   "reports": [
     {
+      "src": "IOL",
+      "logo": "iol",
+      "h": "Madlanga Commission: Ramaphosa briefed six days before Mkhwanazi’s explosive briefing",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaGpMM2JlTXhidkhnMWU4RURNMVREdklGQUlfdUF3OE02czZtSm9XNGdFdTh5X2J4RXpqeTl5YlJINHAxZzdQZkR1eTBJQmlkdnRfUGJzTUdERUlLVFp5ZVIzbVltMmxtME9rcHh6QWhabUNicmRmX21hNFE3V2RkN1JVMlE5OFlGelVUNFEzY29fQmJrNnczQUhwVjE2QlJBMF90QXdYd05MYUR4ZWVRNUQ0OC14dnFFOWZvT21jYjNhUXp0RE1z?oc=5",
+      "d": "2026-11-27T11:50:53Z"
+    },
+    {
+      "src": "IOL",
+      "logo": "iol",
+      "h": "Madlanga Commission findings could force major rethink of South Africa's police reform Bill",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPT21MR3FKeWtzZ1RwZkVrQmRLYmpnaXdQNEk0ZDRwdzhpWmZrUGlQYVloRGI4eFJYUUI1SGkxai1nV0JIaGlfREdLQUtEeHQwVjBQdnlTUmdOdTJVU0YzT3RadVdHVGl4TDdITy0xYzRvblY2bHBKcEtjRy1lRHN2c1NKeWtqN3FGQ0lkSGFsYlJiRGlxM1d5cXdVazYyOTFaam1VdWlVUzFkbGFyUGJ2eS10YldDNlAzcTZ1ZFhTZW1TVjJMaGdHZk83dW55X0E?oc=5",
+      "d": "2026-11-27T11:36:51Z"
+    },
+    {
       "src": "Jacaranda FM",
       "logo": "jacarandafm",
       "h": "Witness T fears for his life after linking Naicker to alleged criminal network",
@@ -34,23 +48,9 @@
     {
       "src": "IOL",
       "logo": "iol",
-      "h": "Madlanga Commission: Ramaphosa briefed six days before Mkhwanazi’s explosive briefing",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaGpMM2JlTXhidkhnMWU4RURNMVREdklGQUlfdUF3OE02czZtSm9XNGdFdTh5X2J4RXpqeTl5YlJINHAxZzdQZkR1eTBJQmlkdnRfUGJzTUdERUlLVFp5ZVIzbVltMmxtME9rcHh6QWhabUNicmRmX21hNFE3V2RkN1JVMlE5OFlGelVUNFEzY29fQmJrNnczQUhwVjE2QlJBMF90QXdYd05MYUR4ZWVRNUQ0OC14dnFFOWZvT21jYjNhUXp0RE1z?oc=5",
-      "d": "2026-11-27T10:52:35Z"
-    },
-    {
-      "src": "IOL",
-      "logo": "iol",
       "h": "Ramaphosa was warned of national security threats days before Mkhwanazi's briefing | Madlanga Commission",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNN0xld0c0WjNVX2xKQjhUVkxTd25NU2dPQVhOQ0JFY1Rncnptdkc5OHZuU0NPSVBzZXZmbElmM0QwYWRXeUNSTDJQaGRrS0dqZ1VmeEloUVp2Ni1lV0tVclkwYWU5ZEZlSEVmcFdsei1sSnFYUEg3QkRtTEdFMEd1RDJjUEh0QW1QamduOFZlMGIxa3EtT1ZXV2tSMTFfMUtRRXI2QnU4RXdRalJleGtoSlhBRTV0WXVOREo4b0ZMRGVlOEFTZ3RVVDI1QjRvaDhDQ216TllybzVKa1NCblE?oc=5",
       "d": "2026-11-27T10:23:35Z"
-    },
-    {
-      "src": "IOL",
-      "logo": "iol",
-      "h": "Madlanga Commission findings could force major rethink of South Africa's police reform Bill",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPT21MR3FKeWtzZ1RwZkVrQmRLYmpnaXdQNEk0ZDRwdzhpWmZrUGlQYVloRGI4eFJYUUI1SGkxai1nV0JIaGlfREdLQUtEeHQwVjBQdnlTUmdOdTJVU0YzT3RadVdHVGl4TDdITy0xYzRvblY2bHBKcEtjRy1lRHN2c1NKeWtqN3FGQ0lkSGFsYlJiRGlxM1d5cXdVazYyOTFaam1VdWlVUzFkbGFyUGJ2eS10YldDNlAzcTZ1ZFhTZW1TVjJMaGdHZk83dW55X0E?oc=5",
-      "d": "2026-11-27T09:39:22Z"
     },
     {
       "src": "EWN",
@@ -132,15 +132,15 @@
     {
       "src": "TimesLIVE",
       "logo": "timeslive",
-      "h": "RECORDED | Former Sars boss Kieswetter continues testimony at Madlanga inquiry",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMXdYRFhqbG52X1cyMmFHNjNKbFlUV1NGU1ZXX2l2cmZhQWhWeHJaSmd4b1NrcVpfbXFXVlZxSWJMZWpOSFkwYXJscmlKMWkyUHljelFvRlVwTERxc1Z4cm5EX1J1SFZPRGtQZXRqak1aeWxMTk9Lc0hYcm11aVV1bFgyQVA5LUlJTi1RRmx4ZmM2ajlVS200RkxSckZ2bTFlM19xN19keXp1b1Z6bUFJSVdzVVBXR09BSjc4QUd1bzgzbERKV2c?oc=5",
+      "h": "WATCH LIVE | Former Sars commissioner Kieswetter continues testimony at Madlanga inquiry",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdXdkX2ctQUw0S3ltcWFkazRjNEtsWldqUDYwb2d2S2pmNkxTa1ZTZ01vRFRISzQ4YnE2YUVlM0tzVUlJNDk5Sk1uN2lUbHh2SS1GSUY0aFJsM0s0LU5sZ21zcUJIVnpGUDV2Z2VlcUpDZTE1YjBsQUNfMUoxTmJHakxTVmZYUDJyYzd4M2NsSi1nLTZsSXRKZkF6WElydWZ5aFhJUHFTZHk1Mm5nTVpTV1lfYlJqYy0wQVZkWjhxUEZBM3plaHEzWlpVYlZoelRG?oc=5",
       "d": "2026-11-26T07:53:01Z"
     },
     {
       "src": "TimesLIVE",
       "logo": "timeslive",
-      "h": "WATCH LIVE | Former Sars commissioner Kieswetter continues testimony at Madlanga inquiry",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdXdkX2ctQUw0S3ltcWFkazRjNEtsWldqUDYwb2d2S2pmNkxTa1ZTZ01vRFRISzQ4YnE2YUVlM0tzVUlJNDk5Sk1uN2lUbHh2SS1GSUY0aFJsM0s0LU5sZ21zcUJIVnpGUDV2Z2VlcUpDZTE1YjBsQUNfMUoxTmJHakxTVmZYUDJyYzd4M2NsSi1nLTZsSXRKZkF6WElydWZ5aFhJUHFTZHk1Mm5nTVpTV1lfYlJqYy0wQVZkWjhxUEZBM3plaHEzWlpVYlZoelRG?oc=5",
+      "h": "RECORDED | Former Sars boss Kieswetter continues testimony at Madlanga inquiry",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMXdYRFhqbG52X1cyMmFHNjNKbFlUV1NGU1ZXX2l2cmZhQWhWeHJaSmd4b1NrcVpfbXFXVlZxSWJMZWpOSFkwYXJscmlKMWkyUHljelFvRlVwTERxc1Z4cm5EX1J1SFZPRGtQZXRqak1aeWxMTk9Lc0hYcm11aVV1bFgyQVA5LUlJTi1RRmx4ZmM2ajlVS200RkxSckZ2bTFlM19xN19keXp1b1Z6bUFJSVdzVVBXR09BSjc4QUd1bzgzbERKV2c?oc=5",
       "d": "2026-11-26T07:53:01Z"
     },
     {
@@ -254,7 +254,7 @@
           "logo": "iol",
           "h": "Madlanga Commission: Ramaphosa briefed six days before Mkhwanazi’s explosive briefing",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaGpMM2JlTXhidkhnMWU4RURNMVREdklGQUlfdUF3OE02czZtSm9XNGdFdTh5X2J4RXpqeTl5YlJINHAxZzdQZkR1eTBJQmlkdnRfUGJzTUdERUlLVFp5ZVIzbVltMmxtME9rcHh6QWhabUNicmRmX21hNFE3V2RkN1JVMlE5OFlGelVUNFEzY29fQmJrNnczQUhwVjE2QlJBMF90QXdYd05MYUR4ZWVRNUQ0OC14dnFFOWZvT21jYjNhUXp0RE1z?oc=5",
-          "d": "2026-11-27T10:52:35Z"
+          "d": "2026-11-27T11:50:53Z"
         },
         {
           "src": "IOL",
@@ -532,15 +532,15 @@
         {
           "src": "TimesLIVE",
           "logo": "timeslive",
-          "h": "WATCH LIVE | Former Sars commissioner Kieswetter continues testimony at Madlanga inquiry",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdXdkX2ctQUw0S3ltcWFkazRjNEtsWldqUDYwb2d2S2pmNkxTa1ZTZ01vRFRISzQ4YnE2YUVlM0tzVUlJNDk5Sk1uN2lUbHh2SS1GSUY0aFJsM0s0LU5sZ21zcUJIVnpGUDV2Z2VlcUpDZTE1YjBsQUNfMUoxTmJHakxTVmZYUDJyYzd4M2NsSi1nLTZsSXRKZkF6WElydWZ5aFhJUHFTZHk1Mm5nTVpTV1lfYlJqYy0wQVZkWjhxUEZBM3plaHEzWlpVYlZoelRG?oc=5",
+          "h": "RECORDED | Former Sars boss Kieswetter continues testimony at Madlanga inquiry",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMXdYRFhqbG52X1cyMmFHNjNKbFlUV1NGU1ZXX2l2cmZhQWhWeHJaSmd4b1NrcVpfbXFXVlZxSWJMZWpOSFkwYXJscmlKMWkyUHljelFvRlVwTERxc1Z4cm5EX1J1SFZPRGtQZXRqak1aeWxMTk9Lc0hYcm11aVV1bFgyQVA5LUlJTi1RRmx4ZmM2ajlVS200RkxSckZ2bTFlM19xN19keXp1b1Z6bUFJSVdzVVBXR09BSjc4QUd1bzgzbERKV2c?oc=5",
           "d": "2026-11-26T07:53:01Z"
         },
         {
           "src": "TimesLIVE",
           "logo": "timeslive",
-          "h": "RECORDED | Former Sars boss Kieswetter continues testimony at Madlanga inquiry",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMXdYRFhqbG52X1cyMmFHNjNKbFlUV1NGU1ZXX2l2cmZhQWhWeHJaSmd4b1NrcVpfbXFXVlZxSWJMZWpOSFkwYXJscmlKMWkyUHljelFvRlVwTERxc1Z4cm5EX1J1SFZPRGtQZXRqak1aeWxMTk9Lc0hYcm11aVV1bFgyQVA5LUlJTi1RRmx4ZmM2ajlVS200RkxSckZ2bTFlM19xN19keXp1b1Z6bUFJSVdzVVBXR09BSjc4QUd1bzgzbERKV2c?oc=5",
+          "h": "WATCH LIVE | Former Sars commissioner Kieswetter continues testimony at Madlanga inquiry",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdXdkX2ctQUw0S3ltcWFkazRjNEtsWldqUDYwb2d2S2pmNkxTa1ZTZ01vRFRISzQ4YnE2YUVlM0tzVUlJNDk5Sk1uN2lUbHh2SS1GSUY0aFJsM0s0LU5sZ21zcUJIVnpGUDV2Z2VlcUpDZTE1YjBsQUNfMUoxTmJHakxTVmZYUDJyYzd4M2NsSi1nLTZsSXRKZkF6WElydWZ5aFhJUHFTZHk1Mm5nTVpTV1lfYlJqYy0wQVZkWjhxUEZBM3plaHEzWlpVYlZoelRG?oc=5",
           "d": "2026-11-26T07:53:01Z"
         },
         {
@@ -634,7 +634,7 @@
     },
     "bongani-hans": {
       "n7": 0,
-      "last": "2026-09-28T07:00:00Z"
+      "last": "2026-07-10T07:00:00Z"
     },
     "kyle-cowan": {
       "n7": 0,
