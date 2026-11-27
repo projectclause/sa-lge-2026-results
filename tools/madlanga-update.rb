@@ -9,6 +9,8 @@
 #  3. Hold back risky headlines: children or sexual offences; rumour ("sources say"); questions; opinion
 #     and analysis pieces; words that state guilt (liar, corrupt, killer...) unless qualified ("alleged") or
 #     tied to a court finding; anything naming a protected witness (protect_names in data/madlanga.json).
+#  3b. Victims: headlines naming a murder victim (the "victims" list in data/madlanga.json, or a name right after
+#     "murder of", "killing of", "death of", or "sent to … before her/his murder") are held back, out of respect for families.
 #  4. People heard in private get no automatic lines at all, only the fixed wording on their card.
 #  5. No new people: only those already listed in data/madlanga.json get cards.
 #  6. Charges, dismissals, withdrawals and disciplinary steps appear only once two different trusted
@@ -94,6 +96,8 @@ GUILT = /\b(liars?|lied|corrupt|criminals?|murderers?|killers?|crooks?|thie(?:f|
 QUALIFIED = /\b(alleged(?:ly)?|accused|claims?|claimed|allegations?|denies|denied|accus\w+|testif\w+|tells?|told|says|said)\b/i
 COURT = /\b(convicted|found guilty|sentenced|court (?:finds|found|rules|ruled))\b/i
 PROTECT = (CFG["protect_names"] || []).reject(&:empty?)
+VICTIMS = (CFG["victims"] || []).reject(&:empty?)
+NAMED_VICTIM = /\b(?:murder|killing|death|assassination|shooting) of (?:[A-Z][a-z]+ ){1,2}[A-Z][a-z]+|\b(?:sent|messages) to [A-Z][a-z]+ [A-Z][a-z]+ before (?:her|his) (?:murder|death|killing)|\b[A-Z][a-z]+ [A-Z][a-z]+(?:’s|'s)? (?:murder|killing|killers?)\b/
 REMOVE = (CFG["remove"] || []).reject(&:empty?)
 
 def blocked(h)
@@ -103,6 +107,7 @@ def blocked(h)
   return "question" if h.include?("?")
   return "opinion or analysis" if h =~ OPINION
   return "states guilt" if h =~ GUILT && h !~ QUALIFIED && h !~ COURT
+  return "names a victim" if VICTIMS.any? { |n| h.downcase.include?(n.downcase) } || h =~ NAMED_VICTIM
   return "protected witness" if PROTECT.any? { |n| h.downcase.include?(n.downcase) }
   return "removed" if REMOVE.any? { |r| h.include?(r) }
   nil

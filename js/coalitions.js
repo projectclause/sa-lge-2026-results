@@ -157,7 +157,9 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
   };
   // key players: their party's logo beside the name, where international voices carry a flag; voices: their outlet's logo, once we have one
   const partyMark = (p) => { const o = p.logo ? { logo: p.logo, n: p.logoName || p.o } : ORG(p.org); return o.logo ? `<img class="pl-vflag pl-plogo" src="assets/logos-sm/${o.logo}.png" alt="${esc(o.n || p.org)}" title="${esc(o.n || p.org)}">` : ""; };
-  const card = ([k, p], n) => `<button type="button" class="pl-voice${n >= TOPN ? " pl-vx" : ""}" data-k="${k}" aria-pressed="false">${p.img ? `<img src="${p.img}" alt="">` : `<i class="pl-av" aria-hidden="true">${esc(p.n.split(/\s+/).map((w) => w[0]).slice(0, 2).join("").toUpperCase())}</i>`}<span>${nameTag(p, partyMark(p))}<span>${esc(p.role || p.o)}</span>${lastLine(k)}</span><em>${cnt(k)}</em></button>`;
+  // right of reply: a key player's latest published response, the outlet's headline quoted and credited
+  const replyLine = (k, p) => { const r = p.group === "player" && (D.replies || {})[k]; return r ? `<span class="pl-reply">Response · ${esc(r.src)}: “${esc(r.h)}”</span>` : ""; };
+  const card = ([k, p], n) => `<button type="button" class="pl-voice${n >= TOPN ? " pl-vx" : ""}" data-k="${k}" aria-pressed="false">${p.img ? `<img src="${p.img}" alt="">` : `<i class="pl-av" aria-hidden="true">${esc(p.n.split(/\s+/).map((w) => w[0]).slice(0, 2).join("").toUpperCase())}</i>`}<span>${nameTag(p, partyMark(p))}<span>${esc(p.role || p.o)}</span>${replyLine(k, p)}${lastLine(k)}</span><em>${cnt(k)}</em></button>`;
   const grid = (list, label) => `<div class="pl-vgrid"><div class="pl-voices">${list.map(card).join("")}</div>${list.length > TOPN ? `<button type="button" class="pl-vall" aria-expanded="false" data-n="${list.length}" data-l="${label}">Show all ${list.length} ${label}</button>` : ""}</div>`;
   function peopleSections() {
     const J = Object.entries(D.journalists);

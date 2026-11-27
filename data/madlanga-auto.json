@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T12:43:18Z",
+  "updated": "2026-11-27T12:59:15Z",
   "today": {
     "day": 202,
     "live": {
@@ -17,13 +17,6 @@
     }
   },
   "reports": [
-    {
-      "src": "IOL",
-      "logo": "iol",
-      "h": "Madlanga Commission hears of chilling messages sent to Tamryn Raju before her murder",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPLUs0cDB0cG5hQXp2cmE4Y0JuV2VhLUVNSDVzQk9GT0RVeWRsbk41UjNKRGZfRHJWLWJlUXJnaENsVktXeTAya2g2ek5DQzg2bVpSMnpfdl9ZUzM2QVJkVEtvcHB3MVNZVFpIYXNFNEVLSTk3a0czeW9waC1rWHBqY1F5NjhESWc3eU9PeWp6eWNrLTZKeHlkSkpmcWRlaE40MFg1ZERSWFdZWXJBdlNhYWNUcmI4S3EtMU5wdWNqRHpJM19EdlBBcHc0dEtvUGM?oc=5",
-      "d": "2026-11-27T12:00:00Z"
-    },
     {
       "src": "Jacaranda FM",
       "logo": "jacarandafm",
@@ -65,13 +58,6 @@
       "h": "Madlanga Commission sees messages showing victim being threatened before her murder",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcFZ3TzlhRHRnWlJYUWxOV1ZNSjJNY3luS0RkS2RCZ1d4ZnUycE5GeXNHbUwzV0hUdXJvTXZoSmh0UXJUSFY2RGVIOEVmLWZhdlhCcWlERkpLYnRDRnB3Yl9DZGQ5T213OTZYQnBvMW5XcDRBSDdlYU85TEZpY2RnMXE0cWFaS0tqSVJtWWFTVnBpamJQNmcyZ0ZwOTNfd0JZdVA0NDRraVZnNFl5dVdVYnd5NU4tZ1k?oc=5",
       "d": "2026-11-27T09:32:14Z"
-    },
-    {
-      "src": "SABC News",
-      "logo": "sabcnews",
-      "h": "Madlanga Commission hears how Tamryn Raju paid the ultimate price",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNDlVSjJWU3dibkJPTS12Wlp1ZTdxbF9pRFgzLWxoT0JhYS1TMmtyMmZqcVZCSTBvSGhBNURTZzNfWEZaSmV4dnVGRzZKVDE1TTY5OFJESkNGcUNoc2JMdFZEdnl4RExEWlpvcllzbEJ2QXJoajRsUTdYTThZTWpDSFY4cWNJNWZTVDY2eHV2dXNJRWpDVE52Q3g4WmFMRXpyYUZnYXpn?oc=5",
-      "d": "2026-11-27T08:12:13Z"
     },
     {
       "src": "EWN",
@@ -123,18 +109,11 @@
       "d": "2026-11-27T03:43:42Z"
     },
     {
-      "src": "IOL",
-      "logo": "iol",
-      "h": "Witness T alleges Clive Naicker ordered Tamryn Raju’s killing to 'silence her'",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYklJZm1VZEgtajhQQ1B1UjBfOWxINzEzTlVTTHBUZ2RhU1Jac3VHdzF0YWIzZF9DUzZQek04QWFnYnRuUzFIQkZOZkozVW1abWY2ZDA1S1NVWHlJTjJFclNTN1lqSUxsWXp6MmxXVERsRUd1RmFFdjVDeGFWcVF4T2hLbnNwNWdOc05MVUZNS1FWNkUwVlVid1BzSC1ha2RNel9oc3Q4RE85M3BKdUxkWWFMdldaQ0NlTHc?oc=5",
-      "d": "2026-11-27T03:14:33Z"
-    },
-    {
       "src": "News24",
       "logo": "news24",
       "h": "‘Witness T’ accuses Naicker of murdering own niece, says she gathered evidence against him",
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPQ3oxYV9qQ0Qza2FyVmRFRlZpS1hFcjBuR25sREJGRFBFQkxfMEQzZzh4TDV3QUpudHJWSmM1STJzdGIzdVYzcVVKZnp4d0tsUW9LUjJqWW9mekh0cHZfd1JsTkNzZGp4d0l1WFNLQlZPRUVieWRpYjdZcFloTXV3MWZram5iVGV3Q1VOZGtNZHVIUV84a3JuNXhpQ3JOTlFaXzlCbG5Fa0ljLVZhSGtacy1ENnFsOUdiR1ZIU3JXbTN1QjIwT0xaZ2pOR1ExZl9MQVJWcXVLYVU3N2hxd0FMdS1uOFUyTlpM?oc=5",
-      "d": "2026-11-27T02:02:36Z"
+      "d": "2026-11-27T02:32:36Z"
     },
     {
       "src": "Daily Maverick",
@@ -156,6 +135,27 @@
       "h": "RECORDED | Former Sars boss Kieswetter continues testimony at Madlanga inquiry",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMXdYRFhqbG52X1cyMmFHNjNKbFlUV1NGU1ZXX2l2cmZhQWhWeHJaSmd4b1NrcVpfbXFXVlZxSWJMZWpOSFkwYXJscmlKMWkyUHljelFvRlVwTERxc1Z4cm5EX1J1SFZPRGtQZXRqak1aeWxMTk9Lc0hYcm11aVV1bFgyQVA5LUlJTi1RRmx4ZmM2ajlVS200RkxSckZ2bTFlM19xN19keXp1b1Z6bUFJSVdzVVBXR09BSjc4QUd1bzgzbERKV2c?oc=5",
       "d": "2026-11-26T07:53:01Z"
+    },
+    {
+      "src": "TimesLIVE",
+      "logo": "timeslive",
+      "h": "WATCH LIVE | Former Sars commissioner Kieswetter continues testimony at Madlanga inquiry",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdXdkX2ctQUw0S3ltcWFkazRjNEtsWldqUDYwb2d2S2pmNkxTa1ZTZ01vRFRISzQ4YnE2YUVlM0tzVUlJNDk5Sk1uN2lUbHh2SS1GSUY0aFJsM0s0LU5sZ21zcUJIVnpGUDV2Z2VlcUpDZTE1YjBsQUNfMUoxTmJHakxTVmZYUDJyYzd4M2NsSi1nLTZsSXRKZkF6WElydWZ5aFhJUHFTZHk1Mm5nTVpTV1lfYlJqYy0wQVZkWjhxUEZBM3plaHEzWlpVYlZoelRG?oc=5",
+      "d": "2026-11-26T07:53:01Z"
+    },
+    {
+      "src": "eNCA",
+      "logo": "enca",
+      "h": "LIVESTREAM | Kieswetter returns to Madlanga Commission",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPc0taT2dlTVY5YVNqTG5CTDZmaU05dnhsMHJ5cjBmYW53VFYxVk11ZkJKVWlUdGdVY1JuUnM2WVZpTlh1UFI2Nlc2TVV4ZjJWQUFMbmJDOVk1OHU3RWtqZDFDN3lteGdrYWlHOUpEaWtyYjE4dGtIS2E2MGlsemxfNDY3a3E0a3RmNjJkWVVZcDk?oc=5",
+      "d": "2026-11-26T07:33:28Z"
+    },
+    {
+      "src": "SABC News",
+      "logo": "sabcnews",
+      "h": "Witness T testifies that Clive Naicker is a known drug dealer",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWW91emsxSG5wMmwzZS1xNXZYUUpNTTFKQldueGR6RjkzaU8wSThtM3h2RklJM1BLdzg2MDh1T3poVzc0RUpZY1daT2lRUDBhQzJYS0NBYi1KSXJHa3VmNENRVTNpbVplT29Zano4TE1oaVMzVDhaMkN0Tlo5TlhncVdra0dfN3ZLZ09nVWdlcmF2ckNoUFNtYTU2Q3U?oc=5",
+      "d": "2026-11-26T05:17:31Z"
     }
   ],
   "people": {
@@ -190,18 +190,11 @@
           "d": "2026-11-27T07:33:32Z"
         },
         {
-          "src": "IOL",
-          "logo": "iol",
-          "h": "Witness T alleges Clive Naicker ordered Tamryn Raju’s killing to 'silence her'",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYklJZm1VZEgtajhQQ1B1UjBfOWxINzEzTlVTTHBUZ2RhU1Jac3VHdzF0YWIzZF9DUzZQek04QWFnYnRuUzFIQkZOZkozVW1abWY2ZDA1S1NVWHlJTjJFclNTN1lqSUxsWXp6MmxXVERsRUd1RmFFdjVDeGFWcVF4T2hLbnNwNWdOc05MVUZNS1FWNkUwVlVid1BzSC1ha2RNel9oc3Q4RE85M3BKdUxkWWFMdldaQ0NlTHc?oc=5",
-          "d": "2026-11-27T03:14:33Z"
-        },
-        {
           "src": "News24",
           "logo": "news24",
           "h": "‘Witness T’ accuses Naicker of murdering own niece, says she gathered evidence against him",
           "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPQ3oxYV9qQ0Qza2FyVmRFRlZpS1hFcjBuR25sREJGRFBFQkxfMEQzZzh4TDV3QUpudHJWSmM1STJzdGIzdVYzcVVKZnp4d0tsUW9LUjJqWW9mekh0cHZfd1JsTkNzZGp4d0l1WFNLQlZPRUVieWRpYjdZcFloTXV3MWZram5iVGV3Q1VOZGtNZHVIUV84a3JuNXhpQ3JOTlFaXzlCbG5Fa0ljLVZhSGtacy1ENnFsOUdiR1ZIU3JXbTN1QjIwT0xaZ2pOR1ExZl9MQVJWcXVLYVU3N2hxd0FMdS1uOFUyTlpM?oc=5",
-          "d": "2026-11-27T02:02:36Z"
+          "d": "2026-11-27T02:32:36Z"
         },
         {
           "src": "EWN",
@@ -244,6 +237,13 @@
           "h": "RECORDED | ‘Witness T’ takes the stand at Madlanga commission",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeGozcjF1dHNzQ0JBblBCT3JhR3pIaTR3dDZROHpPZUh5Rzk5cVpMRldDZEJoX2RiXzBObnpOV00yVEFfdzgxQ1VnNHhYSnFtbF9rdjhJSmx0OUtudTBMOTZDbUVKQlZYRjVXVzUwVW95R2ZHYUZsT0xkeEtfWEN0eVlIUnNXTzBsXzVVMi0zakNNR29JU0dJXy1pTkRpLUhNR3N3bw?oc=5",
           "d": "2026-11-24T07:31:55Z"
+        },
+        {
+          "src": "SABC News",
+          "logo": "sabcnews",
+          "h": "Concerns raised over Witness T’s safety",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TNFFPMmQ2OTBGREJxQ3pydjBiTlFnMGZYMy1Rc1BVazYwcE1BTW5xV2VYb1FTeU0xc2Z2aTV6OWZXbzVOSmRKNlNfRjNGcDBNNkNJUkJ4YzlncWt3ZXBlNWZjRmVuY2ZKOTRYY0lQZS1URGlUOE9PdWZGWnZRQQ?oc=5",
+          "d": "2026-11-24T06:04:46Z"
         }
       ]
     },
@@ -399,18 +399,11 @@
           "d": "2026-11-27T03:43:42Z"
         },
         {
-          "src": "IOL",
-          "logo": "iol",
-          "h": "Witness T alleges Clive Naicker ordered Tamryn Raju’s killing to 'silence her'",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYklJZm1VZEgtajhQQ1B1UjBfOWxINzEzTlVTTHBUZ2RhU1Jac3VHdzF0YWIzZF9DUzZQek04QWFnYnRuUzFIQkZOZkozVW1abWY2ZDA1S1NVWHlJTjJFclNTN1lqSUxsWXp6MmxXVERsRUd1RmFFdjVDeGFWcVF4T2hLbnNwNWdOc05MVUZNS1FWNkUwVlVid1BzSC1ha2RNel9oc3Q4RE85M3BKdUxkWWFMdldaQ0NlTHc?oc=5",
-          "d": "2026-11-27T03:14:33Z"
-        },
-        {
           "src": "News24",
           "logo": "news24",
           "h": "‘Witness T’ accuses Naicker of murdering own niece, says she gathered evidence against him",
           "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPQ3oxYV9qQ0Qza2FyVmRFRlZpS1hFcjBuR25sREJGRFBFQkxfMEQzZzh4TDV3QUpudHJWSmM1STJzdGIzdVYzcVVKZnp4d0tsUW9LUjJqWW9mekh0cHZfd1JsTkNzZGp4d0l1WFNLQlZPRUVieWRpYjdZcFloTXV3MWZram5iVGV3Q1VOZGtNZHVIUV84a3JuNXhpQ3JOTlFaXzlCbG5Fa0ljLVZhSGtacy1ENnFsOUdiR1ZIU3JXbTN1QjIwT0xaZ2pOR1ExZl9MQVJWcXVLYVU3N2hxd0FMdS1uOFUyTlpM?oc=5",
-          "d": "2026-11-27T02:02:36Z"
+          "d": "2026-11-27T02:32:36Z"
         },
         {
           "src": "EWN",
@@ -609,7 +602,7 @@
     },
     "karyn-maughan": {
       "n7": 7,
-      "last": "2026-11-27T02:02:36Z"
+      "last": "2026-11-27T02:32:36Z"
     },
     "rebecca-davis": {
       "n7": 0,
@@ -641,7 +634,7 @@
     },
     "bongani-hans": {
       "n7": 0,
-      "last": "2026-07-10T07:00:00Z"
+      "last": "2026-09-28T07:00:00Z"
     },
     "kyle-cowan": {
       "n7": 0,
