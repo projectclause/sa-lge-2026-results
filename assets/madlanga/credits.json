@@ -4,9 +4,22 @@
     "mbuyiseli-madlanga": {
       "name": "Mbuyiseli Madlanga",
       "role": "Chair, Madlanga Commission",
-      "files": ["assets/madlanga/mbuyiseli-madlanga.jpg", "assets/madlanga/mbuyiseli-madlanga-320.jpg"],
+      "files": [
+        "assets/madlanga/mbuyiseli-madlanga.jpg",
+        "assets/madlanga/mbuyiseli-madlanga-320.jpg"
+      ],
       "credit": "Madlanga Commission",
       "source": "https://madlangacommission.co.za/commissioners/mbuyiseli-madlanga"
+    },
+    "sesi-baloyi": {
+      "name": "Sesi Baloyi SC",
+      "role": "Commissioner, Madlanga Commission",
+      "files": [
+        "assets/madlanga/sesi-baloyi.jpg",
+        "assets/madlanga/sesi-baloyi-320.jpg"
+      ],
+      "credit": "",
+      "source": ""
     }
   }
 }
