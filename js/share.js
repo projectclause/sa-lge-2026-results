@@ -5,7 +5,7 @@
   "use strict";
   const W = 1080, H = 1920, PX = 72;
   const INK = "#141821", INK2 = "#5a6272", INK3 = "#7a8291", NAVY = "#051C2C", BLUE = "#1d3f73", BG = "#f7f7f5", RULE = "#dfe2e8";
-  const SANS = '"DM Sans", system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif';
+  const SANS = '"Libre Franklin", system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif';
   const HEAD = '"Cooper Hewitt", ' + SANS;
 
   let fontsReady = null;
@@ -14,8 +14,8 @@
     const ff = typeof FontFace !== "undefined" ? new FontFace("Cooper Hewitt", "url(assets/fonts/CooperHewitt-Semibold.woff2)", { weight: "600" }) : null;
     fontsReady = Promise.all([
       ff ? ff.load().then((f) => document.fonts.add(f)).catch(() => {}) : null,
-      document.fonts ? document.fonts.load(`700 20px "DM Sans"`) : null,
-      document.fonts ? document.fonts.load(`500 20px "DM Sans"`) : null,
+      document.fonts ? document.fonts.load(`700 20px "Libre Franklin"`) : null,
+      document.fonts ? document.fonts.load(`500 20px "Libre Franklin"`) : null,
       document.fonts ? document.fonts.ready : null
     ]);
     return fontsReady;

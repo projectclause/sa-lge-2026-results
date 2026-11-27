@@ -1,5 +1,5 @@
 /* SAFFA: South Africans around the world. A globe of the diaspora and South Africa's missions abroad. */
-.sf { --sf-green: #007a4d; --sf-green2: #2f9e6e; --sf-gold: #ffb612; --sf-ink: #121212; --sf-paper: #f6f4ef; --sf-land: #dedad1; --sf-serif: var(--font);
+.sf { --sf-green: #007a4d; --sf-green2: #2f9e6e; --sf-gold: #ffb612; --sf-ink: #121212; --sf-paper: #f6f4ef; --sf-land: #dedad1; --sf-serif: var(--serif);
   max-width: 1180px; margin: 0 auto; padding: 28px 20px 48px; }
 
 /* headline block */

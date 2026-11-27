@@ -32,7 +32,7 @@
 .xm-search { position: relative; height: 44px; display: flex; align-items: center; gap: 8px; padding: 0 4px 0 12px; background: #fff; border: 1px solid #c7c7c7; border-radius: 3px; }
 .xm-search:focus-within { border-color: #121212; }
 .xm-search > svg { width: 17px; height: 17px; color: #727272; flex: none; }
-.xm-search input { flex: 1; min-width: 0; height: 100%; border: 0; outline: 0; background: none; font: 500 15px var(--font, "DM Sans", sans-serif); color: #121212; }
+.xm-search input { flex: 1; min-width: 0; height: 100%; border: 0; outline: 0; background: none; font: 500 15px var(--font); color: #121212; }
 .xm-search input::placeholder { color: #8a8a8a; }
 .xm-loc { flex: none; width: 36px; height: 36px; display: grid; place-items: center; border: 0; border-left: 1px solid #e2e2e2; background: none; color: #1f5fc2; cursor: pointer; }
 .xm-loc svg { width: 17px; height: 17px; }
@@ -45,11 +45,11 @@
 .xm-sug li.xm-sug-a { border-top: 1px solid #ececec; }
 .xm-sug li.xm-sug-a b { color: #1f5fc2; }
 .xm-modes { display: flex; align-self: flex-start; height: 36px; padding: 3px; background: #f1f1f1; border-radius: 3px; }
-.xm-modes button { padding: 0 14px; border: 0; border-radius: 2px; background: none; font: 600 13.5px var(--font, "DM Sans", sans-serif); color: #363636; cursor: pointer; }
+.xm-modes button { padding: 0 14px; border: 0; border-radius: 2px; background: none; font: 600 13.5px var(--font); color: #363636; cursor: pointer; }
 .xm-modes button[aria-pressed="true"] { background: #121212; color: #fff; }
 
 .xm-zoom { position: absolute; z-index: 5; top: 18px; right: 18px; display: flex; flex-direction: column; background: #fff; border: 1px solid #c7c7c7; border-radius: 3px; box-shadow: 0 1px 4px rgba(0,0,0,.12); overflow: hidden; }
-.xm-zoom button { width: 38px; height: 38px; display: grid; place-items: center; border: 0; background: #fff; font: 500 22px/1 var(--font, "DM Sans", sans-serif); color: #121212; cursor: pointer; }
+.xm-zoom button { width: 38px; height: 38px; display: grid; place-items: center; border: 0; background: #fff; font: 500 22px/1 var(--font); color: #121212; cursor: pointer; }
 .xm-zoom button + button { border-top: 1px solid #e2e2e2; }
 .xm-zoom button:hover { background: #f3f3f3; }
 .xm-zoom svg { width: 16px; height: 16px; }
@@ -88,7 +88,7 @@
 .xm-card .xm-tip-h { font-size: 20px; padding-right: 30px; }
 .xm-card .xm-row .c span { white-space: normal; }
 .xm-name { font-weight: 400; color: #727272; }
-.xm-share { margin-top: 8px; padding: 0; border: 0; background: none; font: 600 12.5px var(--font, "DM Sans", sans-serif); color: #1f5fc2; cursor: pointer; }
+.xm-share { margin-top: 8px; padding: 0; border: 0; background: none; font: 600 12.5px var(--font); color: #1f5fc2; cursor: pointer; }
 .xm-msg { position: absolute; z-index: 9; left: 50%; bottom: 18px; transform: translateX(-50%); margin: 0; max-width: calc(100% - 40px); padding: 8px 14px; border-radius: 4px; background: #121212; color: #fff; font-size: 13.5px; font-weight: 600; text-align: center; }
 
 /* the article under the map */
