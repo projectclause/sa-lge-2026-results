@@ -1337,3 +1337,5 @@ body.has-ask { padding-bottom: 96px; }
 .pl-top3 .pl-stmore[aria-expanded="true"]::after { transform: translateY(2px) rotate(-135deg); }
 /* right of reply on key players' cards (data/coalition-replies.json) */
 .pl-voice .pl-reply { display: block; margin-top: 2px; font-size: 12.5px; line-height: 1.35; color: #1f5fc2; }
+/* home page: "Results by municipality" heading centred at 13pt on computers */
+@media (min-width: 721px) { .rs-bymuni h2 { text-align: center; font-size: 13pt; } }
