@@ -1308,7 +1308,7 @@ body.has-ask { padding-bottom: 96px; }
 .bc-wrap .rs-top .rs-title { font-size: clamp(34px, 4.6vw, 46px); line-height: 1.05; letter-spacing: -.02em; }
 @media (max-width: 720px) { .bc-wrap .rs-top .rs-title { font-size: 30px; line-height: 1.1; } }
 /* Mayors page: deputy mayor handover card, above the council and mayor */
-.my-dep { border: 1px solid #e3e7ee; border-left: 4px solid #121212; padding: 14px 18px; margin: 0 0 14px; }
+.my-dep { border: 1px solid #e3e7ee; border-left: 4px solid #121212; padding: 14px 18px; margin: 14px 0 0; }
 .my-dep-row { display: flex; align-items: center; gap: 14px; margin-top: 10px; flex-wrap: wrap; }
 .my-dep-old { display: grid; color: var(--muted); } .my-dep-old b { position: relative; justify-self: start; font-size: 16px; color: var(--ink2); } .my-dep-old b::after { content: ""; position: absolute; left: 0; top: 52%; height: 1.5px; width: 100%; background: currentColor; } .my-dep-old.same b::after { display: none; } .my-dep-old span { font-size: 12.5px; }
 .my-dep-arw { font-size: 22px; color: var(--muted2); }
