@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T09:31:41+02:00",
+  "updated": "2026-11-27T11:18:18+02:00",
   "people": {
     "elon-musk": [
       {
@@ -15,7 +15,7 @@
         "t": "2026-11-27T07:18:19+02:00"
       },
       {
-        "h": "SpaceX shares jump on alternative trading platform after Musk says he will expand share donations",
+        "h": "SpaceX shares jump on alternative trading platform after Musk says he will expand on Trump Account share donations",
         "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9iX2dPZU9nMG94cXpkbmdGX1U0UERabDlfcGxmd2t1TlZZM0JTNmdpNnhJLTFFYU5UQkJ4Xy1wakExQ1owb3I4VkVkTFRlUHhJZllZaDQxTzMxY0hwN2tzczc1cFdpNjdGQjI0cVRWMlh1c2vSAXhBVV95cUxPdU9oSTZCWkhiWEZEVUowaXJkSDlvalBJQ3Q4dGlydDFCYWhxYmpnejFJTXhkN1g4SzNEYjVoeVloWTQwODdNVnhGZW9yMUJmLWh1cDRCTThYd2NIcmItSTdLV3JrQmR2Z1lfZ2MtaVdSMjVHc0pubEU?oc=5",
         "src": "CNBC",
         "t": "2026-11-27T06:20:00+02:00"
@@ -43,6 +43,12 @@
     ],
     "peter-thiel": [
       {
+        "h": "Peter Thiel buys $122M in Palantir shares amid slowing contract growth and high valuation.",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdzd0R0tnSGVxakl3eFY5ZnVyaHZDcVJGQURXV0NINndOZ0NqQzBmYzAxWXZaOXRzU0piWUhEalRyeHpoSDJqc2FqR2VVck0tLW1xakQ4ZGx6b18wQU9Bdm81OTRUcVZqSE9GYTAyUXBsd3h5Tm1KN0NUNWV4SVREY3BUM2dQVzRNdW1Tb3l1dkhfNnRnbmR4TnhXaGE?oc=5",
+        "src": "Pluang",
+        "t": "2026-11-27T11:04:14+02:00"
+      },
+      {
         "h": "Peter Thiel’s playbook and the hollowing out of Australian democracy",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQWxZbGdTUTFQcXB1YUhVTlpqR3MtWXVVaW9DZG9pSDJNVndNeTJqbkgwREdLMWpZR2pmNU85NkxXMThZN3J1MUtvVDZWZExaSk51dEZNdDlMb0lBLWhpRldsX1NHeTQwUDE5V1NpWEtqYm9oSnV1M1E2ck1qVEdJd1VqTTJJMFI4Zi1kY19hNmlIWlRFUEw0MUZXZlJtQWp3YjdIR1Q3YnYyeTh4RTBpQXc0cG1TVHVXWUpNLVNCcFhWMld6Q2JEZEVtYmw?oc=5",
         "src": "Independent Australia",
@@ -53,12 +59,6 @@
         "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPaEZ4V01xUjhrMWlKZ0prX2RaLVRFdHNyVUtvN3o4UzFORUM1Z2VYZHJQTElJbFJCUXV5bTFnano5VmY5TUttbFFMbTF0WlFmSUpfaTBGb25Hbk02WHYwY0gxYXBvdmxGS2c2alUzOGVxWEdMNmxkUGRMLVVBd0tiQjFCSEc2U2dWRDg3cU1FVDEyM1NqenI5RVlFV2lHTGpqYVV1b2VSaVltNXYtS3hWeUpYbUVnbEVLQUt4TFoteWoxYVVEN1JHTFB4YTlZTEtVMUg4S2hqbzY5bkNEbHp1WkNjRjFld01nWUVVeTZyN3dmd2lnbnFsU1ZrZnJiZXRaRGFGcnYyMjBWdnhveFBrNXR5Snc4UTFmYzNCYUhsUEVZSnJ5N0xTdjJyQm9KUVRDUEJPRVVuTk5Vb1RTZWs5SWZ0Yng1SFZM?oc=5",
         "src": "GuruFocus",
         "t": "2026-11-26T20:48:45+02:00"
-      },
-      {
-        "h": "Palantir Stocks Rise 1.5% After Peter Thiel Discloses a $122 Million Share Purchase",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbjMtTW1nYmpGMWo0T1BuMU9ILXJ3Mzg3WGZ3NksxUnJnYWlpOHUtRExWSFdLak1GbnRKVHRIRjFrUElkLTV5UWoxY1NlZFI5X2owc0RHNWYyWERWRGVoaDRYdjZYbEJTQjJDZmlVYmlNQUZoSFd4aWdUa1pzRkloZ05xTHp0SEM0V210aUROTGRLdXBPdkpzdldOM093MzE0LXA3bUg5TTZycDgya3lpRC1JeVBCeDVWdW15S0g3ZF9DRmhnQWN1N3JHR3FnWTNRRmstWnVSTUY?oc=5",
-        "src": "TradingView",
-        "t": "2026-11-26T20:36:42+02:00"
       }
     ],
     "thuso-mbedu": [
@@ -560,11 +560,11 @@
     ]
   },
   "week": {
-    "elon-musk": 91,
+    "elon-musk": 93,
     "trevor-noah": 1,
-    "peter-thiel": 37,
+    "peter-thiel": 35,
     "thuso-mbedu": 1,
-    "tyla": 9,
+    "tyla": 10,
     "roelof-botha": 2,
     "black-coffee": 6,
     "david-sacks": 1,
@@ -587,7 +587,7 @@
     "troye-sivan": 3,
     "cariba-heine": 2,
     "dean-geyer": 0,
-    "marnus-labuschagne": 9,
+    "marnus-labuschagne": 10,
     "maxine-fassberg": 0,
     "brian-joffe": 0,
     "morris-kahn": 0,
