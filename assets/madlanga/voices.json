@@ -33,7 +33,8 @@
       "k": "alex-patrick",
       "n": "Alex Patrick",
       "o": "TimesLIVE",
-      "img": "assets/journalists/alex-patrick.jpg"
+      "img": "assets/journalists/alex-patrick.jpg",
+      "logo": "timeslive"
     },
     {
       "k": "tshidi-madia",
@@ -97,7 +98,8 @@
       "k": "jeanette-chabalala",
       "n": "Jeanette Chabalala",
       "o": "TimesLIVE",
-      "img": "assets/journalists/jeanette-chabalala.jpg"
+      "img": "assets/journalists/jeanette-chabalala.jpg",
+      "logo": "timeslive"
     },
     {
       "k": "tebogo-monama",
@@ -110,7 +112,8 @@
       "k": "graeme-hosken",
       "n": "Graeme Hosken",
       "o": "TimesLIVE",
-      "img": "assets/journalists/graeme-hosken.jpg"
+      "img": "assets/journalists/graeme-hosken.jpg",
+      "logo": "timeslive"
     }
   ]
 }
