@@ -108,7 +108,7 @@
     "geordin": {
       "n": "Geordin Hill-Lewis",
       "o": "DA",
-      "role": "DA leader",
+      "role": "DA leader, re-elected mayor of Cape Town",
       "img": "assets/journalists/geordin-hill-lewis.jpg",
       "group": "player",
       "org": "DA",
@@ -194,7 +194,7 @@
     "moya": {
       "n": "Nasiphi Moya",
       "o": "ActionSA",
-      "role": "ActionSA, mayor of Tshwane",
+      "role": "ActionSA, re-elected mayor of Tshwane",
       "img": "assets/journalists/nasiphi-moya.jpg",
       "group": "player",
       "org": "ASA",
@@ -298,7 +298,7 @@
     "brink": {
       "n": "Cilliers Brink",
       "o": "DA",
-      "role": "DA mayoral candidate, Tshwane",
+      "role": "DA, its 2026 Tshwane mayoral candidate",
       "img": "assets/journalists/cilliers-brink.jpg",
       "group": "player",
       "org": "DA",
@@ -670,7 +670,7 @@
     "phakathi": {
       "n": "Mxolisi Phakathi",
       "o": "MK Party",
-      "role": "MK mayoral candidate, eThekwini",
+      "role": "MK, mayor of eThekwini",
       "img": "assets/journalists/mxolisi-phakathi.jpg",
       "group": "player",
       "org": "MK",
@@ -1050,6 +1050,56 @@
       "group": "voice",
       "org": "Newzroom Afrika",
       "beat": "analysis"
+    },
+    "odendaal": {
+      "n": "Retief Odendaal",
+      "o": "DA",
+      "role": "DA, mayor of Nelson Mandela Bay",
+      "img": "assets/faces/circ/retief-odendaal.png",
+      "group": "player",
+      "org": "DA",
+      "core": true
+    },
+    "faku": {
+      "n": "Princess Faku",
+      "o": "ANC",
+      "role": "ANC, re-elected mayor of Buffalo City",
+      "img": "assets/mayors/buffalo-city/princess-faku.jpg",
+      "group": "player",
+      "org": "ANC"
+    },
+    "mketsu": {
+      "n": "Mziyanda Mketsu",
+      "o": "ANC",
+      "role": "ANC, expected mayor of Ekurhuleni",
+      "img": "assets/mayors/ekurhuleni/mziyanda-mketsu.png",
+      "group": "player",
+      "org": "ANC",
+      "core": true
+    },
+    "marema": {
+      "n": "Adolph Marema",
+      "o": "ANC",
+      "role": "ANC, Speaker of Johannesburg",
+      "img": "assets/faces/circ/adolph-marema.png",
+      "group": "player",
+      "org": "ANC"
+    },
+    "patel": {
+      "n": "Naeem Patel",
+      "o": "ANC",
+      "role": "ANC, Speaker of Tshwane",
+      "img": "assets/faces/circ/naeem-patel.png",
+      "group": "player",
+      "org": "ANC"
+    },
+    "nyawose": {
+      "n": "Thabani Nyawose",
+      "o": "ANC",
+      "role": "ANC, Speaker of eThekwini",
+      "img": "assets/mayors/ethekwini/thabani-nyawose.jpg",
+      "group": "player",
+      "org": "ANC"
     }
   },
   "items": [
