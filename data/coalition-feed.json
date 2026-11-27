@@ -4435,24 +4435,28 @@
     }
   ],
   "edition": {
-    "date": "2026-11-24",
-    "time": "09:00"
+    "date": "2026-11-27",
+    "time": "11:15"
   },
   "events": [
     {
       "id": "johannesburg",
       "cat": "Johannesburg",
       "place": "City of Johannesburg",
-      "h": "Joburg will elect its mayor on Friday as parties finish their deal",
-      "dek": "All 270 councillors were sworn in on Monday, but the election of a mayor, deputy mayor and speaker now waits until Friday, 27 November. The ANC, ActionSA, EFF and MK deal that would make Mashaba mayor is in its final stages but still to be signed.",
+      "h": "Joburg council meets to elect a mayor as reports say MK is out of the deal",
+      "dek": "Johannesburg’s council reconvened on Friday, 27 November, to elect a mayor, deputy mayor and speaker. News24 reports MK is out as the coalition deal falls into place in Gauteng’s metros, after Sunday World reported a standoff with MK had put the Joburg deal at risk and the Mail & Guardian reported MK had given the ANC a deadline.",
       "brief": [
+        "The council reconvened on Friday morning to elect a speaker, mayor and deputy mayor, Inside Politics and eNCA report",
+        "News24 reports MK is out as the coalition deal falls into place in Gauteng’s metros",
+        "Sunday World reported on Thursday that a standoff with MK put the Joburg deal at risk; the Mail & Guardian reported MK had given the ANC a deadline over the deal",
+        "The Mail & Guardian reports the ANC’s Nomoya Mnisi and Thapelo Radebe are among names discussed for deputy mayor, a post IOL and Sunday World had said MK’s Bongani Baloyi was expected to take",
+        "Briefly News reports Mashaba is standing firm as the row with MK threatens the coalition",
         "Helen Zille, Herman Mashaba and the rest of the 270 councillors were sworn in on Monday",
         "Parties agreed to postpone the election of the speaker, mayor and deputy mayor; EWN now expects the mayor to be elected on Friday, 27 November",
         "Ekurhuleni’s council sits on Wednesday and Tshwane’s on Thursday, EWN reports",
         "MK said it would be back to elect Mashaba; other parties said they would not vote for Zille",
         "The DA had asked for a postponement; Zille told eNCA it would not delay the council through the courts",
-        "The ANC, ActionSA, EFF and MK together hold 137 of 270 seats, one more than a majority, The National reports",
-        "The deal would make Mashaba mayor; IOL and Sunday World report MK’s Bongani Baloyi is expected to be his deputy"
+        "The ANC, ActionSA, EFF and MK together hold 137 of 270 seats, one more than a majority, The National reports"
       ],
       "sec": [
         [
@@ -4486,6 +4490,10 @@
         [
           "Tuesday, 24 November",
           "Early on Tuesday, Alpha Ramushwana reported for EWN that parties were in the final stages of their coalition negotiations and that Johannesburg’s new mayor is now expected to be elected on Friday. He reported that Ekurhuleni’s council will sit on Wednesday and Tshwane’s only on Thursday."
+        ],
+        [
+          "Friday, 27 November",
+          "On Thursday, the Mail & Guardian reported that MK had issued the ANC a deadline over the coalition deal, and Sunday World reported that a standoff with MK put the Johannesburg deal at risk. Early on Friday, News24 reported that MK was out as the coalition deal fell into place in the Gauteng metros, after Tshwane re-elected Nasiphi Moya on Thursday, and Briefly News reported that Mashaba was standing firm as the row threatened the Johannesburg coalition. The Mail & Guardian reported that the ANC’s Nomoya Mnisi and Thapelo Radebe were among the names discussed for deputy mayor. The council reconvened on Friday morning to elect its leadership."
         ]
       ],
       "items": [
