@@ -100,6 +100,16 @@
       ],
       "credit": "Madlanga Commission",
       "source": "https://madlangacommission.co.za/"
+    },
+    "teboho-mosikili": {
+      "name": "Teboho Mosikili",
+      "role": "Madlanga Commission",
+      "files": [
+        "assets/madlanga/teboho-mosikili.jpg",
+        "assets/madlanga/teboho-mosikili-320.jpg"
+      ],
+      "credit": "Madlanga Commission",
+      "source": "https://madlangacommission.co.za/"
     }
   }
 }
