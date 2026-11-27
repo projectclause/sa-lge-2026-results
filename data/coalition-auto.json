@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-27",
-    "time": "01:03"
+    "time": "02:02"
   },
   "items": [
     {
@@ -2308,6 +2308,24 @@
         "h": "ActionSA takes Tshwane mayor as coalitions with ANC set to sweep GP metros",
         "d": "2026-11-26",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMlRVYzZqNW5ua2pWcl9JTjVnZ041R1A2Ukp2Um9YdEtmQzdtOXExam9ZVi1sZGdRWGR2S2tNRzlQTGZsTmNXNnVPLWlfS3lqek1SSm5pQUE5NmpsamVNbmJOajNtUkI5cGtoMW55eVhiRVRtNU42MWprUGVYaWNDUGNXZ1lfWVdHQ1FrUkRBdDhnd2YxRzd0ZVNfLXlMbDMwVHBvNTNmbG9Gc0w0bmU1aGlEc2dwakI5bm85WThBWTc5UEEw?oc=5"
+      },
+      {
+        "src": "Sunday Tribune",
+        "h": "WATCH: EFF’s Omphile Maotwe poised to become Tshwane deputy mayor as Mashaba backs Moya for another five years",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNcWpSRWI2bkFDM25KY3pZNUJUQW9aYjFvRWVOUnlUU0kxUDJla2tzeVpRM0IyYXV0MWJoVmxzRXNOd01QaV9IbjNua2tFQS1HVTNOTllRZHdBTWhENndoNGg3dTNZUFgySUpST0hRX3FuX3NKa2FuN2FMSzdEZWVkdm9Kb0Y2NkdXb2tjQ3NZbzAyX1dFNHJJRUxrNFFlZ2k3aXJvRlVEV2txdGpWdnVFQW9hMDF3Z2xfUG1QUlVuREk0aDRyX0U4UGRXQjVVMVJJNnRGajA0czdpQ19OTG9CRnJfLU1QM1NFcE9HOA?oc=5"
+      },
+      {
+        "src": "Sunday Tribune",
+        "h": "Confirmed: Nasiphi Moya re-elected as Tshwane Mayor",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNc3F2REg3NGlxTE1ldmFpdEJUYUtJVzdMWkhUaXZmNlhtQk00bmZmNkxMdlZkY1VOUnFxRDllV3ZqVlBKUFh2MXNUenAtT0E2RXRudkRIdHBlS05JeTBhbkhlYWFrbjVxV2NUdzN2a0w4bVZTeE9sQ0piZ1d4YldTWUlqNWJYTHdaOTh6aHdVMS1wdVhqVzZJa0VqVDJ1UUU?oc=5"
+      },
+      {
+        "src": "Fullview",
+        "h": "ActionSA’s Nasiphi Moya re-elected executive mayor of Tshwane.",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOM2hPOVlIVTRYODZWblBuNS1ycUc1RkV2RlN1NmVBVVZJYjhOWUJfOXJjYzVIdk05NDRtM1BIdlBGR2R5ejk5Q2VaZUFlX3FoU0NSM2hsejZkaXhnUWlJUEoyUmxBeTY0S09mbEtYS2lpdzdOZk1wMXJidk9RMEFmSnhqaDV2cXVuRlZoRzdDOA?oc=5"
       }
     ],
     "actionsa": [
@@ -5282,6 +5300,9 @@
     "076cca883e34",
     "c92f754cf863",
     "3945f5ecefe8",
-    "80244588720b"
+    "80244588720b",
+    "4f07537aaebe",
+    "45e60a09f69e",
+    "21816988a28b"
   ]
 }
