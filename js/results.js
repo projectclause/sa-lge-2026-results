@@ -62,7 +62,7 @@ window.INITIALS = (id) => String(id).split(/\s+/).filter((w) => !/^(of|the|for|a
   });
   window.SHARE.panel = natShare;
   // breaking news: when set, this headline leads the home page whichever council is showing
-  let BREAKING = ["Voting underway", "across metros in South Africa", "Councils in Johannesburg, Ekurhuleni, eThekwini and Nelson Mandela Bay meet today, Friday 27 November, to elect their mayors. ActionSA’s Nasiphi Moya was re-elected Mayor of Tshwane on Thursday. <a href=\"coalitions.html\">Follow it in the Coalitions Tracker →</a>"];
+  let BREAKING = ["Voting underway", "across metros in South Africa", "Councils in Johannesburg, Ekurhuleni and eThekwini meet today, Friday 27 November, to elect their mayors. The DA’s Retief Odendaal has been elected Mayor of Nelson Mandela Bay, and ActionSA’s Nasiphi Moya was re-elected Mayor of Tshwane on Thursday. <a href=\"coalitions.html\">Follow it in the Coalitions Tracker →</a>"];
   // when Mashaba is confirmed elected (js/elected.js), "Mashaba Makes History" leads the home page
   let JHB_NOW = null;
   if (window.ELECTED_READY) window.ELECTED_READY.then((e) => {
