@@ -5,6 +5,7 @@ The Preamble website for South Africa's 4 November 2026 local government electio
 - **2026 Results** (`index.html`): national vote, ward map, who won each council, results by municipality, live refresh.
 - **Coalitions Tracker** (`coalitions.html`): coverage of the coalition talks from South African and international outlets, grouped into stories with AI-written summaries and links to every original, plus what key journalists and politicians are saying.
 - **Mayors** (`mayors.html`): every mayor of the eight metros, with a timeline.
+- **PB, Presidential Brief** (`presidential-brief.html`): every head of state of South Africa since 1910, with portraits in `assets/presidential-brief/`. Styles in `css/presidential-brief.css`.
 
 Static site, no build step. Hosted on Netlify from this repository; every push to `main` goes live.
 
