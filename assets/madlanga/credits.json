@@ -151,6 +151,16 @@
       "credit": "Madlanga Commission",
       "source": "https://madlangacommission.co.za/witnesses/vusimuzi-matlala",
       "bg": "yellow"
+    },
+    "nhlanhla-mkhwanazi": {
+      "name": "Lt Gen Nhlanhla Mkhwanazi",
+      "role": "Witness, Madlanga Commission · KZN police commissioner",
+      "files": [
+        "assets/madlanga/nhlanhla-mkhwanazi.jpg",
+        "assets/madlanga/nhlanhla-mkhwanazi-320.jpg"
+      ],
+      "credit": "",
+      "source": ""
     }
   }
 }
