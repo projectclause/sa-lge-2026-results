@@ -21,6 +21,8 @@
   // handover cards at the top of a city, newest change first: a new deputy mayor (previous -> new), or a mayor returned
   // by the new council. "old" is the left side, "oldSub" its caption; "lab" is the card's label.
   const DEP = {
+    ETH: { lab: "Speaker elected", n: "Thabani Nyawose", p: "ANC", img: "assets/mayors/ethekwini/thabani-nyawose.jpg", prev: "Thabani Nyawose", prevSub: "Speaker in the previous council",
+      how: "The ANC’s Thabani Nyawose was elected Speaker of eThekwini when the new council reconvened on Friday, 27 November 2026. The council then moves on to elect its mayor and deputy mayor." },
     BUF: { lab: "Mayor re-elected", n: "Princess Faku", p: "ANC", img: "assets/mayors/buffalo-city/princess-faku.jpg", prev: "Princess Faku", prevSub: "Mayor since March 2023",
       how: "The new council re-elected the ANC’s Princess Faku as Mayor of Buffalo City on Tuesday, 24 November 2026, with the EFF’s backing, over the UDM’s Nqabayomzi Kwankwa." },
     CPT: { n: "Xanthea Limberg", p: "DA", img: "assets/mayors/cape-town/xanthea-limberg.jpg", prev: "Eddie Andrews",
