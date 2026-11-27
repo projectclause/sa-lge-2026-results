@@ -1,0 +1,49 @@
+/* Presidential Brief: Heads of State of South Africa (presidential-brief.html) */
+.pb-page { --pb-gold: #766B45; --pb-rule: #A39770; --pb-ink2: #55503F; }
+.pb-page .masthead { top: 0; }
+.pb-page a { color: var(--pb-gold); text-decoration: none; }
+.pb-page .masthead a, .pb-page .footer a { color: inherit; }
+.pb-page .page-tabs a { color: var(--muted2); }
+.pb-page .page-tabs a:hover { color: var(--text); }
+.pb-page .page-tabs a[aria-current="page"] { color: #fff; }
+.pb-bar { max-width: 1200px; margin: 0 auto; padding: 8px 32px; display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: 8px 28px; }
+.pb-side { display: flex; flex-wrap: wrap; gap: 4px 28px; font-size: 14px; }
+.pb-side-r { justify-content: flex-end; }
+.pb-side a, .pb-car a { padding: 12px 0; }
+.pb-bar a:hover, .pb-src a:hover { color: var(--text); }
+.pb-logo { display: block; line-height: 0; }
+.pb-logo img { display: block; height: 60px; width: auto; }
+.pb-car { display: none; }
+.pb { max-width: 1200px; margin: 0 auto; padding: 88px 32px 96px; display: flex; flex-direction: column; gap: 72px; border-top: 1px solid #E6DFCF; }
+.pb-hero { text-align: center; display: flex; flex-direction: column; align-items: center; gap: 20px; }
+.pb-hero h1 { margin: 0; font-size: 40px; line-height: 1.1; font-weight: 500; letter-spacing: -.01em; }
+.pb-hero p { margin: 0; font-size: 18px; line-height: 1.55; color: var(--pb-ink2); max-width: 600px; }
+.pb-sec { display: flex; flex-direction: column; gap: 32px; scroll-margin-top: 68px; }
+.pb-sh { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 20px; border-top: 1px solid var(--pb-rule); padding-top: 20px; }
+.pb-sh h2 { margin: 0; font-size: 30px; font-weight: 500; }
+.pb-sh span { font-size: 14px; letter-spacing: .14em; text-transform: uppercase; color: var(--pb-gold); }
+.pb-sh p { margin: 0; flex: 1 1 420px; font-size: 15px; line-height: 1.55; color: var(--pb-ink2); max-width: 620px; }
+.pb-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 40px 28px; }
+.pb-card { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.pb-card img { display: block; width: 100%; height: auto; aspect-ratio: 5 / 4; object-fit: cover; border-radius: 4px; margin-bottom: 8px; background: #EEE9DD; }
+.pb-card h3 { margin: 0; font-size: 20px; font-weight: 500; }
+.pb-card p { margin: 0; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--pb-gold); }
+.pb-src { margin: 0; font-size: 13px; line-height: 1.6; color: var(--pb-ink2); }
+@media (max-width: 760px) {
+  .pb-bar { grid-template-columns: minmax(0, 1fr); justify-items: center; padding: 6px 0 0; }
+  .pb-side { display: none; }
+  .pb-car { display: flex; gap: 0 28px; font-size: 14px; justify-self: stretch; padding: 0 16px; border-top: 1px solid #E6DFCF; flex-wrap: nowrap; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; scrollbar-width: none; white-space: nowrap; min-width: 0; }
+  .pb-car::-webkit-scrollbar { display: none; }
+  .pb-car a { flex: 0 0 auto; scroll-snap-align: start; padding: 10px 0; }
+  .pb { padding-left: 16px; padding-right: 16px; }
+}
+@media (max-width: 600px) {
+  .pb { padding-top: 56px; padding-bottom: 56px; gap: 48px; }
+  .pb-hero h1 { font-size: 4.8vw; white-space: nowrap; }
+  .pb-hero p { font-size: 3.3vw; line-height: 1.5; text-wrap: balance; }
+  .pb-sh h2 { font-size: 24px; }
+  .pb-grid { gap: 18px 8px; }
+  .pb-card img { aspect-ratio: 4 / 5; border-radius: 3px; margin-bottom: 0; }
+  .pb-card h3 { font-size: 11px; line-height: 1.25; overflow-wrap: anywhere; }
+  .pb-card p { display: none; }
+}
