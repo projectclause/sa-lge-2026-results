@@ -254,7 +254,6 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
     const all = D.items.slice().reverse().sort((a, b) => b.d.localeCompare(a.d));
     root.innerHTML = `
       <header class="pl-ed">
-        <p class="pl-kick">Coalitions Tracker · Preamble</p>
         <h1 class="pl-date">${long(today())}</h1>
         <p class="pl-asof">${esc(asOf("Coalitions", D.edition))}</p>
         <p class="pl-intro">Preamble’s Coalitions Tracker gathers coverage of the 2026 coalition talks from established news outlets in South Africa and around the world. It groups reports on the same event into one story, writes a structured summary with AI, and links back to every original article. It also tracks what key journalists and politicians are saying. None of them write for Preamble.</p>

@@ -270,7 +270,7 @@ HTML
 # ---------- coalitions.html: plain-HTML snapshot the app replaces on load ----------
 ed = D["edition"]
 snap = +"\n"
-snap << %(<header class="pl-ed"><p class="pl-kick">Coalitions Tracker · Preamble</p><h1 class="pl-date">Who will run South Africa’s metros? Coalition talks after the 2026 local elections</h1><p class="pl-asof">Updated #{day(ed["date"])}, #{esc(ed["time"])}</p></header>\n)
+snap << %(<header class="pl-ed"><h1 class="pl-date">Who will run South Africa’s metros? Coalition talks after the 2026 local elections</h1><p class="pl-asof">Updated #{day(ed["date"])}, #{esc(ed["time"])}</p></header>\n)
 snap << %(<section class="pl-sec"><h2 class="pl-sh">Stories</h2>\n)
 STORIES.each { |s| snap << %(<p class="pl-row"><span class="pl-rt"><a href="coalitions/#{s[:id]}.html"><b>#{esc(s[:h])}</b></a><span>#{esc(s[:scope])} · #{esc(s[:cat])} · #{day(s[:upd])}</span><span>#{esc(s[:dek])}</span></span></p>\n) }
 snap << "</section>\n"
