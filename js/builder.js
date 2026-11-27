@@ -24,10 +24,10 @@
       <h2 class="bc-h">Build your coalition</h2>`}
       <p class="bc-dek">Pick a metro and add parties until they hold a majority of council seats. The mayoral candidate of the largest party in your coalition takes the chain unless you choose another.</p>
       <div class="bc-metros" role="tablist" aria-label="Metro">${METROS.map(([c, n]) => `<button type="button" role="tab" data-c="${c}">${esc(n)}</button>`).join("")}</div>
+      <div class="bc-result" aria-live="polite"></div>
       <div class="bc-bar" aria-hidden="true"><div class="bc-fill"></div><i class="bc-line"></i></div>
       <p class="bc-count" aria-live="polite"></p>
       <div class="bc-parties" role="group" aria-label="Parties in the council"></div>
-      <div class="bc-result" aria-live="polite"></div>
       <p class="bc-foot"><button type="button" class="bc-reset">Start again</button> <span>Seats: IEC 2026 results. Candidates as announced before the vote; a coalition can elect anyone.</span></p>`;
 
     const $ = (s) => box.querySelector(s);
@@ -46,7 +46,7 @@
       const lead = mayorP || (inC[0] || [])[0];
       const m = lead && cand(lead);
       const others = inC.map(([p]) => p).filter((p) => p !== lead && cand(p));
-      $(".bc-result").innerHTML = !inC.length ? `<p class="bc-hint">Tap parties above to add them to your coalition.</p>`
+      $(".bc-result").innerHTML = !inC.length ? `<p class="bc-hint">Tap parties below to add them to your coalition.</p>`
         : `<div class="bc-mayor${ok ? " ok" : ""}">
             ${m ? `<img src="${esc(m[2])}" alt="">` : `<i class="bc-av" style="background:${col(lead)}"></i>`}
             <div><p class="bc-mk">${ok ? "Your coalition would elect" : "Your coalition’s candidate, if it reaches a majority"}</p>
