@@ -1374,10 +1374,11 @@ html.shp-on { overflow: hidden; }
 /* top strip: initials when a new leader has no photo yet */
 .tk-ph.tk-ini { display: inline-grid; place-items: center; flex: none; color: #fff; font-weight: 700; font-size: 15px; letter-spacing: .02em; }
 
-/* Mayors page on computers: one centred reading column (like a news article), with each metro's speaker */
+/* Mayors and Build your coalition pages on computers: one centred reading column (like a news article), with each metro's speaker */
 @media (min-width: 721px) {
-  .rs-wrap.my-page { max-width: 760px; margin-left: auto; margin-right: auto; }
+  .rs-wrap.my-page, .rs-wrap.bc-wrap { max-width: 760px; margin-left: auto; margin-right: auto; }
   .my-page .my-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .my-page .bc-parties, .my-page .bc-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .my-page .bc-parties, .bc-wrap .bc-parties { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .my-page .bc-metros, .bc-wrap .bc-metros { flex-wrap: wrap; overflow: visible; }
 }
 .my-pend .my-how { margin-top: 6px; color: var(--muted); }
