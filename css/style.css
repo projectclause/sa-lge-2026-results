@@ -1307,3 +1307,10 @@ body.has-ask { padding-bottom: 96px; }
 /* Build your coalition: a bigger page title */
 .bc-wrap .rs-top .rs-title { font-size: clamp(34px, 4.6vw, 46px); line-height: 1.05; letter-spacing: -.02em; }
 @media (max-width: 720px) { .bc-wrap .rs-top .rs-title { font-size: 30px; line-height: 1.1; } }
+/* Mayors page: deputy mayor handover card, above the council and mayor */
+.my-dep { border: 1px solid #e3e7ee; border-left: 4px solid #121212; padding: 14px 18px; margin: 0 0 14px; }
+.my-dep-row { display: flex; align-items: center; gap: 14px; margin-top: 10px; flex-wrap: wrap; }
+.my-dep-old { display: grid; color: var(--muted); } .my-dep-old b { font-size: 16px; color: var(--ink2); text-decoration: line-through; text-decoration-thickness: 1px; } .my-dep-old span { font-size: 12.5px; }
+.my-dep-arw { font-size: 22px; color: var(--muted2); }
+.my-dep-new { display: flex; align-items: center; gap: 12px; } .my-dep-new > span { display: grid; gap: 2px; } .my-dep-new .my-ph { object-fit: cover; } .my-dep-new .my-name { margin: 0; font-size: 28px; }
+@media (max-width: 720px) { .my-dep-new .my-name { font-size: 24px; } .my-dep-new .my-ph { width: 60px; height: 60px; } }

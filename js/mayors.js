@@ -17,6 +17,13 @@
     EKU: { n: "Mziyanda Mketsu", p: "ANC", img: "assets/mayors/ekurhuleni/mziyanda-mketsu.png", expected: true, label: "Incoming mayor · council votes Friday",
       how: "Reports on 25 November say the ANC will field councillor Mziyanda Mketsu as mayor under a deal with ActionSA, the EFF, MK and the SACP. The council put off its mayoral vote to Friday, 27 November." },
   };
+  // new deputy mayors after the 2026 election: a handover card at the top of the city (previous deputy -> new deputy)
+  const DEP = {
+    CPT: { n: "Xanthea Limberg", p: "DA", img: "assets/mayors/cape-town/xanthea-limberg.jpg", prev: "Eddie Andrews",
+      how: "Elected Deputy Mayor of Cape Town by the new council, succeeding the DA’s Eddie Andrews. The DA named her as its candidate on 16 November, alongside Geordin Hill-Lewis for mayor." },
+    TSH: { n: "Omphile Maotwe", p: "EFF", img: "assets/faces/circ/maotwe.png", prev: "Eugene Modise",
+      how: "Elected Deputy Mayor of Tshwane unopposed by the new council on Thursday, 26 November 2026, under the ActionSA, ANC, EFF and MK deal that re-elected Nasiphi Moya as mayor. She succeeds the ANC’s Eugene Modise." },
+  };
   // where a hung council is leaning before its mayoral vote: a needle, like the NYT's election needle
   const ZONE = { "-2": "Likely", "-1": "Leans", "0": "Toss-up", "1": "Leans", "2": "Likely" };
   function needle(L, k) {
@@ -155,6 +162,11 @@ function render() {
       box.innerHTML = `
         <header class="my-ch"><h2>${C.title}</h2><p>${C.prov} · ${C.list.length} mayors since the first democratic council</p></header>
 
+        ${DEP[C.code] ? `<div class="my-dep">
+          <p class="my-lab">${CHECK}New deputy mayor</p>
+          <div class="my-dep-row"><span class="my-dep-old"><b>${DEP[C.code].prev}</b><span>Outgoing deputy mayor</span></span><span class="my-dep-arw" aria-hidden="true">→</span>
+            <span class="my-dep-new">${photo(DEP[C.code].img, DEP[C.code].n, DEP[C.code].p, "my-ph")}<span><b class="my-name">${DEP[C.code].n}</b><span class="my-party"><i style="background:${col(DEP[C.code].p)}"></i>${PN[DEP[C.code].p] || DEP[C.code].p}</span></span></span></div>
+          <p class="my-how">${DEP[C.code].how}</p></div>` : ""}
         <div class="my-2026">
           <div class="my-council">${k.svg}<p class="my-res">${LOGO[k.top[0]] ? `<img src="assets/logos-sm/${LOGO[k.top[0]]}.png" alt="">` : ""}${k.maj ? `${PN[k.top[0]] || k.top[0]} won a majority with ${k.top[1]} of ${k.N} seats` : `No majority · ${PN[k.top[0]] || k.top[0]} largest with ${k.top[1]} of ${k.N} seats`}</p></div>
           ${now}
