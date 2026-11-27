@@ -40,6 +40,7 @@
     const gArc = svg.append("g");
     const gBub = svg.append("g");
     const gMis = svg.append("g");
+    const gFly = svg.append("g").attr("class", "sf-fly");
     const gLbl = svg.append("g");
     const gRim = svg.append("path").attr("class", "sf-rim");
 
@@ -60,14 +61,14 @@
     const labelled = people.slice(0, 6).map((p) => ({ t: p.name, ll: p.ll })).concat([{ t: "South Africa", ll: [24.5, -29.5], za: true }]);
     const lbls = gLbl.selectAll("text").data(labelled).join("text").attr("class", (d) => "sf-lbl" + (d.za ? " sf-za-l" : "")).text((d) => d.t).attr("text-anchor", "middle");
 
-    let R = 300, show = "both", hot = null;
+    let R = 300, show = "both", hot = null, zoom = 1;
     const rad = d3.scaleSqrt().domain([0, max]);
     const wid = d3.scaleSqrt().domain([0, max]);
     function size() {
       const w = box.clientWidth, h = box.clientHeight || w;
       R = Math.min(w, h) / 2 - 6;
       svg.attr("viewBox", `0 0 ${w} ${h}`);
-      proj.translate([w / 2, h / 2]).scale(R);
+      proj.translate([w / 2, h / 2]).scale(R * zoom);
       rad.range([0, Math.max(10, R * 0.11)]);
       wid.range([0.4, Math.max(2.5, R * 0.016)]);
       draw();
@@ -96,6 +97,7 @@
         d3.select(this).attr("display", on ? null : "none").attr("x", on ? c[0] : 0).attr("y", on ? c[1] - (p ? rad(p.n) + 5 : -4) : 0);
       });
       lands.classed("sf-hot", (f) => !!hot && hot.map === f.properties.n);
+      drawFlights();
     }
 
     // ---------- turning ----------
@@ -126,6 +128,7 @@
     // ---------- tooltips ----------
     const yearNote = (p) => `${p.source ? esc(p.source) : "Source not stated"}${p.year ? ", " + esc(p.year) : ""}`;
     function tipFor(d) {
+      if (d.fl) return flightTip(d);
       if (d.country && d.country.regions) return `<b>${esc(d.name)}, ${esc(d.country.name)}</b><span class="t-n">${fmt(d.n)}</span>South African-born residents<span class="t-s">${esc(d.country.source)}, ${esc(d.country.year)}</span>`;
       if (d.n != null) return `<b>${esc(d.name)}</b><span class="t-n">${d.approx ? "~" : ""}${fmt(d.n)}</span>South African-born residents<span class="t-s">${yearNote(d)}</span>`;
       return `<b>${esc(d.city)}, ${esc(d.country)}</b>${esc(d.type)}`;
@@ -153,11 +156,88 @@
     // ---------- controls ----------
     root.querySelectorAll(".sf-seg button").forEach((b) => b.addEventListener("click", () => {
       show = b.dataset.show; root.querySelectorAll(".sf-seg button").forEach((x) => x.setAttribute("aria-pressed", x === b));
-      hot = null; hideTip(); draw();
+      hot = null; hideTip(); flightsOn(show === "flights"); setKey(); draw();
     }));
     const go = root.querySelector(".sf-go");
     go.innerHTML = VIEWS.map(([n], i) => `<button type="button" data-i="${i}">${esc(n)}</button>`).join("");
     go.addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; hideTip(); hot = null; const v = VIEWS[+b.dataset.i][1]; fly([-v[0], -v[1]]); });
+
+    // ---------- flights: live aircraft into and out of South Africa ----------
+    // Positions: /api/flights (netlify/functions/flights.mjs, from adsb.lol). Routes: data/flight-routes.json (Virtual
+    // Radar Server standing data), which tells a flight to or from South Africa from one just passing over.
+    const FL = { on: false, routes: null, ac: [], at: null, err: false, timer: null };
+    const fPanel = root.querySelector('[data-panel="flights"]');
+    const isZA = (icao) => icao.startsWith("FA");
+    const apName = (icao) => { const a = FL.routes.airports[icao]; return a ? a[1] || a[0] : icao; };
+    const apCode = (icao) => { const a = FL.routes.airports[icao]; return (a && a[2]) || icao; };
+    const PLANE = "M0,-7L1.4,-2L6.5,1.5L6.5,3L1.4,1.6L1,5L2.8,6.4L2.8,7.4L0,6.6L-2.8,7.4L-2.8,6.4L-1,5L-1.4,1.6L-6.5,3L-6.5,1.5L-1.4,-2Z";
+    function flightsFrom(ac) {
+      const R = FL.routes.routes;
+      return ac.map((a) => {
+        const rt = R[a.c] || R[a.c.replace(/[A-Z]$/, "")]; if (!rt) return null;
+        const legs = rt.split("-"), from = legs[0], to = legs[legs.length - 1];
+        if (!FL.routes.airports[from] || !FL.routes.airports[to]) return null;
+        const kind = isZA(from) && isZA(to) ? "dom" : isZA(to) ? "in" : "out";
+        const A = FL.routes.airports;
+        return { fl: true, ...a, from, to, kind, line: { type: "LineString", coordinates: [[A[from][5], A[from][4]], [A[to][5], A[to][4]]] },
+          airline: FL.routes.airlines[a.c.slice(0, 3)] || "" };
+      }).filter(Boolean).sort((x, y) => ({ in: 0, out: 1, dom: 2 }[x.kind] - { in: 0, out: 1, dom: 2 }[y.kind]) || x.c.localeCompare(y.c));
+    }
+    const ft = (n) => (n == null ? "" : n === 0 ? "on the ground" : `${fmt(Math.round(n / 100) * 100)} ft`);
+    function flightTip(f) {
+      return `<b>${esc(f.c)}${f.airline ? " · " + esc(f.airline) : ""}</b><span class="t-n">${esc(apName(f.from))} → ${esc(apName(f.to))}</span>${esc(apCode(f.from))} to ${esc(apCode(f.to))}${f.t ? " · " + esc(f.t) : ""}${f.alt != null ? " · " + ft(f.alt) : ""}<span class="t-s">Position from adsb.lol</span>`;
+    }
+    let flLines = gFly.append("g"), flPlanes = gFly.append("g");
+    function drawFlights() {
+      const on = show === "flights" && FL.routes;
+      gFly.attr("display", on ? null : "none"); if (!on) return;
+      flLines.selectAll("path").attr("d", (f) => path(f.line)).classed("sf-hot", (f) => hot === f);
+      flPlanes.selectAll("path").each(function (f) {
+        const vis = front(f.ll), c = vis && xy(f.ll);
+        d3.select(this).attr("display", vis ? null : "none").attr("transform", vis ? `translate(${c[0]},${c[1]}) rotate(${f.trk || 0}) scale(${R > 260 ? 1.6 : 1.3})` : null).classed("sf-hot", hot === f);
+      });
+    }
+    function renderFlights() {
+      const list = FL.routes ? flightsFrom(FL.ac) : [];
+      flLines.selectAll("path").data(list, (f) => f.c).join("path").attr("class", (f) => "sf-froute sf-f-" + f.kind);
+      flPlanes.selectAll("path").data(list, (f) => f.c).join("path").attr("class", (f) => "sf-plane sf-f-" + f.kind).attr("d", PLANE)
+        .on("mouseenter", function (e, f) { const c = proj(f.ll); hot = f; draw(); showTip(f, c[0], c[1]); })
+        .on("mouseleave", () => { hot = null; draw(); hideTip(); })
+        .on("click", function (e, f) { e.stopPropagation(); stop(); pick(f); });
+      FL.list = list;
+      const when = FL.at ? new Date(FL.at).toLocaleTimeString("en-ZA", { hour: "2-digit", minute: "2-digit", timeZone: "Africa/Johannesburg" }) : "";
+      const n = { in: 0, out: 0, dom: 0 }; list.forEach((f) => n[f.kind]++);
+      const H = { in: "Flying in to South Africa", out: "Flying out of South Africa", dom: "Domestic" };
+      fPanel.innerHTML = (FL.err && !list.length ? `<p class="sf-fnote">Live flights are not available right now. Try again in a few minutes.</p>`
+        : `<p class="sf-fnote"><b>${list.length}</b> flight${list.length === 1 ? "" : "s"} in the air to or from South Africa${when ? `, as of ${when} SAST` : ""}. Updates every few minutes.</p>`) +
+        ["in", "out", "dom"].filter((k) => n[k]).map((k) => `<p class="sf-reg">${H[k]} · ${n[k]}</p>` + list.map((f, i) => f.kind !== k ? "" :
+          `<button type="button" class="sf-mrow sf-frow" data-i="${i}"><span><b>${esc(f.c)}</b>${f.airline ? ` <span>${esc(f.airline)}</span>` : ""}<br><span>${esc(apName(f.from))} → ${esc(apName(f.to))}</span></span><em>${f.alt === 0 ? "On the ground" : esc(ft(f.alt))}</em></button>`).join("")).join("") +
+        `<p class="sf-fnote sf-fsmall">Positions from <a href="https://adsb.lol" target="_blank" rel="noopener">adsb.lol</a>’s volunteer receivers (ODbL), so planes out of their range, over most of the ocean, do not show. Routes from Virtual Radar Server’s standing data, matched by flight number.</p>`;
+      draw();
+    }
+    function loadFlights() {
+      const routes = FL.routes ? Promise.resolve(FL.routes) : d3.json("data/flight-routes.json").then((r) => (FL.routes = r));
+      return Promise.all([routes, fetch("/api/flights", { cache: "no-store" }).then((r) => (r.ok ? r.json() : Promise.reject(r.status)))])
+        .then(([, d]) => { FL.ac = d.ac || []; FL.at = d.at; FL.err = false; renderFlights(); })
+        .catch(() => { FL.err = true; if (FL.routes) renderFlights(); });
+    }
+    // flights sit close together over South Africa, so the Flights view zooms in on it
+    function zoomTo(k) {
+      const z0 = zoom;
+      if (REDUCE) { zoom = k; proj.scale(R * zoom); draw(); return; }
+      svg.transition("zoom").duration(1100).ease(d3.easeCubicInOut).tween("zoom", () => (t) => { zoom = z0 + (k - z0) * t; proj.scale(R * zoom); draw(); });
+    }
+    function flightsOn(on) {
+      clearInterval(FL.timer); FL.timer = null;
+      root.querySelector('.sf-tabs [data-tab="flights"]').hidden = !on;
+      root.classList.toggle("sf-flmode", on);
+      if (!on) { if (FL.on) { root.querySelector('.sf-tabs [data-tab="people"]').click(); zoomTo(1); } FL.on = false; return; }
+      FL.on = true; root.querySelector('.sf-tabs [data-tab="flights"]').click(); zoomTo(2.6);
+      if (!fPanel.innerHTML) fPanel.innerHTML = '<p class="sf-fnote">Loading live flights…</p>';
+      loadFlights(); FL.timer = setInterval(() => { if (!document.hidden) loadFlights(); }, 120000);
+      fly([24.5, -29]);
+    }
+    fPanel.addEventListener("click", (e) => { const b = e.target.closest(".sf-frow"); if (!b) return; const f = FL.list[+b.dataset.i]; hot = f; hideTip(); fly(f.ll, () => pick(f)); });
 
     // ---------- side lists ----------
     const pPanel = root.querySelector('[data-panel="people"]'), mPanel = root.querySelector('[data-panel="missions"]');
@@ -198,7 +278,10 @@
     }));
 
     // ---------- key and sources ----------
-    root.querySelector(".sf-key").innerHTML = `<span><i class="k-bub"></i>South Africans living there</span><span><i class="k-emb"></i>Embassy or high commission</span><span><i class="k-cg"></i>Consulate</span><span><i class="k-za"></i>South Africa</span>`;
+    const KEY = `<span><i class="k-bub"></i>South Africans living there</span><span><i class="k-emb"></i>Embassy or high commission</span><span><i class="k-cg"></i>Consulate</span><span><i class="k-za"></i>South Africa</span>`;
+    const FKEY = `<span><i class="k-fl k-in"></i>Flying in</span><span><i class="k-fl k-out"></i>Flying out</span><span><i class="k-fl k-dom"></i>Domestic</span><span><i class="k-za"></i>South Africa</span>`;
+    function setKey() { root.querySelector(".sf-key").innerHTML = show === "flights" ? FKEY : KEY; }
+    setKey();
     root.querySelector(".sf-src").innerHTML = `People: South African-born residents of each country, from each country's own census or statistics office where available, otherwise the UN's International Migrant Stock (2020), as compiled on Wikipedia's <a href="https://en.wikipedia.org/wiki/South_African_diaspora" target="_blank" rel="noopener">South African diaspora</a> page. Figures come from different years and some are estimates (marked ~), so they are not exactly comparable. The worldwide total is the UN's 2020 estimate. The list shows the ${people.length} countries with the largest communities. Missions: South Africa's embassies, high commissions, consulates and other offices abroad, from DIRCO's list as compiled on Wikipedia's <a href="https://en.wikipedia.org/wiki/List_of_diplomatic_missions_of_South_Africa" target="_blank" rel="noopener">list of diplomatic missions of South Africa</a>; missions to the UN are not shown. States, provinces and regions: ${ST.map((c) => `${esc(c.name)}, ${esc(c.source)} (${esc(c.year)})`).join("; ")}. Map outlines: Natural Earth (via world-atlas, sane-topojson and chizu); UK regions combined from Natural Earth’s council areas. Updated ${esc(D.updated)}.`;
 
     // for the ask bar: turn the globe to a country, state or mission and show its card
