@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-27",
-    "time": "15:23"
+    "time": "16:59"
   },
   "items": [
     {
@@ -1612,6 +1612,78 @@
       "src": "IOL",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSktZdmo5eldJWHp4V25pRlhMeFE1dFJpNEJFdDNycDJYTVVnd1J6MzBPRTk1cXJySXBmTVdSLWVzUzdXQVFaSWlyb2s3STlmZjZpVnpUUWhoLThLazI4ODluajJ0THZmVThNakhfLXdyaVBQYjgzVkRrc3BYOFRVUmp5SjJDcW1BS3c0eWd1Nm5TX1JDS2pUMWR5RDdpaEd3NEQ3elZQc2N3LU4tTG5VMnBBZndPdUFmZk96N3pB?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-d76bc926cf",
+      "j": "helen",
+      "d": "2026-11-27",
+      "kind": "Article",
+      "place": "Johannesburg",
+      "h": "Zille hits back at Mashaba over Joburg mayoral standoff",
+      "s": "The South African reports Helen Zille has hit back at Herman Mashaba over the Johannesburg mayoral standoff.",
+      "src": "The South African",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWGI5U0ZnbjAxZ004RTdMSXFmSWFHQU02QUcycGNrU2lVdGZjZjBSeGNXQi15ZHhDd2pBNVlZaExETWhRbFBkamxZbUoyV0FRcWtVYnFoRHB5T1Jhc2twR2dyUW1kQjNQU0s4U21wNEQ1OHdoMFYzb1FOWFBtY0llM1YyWm9GRFBMRWQwVWdIb2VzekJRUUtCSQ?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-5e776f48af",
+      "j": "phakathi",
+      "d": "2026-11-27",
+      "kind": "Video",
+      "place": "eThekwini",
+      "h": "WATCH: New eThekwini mayor Mxolisi Phakathi puts water crisis at top of agenda",
+      "s": "New eThekwini mayor Mxolisi Phakathi puts the water crisis at the top of his agenda.",
+      "src": "https://independentonsaturday.co.za/",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMWhIMHNxcWRINWR3NF9pcVByRXhsVFJ2R0tlcnl3RFFZZVdGSTR6WlJtNTRDbUpHLWNtQ1ROQmZZcnZ5N3R6QWxmaUVRT212VktFTVU4QUxZMFFtQi1oQ0s1R01IS3Vvc0szRFBSS3pXWHNsSWszaENIOWlqVmFqdkZHMlQzN3FITGJ1U2tuMnBNUEo2YThnVjN6MlJ3dEttQzEzeVpCOWR5OVlCdDYzLVFFZ0hHY0hxOE0xbWluMHlUdkstRDRKNGtieGxvR3Q1TmZkVw?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-c2643b44a8",
+      "j": "mbalula",
+      "d": "2026-11-27",
+      "kind": "Article",
+      "place": "National",
+      "h": "Mbalula says the ANC did not win elections and had to right find coalition partners",
+      "s": "IOL reports Fikile Mbalula says the ANC did not win the elections and had to find the right coalition partners.",
+      "src": "IOL",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYk5HR0dnZ1JNMDM4ZnJTbDVPc2JHcE52a0NQWnJ1REkzZXgxNWFqTmN1OHI2QWF4LTdyekJ0Z3JJcVBTX0ptQkxJdERrUlE3V0Q2aDg2ajlWUnhsNGFDSkRCUGhkcTFLaE4tNGpDUldkNVNJdlJrc3BlYjFod1paS3hpQ2JMWGhpSEI1ZW1JMm93UFc4dmdmU3JFNGxHeF9UNGkwZzhrUTJTcVcwbGgzZzhwYW1sUG9PMV9SaHQ5MEV2YjBQYmc?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-39e8372404",
+      "j": "geordin",
+      "d": "2026-11-27",
+      "kind": "Statement",
+      "place": "Nelson Mandela Bay",
+      "h": "Hill-Lewis welcomes election of new Nelson Mandela Bay mayor Retief Odendaal",
+      "s": "Geordin Hill-Lewis welcomes the election of Retief Odendaal as Nelson Mandela Bay mayor.",
+      "src": "Polity.org.za",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRmFPWG9Fci1PdnpKcXJaRlp5ZTVHTW5KcmRJNko1YWJ4Vk1tOHZVdHVFT3BCeWotNXRRQ2haNWgtU1pNd1Q0dGhmMlVXVVNZVHhCNkdQQTA2cEFCM2pOYThOdFpvcmlPZHNnWFI3MDUwZUZmMVdUaDFVTENSWWNwNDM2OV9rQUFKM2hMR0pwM0NWMDRqbU9pR1RDZ1prZ2FURWpqUjJYWi01cUIwVTRCSkI3QzYtWjF0QUN0d1Fn?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-61bf6fad69",
+      "j": "wyatt",
+      "d": "2026-11-27",
+      "kind": "Video",
+      "place": "Johannesburg",
+      "h": "And the Mayor of Johannesburg is... | Chris Wyatt Reports",
+      "s": "Chris Wyatt’s video looks at who has become mayor of Johannesburg.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=EH8VTem1yOY",
+      "auto": true
+    },
+    {
+      "id": "a-b0f3f8f211",
+      "j": "mbalula",
+      "d": "2026-11-27",
+      "kind": "Article",
+      "place": "National",
+      "h": "ANC Secretary-General Fikile Mbalula explains why the DA was the party of last resort for municipal coalition talks",
+      "s": "Fikile Mbalula explains why the DA was the party of last resort in the ANC’s municipal coalition talks, newsday.co.za reports.",
+      "src": "newsday.co.za",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNam4wbVdLbmxBd0hPclpJVEJvSnpxZC1VQi0zSVE0OWlkdi1iNWF3NjR5QmdrNGxZN1RuellXdk9xWl9jaGJ0MGtKa2FrSGswNXNpWl9GWUlySlRnVS05WU4tRWxycEJXS2FwT3F2YXRqc0hUTXdFaTVqSkhCbmJwV2JidlFtVldNRWw0UHdTZWNzZzM3Q1I2YmtyV3dkWlJpOWtKaGduZElrT3NPM3NPNHhFN3pnZlVLMElYNEd3TDdUaWtXOV9hb2lFdEhSLVZxc2J5MFh5RElEYVpKcnotZlBLWTJ0V2dia0d0cS1R?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -1646,7 +1718,9 @@
       "a-d37591212c",
       "a-18b0fc7c7a",
       "a-a273b7c978",
-      "a-4a22808ad7"
+      "a-4a22808ad7",
+      "a-d76bc926cf",
+      "a-61bf6fad69"
     ],
     "actionsa": [
       "a-773fa265cd",
@@ -2372,6 +2446,18 @@
         "h": "LIVE: City of Johannesburg Council sitting",
         "d": "2026-11-27",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaGp6QVlqQVJCNHVsUkt0b3FfSERxSVQ0cFRQWm10elFPRDZKZ0hneUY1ZFR4WWJkVDZsVGcwVjB1T2E1MzlhU0c1dVV1Rmh4b3lhWWZDaXA3cUhSVDQ4Vk1LNnFheTIzODU0dW1jLXJTVkVwdDNoUl9nQnRvRU5RdnJZQXQ3eGwtZWY4YzhNQm4zWTg1d2NzSjBjZ1A0WVlrYVc0dXdvOHFyVDFzaEE?oc=5"
+      },
+      {
+        "src": "The Africa Report",
+        "h": "South Africa: 10 things about Herman Mashaba, Johannesburg’s new mayor",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMENCdjZRLVgtMU1FdjZsZnpXZ3Fxb1ZVVEU3elpWYUhkSnB3QmVGd2tqS1RFWmdCYjBseE1RaTV5eTJLVmJTTTNzMlU2eDdYMFF3N0VBV05wRkpsVTI2WjJpY1VSR3AtUTRlWGtzaG5ocVZUa0tHQi1XVmJWM0s4dVVSUGdMUG5wcEhtd2h2T1hNZVdLSzVhVU5wazkxbkd1Z2IzaHd0OVRBcXc?oc=5"
+      },
+      {
+        "src": "The Citizen",
+        "h": "ANC secures Joburg speaker as Adolph Marema wins council vote",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOb281Sl9nYzZpcmhrLXJla05Vc0dUZWo1YkFoMFo1SnNfaHBWb21jV3pJejRJM0ROWEphSnBIUlJCUDJEMXlCS0I4Z0JfNGhrTHo0QjZ4aVNSenhzVWxSRDd0d3JvM01GdDRaNzcyWEthYW5mdGpUQ0Fna25TSXd1X3Y1SVVKQm9wRWc0bGN4Znd4TzRLOXRTUmREZWl2cElRWGRfS000Zlg4bW9McUdET01WMTNWNXozRy1yZXFoU1Bkdw?oc=5"
       }
     ],
     "councils": [
@@ -2844,6 +2930,24 @@
         "h": "Tshwane leadership vote hangs on coalition talks",
         "d": "2026-11-25",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmMmMzNjRidS0wSUE2cHZDNF9Zam9sRldlODEyeEVrN1dQaXJnTXBhWkJQSXNhMnBxV2xTLWJGcU1qSEhLUVYwSGZjaUVWaTRMX2NpQjhKSVpmemU0V2NJRjFnX01YMmo4TUE?oc=5"
+      },
+      {
+        "src": "Cape Times",
+        "h": "Naeem Patel elected Tshwane council Speaker",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5FV3N2QVFmaDR2ZUN4UlNqSzZFYVdDaXN4R2pITEk0eVlLMzFyNWphTFhmRENuZlJ5OGxpOFIwVWU0Vm5pa0Q0a3JzZjhlb0h1SDA0c0xoS29aT25DWEtJUHE5bWVadw?oc=5"
+      },
+      {
+        "src": "EWN",
+        "h": "MK Party resolves its differences with ANC, ActionSA and EFF in Tshwane coalition",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPa3k0bEtxSEplRjFHZEFMSjFtRXpRZnNsQzYySm5YSXcxMVRraGF6SmQwUFAzUUd4b0taQk9GNjEzVmRzZGd5UEZfS1VUUER1X1hXVjFuRHAzMWpkUjA1c0U5NldtT1FXNlo5TFlVb0dzUnEtZmdVTm1hUFVWV0lhQ05hMGJKMWJXYXpuS0FNNHdETVNGYWk0dWdNVFpnWl8wUzlpRnpScDNtU1JGekV1cW9kSQ?oc=5"
+      },
+      {
+        "src": "themercury.co.za",
+        "h": "WATCH: EFF’s Omphile Maotwe poised to become Tshwane deputy mayor as Mashaba backs Moya for another five years",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNb3BVMVFnSzBMTGU1eFo3ODkyd3kxdmtJZWdLN0NGRDVqWE5JSGRiN25kQmhyWnQzUzFQV1BKa05ITUlJNVJVTjlzd3pQLTdIUy1ESmNaYWhRZUZCQ3ZkS0FNMW4xS2FvVFptSl82Y3p4dVo3RW9vdVZkdFIyOG5oSHBta3dQYzVaRHhIcmk1TVE4anFpbW1jcEFUaGh5S1JiZW93cmQ4TURscXlYMkw1Y3A1ZmlBcTlZZGh3OUVoeEJuUGg2UlZwSkFzRGF4NVM0b2xYQnVycUpjYkFfczFveWJ0YzQ4SzVk?oc=5"
       }
     ],
     "actionsa": [
@@ -3304,13 +3408,13 @@
       "cat": "eThekwini",
       "place": "eThekwini",
       "h": "MK’s Mxolisi Phakathi is elected eThekwini mayor with ANC support",
-      "dek": "eNCA, IOL, The Citizen and Briefly News report the MK Party’s Mxolisi Phakathi has been elected mayor of eThekwini, and The Common Sense reports MK took the metro with ANC support. Earlier, IOL and TimesLIVE reported the ANC’s Thabani Nyawose was re-elected speaker when the adjourned inaugural sitting resumed.",
+      "dek": "SABC News, News24, The Witness, BusinessTech and others report the MK Party’s Mxolisi Phakathi has been elected eThekwini mayor with ANC help, ending the ANC’s reign in the metro, and IOL reports he has put the water crisis at the top of his agenda. The ANC’s Thabani Nyawose was re-elected speaker with MKP support, and SABC News reports the DA has confirmed it made a last-minute coalition offer to the ANC.",
       "brief": [
-        "eNCA, IOL, The Citizen and Briefly News report Mxolisi Phakathi was elected mayor; The Common Sense says MK took eThekwini with ANC support.",
-        "IOL and TimesLIVE report the ANC’s Thabani Nyawose was re-elected speaker; TimesLIVE says an MKP-ANC-ActionSA deal was cemented, while IOL had reported ActionSA saying no deal was reached after talks with MK and the ANC in KwaZulu-Natal.",
-        "IOL reports the DA vowed to fight on for mayoral control, newsday.co.za reports the DA offered the ANC a new deal giving it the mayoral position, and eNCA reported the DA proposed to 'donate' the mayorship to the ANC.",
-        "SABC News and eNCA carried the sitting live; the first sitting was adjourned on 24 November to allow coalition talks to conclude.",
-        "EWN reports former mayor Cyril Xaba is among five councillors who resigned, and the Mail & Guardian reports allegations of dirty deals and sudden resignations."
+        "SABC News, DailyNews, The Witness, eNCA, IOL and others report Phakathi was elected mayor; BusinessTech says MK won with ANC help, and African Insider calls it a surprise coalition deal.",
+        "The Witness, the Sunday Tribune and IOL report Nyawose was re-elected speaker after three candidates were nominated; Sunday World says he won with the MKP’s help, and The Star quotes him saying voters gave no party a mandate to govern alone.",
+        "SABC News reports the DA confirmed a last-minute coalition offer to the ANC, and Central News South Africa says the offer gave the ANC the mayoral position before MK took control.",
+        "IOL reports Phakathi has put the water crisis at the top of his agenda, and the EFF objected to a sign describing it as ‘minorities’ at the sitting.",
+        "IOL and EWN report five councillors, including former mayor Cyril Xaba, resigned from council, and the Mail & Guardian reports allegations of dirty deals."
       ],
       "auto": true,
       "id": "ethekwini",
@@ -3318,7 +3422,8 @@
         "a-fec66e76f8",
         "a-0a53ebea91",
         "a-fdd286a6c5",
-        "a-940d89f5fa"
+        "a-940d89f5fa",
+        "a-5e776f48af"
       ],
       "coverage": [
         {
@@ -3908,6 +4013,96 @@
           "h": "ActionSA says no coalition deal reached after talks with MK Party and ANC in KZN",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeTRNN29YaGd0aHNVbm03T2I4cHp5dWpVbFMtZFZleWtsN2hucVJ4cFpnWEpiX1JGa0JxOUx2V2ZnY1lKa08xclpCaEJuYk1tMGk4N3h2OVhjWTBRUm56S1dSMDdXM3RZbGVIYzF5Qjk4V1prYWVJUTVyVVExcFo0TnhhUUl3WXJCR2JMbkIzNUtYOVRLYll0NVVTNEpUWExRdzgzazF0WG55VmQwY25LZDRPOUJoQUZ6bndfZTMySEJYRHltYURCLUNn?oc=5"
+        },
+        {
+          "src": "TimesLIVE",
+          "h": "WATCH | eThekwini mayoral chains for MK Party’s Phakathi",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTGt2MHpMZWZOQ1RfSEFlcGloc1VEOHdJQzJ2b0kyV0JqSjUyZ3RiWlFMbDVSUXc3RXF1TE8tUWZyWHg3R3JNRUdUZ1lwNU1qLTUtWkQwQnd5amxpeDlqLVdnb1hZcS04UzMwYnNCQmVYcFVrSHVnd0FXeEVRSUt4N0J3eXlheEtnbmJlOHgwTG1rUVlrQUtVNUZZTUZVWURWTThwbWY3Z2ZBcEVFT19LVW1iekoxUGRW?oc=5"
+        },
+        {
+          "src": "The Witness | Your compass in the community",
+          "h": "UPDATE | Nyawose re-elected as eThekwini council Speaker",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUjFUN3gwMmZaZzVZZ1dpcmpacjFKRmRMR0FTX0ZJYms0RWN4R2R1MENZUFdmWG5UcmRHeEIydzhWck1TTWI1TFA1NlJpbmMwdHM2QzkybE1OenA1VEJYSGczemJZajg2MHRaNHktTjhTZ3EtSE5vYlFHSS1TUzJpMDdHQkpCdks0LUZuRnlNZE0wTGJwVW52ZA?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "Three candidates nominated for eThekwini council speaker",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVTdwSVpxdTNhY2RxZlJpTTVSSmFaVGUtZGpqWUxXZlhyY0FXdTNMeEZIOHU0SnBzYnFZVHJaMTFRLXdMbXJZRFc3cGYtbHlsMngySjN1NEVqVTh2SWNIcTdESW9ZaUR0MzU5TjRUdG4tWHNodV9CRm8xRXhsSmNpWHBFR2Fpa2ppLU1yZ2FYU01jNl94N3ZMUnZqa3FqMEdE?oc=5"
+        },
+        {
+          "src": "Sunday Tribune",
+          "h": "Thabani Nyawose re-elected eThekwini council Speaker",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ReW9PRjNXZkZtX3JXZjNCRTNCTTU1VDltaTNuQjM1cnE1V2FwUE41YUVjZUZac1pVajlRVkVyYWFxOXo4bjVIeDJKaU1MZEE1MjRIWXphNFNzSWFIYnlFbVRUZjFlZ3FfcWg4S0ktS2xOc1E?oc=5"
+        },
+        {
+          "src": "The South African",
+          "h": "Mxolisi Phakathi: Five things to know about eThekwini’s new mayor",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeko1U0N3SC1aNVhLZTFIM3BWbGxoM1hMUVBDNjZNVGlMaU95eUpRLVl0MzkzRGJUWEFYNXZjYy1NOHhsVEx0eUpjWThkU1hxQk12eDdiQkZzMDVTZUZhdDBYVFBPTlZxNmlwSjR4WlptY2I2NmF2NHQ1R0xMeDR3RWVzZ3piZzBiU1UyQUhiOW9HTk1fb1UtV21VRkI4WnBNcjl5cUU5Mnhrbi1TbFE0?oc=5"
+        },
+        {
+          "src": "SABC News",
+          "h": "MKP’s Mxolisi Phakathi elected eThekwini mayor",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNR1AxS3FadElJUExCUVllR3lXNFg3VmszTHRRNkJhMGplNVB5bUU4UFRxU01CdjVSN2NWcW1fUlBiRWxlSVhuVTdHTENFbGNiWWdmVklWbHZBWWp3S0JaVFVuOUpqcWpydTAyOWVhUkpRNENGbXZQNGp6N3NNNC1aanAxRTFYZUE?oc=5"
+        },
+        {
+          "src": "DailyNews.co.za",
+          "h": "MK Party's Mxolisi Phakathi elected eThekwini mayor",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XOTQyTXlibXlHeVB0SWVaSGZ6WHF4eGFLeVZYd18yaWUtN3RHRk1DQW5MeWxUMFVUdG9GMDBFRWNEV1Q0MmlvY1hlVDNITW5mYlNLQXE0Mlg5UjBZeW9xQ1VXbWxnUXM?oc=5"
+        },
+        {
+          "src": "The Witness | Your compass in the community",
+          "h": "MK Party takes eThekwini mayoralty as Phakathi elected",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNN0RxYXRxY0hIQkNzSU42bkROSklMZFFwemxUMU5pN2FKVFhTWE5tNmRTMHg2SFRfSDdTN3NmRDdVbVFBVGFTVnVDcWZFRk5JckQtUlEwYXJIdjZiVnZpOXdlZmx6cm1Xb3J5VkMyYW5NcWtnaThwbk9pRGNRYlB1S2lOYW1FMzFLS0phV2N5NHY1dlBYcUFQTg?oc=5"
+        },
+        {
+          "src": "BusinessTech",
+          "h": "Jacob Zuma’s MK Party wins eThekwini with help from the ANC",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWDJMcEJCTndwY3A5b0NVMTNsN05sVnh6T3FSQ05aNjBxVEVBU2Q4OVJ1NGFpVXlKQjFaZjZzd2U1T0tINFlhbmNoSmh6T1l2UjM3anpEMnp5NEZCWEZTcHFkS3FDaml6ektTeS1kblBFWm9ZQXFxMkg0OXotWVdaX3N3UFY4a21ya2ttdzl5LUJRc3lyM2YwYzVSeEwwN21ISFEzQ0JVaEkyM2NsdEE?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "Five councillors resign from eThekwini council, including former mayor Cyril Xaba",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTzNWb3dzV1VyYU1WNkF4dy1mNHRnT2RvejNKWnlraGdQRi1MOXktb3B0QmRscnB0c19GdklHRC1BVUVBZjAycGJiT19yMDJFUEdCeXVrR2ktWHJNWnNwQk13TVg0eHZ6a2lPZ3V0TzVpZDNiRkZsREtLeV95djY1a1lTZGJNbG80aEtVZF82d3F4TGxrUFdnWG5URTZocjJ4NWw0blJmSzhfRWNKUjJadzBvNUVmcUsyWmNtd2FlTkg4QQ?oc=5"
+        },
+        {
+          "src": "News24",
+          "h": "End of ANC’s eThekwini reign as MK Party takes mayorship",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTUpTMmlJYjF2dUtRRi1ZcU9CTEx5cElJQVVxYzdXRUExNU9HQmVXZHQ2bUZpZzhlT0xaU2FGTUZDT1JSc2wzckttb0J5bWgzUHpuX3BCVDdNZ3c3cVVHdmlueFhOUU02LTBFYlk5Wm1jaHFsT0lsZjM1S0RsTGdGVVphWXhSVXYxTjZWWmhNOFVpYU5lZDduX0h6TjBFM0pTX0tz?oc=5"
+        },
+        {
+          "src": "SABC News",
+          "h": "DA confirms last-minute coalition offer to ANC in eThekwini",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcE0yN2FQUDdfT1FFenp4dXI1NWZJaFFjVnZ6RVpFQTJ0cERNM3JmMjhnRGtobktrNmJpVHBvUE9Nc2RqX3ZJNVJVXzFuTlJFMng3bUZ5VkdHZ0ZNU3BoOU5XcFpRQnZMUDFRWTI2UFNoM2I5Z09qandJYjFjR0RwdXctTHpUMnUxb0U5M1BialdETmd6M2V3cTVn?oc=5"
+        },
+        {
+          "src": "Central News South Africa",
+          "h": "DA Offered ANC eThekwini Mayoral Position in Last-Minute Coalition Proposal Before MK Party Took Control",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPamZsa2pTd1J6dk9semRFTkVucUhJczYxSnFZQkhGZFY2U1pFdS1hcW94TlpFa2RKVXlnelZYVlhxcjlwQmZNbGZ5VUdCR3Znc2VTOV9uS1VaZHpONUhZTXMyYTFoQkJvQmNBOTQtajBBUDBzQUE4dDZIbDJ1U1RXajZZOWowMVhMYk5YdFc0aDhBSGtJLUhIWlZkNkhRQnI5QnhweDd4T1hoOFZ1YkJMaGJ2cW9pOUpjdGZVWFBKMFNXZVFZeU9aNU1xbw?oc=5"
+        },
+        {
+          "src": "Johannesburg Sunday World",
+          "h": "ANC’s Thabani Nyawose elected Ethekwini speaker with MKP’s help",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc3otNTg0SVU0YjdaNGpZeG8wUzZtdk5LUU5GV3dVVGdNUW1oM1lDS3l2cFVkemt5b2R5aHJidkVxYi1VcWVrMXFjazY3bGxZdERDNUpPcndPNEhULWJCQk9zRVdFOXQ0MTA1ODFCcFRkZGdoQkVTb3dnMTJfWTRmVmtKb3dpcjlYOEZZRmJIMnZjWXhJVEtmdVRCcHNXdw?oc=5"
+        },
+        {
+          "src": "African Insider",
+          "h": "ANC hands eThekwini mayoral seat to MK Party in surprise coalition deal",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOclZWd3BvaEJCcXhKbnFxaDctWmpBd2c2b192VkNRQW53RE95TG9GX1FLMnFMaGduUUFldnN2WmJyYzNjYWtWNXA4MkdrUHZmQUFqaFdKMkdtYUxUN19BdnJqNVlQdC05cFoyYjc3NTBmRDVZYmQ2MGdSZUtZSmFtcnF3aGlXdUdjS2tLRHdGVk5MUVNYYzN6LWNOdHFoTGtJYWNMLUVnWVAtSlRKbVRRdHVB?oc=5"
         }
       ],
       "sec": [
@@ -3921,13 +4116,13 @@
       "cat": "Eastern Cape",
       "place": "Buffalo City and Nelson Mandela Bay",
       "h": "Faku returns in Buffalo City with the EFF as the DA’s Retief Odendaal returns as Nelson Mandela Bay mayor",
-      "dek": "Princess Faku was re-elected Buffalo City mayor, beating the UDM’s Nqabayomzi Kwankwa, and BusinessTech reports the ANC teamed up with the EFF. In Nelson Mandela Bay, IOL reports the DA’s Retief Odendaal has returned as mayor after an earlier ANC-led filibuster blocked the vote.",
+      "dek": "Princess Faku was re-elected Buffalo City mayor, beating the UDM’s Nqabayomzi Kwankwa, and BusinessTech reports the ANC teamed up with the EFF. In Nelson Mandela Bay, IOL, EWN and Scrolla.Africa report the DA’s Retief Odendaal has been elected mayor after an earlier ANC-led filibuster blocked the vote.",
       "brief": [
         "eNCA, EWN and Briefly News report Faku was re-elected; Briefly News says she defeated the UDM’s Nqabayomzi Kwankwa, and BusinessTech says the ANC is running the metro with the EFF.",
         "News24 reports ANC divisions over Faku’s return, quoting one voice saying “you cannot smuggle her back”.",
-        "IOL reports the DA’s Retief Odendaal has returned as Nelson Mandela Bay mayor, and the DA says its new mayor and city government bring new hope and stability.",
-        "News24 says the DA will govern Nelson Mandela Bay with the FF Plus, UDM, ActionSA and PAC, and earlier reported the DA’s plan to elect a mayor and speaker was blocked by an ANC-led filibuster.",
-        "HeraldLIVE reported a 'black caucus' insisted the Nelson Mandela Bay coalition was not a done deal."
+        "IOL and EWN report Odendaal was elected Nelson Mandela Bay mayor, and Scrolla.Africa says he won back the chain in a ‘cash strapped’ metro.",
+        "Geordin Hill-Lewis welcomed Odendaal’s election, and the DA says its new mayor brings new hope and stability.",
+        "News24 says the DA will govern with the FF Plus, UDM, ActionSA and PAC, after earlier reporting the vote was blocked by an ANC-led filibuster."
       ],
       "auto": true,
       "id": "eastern-cape-metros",
@@ -3935,7 +4130,8 @@
         "a-9878e0cb2a",
         "a-1b64d77881",
         "a-5545258a53",
-        "a-271e7f4ea9"
+        "a-271e7f4ea9",
+        "a-39e8372404"
       ],
       "coverage": [
         {
@@ -4207,6 +4403,18 @@
           "h": "DA’s Retief Odendaal returns as Nelson Mandela Bay mayor",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQc255X0lVbFZRaFJBbkRUcUwzZUFKaTNVaGRZTW1QSzVKR2JHRk12N09IY1ktb2V1cG9KYnVNc3BlSmJtWko5UVBXclNQTlZWdWI4bzNRc3gtbDd3ZXBKck85S2w5bHNWUWhXMmVPRGdhdEZkWGNzc0JpcEFVd2ZfZTcybHk3dWFLbjRXOGlOaDluMXA2VEJnaVhsZEtxeUg1OUF1bjhBMkNFOFduS2tJeXVUeG92dGc?oc=5"
+        },
+        {
+          "src": "Scrolla.Africa",
+          "h": "Odendaal wins back mayoral chain in ‘cash strapped’ Nelson Mandela Bay",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNEp1NXk4ZDlsVVhoV3F2R1FVeWtPRmZVMXo0akloaDRlWUVlRURfZHNWcHJHdzZxVm5Kdkl4X21XM043Zk51bGZGX0xiaXVSUDh4VHU3OUtkQ3pxajVNbTlnM3FZYmdUNGYzRDNqSm91NXVEc0FyeVN4ODhBc2hab29EY1BIRjR6cjJtSDZtNkRGZlRKbHRn?oc=5"
+        },
+        {
+          "src": "EWN",
+          "h": "DA's Retief Odendaal elected Nelson Mandela Bay mayor",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcFRSXzFaNFJIc1FCRWk4RWliQW5lUDdHb1BuMDZma0FURnR0aWdva2lyRFVYaE4tSjBvMm5UcEZXU0daa25zaThrS3F0YXNPeHlwOTBZTUlWVDVGTk9yd05yUG1wcVpnQUxlSVN5dnZzczFyWnFHa1VYTG02RkdXNTI1ZVYzb0ktWWFXLXJn?oc=5"
         }
       ],
       "sec": [
@@ -4219,14 +4427,14 @@
     {
       "cat": "Johannesburg",
       "place": "Johannesburg",
-      "h": "Malema awaits judgment in his bid to gag Zille over her Joburg claims",
-      "dek": "EFF leader Julius Malema went to court to stop DA mayoral candidate Helen Zille repeating claims about him, in a dispute linked to the Johannesburg coalition fight, and the court reserved judgment. Zille refused to retract, and Michael Beaumont has challenged her claims, while Central News South Africa reports Glynnis Breytenbach confirmed recommending Shadrack Sibiya to Herman Mashaba in 2016.",
+      "h": "A court bars Zille from repeating her claims about Malema",
+      "dek": "IOL, News24 and Central News South Africa report a court has barred DA mayoral candidate Helen Zille from repeating her claims about EFF leader Julius Malema, including that he controlled Herman Mashaba and influenced Shadrack Sibiya’s Johannesburg appointment. Sunday World calls it Malema’s first-round win in his defamation lawsuit against Zille.",
       "brief": [
-        "Briefly News and the Mail & Guardian report Malema sought an urgent interdict to gag Zille over her Joburg claims.",
-        "IOL reports Malema demanded a retraction and apology and threatened R1m defamation action; IOL also reports Zille said no, and News24 reports she fought the gag bid using Malema’s own words.",
-        "IOL reports the court reserved judgment, and eNCA reports Malema is awaiting the outcome.",
-        "Briefly News reports Michael Beaumont shared a 2016 email that he says contradicts Zille’s claims, and IOL reports Beaumont says the DA recommended Sibiya.",
-        "Central News South Africa reports Breytenbach confirmed recommending Sibiya to Mashaba in 2016."
+        "News24 reports Zille has been gagged from saying Malema controlled Mashaba, and IOL reports the court barred her from repeating corruption allegations against him.",
+        "Central News South Africa reports Zille was ordered to stop alleging Malema influenced Sibiya’s Johannesburg appointment.",
+        "Sunday World reports Malema won the first round of his defamation lawsuit, and newsday.co.za reports he won the case.",
+        "Malema had sought an urgent interdict and demanded a retraction and apology; IOL reported Zille refused and the court had reserved judgment.",
+        "Michael Beaumont shared a 2016 email he says contradicts Zille’s claims, and Central News South Africa reported Glynnis Breytenbach confirmed recommending Sibiya to Mashaba in 2016."
       ],
       "auto": true,
       "id": "malema-zille-court",
@@ -4355,6 +4563,36 @@
           "h": "Malema Wants Zille Gagged Over Joburg Claims As Court Reserves Judgment",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWHN5T2JQNXZtU3M5Q3Vob25rbm1nRGFTY0xvcnZSS1J4RS16WkphLTN6d2FCQm1jRTNUMjJkSnp4SG5jSGFxS1Q5aUpxV2w2OXVhY3k0YjdqTWJPaENnc29BZU4xeXpoQzNUaFNzTDNBX1I0N3hHaXpWcUJiZFBoc2ROS2dkYWVpNDFhOFFwaU44UQ?oc=5"
+        },
+        {
+          "src": "News24",
+          "h": "Zille gagged from saying Malema controlled Mashaba",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMWE5MGdkTG50d1hHanRhazROM0xoMzhnVk5TOVdxWEFyUzYxa0FXcVpXTzhwSGN6Q3JfY01UQTF5bm1LQ0VTLVdETzg0c2VhVnJGYU41WHJDTmlTZ3hsQUIxR054V19LQzFHemtfQVQyMkR0TzBvRmtrQzQ2ZWJvcE0zOUVlMTNuTElNc0hYZjE1YW5WUGNkNUlyMHQ?oc=5"
+        },
+        {
+          "src": "Johannesburg Sunday World",
+          "h": "Julius Malema wins first round in defamation lawsuit against Helen Zille",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPanNZWlN2ODNtV0R5NlVVSHlIQXRNaXQ0QmlMWU4zbmNuZ05jNGpHTk9FbFFnS3BnLVU5VEt4eGVnX3cxTVdaSDdMdDdFaW41RktPZEhPa0t6ZWVwX2lsUGJHdE95ZmxGVmRvcEVxU3JRRXFqbzJJNTlUMUVQVDRNVE5qQ003LUVsU0xzei1jRk5GZzZ5SWNET0hoRFNsYXRLQ1FSX2FMMWxGekMt?oc=5"
+        },
+        {
+          "src": "newsday.co.za",
+          "h": "Julius Malema wins case against Helen Zille",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMlRFNEdQVXdaYWhmV3RFc0JXZ3N5ZE10QVp3OXNyOUdrd2pORzM2RVdYNkpsN0N1c2xsRzNfd1dlbkFHU0MwNW1YejhqdThRZzJudGhjZEJHb0FOV1R3MkFOY0ExV3c3bTVsbXFwWEVtdXp5MFZqaFJ6WnlicTRDZkx3MEFKU2RCeFNLSENn?oc=5"
+        },
+        {
+          "src": "Central News South Africa",
+          "h": "Helen Zille Ordered to Stop Alleging Malema Influenced Shadrack Sibiya’s Johannesburg Appointment",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRkd0Z01uZmtZR080akQ4WU11QjZOT25HVmFBaWFLSTlBUGdmb1ZxcTEwWFZoS3REM0hTeUd2TzRHOTVsaEQ3dTViZ25IdGRlRUFWTEJ5RUdEMnljRmYtdVQ4VVdkN3kyZU5CYllCb1BERGNna3BMRWtsVGFWT3lNR09LbGFUbndpQTVmMjk3Sm90OXRVb0RxMkY3d2gyZWZ6Y05uMF9wLTU4TnY5RWpJX0FtOHYybTMyXzdnRlFvNGQ?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "Court bars Helen Zille from repeating corruption allegations against Julius Malema",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMEM2SFF1aGFWRDg4MmRobWl5RmtBTEdmTkxxWTZId2JlUm1wazFCYWNZcGhtRnZiaG9mbVZMUjVDQ05mamlYZXE3OU01ZWxBTFdvYXktbHhMU05qYWZZU2F5TnQ2a1FKeFZnNVpfVmNrb3Z6YlI0dTdIeHc5WlVZblFOVWJTNkxNU1NuSWNvNy0xZkRLbE0zMGlMdllKbUE2c2VHS3d2UVF4UUI4U2lzQnVyRFVGRHZkaWlHR2dOSlFGQnpT?oc=5"
         }
       ],
       "sec": [
@@ -4367,12 +4605,12 @@
     {
       "cat": "Ekurhuleni",
       "place": "Ekurhuleni",
-      "h": "The EFF’s Nthabiseng Tshivhenga is re-elected Ekurhuleni speaker as the council moves to elect an ANC mayor",
-      "dek": "IOL, Business Day and EWN report the EFF’s Nthabiseng Tshivhenga has been re-elected Ekurhuleni council speaker at the sitting postponed from 25 November. IOL had reported the council was to elect a new ANC mayor, and EWN reported the ANC was set to field Mziyanda Mketsu.",
+      "h": "The EFF’s Tshivhenga is re-elected Ekurhuleni speaker as Mketsu faces Rasilingwane for mayor",
+      "dek": "IOL, Business Day, EWN and Inside Politic report the EFF’s Nthabiseng Tshivhenga has been re-elected Ekurhuleni council speaker, with IOL putting her tally at 142 votes. Jacaranda FM reports the ANC’s Mziyanda Mketsu and Rasilingwane are facing off for the mayoral chain, and IOL reports the MK Party is backing the ANC’s candidate.",
       "brief": [
-        "IOL, Business Day and EWN report the EFF’s Nthabiseng Tshivhenga was re-elected council speaker.",
-        "Several outlets reported the mayoral election was postponed to Friday so coalition partners could finish negotiations, and eNCA reported Ekurhuleni faced a crucial leadership vote.",
-        "IOL reported the council was to elect a new ANC mayor, and EWN reported the ANC was set to field Mziyanda Mketsu.",
+        "IOL, Business Day, EWN and Inside Politic report Tshivhenga was re-elected speaker; IOL says she won 142 votes.",
+        "Jacaranda FM reports Mketsu and Rasilingwane are facing off for the mayoral chain, and IOL reports the MK Party is backing the ANC’s mayoral candidate after a fallout in Tshwane.",
+        "The Mercury and other outlets reported the mayoral election was postponed as the ANC closed in on a coalition deal, with the council set to elect a new ANC mayor.",
         "EWN and The National reported parties were waiting on the ANC to sign off the coalition deal, and Newsnote reported Mashaba blamed ANC delays for the stalled talks.",
         "IOL reported the DA was still pursuing a mayoral deal as an ANC-ActionSA deal took shape, and The Citizen reported BOSA was open to coalition talks."
       ],
@@ -4621,6 +4859,24 @@
           "h": "BREAKING | EFF’s Nthabiseng Tshivhenga re-elected as Ekurhuleni council speaker",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUzNEWTVQQ1NBNEc1djFudlIteUVaMktFS1FlV2NUeV9YSzVYOWZlNDJGNktWTTVXVGhDR3I1MU53UXBJTEJqZXBuc3czYkFkR01YOV9jeF9rUl9uYkFDNVRxUjFyNUZrNExZSTlGczFicjE4NEp4dXVpSm5qZnlhbm1WN3pQYWNPWUEwdkEyVnpQNHBsQTFWUWdIZFJNOWwwdE5aZXUtMlpQTTlrem9FdzZ0MURvNFlkNmpWdA?oc=5"
+        },
+        {
+          "src": "Jacaranda FM",
+          "h": "Mketsu and Rasilingwane face off for Ekurhuleni mayoral chain",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbHdqVGU0ZEV0eGpUc2NiZ244ai1vUHFrU3haRDF2aVJINWdWMXpDVkV5akNqSlRaWEZOV3NQUE96TGQ3S1p3RlpWSEJLVG83Y2dIMkRXY2lQUFdCSk9sY2NuZFhiWkw5aF92TThjMWZmWG1VcW5XVWExZXRfMUwtQm5sSjVUZUdEbV81cEV0YkRhbGpHb1pmRQ?oc=5"
+        },
+        {
+          "src": "Inside Politic",
+          "h": "EFF’s Tshivhenga re-elected as Ekurhuleni speaker",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTkNGZUpnWXlvRTFvLUFhVldzZW5ZS196T1NCQWdwVG5lVmJETFhraXRPLWpBSVVPNVZkSmdKclhIVDdmaHFYLUF3emFYVEdLM3hJOVp3V003X1B6RzZDbEFxLWhPb0dIalBHejE1c3p3amZkZTFCUEQzdEdmOW1QZ1JvTQ?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "MK Party backs ANC mayoral candidate in Ekurhuleni after Tshwane fallout",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUlZTSkoyWkEyOGFVdVJKTV9tTGdxZVFwTzhFQWNRbFpEZEV3N1N0TjVobkdlckozYk0wanNHemJNT2YxWnB2eVZFYkpuYWZnUDkwLTFFMDMycUZlS3JEX1VicmhscXlGc1dNU3lEdmlqTkZaOEI5V0pqWnhRZk95MWoxY3hLNGVQamhGb2t4WVdFdjg0TDE4Uld3bDdKWHlfbnZIaXlFMWwybGRnc29lQ0lxUTlsQVE?oc=5"
         }
       ],
       "sec": [
@@ -4887,7 +5143,9 @@
         "a-55fab69453",
         "a-bd98865552",
         "a-2aae662568",
-        "a-57736b3042"
+        "a-57736b3042",
+        "a-c2643b44a8",
+        "a-b0f3f8f211"
       ],
       "coverage": [
         {
@@ -5135,6 +5393,12 @@
           "h": "Mkhize warned ANC against DA coalition in 2024 letter",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVkxVaEVFdnFveUY1aHJiWEE3NlJ1YzRlSDlSejhhZW1aS2FRNzR2ZHRySjhQYklSdUcyYkY4b1hVUHpSR3hhVWZ1NVBLcnV2ZGt0di1ONFJBOVBMVVZEV1hSSVNNUW16YXNpcU1YZnBXcjItZl9lc2dfYl95MGtLa2hQVzh1YmV0NFN5WVhhR09uNFFncTNoYXU3ZW1qQWs?oc=5"
+        },
+        {
+          "src": "The Citizen",
+          "h": "ANC coalition talks face further delays amid pressure to finalise municipal deals",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUm5KTlJmdGI2dzUyZHJseW5BZktreVh5THA2YzNlTkhHNHZLZEp3QUtzdHFJUWZJTjdfV3NXaE5oSWJPU1ptVGNCT0lDR19WLWlld1h1RG0tc242MlluM1k1TU03YUNkaXdReDNEMS1kTU1sbGgxVmxCa2dsa3l2X2xHLVNuZGhkeTRiS1JHcUhDZUNTWU8wcVZWVE9mN1dnX3R1czBIVVk?oc=5"
         }
       ],
       "sec": [
@@ -5291,6 +5555,12 @@
           "h": "ActionSA to Hold Cape Town’s Newly Appointed Mayoral Committee Members Accountable for Delivering on Their Mandates",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYnFtXy1xQkVVYkFNRWNUMzNTSUl5SUtGYnJneDRhOUUzQU5UNGJTVmtTT2h0NmVJUjY5QzFnZ0lLcXdJdVJxbHdkYkZqSzlRaXlQVTV6czFOcHEzUmpaMnBaSEV3YVYzRWRZV0NNcW44VzRDeHdXTndDU1JTRzhoUUhIQVNXcUxjYml6ZXN3d3hxTWRvdFcxT09kM2dwckVobVViakIwUkZidExoeFg3X3MyVVRLMExaY0dPcjBSQjYzcXA3SjhsUkFBVDB3RjgxX1VQMV9lWms1LVU?oc=5"
+        },
+        {
+          "src": "News24",
+          "h": "Cape Town mayor reshuffles mayoral committee, brings in new faces for second term",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTENJaTBHcXo1VUhZQ3pncmVJMnhkQUN0cDZjYlc5d3Rkd3k0ZHRTVHVTMVBTUHhHbjZHM1JLNHFjT0Zoazdrb1dkVDlmblVxYkI3c0JwUXFZaVFoUXNCWlpKWGZWckZreTc2ZVNiLUl5bEdNZlkyN1Q2SWw1TnZsT0ZWeUtUZ25XV0dsZ1NjNHIyYUZqbnRYZ3dUMS0zdm12SzlZOHRDbTNTcXA0V3FwcmlmLXNGY1dHSnFYSDI2VEc5Q2R5a2U0VFhhdkFlRkE?oc=5"
         }
       ],
       "sec": [
@@ -5351,14 +5621,14 @@
     {
       "cat": "Beyond the metros",
       "place": "KwaZulu-Natal",
-      "h": "MK takes uMhlathuze and Newcastle as the ANC, DA and IFP take KwaDukuza",
-      "dek": "IOL, News24, SABC News and Central News South Africa report the MK Party and ANC have taken uMhlathuze, with Nomathamsanqa Mthembu elected mayor, and Tabloid Newspapers reports MK’s Stuart Zwane has been elected Newcastle mayor. In KwaDukuza, The Citizen reports a last-minute deal has put the ANC, DA and IFP in control, while The Witness reports GPU parties have closed ranks in some councils.",
+      "h": "MK and the ANC take uMhlathuze, Newcastle and Msunduzi as the ANC, DA and IFP take KwaDukuza",
+      "dek": "IOL, News24 and SABC News report the MK Party and ANC have taken uMhlathuze, with Nomathamsanqa Mthembu elected mayor, and The Witness reports the two parties have formed a coalition to govern Msunduzi. Tabloid Newspapers reports MK’s Stuart Zwane has been elected Newcastle mayor, while The Citizen reports a last-minute deal put the ANC, DA and IFP in control of KwaDukuza.",
       "brief": [
-        "IOL, News24 and SABC News report the MK Party’s Nomathamsanqa Mthembu was elected uMhlathuze mayor; News24 says the ANC-MK pact sidelined the IFP and DA, and Central News South Africa calls the MK-ANC takeover a political power shift.",
-        "Central News South Africa reports the ANC and MK Party formed a coalition to take control of uPhongolo Municipality, and The Witness reports MK Party and ANC talks are continuing while GPU parties close ranks in some councils.",
-        "The Citizen reports a last-minute coalition deal saw the ANC, DA and IFP take control of KwaDukuza, and The Witness reports the ANC and DA partnered to keep the MK Party out of government there.",
-        "Tabloid Newspapers reports the MK Party’s Stuart Zwane was elected Newcastle mayor, and The Citizen reports a coalition deal in Endumeni delivered a surprise mayoral victory for the IFP.",
-        "The National reports coalition deals are reshaping municipal power in KwaZulu-Natal and exposing divisions in the ANC, and IOL reports DA leadership will attend the uMngeni inauguration, one of only 10 outright wins in the province."
+        "IOL, News24 and SABC News report the MK Party’s Nomathamsanqa Mthembu was elected uMhlathuze mayor; News24 says the ANC-MK pact sidelined the IFP and DA.",
+        "The Witness reports the MK Party and ANC formed a coalition to govern Msunduzi, Central News South Africa reports they took uPhongolo, and Briefly News reports MK has added to its mayoral tally.",
+        "The Citizen reports a last-minute deal saw the ANC, DA and IFP take control of KwaDukuza, and The Witness reports the ANC and DA partnered to keep MK out there.",
+        "Tabloid Newspapers reports MK’s Stuart Zwane was elected Newcastle mayor, and The Citizen reports a deal in Endumeni delivered a surprise mayoral victory for the IFP.",
+        "The National reports coalition deals are reshaping municipal power in the province and exposing ANC divisions."
       ],
       "auto": true,
       "id": "kzn-councils",
@@ -5449,6 +5719,18 @@
           "h": "MK Party’s Stuart Zwane elected Newcastle Mayor",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1iLVhfM18yQS05QUVpb196djVKQ1B5Vzk1UUpXLXR6VDdCRjhmckFqaFhhRTRRWlZWQjR5TWJrN3ZBTU1NQ3FmY0hCVHJSX0ZvOS1aYXpjTE10MW9Da2s2LTNkS1hfenN5U1FDS3N2VDBOdGgtcm5QSThLUzg0UDA?oc=5"
+        },
+        {
+          "src": "Briefly News",
+          "h": "Significant political shift: MK Party adds to its mayoral tally",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNc0dPSlBVOHNFZ2JPWk5ncl9YQU5qYTN4ZENkaVVDeWExUlVEM0xlSnJieWJTOW9kdWMxbDR4TDRFdVNXNkdtTV9wQXVqSEcxMjk3VjVPelU3MmRKdUFDVnJBY01DdER6WUtCOV9rVXhYQWZ6NXFSN0VReHh2cW5oZDlCQng4NXgzZjkwNA?oc=5"
+        },
+        {
+          "src": "The Witness | Your compass in the community",
+          "h": "MK Party and ANC form coalition to govern Msunduzi",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYWtuUkF6ZHBfNVJQcFdKLUppU3NYc2IweHZUMWdjaEEtZ2lrRDJoYzlhSk1MYTgzREt5MnZaSUxnZEN4dWJQeXJJdTlEZVUtaHVMRjh1ZGhCRlZKd3Y1eUdKeGZaVWVZYlNHdFlxSkJjeEZ4NXRQQmRRVTZKTTJ2MFNKbUlEbEFRWFV1MTFsdmFib2s?oc=5"
         }
       ],
       "sec": [
@@ -6378,6 +6660,50 @@
     "4a22808ad7cb",
     "a3dcdcc9c500",
     "c655ce3c8bd9",
-    "c72dda2bf4d7"
+    "c72dda2bf4d7",
+    "d76bc926cfa0",
+    "dcacc038d189",
+    "5e776f48afab",
+    "72abc4002ed6",
+    "8603bec783d6",
+    "8b9afd3c43dd",
+    "6244d1c4564a",
+    "194a916536ab",
+    "59cba4fa9b63",
+    "3c42e9f74d68",
+    "372dc9f7a3e4",
+    "df9b6e650571",
+    "f924cfd1e1f3",
+    "102ed62104fa",
+    "639cdf937568",
+    "c2643b44a8e1",
+    "29c2c2acc82f",
+    "6bcd3cbf98f5",
+    "1d40887f4d6c",
+    "5b437df99166",
+    "f105bce53d82",
+    "fd8c487e7f2c",
+    "0cba20f2a757",
+    "2fc9e7b3c3dc",
+    "7cb1719bee8c",
+    "39e837240490",
+    "c573cc034916",
+    "ea239ab2f254",
+    "d8263eb41c40",
+    "c9f5887cabe6",
+    "d71a30541df3",
+    "66a1442583ef",
+    "4d6eb7c720b7",
+    "101bc1e0faf0",
+    "7061405f3fe6",
+    "61bf6fad698d",
+    "db71a357dd36",
+    "49b228e18880",
+    "9d33fde92693",
+    "3c3ef805edbe",
+    "b0f3f8f21133",
+    "7f744708244d",
+    "5ac46be9e548",
+    "bc36c78b7193"
   ]
 }

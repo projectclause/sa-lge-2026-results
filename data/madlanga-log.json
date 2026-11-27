@@ -1,5 +1,61 @@
 [
   {
+    "t": "2026-11-27T15:02:46Z",
+    "kind": "report",
+    "src": "EWN",
+    "h": "Madlanga Commission: Businessman grilled on his involvement in fraudulent financial transactions",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPY0dISWZPdFlGS0RXQ3d6ZzVDZG9Pa0tlQUwtNEJieWxFT0lWZy1td0pmU1ExemJEcDZwbndYRHVuZzAtRlF1Y2hWdW1zNVVEZzZQbDZtTWpKYXVUZnpGOFA2VUdCaC1iWVFFUXFDcFdYYXZ2VnJ2RDJLVkNaWlBSTTNZZEV2NGR3d3Y4RjliTjhYcDVTNVA2Wl93RGhYYWJaS3dSRmJNLVJfU0ZJQ1l1eEhOLTU3a1VsRVlSVFlnV2dlWUtBaGxr?oc=5",
+    "rule": "trusted outlet, quoted verbatim"
+  },
+  {
+    "t": "2026-11-27T15:02:46Z",
+    "kind": "report",
+    "src": "IOL",
+    "h": "Khumalo to testify behind closed doors at Madlanga Commission",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSmN1NjU0dFQ3dGR4Sm41eEU2Q3Zoby1lLTdDdzVuWnVseEtibmxnLU1SV2NyU3REQ3hITWdDR1lJbU1jcTJIeVdkM0gzNXlVQ0JKem9CMEFHNVVDaWpuMHN2aUpmMWh6RVVEdTZtUzhZR3lVb3ZYY2Z3TnNkdGdrMk8zMEtaNHkxTHdIcEdRcFdaMjk1QjFqOG5hTUxTSm8tSmtXQg?oc=5",
+    "rule": "trusted outlet, quoted verbatim"
+  },
+  {
+    "t": "2026-11-27T15:02:46Z",
+    "kind": "check:high",
+    "src": "Madlanga Files",
+    "h": "Feroz Khan: we do not say they testified, but Madlanga Files lists them on hearing days 130, 132, 133, 134",
+    "url": "",
+    "rule": "ours: Witness · theirs: Testified (Feroz Khan) · flagged for review"
+  },
+  {
+    "t": "2026-11-27T15:02:46Z",
+    "kind": "held back",
+    "src": "Daily Maverick",
+    "h": "Killer cops and the hidden drug empire: the ‘secrets’ Witness T planned to expose",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOV2RqUXVhdGZnVmd3RHozSmVkQTRiY3V1aWRwWGFsWDFYVTBmbDIxNkFaRjJ6eUF1TnBaYzVKRUVObHhKdFVIS0NFTFFDdUtsaHM2d1l5TGNWTW5nclVPakREZVg5aWNKUVVNeXU1cGtQSGJhX05iTThfdmxEY1RGVXVMQUFId21XNmNSWEpRMWpUNVhNYWVhZUN3ZXREWjJ6WjlscEtmeW9xODR1QzlhaHNseEpzMVRjTWdIYjdlWjRsV0dsMlZtRXln?oc=5",
+    "rule": "states guilt"
+  },
+  {
+    "t": "2026-11-27T15:02:46Z",
+    "kind": "held back",
+    "src": "SABC News",
+    "h": "Madlanga Commission hears how Tamryn Raju paid the ultimate price",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNDlVSjJWU3dibkJPTS12Wlp1ZTdxbF9pRFgzLWxoT0JhYS1TMmtyMmZqcVZCSTBvSGhBNURTZzNfWEZaSmV4dnVGRzZKVDE1TTY5OFJESkNGcUNoc2JMdFZEdnl4RExEWlpvcllzbEJ2QXJoajRsUTdYTThZTWpDSFY4cWNJNWZTVDY2eHV2dXNJRWpDVE52Q3g4WmFMRXpyYUZnYXpn?oc=5",
+    "rule": "names a victim"
+  },
+  {
+    "t": "2026-11-27T15:02:46Z",
+    "kind": "held back",
+    "src": "IOL",
+    "h": "Madlanga Commission hears of chilling messages sent to Tamryn Raju before her murder",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPLUs0cDB0cG5hQXp2cmE4Y0JuV2VhLUVNSDVzQk9GT0RVeWRsbk41UjNKRGZfRHJWLWJlUXJnaENsVktXeTAya2g2ek5DQzg2bVpSMnpfdl9ZUzM2QVJkVEtvcHB3MVNZVFpIYXNFNEVLSTk3a0czeW9waC1rWHBqY1F5NjhESWc3eU9PeWp6eWNrLTZKeHlkSkpmcWRlaE40MFg1ZERSWFdZWXJBdlNhYWNUcmI4S3EtMU5wdWNqRHpJM19EdlBBcHc0dEtvUGM?oc=5",
+    "rule": "names a victim"
+  },
+  {
+    "t": "2026-11-27T15:02:46Z",
+    "kind": "held back",
+    "src": "IOL",
+    "h": "Witness T alleges Clive Naicker ordered Tamryn Raju’s killing to 'silence her'",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYklJZm1VZEgtajhQQ1B1UjBfOWxINzEzTlVTTHBUZ2RhU1Jac3VHdzF0YWIzZF9DUzZQek04QWFnYnRuUzFIQkZOZkozVW1abWY2ZDA1S1NVWHlJTjJFclNTN1lqSUxsWXp6MmxXVERsRUd1RmFFdjVDeGFWcVF4T2hLbnNwNWdOc05MVUZNS1FWNkUwVlVid1BzSC1ha2RNel9oc3Q4RE85M3BKdUxkWWFMdldaQ0NlTHc?oc=5",
+    "rule": "names a victim"
+  },
+  {
     "t": "2026-11-27T13:26:03Z",
     "kind": "held back",
     "src": "Daily Maverick",

@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-27T13:26:03Z",
+  "updated": "2026-11-27T15:02:46Z",
   "today": {
     "day": 202,
     "live": {
       "src": "EWN",
       "h": "LIVE | Madlanga Commission of Inquiry",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE05OE1BLXhqWHB3QjBiUHJCbWU1ZHdSXzdtR3JIeGh6QjZZSU55YnRyemVUSUpoR0plZkwzc2dUNmtCM3VyRjF1VURXR3oyaXM4eEJvdFRadmNqU2MwYjRwcUVycmJoWkx4bHhGVzg5LWNCcmRxZkl5WnNHSQ?oc=5",
-      "d": "2026-11-27T08:02:10Z"
+      "d": "2026-11-27T12:02:17Z"
     },
     "stand": {
       "src": "Business Day",
@@ -18,11 +18,32 @@
   },
   "reports": [
     {
+      "src": "EWN",
+      "logo": "ewn",
+      "h": "Madlanga Commission: Businessman grilled on his involvement in fraudulent financial transactions",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPY0dISWZPdFlGS0RXQ3d6ZzVDZG9Pa0tlQUwtNEJieWxFT0lWZy1td0pmU1ExemJEcDZwbndYRHVuZzAtRlF1Y2hWdW1zNVVEZzZQbDZtTWpKYXVUZnpGOFA2VUdCaC1iWVFFUXFDcFdYYXZ2VnJ2RDJLVkNaWlBSTTNZZEV2NGR3d3Y4RjliTjhYcDVTNVA2Wl93RGhYYWJaS3dSRmJNLVJfU0ZJQ1l1eEhOLTU3a1VsRVlSVFlnV2dlWUtBaGxr?oc=5",
+      "d": "2026-11-27T14:59:08Z"
+    },
+    {
+      "src": "EWN",
+      "logo": "ewn",
+      "h": "LIVE | Madlanga Commission of Inquiry",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE05OE1BLXhqWHB3QjBiUHJCbWU1ZHdSXzdtR3JIeGh6QjZZSU55YnRyemVUSUpoR0plZkwzc2dUNmtCM3VyRjF1VURXR3oyaXM4eEJvdFRadmNqU2MwYjRwcUVycmJoWkx4bHhGVzg5LWNCcmRxZkl5WnNHSQ?oc=5",
+      "d": "2026-11-27T12:02:17Z"
+    },
+    {
       "src": "IOL",
       "logo": "iol",
       "h": "Madlanga Commission: Ramaphosa briefed six days before Mkhwanazi’s explosive briefing",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaGpMM2JlTXhidkhnMWU4RURNMVREdklGQUlfdUF3OE02czZtSm9XNGdFdTh5X2J4RXpqeTl5YlJINHAxZzdQZkR1eTBJQmlkdnRfUGJzTUdERUlLVFp5ZVIzbVltMmxtME9rcHh6QWhabUNicmRmX21hNFE3V2RkN1JVMlE5OFlGelVUNFEzY29fQmJrNnczQUhwVjE2QlJBMF90QXdYd05MYUR4ZWVRNUQ0OC14dnFFOWZvT21jYjNhUXp0RE1z?oc=5",
       "d": "2026-11-27T11:50:53Z"
+    },
+    {
+      "src": "IOL",
+      "logo": "iol",
+      "h": "Khumalo to testify behind closed doors at Madlanga Commission",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSmN1NjU0dFQ3dGR4Sm41eEU2Q3Zoby1lLTdDdzVuWnVseEtibmxnLU1SV2NyU3REQ3hITWdDR1lJbU1jcTJIeVdkM0gzNXlVQ0JKem9CMEFHNVVDaWpuMHN2aUpmMWh6RVVEdTZtUzhZR3lVb3ZYY2Z3TnNkdGdrMk8zMEtaNHkxTHdIcEdRcFdaMjk1QjFqOG5hTUxTSm8tSmtXQg?oc=5",
+      "d": "2026-11-27T11:48:54Z"
     },
     {
       "src": "IOL",
@@ -58,13 +79,6 @@
       "h": "Madlanga Commission sees messages showing victim being threatened before her murder",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcFZ3TzlhRHRnWlJYUWxOV1ZNSjJNY3luS0RkS2RCZ1d4ZnUycE5GeXNHbUwzV0hUdXJvTXZoSmh0UXJUSFY2RGVIOEVmLWZhdlhCcWlERkpLYnRDRnB3Yl9DZGQ5T213OTZYQnBvMW5XcDRBSDdlYU85TEZpY2RnMXE0cWFaS0tqSVJtWWFTVnBpamJQNmcyZ0ZwOTNfd0JZdVA0NDRraVZnNFl5dVdVYnd5NU4tZ1k?oc=5",
       "d": "2026-11-27T09:32:14Z"
-    },
-    {
-      "src": "EWN",
-      "logo": "ewn",
-      "h": "LIVE | Madlanga Commission of Inquiry",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE05OE1BLXhqWHB3QjBiUHJCbWU1ZHdSXzdtR3JIeGh6QjZZSU55YnRyemVUSUpoR0plZkwzc2dUNmtCM3VyRjF1VURXR3oyaXM4eEJvdFRadmNqU2MwYjRwcUVycmJoWkx4bHhGVzg5LWNCcmRxZkl5WnNHSQ?oc=5",
-      "d": "2026-11-27T08:02:10Z"
     },
     {
       "src": "IOL",
@@ -113,7 +127,7 @@
       "logo": "news24",
       "h": "‘Witness T’ accuses Naicker of murdering own niece, says she gathered evidence against him",
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPQ3oxYV9qQ0Qza2FyVmRFRlZpS1hFcjBuR25sREJGRFBFQkxfMEQzZzh4TDV3QUpudHJWSmM1STJzdGIzdVYzcVVKZnp4d0tsUW9LUjJqWW9mekh0cHZfd1JsTkNzZGp4d0l1WFNLQlZPRUVieWRpYjdZcFloTXV3MWZram5iVGV3Q1VOZGtNZHVIUV84a3JuNXhpQ3JOTlFaXzlCbG5Fa0ljLVZhSGtacy1ENnFsOUdiR1ZIU3JXbTN1QjIwT0xaZ2pOR1ExZl9MQVJWcXVLYVU3N2hxd0FMdS1uOFUyTlpM?oc=5",
-      "d": "2026-11-27T02:32:36Z"
+      "d": "2026-11-27T02:47:13Z"
     },
     {
       "src": "Daily Maverick",
@@ -137,25 +151,11 @@
       "d": "2026-11-26T07:53:01Z"
     },
     {
-      "src": "TimesLIVE",
-      "logo": "timeslive",
-      "h": "RECORDED | Former Sars boss Kieswetter continues testimony at Madlanga inquiry",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMXdYRFhqbG52X1cyMmFHNjNKbFlUV1NGU1ZXX2l2cmZhQWhWeHJaSmd4b1NrcVpfbXFXVlZxSWJMZWpOSFkwYXJscmlKMWkyUHljelFvRlVwTERxc1Z4cm5EX1J1SFZPRGtQZXRqak1aeWxMTk9Lc0hYcm11aVV1bFgyQVA5LUlJTi1RRmx4ZmM2ajlVS200RkxSckZ2bTFlM19xN19keXp1b1Z6bUFJSVdzVVBXR09BSjc4QUd1bzgzbERKV2c?oc=5",
-      "d": "2026-11-26T07:53:01Z"
-    },
-    {
       "src": "eNCA",
       "logo": "enca",
       "h": "LIVESTREAM | Kieswetter returns to Madlanga Commission",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPc0taT2dlTVY5YVNqTG5CTDZmaU05dnhsMHJ5cjBmYW53VFYxVk11ZkJKVWlUdGdVY1JuUnM2WVZpTlh1UFI2Nlc2TVV4ZjJWQUFMbmJDOVk1OHU3RWtqZDFDN3lteGdrYWlHOUpEaWtyYjE4dGtIS2E2MGlsemxfNDY3a3E0a3RmNjJkWVVZcDk?oc=5",
       "d": "2026-11-26T07:33:28Z"
-    },
-    {
-      "src": "SABC News",
-      "logo": "sabcnews",
-      "h": "Witness T testifies that Clive Naicker is a known drug dealer",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWW91emsxSG5wMmwzZS1xNXZYUUpNTTFKQldueGR6RjkzaU8wSThtM3h2RklJM1BLdzg2MDh1T3poVzc0RUpZY1daT2lRUDBhQzJYS0NBYi1KSXJHa3VmNENRVTNpbVplT29Zano4TE1oaVMzVDhaMkN0Tlo5TlhncVdra0dfN3ZLZ09nVWdlcmF2ckNoUFNtYTU2Q3U?oc=5",
-      "d": "2026-11-26T05:17:31Z"
     }
   ],
   "people": {
@@ -194,7 +194,7 @@
           "logo": "news24",
           "h": "‘Witness T’ accuses Naicker of murdering own niece, says she gathered evidence against him",
           "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPQ3oxYV9qQ0Qza2FyVmRFRlZpS1hFcjBuR25sREJGRFBFQkxfMEQzZzh4TDV3QUpudHJWSmM1STJzdGIzdVYzcVVKZnp4d0tsUW9LUjJqWW9mekh0cHZfd1JsTkNzZGp4d0l1WFNLQlZPRUVieWRpYjdZcFloTXV3MWZram5iVGV3Q1VOZGtNZHVIUV84a3JuNXhpQ3JOTlFaXzlCbG5Fa0ljLVZhSGtacy1ENnFsOUdiR1ZIU3JXbTN1QjIwT0xaZ2pOR1ExZl9MQVJWcXVLYVU3N2hxd0FMdS1uOFUyTlpM?oc=5",
-          "d": "2026-11-27T02:32:36Z"
+          "d": "2026-11-27T02:47:13Z"
         },
         {
           "src": "EWN",
@@ -245,7 +245,8 @@
           "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TNFFPMmQ2OTBGREJxQ3pydjBiTlFnMGZYMy1Rc1BVazYwcE1BTW5xV2VYb1FTeU0xc2Z2aTV6OWZXbzVOSmRKNlNfRjNGcDBNNkNJUkJ4YzlncWt3ZXBlNWZjRmVuY2ZKOTRYY0lQZS1URGlUOE9PdWZGWnZRQQ?oc=5",
           "d": "2026-11-24T06:04:46Z"
         }
-      ]
+      ],
+      "st": "t"
     },
     "nhlanhla-mkhwanazi": {
       "lines": [
@@ -263,7 +264,8 @@
           "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNN0xld0c0WjNVX2xKQjhUVkxTd25NU2dPQVhOQ0JFY1Rncnptdkc5OHZuU0NPSVBzZXZmbElmM0QwYWRXeUNSTDJQaGRrS0dqZ1VmeEloUVp2Ni1lV0tVclkwYWU5ZEZlSEVmcFdsei1sSnFYUEg3QkRtTEdFMEd1RDJjUEh0QW1QamduOFZlMGIxa3EtT1ZXV2tSMTFfMUtRRXI2QnU4RXdRalJleGtoSlhBRTV0WXVOREo4b0ZMRGVlOEFTZ3RVVDI1QjRvaDhDQ216TllybzVKa1NCblE?oc=5",
           "d": "2026-11-27T10:23:35Z"
         }
-      ]
+      ],
+      "st": "t"
     },
     "vusimuzi-matlala": {
       "lines": [
@@ -288,7 +290,8 @@
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONHhpOXVTNk5USDhoUmRnV0dkSUVfMTF1ZGlteGFZbzU0RzFvX0pTaVFELUdmZWpDcGlNeFdmYnVsVnJWVnBXOWFfaUtIU0NCUmlMd1ZBczM0UVBwNE51V1ZrNWhuTTNXa3RjMXctVkFGcGo2eTNUN0JSZi1OYXQ1QmFfblU0YUxRNzI4bDBNbTlyaE43ZENyOTNnUnh2RHlnS1VTUXBldllYNkxPT3VmU3lyWkJVLWMwZEE?oc=5",
           "d": "2026-11-24T11:51:24Z"
         }
-      ]
+      ],
+      "st": "t"
     },
     "dumisani-khumalo": {
       "lines": [
@@ -313,7 +316,8 @@
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZTVRYU1JdVNyZGFSMHdRWkhxZHJVWjc5dElwelhwMDR1aHE1YXNiTVI0bFZUaGpBN0ZualROTWlhcWtXS1ZTR2o0NzJZbXNZbjRFZWVPVVlrbEpMWXUyYnh4ZVhMb1pBVldWYVlNWVgzT0pyX19vNVgxUEdaYk1sRVNpLXFlbWEtZVN0RERsLVBXTUh2UTRsTkwwWWZ0eWFuR3R5QUhKUzRscWFTSEcwWjlFM3R3d2RkZUZTTzJTTVhySVc4SEpDTkFjc0FyamZkYllqXzhHRlpCbkk?oc=5",
           "d": "2026-11-24T13:36:13Z"
         }
-      ]
+      ],
+      "st": "tp"
     },
     "brown-mogotsi": {
       "lines": [
@@ -380,7 +384,8 @@
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPanFadkZ1MkJXajZ6X2pRUUxVSjNJa0VWaUFWVlFKT1ZCOG5hdEVxeExyakZwbVBZMGgxTGMycXhOSUVxN3lFNFhsQ3JyYTd6N3h1b3hZbkM4cGIxbWUxUFpTaVlZYUFFZ2loLWlpTEtLcHdpcVNYN0dFRURBbXJuMGt0WVpvaTVueV9Fb1VKUFBTb250bnRfTWdDYUVodE56dDdR?oc=5",
           "d": "2026-11-23T15:42:56Z"
         }
-      ]
+      ],
+      "st": "t"
     },
     "clive-naicker": {
       "lines": [
@@ -403,7 +408,7 @@
           "logo": "news24",
           "h": "‘Witness T’ accuses Naicker of murdering own niece, says she gathered evidence against him",
           "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPQ3oxYV9qQ0Qza2FyVmRFRlZpS1hFcjBuR25sREJGRFBFQkxfMEQzZzh4TDV3QUpudHJWSmM1STJzdGIzdVYzcVVKZnp4d0tsUW9LUjJqWW9mekh0cHZfd1JsTkNzZGp4d0l1WFNLQlZPRUVieWRpYjdZcFloTXV3MWZram5iVGV3Q1VOZGtNZHVIUV84a3JuNXhpQ3JOTlFaXzlCbG5Fa0ljLVZhSGtacy1ENnFsOUdiR1ZIU3JXbTN1QjIwT0xaZ2pOR1ExZl9MQVJWcXVLYVU3N2hxd0FMdS1uOFUyTlpM?oc=5",
-          "d": "2026-11-27T02:32:36Z"
+          "d": "2026-11-27T02:47:13Z"
         },
         {
           "src": "EWN",
@@ -419,7 +424,8 @@
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWW91emsxSG5wMmwzZS1xNXZYUUpNTTFKQldueGR6RjkzaU8wSThtM3h2RklJM1BLdzg2MDh1T3poVzc0RUpZY1daT2lRUDBhQzJYS0NBYi1KSXJHa3VmNENRVTNpbVplT29Zano4TE1oaVMzVDhaMkN0Tlo5TlhncVdra0dfN3ZLZ09nVWdlcmF2ckNoUFNtYTU2Q3U?oc=5",
           "d": "2026-11-26T05:17:31Z"
         }
-      ]
+      ],
+      "st": "t"
     },
     "tintswalo-rikhotso": {
       "lines": [
@@ -430,7 +436,8 @@
           "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQXJzcXhfdFRyYW5aWHF2cmg5OWVLNmJNenM1eTFQVEVpaVVIa2ZySEtFenBobXVoZlo4Xzd3TkRWVEtkazZqZlFNS2I0TFpYblRieVpoRjNaZElNNm9rRm5CeDRleV9aYXViX2dGRHc0UnB4S3NUaDA1WHhGN2pmbHlHeWUzMHpRNHFubUFTa01tRXU2eDJjbk1kOWlRZ1QtOWNZYkwxOFEzRFhXZ0x4Z1ZmOVZ6TVVhaTZzOHlTUldfdEY4Z0l1ZUFIZFFNc254ekg4YmoxdFA4UXRmT3FhbmVtNHVTZjc1?oc=5",
           "d": "2026-11-27T11:06:17Z"
         }
-      ]
+      ],
+      "st": "t"
     },
     "suliman-carrim": {
       "lines": [
@@ -525,7 +532,8 @@
         "h": "Carrim's attorney hits back at Madlanga Commission",
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPX0NWbUR2MFl3cmotNFVaVzd3YTUxN3diZWpTLTdVMUJKa3FuRWYxUHJhRGlUOWRuTmxISTNZcWp6M2F1N25LZEVDeEMtWmx6OXl5Z280VUN3X00zWnVvbVEydVk1UjVrR0J1ZG5rcFRUbVhyVTdKNkFIZ1V5S0ZESGViYXNhSTN3d3lXMw?oc=5",
         "d": "2026-11-24T17:47:59Z"
-      }
+      },
+      "st": "t"
     },
     "edward-kieswetter": {
       "lines": [
@@ -564,7 +572,8 @@
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRDhGdEdiNFlwMW0wcUdMbGRMNjd6eWxReWlUT0p0Y0RDMW14aU1CVlJfVTJ4akItVktxOTJPZTdXbnpzRFBpQmhpZU1PNWFaUVYxbVR2Y2lkMlBGV2d3SWJKN1hudXJLRXVGTUZNcm9OTGp3SGFMUGtkZHhodkRWaE9uQ3dmX2c5aXkwV2xyYjZXSUZWOXlDWXlrcDBhWUNNSG5iWjN4NS0?oc=5",
           "d": "2026-11-25T17:20:42Z"
         }
-      ]
+      ],
+      "st": "t"
     },
     "bheki-cele": {
       "lines": [
@@ -575,7 +584,104 @@
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQblJaVW9vMkh1UWdQSjZ3ZGx5NWdZQi1EY3M3dmlfVkgyRDJNcHd4UHFva1pCUm9YNm83a3YzT2tmbThETkNqS3RweHZQYjBsLW9wdlFzRFREcnBKSGRPSEUxbXFtRHVvT1E2S1pqdlZFZ2FIVV9haVNBX1J0Q0EyTGV6RUZ0dU4yTGdobG8tMFpHeDZTd2JyNGcxYVBrdFoyS3hUYWhFZFdpZnJvc0NaelE3UlEyemZhQXRhbA?oc=5",
           "d": "2026-11-25T08:00:00Z"
         }
-      ]
+      ],
+      "st": "n"
+    },
+    "fannie-masemola": {
+      "lines": [
+
+      ],
+      "st": "t"
+    },
+    "feroz-khan": {
+      "lines": [
+
+      ],
+      "st": "w"
+    },
+    "godfrey-lebeya": {
+      "lines": [
+
+      ],
+      "st": "t"
+    },
+    "deena-govender": {
+      "lines": [
+
+      ],
+      "st": "t"
+    },
+    "ramsamy": {
+      "lines": [
+
+      ],
+      "st": "t"
+    },
+    "fadiel-adams": {
+      "lines": [
+
+      ],
+      "st": "t"
+    },
+    "vusi-shongwe": {
+      "lines": [
+
+      ],
+      "st": "t"
+    },
+    "fannie-nkosi": {
+      "lines": [
+
+      ],
+      "st": "t"
+    },
+    "thobakgale": {
+      "lines": [
+
+      ],
+      "st": "t"
+    },
+    "ntandazo-sifolo": {
+      "lines": [
+
+      ],
+      "st": "tp"
+    },
+    "bafana-sindane": {
+      "lines": [
+
+      ],
+      "st": "s"
+    },
+    "campbell-nyuswa": {
+      "lines": [
+
+      ],
+      "st": "t"
+    },
+    "tumelo-nku": {
+      "lines": [
+
+      ],
+      "st": "t"
+    },
+    "len-john": {
+      "lines": [
+
+      ],
+      "st": "t"
+    },
+    "matthews-sesoko": {
+      "lines": [
+
+      ],
+      "st": "t"
+    },
+    "senzo-mchunu": {
+      "lines": [
+
+      ],
+      "st": "t"
     }
   },
   "since": [
@@ -602,7 +708,7 @@
     },
     "karyn-maughan": {
       "n7": 7,
-      "last": "2026-11-27T02:32:36Z"
+      "last": "2026-11-27T02:47:13Z"
     },
     "rebecca-davis": {
       "n7": 0,
@@ -614,7 +720,7 @@
     },
     "alex-patrick": {
       "n7": 0,
-      "last": "2026-10-29T07:00:00Z"
+      "last": "2026-10-01T07:00:00Z"
     },
     "qaanitah-hunter": {
       "n7": 1,
@@ -655,6 +761,127 @@
     "graeme-hosken": {
       "n7": 0,
       "last": "2026-10-21T07:00:00Z"
+    }
+  },
+  "align": {
+    "witness-t": {
+      "st": "t",
+      "url": "https://madlangacommission.co.za/witnesses/witness-t"
+    },
+    "nhlanhla-mkhwanazi": {
+      "st": "t",
+      "url": "https://madlangacommission.co.za/witnesses/nhlanhla-mkhwanazi"
+    },
+    "vusimuzi-matlala": {
+      "st": "t",
+      "url": "https://madlangacommission.co.za/witnesses/vusimuzi-matlala"
+    },
+    "shadrack-sibiya": {
+      "url": "https://madlangacommission.co.za/witnesses/shadrack-sibiya"
+    },
+    "fannie-masemola": {
+      "st": "t",
+      "url": "https://madlangacommission.co.za/witnesses/fannie-masemola"
+    },
+    "dumisani-khumalo": {
+      "st": "tp",
+      "url": "https://madlangacommission.co.za/witnesses/dumisani-khumalo"
+    },
+    "feroz-khan": {
+      "st": "w",
+      "url": "https://madlangacommission.co.za/witnesses/feroz-khan"
+    },
+    "godfrey-lebeya": {
+      "st": "t",
+      "url": "https://madlangacommission.co.za/witnesses/godfrey-lebeya"
+    },
+    "deena-govender": {
+      "st": "t",
+      "url": "https://madlangacommission.co.za/witnesses/deena-govender"
+    },
+    "andrea-johnson": {
+      "url": "https://madlangacommission.co.za/witnesses/andrea-johnson"
+    },
+    "ramsamy": {
+      "st": "t",
+      "url": "https://madlangacommission.co.za/witnesses/drushantha-ramsamy"
+    },
+    "julius-mkhwanazi": {
+      "url": "https://madlangacommission.co.za/witnesses/julius-mkhwanazi"
+    },
+    "brown-mogotsi": {
+      "st": "t",
+      "url": "https://madlangacommission.co.za/witnesses/brown-mogotsi"
+    },
+    "joe-sibanyoni": {
+      "url": "https://madlangacommission.co.za/witnesses/joe-sibanyoni"
+    },
+    "clive-naicker": {
+      "st": "t",
+      "url": "https://madlangacommission.co.za/witnesses/clive-naicker"
+    },
+    "tintswalo-rikhotso": {
+      "st": "t",
+      "url": "https://madlangacommission.co.za/witnesses/tintswalo-rikhotso"
+    },
+    "rachel-matjeng": {
+      "url": "https://madlangacommission.co.za/witnesses/rachel-matjeng"
+    },
+    "suliman-carrim": {
+      "st": "t",
+      "url": "https://madlangacommission.co.za/witnesses/suleiman-carrim"
+    },
+    "fadiel-adams": {
+      "st": "t",
+      "url": "https://madlangacommission.co.za/witnesses/fadiel-adams"
+    },
+    "vusi-shongwe": {
+      "st": "t",
+      "url": "https://madlangacommission.co.za/witnesses/vusi-shongwe"
+    },
+    "edward-kieswetter": {
+      "st": "t",
+      "url": "https://madlangacommission.co.za/witnesses/edward-kieswetter"
+    },
+    "fannie-nkosi": {
+      "st": "t",
+      "url": "https://madlangacommission.co.za/witnesses/fannie-nkosi"
+    },
+    "thobakgale": {
+      "st": "t",
+      "url": "https://madlangacommission.co.za/witnesses/makgothi-thobakgale"
+    },
+    "ntandazo-sifolo": {
+      "st": "tp",
+      "url": "https://madlangacommission.co.za/witnesses/ntandazo-sifolo"
+    },
+    "bafana-sindane": {
+      "st": "s",
+      "url": "https://madlangacommission.co.za/witnesses/bafana-sindane"
+    },
+    "campbell-nyuswa": {
+      "st": "t",
+      "url": "https://madlangacommission.co.za/witnesses/campbell-nyuswa"
+    },
+    "tumelo-nku": {
+      "st": "t",
+      "url": "https://madlangacommission.co.za/witnesses/tumelo-nku"
+    },
+    "len-john": {
+      "st": "t",
+      "url": "https://madlangacommission.co.za/witnesses/len-john"
+    },
+    "matthews-sesoko": {
+      "st": "t",
+      "url": "https://madlangacommission.co.za/witnesses/matthews-sesoko"
+    },
+    "senzo-mchunu": {
+      "st": "t",
+      "url": "https://madlangacommission.co.za/witnesses/senzo-mchunu"
+    },
+    "bheki-cele": {
+      "st": "n",
+      "url": "https://madlangacommission.co.za/witnesses/bheki-cele"
     }
   }
 }

@@ -1,11 +1,20 @@
 {
-  "checked": "2026-11-27T13:39:59Z",
+  "checked": "2026-11-27T15:02:46Z",
   "sources": {
     "Madlanga Files": "ok (195 hearing days to 2026-11-24)",
     "Madlanga Commission Archive": "ok (91 people)"
   },
   "day_ok": true,
   "issues": [
+    {
+      "level": "high",
+      "area": "witness status",
+      "what": "Feroz Khan: we do not say they testified, but Madlanga Files lists them on hearing days 130, 132, 133, 134",
+      "ours": "Witness",
+      "theirs": "Testified (Feroz Khan)",
+      "source": "Madlanga Files",
+      "action": "flagged for review"
+    },
     {
       "level": "high",
       "area": "witness status",
@@ -25,51 +34,6 @@
       "action": "flagged for review"
     },
     {
-      "level": "high",
-      "area": "witness status",
-      "what": "Brigadier Campbell Nyuswa: we do not say they testified, but Madlanga Files lists them on hearing day 120",
-      "ours": "Witness",
-      "theirs": "Testified (Brigadier Campbell Nyuswa)",
-      "source": "Madlanga Files",
-      "action": "flagged for review"
-    },
-    {
-      "level": "high",
-      "area": "witness status",
-      "what": "Itumeleng ‘Tumelo’ Nku: we do not say they testified, but Madlanga Files lists them on hearing days 118, 121, 126, 127",
-      "ours": "Witness",
-      "theirs": "Testified (Tumelo Nku)",
-      "source": "Madlanga Files",
-      "action": "flagged for review"
-    },
-    {
-      "level": "high",
-      "area": "witness status",
-      "what": "Len Barnabas John: we do not say they testified, but Madlanga Files lists them on hearing day 157",
-      "ours": "Witness",
-      "theirs": "Testified (Len Barnabas John)",
-      "source": "Madlanga Files",
-      "action": "flagged for review"
-    },
-    {
-      "level": "high",
-      "area": "witness status",
-      "what": "Matthews Sesoko: we do not say they testified, but Madlanga Files lists them on hearing day 155",
-      "ours": "Witness",
-      "theirs": "Testified (Matthew Sesoko)",
-      "source": "Madlanga Files",
-      "action": "flagged for review"
-    },
-    {
-      "level": "high",
-      "area": "witness status",
-      "what": "Senzo Mchunu: we do not say they testified, but Madlanga Files lists them on hearing day 45",
-      "ours": "Named in evidence",
-      "theirs": "Testified (Suspended Senzo Mchunu)",
-      "source": "Madlanga Files",
-      "action": "flagged for review"
-    },
-    {
       "level": "medium",
       "area": "evidence leaders",
       "what": "Madlanga Files lists an evidence leader we do not have",
@@ -81,36 +45,9 @@
     {
       "level": "medium",
       "area": "name",
-      "what": "Suliman Carrim: the other record spells the name differently",
-      "ours": "Suliman Carrim",
-      "theirs": "Suleiman Carrim",
-      "source": "Madlanga Commission Archive",
-      "action": "flagged for review"
-    },
-    {
-      "level": "medium",
-      "area": "name",
       "what": "Bafana Sindane: the other record spells the name differently",
       "ours": "Bafana Sindane",
       "theirs": "Oupa Sindane",
-      "source": "Madlanga Files",
-      "action": "flagged for review"
-    },
-    {
-      "level": "medium",
-      "area": "witness status",
-      "what": "Feroz Khan: we say private hearing, but Madlanga Files lists public hearing days 130, 132, 133, 134",
-      "ours": "Private hearing",
-      "theirs": "Listed on 7 hearing days",
-      "source": "Madlanga Files",
-      "action": "flagged for review"
-    },
-    {
-      "level": "medium",
-      "area": "witness status",
-      "what": "Dr Ntandazo Sifolo: we say private hearing, but Madlanga Files lists public hearing days 185, 193",
-      "ours": "Private hearing",
-      "theirs": "Listed on 2 hearing days",
       "source": "Madlanga Files",
       "action": "flagged for review"
     },
@@ -129,24 +66,6 @@
       "what": "Adv Mpilo Sikhakhane: the other record gives the title SC",
       "ours": "Adv Mpilo Sikhakhane",
       "theirs": "Advocate Mpilo Sikhakhane SC",
-      "source": "Madlanga Files",
-      "action": "flagged for review"
-    },
-    {
-      "level": "low",
-      "area": "name",
-      "what": "Ramsamy: we show only a surname",
-      "ours": "Ramsamy",
-      "theirs": "Drushantha Ramsamy",
-      "source": "Madlanga Files",
-      "action": "flagged for review"
-    },
-    {
-      "level": "low",
-      "area": "name",
-      "what": "Thobakgale: we show only a surname",
-      "ours": "Thobakgale",
-      "theirs": "Makgothi Samuel Thobakgale",
       "source": "Madlanga Files",
       "action": "flagged for review"
     }
