@@ -46,7 +46,7 @@ const grouped = (e) => {
 };
 const outletsOf = (e) => [...new Set(reports(e).map((a) => a.src))];
 const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); return `${o.length} outlets${intl.length ? `, including ${esc(and(intl.slice(0, 3)))}` : ""}`; };
-  const people = (list) => [...new Set(list.map((i) => i.j))].map((k) => D.journalists[k]);
+  const people = (list) => [...new Set(list.flatMap((i) => [i.j].concat(i.with || [])))].map((k) => D.journalists[k]).filter(Boolean);
   // a row of faces, capped at max with a "+N" chip for the rest
   // gold star + pill for voices with a wide audience
   const WIDE = '<span class="pl-wide"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg>Wide Reach</span>';
@@ -129,8 +129,10 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
 
   // ---------- who matters most: ranking used to keep lists short ----------
   const ago = (d) => (Date.parse(D.edition.date) - Date.parse(d)) / 864e5;
-  const cnt = (k) => D.items.filter((i) => i.j === k).length;
-  const recent = (k, days = 7) => D.items.filter((i) => i.j === k && ago(i.d) <= days).length;
+  // a piece belongs to its author (j) and any co-authors listed in "with"
+  const byK = (i, k) => i.j === k || (i.with || []).includes(k);
+  const cnt = (k) => D.items.filter((i) => byK(i, k)).length;
+  const recent = (k, days = 7) => D.items.filter((i) => byK(i, k) && ago(i.d) <= days).length;
   const keyOf = (p) => Object.keys(D.journalists).find((x) => D.journalists[x] === p);
   // voices: active in the last two weeks first, then influence score; reporters by how much they filed this week
   const rankV = (list) => list.sort((a, b) => (recent(b[0], 14) > 0) - (recent(a[0], 14) > 0) || (b[1].beat === "reporting" ? recent(b[0]) - recent(a[0]) : 0) || (b[1].score || 0) - (a[1].score || 0) || cnt(b[0]) - cnt(a[0]));
@@ -145,7 +147,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
   // co-hosts sit together: anyone marked "after": "<key>" is placed right after that person
   const pairUp = (list) => { list.filter(([, p]) => p.after).forEach((x) => { const t = list.findIndex(([k]) => k === x[1].after); if (t < 0) return; list.splice(list.indexOf(x), 1); list.splice(list.findIndex(([k]) => k === x[1].after) + 1, 0, x); }); return list; };
   // when a person's latest piece came out, as a small red line on their card (pieces carry a date, not a time)
-  const lastD = (k) => D.items.reduce((m, i) => (i.j === k && i.d > m ? i.d : m), "");
+  const lastD = (k) => D.items.reduce((m, i) => (byK(i, k) && i.d > m ? i.d : m), "");
   const lastLine = (k) => {
     const d = lastD(k); if (!d) return "";
     const today = new Date(Date.now() + 2 * 36e5).toISOString().slice(0, 10); // SAST
@@ -224,11 +226,11 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
   }
   // inside a story: the people who moved it most (decision-makers and the latest to speak first)
   function storyRank(e, ps, I) {
-    const last = (k) => I.filter((i) => i.j === k).map((i) => i.d).sort().pop() || "";
+    const last = (k) => I.filter((i) => byK(i, k)).map((i) => i.d).sort().pop() || "";
     const P = ps.map((p) => [keyOf(p), p]);
     // players named in the headline lead (the story is about them), then decision-makers, then the most present and most recent
     const named = (p) => (e.h + " " + e.dek).includes(p.n.split(" ").pop());
-    const inStory = (k) => I.filter((i) => i.j === k).length;
+    const inStory = (k) => I.filter((i) => byK(i, k)).length;
     const pw = (k, p) => (named(p) ? 1000 : 0) + (p.core ? 100 : 0) + inStory(k) * 5;
     const players = P.filter(([, p]) => p.group === "player").sort((a, b) => pw(b[0], b[1]) - pw(a[0], a[1]) || last(b[0]).localeCompare(last(a[0])));
     // the public broadcaster (SABC) gets its own place: its busiest voice on this story
@@ -287,18 +289,18 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
         if (who) {
           const list = document.createElement("div");
           list.className = "pl-vlist";
-          list.innerHTML = all.filter((i) => i.j === who).map(piece).join("");
+          list.innerHTML = all.filter((i) => byK(i, who)).map(piece).join("");
           b.after(list);
         }
         return;
       }
-      root.querySelector(".pl-all").innerHTML = all.filter((i) => !who || i.j === who).map(piece).join("");
+      root.querySelector(".pl-all").innerHTML = all.filter((i) => !who || byK(i, who)).map(piece).join("");
       root.querySelector(".pl-filt").textContent = who ? `· ${D.journalists[who].n}` : "";
     });
   }
 
   function sayCard(e, I, k, p, lead) {
-    const mine = I.filter((i) => i.j === k).reverse();
+    const mine = I.filter((i) => byK(i, k)).reverse();
     const tag = p.group === "player" ? "Key player" : p.pb ? "Public Broadcaster" : p.beat === "reporting" ? "Reporting" : "Analysis";
     return `
           <div class="pl-voicecard${lead ? " pl-lead3" : ""}" id="says-${k}">
