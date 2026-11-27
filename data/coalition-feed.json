@@ -1,7 +1,31 @@
 {
   "youtube_tv": {
-    "channels": {"macg": "UC7BXdXFxVgMPKmBeDgx2QrQ", "sizwe": "UCk_qa4ssROH8aUDbgQXE5dA", "zimasa": "UCkaYZuDy-SVFUf1AnyY9xXw", "mighti": "UCUe-mj19X5AfmEXhnC-Ipdg", "sham": "UCMHEDVFW5sUeHr5KMIOHuyg", "makin": "UCYMmtAnXXWMYxdkDZ-K7DRg", "corder": "UCboT_OiT6Asv3M-pQBC3Z4Q", "zizipho": "UCEm32Ez_kzVNJf32cXeZ2rg", "wyatt": "UCo-3Qu7AoKwo0co8v79mcYw", "masilela": "UCMCj_4yQBzA2yqBEEi4-3CQ", "djsbu": "UCNmytX4p-jp2eVatN6DJoTw"},
-    "views7": {"macg": "1.47M", "sizwe": "1.17M", "zimasa": "405K", "mighti": "368K", "sham": "317K", "makin": "293K", "corder": "292K", "zizipho": "137K", "wyatt": "131K", "masilela": "47K", "djsbu": "31K"},
+    "channels": {
+      "macg": "UC7BXdXFxVgMPKmBeDgx2QrQ",
+      "sizwe": "UCk_qa4ssROH8aUDbgQXE5dA",
+      "zimasa": "UCkaYZuDy-SVFUf1AnyY9xXw",
+      "mighti": "UCUe-mj19X5AfmEXhnC-Ipdg",
+      "sham": "UCMHEDVFW5sUeHr5KMIOHuyg",
+      "makin": "UCYMmtAnXXWMYxdkDZ-K7DRg",
+      "corder": "UCboT_OiT6Asv3M-pQBC3Z4Q",
+      "zizipho": "UCEm32Ez_kzVNJf32cXeZ2rg",
+      "wyatt": "UCo-3Qu7AoKwo0co8v79mcYw",
+      "masilela": "UCMCj_4yQBzA2yqBEEi4-3CQ",
+      "djsbu": "UCNmytX4p-jp2eVatN6DJoTw"
+    },
+    "views7": {
+      "macg": "1.47M",
+      "sizwe": "1.17M",
+      "zimasa": "405K",
+      "mighti": "368K",
+      "sham": "317K",
+      "makin": "293K",
+      "corder": "292K",
+      "zizipho": "137K",
+      "wyatt": "131K",
+      "masilela": "47K",
+      "djsbu": "31K"
+    },
     "note": "Voices with their own YouTube channel, one host per channel, ranked by views on videos posted in the past 7 days (YouTube channel feeds, 26 Nov 2026).",
     "updated": "2026-11-26",
     "order": [
@@ -526,6 +550,15 @@
       "org": "CliffCentral",
       "beat": "analysis"
     },
+    "pilane": {
+      "n": "Reitumetse Pilane",
+      "o": "Daily Maverick",
+      "img": "assets/journalists/reitumetse-pilane.jpg",
+      "role": "Journalist, Daily Maverick",
+      "group": "voice",
+      "org": "Daily Maverick",
+      "beat": "reporting"
+    },
     "macg": {
       "n": "MacGyver “MacG” Mukwevho",
       "logo": "podcastandchill",
@@ -954,7 +987,7 @@
       "group": "voice",
       "org": "IND",
       "beat": "analysis"
-     },
+    },
     "mngambi": {
       "n": "Xoli Mngambi",
       "o": "Newzroom Afrika",
@@ -4254,6 +4287,28 @@
       "s": "Will the ANC accept the DA’s offer, or keep working with parties to its left?",
       "src": "YouTube",
       "url": "https://www.youtube.com/watch?v=7CO7zpVSuqE"
+    },
+    {
+      "id": "rp-tshwane-mayor",
+      "j": "pilane",
+      "d": "2026-11-26",
+      "kind": "Article",
+      "place": "Gauteng metros",
+      "h": "ActionSA takes Tshwane mayor as coalitions with ANC set to sweep GP metros",
+      "s": "Pilane reported from Tshwane House as councillors were sworn in, with several councils adjourning before electing mayors while the ANC, ActionSA, the EFF and MK finalised their Gauteng deals.",
+      "src": "Daily Maverick",
+      "url": "https://www.dailymaverick.co.za/article/2026-11-26-actionsa-takes-tshwane-mayor-as-coalitions-with-anc-set-to-sweep-gp-metros/"
+    },
+    {
+      "id": "rp-joburg-sticking",
+      "j": "pilane",
+      "d": "2026-11-17",
+      "kind": "Article",
+      "place": "Gauteng metros",
+      "h": "Mashaba wants Joburg mayorship from ANC as parties near coalition deal",
+      "s": "Pilane reported that the ANC and ActionSA were nearing a deal that could shut the DA out of all three Gauteng metros, with the Johannesburg mayoralty still the sticking point.",
+      "src": "Daily Maverick",
+      "url": "https://www.dailymaverick.co.za/article/2026-11-17-joburg-remains-the-sticking-point-as-anc-and-actionsa-close-in-on-gauteng-deal/"
     }
   ],
   "edition": {
@@ -4397,7 +4452,8 @@
         "lm-centre",
         "jc-concede",
         "ms-zille",
-        "ms-billions"
+        "ms-billions",
+        "rp-joburg-sticking"
       ],
       "voices": {
         "pieter": "Thought a Zille-led city working with the ANC’s moderates was possible, but very hard to negotiate.",
@@ -5610,7 +5666,8 @@
         "cb-nd",
         "w-tsh",
         "hg-brink",
-        "gm-brink"
+        "gm-brink",
+        "rp-tshwane-mayor"
       ],
       "voices": {
         "clement": "In his interview, Mashaba made keeping Moya as mayor a condition of any deal.",
@@ -6568,9 +6625,7 @@
       {
         "id": "f3",
         "d": "2026-11-05",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Financial Times",
         "h": "South Africa’s ANC hit by ‘stunning’ loss of support in local elections",
         "url": "https://www.ft.com/content/28999849-fe65-419e-a36b-8ef8d2303ebe",
@@ -6674,9 +6729,7 @@
       {
         "id": "s2",
         "d": "2026-11-09",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Semafor",
         "h": "South African voters punish ANC with worst-ever result",
         "url": "https://www.semafor.com/article/11/09/2026/south-african-voters-punish-anc-with-worst-ever-result"
@@ -6716,9 +6769,7 @@
       {
         "id": "e1",
         "d": "2026-11-12",
-        "j": [
-
-        ],
+        "j": [],
         "src": "The Economist",
         "h": "South Africans are giving up on Nelson Mandela’s party. Good",
         "url": "https://www.economist.com/leaders/2026/11/12/south-africans-are-giving-up-on-nelson-mandelas-party-good",
@@ -6738,9 +6789,7 @@
       {
         "id": "r3",
         "d": "2026-11-12",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Reuters",
         "h": "ANC spokesperson: Ramaphosa is not under pressure to resign",
         "url": "https://www.reuters.com/world/africa/south-africas-anc-spokesperson-leader-ramaphosa-is-not-under-pressure-resign-2026-11-12/"
@@ -6748,9 +6797,7 @@
       {
         "id": "fr1",
         "d": "2026-11-12",
-        "j": [
-
-        ],
+        "j": [],
         "src": "AFP via France 24",
         "h": "South Africa’s ANC opens talks after election rout",
         "url": "https://www.france24.com/en/live-news/20261112-south-africa-s-anc-opens-talks-after-election-rout"
@@ -6768,9 +6815,7 @@
       {
         "id": "f4",
         "d": "2026-11-13",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Financial Times",
         "h": "The South African townships turning against the ANC",
         "url": "https://www.ft.com/content/dbf8d003-aa1d-4f23-9702-45fcff4360fd",
@@ -6779,9 +6824,7 @@
       {
         "id": "b5",
         "d": "2026-11-13",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Bloomberg",
         "h": "Next Africa podcast: Could South Africa’s governing coalition collapse?",
         "url": "https://www.bloomberg.com/news/audio/2026-11-13/next-africa-could-south-africa-s-coalition-collapse-podcast"
@@ -6789,9 +6832,7 @@
       {
         "id": "aj2",
         "d": "2026-11-14",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Al Jazeera",
         "h": "Opinion: The ANC’s implosion was decades in the making",
         "url": "https://www.aljazeera.com/opinions/2026/11/14/the-ancs-implosion-was-decades-in-the-making"
@@ -6799,9 +6840,7 @@
       {
         "id": "f5",
         "d": "2026-11-16",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Financial Times",
         "h": "ANC fights for power in South Africa’s cities after election drubbing",
         "url": "https://www.ft.com/content/2c96466e-a37d-42b3-b5e7-a617bfa31666",
@@ -6821,9 +6860,7 @@
       {
         "id": "b7",
         "d": "2026-11-16",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Bloomberg",
         "h": "South Africa’s rand tests 17 per dollar with focus on politics",
         "url": "https://www.bloomberg.com/news/articles/2026-11-16/south-africa-s-rand-tests-17-per-dollar-as-political-risks-rise",
@@ -6873,9 +6910,7 @@
       {
         "id": "f7",
         "d": "2026-11-19",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Financial Times",
         "h": "South Africa’s ‘Iron Lady’ tells allies her Johannesburg mayor bid is over",
         "url": "https://www.ft.com/content/d7f7ed3f-3399-4db4-a8d4-1e48f0ed0a15",
@@ -6895,9 +6930,7 @@
       {
         "id": "r6",
         "d": "2026-11-19",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Reuters",
         "h": "Rand near one-year low as South African central bank holds rates",
         "url": "https://www.reuters.com/world/africa/south-african-rand-slides-year-low-ahead-rate-decision-2026-11-19/"
@@ -6915,9 +6948,7 @@
       {
         "id": "ab1",
         "d": "2026-11-20",
-        "j": [
-
-        ],
+        "j": [],
         "src": "African Business",
         "h": "Zille blocked from Johannesburg mayoralty by ActionSA–ANC deal",
         "url": "https://african.business/2026/11/politics/zille-blocked-from-johannesburg-mayoralty"
@@ -6957,9 +6988,7 @@
       {
         "id": "bb2",
         "d": "2026-11-21",
-        "j": [
-
-        ],
+        "j": [],
         "src": "BBC",
         "h": "ANC fights to keep control of South Africa’s key cities after election setback",
         "url": "https://www.bbc.com/news/articles/cqpv94d10rwpo"
@@ -6967,9 +6996,7 @@
       {
         "id": "f8",
         "d": "2026-11-22",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Financial Times",
         "h": "South Africa takes the low road after the ANC’s humiliation",
         "url": "https://www.ft.com/content/26ba0881-5865-433e-8389-fa98f0b28e31",
@@ -6978,9 +7005,7 @@
       {
         "id": "fr2",
         "d": "2026-11-09",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Les Echos",
         "h": "South Africa: in Johannesburg, the ANC’s symbolic defeat",
         "orig": "Afrique du Sud : à Johannesburg, la défaite symbolique de l'ANC",
@@ -6993,9 +7018,7 @@
       {
         "id": "de1",
         "d": "2026-11-07",
-        "j": [
-
-        ],
+        "j": [],
         "src": "DW",
         "h": "Mandela’s former party, the ANC, suffers election setback in South Africa",
         "orig": "Ex-Mandela-Partei ANC erleidet Wahlschlappe in Südafrika",
@@ -7007,9 +7030,7 @@
       {
         "id": "de2",
         "d": "2026-11-07",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Der Spiegel",
         "h": "ANC suffers historic defeat in South Africa’s local elections",
         "orig": "ANC erleidet historische Niederlage bei Kommunalwahlen in Südafrika",
@@ -7021,9 +7042,7 @@
       {
         "id": "de3",
         "d": "2026-11-08",
-        "j": [
-
-        ],
+        "j": [],
         "src": "FAZ",
         "h": "ANC suffers historic defeat in South Africa’s local elections",
         "orig": "ANC erleidet historische Niederlage bei Kommunalwahl in Südafrika",
@@ -7036,9 +7055,7 @@
       {
         "id": "es1",
         "d": "2026-11-08",
-        "j": [
-
-        ],
+        "j": [],
         "src": "El País",
         "h": "South Africa punishes Mandela’s party in local elections that open a new battle for local power",
         "orig": "Sudáfrica castiga al partido de Mandela en unas municipales que abren una nueva batalla por el poder local",
@@ -7051,9 +7068,7 @@
       {
         "id": "es2",
         "d": "2026-11-08",
-        "j": [
-
-        ],
+        "j": [],
         "src": "France 24",
         "h": "Mandela’s party suffers a setback in the municipal elections: what comes next for South Africa?",
         "orig": "El partido de Mandela sufre un revés en las elecciones municipales: ¿qué viene ahora en Sudáfrica?",
@@ -7065,9 +7080,7 @@
       {
         "id": "es3",
         "d": "2026-11-08",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Infobae",
         "h": "Mandela’s party gets its worst result in South Africa’s municipal elections: “The people have spoken”",
         "orig": "El partido de Mandela obtuvo sus peores resultados en elecciones municipales en Sudáfrica: “El pueblo ha hablado”",
@@ -7079,9 +7092,7 @@
       {
         "id": "it1",
         "d": "2026-11-06",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Il Post",
         "h": "In South Africa, the ANC has lost the big cities",
         "orig": "In Sudafrica l’ANC ha perso le grandi città",
@@ -7093,9 +7104,7 @@
       {
         "id": "it2",
         "d": "2026-11-06",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Il Sole 24 Ore",
         "h": "In South Africa the ANC heads for record lows, and the coalition puzzle begins",
         "orig": "In Sudafrica l’Anc verso i minimi storici, scatta rebus coalizioni",
@@ -7108,9 +7117,7 @@
       {
         "id": "it3",
         "d": "2026-11-06",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Nigrizia",
         "h": "South Africa: the post-ANC era has already begun in the big cities",
         "orig": "Sudafrica: l’era post-ANC è già cominciata nelle grandi città",
@@ -7123,9 +7130,7 @@
       {
         "id": "it4",
         "d": "2026-11-08",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Il Post",
         "h": "In South Africa’s local elections, the historic Congress party had its worst result ever",
         "orig": "Alle elezioni locali in Sudafrica lo storico partito del Congresso ha ottenuto il suo risultato peggiore di sempre",
@@ -7137,9 +7142,7 @@
       {
         "id": "it5",
         "d": "2026-11-19",
-        "j": [
-
-        ],
+        "j": [],
         "src": "IARI",
         "h": "South Africa, the ANC loses its dominance: the coalition that could redraw power in the metros",
         "orig": "Sudafrica, l’ANC perde l’egemonia: la coalizione che può ridisegnare il potere nelle metropoli",
@@ -7152,9 +7155,7 @@
       {
         "id": "nl1",
         "d": "2026-11-08",
-        "j": [
-
-        ],
+        "j": [],
         "src": "NOS",
         "h": "Losses for the ANC in South Africa’s cities",
         "orig": "Verlies voor het ANC in Zuid-Afrikaanse steden",
@@ -7167,9 +7168,7 @@
       {
         "id": "nl2",
         "d": "2026-11-10",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Reformatorisch Dagblad",
         "h": "South Africa’s black middle class turns its back on the ANC",
         "orig": "De zwarte middenklasse van Zuid-Afrika keert het ANC de rug toe",
@@ -7181,9 +7180,7 @@
       {
         "id": "ar2",
         "d": "2026-11-09",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Ad-Diyar",
         "h": "The decline of Ramaphosa’s party opens the door to new alliances in South Africa’s cities",
         "orig": "تراجع حزب رامافوزا يفتح الباب أمام تحالفات جديدة في مدن جنوب أفريقيا",
@@ -7195,9 +7192,7 @@
       {
         "id": "ar3",
         "d": "2026-11-10",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Africa News (Algeria)",
         "h": "South Africa: the ruling party’s local election losses complicate forming local coalition governments",
         "orig": "جنوب أفريقيا : خسارة الحزب الحاكم للانتخابات المحلية تعقد تشكيل حكومات ائتلافية محلية",
@@ -7209,9 +7204,7 @@
       {
         "id": "ar4",
         "d": "2026-11-10",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Youm7",
         "h": "South Africa: the ANC falls to 31%, against 25% for the DA",
         "orig": "جنوب أفريقيا.. تراجع المؤتمر الوطني الأفريقي إلى 31% مقابل 25% للتحالف الديمقراطي.. أزمات المياه والكهرباء وتدهور الخدمات تفجر غضب الناخبين.. وجوهانسبرج ساحة مفاوضات تشكيل الائتلافات بعد الانتخابات البلدية",
@@ -7223,9 +7216,7 @@
       {
         "id": "ar5",
         "d": "2026-11-17",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Twasl News",
         "h": "South African rand: coalition risks weigh on the currency against the dollar, says Commerzbank",
         "orig": "الراند الجنوب أفريقي: مخاطر الائتلاف تضغط على ZAR مقابل الدولار الأمريكي – كومرتس بنك",
@@ -7237,9 +7228,7 @@
       {
         "id": "ar6",
         "d": "2026-11-23",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Africa News (Algeria)",
         "h": "The ANC manoeuvres to keep its influence in South Africa’s cities",
         "orig": "المؤتمر الوطني الإفريقي يناور للحفاظ على نفوذه في مدن جنوب إفريقيا",
@@ -7251,9 +7240,7 @@
       {
         "id": "ja1",
         "d": "2026-11-09",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Newsweek Japan",
         "h": "South Africa’s local elections: the ruling ANC slumps, and coalition talks begin in the big cities",
         "orig": "南ア地方選、国政与党ＡＮＣが低迷 主要都市で連立協議へ",
@@ -7266,9 +7253,7 @@
       {
         "id": "ru1",
         "d": "2026-11-21",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Operativ Məlumat Mərkəzi",
         "h": "The ANC looks for partners to share power in South Africa’s cities",
         "orig": "АНК ищет партнёров для раздела власти в городах ЮАР",
@@ -7304,9 +7289,7 @@
       {
         "id": "rfi1",
         "d": "2026-11-05",
-        "j": [
-
-        ],
+        "j": [],
         "src": "RFI",
         "h": "South Africa: a calm vote, with the ANC challenged in Johannesburg and Durban",
         "orig": "Afrique du Sud: un vote dans le calme, l’ANC contesté à Johannesburg et Durban",
@@ -7318,9 +7301,7 @@
       {
         "id": "bw1",
         "d": "2026-11-09",
-        "j": [
-
-        ],
+        "j": [],
         "src": "Al-Bawaba News",
         "h": "A historic decline for the ANC in South Africa’s elections, with coalitions on the horizon",
         "orig": "تراجع تاريخي لحزب المؤتمر الوطني الأفريقي في انتخابات جنوب أفريقيا.. والائتلافات تلوح في الأفق",
