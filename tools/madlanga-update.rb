@@ -19,10 +19,14 @@
 #  8. Kill switch: auto.enabled false in data/madlanga.json pauses everything automatic. Any URL or headline
 #     fragment in "remove" is taken down on the next run, including from stored history.
 #  9. Corrections: lines are rebuilt each run from the current feeds, so a changed headline updates.
+# 10. Cross-check (tools/madlanga-check.rb): every run compares our hearing day, witness names and statuses, evidence
+#     leaders and timeline with Madlanga Files and the Madlanga Commission Archive, and writes each disagreement to
+#     data/madlanga-checks.json. A day number that does not fit their record is hidden; everything else is only flagged.
 require "json"
 require "net/http"
 require "time"
 require "cgi"
+require_relative "madlanga-check"
 
 ROOT = File.expand_path("..", __dir__)
 CFG = JSON.parse(File.read(File.join(ROOT, "data/madlanga.json")))
@@ -218,6 +222,24 @@ voices = {}
   sleep 0.5
 end
 
+# guardrail 10: cross-check against Madlanga Files and the Madlanga Commission Archive
+CHECKS = File.join(ROOT, "data/madlanga-checks.json")
+old_checks = (JSON.parse(File.read(CHECKS)) rescue {})
+checks = begin
+  MadlangaCheck.run(CFG, day, method(:get), NOW)
+rescue StandardError => e
+  warn "  cross-check failed: #{e.class}: #{e.message}"
+  nil
+end
+if checks
+  day = nil unless checks["day_ok"]
+  File.write(CHECKS, JSON.pretty_generate(checks) + "\n")
+  seen_issues = (old_checks["issues"] || []).map { |i| [i["area"], i["what"]] }
+  new_issues = checks["issues"].reject { |i| seen_issues.include?([i["area"], i["what"]]) }
+  checks["issues"].select { |i| i["level"] == "high" }.each { |i| puts "::warning title=Madlanga cross-check::#{i['what']} (ours: #{i['ours']}; theirs: #{i['theirs']})" }
+  puts "Madlanga cross-check: #{checks['issues'].size} to review (#{checks['issues'].count { |i| i['level'] == 'high' }} high), #{new_issues.size} new; sources #{checks['sources'].values.join(' / ')}"
+end
+
 data = {
   "updated" => NOW.iso8601,
   "today" => { "day" => day, "live" => live&.slice("src", "h", "url", "d"), "stand" => stand&.slice("src", "logo", "h", "url", "d") },
@@ -232,6 +254,7 @@ File.write(OUT, JSON.pretty_generate(data) + "\n")
 seen = (old["reports"] || []).map { |r| r["url"] } + (old["people"] || {}).values.flat_map { |e| (e["lines"] || []).map { |l| l["url"] } }
 added = reports.reject { |r| seen.include?(r["url"]) }.map { |r| { "t" => NOW.iso8601, "kind" => "report", "src" => r["src"], "h" => r["h"], "url" => r["url"], "rule" => "trusted outlet, quoted verbatim" } }
 added += new_since.reject { |s| prev_since.any? { |p| p["k"] == s["k"] && p["tag"] == s["tag"] } }.map { |s| { "t" => NOW.iso8601, "kind" => "since:#{s['tag']}", "who" => s["k"], "src" => s["outlets"].join(", "), "h" => s["h"], "url" => s["url"], "rule" => "two or more trusted outlets" } }
+added += new_issues.map { |i| { "t" => NOW.iso8601, "kind" => "check:#{i['level']}", "src" => i["source"], "h" => i["what"], "url" => "", "rule" => "ours: #{i['ours']} · theirs: #{i['theirs']} · #{i['action']}" } } if checks
 added += held.uniq { |h| h["url"] }.map { |h| { "t" => NOW.iso8601, "kind" => "held back", "src" => h["src"], "h" => h["h"], "url" => h["url"], "rule" => h["why"] } }
 File.write(LOG, JSON.pretty_generate((added + log).first(500)) + "\n")
 puts "Madlanga: #{reports.size} reports, #{out_people.size} people with lines, #{since_all.size} events, #{voices.size} voices"

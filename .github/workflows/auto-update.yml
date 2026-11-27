@@ -74,7 +74,7 @@ jobs:
       - name: Publish if anything changed
         id: commit
         run: |
-          git add -A data/coalition-auto.json data/saffa-key-news.json data/youtube-tv.json data/mayors-elected.json data/madlanga-auto.json data/madlanga-log.json data/coalition-replies.json coalitions coalitions.html people sitemap.xml llms.txt index.html mayors.html
+          git add -A data/coalition-auto.json data/saffa-key-news.json data/youtube-tv.json data/mayors-elected.json data/madlanga-auto.json data/madlanga-log.json data/madlanga-checks.json data/coalition-replies.json coalitions coalitions.html people sitemap.xml llms.txt index.html mayors.html
           if git diff --cached --quiet; then echo "Nothing new this hour."; echo "pushed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
           git diff --cached --name-only -- 'coalitions/*.html' 'people/*.html' | sed 's#^#https://preamble.co.za/#' > /tmp/changed-urls.txt
           git config user.name "preamble-tracker[bot]"
@@ -83,7 +83,7 @@ jobs:
           # someone may have pushed a hand edit while this ran: put this update on top of it
           for n in 1 2 3; do
             if git push origin HEAD:main; then echo "pushed=true" >> "$GITHUB_OUTPUT"; exit 0; fi
-            git pull --rebase origin main || { git rebase --abort; git reset --hard origin/main; ruby tools/auto-update.rb; ruby tools/mayor-watch.rb || true; ruby tools/madlanga-update.rb || true; ruby tools/coalition-replies.rb || true; ruby tools/build-seo.rb; git add -A data/coalition-auto.json data/saffa-key-news.json data/youtube-tv.json data/mayors-elected.json data/madlanga-auto.json data/madlanga-log.json data/coalition-replies.json coalitions coalitions.html people sitemap.xml llms.txt index.html mayors.html; git commit -m "Coalitions Tracker: hourly update (rebuilt)" || exit 0; }
+            git pull --rebase origin main || { git rebase --abort; git reset --hard origin/main; ruby tools/auto-update.rb; ruby tools/mayor-watch.rb || true; ruby tools/madlanga-update.rb || true; ruby tools/coalition-replies.rb || true; ruby tools/build-seo.rb; git add -A data/coalition-auto.json data/saffa-key-news.json data/youtube-tv.json data/mayors-elected.json data/madlanga-auto.json data/madlanga-log.json data/madlanga-checks.json data/coalition-replies.json coalitions coalitions.html people sitemap.xml llms.txt index.html mayors.html; git commit -m "Coalitions Tracker: hourly update (rebuilt)" || exit 0; }
             sleep 5
           done
           exit 1
