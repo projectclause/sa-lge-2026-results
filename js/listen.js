@@ -1,8 +1,8 @@
 // Listen bar under each Coalitions Tracker story's summary line: "▶ Listen · 1:45 min" on the left, share and save on
-// the right. The audio is the story's headline, standfirst and "In brief", read by a South African voice:
-//   - an MP3 made by tools/listen.rb with ElevenLabs (listed in data/listen.json) when there is one;
-//   - otherwise the reader's own device reads it aloud (the browser's speech engine, a South African English voice
-//     when the device has one), so every story can be heard even before its MP3 exists.
+// the right. The audio is the story's headline, standfirst and "In brief", read aloud:
+//   - an MP3 made by tools/listen.rb (Microsoft Azure voice Ryan, listed in data/listen.json) when there is one;
+//   - otherwise the reader's own device reads it aloud (the browser's speech engine, a British English voice when the
+//     device has one, to match Ryan), so every story can be heard even before its MP3 exists.
 // The bookmark is js/save.js's Save button (class sv-btn); this file only places it in the bar.
 (function () {
   "use strict";
@@ -81,8 +81,10 @@
     if (!("speechSynthesis" in window)) { toast("Listening isn’t available in this browser"); return; }
     const u = new SpeechSynthesisUtterance(textOf(bar));
     const vs = speechSynthesis.getVoices();
-    const v = vs.find((x) => /en[-_]ZA/i.test(x.lang)) || vs.find((x) => /en[-_]GB/i.test(x.lang)) || vs.find((x) => /^en/i.test(x.lang));
-    if (v) { u.voice = v; u.lang = v.lang; } else u.lang = "en-ZA";
+    // the site's voice is Ryan (British English, male): on the reader's device, prefer a British male voice, then any British one
+    const gb = vs.filter((x) => /en[-_]GB/i.test(x.lang));
+    const v = gb.find((x) => /daniel|arthur|ryan|oliver|george|thomas|male/i.test(x.name)) || gb[0] || vs.find((x) => /^en/i.test(x.lang));
+    if (v) { u.voice = v; u.lang = v.lang; } else u.lang = "en-GB";
     u.rate = 1;
     u.onend = u.onerror = () => { if (cur && cur.u === u) { cur.playing = false; paintAll(); } };
     cur = { id, kind: "tts", u, playing: true, t: 0, dur: 0 };
