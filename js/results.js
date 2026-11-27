@@ -71,7 +71,7 @@ window.INITIALS = (id) => String(id).split(/\s+/).filter((w) => !/^(of|the|for|a
   });
   function putBreaking() {
     const el = document.querySelector(".rs-headline"); el.hidden = !BREAKING;
-    if (BREAKING) el.innerHTML = `<span class="hl-1">${BREAKING[0]}</span><span class="hl-2">${BREAKING[1]}</span><span class="hl-3">${BREAKING[2]}</span>`;
+    if (BREAKING) el.innerHTML = `<span class="hl-1">${BREAKING[0]}</span>${BREAKING[1] ? `<span class="hl-2">${BREAKING[1]}</span>` : ""}<span class="hl-3">${BREAKING[2]}</span>`;
   }
   function showNational() {
     putBreaking();
