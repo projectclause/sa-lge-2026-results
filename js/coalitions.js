@@ -266,6 +266,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
         <p class="pl-dek">${esc(lead.dek)}</p>
         <p class="pl-src">${faces(people(L), "pl-fc", 10)}<span>Reported by ${outletLine(lead)} · ${people(L).length} voices and key players</span></p>
       </a>
+      <div class="ls-bar ls-lead" data-id="${esc(lead.id)}" data-text="${esc([lead.h, lead.dek, (lead.brief || []).length ? "In brief. " + lead.brief.map((b) => (/[.!?…’'"]$/.test(b) ? b : b + ".")).join(" ") : ""].filter(Boolean).join(" \n"))}"><button type="button" class="sv-btn ls-ic" data-id="${esc(lead.id)}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h11v17l-5.5-4-5.5 4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><span></span></button></div>
       <section class="pl-sec pl-top3"><h3 class="pl-sh">Top stories</h3>
         ${rest.map((e, n) => { const I = itemsOf(e); return `<a class="pl-row${n >= 3 ? " pl-xtra" : ""}" href="#${e.id}"><span class="pl-rt"><b>${esc(e.h)}</b><span>${esc(e.cat)} · ${day(updated(e))} · ${outletsOf(e).length} outlets</span></span>${faces(people(I), "pl-fc pl-fc-s", 4)}</a>`; }).join("")}
         ${rest.length > 3 ? `<button type="button" class="pl-stmore" aria-expanded="false">Show ${rest.length - 3} more stories</button>` : ""}

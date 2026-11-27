@@ -1473,3 +1473,5 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.01e
   .bc-wrap .rs-top .rs-title { font-family: var(--serif); font-weight: 600; text-transform: none; letter-spacing: -.01em; font-size: 30px; }
   .pl-intro { font-size: 15px; line-height: 1.55; }
 }
+/* the Listen bar under the tracker's lead story, after its "Reported by … voices and key players" line */
+.ls-bar.ls-lead { margin: 12px 0 6px; }

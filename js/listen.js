@@ -20,6 +20,7 @@
 
   // what is read: the headline, the standfirst and the "In brief" points of the story on screen
   function textOf(bar) {
+    if (bar.dataset.text) return bar.dataset.text; // a bar outside a story page (the tracker's lead story) carries its text
     const art = bar.closest("article") || document;
     const q = (s) => { const el = art.querySelector(s); return el ? el.textContent.trim() : ""; };
     const brief = [...art.querySelectorAll(".pl-brief li")].map((li) => li.textContent.trim()).filter(Boolean).map((b) => (/[.!?…’'"]$/.test(b) ? b : b + "."));
@@ -103,7 +104,7 @@
 
   document.addEventListener("click", (e) => {
     const bar = e.target.closest(".ls-bar"); if (!bar) return;
-    const id = bar.dataset.id, h = (bar.closest("article") || document).querySelector(".pl-evh");
+    const id = bar.dataset.id, h = bar.classList.contains("ls-lead") ? { textContent: (bar.dataset.text || "").split(" \n")[0] } : (bar.closest("article") || document).querySelector(".pl-evh");
     if (e.target.closest(".ls-play")) play(bar);
     else if (e.target.closest(".ls-copy")) copy(storyUrl(id));
     else if (e.target.closest(".ls-share")) {
