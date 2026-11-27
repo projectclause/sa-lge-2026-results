@@ -13,7 +13,7 @@
   --body-serif: var(--font); /* reading text: DM Sans (name kept for history) */
 }
 /* Cooper Hewitt Semibold, the headline face. © Cooper Hewitt, Smithsonian Design Museum, SIL Open Font License 1.1 (assets/fonts/CooperHewitt-OFL.txt) */
-@font-face { font-family: "Cooper Hewitt"; src: url("../assets/fonts/CooperHewitt-Semibold.woff2") format("woff2"), url("../assets/fonts/CooperHewitt-Semibold.woff") format("woff"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Cooper Hewitt"; src: url("../assets/fonts/CooperHewitt-Semibold.woff2?v=2") format("woff2"), url("../assets/fonts/CooperHewitt-Semibold.woff?v=2") format("woff"); font-weight: 600; font-style: normal; font-display: swap; }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--font); line-height: 1.45; -webkit-font-smoothing: antialiased; }
