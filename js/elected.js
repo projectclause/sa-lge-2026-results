@@ -10,7 +10,7 @@
   // the wording each page uses once a mayor is in (Johannesburg only for now)
   window.ELECTED_TEXT = {
     JHB: (e) => ({
-      breaking: ["Mashaba Makes History", "Elected Mayor of Johannesburg",
+      breaking: ["Mashaba <span style=\"display:inline;white-space:nowrap\">Re-elected</span> Mayor", "",
         `Herman Mashaba was elected Mayor of Johannesburg on ${e.when || "Friday, 27 November 2026"}, seven years after he resigned. He first led the city for the DA from August 2016 to November 2019, and returns as leader of ActionSA, the party he founded after leaving, under a coalition deal that puts the DA, which won the most votes, in opposition. Johannesburg has had seven mayors, and an acting mayor, since he left. <a href="coalitions.html#johannesburg">Follow it in the Coalitions Tracker →</a>`],
       headline: ["Herman Mashaba", "elected Mayor of Johannesburg", `Herman Mashaba returns as Mayor of Johannesburg, elected on ${e.when || "Friday"}. He first led the city for the DA from 2016 to 2019 and now leads ActionSA.`],
       card: "Elected Mayor of Johannesburg",
