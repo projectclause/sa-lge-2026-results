@@ -361,6 +361,46 @@
       ],
       "credit": "",
       "source": ""
+    },
+    "campbell-nyuswa": {
+      "name": "Brigadier Campbell Nyuswa",
+      "role": "Witness, Madlanga Commission",
+      "files": [
+        "assets/madlanga/campbell-nyuswa.jpg",
+        "assets/madlanga/campbell-nyuswa-320.jpg"
+      ],
+      "credit": "",
+      "source": ""
+    },
+    "tumelo-nku": {
+      "name": "Itumeleng ‘Tumelo’ Nku",
+      "role": "Witness, Madlanga Commission",
+      "files": [
+        "assets/madlanga/tumelo-nku.jpg",
+        "assets/madlanga/tumelo-nku-320.jpg"
+      ],
+      "credit": "",
+      "source": ""
+    },
+    "len-john": {
+      "name": "Len Barnabas John",
+      "role": "Witness, Madlanga Commission",
+      "files": [
+        "assets/madlanga/len-john.jpg",
+        "assets/madlanga/len-john-320.jpg"
+      ],
+      "credit": "",
+      "source": ""
+    },
+    "matthews-sesoko": {
+      "name": "Matthews Sesoko",
+      "role": "Witness, Madlanga Commission",
+      "files": [
+        "assets/madlanga/matthews-sesoko.jpg",
+        "assets/madlanga/matthews-sesoko-320.jpg"
+      ],
+      "credit": "",
+      "source": ""
     }
   }
 }
