@@ -1,0 +1,103 @@
+{
+  "note": "Journalists to add as Voices on the planned Madlanga page. Outlets to confirm when the page is built. An entry with \"late\" shows an asterisk after the name and the footnote text on the page.",
+  "voices": [
+    {
+      "k": "caryn-dolley",
+      "n": "Caryn Dolley",
+      "o": "Daily Maverick",
+      "img": "assets/journalists/caryn-dolley.jpg"
+    },
+    {
+      "k": "karyn-maughan",
+      "n": "Karyn Maughan",
+      "o": "News24",
+      "img": "assets/journalists/karyn-maughan.jpg"
+    },
+    {
+      "k": "rebecca-davis",
+      "n": "Rebecca Davis",
+      "o": "Daily Maverick",
+      "img": "assets/journalists/rebecca-davis.jpg"
+    },
+    {
+      "k": "marianne-thamm",
+      "n": "Marianne Thamm",
+      "o": "Daily Maverick",
+      "img": "assets/journalists/marianne-thamm.jpg"
+    },
+    {
+      "k": "alex-patrick",
+      "n": "Alex Patrick",
+      "o": "TimesLIVE",
+      "img": "assets/journalists/alex-patrick.jpg"
+    },
+    {
+      "k": "tshidi-madia",
+      "n": "Tshidi Madia",
+      "o": "EWN",
+      "img": "assets/journalists/tshidi-madia.jpg",
+      "late": true,
+      "footnote": "* Tshidi Madia died on 27 August 2025, aged 42."
+    },
+    {
+      "k": "qaanitah-hunter",
+      "n": "Qaanitah Hunter",
+      "o": "News24",
+      "img": "assets/journalists/qaanitah-hunter.jpg"
+    },
+    {
+      "k": "ntwaagae-seleka",
+      "n": "Ntwaagae Seleka",
+      "o": "News24",
+      "img": "assets/journalists/ntwaagae-seleka.jpg"
+    },
+    {
+      "k": "mzilikazi-wa-afrika",
+      "n": "Mzilikazi wa Afrika",
+      "o": "Sunday World",
+      "img": "assets/journalists/mzilikazi-wa-afrika.jpg"
+    },
+    {
+      "k": "jeff-wicks",
+      "n": "Jeff Wicks",
+      "o": "News24",
+      "img": "assets/journalists/jeff-wicks.jpg"
+    },
+    {
+      "k": "bongani-hans",
+      "n": "Bongani Hans",
+      "o": "IOL",
+      "img": "assets/journalists/bongani-hans.jpg"
+    },
+    {
+      "k": "kyle-cowan",
+      "n": "Kyle Cowan",
+      "o": "News24",
+      "img": "assets/journalists/kyle-cowan.jpg"
+    },
+    {
+      "k": "sipho-masondo",
+      "n": "Sipho Masondo",
+      "o": "News24",
+      "img": "assets/journalists/sipho-masondo.jpg"
+    },
+    {
+      "k": "jeanette-chabalala",
+      "n": "Jeanette Chabalala",
+      "o": "TimesLIVE",
+      "img": "assets/journalists/jeanette-chabalala.jpg"
+    },
+    {
+      "k": "tebogo-monama",
+      "n": "Tebogo Monama",
+      "o": "News24",
+      "img": "assets/journalists/tebogo-monama.jpg"
+    },
+    {
+      "k": "graeme-hosken",
+      "n": "Graeme Hosken",
+      "o": "TimesLIVE",
+      "img": "assets/journalists/graeme-hosken.jpg"
+    }
+  ]
+}
