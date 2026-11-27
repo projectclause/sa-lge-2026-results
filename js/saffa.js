@@ -79,8 +79,8 @@
       gRim.attr("d", path({ type: "Sphere" }));
       gGrat.attr("d", path);
       lands.attr("d", path);
-      subs.attr("d", show === "missions" ? null : path).classed("sf-hot", (f) => hot === regOf.get(f.properties.c + "-" + f.properties.id));
-      const P = show !== "missions", M = show !== "people";
+      subs.attr("d", show === "both" || show === "people" ? path : null).classed("sf-hot", (f) => hot === regOf.get(f.properties.c + "-" + f.properties.id));
+      const P = show === "both" || show === "people", M = show === "both" || show === "missions"; // "flights": routes come later
       arcs.attr("d", (d) => (P ? path(d) : null)).attr("stroke-width", (d) => wid(d.p.n));
       bubs.each(function (p) {
         const on = P && front(p.ll), c = on && xy(p.ll);
@@ -181,10 +181,10 @@
       .map(({ m, i }) => `<button type="button" class="sf-mrow" data-i="${i}"><span><b>${esc(m.city)}</b><br><span>${esc(m.country)}</span></span><em>${esc(m.type)}</em></button>`).join("")).join("");
     pPanel.addEventListener("click", (e) => {
       const rr = e.target.closest(".sf-rrow");
-      if (rr) { const r = regOf.get(rr.dataset.r); if (show === "missions") root.querySelector('[data-show="both"]').click(); hot = r; syncList(); hideTip(); fly(r.ll, () => pick(r)); return; }
+      if (rr) { const r = regOf.get(rr.dataset.r); if (show === "missions" || show === "flights") root.querySelector('[data-show="both"]').click(); hot = r; syncList(); hideTip(); fly(r.ll, () => pick(r)); return; }
     });
-    pPanel.addEventListener("click", (e) => { const b = e.target.closest(".sf-row"); if (!b) return; const p = people[+b.dataset.i]; const st = STATE.get(p.map); if (st) { const box2 = pPanel.querySelector(`.sf-regs[data-c="${st.gu}"]`); box2.hidden = false; } if (show === "missions") root.querySelector('[data-show="both"]').click(); hot = p; syncList(); hideTip(); fly(p.ll, () => pick(p)); });
-    mPanel.addEventListener("click", (e) => { const b = e.target.closest(".sf-mrow"); if (!b) return; const m = missions[+b.dataset.i]; if (show === "people") root.querySelector('[data-show="both"]').click(); hot = m; syncList(); hideTip(); fly(m.ll, () => pick(m)); });
+    pPanel.addEventListener("click", (e) => { const b = e.target.closest(".sf-row"); if (!b) return; const p = people[+b.dataset.i]; const st = STATE.get(p.map); if (st) { const box2 = pPanel.querySelector(`.sf-regs[data-c="${st.gu}"]`); box2.hidden = false; } if (show === "missions" || show === "flights") root.querySelector('[data-show="both"]').click(); hot = p; syncList(); hideTip(); fly(p.ll, () => pick(p)); });
+    mPanel.addEventListener("click", (e) => { const b = e.target.closest(".sf-mrow"); if (!b) return; const m = missions[+b.dataset.i]; if (show === "people" || show === "flights") root.querySelector('[data-show="both"]').click(); hot = m; syncList(); hideTip(); fly(m.ll, () => pick(m)); });
     function syncList() {
       pPanel.querySelectorAll(".sf-row").forEach((b) => b.classList.toggle("sf-hot", hot === people[+b.dataset.i]));
       const hi = people.indexOf(hot), hr = hot && hot.country ? people.findIndex((q) => q.map === hot.country.map) : -1;
