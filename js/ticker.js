@@ -44,12 +44,13 @@
       ss.forEach(([id, n]) => { for (let q = 0; q < n; q++, i++) { const p = pts[i]; dots += `<circle cx="${(1 + p.x).toFixed(3)}" cy="${(1 - p.y).toFixed(3)}" r="${dot.toFixed(3)}" fill="${col(id)}"/>`; } });
       return { ss, N, svg: `<svg class="tk-hemi" viewBox="-0.03 -0.03 2.06 1.06" aria-hidden="true">${dots}<line x1="1" x2="1" y1="-0.03" y2="0.5" stroke="#121212" stroke-width="0.025" stroke-dasharray="0.05 0.04"/></svg>` };
     };
+    const jhbIn = () => !!(window.ELECTED && window.ELECTED.JHB && window.ELECTED.JHB.elected); // js/elected.js
     const mayor = (code, who, photo, party, note, label) => () => {
       const f = floor(M[code]);
       return `<span class="tk-card tk-cpt" data-kind="metro" data-code="${code}">
           <span class="tk-h">${CHECK}${MNAME[code]}${CHEV}</span>
           <span class="tk-cpt-b">${f.svg}<img class="tk-ph" src="${photo}" alt="">
-            <span class="tk-who"><b>${who}</b><span>${label || "Elected Mayor of " + MNAME[code]}</span><em><i style="background:${col(party)}"></i>${note(f)}</em></span>
+            <span class="tk-who"><b>${who}</b><span>${(typeof label === "function" ? label() : label) || "Elected Mayor of " + MNAME[code]}</span><em><i style="background:${col(party)}"></i>${note(f)}</em></span>
           </span>
         </span>`;
     };
@@ -77,7 +78,7 @@
     // ---- the pool of cards ----
     const POOL = [
       { key: "m-CPT", html: mayor("CPT", "Geordin Hill-Lewis", "assets/faces/hill-lewis.png", "DA", (f) => `DA · ${f.ss[0][1]} of ${f.N} seats`) },
-      { key: "m-JHB", html: mayor("JHB", "Herman Mashaba", "assets/faces/mashaba.png", "ASA", () => "ActionSA · ANC, EFF and MK deal", "Vote Friday · tipped to be mayor") },
+      { key: "m-JHB", html: mayor("JHB", "Herman Mashaba", "assets/faces/mashaba.png", "ASA", (f) => jhbIn() ? `ActionSA · ${(f.ss.find((x) => x[0] === "ASA") || [0, 0])[1]} of ${f.N} seats` : "ActionSA · coalition deal", () => jhbIn() ? "Elected Mayor of Johannesburg" : "Vote Friday · tipped to be mayor") },
       { key: "m-TSH", html: mayor("TSH", "Nasiphi Moya", "assets/faces/circ/nasiphi-moya.png", "ASA", (f) => `ActionSA · ${(f.ss.find((x) => x[0] === "ASA") || [0, 0])[1]} of ${f.N} seats`, "Re-elected Mayor of Tshwane") },
       { key: "m-EKU", html: mayor("EKU", "Mziyanda Mketsu", "assets/faces/circ/mziyanda-mketsu.png", "ANC", () => "ANC · ActionSA, EFF, MK and SACP deal", "Incoming mayor · council votes Friday") },
       { key: "w-nat", html: winner({ kind: "nat", title: "South Africa" }) }

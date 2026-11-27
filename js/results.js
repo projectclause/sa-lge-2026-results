@@ -62,7 +62,13 @@ window.INITIALS = (id) => String(id).split(/\s+/).filter((w) => !/^(of|the|for|a
   });
   window.SHARE.panel = natShare;
   // breaking news: when set, this headline leads the home page whichever council is showing
-  const BREAKING = ["Nasiphi Moya elected Mayor of Pretoria,", "Joburg votes Friday", "ActionSA’s Nasiphi Moya was re-elected Mayor of Tshwane by the new council on Thursday, 26 November, under a deal with the ANC, the EFF and MK. Johannesburg and Ekurhuleni elect their mayors on Friday. <a href=\"coalitions.html#johannesburg\">Follow it in the Coalitions Tracker →</a>"];
+  let BREAKING = ["Nasiphi Moya elected Mayor of Pretoria,", "Joburg votes Friday", "ActionSA’s Nasiphi Moya was re-elected Mayor of Tshwane by the new council on Thursday, 26 November, under a deal with the ANC, the EFF and MK. Johannesburg and Ekurhuleni elect their mayors on Friday. <a href=\"coalitions.html#johannesburg\">Follow it in the Coalitions Tracker →</a>"];
+  // when Mashaba is confirmed elected (js/elected.js), "Mashaba Makes History" leads the home page
+  let JHB_NOW = null;
+  if (window.ELECTED_READY) window.ELECTED_READY.then((e) => {
+    if (!(e.JHB && e.JHB.elected) || !window.ELECTED_TEXT) return;
+    const t = window.ELECTED_TEXT.JHB(e.JHB); BREAKING = t.breaking; JHB_NOW = t.headline; putBreaking();
+  });
   function putBreaking() {
     const el = document.querySelector(".rs-headline"); el.hidden = !BREAKING;
     if (BREAKING) el.innerHTML = `<span class="hl-1">${BREAKING[0]}</span><span class="hl-2">${BREAKING[1]}</span><span class="hl-3">${BREAKING[2]}</span>`;
@@ -99,11 +105,11 @@ window.INITIALS = (id) => String(id).split(/\s+/).filter((w) => !/^(of|the|for|a
 // mayoral headline for councils where the new mayor is known
 const HEADLINES = {
   CPT: ["Geordin Hill\u2011Lewis", "re\u2011elected Mayor of Cape Town", "The DA won Cape Town outright: 133 of 235 council seats."],
-  JHB: ["Herman Mashaba", "expected to be elected Mayor of Johannesburg", "ActionSA\u2019s Herman Mashaba is expected to be elected by the new council with ANC and MK support."],
+  JHB: ["Herman Mashaba", "expected to be elected Mayor of Johannesburg", "ActionSA\u2019s Herman Mashaba is expected to be elected by the new council under a coalition deal."],
       TSH: ["Nasiphi Moya", "re\u2011elected Mayor of Tshwane", "ActionSA’s Nasiphi Moya was re-elected Mayor of Tshwane (Pretoria) by the new council on 26 November, under a deal with the ANC, the EFF and MK."],
   EKU: ["Mziyanda Mketsu", "expected to be elected Mayor of Ekurhuleni", "The ANC’s Mziyanda Mketsu is expected to be elected by the new council on Friday under a deal with ActionSA, the EFF, MK and the SACP."]
 };
-const hl = document.querySelector(".rs-headline"), H = BREAKING || HEADLINES[code];
+const hl = document.querySelector(".rs-headline"), H = BREAKING || (code === "JHB" && JHB_NOW) || HEADLINES[code];
 hl.hidden = !H;
 if (H) hl.innerHTML = `<span class="hl-1">${H[0]}</span><span class="hl-2">${H[1]}</span><span class="hl-3">${H[2]}</span>`;
     if (!M) return;
