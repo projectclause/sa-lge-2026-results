@@ -80,6 +80,9 @@
       { key: "m-CPT", html: mayor("CPT", "Geordin Hill-Lewis", "assets/faces/hill-lewis.png", "DA", (f) => `DA · ${f.ss[0][1]} of ${f.N} seats`) },
       { key: "m-JHB", html: mayor("JHB", "Herman Mashaba", "assets/faces/mashaba.png", "ASA", (f) => jhbIn() ? `ActionSA · ${(f.ss.find((x) => x[0] === "ASA") || [0, 0])[1]} of ${f.N} seats` : "ActionSA · coalition deal", () => jhbIn() ? "Elected Mayor of Johannesburg" : "Vote Friday · tipped to be mayor") },
       { key: "m-TSH", html: mayor("TSH", "Nasiphi Moya", "assets/faces/circ/nasiphi-moya.png", "ASA", (f) => `ActionSA · ${(f.ss.find((x) => x[0] === "ASA") || [0, 0])[1]} of ${f.N} seats`, "Re-elected Mayor of Tshwane") },
+      { key: "m-BUF", html: mayor("BUF", "Princess Faku", "assets/mayors/buffalo-city/princess-faku.jpg", "ANC", (f) => `ANC · ${(f.ss.find((x) => x[0] === "ANC") || [0, 0])[1]} of ${f.N} seats`, "Re-elected Mayor of Buffalo City") },
+      { key: "m-CPT-dep", html: mayor("CPT", "Xanthea Limberg", "assets/mayors/cape-town/xanthea-limberg.jpg", "DA", () => "DA · succeeds Eddie Andrews", "Elected Deputy Mayor of Cape Town") },
+      { key: "m-TSH-dep", html: mayor("TSH", "Omphile Maotwe", "assets/faces/circ/maotwe.png", "EFF", () => "EFF · elected unopposed", "Elected Deputy Mayor of Tshwane") },
       { key: "m-EKU", html: mayor("EKU", "Mziyanda Mketsu", "assets/faces/circ/mziyanda-mketsu.png", "ANC", () => "ANC · ActionSA, EFF, MK and SACP deal", "Incoming mayor · council votes Friday") },
       { key: "w-nat", html: winner({ kind: "nat", title: "South Africa" }) }
     ].concat(PROVS.map(([c, n]) => ({ key: "w-" + c, html: winner({ kind: "prov", code: c, title: n }) })))
