@@ -1,0 +1,75 @@
+{
+  "note": "Published voting-intention polls since the May 2024 general election, as compiled on Wikipedia. Hand-maintained; check figures against each pollster's own release before quoting them. null = the pollster did not report a figure.",
+  "parties": { "ANC": "ANC", "DA": "DA", "MK": "MK", "EFF": "EFF", "IFP": "IFP", "FFP": "FF Plus", "ASA": "ActionSA", "PA": "PA" },
+  "pollsters": {
+    "Ipsos": { "name": "Ipsos", "col": "#257de0" },
+    "SRF": { "name": "SRF/The Common Sense", "col": "#f47230" },
+    "SABI": { "name": "SABI Strategy Group/News24", "col": "#00b894" },
+    "MarkData": { "name": "MarkData/eNCA", "col": "#f2a600" },
+    "IRR": { "name": "Institute of Race Relations", "col": "#6a4ce2" },
+    "Brenthurst": { "name": "Brenthurst Foundation", "col": "#ee7fac" }
+  },
+  "result2026": { "ANC": 30.76, "DA": 24.64, "MK": 9.77, "EFF": 6.22, "IFP": 4.70, "FFP": 2.97, "ASA": 5.67, "PA": 2.02 },
+  "municipal": [
+    { "org": "Ipsos", "when": "Sep–Oct 2026", "n": 2533, "final": true, "v": { "ANC": 30, "DA": 28, "MK": 12, "EFF": 10, "IFP": 4, "FFP": null, "ASA": 4, "PA": 2 } },
+    { "org": "SRF", "when": "Sep–Oct 2026", "n": 3100, "final": true, "v": { "ANC": 32, "DA": 26, "MK": 12, "EFF": 8, "IFP": null, "FFP": null, "ASA": null, "PA": null } },
+    { "org": "SABI", "when": "Aug–Sep 2026", "n": 1000, "final": true, "v": { "ANC": 31.6, "DA": 25.2, "MK": 14.7, "EFF": 12.2, "IFP": 3.5, "FFP": 3.2, "ASA": 2.9, "PA": 2.4 } },
+    { "org": "SRF", "when": "Jul 2026", "n": 2144, "v": { "ANC": 34, "DA": 27, "MK": 15, "EFF": 7, "IFP": 5, "FFP": 3, "ASA": null, "PA": null } },
+    { "org": "Ipsos", "when": "Jun–Jul 2026", "n": 3600, "v": { "ANC": 31, "DA": 25, "MK": 14, "EFF": 11, "IFP": 3, "FFP": null, "ASA": 6, "PA": 2 } },
+    { "org": "SRF", "when": "Mar 2026", "n": 2222, "v": { "ANC": 39, "DA": 28, "MK": 10, "EFF": 6, "IFP": 5, "FFP": 4, "ASA": 3, "PA": 3 } },
+    { "org": "Ipsos", "when": "Dec 2025–Jan 2026", "n": 3600, "v": { "ANC": 38, "DA": 22, "MK": 13, "EFF": 13, "IFP": 2, "FFP": 1, "ASA": 4, "PA": 3 } }
+  ],
+  "metros": {
+    "JHB": { "name": "Johannesburg", "polls": [
+      { "org": "Ipsos", "when": "Sep–Oct 2026", "n": null, "final": true, "v": { "DA": 30, "ANC": 27, "MK": 5, "ASA": 11, "EFF": 12, "IFP": 2, "FFP": 3, "PA": 1 } },
+      { "org": "SRF", "when": "Sep–Oct 2026", "n": null, "final": true, "v": { "DA": 36, "ANC": 22, "MK": 11, "ASA": 9, "EFF": 6, "IFP": null, "FFP": null, "PA": null } },
+      { "org": "SABI", "when": "Aug–Sep 2026", "n": 1000, "final": true, "v": { "DA": 29.2, "ANC": 22.6, "MK": 12.3, "ASA": 7, "EFF": 11, "IFP": 1.9, "FFP": 3, "PA": 3.7 } },
+      { "org": "MarkData", "when": "Aug–Sep 2026", "n": 1011, "final": true, "v": { "DA": 35.0, "ANC": 21.8, "MK": 12.5, "ASA": 10.3, "EFF": 11.9, "IFP": 0.7, "FFP": 0.9, "PA": 3.7 } },
+      { "org": "SRF", "when": "Jul 2026", "n": 504, "v": { "DA": 42, "ANC": 18, "MK": 13, "ASA": 10, "EFF": 8, "IFP": null, "FFP": null, "PA": null } },
+      { "org": "Ipsos", "when": "Jun–Jul 2026", "n": null, "v": { "DA": 28, "ANC": 31, "MK": 6, "ASA": 14, "EFF": 8, "IFP": null, "FFP": null, "PA": 3 } },
+      { "org": "SRF", "when": "Mar 2026", "n": 500, "v": { "DA": 39, "ANC": 30, "MK": 8, "ASA": 10, "EFF": 4, "IFP": null, "FFP": null, "PA": null } }
+    ] },
+    "TSH": { "name": "Tshwane", "polls": [
+      { "org": "Ipsos", "when": "Sep–Oct 2026", "n": null, "final": true, "v": { "DA": 34, "ANC": 31, "MK": 2, "ASA": 8, "EFF": 8, "IFP": 2, "FFP": 5, "PA": null } },
+      { "org": "SRF", "when": "Sep–Oct 2026", "n": null, "final": true, "v": { "DA": 32, "ANC": 26, "MK": 4, "ASA": 12, "EFF": 7, "IFP": null, "FFP": 7, "PA": null } },
+      { "org": "MarkData", "when": "Aug–Sep 2026", "n": 1046, "final": true, "v": { "DA": 33.9, "ANC": 24.9, "MK": 5.2, "ASA": 10.7, "EFF": 12.3, "IFP": null, "FFP": 7.9, "PA": 2.1 } },
+      { "org": "SABI", "when": "Aug–Sep 2026", "n": 1001, "final": true, "v": { "DA": 32.1, "ANC": 23.9, "MK": 5.8, "ASA": 10.8, "EFF": 13.7, "IFP": null, "FFP": 4.3, "PA": 1.1 } },
+      { "org": "SRF", "when": "Jul 2026", "n": 508, "flag": "Sums to more than 100% as compiled; check the original release.", "v": { "DA": 43, "ANC": 32, "MK": 8, "ASA": 7, "EFF": 5, "IFP": null, "FFP": 8, "PA": null } },
+      { "org": "Ipsos", "when": "Jun–Jul 2026", "n": null, "v": { "DA": 31, "ANC": 22, "MK": 5, "ASA": 11, "EFF": 9, "IFP": null, "FFP": null, "PA": 2 } },
+      { "org": "SRF", "when": "Mar 2026", "n": 500, "v": { "DA": 45, "ANC": 42, "MK": null, "ASA": null, "EFF": null, "IFP": null, "FFP": 3, "PA": null } }
+    ] },
+    "ETH": { "name": "eThekwini", "polls": [
+      { "org": "Ipsos", "when": "Sep–Oct 2026", "n": null, "final": true, "v": { "DA": 21, "ANC": 10, "MK": 47, "ASA": 2, "EFF": 4, "IFP": 8, "FFP": 1, "PA": null } },
+      { "org": "SRF", "when": "Sep–Oct 2026", "n": null, "final": true, "v": { "DA": 28, "ANC": 13, "MK": 43, "ASA": null, "EFF": 3, "IFP": 7, "FFP": null, "PA": null } },
+      { "org": "SABI", "when": "Aug–Sep 2026", "n": 1000, "final": true, "v": { "DA": 30.2, "ANC": 11.3, "MK": 43.4, "ASA": 2.1, "EFF": 3.1, "IFP": 6.4, "FFP": 1.4, "PA": null } },
+      { "org": "MarkData", "when": "Aug–Sep 2026", "n": 1046, "final": true, "v": { "DA": 25.2, "ANC": 14.5, "MK": 48.0, "ASA": 0.5, "EFF": 2.5, "IFP": 6.0, "FFP": 0.2, "PA": 0.5 } },
+      { "org": "SRF", "when": "Jul 2026", "n": 500, "v": { "DA": 23, "ANC": 18, "MK": 33, "ASA": null, "EFF": 4, "IFP": 16, "FFP": 3, "PA": null } },
+      { "org": "Ipsos", "when": "Jun–Jul 2026", "n": null, "v": { "DA": 17, "ANC": 10, "MK": 55, "ASA": 4, "EFF": 3, "IFP": 6, "FFP": null, "PA": null } },
+      { "org": "SRF", "when": "Mar 2026", "n": 500, "v": { "DA": 28, "ANC": 8, "MK": 44, "ASA": null, "EFF": null, "IFP": 18, "FFP": null, "PA": null } }
+    ] },
+    "CPT": { "name": "Cape Town", "polls": [
+      { "org": "Ipsos", "when": "Sep–Oct 2026", "n": null, "final": true, "v": { "DA": 51, "ANC": 21, "MK": 3, "ASA": 3, "EFF": 10, "IFP": null, "FFP": 1, "PA": 4 } },
+      { "org": "SABI", "when": "Aug–Sep 2026", "n": 1000, "final": true, "v": { "DA": 56.1, "ANC": 19.1, "MK": 1.1, "ASA": 2.4, "EFF": 6.6, "IFP": null, "FFP": 2.2, "PA": 5.3 } },
+      { "org": "MarkData", "when": "Aug–Sep 2026", "n": 1004, "final": true, "v": { "DA": 52.6, "ANC": 23.6, "MK": 1.5, "ASA": 1.5, "EFF": 6.5, "IFP": 0.3, "FFP": 1.0, "PA": 4.9 } },
+      { "org": "Ipsos", "when": "Jun–Jul 2026", "n": null, "v": { "DA": 46, "ANC": 26, "MK": null, "ASA": null, "EFF": 11, "IFP": null, "FFP": null, "PA": 8 } }
+    ] },
+    "EKU": { "name": "Ekurhuleni", "polls": [
+      { "org": "MarkData", "when": "Aug–Sep 2026", "n": 1019, "final": true, "v": { "DA": 31.2, "ANC": 29.4, "MK": 11.5, "ASA": 6.1, "EFF": 9.2, "IFP": 2.8, "FFP": 5.2, "PA": 2.5 } }
+    ] },
+    "NMA": { "name": "Nelson Mandela Bay", "polls": [
+      { "org": "MarkData", "when": "Aug–Sep 2026", "n": 994, "final": true, "v": { "DA": 37.7, "ANC": 37.4, "MK": 3.2, "ASA": 3.4, "EFF": 8.0, "IFP": 0.7, "FFP": 2.3, "PA": 4.0 } }
+    ] }
+  },
+  "general": {
+    "result2024": { "ANC": 40.1, "DA": 21.8, "MK": 14.5, "EFF": 9.5, "IFP": 3.8, "PA": 2 },
+    "polls": [
+      { "org": "Ipsos", "when": "Dec 2025–Jan 2026", "n": 3600, "flag": "Includes 12% “don’t know”, so it differs from the same survey’s municipal figures.", "v": { "ANC": 33, "DA": 22, "MK": 10, "EFF": 11, "IFP": 2, "PA": 2 } },
+      { "org": "SRF", "when": "Jun 2025", "n": 1004, "v": { "ANC": 40, "DA": 26, "MK": 18, "EFF": 3, "IFP": 3, "PA": 3 } },
+      { "org": "IRR", "when": "Mar–Apr 2025", "n": 807, "v": { "ANC": 29.7, "DA": 30.3, "MK": 15.9, "EFF": 10.2, "IFP": 1.7, "PA": null } },
+      { "org": "Brenthurst", "when": "Feb–Mar 2025", "n": 3837, "v": { "ANC": 43, "DA": 27, "MK": 11, "EFF": 7, "IFP": 2, "PA": 3 } },
+      { "org": "SRF", "when": "Feb 2025", "n": 1004, "v": { "ANC": 32, "DA": 25, "MK": 12, "EFF": 6, "IFP": 3, "PA": 3 } },
+      { "org": "IRR", "when": "Sep–Oct 2024", "n": null, "v": { "ANC": 41.3, "DA": 22.3, "MK": 11.6, "EFF": 6.9, "IFP": 5.5, "PA": null } },
+      { "org": "SRF", "when": "Sep 2024", "n": 1204, "v": { "ANC": 45, "DA": 24, "MK": 12, "EFF": 6, "IFP": 5, "PA": 5 } }
+    ]
+  }
+}
