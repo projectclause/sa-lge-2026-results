@@ -604,6 +604,15 @@
       "org": "N24",
       "beat": "reporting"
     },
+    "bonani": {
+      "n": "Andisa Bonani",
+      "o": "Daily Maverick",
+      "img": "assets/journalists/andisa-bonani.jpg",
+      "role": "Journalist, Daily Maverick",
+      "group": "voice",
+      "org": "Daily Maverick",
+      "beat": "reporting"
+    },
     "macg": {
       "n": "MacGyver “MacG” Mukwevho",
       "logo": "podcastandchill",
@@ -4412,6 +4421,17 @@
       "s": "Before the vote, Gerber reported an Ipsos poll predicting that no party would win an outright majority in most of South Africa’s metros, pointing to coalition governments.",
       "src": "News24",
       "url": "https://www.news24.com/politics/ipsos-poll-predicts-coalitions-for-most-of-sas-metros-20261030-1075"
+    },
+    {
+      "id": "ab-nmb-done-deal",
+      "j": "bonani",
+      "d": "2026-11-24",
+      "kind": "Article",
+      "place": "Nelson Mandela Bay",
+      "h": "DA’s ‘done deal’ derailed as ANC scrambles for last-minute coalition in NMB",
+      "s": "Bonani reported that the DA announced a 64-seat coalition to run Nelson Mandela Bay, but the first council meeting was adjourned over late agendas, giving the ANC two more days to build an alternative.",
+      "src": "Daily Maverick",
+      "url": "https://www.dailymaverick.co.za/article/2026-11-24-das-done-deal-derailed-as-anc-scrambles-for-last-minute-coalition-in-nmb/"
     }
   ],
   "edition": {
@@ -5985,7 +6005,8 @@
         "ks-soundbites",
         "tj-sizwe",
         "mj-zunami",
-        "jg-ipsos-metros"
+        "jg-ipsos-metros",
+        "ab-nmb-done-deal"
       ],
       "voices": {
         "pieter": "Saw the ANC’s decline speeding up, with the party on the brink of second, third or fourth place in seven of the eight metros.",
