@@ -106,7 +106,8 @@
   .sf-stat b { font-size: 22px; }
   .sf-stat span { font-size: 12px; }
   .sf-ctrl { flex-direction: column; align-items: stretch; }
-  .sf-seg { align-self: flex-start; }
+  .sf-seg { align-self: flex-start; max-width: 100%; }
+  .sf-seg button { padding: 8px 10px; font-size: 12.5px; }
   .sf-go { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 2px; }
   .sf-go button { white-space: nowrap; }
 }
@@ -154,3 +155,23 @@
 .sf-kp-lock b { font-size: 17px; }
 .sf-kp-lock span { font-size: 14px; color: var(--muted2); }
 .sf-kp-lock button { border: 0; border-radius: 999px; background: #121212; color: #fff; font: 600 14.5px/1 var(--font); padding: 12px 20px; cursor: pointer; }
+
+/* Flights tab: live aircraft into and out of South Africa */
+.sf { --sf-in: #007a4d; --sf-out: #1f5fc2; --sf-dom: #8a8a8a; }
+.sf-froute { fill: none; stroke-width: 1.3; stroke-dasharray: 3 3; opacity: .55; pointer-events: none; }
+.sf-froute.sf-f-in { stroke: var(--sf-in); } .sf-froute.sf-f-out { stroke: var(--sf-out); } .sf-froute.sf-f-dom { stroke: var(--sf-dom); opacity: .4; }
+.sf-froute.sf-hot { opacity: 1; stroke-width: 2; stroke-dasharray: none; }
+.sf-plane { stroke: #fff; stroke-width: .7; cursor: pointer; }
+.sf-plane.sf-f-in { fill: var(--sf-in); } .sf-plane.sf-f-out { fill: var(--sf-out); } .sf-plane.sf-f-dom { fill: var(--sf-dom); }
+.sf-plane.sf-hot { fill: var(--sf-gold); stroke: var(--sf-ink); }
+.sf-key .k-fl { width: 12px; height: 12px; border-radius: 2px; }
+.sf-key .k-in { background: var(--sf-in); } .sf-key .k-out { background: var(--sf-out); } .sf-key .k-dom { background: var(--sf-dom); }
+.sf-fnote { margin: 4px 0 10px; font-size: 14px; line-height: 1.45; color: #444; }
+.sf-fnote.sf-fsmall { margin-top: 14px; font-size: 12.5px; color: #6b6b6b; }
+.sf-fnote a { color: inherit; }
+.sf-frow b + span { font-weight: 400; color: #6b6b6b; }
+.sf-flmode .sf-land.sf-has { fill: var(--sf-land) !important; }
+.sf-flmode .sf-land.sf-za { fill: #e4efe8; stroke: var(--sf-green); stroke-width: 1.2; }
+.sf-flmode .sf-za-l { display: none; }
+.sf-flmode .sf-key .k-za { background: #e4efe8; border: 1.2px solid var(--sf-green); }
+.sf-flmode .sf-globe svg { overflow: hidden; }
