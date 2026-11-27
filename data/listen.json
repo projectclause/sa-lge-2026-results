@@ -1,0 +1,204 @@
+{
+  "stories": {
+    "actionsa": {
+      "file": "audio/actionsa.mp3",
+      "sec": 51,
+      "hash": "6aad58947a48",
+      "chars": 667,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "anc-metros": {
+      "file": "audio/anc-metros.mp3",
+      "sec": 31,
+      "hash": "569e565a0fab",
+      "chars": 376,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "anc-regions": {
+      "file": "audio/anc-regions.mp3",
+      "sec": 118,
+      "hash": "45961d2baf6a",
+      "chars": 1666,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "auto-cape-town": {
+      "file": "audio/auto-cape-town.mp3",
+      "sec": 69,
+      "hash": "3cc07d8521c0",
+      "chars": 964,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "auto-ethekwini": {
+      "file": "audio/auto-ethekwini.mp3",
+      "sec": 34,
+      "hash": "03292b0f3e8e",
+      "chars": 408,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "councils": {
+      "file": "audio/councils.mp3",
+      "sec": 64,
+      "hash": "9614f146bb6a",
+      "chars": 784,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "da-offer": {
+      "file": "audio/da-offer.mp3",
+      "sec": 58,
+      "hash": "befa67c8863a",
+      "chars": 675,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "eastern-cape-metros": {
+      "file": "audio/eastern-cape-metros.mp3",
+      "sec": 94,
+      "hash": "e273062320e4",
+      "chars": 1286,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "ekurhuleni": {
+      "file": "audio/ekurhuleni.mp3",
+      "sec": 90,
+      "hash": "54091de033d9",
+      "chars": 1247,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "emfuleni": {
+      "file": "audio/emfuleni.mp3",
+      "sec": 73,
+      "hash": "ad7f7b6af695",
+      "chars": 1039,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "ethekwini": {
+      "file": "audio/ethekwini.mp3",
+      "sec": 113,
+      "hash": "e8fa1d220df6",
+      "chars": 1567,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "gnu": {
+      "file": "audio/gnu.mp3",
+      "sec": 39,
+      "hash": "cae42c972df3",
+      "chars": 511,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "grand-deal": {
+      "file": "audio/grand-deal.mp3",
+      "sec": 41,
+      "hash": "bbaaede5723f",
+      "chars": 522,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "i-anc": {
+      "file": "audio/i-anc.mp3",
+      "sec": 48,
+      "hash": "6c10a95bfca9",
+      "chars": 695,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "i-cities": {
+      "file": "audio/i-cities.mp3",
+      "sec": 57,
+      "hash": "3054017c691f",
+      "chars": 841,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "i-gnu": {
+      "file": "audio/i-gnu.mp3",
+      "sec": 51,
+      "hash": "ba46e651d68d",
+      "chars": 756,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "i-joburg": {
+      "file": "audio/i-joburg.mp3",
+      "sec": 63,
+      "hash": "3a0c48b326ba",
+      "chars": 960,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "i-rand": {
+      "file": "audio/i-rand.mp3",
+      "sec": 52,
+      "hash": "c63800dcc561",
+      "chars": 753,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "johannesburg": {
+      "file": "audio/johannesburg.mp3",
+      "sec": 123,
+      "hash": "fb975176bf87",
+      "chars": 1687,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "kzn-councils": {
+      "file": "audio/kzn-councils.mp3",
+      "sec": 103,
+      "hash": "74beabf2f125",
+      "chars": 1421,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "malema-zille-court": {
+      "file": "audio/malema-zille-court.mp3",
+      "sec": 82,
+      "hash": "42002d1b1e41",
+      "chars": 1214,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "mk": {
+      "file": "audio/mk.mp3",
+      "sec": 69,
+      "hash": "4efbf52d2a71",
+      "chars": 884,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "mk-pr-lists": {
+      "file": "audio/mk-pr-lists.mp3",
+      "sec": 56,
+      "hash": "a5f5581a8b7e",
+      "chars": 807,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "north-west-councils": {
+      "file": "audio/north-west-councils.mp3",
+      "sec": 45,
+      "hash": "dfd66c9b1109",
+      "chars": 650,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "pr-seats": {
+      "file": "audio/pr-seats.mp3",
+      "sec": 77,
+      "hash": "bb61cd1ca5b7",
+      "chars": 1025,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "ramaphosa": {
+      "file": "audio/ramaphosa.mp3",
+      "sec": 86,
+      "hash": "cc698945fa8c",
+      "chars": 1181,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "tshwane": {
+      "file": "audio/tshwane.mp3",
+      "sec": 39,
+      "hash": "05f14802dad9",
+      "chars": 481,
+      "at": "2026-11-27T23:46:18Z"
+    },
+    "western-cape": {
+      "file": "audio/western-cape.mp3",
+      "sec": 96,
+      "hash": "1ed1af21d012",
+      "chars": 1359,
+      "at": "2026-11-27T23:46:18Z"
+    }
+  },
+  "month": "2026-11",
+  "used": 26426,
+  "provider": "azure",
+  "voice": "en-GB-RyanNeural"
+}
