@@ -1,0 +1,4 @@
+{
+  "note": "Written by tools/mayor-watch.rb (hourly). When a metro's mayor is confirmed elected, the home page headline, the mayor cards, the Mayors page and search switch automatically.",
+  "JHB": { "elected": false }
+}

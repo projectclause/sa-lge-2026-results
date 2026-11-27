@@ -176,6 +176,8 @@ function render() {
           tag: !r.cur ? "" : nw && nw.same && nw.n === r.n ? "In office" : nw && !nw.expected ? "Previous" : "Outgoing" }))
       });
     }
+    // when Mashaba is confirmed elected (js/elected.js), Johannesburg shows him as mayor
+    if (window.ELECTED_READY) window.ELECTED_READY.then((e) => { if (e.JHB && e.JHB.elected && window.ELECTED_TEXT) { NEW.JHB = window.ELECTED_TEXT.JHB(e.JHB).mayors; render(); } });
     addEventListener("hashchange", render);
     render();
   }).catch(() => { document.querySelector(".my-city").innerHTML = '<p class="dm-loading">Could not load the mayors.</p>'; });
