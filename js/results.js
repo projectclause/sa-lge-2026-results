@@ -62,7 +62,7 @@ window.INITIALS = (id) => String(id).split(/\s+/).filter((w) => !/^(of|the|for|a
   });
   window.SHARE.panel = natShare;
   // breaking news: when set, this headline leads the home page whichever council is showing
-  let BREAKING = ["Voting underway", "across metros in South Africa", "MK’s Mxolisi Phakathi has been elected Mayor of eThekwini with the ANC’s support, and councils in Johannesburg and Ekurhuleni meet today, Friday 27 November, to elect theirs. The DA’s Retief Odendaal has been elected Mayor of Nelson Mandela Bay, and ActionSA’s Nasiphi Moya was re-elected Mayor of Tshwane on Thursday. <a href=\"coalitions.html\">Follow it in the Coalitions Tracker →</a>"];
+  let BREAKING = ["Voting underway", "across metros in South Africa", "The ANC’s Mziyanda Mketsu has been elected Mayor of Ekurhuleni, and MK’s Mxolisi Phakathi Mayor of eThekwini with the ANC’s support. Johannesburg’s council meets today, Friday 27 November, to elect its mayor. The DA’s Retief Odendaal has been elected Mayor of Nelson Mandela Bay, and ActionSA’s Nasiphi Moya was re-elected Mayor of Tshwane on Thursday. <a href=\"coalitions.html\">Follow it in the Coalitions Tracker →</a>"];
   // when Mashaba is confirmed elected (js/elected.js), "Mashaba Makes History" leads the home page
   let JHB_NOW = null;
   if (window.ELECTED_READY) window.ELECTED_READY.then((e) => {
@@ -107,7 +107,7 @@ const HEADLINES = {
   CPT: ["Geordin Hill\u2011Lewis", "re\u2011elected Mayor of Cape Town", "The DA won Cape Town outright: 133 of 235 council seats."],
   JHB: ["Herman Mashaba", "expected to be elected Mayor of Johannesburg", "ActionSA\u2019s Herman Mashaba is expected to be elected by the new council under a coalition deal."],
       TSH: ["Nasiphi Moya", "re\u2011elected Mayor of Tshwane", "ActionSA’s Nasiphi Moya was re-elected Mayor of Tshwane (Pretoria) by the new council on 26 November, under a deal with the ANC, the EFF and MK."],
-  EKU: ["Mziyanda Mketsu", "expected to be elected Mayor of Ekurhuleni", "The ANC’s Mziyanda Mketsu is expected to be elected by the new council on Friday under a deal with ActionSA, the EFF, MK and the SACP."]
+  EKU: ["Mziyanda Mketsu", "elected Mayor of Ekurhuleni", "The ANC’s Mziyanda Mketsu was elected Mayor of Ekurhuleni by the new council on Friday, 27 November, under a deal with ActionSA, the EFF, MK and the SACP."]
 };
 const hl = document.querySelector(".rs-headline"), H = BREAKING || (code === "JHB" && JHB_NOW) || HEADLINES[code];
 hl.hidden = !H;
