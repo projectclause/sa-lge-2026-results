@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-27",
-    "time": "02:02"
+    "time": "03:26"
   },
   "items": [
     {
@@ -1372,6 +1372,18 @@
       "src": "Politicsweb",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUlpDR2M4cURRREVGUUMxd3d4YjYyM2dwbjNCNmNZLU5XblJEX2NYTXQxM2xlaEQtbGdJWEZxd2pyTnZoZVBVVTFGVl94ZnRVWGdfLWNoaHJxYk10NGcxRFBRNU1yOHJHNXgwMk9OWEx1YkpCTF9vZk1Kc19PNWxsMlF4cw?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-2aae662568",
+      "j": "cyril",
+      "d": "2026-11-26",
+      "kind": "Article",
+      "place": "National",
+      "h": "Ramaphosa says he’s ‘not resigning’ after election setback",
+      "s": "Business Day reports Ramaphosa says he is 'not resigning' after the ANC’s election setback.",
+      "src": "Business Day",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMnhGZ0oyLVVmRS11dXZDQUFFTTNRWjNKQmJWalhNYkpET3EyV000WDg5bEl4VzJCMXlyZ2NfaGpRZ1JsNjNmVHdNX2o5WlJqUy1BMUo0c3pZeFlDRThGa0k2cDNDTjdmRWxtd0h1amJmNW51R3Rpdlp0ZGZBeHBCYjBQY2pTRmc1cE1jbGZkQnh5UXFCblZQMnNfd2tIYVpKTTJpSjUzQkZnQ3czR2VWRVFn?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -1980,6 +1992,12 @@
         "h": "Johannesburg mayoral election postponed to Friday as coalition talks continue",
         "d": "2026-11-24",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mMnRNN0x4TjRXVm9YZnNlREFXcV9vTm9LbmtWVmdlWDh6QUE3WVY1YWJNRl9xV2RyTEdaOWNmcElRWU96UDhFanF6WHhXWEtObEp2eVF5NmxOYU1vRVFnaWVFTUo0QVk?oc=5"
+      },
+      {
+        "src": "Cape Times",
+        "h": "Johannesburg mayor to be elected on Friday following councillors’ swearing-in",
+        "d": "2026-11-25",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOS25XUmc1OHZSNjBMSS1nNHZadi1feFFhSXpwamdoZzJqZFltVEEzdlJ4OE9zQ09hYWUtMmNfdUtqREU4bEZTYnl2NEZnUDVnVVBHYVQ3R3pseWZzVmNnU2Z5VThhck1PaVlRcUk4WUR1UzNwR2o5dktuQTRvQVB5aHh2UEhXRVdaVzdaM1Z4RnFSUFJyaDk0em5zYnNkdTdlRTMzcURtUlhWRFp4a0E3MThoZmNPdTgtVW5Ueg?oc=5"
       }
     ],
     "councils": [
@@ -2326,6 +2344,12 @@
         "h": "ActionSA’s Nasiphi Moya re-elected executive mayor of Tshwane.",
         "d": "2026-11-26",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOM2hPOVlIVTRYODZWblBuNS1ycUc1RkV2RlN1NmVBVVZJYjhOWUJfOXJjYzVIdk05NDRtM1BIdlBGR2R5ejk5Q2VaZUFlX3FoU0NSM2hsejZkaXhnUWlJUEoyUmxBeTY0S09mbEtYS2lpdzdOZk1wMXJidk9RMEFmSnhqaDV2cXVuRlZoRzdDOA?oc=5"
+      },
+      {
+        "src": "Sowetan",
+        "h": "WATCH | ANC’s Naeem Patel elected Tshwane council speaker",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONGsxLXR1Q1BUazFzeVc5dGtEb0drSUxtdVRwM1dkTGhOMDVPMU9DTjRrZFN3a0s3anN0MTF3eENvenZLNXVzU3RSd1Ria1ExeVVvYTljQ21wWEdmb2Y0RzA2MW1VWkN6Qm9aUzUyUnlid1p5LVh6cnp3S2FtclFlSWxHVFRmdVpaalNlQTlrTm14ck80WmtKelM0d3NiQQ?oc=5"
       }
     ],
     "actionsa": [
@@ -3185,6 +3209,12 @@
           "h": "WATCH: Parties divided over postponement of eThekwini mayoral vote",
           "d": "2026-11-24",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYUdtSE02SUNfWV9iNjQxTFRzcm9qVDNfYi1TYzItSlF6akk4QnI5RHpCaUcwZ0YwTnpBWHk2RXBoWXdoWUM2dDZ0cGNhTzd5bE5rbHNUNGlTZWJjX0hGbkN1bW1iSXVIMDB5NGl4amJyRXJleV9pZTdibTFJWFV5TE1tZWJ3RTRWSkVzaTJKNElQVmEtWnE4ZGpmVGtBLU1ySGp2MDhpcWtydTBxQVpsV3l2Nlh5MGc?oc=5"
+        },
+        {
+          "src": "The Mercury.co.za",
+          "h": "ANC and MK Party seal eThekwini coalition deal as ActionSA's future hangs in balance",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZlFvc3QyYlhTQ0ZGX0JHZ0REQWc3WXhjWEhobDI1cjFSMjJOVUJYbWxGc0JxWDg0ZVZSNUlFUmhqYUtEdkp6S3FLMkpRWWdqbXgxalRkbHY1N3RYUVNlRW5JRmNCYU40WlNTOUhCYUxSWng0MGI5dFNWUUVUN3JDd2MwTDQyQlRTcU5Fa2xqQlY2ZlhvMFVxRVBFbTFRejFfaGMxR0JTVWpOYzh2ODczVUpJa0lZcmpwd1l6RjhXd3h0WWlDc0dNekw3SXk0YzQ?oc=5"
         }
       ],
       "sec": [
@@ -3465,6 +3495,12 @@
           "h": "DA and ActionSA strike six-party coalition deal in Nelson Mandela Bay",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZ25DLTNsU0VEcVlhT2JkNXNvMmVIX1RXVEJrbFRSYzlJUUFhRWFmUXdoYklmdjA2SlY3UHZaMlJmUjlNXzFzekJXemZvR0V6c0pNZ0Mxak9BNURDQ29XbnVfR0NHamJFOGJyYUVLOVBQQ2txMTFub2g3dmdyOVJMY2pDajRhdEFoTy1QOFVwUFdpNG84SjVCcU1pNEdQMTdYQUE?oc=5"
+        },
+        {
+          "src": "Daily Maverick",
+          "h": "Council seat dispute exposes divisions in Nelson Mandela Bay’s newest political party",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPeG83a3V0a0NBMFh6d0dTRXBCdEEwSlQ1MWdZUmJnS2ZrblNFclFPdzlLZFJEekU5THVIUVI2WDRmbENRcnhKZ25XX1M5TE9sMS05MURFdFhoeFA0c3lJU0dLajFkSEQzNDRRWHVQdW02UVFPV05YRWFGS2NzdU1PVnhpMUxDaTdWN1JkRnRpaEQ3MXdYdVJHalpHQXdOYUcwYnJXdlI3Wk84YmExVTBHZ3dLVnNqYWFYWmtjOTJHZG5iRkEtalU2VmRWSWhkQXVZUHc?oc=5"
         }
       ],
       "sec": [
@@ -4039,8 +4075,8 @@
         "EWN asks whether the ANC has given provinces and regions the final say; Dan Corder says the NEC let regional bodies choose, affecting well over 100 hung councils, and SABC News reports the NEC resolved that DA coalitions should be a 'last resort'.",
         "IOL and Smile 90.4FM report the ANC postponed its coalition announcement again, and IOL and The Common Sense report it has pushed Mbalula’s coalition briefing to Friday, leaving Gauteng coalitions in limbo ahead of the mayoral votes.",
         "Newsnote reports the ANC asserting there is consensus as talks near conclusion; Business Day reports the ANC is seeking a foothold in hung councils, and EWN quotes an analyst warning of a 'death spiral'.",
-        "IOL reports the SACP drawing a line over coalition support, and The Common Sense reports the SACP called a Sol Plaatje deal with the DA a “betrayal”; The Common Sense also argues ANC indecision has left a power vacuum.",
-        "TimesLIVE reports Ramaphosa says he is 'not resigning' after the election setback, IOL reports tensions over Ramaphosa and working with the DA, and SABC News reports Malatji saying the ANC’s decline goes beyond its current leadership."
+        "IOL reports the SACP drawing a line over coalition support and left-wing parties rejecting an ANC coalition with the DA, dismissing claims they would return if Ramaphosa resigns; The Common Sense reports the SACP called a Sol Plaatje deal with the DA a “betrayal” and argues ANC indecision has left a power vacuum.",
+        "TimesLIVE and Business Day report Ramaphosa says he is 'not resigning' after the election setback, IOL reports tensions over Ramaphosa and working with the DA, and SABC News reports Malatji saying the ANC’s decline goes beyond its current leadership."
       ],
       "auto": true,
       "id": "anc-regions",
@@ -4053,7 +4089,8 @@
         "a-427962faeb",
         "a-d0a1d3a6ae",
         "a-55fab69453",
-        "a-bd98865552"
+        "a-bd98865552",
+        "a-2aae662568"
       ],
       "coverage": [
         {
@@ -4271,6 +4308,12 @@
           "h": "ANC and DA Together in the Northern Cape, Enemies in Jo'burg: Who Governs Where?",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUEdrRVhmNTg2bVNldE16ODRKZ0xaSVpGZXV4SEozNlVsVXhrNFh0ZDJ6T0czbzVkbEdpaWQ4U0tlRk95ckYyZk5YZC1oVUVlWXFVMW5CVWRwMzVMVkZhRk9uQ0duVC1GTjk2Wk1jRnpGeG14T25hNDhZZ1hSbWZwOVhDWWQwUlRuVlN0ZnZjZVR3ek9tTkoxNnJXYUNkUmVBcTRfUTZqanZWS3h3ZWlTQTJJYWI5bEE?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "Left-wing parties reject ANC coalition with DA, dismiss claims they would return if Ramaphosa resigns",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRlM5RWJFZ1pSeG5VZ1cxdkRKajNtQzlmRHk0X1ZNS0lRUV83LWtSTURBNllXdUpFbHBPdnN1QlZfdUVKUFhfeVlVWE9Ta2I5QVJzWmdNUEJETThrUXc1VU4weDRPcjllUG8yWjJHMWxFNXk3MUJvSElJaFk5blVaZ1A0YkswUXEybjNkU1B0MDVwTFVCWkhtck1VbElVaDJqMWtxYlg0S29wT3RUTkRHdWxMd0ZnYko2MHpfNVRIZm5RNEo4M3BRNXQ3cVNwbUF4dlhMdw?oc=5"
         }
       ],
       "sec": [
@@ -4471,7 +4514,8 @@
       "brief": [
         "IOL, News24 and SABC News report the MK Party’s Nomathamsanqa Mthembu was elected uMhlathuze mayor; News24 says the ANC-MK pact sidelined the IFP and DA, and EWN earlier reported the coalition ousted the IFP.",
         "Central News South Africa reports the ANC and MK Party formed a coalition to take control of uPhongolo Municipality.",
-        "The Citizen reports a last-minute coalition deal saw the ANC, DA and IFP take control of KwaDukuza, and The Witness reports the ANC and DA partnered to keep the MK Party out of government there."
+        "The Citizen reports a last-minute coalition deal saw the ANC, DA and IFP take control of KwaDukuza, and The Witness reports the ANC and DA partnered to keep the MK Party out of government there.",
+        "IOL reports DA leadership will attend the uMngeni inauguration, which it describes as one of only 10 outright wins in KwaZulu-Natal."
       ],
       "auto": true,
       "id": "kzn-councils",
@@ -4526,6 +4570,12 @@
           "h": "ActionSA says no coalition deal reached with MK Party or ANC in KZN",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMVJMcG9DaUNGSDdjZHhIVERUVG43Ukg4Q1lfdUdPZ1E0Rllic2h1dXV0X1JpXzNnRnJXb3NYOERfN09DOGJOZXJCWkxwYjh2NnhWemsxV0w2TzJVMVdJU1kycW4wSFQxZDRRMkViYmNzVTdEUGFBVjRZREdVeTNLUWhVX2h0dkU3UVQ1MDVTQUk4TlR4eDFWLUJkbEZHdTdDZ2htS3BpcHBMQmVVeENESQ?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "DA leadership to attend uMngeni inauguration as one of only 10 outright wins in KZN",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVXQ4aWJoMkNXbWYtY18tZlBENDJqbWhuX2tRNTdBRkU3WllPcWVHc2NjVUZMUVVrWVhMZXVaTVdWSng4b1l0SzBNOE5XUExkVm5pX2pTcGx4dUQ5dDlOU1lBaWkxelpoUEJDQ3hDb0ZFcXZ4US1iVTZyb0VzYnpXdHV1dVM5RVM1ZGtLbGRPY3RWLXVEdmFLWXJ5YmFFS2MtaVFJdXc1YWQ2QnpVOUxub1BRUDBRZHRnUnJ3WFBwNDJBWmxFWlE?oc=5"
         }
       ],
       "sec": [
@@ -5303,6 +5353,15 @@
     "80244588720b",
     "4f07537aaebe",
     "45e60a09f69e",
-    "21816988a28b"
+    "21816988a28b",
+    "ab347033edc5",
+    "021c8e026460",
+    "0a54ad2eb4d2",
+    "2aae6625680a",
+    "82e52b6d2432",
+    "e5f0309d5231",
+    "045016b18300",
+    "ae824410e7bf",
+    "9bf0607d1845"
   ]
 }
