@@ -321,6 +321,16 @@
       ],
       "credit": "",
       "source": ""
+    },
+    "brown-mogotsi": {
+      "name": "Brown Mogotsi",
+      "role": "Witness, Madlanga Commission",
+      "files": [
+        "assets/madlanga/brown-mogotsi.jpg",
+        "assets/madlanga/brown-mogotsi-320.jpg"
+      ],
+      "credit": "",
+      "source": ""
     }
   }
 }
