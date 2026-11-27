@@ -1339,3 +1339,10 @@ body.has-ask { padding-bottom: 96px; }
 .pl-voice .pl-reply { display: block; margin-top: 2px; font-size: 12.5px; line-height: 1.35; color: #1f5fc2; }
 /* home page: "Results by municipality" heading centred at 13pt on computers */
 @media (min-width: 721px) { .rs-bymuni h2 { text-align: center; font-size: 13pt; } }
+/* home page: "Results by municipality" as one centred reading column on computers (like a news article) */
+@media (min-width: 721px) {
+  .rs-bymuni { max-width: 680px; margin-left: auto; margin-right: auto; }
+  .rs-bymuni .bm-pn { font-size: 18px; }
+  .rs-bymuni .bm-meta { font-size: 13px; }
+  .rs-bymuni .bm-rows { grid-template-columns: minmax(0, 1fr); padding-left: 54px; }
+}
