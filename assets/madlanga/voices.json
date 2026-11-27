@@ -5,25 +5,29 @@
       "k": "caryn-dolley",
       "n": "Caryn Dolley",
       "o": "Daily Maverick",
-      "img": "assets/journalists/caryn-dolley.jpg"
+      "img": "assets/journalists/caryn-dolley.jpg",
+      "logo": "dailymaverick"
     },
     {
       "k": "karyn-maughan",
       "n": "Karyn Maughan",
       "o": "News24",
-      "img": "assets/journalists/karyn-maughan.jpg"
+      "img": "assets/journalists/karyn-maughan.jpg",
+      "logo": "news24"
     },
     {
       "k": "rebecca-davis",
       "n": "Rebecca Davis",
       "o": "Daily Maverick",
-      "img": "assets/journalists/rebecca-davis.jpg"
+      "img": "assets/journalists/rebecca-davis.jpg",
+      "logo": "dailymaverick"
     },
     {
       "k": "marianne-thamm",
       "n": "Marianne Thamm",
       "o": "Daily Maverick",
-      "img": "assets/journalists/marianne-thamm.jpg"
+      "img": "assets/journalists/marianne-thamm.jpg",
+      "logo": "dailymaverick"
     },
     {
       "k": "alex-patrick",
@@ -37,49 +41,57 @@
       "o": "EWN",
       "img": "assets/journalists/tshidi-madia.jpg",
       "late": true,
-      "footnote": "* Tshidi Madia died on 27 August 2025, aged 42."
+      "footnote": "* Tshidi Madia died on 27 August 2025, aged 42.",
+      "logo": "ewn"
     },
     {
       "k": "qaanitah-hunter",
       "n": "Qaanitah Hunter",
       "o": "News24",
-      "img": "assets/journalists/qaanitah-hunter.jpg"
+      "img": "assets/journalists/qaanitah-hunter.jpg",
+      "logo": "news24"
     },
     {
       "k": "ntwaagae-seleka",
       "n": "Ntwaagae Seleka",
       "o": "News24",
-      "img": "assets/journalists/ntwaagae-seleka.jpg"
+      "img": "assets/journalists/ntwaagae-seleka.jpg",
+      "logo": "news24"
     },
     {
       "k": "mzilikazi-wa-afrika",
       "n": "Mzilikazi wa Afrika",
       "o": "Sunday World",
-      "img": "assets/journalists/mzilikazi-wa-afrika.jpg"
+      "img": "assets/journalists/mzilikazi-wa-afrika.jpg",
+      "logo": "sundayworld"
     },
     {
       "k": "jeff-wicks",
       "n": "Jeff Wicks",
       "o": "News24",
-      "img": "assets/journalists/jeff-wicks.jpg"
+      "img": "assets/journalists/jeff-wicks.jpg",
+      "logo": "news24"
     },
     {
       "k": "bongani-hans",
       "n": "Bongani Hans",
       "o": "IOL",
-      "img": "assets/journalists/bongani-hans.jpg"
+      "img": "assets/journalists/bongani-hans.jpg",
+      "logo": "iol"
     },
     {
       "k": "kyle-cowan",
       "n": "Kyle Cowan",
       "o": "News24",
-      "img": "assets/journalists/kyle-cowan.jpg"
+      "img": "assets/journalists/kyle-cowan.jpg",
+      "logo": "news24"
     },
     {
       "k": "sipho-masondo",
       "n": "Sipho Masondo",
       "o": "News24",
-      "img": "assets/journalists/sipho-masondo.jpg"
+      "img": "assets/journalists/sipho-masondo.jpg",
+      "logo": "news24"
     },
     {
       "k": "jeanette-chabalala",
@@ -91,7 +103,8 @@
       "k": "tebogo-monama",
       "n": "Tebogo Monama",
       "o": "News24",
-      "img": "assets/journalists/tebogo-monama.jpg"
+      "img": "assets/journalists/tebogo-monama.jpg",
+      "logo": "news24"
     },
     {
       "k": "graeme-hosken",
