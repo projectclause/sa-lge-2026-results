@@ -13,12 +13,16 @@
   // mayors elected by the new councils after the 2026 election (as confirmed so far)
   const NEW = {
     CPT: { n: "Geordin Hill-Lewis", p: "DA", same: true, how: "Re-elected. The DA won Cape Town outright." },
+    BUF: { n: "Princess Faku", p: "ANC", same: true, how: "Re-elected by the new council on Tuesday, 24 November 2026, with the EFF’s backing, beating the UDM’s Nqabayomzi Kwankwa. She has been mayor since March 2023." },
     TSH: { n: "Nasiphi Moya", p: "ASA", same: true, how: "Re-elected by the new council on Thursday, 26 November 2026, under a coalition deal between ActionSA, the ANC, the EFF and MK. The ANC’s Naeem Patel was elected Speaker with 119 votes." },
     EKU: { n: "Mziyanda Mketsu", p: "ANC", img: "assets/mayors/ekurhuleni/mziyanda-mketsu.png", expected: true, label: "Incoming mayor · council votes Friday",
       how: "Reports on 25 November say the ANC will field councillor Mziyanda Mketsu as mayor under a deal with ActionSA, the EFF, MK and the SACP. The council put off its mayoral vote to Friday, 27 November." },
   };
-  // new deputy mayors after the 2026 election: a handover card at the top of the city (previous deputy -> new deputy)
+  // handover cards at the top of a city, newest change first: a new deputy mayor (previous -> new), or a mayor returned
+  // by the new council. "old" is the left side, "oldSub" its caption; "lab" is the card's label.
   const DEP = {
+    BUF: { lab: "Mayor re-elected", n: "Princess Faku", p: "ANC", img: "assets/mayors/buffalo-city/princess-faku.jpg", prev: "Princess Faku", prevSub: "Mayor since March 2023",
+      how: "The new council re-elected the ANC’s Princess Faku as Mayor of Buffalo City on Tuesday, 24 November 2026, with the EFF’s backing, over the UDM’s Nqabayomzi Kwankwa." },
     CPT: { n: "Xanthea Limberg", p: "DA", img: "assets/mayors/cape-town/xanthea-limberg.jpg", prev: "Eddie Andrews",
       how: "Elected Deputy Mayor of Cape Town by the new council, succeeding the DA’s Eddie Andrews. The DA named her as its candidate on 16 November, alongside Geordin Hill-Lewis for mayor." },
     TSH: { n: "Omphile Maotwe", p: "EFF", img: "assets/faces/circ/maotwe.png", prev: "Eugene Modise",
@@ -163,8 +167,8 @@ function render() {
         <header class="my-ch"><h2>${C.title}</h2><p>${C.prov} · ${C.list.length} mayors since the first democratic council</p></header>
 
         ${DEP[C.code] ? `<div class="my-dep">
-          <p class="my-lab">${CHECK}New deputy mayor</p>
-          <div class="my-dep-row"><span class="my-dep-old"><b>${DEP[C.code].prev}</b><span>Outgoing deputy mayor</span></span><span class="my-dep-arw" aria-hidden="true">→</span>
+          <p class="my-lab">${CHECK}${DEP[C.code].lab || "New deputy mayor"}</p>
+          <div class="my-dep-row"><span class="my-dep-old${DEP[C.code].prev === DEP[C.code].n ? " same" : ""}"><b>${DEP[C.code].prev}</b><span>${DEP[C.code].prevSub || "Outgoing deputy mayor"}</span></span><span class="my-dep-arw" aria-hidden="true">→</span>
             <span class="my-dep-new">${photo(DEP[C.code].img, DEP[C.code].n, DEP[C.code].p, "my-ph")}<span><b class="my-name">${DEP[C.code].n}</b><span class="my-party"><i style="background:${col(DEP[C.code].p)}"></i>${PN[DEP[C.code].p] || DEP[C.code].p}</span></span></span></div>
           <p class="my-how">${DEP[C.code].how}</p></div>` : ""}
         <div class="my-2026">
