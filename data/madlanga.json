@@ -1,10 +1,14 @@
 {
- "note": "Madlanga Commission page. Fixed wording (approved once) lives here; data/madlanga-auto.json is written hourly by tools/madlanga-update.rb under the guardrails in that file. Set auto.enabled to false to pause automatic updates; add a URL or a headline fragment to remove to take any line down.",
+ "note": "Madlanga Commission page. Fixed wording (approved once) lives here; data/madlanga-auto.json is written hourly by tools/madlanga-update.rb under the guardrails in that file. Set auto.enabled to false to pause automatic updates; add a URL or a headline fragment to remove to take any line down. Names in \"victims\" (murder victims and others harmed) are never shown in automatic lines; headlines naming the victim of a killing are held back too.",
  "auto": {
   "enabled": true
  },
  "remove": [],
  "protect_names": [],
+ "victims": [
+  "Tamryn Raju",
+  "Bevan Loftus"
+ ],
  "status": {
   "t": "Testified",
   "tp": "Testified · partly in private",
