@@ -1,0 +1,808 @@
+{
+ "note": "Madlanga Commission page. Fixed wording (approved once) lives here; data/madlanga-auto.json is written hourly by tools/madlanga-update.rb under the guardrails in that file. Set auto.enabled to false to pause automatic updates; add a URL or a headline fragment to remove to take any line down.",
+ "auto": {
+  "enabled": true
+ },
+ "remove": [],
+ "protect_names": [],
+ "status": {
+  "t": "Testified",
+  "tp": "Testified · partly in private",
+  "n": "Named in evidence",
+  "p": "Private hearing",
+  "s": "Subpoenaed",
+  "c": "Called",
+  "w": "Witness"
+ },
+ "tips": {
+  "t": "Gave evidence under oath at a public hearing.",
+  "tp": "Gave evidence under oath; part of it was heard in camera, without the public.",
+  "n": "Another witness mentioned them in evidence. This is not a finding of wrongdoing.",
+  "p": "Evidence heard in camera: without the public or media, usually to protect a witness or sensitive information.",
+  "s": "Legally ordered to appear. Refusing can lead to criminal charges.",
+  "c": "Asked to appear; no date set yet.",
+  "w": "Listed as a witness. We show what trusted outlets report about their evidence.",
+  "Chair": "The judge who leads the commission and its hearings.",
+  "Commissioner": "One of the three judges or senior lawyers who hear the evidence and write the findings.",
+  "Evidence leader": "A lawyer who questions witnesses for the commission. They do not take sides.",
+  "charged": "Police or prosecutors have laid criminal charges. A charge is not a conviction.",
+  "withdrawn": "Prosecutors have dropped the charges.",
+  "dismissed": "Fired by their employer after an internal process. This is not a criminal finding.",
+  "disciplinary": "An employer’s internal process, such as SAPS’s, not a criminal case."
+ },
+ "legal": "The commission makes findings; Preamble relays what trusted news outlets report from its public hearings, word for word and credited. Being named in evidence is not a finding of wrongdoing, and a charge is not a conviction.",
+ "explainer": [
+  "In July 2025, KwaZulu-Natal police commissioner Lt Gen Nhlanhla Mkhwanazi publicly alleged that criminal networks had infiltrated the police and justice system, and that senior officials interfered in investigations. President Cyril Ramaphosa set up a judicial commission of inquiry, chaired by retired Constitutional Court Justice Mbuyiseli Madlanga, to investigate.",
+  "The commission hears evidence in public, and some of it behind closed doors. It will make findings and recommendations to the President; it cannot convict anyone."
+ ],
+ "timeline": [
+  [
+   "July 2025",
+   "Mkhwanazi’s briefing alleging political interference in policing"
+  ],
+  [
+   "July 2025",
+   "Ramaphosa announces a judicial commission chaired by Justice Madlanga"
+  ],
+  [
+   "September 2025",
+   "Public hearings begin"
+  ],
+  [
+   "September 2026",
+   "The commission marks one year of testimony"
+  ]
+ ],
+ "versus": [
+  [
+   "Madlanga Commission",
+   "A judicial inquiry appointed by the President. It hears evidence under oath, can subpoena witnesses, and reports findings and recommendations to the President."
+  ],
+  [
+   "Parliament’s ad hoc committee",
+   "A committee of MPs investigating Mkhwanazi’s allegations separately. Some of the same people appear, but it reports to Parliament, not the President."
+  ]
+ ],
+ "glossary": [
+  [
+   "Evidence leader",
+   "A lawyer who questions witnesses for the commission. They do not take sides."
+  ],
+  [
+   "In camera",
+   "Evidence heard in private, without the public or media."
+  ],
+  [
+   "IDAC",
+   "Investigating Directorate Against Corruption, a unit of the National Prosecuting Authority."
+  ],
+  [
+   "Crime Intelligence",
+   "The police division that gathers intelligence on crime."
+  ],
+  [
+   "Subpoena",
+   "A legal order to appear and give evidence."
+  ],
+  [
+   "Perjury",
+   "Lying under oath, a criminal offence."
+  ],
+  [
+   "Findings",
+   "The commission’s conclusions in its final report, which come at the end, not during hearings."
+  ]
+ ],
+ "documents": [
+  [
+   "The commission’s website",
+   "https://madlangacommission.co.za/"
+  ]
+ ],
+ "threads": [
+  [
+   "The disbanded KZN task team",
+   [
+    "nhlanhla-mkhwanazi",
+    "senzo-mchunu",
+    "shadrack-sibiya",
+    "brown-mogotsi"
+   ]
+  ],
+  [
+   "Crime Intelligence",
+   [
+    "dumisani-khumalo",
+    "feroz-khan",
+    "ntandazo-sifolo"
+   ]
+  ],
+  [
+   "IDAC and “Project Diversion”",
+   [
+    "andrea-johnson",
+    "ramsamy",
+    "fannie-masemola"
+   ]
+  ],
+  [
+   "The Medicare24 tender",
+   [
+    "vusimuzi-matlala",
+    "rachel-matjeng",
+    "fannie-masemola",
+    "fannie-nkosi"
+   ]
+  ],
+  [
+   "The JMPD syndicate",
+   [
+    "tintswalo-rikhotso",
+    "julius-mkhwanazi"
+   ]
+  ],
+  [
+   "KZN tow trucks and hit squads",
+   [
+    "witness-t",
+    "clive-naicker",
+    "deena-govender"
+   ]
+  ]
+ ],
+ "people": [
+  {
+   "k": "mbuyiseli-madlanga",
+   "n": "Justice Mbuyiseli Madlanga",
+   "g": "commission",
+   "role": "Chair",
+   "match": [
+    "Justice Madlanga",
+    "Mbuyiseli Madlanga"
+   ],
+   "img": "assets/madlanga/tiles/mbuyiseli-madlanga.png"
+  },
+  {
+   "k": "sesi-baloyi",
+   "n": "Adv Sesi Baloyi SC",
+   "g": "commission",
+   "role": "Commissioner",
+   "match": [
+    "Sesi Baloyi"
+   ],
+   "img": "assets/madlanga/tiles/sesi-baloyi.png"
+  },
+  {
+   "k": "sandile-khumalo",
+   "n": "Adv Sandile Khumalo SC",
+   "g": "commission",
+   "role": "Commissioner",
+   "match": [
+    "Sandile Khumalo"
+   ],
+   "img": "assets/madlanga/tiles/sandile-khumalo.png"
+  },
+  {
+   "k": "terry-motau",
+   "n": "Adv Terry Motau SC",
+   "g": "evidence",
+   "role": "Evidence leader",
+   "match": [
+    "Terry Motau"
+   ],
+   "img": "assets/madlanga/tiles/terry-motau.png"
+  },
+  {
+   "k": "matthew-chaskalson",
+   "n": "Adv Matthew Chaskalson SC",
+   "g": "evidence",
+   "role": "Evidence leader",
+   "match": [
+    "Matthew Chaskalson"
+   ],
+   "img": "assets/madlanga/tiles/matthew-chaskalson.png"
+  },
+  {
+   "k": "mahlape-sello",
+   "n": "Adv Mahlape Sello SC",
+   "g": "evidence",
+   "role": "Evidence leader",
+   "match": [
+    "Mahlape Sello"
+   ],
+   "img": "assets/madlanga/tiles/mahlape-sello.png"
+  },
+  {
+   "k": "adila-hassim",
+   "n": "Adv Adila Hassim SC",
+   "g": "evidence",
+   "role": "Evidence leader",
+   "match": [
+    "Adila Hassim"
+   ],
+   "img": "assets/madlanga/tiles/adila-hassim.png"
+  },
+  {
+   "k": "lee-segeels-ncube",
+   "n": "Adv Lee Segeels-Ncube",
+   "g": "evidence",
+   "role": "Evidence leader",
+   "match": [
+    "Lee Segeels-Ncube"
+   ],
+   "img": "assets/madlanga/tiles/lee-segeels-ncube.png"
+  },
+  {
+   "k": "thabang-pooe",
+   "n": "Adv Thabang Pooe",
+   "g": "evidence",
+   "role": "Evidence leader",
+   "match": [
+    "Thabang Pooe"
+   ],
+   "img": "assets/madlanga/tiles/thabang-pooe.png"
+  },
+  {
+   "k": "teboho-mosikili",
+   "n": "Adv Teboho Mosikili",
+   "g": "evidence",
+   "role": "Evidence leader",
+   "match": [
+    "Teboho Mosikili"
+   ],
+   "img": "assets/madlanga/tiles/teboho-mosikili.png"
+  },
+  {
+   "k": "mpilo-sikhakhane",
+   "n": "Adv Mpilo Sikhakhane",
+   "g": "evidence",
+   "role": "Evidence leader",
+   "match": [
+    "Mpilo Sikhakhane"
+   ],
+   "img": "assets/madlanga/tiles/mpilo-sikhakhane.png"
+  },
+  {
+   "k": "tshidiso-ramogale",
+   "n": "Adv Tshidiso Ramogale",
+   "g": "evidence",
+   "role": "Evidence leader",
+   "match": [
+    "Tshidiso Ramogale"
+   ],
+   "img": "assets/madlanga/tiles/tshidiso-ramogale.png"
+  },
+  {
+   "k": "nolitha-vukuza",
+   "n": "Dr Nolitha Vukuza",
+   "g": "staff",
+   "role": "Commission staff",
+   "match": [
+    "Nolitha Vukuza"
+   ],
+   "img": "assets/madlanga/tiles/nolitha-vukuza.png"
+  },
+  {
+   "k": "jeremy-michaels",
+   "n": "Jeremy Michaels",
+   "g": "staff",
+   "role": "Commission staff",
+   "match": [
+    "Jeremy Michaels"
+   ],
+   "img": "assets/madlanga/tiles/jeremy-michaels.png"
+  },
+  {
+   "k": "witness-t",
+   "n": "Witness T",
+   "g": "witness",
+   "role": "Identity protected by the commission",
+   "st": "t",
+   "match": [
+    "Witness T"
+   ],
+   "protected": true
+  },
+  {
+   "k": "nhlanhla-mkhwanazi",
+   "n": "Lt Gen Nhlanhla Mkhwanazi",
+   "g": "witness",
+   "role": "KZN police commissioner",
+   "st": "t",
+   "match": [
+    "Nhlanhla Mkhwanazi",
+    "Lt-Gen Mkhwanazi",
+    "Lt Gen Mkhwanazi",
+    "General Mkhwanazi",
+    "Mkhwanazi"
+   ],
+   "not": [
+    "Julius"
+   ],
+   "img": "assets/madlanga/tiles/nhlanhla-mkhwanazi.png"
+  },
+  {
+   "k": "vusimuzi-matlala",
+   "n": "Vusimuzi ‘Cat’ Matlala",
+   "g": "witness",
+   "role": "Businessman",
+   "st": "t",
+   "match": [
+    "Matlala"
+   ],
+   "img": "assets/madlanga/tiles/vusimuzi-matlala.png"
+  },
+  {
+   "k": "shadrack-sibiya",
+   "n": "Lt Gen Shadrack Sibiya",
+   "g": "witness",
+   "role": "Former deputy national police commissioner",
+   "st": "t",
+   "match": [
+    "Sibiya"
+   ],
+   "img": "assets/madlanga/tiles/shadrack-sibiya.png"
+  },
+  {
+   "k": "fannie-masemola",
+   "n": "Gen Fannie Masemola",
+   "g": "witness",
+   "role": "National police commissioner",
+   "st": "t",
+   "match": [
+    "Masemola"
+   ],
+   "img": "assets/madlanga/tiles/fannie-masemola.png"
+  },
+  {
+   "k": "dumisani-khumalo",
+   "n": "Lt Gen Dumisani Khumalo",
+   "g": "witness",
+   "role": "Crime Intelligence head",
+   "st": "tp",
+   "match": [
+    "Dumisani Khumalo",
+    "Lt-Gen Khumalo",
+    "Lt Gen Khumalo",
+    "CI boss Khumalo"
+   ],
+   "img": "assets/madlanga/tiles/dumisani-khumalo.png"
+  },
+  {
+   "k": "feroz-khan",
+   "n": "Feroz Khan",
+   "g": "witness",
+   "role": "Crime Intelligence",
+   "st": "p",
+   "match": [
+    "Feroz Khan"
+   ],
+   "img": "assets/madlanga/tiles/feroz-khan.png",
+   "private": true
+  },
+  {
+   "k": "godfrey-lebeya",
+   "n": "Lt Gen Godfrey Lebeya",
+   "g": "witness",
+   "role": "Hawks head",
+   "st": "t",
+   "match": [
+    "Lebeya"
+   ],
+   "img": "assets/madlanga/tiles/godfrey-lebeya.png"
+  },
+  {
+   "k": "deena-govender",
+   "n": "Lt-Col Deena Govender",
+   "g": "witness",
+   "role": "KZN Hawks",
+   "st": "t",
+   "match": [
+    "Deena Govender",
+    "Govender"
+   ],
+   "img": "assets/madlanga/tiles/deena-govender.png"
+  },
+  {
+   "k": "andrea-johnson",
+   "n": "Andrea Johnson",
+   "g": "witness",
+   "role": "Former IDAC head",
+   "st": "t",
+   "match": [
+    "Andrea Johnson",
+    "Johnson"
+   ],
+   "img": "assets/madlanga/tiles/andrea-johnson.png"
+  },
+  {
+   "k": "ramsamy",
+   "n": "Ramsamy",
+   "g": "witness",
+   "role": "IDAC",
+   "st": "t",
+   "match": [
+    "Ramsamy"
+   ]
+  },
+  {
+   "k": "julius-mkhwanazi",
+   "n": "Julius Mkhwanazi",
+   "g": "witness",
+   "role": "Former acting Ekurhuleni metro police chief",
+   "st": "t",
+   "match": [
+    "Julius Mkhwanazi"
+   ],
+   "img": "assets/madlanga/tiles/julius-mkhwanazi.png"
+  },
+  {
+   "k": "brown-mogotsi",
+   "n": "Brown Mogotsi",
+   "g": "witness",
+   "role": "Charged with perjury over his testimony",
+   "st": "t",
+   "match": [
+    "Mogotsi"
+   ],
+   "img": "assets/madlanga/tiles/brown-mogotsi.png"
+  },
+  {
+   "k": "joe-sibanyoni",
+   "n": "Joe ‘Ferrari’ Sibanyoni",
+   "g": "witness",
+   "role": "Businessman",
+   "st": "t",
+   "match": [
+    "Sibanyoni"
+   ],
+   "img": "assets/madlanga/tiles/joe-sibanyoni.png"
+  },
+  {
+   "k": "clive-naicker",
+   "n": "Clive Naicker",
+   "g": "witness",
+   "role": "KZN tow-truck operator",
+   "st": "t",
+   "match": [
+    "Naicker"
+   ],
+   "img": "assets/madlanga/tiles/clive-naicker.png"
+  },
+  {
+   "k": "tintswalo-rikhotso",
+   "n": "Chief Supt Tintswalo Rikhotso",
+   "g": "witness",
+   "role": "JMPD",
+   "st": "t",
+   "match": [
+    "Rikhotso"
+   ],
+   "img": "assets/madlanga/tiles/tintswalo-rikhotso.png"
+  },
+  {
+   "k": "rachel-matjeng",
+   "n": "Rachel Matjeng",
+   "g": "witness",
+   "role": "Former SAPS brigadier",
+   "st": "t",
+   "match": [
+    "Matjeng"
+   ],
+   "img": "assets/madlanga/tiles/rachel-matjeng.png"
+  },
+  {
+   "k": "suliman-carrim",
+   "n": "Suliman Carrim",
+   "g": "witness",
+   "role": "Businessman",
+   "st": "t",
+   "match": [
+    "Carrim"
+   ],
+   "img": "assets/madlanga/tiles/suliman-carrim.png"
+  },
+  {
+   "k": "kiruben-naidoo",
+   "n": "Kiruben Rungarajh Naidoo",
+   "g": "witness",
+   "role": "Businessman",
+   "st": "t",
+   "match": [
+    "Kiruben Naidoo",
+    "Kiruben"
+   ],
+   "img": "assets/madlanga/tiles/kiruben-naidoo.png"
+  },
+  {
+   "k": "fadiel-adams",
+   "n": "Fadiel Adams",
+   "g": "witness",
+   "role": "MP",
+   "st": "t",
+   "match": [
+    "Fadiel Adams",
+    "Adams"
+   ],
+   "img": "assets/madlanga/tiles/fadiel-adams.png"
+  },
+  {
+   "k": "vusi-shongwe",
+   "n": "Vusi Shongwe",
+   "g": "witness",
+   "role": "MP",
+   "st": "t",
+   "match": [
+    "Shongwe"
+   ],
+   "img": "assets/madlanga/tiles/vusi-shongwe.png"
+  },
+  {
+   "k": "edward-kieswetter",
+   "n": "Edward Kieswetter",
+   "g": "witness",
+   "role": "Former SARS commissioner",
+   "st": "t",
+   "match": [
+    "Kieswetter"
+   ],
+   "img": "assets/madlanga/tiles/edward-kieswetter.png"
+  },
+  {
+   "k": "gareth-mnisi",
+   "n": "Gareth Mnisi",
+   "g": "witness",
+   "role": "Witness",
+   "st": "t",
+   "match": [
+    "Gareth Mnisi",
+    "Mnisi"
+   ],
+   "not": [
+    "Nomoya"
+   ],
+   "img": "assets/madlanga/tiles/gareth-mnisi.png"
+  },
+  {
+   "k": "fannie-nkosi",
+   "n": "Fannie Nkosi",
+   "g": "witness",
+   "role": "Witness",
+   "st": "t",
+   "match": [
+    "Fannie Nkosi"
+   ],
+   "img": "assets/madlanga/tiles/fannie-nkosi.png"
+  },
+  {
+   "k": "thobakgale",
+   "n": "Thobakgale",
+   "g": "witness",
+   "role": "Expert witness on gangs in prisons",
+   "st": "t",
+   "match": [
+    "Thobakgale"
+   ]
+  },
+  {
+   "k": "ntandazo-sifolo",
+   "n": "Dr Ntandazo Sifolo",
+   "g": "witness",
+   "role": "National intelligence coordinator",
+   "st": "p",
+   "match": [
+    "Sifolo"
+   ],
+   "img": "assets/madlanga/tiles/ntandazo-sifolo.png",
+   "private": true
+  },
+  {
+   "k": "bafana-sindane",
+   "n": "Bafana Sindane",
+   "g": "witness",
+   "role": "Taxi operator",
+   "st": "s",
+   "match": [
+    "Sindane"
+   ],
+   "img": "assets/madlanga/tiles/bafana-sindane.png"
+  },
+  {
+   "k": "campbell-nyuswa",
+   "n": "Brigadier Campbell Nyuswa",
+   "g": "witness",
+   "role": "Witness",
+   "st": "w",
+   "match": [
+    "Nyuswa"
+   ],
+   "img": "assets/madlanga/tiles/campbell-nyuswa.png"
+  },
+  {
+   "k": "tumelo-nku",
+   "n": "Itumeleng ‘Tumelo’ Nku",
+   "g": "witness",
+   "role": "Witness",
+   "st": "w",
+   "match": [
+    "Nku"
+   ],
+   "img": "assets/madlanga/tiles/tumelo-nku.png"
+  },
+  {
+   "k": "len-john",
+   "n": "Len Barnabas John",
+   "g": "witness",
+   "role": "Witness",
+   "st": "w",
+   "match": [
+    "Len John",
+    "Barnabas John"
+   ],
+   "img": "assets/madlanga/tiles/len-john.png"
+  },
+  {
+   "k": "matthews-sesoko",
+   "n": "Matthews Sesoko",
+   "g": "witness",
+   "role": "Witness",
+   "st": "w",
+   "match": [
+    "Sesoko"
+   ],
+   "img": "assets/madlanga/tiles/matthews-sesoko.png"
+  },
+  {
+   "k": "senzo-mchunu",
+   "n": "Senzo Mchunu",
+   "g": "witness",
+   "role": "Police Minister (on leave)",
+   "st": "n",
+   "match": [
+    "Mchunu"
+   ],
+   "img": "assets/madlanga/tiles/senzo-mchunu.png"
+  },
+  {
+   "k": "bheki-cele",
+   "n": "Bheki Cele",
+   "g": "witness",
+   "role": "Former Police Minister",
+   "st": "n",
+   "match": [
+    "Cele"
+   ],
+   "not": [
+    "Celebr"
+   ],
+   "img": "assets/madlanga/tiles/bheki-cele.png"
+  },
+  {
+   "k": "firoz-cachalia",
+   "n": "Firoz Cachalia",
+   "g": "witness",
+   "role": "Acting Police Minister",
+   "st": "c",
+   "match": [
+    "Cachalia"
+   ],
+   "img": "assets/madlanga/tiles/firoz-cachalia.png"
+  }
+ ],
+ "voices": [
+  {
+   "k": "caryn-dolley",
+   "n": "Caryn Dolley",
+   "o": "Daily Maverick",
+   "img": "assets/journalists/caryn-dolley.jpg",
+   "logo": "dailymaverick"
+  },
+  {
+   "k": "karyn-maughan",
+   "n": "Karyn Maughan",
+   "o": "News24",
+   "img": "assets/journalists/karyn-maughan.jpg",
+   "logo": "news24"
+  },
+  {
+   "k": "rebecca-davis",
+   "n": "Rebecca Davis",
+   "o": "Daily Maverick",
+   "img": "assets/journalists/rebecca-davis.jpg",
+   "logo": "dailymaverick"
+  },
+  {
+   "k": "marianne-thamm",
+   "n": "Marianne Thamm",
+   "o": "Daily Maverick",
+   "img": "assets/journalists/marianne-thamm.jpg",
+   "logo": "dailymaverick"
+  },
+  {
+   "k": "alex-patrick",
+   "n": "Alex Patrick",
+   "o": "TimesLIVE",
+   "img": "assets/journalists/alex-patrick.jpg",
+   "logo": "timeslive"
+  },
+  {
+   "k": "tshidi-madia",
+   "n": "Tshidi Madia",
+   "o": "EWN",
+   "img": "assets/journalists/tshidi-madia.jpg",
+   "late": true,
+   "footnote": "* Tshidi Madia died on 27 August 2025, aged 42.",
+   "logo": "ewn"
+  },
+  {
+   "k": "qaanitah-hunter",
+   "n": "Qaanitah Hunter",
+   "o": "News24",
+   "img": "assets/journalists/qaanitah-hunter.jpg",
+   "logo": "news24"
+  },
+  {
+   "k": "ntwaagae-seleka",
+   "n": "Ntwaagae Seleka",
+   "o": "News24",
+   "img": "assets/journalists/ntwaagae-seleka.jpg",
+   "logo": "news24"
+  },
+  {
+   "k": "mzilikazi-wa-afrika",
+   "n": "Mzilikazi wa Afrika",
+   "o": "Sunday World",
+   "img": "assets/journalists/mzilikazi-wa-afrika.jpg",
+   "logo": "sundayworld"
+  },
+  {
+   "k": "jeff-wicks",
+   "n": "Jeff Wicks",
+   "o": "News24",
+   "img": "assets/journalists/jeff-wicks.jpg",
+   "logo": "news24"
+  },
+  {
+   "k": "bongani-hans",
+   "n": "Bongani Hans",
+   "o": "IOL",
+   "img": "assets/journalists/bongani-hans.jpg",
+   "logo": "iol"
+  },
+  {
+   "k": "kyle-cowan",
+   "n": "Kyle Cowan",
+   "o": "News24",
+   "img": "assets/journalists/kyle-cowan.jpg",
+   "logo": "news24"
+  },
+  {
+   "k": "sipho-masondo",
+   "n": "Sipho Masondo",
+   "o": "News24",
+   "img": "assets/journalists/sipho-masondo.jpg",
+   "logo": "news24"
+  },
+  {
+   "k": "jeanette-chabalala",
+   "n": "Jeanette Chabalala",
+   "o": "TimesLIVE",
+   "img": "assets/journalists/jeanette-chabalala.jpg",
+   "logo": "timeslive"
+  },
+  {
+   "k": "tebogo-monama",
+   "n": "Tebogo Monama",
+   "o": "News24",
+   "img": "assets/journalists/tebogo-monama.jpg",
+   "logo": "news24"
+  },
+  {
+   "k": "graeme-hosken",
+   "n": "Graeme Hosken",
+   "o": "TimesLIVE",
+   "img": "assets/journalists/graeme-hosken.jpg",
+   "logo": "timeslive"
+  }
+ ]
+}
