@@ -1303,3 +1303,4 @@ body.has-ask { padding-bottom: 96px; }
 .pl-ed .bc-pill svg { width: 15px; height: 15px; }
 .pl-ed .bc-pill:hover, .pl-ed .bc-pill:focus-visible { background: #333; }
 .rs-wrap.bc-wrap { max-width: 1100px; }
+.bc-confetti { position: fixed; inset: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 9999; }

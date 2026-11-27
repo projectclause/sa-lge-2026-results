@@ -14,10 +14,29 @@
   const col = (p) => PC[p] || "#8a8a8a";
   const label = (p) => NAME[p] || (p.length > 12 ? p.replace(/\b(Political|Movement|Party|of|the|and|Social)\b/g, "").replace(/\s+/g, " ").trim() : p);
 
+  // confetti when a coalition reaches a majority: a short burst in the coalition's party colours (skipped for reduced motion)
+  function confetti(colors, from) {
+    if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const cv = document.createElement("canvas"), dpr = Math.min(2, window.devicePixelRatio || 1);
+    cv.className = "bc-confetti"; cv.width = innerWidth * dpr; cv.height = innerHeight * dpr;
+    document.body.appendChild(cv); const g = cv.getContext("2d"); g.scale(dpr, dpr);
+    const r = from.getBoundingClientRect(), ox = r.left + r.width / 2, oy = r.top + r.height / 2;
+    const P = Array.from({ length: 140 }, () => ({ x: ox + (Math.random() - .5) * r.width * .6, y: oy, vx: (Math.random() - .5) * 11, vy: -Math.random() * 12 - 4,
+      w: 5 + Math.random() * 6, h: 8 + Math.random() * 8, a: Math.random() * 6.28, va: (Math.random() - .5) * .3, c: colors[Math.floor(Math.random() * colors.length)] }));
+    let t = 0;
+    (function frame() {
+      g.clearRect(0, 0, innerWidth, innerHeight);
+      P.forEach((p) => { p.vy += .35; p.vx *= .99; p.x += p.vx; p.y += p.vy; p.a += p.va;
+        g.save(); g.translate(p.x, p.y); g.rotate(p.a); g.globalAlpha = Math.max(0, 1 - t / 130); g.fillStyle = p.c; g.fillRect(-p.w / 2, -p.h / 2, p.w, p.h * Math.abs(Math.cos(p.a * 2))); g.restore(); });
+      if (++t < 140) requestAnimationFrame(frame); else cv.remove();
+    })();
+  }
+
   Promise.all([fetch("data/municipalities.geojson").then((r) => r.json()), fetch("data/mayors.json").then((r) => r.json()).catch(() => ({}))]).then(([fc, CANDS]) => {
     const SEATS = {};
     fc.features.forEach((f) => { const p = f.properties; if (METROS.some(([c]) => c === p.id)) { const s = {}; (p.seats || []).forEach(([q, n]) => { s[norm(q)] = (s[norm(q)] || 0) + n; }); SEATS[p.id] = s; } });
     let code = "JHB", picked = new Set(), mayorP = null;
+    let wasOk = false; // so the confetti fires each time the coalition crosses the majority line, not on every tap above it
 
     const own = box.classList.contains("bc-page"); // on build-your-coalition.html the page title already says it
     box.innerHTML = `${own ? "" : `<p class="bc-kick">Interactive</p>
@@ -35,6 +54,7 @@
       const S = SEATS[code] || {}, ss = Object.entries(S).sort((a, b) => b[1] - a[1]);
       const N = ss.reduce((a, [, n]) => a + n, 0), need = Math.floor(N / 2) + 1;
       const inC = ss.filter(([p]) => picked.has(p)), have = inC.reduce((a, [, n]) => a + n, 0), ok = have >= need;
+      const crossed = ok && !wasOk; wasOk = ok;
       box.querySelectorAll(".bc-metros button").forEach((b) => b.setAttribute("aria-selected", b.dataset.c === code));
       $(".bc-fill").innerHTML = inC.map(([p, n]) => `<span style="width:${(n / N * 100).toFixed(2)}%;background:${col(p)}" title="${esc(label(p))}: ${n}"></span>`).join("");
       $(".bc-line").style.left = (need / N * 100).toFixed(2) + "%";
@@ -53,13 +73,14 @@
               <p class="bc-mn">${m ? esc(m[0]) : `No candidate named`} <span>${esc(label(lead))}</span></p>
               <p class="bc-ms">${esc(inC.map(([p]) => label(p)).join(" + "))} · ${have} seats</p>
               ${others.length ? `<p class="bc-alt">Or make mayor: ${others.map((p) => `<button type="button" data-m="${esc(p)}">${esc(cand(p)[0])} (${esc(label(p))})</button>`).join(" ")}</p>` : ""}</div></div>`;
+      if (crossed) confetti(inC.map(([p]) => col(p)), $(".bc-bar"));
     }
     box.addEventListener("click", (e) => {
       const t = e.target.closest("button"); if (!t) return;
-      if (t.dataset.c) { code = t.dataset.c; picked = new Set(); mayorP = null; }
+      if (t.dataset.c) { code = t.dataset.c; picked = new Set(); mayorP = null; wasOk = false; }
       else if (t.dataset.p) { const p = t.dataset.p; picked.has(p) ? picked.delete(p) : picked.add(p); }
       else if (t.dataset.m) mayorP = t.dataset.m;
-      else if (t.classList.contains("bc-reset")) { picked = new Set(); mayorP = null; }
+      else if (t.classList.contains("bc-reset")) { picked = new Set(); mayorP = null; wasOk = false; }
       draw();
     });
     draw();
