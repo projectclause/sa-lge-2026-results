@@ -1252,3 +1252,41 @@ body.has-ask { padding-bottom: 96px; }
 .pl-voice .pl-ytviews { justify-self: start; display: inline-block; margin-top: 0; padding: 3px 9px; border-radius: 999px; background: #e4f4ea; color: #1b7a3d; font-style: normal; font-size: 11.5px; font-weight: 600; line-height: 1.3; white-space: nowrap; }
 .pl-voice .pl-ytviews b { font-weight: 800; font-size: inherit; }
 .ft-privacy .ft-cookie { display: inline-block; width: 1.05em; height: auto; margin-right: 5px; vertical-align: -0.18em; opacity: .7; }
+/* Build your coalition (Mayors page) */
+.bc { margin: 40px 0 8px; padding-top: 16px; border-top: 1px solid var(--text, #121212); }
+.bc-kick { margin: 0 0 4px; font-size: 11.5px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--muted2); }
+.bc-h { margin: 0 0 6px; font-size: clamp(22px, 2.6vw, 28px); font-weight: 700; letter-spacing: -.01em; }
+.bc-dek { margin: 0 0 14px; font-size: 14.5px; line-height: 1.5; color: var(--muted2); max-width: 720px; }
+.bc-metros { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; margin-bottom: 16px; padding: 2px 0; }
+.bc-metros::-webkit-scrollbar { display: none; }
+.bc-metros button { flex: 0 0 auto; white-space: nowrap; border: 1px solid var(--rule2, #d6dae1); background: #fff; color: #121212; font: 600 13px/1 var(--font); padding: 8px 13px; border-radius: 999px; cursor: pointer; }
+.bc-metros button[aria-selected="true"] { background: #121212; border-color: #121212; color: #fff; }
+.bc-bar { position: relative; height: 22px; background: #eef0f3; overflow: visible; }
+.bc-fill { display: flex; height: 100%; }
+.bc-fill span { height: 100%; border-right: 1px solid #fff; transition: width .25s ease; }
+.bc-line { position: absolute; top: -5px; bottom: -5px; width: 2px; margin-left: -1px; background: #121212; }
+.bc-count { margin: 8px 0 14px; font-size: 14px; color: var(--muted2); }
+.bc-count b { color: #121212; }
+.bc-ok { color: #1b7a3d; font-weight: 700; }
+.bc-short { color: #b3261e; font-weight: 600; }
+.bc-parties { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
+.bc-p { display: flex; align-items: center; gap: 8px; padding: 8px 10px; border: 1px solid var(--rule2, #d6dae1); background: #fff; font: inherit; color: #121212; text-align: left; cursor: pointer; }
+.bc-p img { height: 18px; width: auto; max-width: 30px; object-fit: contain; flex: none; }
+.bc-p .bc-dot { width: 12px; height: 12px; border-radius: 50%; background: var(--pc); flex: none; }
+.bc-p span { flex: 1; min-width: 0; font-size: 13.5px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.bc-p b { font-size: 14px; }
+.bc-p[aria-pressed="true"] { border-color: var(--pc); box-shadow: inset 0 0 0 2px var(--pc); background: color-mix(in srgb, var(--pc) 9%, #fff); }
+.bc-result { margin-top: 16px; }
+.bc-hint { margin: 0; font-size: 14px; color: var(--muted2); }
+.bc-mayor { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 14px; align-items: center; padding: 14px; border: 1px solid var(--rule2, #d6dae1); background: #fafafa; }
+.bc-mayor.ok { border-color: #1b7a3d; background: #f1f8f3; }
+.bc-mayor img, .bc-av { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; object-position: top; background: #eee; display: block; }
+.bc-mk { margin: 0; font-size: 11.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted2); }
+.bc-mayor.ok .bc-mk { color: #1b7a3d; }
+.bc-mn { margin: 2px 0 0; font-size: 20px; font-weight: 700; }
+.bc-mn span { font-size: 13px; font-weight: 600; color: var(--muted2); margin-left: 4px; }
+.bc-ms { margin: 3px 0 0; font-size: 13px; color: var(--muted2); }
+.bc-alt { margin: 8px 0 0; font-size: 12.5px; color: var(--muted2); }
+.bc-alt button { margin: 3px 4px 0 0; border: 1px solid var(--rule2, #d6dae1); background: #fff; border-radius: 999px; padding: 4px 10px; font: 600 12px/1.2 var(--font); cursor: pointer; }
+.bc-foot { margin: 12px 0 0; font-size: 12px; color: var(--muted); }
+.bc-reset { border: 0; background: none; padding: 0; font: 600 12.5px var(--font); color: #121212; text-decoration: underline; cursor: pointer; margin-right: 6px; }
