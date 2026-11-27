@@ -80,6 +80,16 @@
       ],
       "credit": "Madlanga Commission",
       "source": "https://madlangacommission.co.za/"
+    },
+    "nolitha-vukuza": {
+      "name": "Dr Nolitha Vukuza",
+      "role": "Madlanga Commission",
+      "files": [
+        "assets/madlanga/nolitha-vukuza.jpg",
+        "assets/madlanga/nolitha-vukuza-320.jpg"
+      ],
+      "credit": "Madlanga Commission",
+      "source": "https://madlangacommission.co.za/"
     }
   }
 }
