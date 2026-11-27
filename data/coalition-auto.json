@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-27",
-    "time": "03:26"
+    "time": "05:02"
   },
   "items": [
     {
@@ -1384,6 +1384,30 @@
       "src": "Business Day",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMnhGZ0oyLVVmRS11dXZDQUFFTTNRWjNKQmJWalhNYkpET3EyV000WDg5bEl4VzJCMXlyZ2NfaGpRZ1JsNjNmVHdNX2o5WlJqUy1BMUo0c3pZeFlDRThGa0k2cDNDTjdmRWxtd0h1amJmNW51R3Rpdlp0ZGZBeHBCYjBQY2pTRmc1cE1jbGZkQnh5UXFCblZQMnNfd2tIYVpKTTJpSjUzQkZnQ3czR2VWRVFn?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-a33b0fe06a",
+      "j": "helen",
+      "d": "2026-11-27",
+      "kind": "Article",
+      "place": "Johannesburg",
+      "h": "Zille Tells Jo’burg: “I’m Not Going Anywhere”",
+      "s": "The Common Sense reports Helen Zille telling Johannesburg she is “not going anywhere”.",
+      "src": "The Common Sense",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNanBmOVJQYXVQZFlsQVZtVTRiUUJ1OE5ERkdEVDc2d1VJM004TWlkWXVqal83TXFmemlmVEhpNS04cXZMenNqODIyX3FoUE95LW9PM2NEeUZYc3NfNEh3dmg2QS1XOHQ0VW9SUTU4RHBHVGo5NTZENVJMNUM4VlgwLUswYks1YlRrdlE?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-8e6944662e",
+      "j": "cyril",
+      "d": "2026-11-24",
+      "kind": "Article",
+      "place": "National",
+      "h": "Ramaphosa calls for accountability and transparency in municipalities",
+      "s": "SABC News reports President Cyril Ramaphosa calling for accountability and transparency in municipalities.",
+      "src": "SABC News",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPd3Nsc3ptbVR1akt1SGRvWlBHMFBvT203bkRnaFVja0pPeElGaUI4Z2ZaNXJzVm1IOG1KWXhieFpkTXoxbUR1VFNMaDRNY2ktOVpRTkNHRmFDUURxZ21SdGVjd1JOUFBmdkdvODJMa2paMWRhWmFlR2FtUEgyUnFrN1JXTEx0VEtKQXYtSXZlSEVhMkUtOWZ0c2ltalREdi1YcklsTlhJOGJXT0hYb0YxaDNxemR5cHVzVTdpNnZXLXdsS2hiSGVLRmt3ZzRBcTRRNk9J?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -1412,7 +1436,8 @@
       "a-daa4656d07",
       "a-95debb332c",
       "a-d9008b098b",
-      "a-726817dbbe"
+      "a-726817dbbe",
+      "a-a33b0fe06a"
     ],
     "actionsa": [
       "a-773fa265cd",
@@ -1444,7 +1469,8 @@
       "a-75f827ad34"
     ],
     "ramaphosa": [
-      "a-8b8a61c941"
+      "a-8b8a61c941",
+      "a-8e6944662e"
     ],
     "tshwane": [
       "a-d028b4fa30",
@@ -1998,6 +2024,12 @@
         "h": "Johannesburg mayor to be elected on Friday following councillors’ swearing-in",
         "d": "2026-11-25",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOS25XUmc1OHZSNjBMSS1nNHZadi1feFFhSXpwamdoZzJqZFltVEEzdlJ4OE9zQ09hYWUtMmNfdUtqREU4bEZTYnl2NEZnUDVnVVBHYVQ3R3pseWZzVmNnU2Z5VThhck1PaVlRcUk4WUR1UzNwR2o5dktuQTRvQVB5aHh2UEhXRVdaVzdaM1Z4RnFSUFJyaDk0em5zYnNkdTdlRTMzcURtUlhWRFp4a0E3MThoZmNPdTgtVW5Ueg?oc=5"
+      },
+      {
+        "src": "IOL",
+        "h": "FF Plus threatens to dump DA nationwide if it joins ANC in Joburg",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNDFzYVFJbURSRC1ra2o1cktwNnBKM1FjMVFtR3RNYklsbEc5c1F4SFBVRFRCMjI5TzlxeUJxWkxwY0Y0RzhHTUYtS3lld3R0UlB6N2c3dHFjOGhNclFDY3dzX3BTcmFSTFF6Z2FiQWZZbFRzZkdDVmlGa09IVUZYaDZzbEplUHpIM0NwbEJ5V3djUjhJNHdzbVF6LUdRUGFKREpMV3JFWlVENmUzeFE?oc=5"
       }
     ],
     "councils": [
@@ -2448,6 +2480,12 @@
         "h": "ActionSA files second press ombudsman complaint against News24",
         "d": "2026-11-26",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMk5rQUNKOUZCaXZIWEZkMWpyTDdYUEtoSU9yc0Flb1VZNjdxb2NmVkdoN1NUUThkdUphWC1DUVVLR1QtMkdBWmdmY2o5YWJBemxRcHhZVTNZSGFGc25kdHZad3VvR1BoN0l3anJNbzN5SjNRczBPYWNFanNQcF8wYkZWY2FITGNtU2lTU2UzZVluN3A0M3o5MEhHX2dreF83X2xXQk4zWDNLQXc?oc=5"
+      },
+      {
+        "src": "Business Day",
+        "h": "ActionSA’s win in Tshwane sets template for Joburg and Ekurhuleni",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOR0RYaklOaFhLbU1Jb29YVGpsbWVpa3ZRTWlTRVZvdTg4Z2pXVGVIS0Q0cmRlUXRncWlDMDRKX2lvZUNuUEJXRVlqaUlSQ0U3Vlg3Q0o5c3dNYlR6dVc1cWJXZXJFa3N1cEx5SXdOZHd5Z0tILWtPTGFKRksxYThNREVtaDFkOGZ4WjBERTBPcHNNSEtldUNUTlFCQzIxM2JOREQwcXZURGhNeGtZRy1wblFGUG03VlVFRHI2b1R3dXJfTG1aNGY0?oc=5"
       }
     ],
     "mk": [
@@ -2504,6 +2542,12 @@
         "h": "From political rivals to coalition partners: ANC and MK Party agree to work together in hung municipalities",
         "d": "2026-11-24",
         "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcHRqMTc5Z21SQVNXMzhwTTFyTUZkLWlBX0VLQ1R3YUd1T0djTnVoc0xUY1ZHOEJGTE5sa1VaZU1jbzd3cUg3UmpaMkpiQ3hwQWtqeEFPdl9JRUNFS0dsd25EelVQa19JM2paMmRFX2d4NWlaYVpnSlBNWFNIQlNtRGxLSlVNUFhTY2REU1FvRmFpLUhNTzdzRWJPUnVNZUprNE1tRHFURFNxTEd2MERkQV9CNzFNWXlabklCU1A5NWo5V1ZFUW9VcGpKSWQzWlpLZUtvZXRZeDdOOWdvXzcwUEpGSG0?oc=5"
+      },
+      {
+        "src": "IOL",
+        "h": "Jacob Zuma signals coalition talks as MK Party seeks greater influence",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTzFRaEVIYnV4R3ZJcHlfTWZEOWItZDNjdGZ2YVVaZUdZMkxQeE9NMk9UN1h1ZVZlV3hTRkUxeEl4b1Ztd3dkZVJwdThBX0lOZWFTZVYyeG90aG5NelZXT0dkZmlLbzdmdExYc19KbEF6TV9Kb1o0aTF3MV9qVkZ4Z003TzZBQVFsLXJuX1FwZ0JlRmk0UW9zMXRzMEs4QU5kS0k3S1p5YXVjalRI?oc=5"
       }
     ],
     "anc-metros": [
@@ -3215,6 +3259,12 @@
           "h": "ANC and MK Party seal eThekwini coalition deal as ActionSA's future hangs in balance",
           "d": "2026-11-24",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZlFvc3QyYlhTQ0ZGX0JHZ0REQWc3WXhjWEhobDI1cjFSMjJOVUJYbWxGc0JxWDg0ZVZSNUlFUmhqYUtEdkp6S3FLMkpRWWdqbXgxalRkbHY1N3RYUVNlRW5JRmNCYU40WlNTOUhCYUxSWng0MGI5dFNWUUVUN3JDd2MwTDQyQlRTcU5Fa2xqQlY2ZlhvMFVxRVBFbTFRejFfaGMxR0JTVWpOYzh2ODczVUpJa0lZcmpwd1l6RjhXd3h0WWlDc0dNekw3SXk0YzQ?oc=5"
+        },
+        {
+          "src": "DailyNews.co.za",
+          "h": "MK Party tipped for eThekwini mayor as coalition talks near conclusion",
+          "d": "2026-11-24",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQY2RINmtvSEdjanJpRjhWdWFBRTlOZDQ5cmVSazR6cVVxalQ2UHM0dGtRRzU1UUFUZzRqTGl0eFFhWndFMmNUTW5ZOEtkU3A0TDJJWXhvZjJpd2Jwc3lwSEVFeVVEZ1E4LTRWUzlUWDI1VFpqeTNSLVNUdjFKLWNlZnBodzJoTU5HbnJhdkdzbUFvZGpidmlwaHhFbmtYa0c5T200TENFcFo1ZmhUcUd4c2dWblFqVUZh?oc=5"
         }
       ],
       "sec": [
@@ -4510,11 +4560,12 @@
       "cat": "Beyond the metros",
       "place": "KwaZulu-Natal",
       "h": "MK’s Nomathamsanqa Mthembu becomes uMhlathuze mayor as the ANC, DA and IFP take KwaDukuza",
-      "dek": "IOL, News24 and SABC News report the MK Party’s Nomathamsanqa Mthembu has been elected uMhlathuze mayor, with News24 saying an ANC-MK pact sidelined the IFP and DA. In KwaDukuza, The Citizen reports a last-minute deal has put the ANC, DA and IFP in control, and Central News South Africa reports the ANC and MK have taken uPhongolo.",
+      "dek": "IOL, News24 and SABC News report the MK Party’s Nomathamsanqa Mthembu has been elected uMhlathuze mayor, with News24 saying an ANC-MK pact sidelined the IFP and DA. In KwaDukuza, The Citizen reports a last-minute deal has put the ANC, DA and IFP in control, and The National reports the KwaZulu-Natal deals have exposed divisions in the ANC.",
       "brief": [
         "IOL, News24 and SABC News report the MK Party’s Nomathamsanqa Mthembu was elected uMhlathuze mayor; News24 says the ANC-MK pact sidelined the IFP and DA, and EWN earlier reported the coalition ousted the IFP.",
         "Central News South Africa reports the ANC and MK Party formed a coalition to take control of uPhongolo Municipality.",
         "The Citizen reports a last-minute coalition deal saw the ANC, DA and IFP take control of KwaDukuza, and The Witness reports the ANC and DA partnered to keep the MK Party out of government there.",
+        "The National reports coalition deals are reshaping municipal power in KwaZulu-Natal and exposing divisions in the ANC.",
         "IOL reports DA leadership will attend the uMngeni inauguration, which it describes as one of only 10 outright wins in KwaZulu-Natal."
       ],
       "auto": true,
@@ -4576,6 +4627,12 @@
           "h": "DA leadership to attend uMngeni inauguration as one of only 10 outright wins in KZN",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVXQ4aWJoMkNXbWYtY18tZlBENDJqbWhuX2tRNTdBRkU3WllPcWVHc2NjVUZMUVVrWVhMZXVaTVdWSng4b1l0SzBNOE5XUExkVm5pX2pTcGx4dUQ5dDlOU1lBaWkxelpoUEJDQ3hDb0ZFcXZ4US1iVTZyb0VzYnpXdHV1dVM5RVM1ZGtLbGRPY3RWLXVEdmFLWXJ5YmFFS2MtaVFJdXc1YWQ2QnpVOUxub1BRUDBRZHRnUnJ3WFBwNDJBWmxFWlE?oc=5"
+        },
+        {
+          "src": "thenational.co.za",
+          "h": "ANC divisions exposed as KZN coalition deals reshape municipal power",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPX25aUEZLaFBnYWtwUUdkS0ZBanVsSGlwR0xlQ3h4bl9FWkI4YWM4Z2ZwSkJiWU9zYTZtVUZ2emFaSUdrRmFSSVkyNDZmTXdNTjF3ZE1FbUozX25OcGtyeU1EQWpTeTVmT2NPYXZOcm5XT0c5MG90N3NuMEJIR3JnSk9wc3lfczA3eHNTWjlxcHZtM2NESDk0d3V3T243M0VYQ2xvMm1nOVVOWDR5aG96dw?oc=5"
         }
       ],
       "sec": [
@@ -5362,6 +5419,13 @@
     "e5f0309d5231",
     "045016b18300",
     "ae824410e7bf",
-    "9bf0607d1845"
+    "9bf0607d1845",
+    "a33b0fe06a75",
+    "09f565043d3d",
+    "7cd4112022c7",
+    "4aa42885de40",
+    "bcf6dda5ed2c",
+    "8e6944662e85",
+    "24f3d5c7b8b2"
   ]
 }
