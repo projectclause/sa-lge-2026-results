@@ -84,6 +84,7 @@
       { key: "m-CPT-dep", html: mayor("CPT", "Xanthea Limberg", "assets/mayors/cape-town/xanthea-limberg.jpg", "DA", () => "DA · succeeds Eddie Andrews", "Elected Deputy Mayor of Cape Town") },
       { key: "m-TSH-dep", html: mayor("TSH", "Omphile Maotwe", "assets/faces/circ/maotwe.png", "EFF", () => "EFF · elected unopposed", "Elected Deputy Mayor of Tshwane") },
       { key: "m-ETH", html: mayor("ETH", "Mxolisi Phakathi", "assets/faces/circ/phakathi.png", "MK", () => "MK · with ANC and ActionSA", "Elected Mayor of eThekwini") },
+      { key: "m-JHB-dep", html: mayor("JHB", "Thapelo Radebe", "assets/faces/circ/thapelo-radebe.png", "ANC", () => "ANC · names under discussion", "Expected deputy mayor") },
       { key: "m-JHB-spk", html: mayor("JHB", "Adolph Marema", "assets/faces/circ/adolph-marema.png", "ANC", () => "ANC · beat the DA’s Alex Christians", "Elected Speaker of Johannesburg") },
       { key: "m-CPT-spk", html: mayor("CPT", "Felicity Purchase", "assets/faces/circ/felicity-purchase.png", "DA", () => "DA · DA majority council", "Re-elected Speaker of Cape Town") },
       { key: "m-TSH-spk", html: mayor("TSH", "Naeem Patel", "assets/faces/circ/naeem-patel.png", "ANC", () => "ANC · 119 votes", "Elected Speaker of Tshwane") },
