@@ -568,6 +568,15 @@
       "org": "SOWETAN",
       "beat": "reporting"
     },
+    "paton": {
+      "n": "Carol Paton",
+      "o": "News24",
+      "img": "assets/journalists/carol-paton.jpg",
+      "role": "Journalist, News24",
+      "group": "voice",
+      "org": "N24",
+      "beat": "reporting"
+    },
     "macg": {
       "n": "MacGyver “MacG” Mukwevho",
       "logo": "podcastandchill",
@@ -4340,6 +4349,17 @@
       "s": "Moloi set out five things to watch at the new Tshwane council’s first sitting, where ActionSA’s Nasiphi Moya was expected to be re-elected mayor.",
       "src": "Sowetan",
       "url": "https://www.sowetan.co.za/news/2026-11-26-quick-take-five-things-on-new-tshwane-council-sitting/"
+    },
+    {
+      "id": "cp-da-final-offer",
+      "j": "paton",
+      "d": "2026-11-21",
+      "kind": "Article",
+      "place": "Gauteng metros",
+      "h": "DA makes ‘full and final’ offer to ActionSA to share Gauteng metros",
+      "s": "With Tankiso Makhetha, Paton reported on the DA’s full and final offer to ActionSA to share power in Gauteng’s three metros.",
+      "src": "News24",
+      "url": "https://www.news24.com/southafrica/news/da-makes-full-and-final-offer-to-actionsa-to-share-gauteng-metros-20261121-1048"
     }
   ],
   "edition": {
@@ -4885,7 +4905,8 @@
         "zl-anc",
         "gm-brink",
         "od-da25",
-        "dc-facade"
+        "dc-facade",
+        "cp-da-final-offer"
       ],
       "voices": {
         "geordin": "Proposed that the ANC lead 93 hung councils, the DA 24 and the IFP 20, and told 702 the deal’s power is its simplicity.",
