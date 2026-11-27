@@ -1310,7 +1310,22 @@ body.has-ask { padding-bottom: 96px; }
 /* Mayors page: deputy mayor handover card, above the council and mayor */
 .my-dep { border: 1px solid #e3e7ee; border-left: 4px solid #121212; padding: 14px 18px; margin: 0 0 14px; }
 .my-dep-row { display: flex; align-items: center; gap: 14px; margin-top: 10px; flex-wrap: wrap; }
-.my-dep-old { display: grid; color: var(--muted); } .my-dep-old b { font-size: 16px; color: var(--ink2); text-decoration: line-through; text-decoration-thickness: 1px; } .my-dep-old span { font-size: 12.5px; }
+.my-dep-old { display: grid; color: var(--muted); } .my-dep-old b { position: relative; justify-self: start; font-size: 16px; color: var(--ink2); } .my-dep-old b::after { content: ""; position: absolute; left: 0; top: 52%; height: 1.5px; width: 100%; background: currentColor; } .my-dep-old.same b::after { display: none; } .my-dep-old span { font-size: 12.5px; }
 .my-dep-arw { font-size: 22px; color: var(--muted2); }
 .my-dep-new { display: flex; align-items: center; gap: 12px; } .my-dep-new > span { display: grid; gap: 2px; } .my-dep-new .my-ph { object-fit: cover; } .my-dep-new .my-name { margin: 0; font-size: 28px; }
 @media (max-width: 720px) { .my-dep-new .my-name { font-size: 24px; } .my-dep-new .my-ph { width: 60px; height: 60px; } }
+/* handover cards: a short animation each time a city opens (old name is struck through, the arrow moves, the new person arrives) */
+@media (prefers-reduced-motion: no-preference) {
+  .my-dep { animation: dep-in .45s ease-out both; }
+  .my-dep-old b::after { transform-origin: left; animation: dep-strike .5s .35s ease-in-out both; }
+  .my-dep-arw { animation: dep-arw .5s .6s ease-out both; }
+  .my-dep-new { animation: dep-new .55s .85s cubic-bezier(.2,.8,.2,1.2) both; }
+  .my-dep-new .my-ph { animation: dep-ph .7s .85s ease-out both; }
+  .my-dep .my-how { animation: dep-fade .5s 1.2s ease-out both; }
+}
+@keyframes dep-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@keyframes dep-strike { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes dep-arw { from { opacity: 0; transform: translateX(-12px); } to { opacity: 1; transform: none; } }
+@keyframes dep-new { from { opacity: 0; transform: translateX(-14px) scale(.96); } to { opacity: 1; transform: none; } }
+@keyframes dep-ph { 0% { box-shadow: 0 0 0 0 rgba(242,196,15,.9); } 100% { box-shadow: 0 0 0 10px rgba(242,196,15,0); } }
+@keyframes dep-fade { from { opacity: 0; } to { opacity: 1; } }
