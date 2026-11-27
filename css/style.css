@@ -1406,3 +1406,11 @@ html.shp-on { overflow: hidden; }
   .page-tabs a.tab-eye img { width: 15px; height: 15px; }
 }
 .page-tabs a.tab-eye { display: inline-flex; align-items: center; gap: 6px; }
+
+/* Coalitions Tracker, desktop: South Africa | International centred, both tabs the same width, a thin divider in the middle */
+@media (min-width: 721px) {
+  .pl-scope { position: relative; justify-content: center; }
+  .pl-scope a, .pl-scope a:first-child { flex: 0 0 220px; padding: 10px 14px 11px; text-align: center; }
+  .pl-scope a[aria-current]::after, .pl-scope a:first-child[aria-current]::after { left: 0; right: 0; }
+  .pl-scope::before { content: ""; position: absolute; left: 50%; top: 12px; bottom: 13px; width: 1px; background: var(--rule2); }
+}
