@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-27",
-    "time": "21:04"
+    "time": "21:44"
   },
   "items": [
     {
@@ -2798,6 +2798,36 @@
         "h": "Haircare tycoon Herman Mashaba named Johannesburg mayor",
         "d": "2026-11-27",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORGxHWnhXdVZrLUFyX3htaV8yLTdkME1HRklsSkFHWnBKTEV6cnBGRjF1RXYzd1UzREFFYnFIenE1VnlGWG4tM2pINE5hVTdDMlU1MHZFSDBraDJjWkRZSDNrZWhmTGlpeGZUR1VNM0lDOWp3N3VDNnlQakdzOF9oV0lqRU8?oc=5"
+      },
+      {
+        "src": "WTVB",
+        "h": "Johannesburg picks Mashaba as mayor in ANC-backed deal",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQXVsZGVaeXZ5VndqZFJRYkFuM084b2VpdkFpVDV3VGxpT2oweU9rQVdTWDVLSjA1MmtNRzZIUjBlYjM3Z3Q2a2UyMGVNcDRzWWNqSFI4TXVzck1jQ1FydmZmRHpyaFFNWHZxbEpaSm5hZDBrczF2bmcxU1YzaVNKOVpmVm41YjBQUWpIVVdn?oc=5"
+      },
+      {
+        "src": "Traders Union",
+        "h": "Johannesburg coalition installs Herman Mashaba as mayor amid budget and policy risks",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONWdRQTlCWVkxYXVoMk9vNC0zWWFJbGozbjdTN1l2RVhtR25OaEJBajkwU21tdHB5VTgxSDU1aldobFA3S3pxZlpGREtaQklZWmNzU1pnSHlMVkRBYnk3Y3F1VndLaHBnRThIZHJvRzJFbEZUUmVpNnZBWFN5ekZ6clZ1TEF5WlBMRTNPQXFOOFo5VlBhZzBEMm1fSE53Ukk?oc=5"
+      },
+      {
+        "src": "NOWinSA",
+        "h": "Herman Mashaba crushes Zille 170–97 in dramatic Joburg Mayor comeback | Politics",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdTFjczRnbndMMU9OeGZjOFV1SmNPMVRsYm5LWlBDa2s4cVI4TGN0ekkyVVRKbUxPSnBNbEF3dHo2Y0NEYlBkdElCbkxQc3pKNHFfUERNcXFLZHBWVFhVOUZETV9HV0JPWkFRSjNmUk84OW9kemF3dGtJd05qSGRGbDFqc2M?oc=5"
+      },
+      {
+        "src": "IOL",
+        "h": "ANC’s Thapelo Radebe elected Johannesburg deputy mayor",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMU5LYnhQVjZXSUxUcmVMMzEwcy1VVGctZHQ0dnpvdkpBTmxXajFJdWMzQXJsZVJCQkE0SmlxSEg5elAxcGpuOF9fYk14ZGx1a3ZyMTFhYkdwTUtqLVBWd2o1b3pxamM4Y2dPOGU0U1FPaURHeHhObmRLcFZJdHFxc0RNS1JxbklaQTVPTG0zZlZVUTlWLWxlQk9CdXRUdw?oc=5"
+      },
+      {
+        "src": "Johannesburg Sunday World",
+        "h": "18-party coalition ushers Mashaba into power in Joburg",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOalZhRlc3MWxBQjZncTZkclVNclp4RjljVzU4RXhIMk9obnNvRHFGLUxsc0tfWWhjRDV5WU1QaThmVV9HU2dXcUFYZnY5bXlMeUwzYlhtSllNZ3ZWRU56NlBUM1dUTlZmNGR3aVI2WmNnOXlvbVNoeWZDZHRiODN3dmdPN2pPZUZfakJhc1pONGg2dFU4?oc=5"
       }
     ],
     "councils": [
@@ -5455,6 +5485,12 @@
           "h": "ANC’s Mziyanda Mketsu elected Ekurhuleni mayor",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRjNxdExLdUUwNDByX0gxaVAtY185WE5EVmRTQUVuVVBFMDY0LTkwd2Y2WmxEbXdUSHhacG8weVF5clJrRVRHUXpEUUl6akREaEp5eDZ0Yzhfd0dFcnQ0THd1cFBaLVJ2Vmc3dHRidTRVYXBndUpJbjl4cjhVa2E3T0Z0V1IwTE9xczZMZ3dtWDVpbVA3VC0zNXF3aUIyTVU?oc=5"
+        },
+        {
+          "src": "Sunday Independent",
+          "h": "ANC’s Mziyanda Mketsu elected Ekurhuleni mayor",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSWIxODdSOHRTM0p6QXZzT18xMmc3UXVpSHk5VlUyVU9BYWlOdlh4X2hDUTVpbXpiMlM2OE5pbjRhNzFnTTA4V3UtVmxpaUZUcE1Wa0hrbjU5eG03QmF2UUoyQjF4Nzd3ZU8yQ0ExbGo5UUtlLXg2VWVqc1A0c19BT3pvdXRONlNXczY4Um5uem1pODRjbmpVaHRn?oc=5"
         }
       ],
       "sec": [
@@ -5706,11 +5742,11 @@
       "cat": "ANC",
       "place": "National",
       "h": "The ANC leaves coalition choices to its provinces and regions",
-      "dek": "EWN and Dan Corder report the ANC’s NEC has let provinces and regions decide coalitions, affecting over 100 hung councils, and SABC News and IOL report the NEC resolved that DA coalitions should be a last resort. The Citizen reports Fikile Mbalula said 'the ANC did not win this election' as the party sealed coalition agreements.",
+      "dek": "EWN and Dan Corder report the ANC’s NEC has let provinces and regions decide coalitions, affecting over 100 hung councils, and SABC News and IOL report the NEC resolved that DA coalitions should be a last resort. Polity.org.za reports the ANC has unveiled a coalition co-operation accord to stabilise 139 hung councils, and The Citizen reports Fikile Mbalula said 'the ANC did not win this election' as the party sealed coalition agreements.",
       "brief": [
         "EWN asks whether the ANC has given provinces and regions the final say; Dan Corder says the NEC let regional bodies choose, affecting well over 100 hung councils, and SABC News and IOL report the NEC resolved that the DA should be a 'last resort'.",
         "The Citizen reports Mbalula said 'the ANC did not win this election' as the party sealed coalition agreements, after IOL and The Common Sense reported the ANC pushed his coalition briefing to Friday.",
-        "Newsnote reports the ANC asserting there is consensus as talks near conclusion; Business Day reports the ANC is seeking a foothold in hung councils, and EWN quotes an analyst warning of a 'death spiral'.",
+        "Polity.org.za reports the ANC has unveiled a coalition co-operation accord to stabilise 139 hung councils; Newsnote reported the ANC asserting consensus as talks neared conclusion, and EWN quotes an analyst warning of a 'death spiral'.",
         "IOL reports Mkhize warned the ANC against a DA coalition in a 2024 letter, and that the SACP drew a line over coalition support; The Common Sense reports the SACP called a Sol Plaatje deal with the DA a “betrayal”.",
         "TimesLIVE and Business Day report Ramaphosa says he is 'not resigning' after the election setback, IOL reports tensions over Ramaphosa and working with the DA, and SABC News reports Malatji saying the ANC’s decline goes beyond its current leadership."
       ],
@@ -5989,6 +6025,12 @@
           "h": "Five things to know about ANC’s coalition talks progress",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYjhSQnU4Rk91TGkwMTVILTltWndGbFlrZkZxR2ZOY0xYMUE4RHlxdm1RMEtYQ0xDRnNrLUNId2M1OEdzNEdVNU5hOGlNYnF3RVdwT2xvSVJBUWxWT0VudG5LUTRWSW81ejEtV2NNa1pzc2VpY0ZscVRQTTRCYkpqVlRpV2U2WndwMFNGRThpYkNfSGpqSi1BTjVTOW9oVGg3dXhRQg?oc=5"
+        },
+        {
+          "src": "Polity.org.za",
+          "h": "ANC unveils coalition co-operation accord to stabilise 139 hung councils",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeXFJdGtjd0p6Wk5GeHZiRVRQdTFFVHdWWnE0b0I3ZjNVWThjbmNXTEV5clc3MnpIbDR5OGt3Q2JfOHNWUUg3OFFrendORzZfa1hwQkwzaVZZTkNqa3pSR2szRW5idG1PTloyUzljS1NXWW9PeFNzRDFMNHh1VHltYUp1dDAxeUROZXQ1UndVUF9CTlI3YTl3VGhMbDExZ3M3bHJETTl5bm4wTVh6TGkyQlpIakg0M0Uw?oc=5"
         }
       ],
       "sec": [
@@ -6093,10 +6135,10 @@
       "cat": "Cape Town",
       "place": "Cape Town",
       "h": "Geordin Hill-Lewis is re-elected Cape Town mayor and names his mayoral committee",
-      "dek": "IOL reports Geordin Hill-Lewis has been re-elected mayor of Cape Town, pledging jobs and stronger policing. The City of Cape Town, The Bulrushes and EWN report he has announced a new mayoral committee, and ActionSA says it will hold the new members accountable.",
+      "dek": "IOL reports Geordin Hill-Lewis has been re-elected mayor of Cape Town, pledging jobs and stronger policing. The City of Cape Town, The Bulrushes, EWN and SABC News report he has announced a new 11-person mayoral committee, and ActionSA says it will hold the new members accountable.",
       "brief": [
         "IOL reports Geordin Hill-Lewis was re-elected Cape Town mayor and pledged jobs and stronger policing.",
-        "The City of Cape Town, The Bulrushes and EWN report Hill-Lewis has announced his new mayoral committee.",
+        "The City of Cape Town, The Bulrushes, EWN and SABC News report Hill-Lewis has announced his new mayoral committee; SABC News says it has 11 members.",
         "ActionSA says it will hold Cape Town’s newly appointed mayoral committee members accountable for delivering on their mandates.",
         "IOL reports Helen Zille defended the DA's privatisation plans, citing Cape Town as an example.",
         "Sunday World reports suburban voters secured the DA's election victory in Cape Town."
@@ -6151,6 +6193,12 @@
           "h": "Cape Town mayor reshuffles mayoral committee, brings in new faces for second term",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTENJaTBHcXo1VUhZQ3pncmVJMnhkQUN0cDZjYlc5d3Rkd3k0ZHRTVHVTMVBTUHhHbjZHM1JLNHFjT0Zoazdrb1dkVDlmblVxYkI3c0JwUXFZaVFoUXNCWlpKWGZWckZreTc2ZVNiLUl5bEdNZlkyN1Q2SWw1TnZsT0ZWeUtUZ25XV0dsZ1NjNHIyYUZqbnRYZ3dUMS0zdm12SzlZOHRDbTNTcXA0V3FwcmlmLXNGY1dHSnFYSDI2VEc5Q2R5a2U0VFhhdkFlRkE?oc=5"
+        },
+        {
+          "src": "SABC News",
+          "h": "Mayor Hill-Lewis announces 11-person Mayco for Cape Town",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB2WXQzbFFOdVh5c0I1N2dUWEhrV01ORmFCbmtNODZuNzNQcTAtWXItUTVPa25wbm52NklBZ2VIZHhGZi1LLUVPempUbm5fTlpoVWpoSmMzRQ?oc=5"
         }
       ],
       "sec": [
@@ -6339,6 +6387,12 @@
           "h": "MK Party legislators quit to take seats in KwaZulu-Natal councils",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWkQwT0JwYmlDdEhiUGVCQ2JJbDBxNTg0cGFpOTBlTU4yYjVrRERtM2xhVlhqbGk3UHlwaXNyekVma1ptN0g4bmJZXy1xeTdtdVRoYVZKdF9lUmlJYU52b05LNkxPY3NzSEpVaTZGczhseWRkTklqUEFaVDVSdEtZcDY2dkJpVDlTTG1RSW11LVBkc2c?oc=5"
+        },
+        {
+          "src": "SABC News",
+          "h": "MKP’s Marvin Dirks elected Msunduzi mayor",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbHlZMC1uOGpuVlFuSHdsRFJHV1JUMFd2ZndLSEFFMzhpXzhURUpEYW1aZTZ6U3RVanhna2xGWEdUSXI4dlNVd0V1Vm1YU3VEMjZFcVNjWW9ZeDVPR3NoWXVhQkswN2k0aXMzbFVVNi1JUnlKSzZDVy12ZEF6MXlYdQ?oc=5"
         }
       ],
       "sec": [
@@ -7406,6 +7460,16 @@
     "b79cf97e61b4",
     "fa5735177e48",
     "7b4094fc3c1e",
-    "37e335e29775"
+    "37e335e29775",
+    "ee9a09d63635",
+    "bceb33b18066",
+    "b668d286a3cb",
+    "53d666d27290",
+    "85102d94c99f",
+    "e7c695aaee84",
+    "c76627809901",
+    "62c02867f0e7",
+    "db11726da2b1",
+    "48dca982eeaf"
   ]
 }

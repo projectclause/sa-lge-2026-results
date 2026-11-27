@@ -1,7 +1,13 @@
 {
-  "updated": "2026-11-27T21:05:53+02:00",
+  "updated": "2026-11-27T21:46:16+02:00",
   "people": {
     "elon-musk": [
+      {
+        "h": "Is Elon Musk really a Hollywood villain?",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBzLUEzNVhZSk85YlJjZlJpakh1NU5YOUFQaXJ3aHpFd2NFeXBhWHRzNVQwYTJTTlowdTVRR2RDbExBZnhCcmNacC1uT1dVZV91Ukk0TWJxWXYxQmhGNzFHYkVCcXlpRkIyeV80N1pjT0lwX1RTVzNPYjFB?oc=5",
+        "src": "The Spectator",
+        "t": "2026-11-27T21:15:25+02:00"
+      },
       {
         "h": "Elon Musk is giving away nearly $18 billion in SpaceX stock. Here’s who can get it",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUzl0ZkkwR2o3WHFrQXp5MkRZV3YyNUZpMFNteEtVVzBZWHo3bnRvdENiX0RpVkotdVlwdzNpSWNabnNMeDFfR1BYckZTVmlvdGVtMXNlTFNid0lMMl9VZF9nZUZSYzh1WFk5TFBfOE0zSDRzZGVJaTdpRWF6RnFWenRuLW5EU3oxSFFFSm9wSy1ITjJ1bU9iQkxNWG9KVUNkUFNCV0tPdUliYndIcVhBbTNjaDhISUU?oc=5",
@@ -9,16 +15,10 @@
         "t": "2026-11-27T20:12:56+02:00"
       },
       {
-        "h": "Elon Musk gets the greenlight from the US to launch one million satellites",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZkdVUlgzRGpiRWxEUHdIeTF5QzFuUjhuck5hTURfSEJCYUlTRHA3VVhfdF9zMkhid0oyaEYxcWdzdGgwQkNEWGhJZ0NzenVZNVVZTWs0MWRqQmFFSzkyMDFjUlhEQ1lKbTlfY0h4aGVrVV9lSzhwbWVfMmJjT0kxTGFZSkREdEM1ZWFlT2pudnFLWE9EQ3A3bHdmWDhxYXdVaWNfNVVwU2Zsb0k5a3I2MUhDdVJlV3hqNVZVdlc4ZHRrR3k20gHKAUFVX3lxTE53dkZKWkU4TGo2YTY1VW1PbE1xQkJTZGVaVzU1THQwQ2Y5TEtmMDFPOGFKY2xkTTBzQ2tZbDlQeFhIenFkYXpReGQ0anI1cld5bkZuZ19xVFpkMXd6T1hYSVJ5ckhYMFRNS2xGZExnUTJhSWpTUWljbVVxWHU3ZXd2NHJkSGEwRjFfZ2U0NGNlQmdudGJkazNJdjMwOUtvOVBzRWs4VDZBV2wzcm1zNkdKU3pCdmxmUVNyQXhsTE1EaFl6eDJJYlFvTWc?oc=5",
-        "src": "Al Jazeera",
-        "t": "2026-11-27T19:03:45+02:00"
-      },
-      {
-        "h": "Elon Musk’s SpaceX orbital data centers approved by FCC",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRmI1dS1ONHZ4bzlEVHpLSHdLYWpXdHRDamVHMGNkOG94NFl1VjZueTJyWXd4d1Z4bjIxRTZHbTRKYW1VN2lDVGJfZWN1U0g3TUtjdm0wcTAyVDJVUzExOXF1c3RybWtqZ0R3QmpWN2Npa2tMX2tKZlhCRjV4MHdWRXBISmt0TGl0X082UzdhMNIBlAFBVV95cUxOMm1vUThjX2N6Y1ExbHM5ZDk5QWpsNEtIU1kwakVUTDN2T0pBUnRfcUhCZlNScTZ5MjE4MWpHdmd3QXZuQlBFQ1JmZ2s4d0JUamRoQ3dQNFNwYWRfWDdtbml2Vmw2R2RESXR5T0UxdDdmX2UyVk5yMXctVVd0a2QwMWNuaFRxZzBsX2w5bjRZdUwxVWhZ?oc=5",
-        "src": "NewsNation",
-        "t": "2026-11-27T19:00:00+02:00"
+        "h": "World in Brief: the ECB picks its next president; Elon Musk promises American children SpaceX shares",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUnZITVdpcm5UM3NmMHFYckZ5U05TRDUzelRNQ2Y4cEZsaW41WWFUWndjX0pYS2lRc3FVYXVyTTE1SFJDT1hYMWo3QzAyazFMdmwxdnJKSk5xck5PREVFTzAtYlIzV3NyOUU0YTlQMG5WUWxqc3F1bWNzNWVBd1R4RXhXMGZSb05oQ3dQSVVwd0o4X2RaSzdJ?oc=5",
+        "src": "The Economist",
+        "t": "2026-11-27T20:11:01+02:00"
       }
     ],
     "trevor-noah": [
@@ -158,7 +158,7 @@
         "h": "David Sacks says somebody risked jail time to leak a classified memo about Jensen Huang's alleged affairs to The New York Times",
         "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQY0dzcm82LTRVVnVOMDMyc1ZfdXNZTDB3M1VVWWphamJUa09BMWNZXzdRY3VHbmNBemNKcENOY3JzclR2Q29aWUFkSHlRVkhWTmdEcTVwUmNMZEUzVE15bXlvTUpRMDNoNGRLS3ROekhjYXh1NGliaDJSWXdid3JfRkJQa2ZpSWE3eGNUbDRaUW1LWDFKUW95V2V2dE9PdDBWMF9sSTlJMWJodW4zRDY4WWZib0N0bTB6T1JsaDAzZG9CV1A0dG9FSkpXX2UyLXRkWjdqcFg1WWs2ODBESG4zUFlsXzF3WVVBVmxVa2Vhcw?oc=5",
         "src": "primetimer.com",
-        "t": "2026-11-14T11:38:00+02:00"
+        "t": "2026-11-14T10:00:00+02:00"
       }
     ],
     "paul-maritz": [
@@ -233,16 +233,16 @@
         "t": "2026-10-25T09:00:00+02:00"
       },
       {
-        "h": "NantWorks' Soon-Shiong puts chips behind manufacturing disruptors in new rounds for Prolific Machines, Multiply Labs",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb185cmswR2dwOUowYUFwemExcWMtQlF6MDM5Z0pDakwtSmtnOUtBb2J5cjI5ZHhIaEdvT091VGZnczFZRTNFc0I3d1V4UEs1bmFFMTdiNHBGeHhBZXN4Z3ktbC1iRXM1NnJEWkZsS24yTnFaWHJ0MHo5dnFwODZxZWIzUHNBQ19NaWVvM2tFR01qNWIxVzZKSW01NXlmQzl4ZExGOUU1bzJkSHBCczNnQnMzdm1aX09ZTWpqdg?oc=5",
-        "src": "Fierce Pharma",
-        "t": "2026-10-14T09:00:00+02:00"
+        "h": "Billionaire Patrick Soon-Shiong wins wider FDA approval for bladder cancer drug",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSEdDUUVUSU9PN296clluY1F0NjI3Ykg3Wk8zR19iSVpTX19rQWRDM2ZuRjlfWG4tSFNIOWpjN1VJQWRTckdqNzZQVWtqVGZ5Q2xBTE51cmM1VHM5N0lNa1pHbHplT256TzFaVTdCVmZkZTYzUlpMbnhsZ1Q2RU5DWUFiMXRrQnhfcFNQVjRUZXpDSlp5RXdwNVJuZV9XUzk2a2I2MzFSVmpKY0tvbExuMGstSzkzNXhHbVJ0ZWJHWHc?oc=5",
+        "src": "Billionaires.Africa",
+        "t": "2026-10-16T09:00:00+02:00"
       }
     ],
     "chad-le-clos": [
       {
         "h": "Chad le Clos Chasing More Hardware at World Short Course Championships",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVUtFWlN6dzhwbTYyTm1Ua3hxUWR2ZFo5M2lIV05sZ2U2VFdOZUZRWUVMTXVsYVVQaVdBcm5qWEdOcFVsSHRzbGdZM0drZ2taNVlNVGMyc19PVkFEZHFjZF80NU9vUWlja1NUdHlEaE5nbnNHRGVWSDNra2JDZEFRSERpR2I4MUdfRXZIa3IyS2xjM1hoSXozd0hwUlVXbktFNXhqbzJmWXdieEdwaGRibGxybw?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSl9PdTJTcDFRSFBZbkQwODZpWXIwZVVPNVI3UExfUHRoUzZXOE1VLVVJOVVoYVVDUTdXTXdCMTZFdEtDYWVxWGVma0ZobHZBYnJ4SzYydk52LURVUjJYYXNSdVUzSWpRMjFnaTVIU0QtaFRLZ0N4cHk2RzF5Uk1kc2wxYTBaVzhUSjBJRnJXUjZkSFRHMFZUT3pWeTN5Q2pZUXV4WUx0YkhZWktaR29Tdm4zYko?oc=5",
         "src": "Swimming World",
         "t": "2026-11-27T19:56:00+02:00"
       },
@@ -552,17 +552,17 @@
         "t": "2026-11-12T10:00:00+02:00"
       },
       {
-        "h": "SU climate change expert to lead new Oppenheimer Research Chair",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRFgyQkZtYjR4eTBYejZMY0FZMEhkdFQtZFZaYm1fSzlheVF3eHc1YjZya05WTWkyNklKT0NkcnBFN09RcVRyalNiTFZmcHQwTGxhQkZ4R0lqYXdpZFpxUWFXSUYycVJvaXBZRXFzMUFvUmlFU2J3MU5WZ2hRTE1pQjI1R0dfU255cXNKcUktb0tZaktjbm8yS3lIVy1YV3ZxQlE?oc=5",
-        "src": "https://novanews.co.za/",
-        "t": "2026-11-11T10:00:00+02:00"
+        "h": "African billionaires Rupert, Oppenheimer and the Sawiris brothers see losses in luxury and gold mining assets wipe $300 million off their fortunes",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPSTUyMUdFYlpfX0ZIdjhHeFRJRVFod2F6SktrNVVEMlRkRVVWLWlHSjdWeDZCa0xlOG1QNjJsN0Rtcnk0NjlMZ1BNRVYxalFib0NpWGdyS3I3QmlQcVZST1ROWUtyMlFkQ1BLbF9RUGRCUnV4NUZTRFAxbVM5X2daaEJjSXI1MlRwZ1U2SFFNb3o5dFZZMnZXd0RWeXJiSlRQMkZxVmtIdjdScVdVQmtPYjZ4OS1sUU9hUVk4dUEyUWU4N2cyM3NSOWczdTNCN1RYcS1fS0dVQXRQQQ?oc=5",
+        "src": "Business Insider Africa",
+        "t": "2026-11-04T10:00:00+02:00"
       }
     ]
   },
   "week": {
-    "elon-musk": 90,
+    "elon-musk": 93,
     "trevor-noah": 1,
-    "peter-thiel": 39,
+    "peter-thiel": 37,
     "thuso-mbedu": 1,
     "tyla": 4,
     "roelof-botha": 2,
@@ -587,7 +587,7 @@
     "troye-sivan": 2,
     "cariba-heine": 2,
     "dean-geyer": 0,
-    "marnus-labuschagne": 10,
+    "marnus-labuschagne": 11,
     "maxine-fassberg": 0,
     "brian-joffe": 0,
     "morris-kahn": 0,
