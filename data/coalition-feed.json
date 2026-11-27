@@ -595,6 +595,15 @@
       "org": "N24",
       "beat": "reporting"
     },
+    "gerber": {
+      "n": "Jan Gerber",
+      "o": "News24",
+      "img": "assets/journalists/jan-gerber.jpg",
+      "role": "Parliamentary journalist, News24",
+      "group": "voice",
+      "org": "N24",
+      "beat": "reporting"
+    },
     "macg": {
       "n": "MacGyver “MacG” Mukwevho",
       "logo": "podcastandchill",
@@ -4392,6 +4401,17 @@
       "s": "With Pieter du Toit, Masungwini reported that the ANC said it was ready to sit in opposition, while ActionSA demanded Helen Zille step aside as the DA’s Johannesburg candidate.",
       "src": "News24",
       "url": "https://www.news24.com/politics/coalition-drama-anc-ready-for-opposition-actionsa-wants-zille-out-20261107-1142"
+    },
+    {
+      "id": "jg-ipsos-metros",
+      "j": "gerber",
+      "d": "2026-10-30",
+      "kind": "Article",
+      "place": "Metros",
+      "h": "Ipsos poll predicts coalitions for most of SA’s metros",
+      "s": "Before the vote, Gerber reported an Ipsos poll predicting that no party would win an outright majority in most of South Africa’s metros, pointing to coalition governments.",
+      "src": "News24",
+      "url": "https://www.news24.com/politics/ipsos-poll-predicts-coalitions-for-most-of-sas-metros-20261030-1075"
     }
   ],
   "edition": {
@@ -5964,7 +5984,8 @@
         "wj-begins",
         "ks-soundbites",
         "tj-sizwe",
-        "mj-zunami"
+        "mj-zunami",
+        "jg-ipsos-metros"
       ],
       "voices": {
         "pieter": "Saw the ANC’s decline speeding up, with the party on the brink of second, third or fourth place in seven of the eight metros.",
