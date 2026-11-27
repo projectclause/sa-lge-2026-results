@@ -13,6 +13,7 @@ Data: Independent Electoral Commission (IEC). Summaries are written by Preamble 
 - [Ward map](https://preamble.co.za/map.html): results for every ward, searchable by address
 - [News Tracker (beta)](https://preamble.co.za/news-tracker.html): an animated map of how the coalition stories spread across outlets and voices, day by day
 - [SAFFA (beta)](https://preamble.co.za/saffa.html): a globe of where South Africans live abroad and of South Africa's embassies, high commissions and consulates
+- [Editorial standards](https://preamble.co.za/editorial-standards.html): how Preamble reports, corrects mistakes and uses automation
 
 ## Coalition stories (newest first)
 
