@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-27",
-    "time": "21:44"
+    "time": "22:05"
   },
   "items": [
     {
@@ -2828,6 +2828,12 @@
         "h": "18-party coalition ushers Mashaba into power in Joburg",
         "d": "2026-11-27",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOalZhRlc3MWxBQjZncTZkclVNclp4RjljVzU4RXhIMk9obnNvRHFGLUxsc0tfWWhjRDV5WU1QaThmVV9HU2dXcUFYZnY5bXlMeUwzYlhtSllNZ3ZWRU56NlBUM1dUTlZmNGR3aVI2WmNnOXlvbVNoeWZDZHRiODN3dmdPN2pPZUZfakJhc1pONGg2dFU4?oc=5"
+      },
+      {
+        "src": "Fullview",
+        "h": "Mashaba defeats Helen Zille to be elected mayor of Johannesburg.",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQT1hBRkxWSERLQmNTbWc2cTFyNG5weFZBT0U2dHlOLTVGNVZpYTJkeDUtN3ltRVI2eXFMTENFWmxqSURMajRRTkhBQ3pmQ040c09odTRjU3hkN3llb0ZhT2ZBSzhpT040NnlTcWdqSVkwbUFYZnpYN1NFZDh2Rk9qMFdlcU1NTWhRblRTVkY3MlI3VlY3THNxQkp5R09iRkU?oc=5"
       }
     ],
     "councils": [
@@ -4606,6 +4612,12 @@
           "h": "DA condemns ANC-ActionSA deal after giving eThekwini leadership to MK Party",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVGlVblBsYnFsUFJHQVgzUnJKNU1iUy1GNUVIZzgzaEZhTTc2RVdNRU11aW1PV0RIZUxmNmtaRXBLcUxSWFpDTEM5dkZRQWMxaUE4RU54UEJ0eG9BakVGMWFjRllkeGt6WUNRSm5PeTFadS1VM3R2dVQzcW94R25STFR2UXc0TlVJUnJnTVg3SDZhcGtPVkJrbjQtR24zMndYMkFtTW5GQS15ZGE5dWg4M0FGdlZUNWxiS2h3?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "ANC’s Thabani Nyawose retains eThekwini Speaker position",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM0RwZnFmNFpSSUNWT0MzMHpZbU9TM2RUalhWRXhIU0ZwTnk4M05yOTVPQndHZWpxa2p2M1BLbm41QWVHY2VQNXl5d0hRZXdROFRZdGtMVnB0OFFNWEp2SkFJc2FNY1FVcUd4VFhRclNOXzhaWHFfVi1lNDVOTVJPX1BJbG1yaUhEMUhpM25HbWtGWUd1Z1NFQzBkcE05M0xleUE?oc=5"
         }
       ],
       "sec": [
@@ -5150,6 +5162,12 @@
           "h": "High Court gags Zille over Malema comments",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5IR0dqQW5wSW5aTmNHMTBKX2Rqc293ZjBaTzRSQk9lTl9HMjY1dldUNWlYQ0tEa0xqTlJLVGlKT01jOVFVMkVVcEhlZzFjN05wOWNPd1ZjaWJLYlJfVlowSGQySkpFUk5BWTJFbnAtTS11ckRMdDFn?oc=5"
+        },
+        {
+          "src": "Daily Sun",
+          "h": "Malema scores major victory against Zille!",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWERDeTFCVzQtS3JNWTVMbGFraW9MTDdVSmVpdTlFcmpkaWFGbUsxS1JhS1VIVmFfeDFBcmRhY2pWNXFkVXlIa3dfMmt4Y1pzelR1TVRWN2Vic0tRRTM3N3I0QzRlMnpCRUNwRnVUWXpNYmxXNjk1RG1vQ2ZDa1JhZFgzQWU?oc=5"
         }
       ],
       "sec": [
@@ -5491,6 +5509,12 @@
           "h": "ANC’s Mziyanda Mketsu elected Ekurhuleni mayor",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSWIxODdSOHRTM0p6QXZzT18xMmc3UXVpSHk5VlUyVU9BYWlOdlh4X2hDUTVpbXpiMlM2OE5pbjRhNzFnTTA4V3UtVmxpaUZUcE1Wa0hrbjU5eG03QmF2UUoyQjF4Nzd3ZU8yQ0ExbGo5UUtlLXg2VWVqc1A0c19BT3pvdXRONlNXczY4Um5uem1pODRjbmpVaHRn?oc=5"
+        },
+        {
+          "src": "Sunday Independent",
+          "h": "EFF’s Nthabiseng Tshivhenga re-elected Ekurhuleni council speaker with 142 votes",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOLWRTS3o1bG1ORl9oT3hCNlk4MHJOcEU2bUptUmp4WE9jX29JVjVCUU4yQkdpUDBiVzRqRUxqT2xsYnFHZ1NERW1UczhJV3NHeXRLamp3WWRyR1JZTVBYSkU2WE1Pb2lxVVNMQ1F3TS1jMU53YkYybDlEc1VwZy1sY2xZSy04TG10MEVBck4tLTJDVk1UOUxKYWR0TVRGTHlPbGRMYjdHYjl4eFoyMC04elhUUk1JNXlFaHZreTN0ZTlEaTk5eHpB?oc=5"
         }
       ],
       "sec": [
@@ -7470,6 +7494,13 @@
     "c76627809901",
     "62c02867f0e7",
     "db11726da2b1",
-    "48dca982eeaf"
+    "48dca982eeaf",
+    "d095e5bf3ccd",
+    "8d00a76afa31",
+    "8be10645992b",
+    "c098f5497688",
+    "af6eaf646674",
+    "d125c6f78749",
+    "100c84d4e785"
   ]
 }
