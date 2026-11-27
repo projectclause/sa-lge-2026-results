@@ -21,6 +21,8 @@
   // handover cards at the top of a city, newest change first: a new deputy mayor (previous -> new), or a mayor returned
   // by the new council. "old" is the left side, "oldSub" its caption; "lab" is the card's label.
   const DEP = {
+    NMA: { lab: "Expected deputy mayor", n: "Lance Grootboom", p: "ACDP", img: "assets/faces/grootboom-acdp.png",
+      how: "The ACDP’s Lance Grootboom is expected to become Deputy Mayor of Nelson Mandela Bay under the DA-led coalition, once the council completes its vote." },
     EKU: { lab: "Deputy mayor", n: "Xolani Khumalo", star: true, p: "ASA", img: "assets/faces/circ/khumalo.png",
       how: "ActionSA leader Herman Mashaba has confirmed Xolani Khumalo as the party’s choice for Deputy Mayor of Ekurhuleni under its coalition deal, IOL reports.", foot: "* Position to be made in Johannesburg" },
     ETH: { lab: "Speaker elected", n: "Thabani Nyawose", p: "ANC", img: "assets/mayors/ethekwini/thabani-nyawose.jpg", prev: "Thabani Nyawose", prevSub: "Speaker in the previous council",
@@ -175,7 +177,7 @@ function render() {
           ${now}
         </div>
         ${DEP[C.code] ? `<div class="my-dep">
-          <p class="my-lab">${CHECK}${DEP[C.code].lab || "New deputy mayor"}</p>
+          <p class="my-lab">${/^Expected/.test(DEP[C.code].lab || "") ? "" : CHECK}${DEP[C.code].lab || "New deputy mayor"}</p>
           <div class="my-dep-row">${DEP[C.code].prev ? `<span class="my-dep-old${DEP[C.code].prev === DEP[C.code].n ? " same" : ""}"><b>${DEP[C.code].prev}</b><span>${DEP[C.code].prevSub || "Outgoing deputy mayor"}</span></span><span class="my-dep-arw" aria-hidden="true">→</span>` : ""}
             <span class="my-dep-new">${photo(DEP[C.code].img, DEP[C.code].n, DEP[C.code].p, "my-ph")}<span><b class="my-name">${DEP[C.code].n}${DEP[C.code].star ? "*" : ""}</b><span class="my-party"><i style="background:${col(DEP[C.code].p)}"></i>${PN[DEP[C.code].p] || DEP[C.code].p}</span></span></span></div>
           <p class="my-how">${DEP[C.code].how}</p>${DEP[C.code].foot ? `<p class="my-dep-foot">${DEP[C.code].foot}</p>` : ""}</div>` : ""}
