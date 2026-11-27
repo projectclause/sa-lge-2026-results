@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T21:05:07Z",
+  "updated": "2026-11-27T23:39:03Z",
   "today": {
     "day": 202,
     "live": {
@@ -9,10 +9,10 @@
       "d": "2026-11-27T16:56:38Z"
     },
     "stand": {
-      "src": "TimesLIVE",
-      "logo": "timeslive",
+      "src": "Business Day",
+      "logo": "businessday",
       "h": "‘Witness T’ back on the stand at Madlanga commission",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNamhrNGpJZ2RGY0k2cDBqY3lVOG83TTdjblZlaWN2ck5kdEdvQm1oWTB4YTRPdG1kNW9fSXdqTlFNVTlTVlJOaW45NjhWc09iMEF1Zy1ZUU01Q0FubWJ0T2VQd1hvY0tCYW5fd0h2a2dRd0YzMUZCdlVDR1QxSU5SMW5zZ1E0X2VnNFkxWVBsRDlFbVRsWDI2R3g1THBsX2Fyb2VYU0VMak43MVJsdWVJQUFTeU9Sbnp5NVc4?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUXNuUllmVE9mbzJ1eUVKUWt5ZlBkYUdZb3RYenQyeURWUHhNSDVwa08zVndLa0htZ1Y3RUFmYXM2dm9NTV9VUXM2UVlHd2NTYmtKT2YzX0t5ZE9xRmNrdlNCSWNnZ1NNMWVmUFpqMUo3RmIzMEE3d21JMkpoZzFlMTlQdzZQcV9KSVdaTktWWVlUWWtpZ1RjeGZfOVpEb1FtelFtVUNFTlF1UmpK?oc=5",
       "d": "2026-11-27T07:43:22Z"
     }
   },
@@ -60,38 +60,17 @@
       "d": "2026-11-27T11:17:00Z"
     },
     {
-      "src": "IOL",
-      "logo": "iol",
-      "h": "Ramaphosa was warned of national security threats days before Mkhwanazi's briefing | Madlanga Commission",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNN0xld0c0WjNVX2xKQjhUVkxTd25NU2dPQVhOQ0JFY1Rncnptdkc5OHZuU0NPSVBzZXZmbElmM0QwYWRXeUNSTDJQaGRrS0dqZ1VmeEloUVp2Ni1lV0tVclkwYWU5ZEZlSEVmcFdsei1sSnFYUEg3QkRtTEdFMEd1RDJjUEh0QW1QamduOFZlMGIxa3EtT1ZXV2tSMTFfMUtRRXI2QnU4RXdRalJleGtoSlhBRTV0WXVOREo4b0ZMRGVlOEFTZ3RVVDI1QjRvaDhDQ216TllybzVKa1NCblE?oc=5",
-      "d": "2026-11-27T10:23:35Z"
-    },
-    {
-      "src": "IOL",
-      "logo": "iol",
-      "h": "Matlala tells Madlanga Commission he paid Bheki Cele R500 000 in cash",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWFlQRnBWb3FRN0lCLVlkU0JpVG9MX2xRT2dmQ05mQkVHek5mQVBXLTdVZkhxaThVRUNxN1NFa3ZwTVFlR3NkVjUyNTg0Yl9ISUM3SU56NHhnaS00emhpOEtYVFRjdzNoR3UzTkRuRXQ4U2Y3TjVQUzJERkJzUDBEVlU4NG9wZ0hfdXhIdmJSdkFpVzN0U1p1SjJnMktVWno3MG93ZEo5MGVQa2dCdUhKRzlB?oc=5",
-      "d": "2026-11-27T09:55:27Z"
-    },
-    {
-      "src": "IOL",
-      "logo": "iol",
-      "h": "Matlala leaves Madlanga Commission with more questions than answers",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQMHJ6YlZGV0pfTWV1TFZCTUFLSHFpNGs4TmdRRmZlR3VqT1h0UzdVWm54YlV1Vi1zcXJGVnhTZGt3N19uSEVPbThLRW92ZEFSbkxaYWFRZkMxVjVkSkc3YzBlWEdkTENaZ1VleS04T1NLQVBDVkd0SkNtT05lNEVNOEQ0bWhmdmhubEJqdExENXozXzFnZ3V6OXdJYmVGOE5NUVpRMHJIOXp6Yl8wa19zWGNtdHpVbUFEd2xuUUFBUWJUMjZKOXBla2dIQnNwYXBrSFc5bGJXMkVoZEp5YUgxek9KNnZQTHJqM1pheEpB?oc=5",
-      "d": "2026-11-27T07:58:37Z"
+      "src": "Business Day",
+      "logo": "businessday",
+      "h": "RECORDED | ‘Witness T’ back on the stand at Madlanga commission",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUXNuUllmVE9mbzJ1eUVKUWt5ZlBkYUdZb3RYenQyeURWUHhNSDVwa08zVndLa0htZ1Y3RUFmYXM2dm9NTV9VUXM2UVlHd2NTYmtKT2YzX0t5ZE9xRmNrdlNCSWNnZ1NNMWVmUFpqMUo3RmIzMEE3d21JMkpoZzFlMTlQdzZQcV9KSVdaTktWWVlUWWtpZ1RjeGZfOVpEb1FtelFtVUNFTlF1UmpK?oc=5",
+      "d": "2026-11-27T07:43:22Z"
     },
     {
       "src": "TimesLIVE",
       "logo": "timeslive",
       "h": "WATCH LIVE | ‘Witness T’ back on the stand at Madlanga commission",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNamhrNGpJZ2RGY0k2cDBqY3lVOG83TTdjblZlaWN2ck5kdEdvQm1oWTB4YTRPdG1kNW9fSXdqTlFNVTlTVlJOaW45NjhWc09iMEF1Zy1ZUU01Q0FubWJ0T2VQd1hvY0tCYW5fd0h2a2dRd0YzMUZCdlVDR1QxSU5SMW5zZ1E0X2VnNFkxWVBsRDlFbVRsWDI2R3g1THBsX2Fyb2VYU0VMak43MVJsdWVJQUFTeU9Sbnp5NVc4?oc=5",
-      "d": "2026-11-27T07:43:22Z"
-    },
-    {
-      "src": "Sowetan",
-      "logo": "sowetan",
-      "h": "RECORDED | ‘Witness T’ back on the stand at Madlanga commission",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdnRudHh3QmhNN0tJLUFFZVJ0cFRxdTVwcEhCcGQyQ0g2ZkhiNm1HaVdlQ3k3cmZueGNfM3NsZE9XSjBqcGlLeDhxd05rR0NFVFdjeno0N1NzN05IY0FGTmdiWFdzN21mVmVSbUxJaDBQWk80UmdVTEwyNUhmWjNWSDNxNFdsZGtHc2ZmQWhQQWIwN1VTMk5PRHBsWE5TbFNYZXV1Ml9jVQ?oc=5",
       "d": "2026-11-27T07:43:22Z"
     },
     {
@@ -139,6 +118,13 @@
     {
       "src": "IOL",
       "logo": "iol",
+      "h": "Madlanga Commission: Ramaphosa briefed six days before Mkhwanazi’s explosive briefing",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaGpMM2JlTXhidkhnMWU4RURNMVREdklGQUlfdUF3OE02czZtSm9XNGdFdTh5X2J4RXpqeTl5YlJINHAxZzdQZkR1eTBJQmlkdnRfUGJzTUdERUlLVFp5ZVIzbVltMmxtME9rcHh6QWhabUNicmRmX21hNFE3V2RkN1JVMlE5OFlGelVUNFEzY29fQmJrNnczQUhwVjE2QlJBMF90QXdYd05MYUR4ZWVRNUQ0OC14dnFFOWZvT21jYjNhUXp0RE1z?oc=5",
+      "d": "2026-11-26T08:00:00Z"
+    },
+    {
+      "src": "IOL",
+      "logo": "iol",
       "h": "Madlanga Commission hears how JMPD chief Rikhotso helped an officer arrested over R1.5m cash theft secure bail",
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQXJzcXhfdFRyYW5aWHF2cmg5OWVLNmJNenM1eTFQVEVpaVVIa2ZySEtFenBobXVoZlo4Xzd3TkRWVEtkazZqZlFNS2I0TFpYblRieVpoRjNaZElNNm9rRm5CeDRleV9aYXViX2dGRHc0UnB4S3NUaDA1WHhGN2pmbHlHeWUzMHpRNHFubUFTa01tRXU2eDJjbk1kOWlRZ1QtOWNZYkwxOFEzRFhXZ0x4Z1ZmOVZ6TVVhaTZzOHlTUldfdEY4Z0l1ZUFIZFFNc254ekg4YmoxdFA4UXRmT3FhbmVtNHVTZjc1?oc=5",
       "d": "2026-11-26T08:00:00Z"
@@ -146,8 +132,8 @@
     {
       "src": "IOL",
       "logo": "iol",
-      "h": "Madlanga Commission findings could force major rethink of South Africa's police reform Bill",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPT21MR3FKeWtzZ1RwZkVrQmRLYmpnaXdQNEk0ZDRwdzhpWmZrUGlQYVloRGI4eFJYUUI1SGkxai1nV0JIaGlfREdLQUtEeHQwVjBQdnlTUmdOdTJVU0YzT3RadVdHVGl4TDdITy0xYzRvblY2bHBKcEtjRy1lRHN2c1NKeWtqN3FGQ0lkSGFsYlJiRGlxM1d5cXdVazYyOTFaam1VdWlVUzFkbGFyUGJ2eS10YldDNlAzcTZ1ZFhTZW1TVjJMaGdHZk83dW55X0E?oc=5",
+      "h": "Matlala leaves Madlanga Commission with more questions than answers",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQMHJ6YlZGV0pfTWV1TFZCTUFLSHFpNGs4TmdRRmZlR3VqT1h0UzdVWm54YlV1Vi1zcXJGVnhTZGt3N19uSEVPbThLRW92ZEFSbkxaYWFRZkMxVjVkSkc3YzBlWEdkTENaZ1VleS04T1NLQVBDVkd0SkNtT05lNEVNOEQ0bWhmdmhubEJqdExENXozXzFnZ3V6OXdJYmVGOE5NUVpRMHJIOXp6Yl8wa19zWGNtdHpVbUFEd2xuUUFBUWJUMjZKOXBla2dIQnNwYXBrSFc5bGJXMkVoZEp5YUgxek9KNnZQTHJqM1pheEpB?oc=5",
       "d": "2026-11-26T08:00:00Z"
     },
     {
@@ -156,6 +142,20 @@
       "h": "LIVE: JMPD corruption and bribe claims back in focus as Madlanga Commission resumes",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRHJjTkwyNDBBRnhYYnlPZFVCbWtyYmxRdkkxVUwtcW94dHBiLVJ4aXRta3BieUNuUEdQZE8tVjlZZDdSbURFdGJwUkJudFhpYTdJUzlSMVZOYU0tZzdsbjVidEsxbENnYThrZDhkNDRZeDNmNDhRZWhybGd3VlJrVTNPWEFzMVZtcWdBNGxNNTIyWGpockRyeHdNay1qN2xKdUNjTUtCSlFMaUJGbEc5eFF2Qm9SRVFaRnBTMmFB?oc=5",
       "d": "2026-11-26T08:00:00Z"
+    },
+    {
+      "src": "TimesLIVE",
+      "logo": "timeslive",
+      "h": "RECORDED | Former Sars boss Kieswetter continues testimony at Madlanga inquiry",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMXdYRFhqbG52X1cyMmFHNjNKbFlUV1NGU1ZXX2l2cmZhQWhWeHJaSmd4b1NrcVpfbXFXVlZxSWJMZWpOSFkwYXJscmlKMWkyUHljelFvRlVwTERxc1Z4cm5EX1J1SFZPRGtQZXRqak1aeWxMTk9Lc0hYcm11aVV1bFgyQVA5LUlJTi1RRmx4ZmM2ajlVS200RkxSckZ2bTFlM19xN19keXp1b1Z6bUFJSVdzVVBXR09BSjc4QUd1bzgzbERKV2c?oc=5",
+      "d": "2026-11-26T07:53:01Z"
+    },
+    {
+      "src": "TimesLIVE",
+      "logo": "timeslive",
+      "h": "WATCH LIVE | Former Sars commissioner Kieswetter continues testimony at Madlanga inquiry",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdXdkX2ctQUw0S3ltcWFkazRjNEtsWldqUDYwb2d2S2pmNkxTa1ZTZ01vRFRISzQ4YnE2YUVlM0tzVUlJNDk5Sk1uN2lUbHh2SS1GSUY0aFJsM0s0LU5sZ21zcUJIVnpGUDV2Z2VlcUpDZTE1YjBsQUNfMUoxTmJHakxTVmZYUDJyYzd4M2NsSi1nLTZsSXRKZkF6WElydWZ5aFhJUHFTZHk1Mm5nTVpTV1lfYlJqYy0wQVZkWjhxUEZBM3plaHEzWlpVYlZoelRG?oc=5",
+      "d": "2026-11-26T07:53:01Z"
     }
   ],
   "people": {
@@ -169,13 +169,6 @@
           "d": "2026-11-27T11:17:00Z"
         },
         {
-          "src": "Business Day",
-          "logo": "businessday",
-          "h": "WATCH LIVE | ‘Witness T’ back on the stand at Madlanga commission",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUXNuUllmVE9mbzJ1eUVKUWt5ZlBkYUdZb3RYenQyeURWUHhNSDVwa08zVndLa0htZ1Y3RUFmYXM2dm9NTV9VUXM2UVlHd2NTYmtKT2YzX0t5ZE9xRmNrdlNCSWNnZ1NNMWVmUFpqMUo3RmIzMEE3d21JMkpoZzFlMTlQdzZQcV9KSVdaTktWWVlUWWtpZ1RjeGZfOVpEb1FtelFtVUNFTlF1UmpK?oc=5",
-          "d": "2026-11-27T07:43:22Z"
-        },
-        {
           "src": "Sowetan",
           "logo": "sowetan",
           "h": "RECORDED | ‘Witness T’ back on the stand at Madlanga commission",
@@ -187,6 +180,13 @@
           "logo": "timeslive",
           "h": "WATCH LIVE | ‘Witness T’ back on the stand at Madlanga commission",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNamhrNGpJZ2RGY0k2cDBqY3lVOG83TTdjblZlaWN2ck5kdEdvQm1oWTB4YTRPdG1kNW9fSXdqTlFNVTlTVlJOaW45NjhWc09iMEF1Zy1ZUU01Q0FubWJ0T2VQd1hvY0tCYW5fd0h2a2dRd0YzMUZCdlVDR1QxSU5SMW5zZ1E0X2VnNFkxWVBsRDlFbVRsWDI2R3g1THBsX2Fyb2VYU0VMak43MVJsdWVJQUFTeU9Sbnp5NVc4?oc=5",
+          "d": "2026-11-27T07:43:22Z"
+        },
+        {
+          "src": "Business Day",
+          "logo": "businessday",
+          "h": "RECORDED | ‘Witness T’ back on the stand at Madlanga commission",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUXNuUllmVE9mbzJ1eUVKUWt5ZlBkYUdZb3RYenQyeURWUHhNSDVwa08zVndLa0htZ1Y3RUFmYXM2dm9NTV9VUXM2UVlHd2NTYmtKT2YzX0t5ZE9xRmNrdlNCSWNnZ1NNMWVmUFpqMUo3RmIzMEE3d21JMkpoZzFlMTlQdzZQcV9KSVdaTktWWVlUWWtpZ1RjeGZfOVpEb1FtelFtVUNFTlF1UmpK?oc=5",
           "d": "2026-11-27T07:43:22Z"
         },
         {
@@ -281,7 +281,7 @@
           "logo": "iol",
           "h": "Matlala leaves Madlanga Commission with more questions than answers",
           "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQMHJ6YlZGV0pfTWV1TFZCTUFLSHFpNGs4TmdRRmZlR3VqT1h0UzdVWm54YlV1Vi1zcXJGVnhTZGt3N19uSEVPbThLRW92ZEFSbkxaYWFRZkMxVjVkSkc3YzBlWEdkTENaZ1VleS04T1NLQVBDVkd0SkNtT05lNEVNOEQ0bWhmdmhubEJqdExENXozXzFnZ3V6OXdJYmVGOE5NUVpRMHJIOXp6Yl8wa19zWGNtdHpVbUFEd2xuUUFBUWJUMjZKOXBla2dIQnNwYXBrSFc5bGJXMkVoZEp5YUgxek9KNnZQTHJqM1pheEpB?oc=5",
-          "d": "2026-11-27T07:58:37Z"
+          "d": "2026-11-26T08:00:00Z"
         },
         {
           "src": "IOL",
@@ -547,15 +547,15 @@
         {
           "src": "TimesLIVE",
           "logo": "timeslive",
-          "h": "RECORDED | Former Sars boss Kieswetter continues testimony at Madlanga inquiry",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMXdYRFhqbG52X1cyMmFHNjNKbFlUV1NGU1ZXX2l2cmZhQWhWeHJaSmd4b1NrcVpfbXFXVlZxSWJMZWpOSFkwYXJscmlKMWkyUHljelFvRlVwTERxc1Z4cm5EX1J1SFZPRGtQZXRqak1aeWxMTk9Lc0hYcm11aVV1bFgyQVA5LUlJTi1RRmx4ZmM2ajlVS200RkxSckZ2bTFlM19xN19keXp1b1Z6bUFJSVdzVVBXR09BSjc4QUd1bzgzbERKV2c?oc=5",
+          "h": "WATCH LIVE | Former Sars commissioner Kieswetter continues testimony at Madlanga inquiry",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdXdkX2ctQUw0S3ltcWFkazRjNEtsWldqUDYwb2d2S2pmNkxTa1ZTZ01vRFRISzQ4YnE2YUVlM0tzVUlJNDk5Sk1uN2lUbHh2SS1GSUY0aFJsM0s0LU5sZ21zcUJIVnpGUDV2Z2VlcUpDZTE1YjBsQUNfMUoxTmJHakxTVmZYUDJyYzd4M2NsSi1nLTZsSXRKZkF6WElydWZ5aFhJUHFTZHk1Mm5nTVpTV1lfYlJqYy0wQVZkWjhxUEZBM3plaHEzWlpVYlZoelRG?oc=5",
           "d": "2026-11-26T07:53:01Z"
         },
         {
           "src": "TimesLIVE",
           "logo": "timeslive",
-          "h": "WATCH LIVE | Former Sars commissioner Kieswetter continues testimony at Madlanga inquiry",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdXdkX2ctQUw0S3ltcWFkazRjNEtsWldqUDYwb2d2S2pmNkxTa1ZTZ01vRFRISzQ4YnE2YUVlM0tzVUlJNDk5Sk1uN2lUbHh2SS1GSUY0aFJsM0s0LU5sZ21zcUJIVnpGUDV2Z2VlcUpDZTE1YjBsQUNfMUoxTmJHakxTVmZYUDJyYzd4M2NsSi1nLTZsSXRKZkF6WElydWZ5aFhJUHFTZHk1Mm5nTVpTV1lfYlJqYy0wQVZkWjhxUEZBM3plaHEzWlpVYlZoelRG?oc=5",
+          "h": "RECORDED | Former Sars boss Kieswetter continues testimony at Madlanga inquiry",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMXdYRFhqbG52X1cyMmFHNjNKbFlUV1NGU1ZXX2l2cmZhQWhWeHJaSmd4b1NrcVpfbXFXVlZxSWJMZWpOSFkwYXJscmlKMWkyUHljelFvRlVwTERxc1Z4cm5EX1J1SFZPRGtQZXRqak1aeWxMTk9Lc0hYcm11aVV1bFgyQVA5LUlJTi1RRmx4ZmM2ajlVS200RkxSckZ2bTFlM19xN19keXp1b1Z6bUFJSVdzVVBXR09BSjc4QUd1bzgzbERKV2c?oc=5",
           "d": "2026-11-26T07:53:01Z"
         },
         {
@@ -734,7 +734,7 @@
     },
     "alex-patrick": {
       "n7": 0,
-      "last": "2026-10-29T07:00:00Z"
+      "last": "2026-10-09T07:00:00Z"
     },
     "qaanitah-hunter": {
       "n7": 1,
@@ -754,7 +754,7 @@
     },
     "bongani-hans": {
       "n7": 0,
-      "last": "2026-07-10T07:00:00Z"
+      "last": "2026-09-17T07:00:00Z"
     },
     "kyle-cowan": {
       "n7": 0,

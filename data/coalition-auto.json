@@ -1,8 +1,8 @@
 {
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
-    "date": "2026-11-27",
-    "time": "23:02"
+    "date": "2026-11-28",
+    "time": "01:37"
   },
   "items": [
     {
@@ -1840,6 +1840,54 @@
       "src": "IOL",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUDJUeVctcXRHOVFNbUZ5WEhiR3FLNGxTakprMWZDcmVxcWJvWW5hRXluWmt3YUxPeHpzUWVfR1c4bUZ0a2J4VTNVVFl2M1ZxZFkzVEdiTWlka3IwZ0RFZlRTMVg5aVBtVDBxNXM5VXBYY1E5VkV1ZkliMlJobUwxeGVtbG5rLXE2ZlZiMjJHWVZtVEhUZ2VhemZjRllnUkVwVEhJWVVRSnNvd2JOQTFWdkxwYlFyUU1IYzRSX3FLTEc3RGdTSFdnSWo4ZVBaVndJUmZaSg?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-e293c9b5d4",
+      "j": "herman",
+      "d": "2026-11-27",
+      "kind": "Reported",
+      "place": "National",
+      "h": "Mashaba’s manoeuvres win the day as ANC-ActionSA claim Gauteng, leaving DA in the cold",
+      "s": "Reported by Daily Maverick.",
+      "src": "Daily Maverick",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObFdUQXBZVXZZVWJoMFRmLWdIUXFoc0dLMXAzNXMwYWlJa09acnBMT1pXR1ZuYXhlN1VLbDB5ZHBIWHppTmdCbkdYcmxDY0JhTm9QVHZneUN4N3o0bFRETVFfdG1LbmF4UEZKM29TbW5HT1hNVnBZeFQ5VFZtVzNlOFJMcE1ZYk5LaHhvUF82dTFmN3pMX09YNmJscXgzRWN2Q0xBVlo1ekNEeU1JT0dmYm1yY0IyY0RQRm5LaTVfTzVFaHVqMjloOGtHN0UtSDFuU3c?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-d96a8798c6",
+      "j": "herman",
+      "d": "2026-11-27",
+      "kind": "Reported",
+      "place": "Johannesburg",
+      "h": "Mashaba Vows to Fix Johannesburg as Water Crisis, Power Outages and Infrastructure Decay Top His Agenda",
+      "s": "Reported by newsnote.",
+      "src": "newsnote",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOVYzYTZaWFFLYWt5bTZlaVRlNE53aWdnQXFVeDBxeFlfZDRLcEZuZFdBV1ZZbVowYmxITXZwQUpEeTdDX01tYmtXcWE4cnY3aTZlWkVGdFBlOFZpQnd5QUhKNFU1NVJicjVheTQtODFGNTZFSFd5T2oxdzdXNVhZdWhqRzRXMzExSVN0aFVCMnlBaVpLd2YtMnE5VTR1UGpvNkV4SmJjT2hacjh3ZGtPbEtrc3RuOG9OMkVHTEs3WjVXdk16?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-6ea15a3798",
+      "j": "herman",
+      "d": "2026-11-27",
+      "kind": "Reported",
+      "place": "Johannesburg",
+      "h": "Herman Mashaba Defeats Helen Zille to Become Mayor of Johannesburg",
+      "s": "Reported by The Zimbabwe Mail.",
+      "src": "The Zimbabwe Mail",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOVZtNXJkU0Z4aEVja0FIVm1EVmxCZXhXSHFDcnFEc3pSSDJwc0ROWHlaYWF2T25yRlMtbXpTUjZ4ZGF6UVdZWTZTUkFQdXQ1VHF0TWJsZG9LRXF0Tk9YUUM1UHAteTAtMVVLN1lPT2lsWFgxTENwdmdOWmFQLVM2UDFVWWRfa1VQYTFOQlJvNlVXV19ydmRtVXB2RVRkSThqSlZ0RV9hb3hiZw?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-82775b8215",
+      "j": "herman",
+      "d": "2026-11-26",
+      "kind": "Reported",
+      "place": "Ekurhuleni",
+      "h": "Mashaba confirms Xolani Khumalo as Ekurhuleni deputy mayor",
+      "s": "Reported by themercury.co.za.",
+      "src": "themercury.co.za",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tMjJKYW9aMTN0ZEUxcG5oR2R2MVdHcjVYbFZjRGp3Yk55d0NYUnJqeWNSdUpZVjBKclVJNHVOaXJUVHVzSkphdFFUcEpzMnFyTGF5YVA5MFJUWF9qSnhTQ1N0eGlobzQ?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -1881,7 +1929,8 @@
       "a-bd44373ecb",
       "a-2fdb37a23e",
       "a-b97d1201d7",
-      "a-1b640e2732"
+      "a-1b640e2732",
+      "a-6ea15a3798"
     ],
     "actionsa": [
       "a-773fa265cd",
@@ -3408,6 +3457,12 @@
         "h": "ActionSA and DA battle for Tshwane",
         "d": "2026-11-25",
         "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1QSnBoMGs2OXF5aUxpSnRUZDVCWjBjZVQwQnpzLUNVb3VvY0ozV3VLLWhKSkd3Tzh0dDRZYVVRWjNpelFybVJpbmxBeGF1RnowUkp3QzNKR1ZWelJhTGZMSGdLdTRSTEtILVpreEFsQS1PZw?oc=5"
+      },
+      {
+        "src": "dailynews.co.za",
+        "h": "Confirmed: Nasiphi Moya re-elected as Tshwane Mayor",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVnRfeVQ4WFFfVGlWSmRtUnJNQlhEMnJZZ2hCYmNiWk1ncFktcjRSVnlGOWJTRUtMUGNmdFJhUUtJT2ZXMDY3Um4xSEQxcU1nVTJwb0xGSUVVVVpOb25vYndKUzhzSHJsbFpEdlJUS3hkQWZhN2o3OS1OYlBxRFg0UzhpbllOS09IRXdESzB2RGV0aWpvVlc3eFJR?oc=5"
       }
     ],
     "actionsa": [
@@ -3920,7 +3975,8 @@
         "a-fdd286a6c5",
         "a-940d89f5fa",
         "a-5e776f48af",
-        "a-59a8566229"
+        "a-59a8566229",
+        "a-d96a8798c6"
       ],
       "coverage": [
         {
@@ -5256,7 +5312,8 @@
         "a-2d84ae2138",
         "a-f476d646f8",
         "a-1a53e07d43",
-        "a-85bb1450e0"
+        "a-85bb1450e0",
+        "a-82775b8215"
       ],
       "coverage": [
         {
@@ -5850,7 +5907,8 @@
         "a-2aae662568",
         "a-57736b3042",
         "a-c2643b44a8",
-        "a-b0f3f8f211"
+        "a-b0f3f8f211",
+        "a-e293c9b5d4"
       ],
       "coverage": [
         {
@@ -6338,6 +6396,18 @@
           "h": "Maotwe elected Tshwane deputy mayor unopposed after council vote",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQnRMb19kUGZkS3B5eWlqc0l2NHU2Z3BQbGFGWFU4aVdnY1pCYWk2cjY0WExJRzFyQjZzbkxfMEk2X3AzcnRzSkRFSWRwQ1hCN0l4ZWEyRVBMeFFyV1hOOC1HODZyQU10Y2xQeDZVYWZfb3FLT2pseXZQbnQ2MHFKbGRvR1N4ampZVEZ6N1NEcENZd0E?oc=5"
+        },
+        {
+          "src": "dailynews.co.za",
+          "h": "WATCH: EFF’s Omphile Maotwe poised to become Tshwane deputy mayor as Mashaba backs Moya for another five years",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUmdjQlctRGdwbHVlaXVaMHJGRkxXeVNwTFIwNkdOLXhPamp0X21vYWNNSG5ybHpWbTZiLWpKTlpKR18zcVhOLWlxaDh5ZkJwUnpybEVDR3VNTUlfTENRRi11UjRYWG5HSURTalZSSmNGSXNTSHRvT1Q2NFM1OHIzNURNY0VIdDktR3J3M0pXdFlzSkRKczBpOW1tSWZfV1k4bHRUeXlTV2RYdThuOFg4OTFYVjZLcVhWVi04YnVJc1dHeVg5bVZKY0tHQ3hqclY0a2RNVDVobW5XeXh1NlRPSTlabkJJa2c?oc=5"
+        },
+        {
+          "src": "dailynews.co.za",
+          "h": "EFF’s Omphile Maotwe elected Tshwane deputy mayor unopposed",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbTBNM051NjNFUkN1LWJscUdocEI4VmptYU1IUTFabGh5RDRtck9hOGY1WWM3U3BSMlpKVVdaTTlGaWZUNTlqeWxZQXdpRzhvWWdDdEJfMUFsVzROUDFfSGFNYVdQbG15dmxBMmtMNWZMYy1CNXdnVVJKTEZvd05fd0ptelJ3di12WExveWJaVGRQTWptQVlTelVXUm5ERlpBeDNXMmFwV1ZpTW5l?oc=5"
         }
       ],
       "sec": [
@@ -7579,6 +7649,15 @@
     "939f2473dbd7",
     "878d1805856a",
     "6ec69d02f67f",
-    "0daef0b582ba"
+    "0daef0b582ba",
+    "6f3ea4c86bbb",
+    "e293c9b5d43b",
+    "d96a8798c684",
+    "6ea15a379869",
+    "1915fa25dd4c",
+    "b4dc1cd6b17a",
+    "a802d7d8b0b9",
+    "82775b82159c",
+    "677bc3758c54"
   ]
 }
