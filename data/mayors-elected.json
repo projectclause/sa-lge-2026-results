@@ -1,4 +1,11 @@
 {
   "note": "Written by tools/mayor-watch.rb (hourly). When a metro's mayor is confirmed elected, the home page headline, the mayor cards, the Mayors page and search switch automatically.",
-  "JHB": { "elected": false }
+  "JHB": {
+    "elected": true,
+    "n": "Herman Mashaba",
+    "p": "ASA",
+    "date": "2026-11-27",
+    "when": "Friday, 27 November 2026",
+    "reports": []
+  }
 }
