@@ -97,10 +97,15 @@
     ].concat(PROVS.map(([c, n]) => ({ key: "w-" + c, html: winner({ kind: "prov", code: c, title: n }) })))
      .concat(Object.keys(MNAME).map((c) => ({ key: "w-" + c, html: winner({ kind: "metro", code: c, title: MNAME[c] }) })));
 
+    // tiles show the party of the mayor each new council elected, with a tick; councils still to elect one keep the
+    // largest party's colour and no tick
+    const MAYOR = { JHB: ["ASA", "Herman Mashaba"], TSH: ["ASA", "Nasiphi Moya"], EKU: ["ANC", "Mziyanda Mketsu"], CPT: ["DA", "Geordin Hill-Lewis"],
+      ETH: ["MK", "Mxolisi Phakathi"], NMA: ["DA", "Retief Odendaal"], BUF: ["ANC", "Princess Faku"] };
     const metroTiles = METROS.map(([code, ab]) => {
       const s = seatsOf(M[code]), n = s.reduce((a, x) => a + x[1], 0), top = s[0] || ["", 0];
-      const maj = top[1] >= Math.floor(n / 2) + 1;
-      return `<button type="button" class="tk-tile" data-c="${code}" style="background:${col(top[0])}" title="${(M[code] || {}).name}: ${maj ? top[0] + " majority" : "no majority, " + top[0] + " largest"}">${ab}${maj ? CHECK : ""}</button>`;
+      const maj = top[1] >= Math.floor(n / 2) + 1, my = MAYOR[code], nm = (M[code] || {}).name;
+      const tip = my ? `${nm}: mayor ${my[1]} (${PNAME[my[0]] || my[0]})` : `${nm}: no mayor elected yet; ${maj ? top[0] + " majority" : "no majority, " + top[0] + " largest"}`;
+      return `<button type="button" class="tk-tile${my ? " tk-won" : ""}" data-c="${code}" style="background:${col(my ? my[0] : top[0])}" title="${tip}">${ab}${my ? (my[0] === "ANC" ? CHECK.replace('class="tk-ck"', 'class="tk-ck tk-ck-w"') : CHECK) : ""}</button>`;
     }).join("");
 // four fixed columns: city mayors, provinces, metro councils (each rotates every 3 seconds, staggered), metro tiles
 const GROUPS = [

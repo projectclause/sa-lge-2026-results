@@ -460,6 +460,7 @@ button.tk-p:hover .tk-h { text-decoration: underline; }
 .tk-tile { display: inline-flex; align-items: center; gap: 3px; height: 26px; padding: 0 6px; border: 0; color: #fff; font-size: 14px; font-weight: 800; cursor: pointer; letter-spacing: .02em; }
 .tk-tile .tk-ck { width: 15px; height: 15px; }
 .tk-tile .tk-ck svg { width: 11px; height: 11px; }
+.tk-tile .tk-ck-w { background: #fff; }
 .tk-links { gap: 8px; cursor: default; }
 .tk-btn { display: block; padding: 7px 14px; border: 2px solid #121212; background: #fff; color: #121212; font-size: 14px; font-weight: 800; text-transform: uppercase; text-decoration: none; text-align: center; white-space: nowrap; cursor: pointer; }
 .tk-btn:hover { background: var(--soft); }
