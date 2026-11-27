@@ -42,7 +42,7 @@ PUBLISHER = { "@type" => "NewsMediaOrganization", "name" => "Preamble", "url" =>
 sa = D["events"].map do |e|
   items = e["items"].map { |id| BY[id] }.compact.ssort { |i| i["d"] }
   dates = items.map { |i| i["d"] } + (e["coverage"] || []).map { |c| c["d"] }
-  says = (e["voices"] || {}).map { |k, line| p = J[k] or next; [p, line, items.select { |i| i["j"] == k }] }.compact
+  says = (e["voices"] || {}).map { |k, line| p = J[k] or next; [p, line, items.select { |i| i["j"] == k || Array(i["with"]).include?(k) }] }.compact
   cov = (e["coverage"] || []) + items.reject { |i| i["src"] =~ /^(X|YouTube|TikTok|Instagram|LinkedIn|Facebook)/ }.map { |i| i.slice("src", "h", "d", "url") }
   cov = cov.uniq { |c| c["url"] }.ssort { |c| c["d"] }.reverse
   { id: e["id"], scope: "South Africa", cat: e["cat"], place: e["place"], h: e["h"], dek: e["dek"], brief: e["brief"] || [], sec: e["sec"] || [],
@@ -66,7 +66,7 @@ STORIES = (sa + intl).ssort { |s| s[:upd].to_s }.reverse
 def slug(n); n.unicode_normalize(:nfkd).gsub(/[^\x00-\x7F]/, "").downcase.gsub(/[“”"']/, "").gsub(/[^a-z0-9]+/, "-").gsub(/^-|-$/, ""); end
 PEOPLE = []
 J.each do |k, p|
-  its = D["items"].select { |i| i["j"] == k }.ssort { |i| i["d"] }.reverse
+  its = D["items"].select { |i| i["j"] == k || Array(i["with"]).include?(k) } # co-authors too.ssort { |i| i["d"] }.reverse
   lines = D["events"].map { |e| (l = (e["voices"] || {})[k]) && [e["id"], e["h"], l] }.compact
   next if its.empty? && lines.empty?
   kind = p["group"] == "player" ? "Key player" : p["pb"] ? "Public broadcaster (SABC)" : p["beat"] == "reporting" ? "Reporter" : "Analyst and commentator"

@@ -586,6 +586,15 @@
       "org": "N24",
       "beat": "reporting"
     },
+    "makhetha": {
+      "n": "Tankiso Makhetha",
+      "o": "News24",
+      "img": "assets/journalists/tankiso-makhetha.jpg",
+      "role": "Journalist, News24",
+      "group": "voice",
+      "org": "N24",
+      "beat": "reporting"
+    },
     "macg": {
       "n": "MacGyver “MacG” Mukwevho",
       "logo": "podcastandchill",
@@ -4366,9 +4375,12 @@
       "kind": "Article",
       "place": "Gauteng metros",
       "h": "DA makes ‘full and final’ offer to ActionSA to share Gauteng metros",
-      "s": "With Tankiso Makhetha, Paton reported on the DA’s full and final offer to ActionSA to share power in Gauteng’s three metros.",
+      "s": "Makhetha and Paton reported on the DA’s full and final offer to ActionSA to share power in Gauteng’s three metros.",
       "src": "News24",
-      "url": "https://www.news24.com/southafrica/news/da-makes-full-and-final-offer-to-actionsa-to-share-gauteng-metros-20261121-1048"
+      "url": "https://www.news24.com/southafrica/news/da-makes-full-and-final-offer-to-actionsa-to-share-gauteng-metros-20261121-1048",
+      "with": [
+        "makhetha"
+      ]
     },
     {
       "id": "nm-coalition-drama",
