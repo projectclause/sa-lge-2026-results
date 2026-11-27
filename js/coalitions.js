@@ -257,7 +257,6 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
         <p class="pl-kick">Coalitions Tracker · Preamble</p>
         <h1 class="pl-date">${long(today())}</h1>
         <p class="pl-asof">${esc(asOf("Coalitions", D.edition))}</p>
-        <a class="bc-pill" href="build-your-coalition.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18h4v-6H4zM10 18h4V8h-4zM16 18h4V4h-4z" fill="currentColor"/></svg>Build Your Coalition</a>
         <p class="pl-intro">Preamble’s Coalitions Tracker gathers coverage of the 2026 coalition talks from established news outlets in South Africa and around the world. It groups reports on the same event into one story, writes a structured summary with AI, and links back to every original article. It also tracks what key journalists and politicians are saying. None of them write for Preamble.</p>
       </header>
       <a class="pl-lead" href="#${lead.id}">
