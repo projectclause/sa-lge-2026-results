@@ -40,6 +40,16 @@
       ],
       "credit": "",
       "source": ""
+    },
+    "mahlape-sello": {
+      "name": "Mahlape Sello SC",
+      "role": "Evidence leader, Madlanga Commission",
+      "files": [
+        "assets/madlanga/mahlape-sello.jpg",
+        "assets/madlanga/mahlape-sello-320.jpg"
+      ],
+      "credit": "",
+      "source": ""
     }
   }
 }
