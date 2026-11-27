@@ -1071,7 +1071,7 @@
     "mketsu": {
       "n": "Mziyanda Mketsu",
       "o": "ANC",
-      "role": "ANC, expected mayor of Ekurhuleni",
+      "role": "ANC, mayor of Ekurhuleni",
       "img": "assets/mayors/ekurhuleni/mziyanda-mketsu.png",
       "group": "player",
       "org": "ANC",

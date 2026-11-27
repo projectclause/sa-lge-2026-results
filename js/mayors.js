@@ -17,8 +17,8 @@
     NMA: { n: "Retief Odendaal", p: "DA", img: "assets/mayors/nelson-mandela-bay/retief-odendaal.jpg", how: "Elected by the new council under the DA-led multiparty coalition. A comeback: he was mayor from 2022 to 2023, and succeeds the ANC’s Babalwa Lobishe." },
     BUF: { n: "Princess Faku", p: "ANC", same: true, how: "Re-elected by the new council on Tuesday, 24 November 2026, with the EFF’s backing, beating the UDM’s Nqabayomzi Kwankwa. She has been mayor since March 2023." },
     TSH: { n: "Nasiphi Moya", p: "ASA", same: true, how: "Re-elected by the new council on Thursday, 26 November 2026, under a coalition deal between ActionSA, the ANC, the EFF and MK." },
-    EKU: { n: "Mziyanda Mketsu", p: "ANC", img: "assets/mayors/ekurhuleni/mziyanda-mketsu.png", expected: true, label: "Incoming mayor · council votes Friday",
-      how: "Reports on 25 November say the ANC will field councillor Mziyanda Mketsu as mayor under a deal with ActionSA, the EFF, MK and the SACP. The council put off its mayoral vote to Friday, 27 November." },
+    EKU: { n: "Mziyanda Mketsu", p: "ANC", img: "assets/mayors/ekurhuleni/mziyanda-mketsu.png",
+      how: "Elected by the new council on Friday, 27 November 2026, under a coalition deal between the ANC, ActionSA, the EFF, MK and the SACP." },
   };
   // each metro's speaker, chosen by the new council at its first sitting
   const SPK = {

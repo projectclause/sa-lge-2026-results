@@ -92,7 +92,7 @@
       { key: "m-EKU-dep", html: mayor("EKU", "Xolani Khumalo*", "assets/faces/circ/khumalo.png", "ASA", () => "ActionSA · *Position to be made in Johannesburg", "Ekurhuleni deputy mayor") },
       { key: "m-NMA", html: mayor("NMA", "Retief Odendaal", "assets/faces/circ/retief-odendaal.png", "DA", () => "DA · multiparty coalition", "Elected Mayor of Nelson Mandela Bay") },
       { key: "m-NMA-dep", html: mayor("NMA", "Lance Grootboom", "assets/faces/grootboom-acdp.png", "ACDP", () => "ACDP · DA-led coalition", "Expected deputy mayor") },
-      { key: "m-EKU", html: mayor("EKU", "Mziyanda Mketsu", "assets/faces/circ/mziyanda-mketsu.png", "ANC", () => "ANC · ActionSA, EFF, MK and SACP deal", "Incoming mayor · council votes Friday") },
+      { key: "m-EKU", html: mayor("EKU", "Mziyanda Mketsu", "assets/faces/circ/mziyanda-mketsu.png", "ANC", () => "ANC · with ActionSA, EFF, MK and SACP", "Elected Mayor of Ekurhuleni") },
       { key: "w-nat", html: winner({ kind: "nat", title: "South Africa" }) }
     ].concat(PROVS.map(([c, n]) => ({ key: "w-" + c, html: winner({ kind: "prov", code: c, title: n }) })))
      .concat(Object.keys(MNAME).map((c) => ({ key: "w-" + c, html: winner({ kind: "metro", code: c, title: MNAME[c] }) })));
