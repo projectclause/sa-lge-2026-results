@@ -1373,3 +1373,13 @@ html.shp-on { overflow: hidden; }
 .shp-note { margin: 8px 0 0; min-height: 1.2em; font-size: 14px; color: #5a6272; text-align: center; }
 /* top strip: initials when a new leader has no photo yet */
 .tk-ph.tk-ini { display: inline-grid; place-items: center; flex: none; color: #fff; font-weight: 700; font-size: 15px; letter-spacing: .02em; }
+
+/* Mayors page on computers: one centred reading column (like a news article), with each metro's speaker */
+@media (min-width: 721px) {
+  .rs-wrap.my-page { max-width: 760px; margin-left: auto; margin-right: auto; }
+  .my-page .my-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .my-page .bc-parties, .my-page .bc-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+.my-spk { border-left-color: #8a93a3; }
+.my-pend { border-left-style: dashed; }
+.my-pend .my-how { margin-top: 6px; color: var(--muted); }

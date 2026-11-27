@@ -16,9 +16,26 @@
     ETH: { n: "Mxolisi Phakathi", p: "MK", img: "assets/journalists/mxolisi-phakathi.jpg", how: "Elected on 27 November 2026 with the ANC’s support, in an MK, ANC and ActionSA coalition. He succeeds the ANC’s Cyril Xaba." },
     NMA: { n: "Retief Odendaal", p: "DA", img: "assets/mayors/nelson-mandela-bay/retief-odendaal.jpg", how: "Elected by the new council under the DA-led multiparty coalition. A comeback: he was mayor from 2022 to 2023, and succeeds the ANC’s Babalwa Lobishe." },
     BUF: { n: "Princess Faku", p: "ANC", same: true, how: "Re-elected by the new council on Tuesday, 24 November 2026, with the EFF’s backing, beating the UDM’s Nqabayomzi Kwankwa. She has been mayor since March 2023." },
-    TSH: { n: "Nasiphi Moya", p: "ASA", same: true, how: "Re-elected by the new council on Thursday, 26 November 2026, under a coalition deal between ActionSA, the ANC, the EFF and MK. The ANC’s Naeem Patel was elected Speaker with 119 votes." },
+    TSH: { n: "Nasiphi Moya", p: "ASA", same: true, how: "Re-elected by the new council on Thursday, 26 November 2026, under a coalition deal between ActionSA, the ANC, the EFF and MK." },
     EKU: { n: "Mziyanda Mketsu", p: "ANC", img: "assets/mayors/ekurhuleni/mziyanda-mketsu.png", expected: true, label: "Incoming mayor · council votes Friday",
       how: "Reports on 25 November say the ANC will field councillor Mziyanda Mketsu as mayor under a deal with ActionSA, the EFF, MK and the SACP. The council put off its mayoral vote to Friday, 27 November." },
+  };
+  // each metro's speaker, chosen by the new council at its first sitting
+  const SPK = {
+    JHB: { lab: "Speaker elected", n: "Adolph Marema", p: "ANC", img: "assets/mayors/johannesburg/adolph-marema.jpg",
+      how: "The ANC’s Adolph Marema was elected Speaker of Johannesburg on Friday, 27 November 2026, beating the DA’s Alex Christians." },
+    CPT: { lab: "Speaker re-elected", n: "Felicity Purchase", p: "DA", img: "assets/mayors/cape-town/felicity-purchase.jpg",
+      how: "The DA’s Felicity Purchase was re-elected Speaker of Cape Town by the new council." },
+    ETH: { lab: "Speaker re-elected", n: "Thabani Nyawose", p: "ANC", img: "assets/mayors/ethekwini/thabani-nyawose.jpg",
+      how: "The ANC’s Thabani Nyawose was re-elected Speaker of eThekwini when the new council reconvened on Friday, 27 November 2026, before it elected MK’s Mxolisi Phakathi as mayor." },
+    TSH: { lab: "Speaker elected", n: "Naeem Patel", p: "ANC", img: "assets/mayors/tshwane/naeem-patel.jpg",
+      how: "The ANC’s Naeem Patel was elected Speaker of Tshwane with 119 votes on Thursday, 26 November 2026." },
+    EKU: { lab: "Speaker elected", n: "Nthabiseng Tshivhenga", p: "EFF", img: "assets/mayors/ekurhuleni/nthabiseng-tshivhenga.png",
+      how: "The EFF’s Nthabiseng Tshivhenga was named Speaker of Ekurhuleni under the coalition deal." },
+    NMA: { lab: "Speaker elected", n: "Marshall von Buchenroder", p: "DA",
+      how: "The DA’s Marshall von Buchenroder was elected Speaker of Nelson Mandela Bay by the new council." },
+    BUF: { lab: "Speaker", pending: true, how: "The new council has not yet elected its speaker." },
+    MAN: { lab: "Speaker", pending: true, how: "The new council has not yet elected its speaker." }
   };
   // handover cards at the top of a city, newest change first: a new deputy mayor (previous -> new), or a mayor returned
   // by the new council. "old" is the left side, "oldSub" its caption; "lab" is the card's label.
@@ -27,10 +44,6 @@
       how: "The ACDP’s Lance Grootboom is expected to become Deputy Mayor of Nelson Mandela Bay under the DA-led coalition, once the council completes its vote." },
     EKU: { lab: "Deputy mayor", n: "Xolani Khumalo", star: true, p: "ASA", img: "assets/faces/circ/khumalo.png",
       how: "ActionSA leader Herman Mashaba has confirmed Xolani Khumalo as the party’s choice for Deputy Mayor of Ekurhuleni under its coalition deal, IOL reports.", foot: "* Position to be made in Johannesburg" },
-    JHB: { lab: "Speaker elected", n: "Adolph Marema", p: "ANC", img: "assets/mayors/johannesburg/adolph-marema.jpg",
-      how: "The ANC’s Adolph Marema was elected Speaker of Johannesburg on Friday, 27 November 2026, beating the DA’s Alex Christians. The council then moves on to elect its mayor." },
-    ETH: { lab: "Speaker elected", n: "Thabani Nyawose", p: "ANC", img: "assets/mayors/ethekwini/thabani-nyawose.jpg", prev: "Thabani Nyawose", prevSub: "Speaker in the previous council",
-      how: "The ANC’s Thabani Nyawose was elected Speaker of eThekwini when the new council reconvened on Friday, 27 November 2026. The council then elected MK’s Mxolisi Phakathi as mayor." },
     BUF: { lab: "Mayor re-elected", n: "Princess Faku", p: "ANC", img: "assets/mayors/buffalo-city/princess-faku.jpg", prev: "Princess Faku", prevSub: "Mayor since March 2023",
       how: "The new council re-elected the ANC’s Princess Faku as Mayor of Buffalo City on Tuesday, 24 November 2026, with the EFF’s backing, over the UDM’s Nqabayomzi Kwankwa." },
     CPT: { n: "Xanthea Limberg", p: "DA", img: "assets/mayors/cape-town/xanthea-limberg.jpg", prev: "Eddie Andrews",
@@ -136,6 +149,15 @@ function timeline(C) {
     <div class="my-tl-ticks">${ticks.map((y) => `<span style="left:${x(y)}">${y}</span>`).join("")}<span style="left:${x(2026)}">2026</span></div>
   </div>`;
 }
+function panel(D, def, cls = "") {
+  if (!D) return "";
+  if (D.pending) return `<div class="my-dep my-pend ${cls}"><p class="my-lab">${D.lab || def}</p><p class="my-how">${D.how}</p></div>`;
+  return `<div class="my-dep ${cls}">
+          <p class="my-lab">${/^Expected/.test(D.lab || "") ? "" : CHECK}${D.lab || def}</p>
+          <div class="my-dep-row">${D.prev ? `<span class="my-dep-old${D.prev === D.n ? " same" : ""}"><b>${D.prev}</b><span>${D.prevSub || "Outgoing deputy mayor"}</span></span><span class="my-dep-arw" aria-hidden="true">→</span>` : ""}
+            <span class="my-dep-new">${photo(D.img, D.n, D.p, "my-ph")}<span><b class="my-name">${D.n}${D.star ? "*" : ""}</b><span class="my-party"><i style="background:${col(D.p)}"></i>${PN[D.p] || D.p}</span></span></span></div>
+          <p class="my-how">${D.how}</p>${D.foot ? `<p class="my-dep-foot">${D.foot}</p>` : ""}</div>`;
+}
 function render() {
       const C = pick(), cur = C.list.find((r) => r.cur), nw = NEW[C.code], k = council(C.code), L = !nw && (LEANS.metros || {})[C.code], nd = L && needle(L, k);
       chips.innerHTML = HIST.map((c) => `<a class="my-chip" role="tab" href="#${c.slug}" aria-selected="${c === C}">${c.city}</a>`).join("");
@@ -180,11 +202,8 @@ function render() {
           <div class="my-council">${k.svg}<p class="my-res">${LOGO[k.top[0]] ? `<img src="assets/logos-sm/${LOGO[k.top[0]]}.png" alt="">` : ""}${k.maj ? `${PN[k.top[0]] || k.top[0]} won a majority with ${k.top[1]} of ${k.N} seats` : `No majority · ${PN[k.top[0]] || k.top[0]} largest with ${k.top[1]} of ${k.N} seats`}</p></div>
           ${now}
         </div>
-        ${DEP[C.code] ? `<div class="my-dep">
-          <p class="my-lab">${/^Expected/.test(DEP[C.code].lab || "") ? "" : CHECK}${DEP[C.code].lab || "New deputy mayor"}</p>
-          <div class="my-dep-row">${DEP[C.code].prev ? `<span class="my-dep-old${DEP[C.code].prev === DEP[C.code].n ? " same" : ""}"><b>${DEP[C.code].prev}</b><span>${DEP[C.code].prevSub || "Outgoing deputy mayor"}</span></span><span class="my-dep-arw" aria-hidden="true">→</span>` : ""}
-            <span class="my-dep-new">${photo(DEP[C.code].img, DEP[C.code].n, DEP[C.code].p, "my-ph")}<span><b class="my-name">${DEP[C.code].n}${DEP[C.code].star ? "*" : ""}</b><span class="my-party"><i style="background:${col(DEP[C.code].p)}"></i>${PN[DEP[C.code].p] || DEP[C.code].p}</span></span></span></div>
-          <p class="my-how">${DEP[C.code].how}</p>${DEP[C.code].foot ? `<p class="my-dep-foot">${DEP[C.code].foot}</p>` : ""}</div>` : ""}
+        ${panel(DEP[C.code], "New deputy mayor")}
+        ${panel(SPK[C.code], "Speaker", "my-spk")}
         <h3 class="my-sub">Previous mayors</h3>
         <p class="my-key">${parties.map((p) => `<span><i style="background:${col(p)}"></i>${PN[p] || p}</span>`).join("")}</p>
         <ol class="my-list">${past}</ol>
