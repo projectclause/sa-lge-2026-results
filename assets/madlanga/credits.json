@@ -140,6 +140,17 @@
       ],
       "credit": "Madlanga Commission",
       "source": "https://madlangacommission.co.za/"
+    },
+    "vusimuzi-matlala": {
+      "name": "Vusimuzi ‘Cat’ Matlala",
+      "role": "Witness, Madlanga Commission",
+      "files": [
+        "assets/madlanga/vusimuzi-matlala.jpg",
+        "assets/madlanga/vusimuzi-matlala-320.jpg"
+      ],
+      "credit": "Madlanga Commission",
+      "source": "https://madlangacommission.co.za/witnesses/vusimuzi-matlala",
+      "bg": "yellow"
     }
   }
 }
