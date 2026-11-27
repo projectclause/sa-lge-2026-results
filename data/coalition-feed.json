@@ -6620,6 +6620,12 @@
       "n": "Newsnote",
       "badge": "Newsnote",
       "logo": "newsnote"
+    },
+    {
+      "k": "Daily Sun",
+      "n": "Daily Sun",
+      "badge": "Daily Sun",
+      "logo": "dailysun"
     }
   ],
   "intl": {
