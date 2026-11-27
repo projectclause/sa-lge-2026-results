@@ -62,7 +62,7 @@ window.INITIALS = (id) => String(id).split(/\s+/).filter((w) => !/^(of|the|for|a
   });
   window.SHARE.panel = natShare;
   // breaking news: when set, this headline leads the home page whichever council is showing
-  let BREAKING = ["Nasiphi Moya elected Mayor of Pretoria,", "Joburg votes Friday", "ActionSA’s Nasiphi Moya was re-elected Mayor of Tshwane by the new council on Thursday, 26 November, under a deal with the ANC, the EFF and MK. Johannesburg and Ekurhuleni elect their mayors on Friday. <a href=\"coalitions.html#johannesburg\">Follow it in the Coalitions Tracker →</a>"];
+  let BREAKING = ["Joburg votes today,", "Nasiphi Moya elected Mayor of Pretoria", "Johannesburg and Ekurhuleni’s councils meet today, Friday 27 November, to elect their mayors. ActionSA’s Nasiphi Moya was re-elected Mayor of Tshwane by the new council on Thursday, under a deal with the ANC, the EFF and MK. <a href=\"coalitions.html#johannesburg\">Follow it in the Coalitions Tracker →</a>"];
   // when Mashaba is confirmed elected (js/elected.js), "Mashaba Makes History" leads the home page
   let JHB_NOW = null;
   if (window.ELECTED_READY) window.ELECTED_READY.then((e) => {
