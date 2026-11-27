@@ -83,6 +83,7 @@
       { key: "m-BUF", html: mayor("BUF", "Princess Faku", "assets/mayors/buffalo-city/princess-faku.jpg", "ANC", (f) => `ANC · ${(f.ss.find((x) => x[0] === "ANC") || [0, 0])[1]} of ${f.N} seats`, "Re-elected Mayor of Buffalo City") },
       { key: "m-CPT-dep", html: mayor("CPT", "Xanthea Limberg", "assets/mayors/cape-town/xanthea-limberg.jpg", "DA", () => "DA · succeeds Eddie Andrews", "Elected Deputy Mayor of Cape Town") },
       { key: "m-TSH-dep", html: mayor("TSH", "Omphile Maotwe", "assets/faces/circ/maotwe.png", "EFF", () => "EFF · elected unopposed", "Elected Deputy Mayor of Tshwane") },
+      { key: "m-ETH-spk", html: mayor("ETH", "Thabani Nyawose", "assets/mayors/ethekwini/thabani-nyawose.jpg", "ANC", () => "ANC · mayor vote still to come", "Elected Speaker of eThekwini") },
       { key: "m-EKU", html: mayor("EKU", "Mziyanda Mketsu", "assets/faces/circ/mziyanda-mketsu.png", "ANC", () => "ANC · ActionSA, EFF, MK and SACP deal", "Incoming mayor · council votes Friday") },
       { key: "w-nat", html: winner({ kind: "nat", title: "South Africa" }) }
     ].concat(PROVS.map(([c, n]) => ({ key: "w-" + c, html: winner({ kind: "prov", code: c, title: n }) })))
