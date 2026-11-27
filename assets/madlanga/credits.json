@@ -120,6 +120,16 @@
       ],
       "credit": "Madlanga Commission",
       "source": "https://madlangacommission.co.za/"
+    },
+    "terry-motau": {
+      "name": "Terry Motau SC",
+      "role": "Madlanga Commission",
+      "files": [
+        "assets/madlanga/terry-motau.jpg",
+        "assets/madlanga/terry-motau-320.jpg"
+      ],
+      "credit": "Madlanga Commission",
+      "source": "https://madlangacommission.co.za/"
     }
   }
 }
