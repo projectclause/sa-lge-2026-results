@@ -183,3 +183,7 @@
 .sf-ipop { position: absolute; left: -8px; top: calc(100% + 10px); z-index: 40; width: min(340px, 80vw); padding: 12px 14px; background: #fff; border: 1px solid var(--sf-ink); box-shadow: 0 8px 24px rgba(0, 0, 0, .12); font: 400 15px/1.45 var(--font); letter-spacing: 0; text-align: left; color: var(--sf-ink); }
 .sf-ipop[hidden] { display: none; }
 @media (max-width: 620px) { .sf-iw { position: static; display: inline; } .sf-ipop { position: static; display: block; width: auto; margin: 12px 0 4px; box-shadow: none; } }
+
+/* the title stays on one line: sized to the column (the text is about 14.6 times the font size wide, plus the i) */
+.sf-title { white-space: nowrap; text-wrap: nowrap; font-size: min(48px, calc((min(100vw, 760px) - 64px) / 14.8)); }
+@media (max-width: 620px) { .sf-title { font-size: calc((100vw - 66px) / 16.2); } } /* DM Sans sets wider at small sizes */
