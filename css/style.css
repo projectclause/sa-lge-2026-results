@@ -8,7 +8,7 @@
   --rule2: #d6d6d6;
   --soft: #f4f4f4;
   --link: #1f5fc2;
-  --font: "Libre Franklin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font: "DM Sans", system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
   --serif: "Playfair Display", Georgia, "Times New Roman", serif;
   --body-serif: Georgia, "Times New Roman", serif;
 }
@@ -1445,7 +1445,7 @@ html.shp-on { overflow: hidden; }
 
 /* ---------- Type system (house style, NYT-like principles, own fonts) ----------
    Headlines: Playfair Display (serif, bold, tight). Reading text: Georgia (serif, 18px, 1.6, #333).
-   Everything else — menus, buttons, numbers, labels, metadata — Libre Franklin (sans); kickers, bylines and captions
+   Everything else — menus, buttons, numbers, labels, metadata — DM Sans; kickers, bylines and captions
    in small caps-style uppercase. */
 h1, h2, h3 { font-family: var(--serif); font-weight: 700; letter-spacing: -0.02em; line-height: 1.1; }
 /* headings that are labels, not headlines, stay in the sans */
