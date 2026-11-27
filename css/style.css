@@ -377,7 +377,7 @@ button.rs-council:hover .rs-cn-top b:first-child { text-decoration: underline; }
 .cr-seats { text-align: right; font-size: 16px; font-weight: 700; font-variant-numeric: tabular-nums; }
 .cr-bar { grid-column: 3 / -1; height: 16px; background: #eef0f3; border: 1px solid #e3e6eb; overflow: hidden; }
 .cr-bar i { display: block; height: 100%; }
-.rs-council.on { background: #f2f6fd; box-shadow: inset 3px 0 0 #1f5fc2; }
+.rs-council.on { background: #f2f6fd; }
 button.rs-council { cursor: pointer; font: inherit; color: inherit; }
 .rs-search { display: block; width: 100%; margin-top: 12px; padding: 9px 12px; border: 1px solid var(--rule2); border-radius: 0; font-size: 15px; background: #fff; }
 .rs-search[hidden] { display: none; }
@@ -750,7 +750,7 @@ body.has-ask { padding-bottom: 96px; }
 .pl-vh > span { display: grid; gap: 1px; min-width: 0; }
 .pl-vh b { font-size: 16.5px; }
 .pl-vh span span { font-size: 13px; color: var(--muted); }
-.pl-vsays { margin: 10px 0 4px; padding-left: 14px; border-left: 3px solid var(--text); font-size: 17px; line-height: 1.5; }
+.pl-vsays { margin: 10px 0 4px; font-size: 17px; line-height: 1.5; }
 .pl-voicecard .pl-piece:last-child { border-bottom: 0; }
 .pl-voicecard .pl-piece summary img { display: none; }
 .pl-voicecard .pl-pb { padding-left: 0; }
@@ -1065,7 +1065,7 @@ body.has-ask { padding-bottom: 96px; }
 .pl-how { position: absolute; z-index: 95; width: 300px; background: #fff; color: var(--text); border: 1px solid #d6dae1; box-shadow: 0 10px 30px rgba(18,18,18,.16); padding: 14px 16px 12px; font-size: 13.5px; line-height: 1.45; }
 .pl-how p { margin: 0 0 6px; }
 .pl-how ul { margin: 0 0 8px; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 3px; }
-.pl-how li { padding-left: 10px; border-left: 3px solid #e0a800; }
+.pl-how li { padding-left: 0; }
 .pl-how-h { font-weight: 800; font-size: 14.5px; padding-right: 22px; }
 .pl-how-n { color: var(--muted2); font-size: 12px; margin: 0 !important; }
 .pl-how-x { position: absolute; top: 6px; right: 6px; width: 32px; height: 32px; border: 0; background: none; font-size: 22px; line-height: 1; color: #5b616b; cursor: pointer; }
