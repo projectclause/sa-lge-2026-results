@@ -559,6 +559,15 @@
       "org": "Daily Maverick",
       "beat": "reporting"
     },
+    "moloi": {
+      "n": "Herman Moloi",
+      "o": "Sowetan",
+      "img": "assets/journalists/herman-moloi.jpg",
+      "role": "Journalist, Sowetan",
+      "group": "voice",
+      "org": "SOWETAN",
+      "beat": "reporting"
+    },
     "macg": {
       "n": "MacGyver “MacG” Mukwevho",
       "logo": "podcastandchill",
@@ -4309,6 +4318,28 @@
       "s": "Pilane reported that the ANC and ActionSA were nearing a deal that could shut the DA out of all three Gauteng metros, with the Johannesburg mayoralty still the sticking point.",
       "src": "Daily Maverick",
       "url": "https://www.dailymaverick.co.za/article/2026-11-17-joburg-remains-the-sticking-point-as-anc-and-actionsa-close-in-on-gauteng-deal/"
+    },
+    {
+      "id": "hm-moya-brink",
+      "j": "moloi",
+      "d": "2026-11-26",
+      "kind": "Article",
+      "place": "Tshwane",
+      "h": "ActionSA’s Nasiphi Moya beats DA’s Cilliers Brink to retain Tshwane mayoral seat",
+      "s": "Moloi reported that Nasiphi Moya secured a second term as Tshwane mayor, defeating the DA’s Cilliers Brink in the council vote.",
+      "src": "Sowetan",
+      "url": "https://www.sowetan.co.za/news/2026-11-26-actionsas-nasiphi-moya-beats-das-cilliers-brink-to-retain-tshwane-mayoral-seat"
+    },
+    {
+      "id": "hm-five-things",
+      "j": "moloi",
+      "d": "2026-11-26",
+      "kind": "Article",
+      "place": "Tshwane",
+      "h": "Quick take: Five things on new Tshwane council sitting",
+      "s": "Moloi set out five things to watch at the new Tshwane council’s first sitting, where ActionSA’s Nasiphi Moya was expected to be re-elected mayor.",
+      "src": "Sowetan",
+      "url": "https://www.sowetan.co.za/news/2026-11-26-quick-take-five-things-on-new-tshwane-council-sitting/"
     }
   ],
   "edition": {
@@ -5667,7 +5698,9 @@
         "w-tsh",
         "hg-brink",
         "gm-brink",
-        "rp-tshwane-mayor"
+        "rp-tshwane-mayor",
+        "hm-moya-brink",
+        "hm-five-things"
       ],
       "voices": {
         "clement": "In his interview, Mashaba made keeping Moya as mayor a condition of any deal.",
