@@ -165,7 +165,7 @@
     go.addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; hideTip(); hot = null; const v = VIEWS[+b.dataset.i][1]; fly([-v[0], -v[1]]); });
 
     // ---------- flights: live aircraft into and out of South Africa ----------
-    // Positions: /api/flights (netlify/functions/flights.mjs, from adsb.lol). Routes: data/flight-routes.json (Virtual
+    // Positions: data/flights-live.json (tools/flights-snapshot.rb, hourly, from adsb.lol). Routes: data/flight-routes.json (Virtual
     // Radar Server standing data), which tells a flight to or from South Africa from one just passing over.
     const FL = { on: false, routes: null, ac: [], at: null, err: false, timer: null };
     const fPanel = root.querySelector('[data-panel="flights"]');
@@ -211,7 +211,7 @@
       const n = { in: 0, out: 0, dom: 0 }; list.forEach((f) => n[f.kind]++);
       const H = { in: "Flying in to South Africa", out: "Flying out of South Africa", dom: "Domestic" };
       fPanel.innerHTML = (FL.err && !list.length ? `<p class="sf-fnote">Live flights are not available right now. Try again in a few minutes.</p>`
-        : `<p class="sf-fnote"><b>${list.length}</b> flight${list.length === 1 ? "" : "s"} in the air to or from South Africa${when ? `, as of ${when} SAST` : ""}. Updates every few minutes.</p>`) +
+        : `<p class="sf-fnote"><b>${list.length}</b> flight${list.length === 1 ? "" : "s"} in the air to or from South Africa${when ? `, as of ${when} SAST` : ""}. Updated every hour.</p>`) +
         ["in", "out", "dom"].filter((k) => n[k]).map((k) => `<p class="sf-reg">${H[k]} · ${n[k]}</p>` + list.map((f, i) => f.kind !== k ? "" :
           `<button type="button" class="sf-mrow sf-frow" data-i="${i}"><span><b>${esc(f.c)}</b>${f.airline ? ` <span>${esc(f.airline)}</span>` : ""}<br><span>${esc(apName(f.from))} → ${esc(apName(f.to))}</span></span><em>${f.alt === 0 ? "On the ground" : esc(ft(f.alt))}</em></button>`).join("")).join("") +
         `<p class="sf-fnote sf-fsmall">Positions from <a href="https://adsb.lol" target="_blank" rel="noopener">adsb.lol</a>’s volunteer receivers (ODbL), so planes out of their range, over most of the ocean, do not show. Routes from Virtual Radar Server’s standing data, matched by flight number.</p>`;
@@ -219,7 +219,7 @@
     }
     function loadFlights() {
       const routes = FL.routes ? Promise.resolve(FL.routes) : d3.json("data/flight-routes.json").then((r) => (FL.routes = r));
-      return Promise.all([routes, fetch("/api/flights", { cache: "no-store" }).then((r) => (r.ok ? r.json() : Promise.reject(r.status)))])
+      return Promise.all([routes, fetch("data/flights-live.json", { cache: "no-store" }).then((r) => (r.ok ? r.json() : Promise.reject(r.status)))])
         .then(([, d]) => { FL.ac = d.ac || []; FL.at = d.at; FL.err = false; renderFlights(); })
         .catch(() => { FL.err = true; if (FL.routes) renderFlights(); });
     }
@@ -236,7 +236,7 @@
       if (!on) { if (FL.on) { root.querySelector('.sf-tabs [data-tab="people"]').click(); zoomTo(1); } FL.on = false; return; }
       FL.on = true; root.querySelector('.sf-tabs [data-tab="flights"]').click(); zoomTo(2.6);
       if (!fPanel.innerHTML) fPanel.innerHTML = '<p class="sf-fnote">Loading live flights…</p>';
-      loadFlights(); FL.timer = setInterval(() => { if (!document.hidden) loadFlights(); }, 120000);
+      loadFlights(); FL.timer = setInterval(() => { if (!document.hidden) loadFlights(); }, 600000);
       fly([24.5, -29]);
     }
     fPanel.addEventListener("click", (e) => { const b = e.target.closest(".sf-frow"); if (!b) return; const f = FL.list[+b.dataset.i]; hot = f; hideTip(); fly(f.ll, () => pick(f)); });
