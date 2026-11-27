@@ -22,11 +22,13 @@
     // ---------- key figures ----------
     const nCountries = new Set(missions.map((m) => m.country)).size;
     const nCons = missions.filter(isCG).length;
-    root.querySelector(".sf-stats").innerHTML = [
-      [D.total.label.replace("about ", "~"), `South African-born people living abroad (${D.total.source.split(" ")[0]} ${D.total.year})`],
-      [fmt(people[0].n), `in the ${people[0].name}, the largest community`],
-      [String(missions.length), `missions in ${nCountries} countries, ${nCons} of them consulates`]
-    ].map(([b, s]) => `<p class="sf-stat"><b>${esc(b)}</b><span>${esc(s)}</span></p>`).join("");
+    // shown under the "i" beside the title
+    const iBtn = root.querySelector(".sf-i"), iPop = root.querySelector(".sf-ipop");
+    iPop.textContent = `Estimates show ${D.total.label} South African-born people living abroad (${D.total.source.split(" ")[0]}, ${D.total.year}). The largest community is in the ${people[0].name}, with ${fmt(people[0].n)}. South Africa keeps ${missions.length} missions in ${nCountries} countries, ${nCons} of them consulates.`;
+    const iShow = (on) => { iPop.hidden = !on; iBtn.setAttribute("aria-expanded", on); };
+    iBtn.addEventListener("click", (e) => { e.stopPropagation(); iShow(iPop.hidden); });
+    document.addEventListener("click", (e) => { if (!e.target.closest(".sf-iw")) iShow(false); });
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape") iShow(false); });
 
     // ---------- the globe ----------
     box.innerHTML = "";

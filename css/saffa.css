@@ -175,3 +175,11 @@
 .sf-flmode .sf-za-l { display: none; }
 .sf-flmode .sf-key .k-za { background: #e4efe8; border: 1.2px solid var(--sf-green); }
 .sf-flmode .sf-globe svg { overflow: hidden; }
+
+/* the "i" beside the title: key figures as a sentence */
+.sf-iw { position: relative; display: inline-block; vertical-align: .35em; }
+.sf-i { width: 20px; height: 20px; margin-left: 8px; padding: 0; border: 1px solid var(--sf-ink); border-radius: 50%; background: transparent; color: var(--sf-ink); font: italic 700 12px/18px var(--font); letter-spacing: 0; cursor: pointer; }
+.sf-i:hover, .sf-i[aria-expanded="true"] { background: var(--sf-ink); color: #fff; }
+.sf-ipop { position: absolute; left: -8px; top: calc(100% + 10px); z-index: 40; width: min(340px, 80vw); padding: 12px 14px; background: #fff; border: 1px solid var(--sf-ink); box-shadow: 0 8px 24px rgba(0, 0, 0, .12); font: 400 15px/1.45 var(--font); letter-spacing: 0; text-align: left; color: var(--sf-ink); }
+.sf-ipop[hidden] { display: none; }
+@media (max-width: 620px) { .sf-iw { position: static; display: inline; } .sf-ipop { position: static; display: block; width: auto; margin: 12px 0 4px; box-shadow: none; } }
