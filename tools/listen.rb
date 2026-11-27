@@ -3,8 +3,8 @@
 # Runs in the hourly GitHub Action after tools/build-seo.rb, reading the static story pages.
 #
 # Voice service (GitHub > Settings > Secrets and variables > Actions), first one set wins:
-#   1. Microsoft Azure Speech: AZURE_SPEECH_KEY and AZURE_SPEECH_REGION (e.g. southafricanorth). Voice en-ZA-LeahNeural
-#      (South African English, female); set LISTEN_VOICE to en-ZA-LukeNeural for the male voice. The free F0 tier
+#   1. Microsoft Azure Speech: AZURE_SPEECH_KEY and AZURE_SPEECH_REGION (e.g. southafricanorth). Voice en-GB-RyanNeural
+#      (British English, male); set LISTEN_VOICE to another Azure voice to change it (samples: voices.html). The free F0 tier
 #      allows 500,000 characters a month.
 #   2. ElevenLabs: ELEVENLABS_API_KEY. Voice "Peter" (South African English, from the ElevenLabs voice library).
 # With neither, this does nothing and the site falls back to the reader's own device reading the story aloud.
@@ -26,7 +26,7 @@ AZ_REGION = ENV["AZURE_SPEECH_REGION"].to_s.strip.downcase.delete(" ")
 EL_KEY = ENV["ELEVENLABS_API_KEY"].to_s.strip
 PROVIDER = !AZ_KEY.empty? && !AZ_REGION.empty? ? "azure" : !EL_KEY.empty? ? "elevenlabs" : nil
 VOICE = if !ENV["LISTEN_VOICE"].to_s.empty? then ENV["LISTEN_VOICE"]
-        elsif PROVIDER == "azure" then "en-ZA-LeahNeural"
+        elsif PROVIDER == "azure" then "en-GB-RyanNeural" # Ryan, British English, male (chosen by ear on voices.html)
         else "wldVCiOxtkWPlsr2mHyo" # "Peter", ElevenLabs
         end
 MONTH_CHARS = (ENV["LISTEN_MONTH_CHARS"] || (PROVIDER == "azure" ? 400_000 : 40_000)).to_i
@@ -47,7 +47,7 @@ def speak(text)
     req = Net::HTTP::Post.new(uri, "Ocp-Apim-Subscription-Key" => AZ_KEY, "Content-Type" => "application/ssml+xml",
                                    "X-Microsoft-OutputFormat" => "audio-24khz-48kbitrate-mono-mp3", "User-Agent" => "preamble-listen")
     paras = text.split(/\n\n+/).map { |p| CGI.escapeHTML(p) }.join('<break time="600ms"/>')
-    req.body = %(<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-ZA"><voice name="#{VOICE}"><prosody rate="-4%">#{paras}</prosody></voice></speak>)
+    req.body = %(<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="#{VOICE[0, 5]}"><voice name="#{VOICE}"><prosody rate="-4%">#{paras}</prosody></voice></speak>)
   else
     uri = URI("https://api.elevenlabs.io/v1/text-to-speech/#{VOICE}?output_format=mp3_44100_64")
     req = Net::HTTP::Post.new(uri, "xi-api-key" => EL_KEY, "Content-Type" => "application/json", "Accept" => "audio/mpeg")
