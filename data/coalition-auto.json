@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-27",
-    "time": "06:12"
+    "time": "07:18"
   },
   "items": [
     {
@@ -1432,6 +1432,18 @@
       "src": "Briefly News",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeExhQWRtWXNZTHk5dmhCbEktNXNmTW9Za1JOMlFZMUtQRFBmZFlVSFlZMFUtUEV5RVBEcWQ4VUkxWXNNTHFGWGszS293SzllOWRST1ptM0J5V05pOG5rblI5cXN6NEdIYkN0andMc0o4Mi1YLWgzSHdkbGJUTEhUVnlBUC1CLVdYQVdpNlFCQTFNZ1pu?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-44329fe3ca",
+      "j": "moya",
+      "d": "2026-11-27",
+      "kind": "Reported",
+      "place": "Tshwane",
+      "h": "Moya pledges coalition unity as Tshwane’s new government takes shape",
+      "s": "eNCA reports Nasiphi Moya pledged coalition unity as Tshwane's new government takes shape.",
+      "src": "eNCA",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcVpncnlhUnN2ZDNWNEJ4ZFNtYmxiNzZmU0wtSWYwbWVYdWlGYUpHRDdsV2tFalhXcmlaZ1FJeC15X1l1d2UtMklNYjYyY2VZVWJiRHZSR2xNM3VNcjQ2Yk5xd1Z2Q3duRnhIekVGSzlIdUJmYTFVbTdETnpySVVTS1FxRDlxQ0dyWUVZYUYwUkZONDF5OTlvV1JORGdqWFVIaGJWX3hleEpoS1BLSXc?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -1507,7 +1519,8 @@
       "a-dc3c648345",
       "a-e841800590",
       "a-2af0827b08",
-      "a-2897ef0a78"
+      "a-2897ef0a78",
+      "a-44329fe3ca"
     ],
     "grand-deal": [
       "a-4aa7f8b650",
@@ -2062,6 +2075,18 @@
         "h": "Joburg City Council reconvening to elect new mayor",
         "d": "2026-11-27",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa0lnWXlpOVN5aUQ3LVZNTEtLSmlpSTViX0gxTWJqSEdDZjhnaWFyNWxsakp6cnp5N1YxeU42RVhEYWdPZzA3c3l4c1ZqWWVfOUx1dThhYmJHXzFGWFJVZFZKRk9sTFdJYkJNRTFNMFh5dmp2dVpFSzlKS2ZMTld1aGpuc2ItWi1HY0NB?oc=5"
+      },
+      {
+        "src": "IOL",
+        "h": "‘We will be shut out’: ANC advances Gauteng coalition talks as Zille signals DA defeat",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZjg1aGhNNlFONUE3WVo5STFPVzNOZTNGR0l6QXNyVzVkMk94aGJKeFRoNFo3TkpWQ3FuVVpDTllvWFE5VFVjU21hMEY4cDNpdWN2RHM2ZnlxWkZ3WUkxV25VclhyMHRuaTRhRnc5WHNZaFJ2NWZKVWI0ekJESzBKeFhWWWIyOElreklWWnF5MVVTQ3pzcUVXNlNjaGZCbE1PbmJmRHRtQ3M3T21YSWdTSkxZZHd4MXJkQ25ma19R?oc=5"
+      },
+      {
+        "src": "Sunday Tribune",
+        "h": "Johannesburg councillors to elect mayor and other office-bearers on Friday",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVTBSVTVYZHRGVTEyWDRnYW1mRUI0ejFFX3NWOWtlb3dxMUpSaE5rakdZLWFmYmZ2QVZTQ1NmOGdMcVYzdkdUNkZ6SFlVRmhTRmNQeVpRUDQ0UUVvTTY3QkNqT2d3cHZheTNwbjM4cUxJZHRySjhyNWVFNUdhN1ZLMkN6MDF1QVVoNjRRU0JCNndPY1REUGFCa1BKNnRGRkVmX3lzcDNxcERKUTZXWmZUVXF3WkJ0bFdjU1RoU0thNVlIRUREMkQyQng1bk1VUG1mNVFj?oc=5"
       }
     ],
     "councils": [
@@ -2420,6 +2445,30 @@
         "h": "ActionSA keeps Tshwane mayoralty, setting template for Joburg and Ekurhuleni",
         "d": "2026-11-27",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZWJnNzdoR1ZMeHZGSlRBbUJKdDUzMXZEdjFpNnVtQk5qdXprbHpfVEFsN1AyUVk4VVd5V2dJanEzYmVFVk05R0tZdnNNTDFKcFo1dzhhemRsYkNJMnFvczJFNnlqVE9FREdfZTYxZ2VSZlI1LTE4S1ZxVFZodHduNGJtRWtlbEhRVGlVVE1JaFN2dm1ZNlVmQTZ3SjhTYjRmTHp3bk40VDNNNVBkbFBKTVhBVzhrTlhfNmc?oc=5"
+      },
+      {
+        "src": "News24",
+        "h": "Tshwane sends the signal: MKP out as coalition deal falls into place in Gauteng metros",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUnVoTTFsb3dPVWNGSGdreGZaLTdhN0F2cE5CWWVSM1BTNk1JU3hrOU9YUkFidWdzZUR3T1hfU2hfU0E5ZEZqOU5Yay01c2IzNm8teDdlUUstek9oNGxrSGpEaFdkaXo5NmMyUk9hLVNELUoxTnZVM3VWb3J1S1lDTVpUeXZyUTQwSFctaW5OejJPZVdQbWRfekhVMHBId3U0N0xvSXVidXBzVF9GNF9WaFlBTU1YMEtnVURfYm9GcUxlZVMtSlVQNVMySQ?oc=5"
+      },
+      {
+        "src": "Jacaranda FM",
+        "h": "ActionSA's Nasiphi Moya returns as Tshwane mayor",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZWZVaTdJbXp2WGJRWjJ0VzI1WDFvR0M3Ulh3MkhvVGEyQl9HWHNwdzUtdG5GQV9GaE1wOG1xM2U0aDJGczU3VTVjNXp5VzROY0JJOU4wV3NmRXBIUzBPaTU4ek1oS2pQNThYenpWbEdiNDVjbkNyWkk5R3JvaEpPZHZ6SEM3dERWalBSeFl6Yw?oc=5"
+      },
+      {
+        "src": "thestar.co.za",
+        "h": "WATCH: EFF’s Omphile Maotwe poised to become Tshwane deputy mayor as Mashaba backs Moya for another five years",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMjF2S0V5TnR1R0pXdHozcHJHRjduZndLMUU3RnRSSGZLNE03eXFYcHlUYTZBVUNLdGZBN3RSb29MUGo2UlR2S2pHSms2ODVDZ203VHNtVUVWdVJqRWpkQUhyMkR3Y2c0VmJyNVg1X1Bjd3ZuTjBPMDRZc3QxZVJPVnRUX3ljd0c0NERxXzRxamI4cExlRXppWW1uT0hHOXA3OVZuMDhmLUtWa1ZtTkZ6QUFYRnRWR1pfeUY2X0lhSVJRRU9sOXl1Q3RXanJja0ttaDFWU2J2YjdRN2pOVHptMnBZYUY?oc=5"
+      },
+      {
+        "src": "thestar.co.za",
+        "h": "Confirmed: Nasiphi Moya re-elected as Tshwane Mayor",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOU1hCUF8wWi1pOGt2bklQZ25LaE9yRkZXZHoyZFNiM09GN3ZDOWVDZnd3VElhSzZIWW5oam81X2ZZbVZkZUxnODRfdVc1WE9LVmJ3SHBwUmpOMk1qQjhrMmxSc2dtZ2p4RDdzYjR3cXp1bWNKRVUwUDZQMHJmRF9VQ2RGSWpZVTVvWmxDd3BvUGd0aXZVRkt3?oc=5"
       }
     ],
     "actionsa": [
@@ -2524,6 +2573,12 @@
         "h": "ActionSA’s win in Tshwane sets template for Joburg and Ekurhuleni",
         "d": "2026-11-27",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOR0RYaklOaFhLbU1Jb29YVGpsbWVpa3ZRTWlTRVZvdTg4Z2pXVGVIS0Q0cmRlUXRncWlDMDRKX2lvZUNuUEJXRVlqaUlSQ0U3Vlg3Q0o5c3dNYlR6dVc1cWJXZXJFa3N1cEx5SXdOZHd5Z0tILWtPTGFKRksxYThNREVtaDFkOGZ4WjBERTBPcHNNSEtldUNUTlFCQzIxM2JOREQwcXZURGhNeGtZRy1wblFGUG03VlVFRHI2b1R3dXJfTG1aNGY0?oc=5"
+      },
+      {
+        "src": "IOL",
+        "h": "ANC, EFF, MK Party and ActionSA close in on Gauteng metro coalition deal to sideline DA",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONFpJdnh0WTJmUjRua3dLOWRNZHlmM3B6QkwwVXhQbEZaM1k3RU1DZlFIOTNSTXB5Xy1VeXZQN1JMaEFuN2ZfenBBeklYOVRya2g0b2RGNm9FS3FjTDdmamhLeUxhVU5GY3RnOElzN0hiNnNfUlByeG1xYkVNUDgxbUNCY0VqOGw4R0R2Vzloblh1U1FVNEFGNlJCMmhFcXJRYXRmQzhKdXh5X2dXdlJKWlZ4cnhwZ01qNmlGYW9MWXFhNmtEMW5vSg?oc=5"
       }
     ],
     "mk": [
@@ -3303,6 +3358,12 @@
           "h": "MK Party tipped for eThekwini mayor as coalition talks near conclusion",
           "d": "2026-11-24",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQY2RINmtvSEdjanJpRjhWdWFBRTlOZDQ5cmVSazR6cVVxalQ2UHM0dGtRRzU1UUFUZzRqTGl0eFFhWndFMmNUTW5ZOEtkU3A0TDJJWXhvZjJpd2Jwc3lwSEVFeVVEZ1E4LTRWUzlUWDI1VFpqeTNSLVNUdjFKLWNlZnBodzJoTU5HbnJhdkdzbUFvZGpidmlwaHhFbmtYa0c5T200TENFcFo1ZmhUcUd4c2dWblFqVUZh?oc=5"
+        },
+        {
+          "src": "sundayindependent.co.za",
+          "h": "WATCH: Parties divided over postponement of eThekwini mayoral vote",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbkR6TmFnZVpKVXBOU3NxX1E0SGZtOXU3Y0VocjZXd2h2dmw5dHNkUldvSmhzdjdXZG9UdlVNdTNCT1ZDTVRmUUkwTjBqQk9haHV1Y29tTVYxVkprdFBDQU9QcVlGTjI3akVVVFZhWWZjSnZzWkZsa0IxXzdaS0JmMTQ4OWtBWTYtYlVWbG53R2p4eXdybm9OZUJCa292U0FITTlUUG9JREtxU1JseldFQjU3dU5zNGtxVW5wR0NSLUgyUQ?oc=5"
         }
       ],
       "sec": [
@@ -4420,6 +4481,12 @@
           "h": "ANC resolves DA should be last resort in municipal coalition talks",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOd09CYnBEdlJkcjlJbkVlQ2k0NnVEZ3Y4dlhKWVc1clA5WTdLMjlWZlVpblBFZ1dabDJQZlhnSDdmWE0ydXB6ZU9qQXVoMm5abVdzYlh0YmE4VjVnRU9zTjZFNmV3U3o4WEFJSlJhNnNaQjktTFJBTGszN0JrLXMwdzBGNUExMlRwNi12OEhYLWkwM1pWLWxnWmVFQzVRamVybEhEU0RTc1llcjVzQUcw?oc=5"
+        },
+        {
+          "src": "YouTube",
+          "h": "The ANC Is Now A Federal Party, South Africa's Fractured Coalitions And Democratic States Regress",
+          "d": "2026-11-27",
+          "url": "https://www.youtube.com/watch?v=txCdk8By4TQ"
         }
       ],
       "sec": [
@@ -5490,6 +5557,17 @@
     "87787934b1ac",
     "80997109cd9c",
     "ddc06d1d0e68",
-    "b3c301ff04a8"
+    "b3c301ff04a8",
+    "389f2d73ff88",
+    "09910eb104fb",
+    "83c7ad053464",
+    "b0fef1afc627",
+    "44329fe3ca76",
+    "65813107adb1",
+    "64188a603507",
+    "a587ff7d79fb",
+    "8ca08865a895",
+    "87afb9186c90",
+    "65681a839586"
   ]
 }
