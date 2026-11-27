@@ -1295,3 +1295,11 @@ body.has-ask { padding-bottom: 96px; }
 .rs-top .bc-jump svg { width: 15px; height: 15px; }
 .rs-top .bc-jump:hover, .rs-top .bc-jump:focus-visible { background: #333; }
 #build-your-coalition { scroll-margin-top: 90px; }
+.bc.bc-page { margin-top: 4px; padding-top: 0; border-top: 0; }
+.bc-more { margin: 22px 0 0; font-size: 14px; }
+.bc-more a { color: #121212; font-weight: 600; }
+/* Coalitions Tracker: pill to the coalition builder, before the intro */
+.pl-ed .bc-pill { display: inline-flex; align-items: center; gap: 7px; margin: 10px 0 12px; padding: 9px 15px; border-radius: 999px; background: #121212; color: #fff; font: 600 14px/1 var(--font); text-decoration: none; }
+.pl-ed .bc-pill svg { width: 15px; height: 15px; }
+.pl-ed .bc-pill:hover, .pl-ed .bc-pill:focus-visible { background: #333; }
+.rs-wrap.bc-wrap { max-width: 1100px; }

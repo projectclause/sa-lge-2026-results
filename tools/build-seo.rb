@@ -294,6 +294,7 @@ pages = {
   "index.html" => { "@type" => "WebPage", "name" => "South Africa 2026 local election results", "description" => "Live results of South Africa’s 4 November 2026 local government elections: the national vote, a ward map and who won each metro." },
   "mayors.html" => { "@type" => "WebPage", "name" => "Mayors of South Africa’s metros after the 2026 elections", "description" => "Who leads each of South Africa’s eight metros after the 2026 local elections, and who is tipped where talks continue." },
   "map.html" => { "@type" => "WebPage", "name" => "2026 local elections ward map", "description" => "Results for every one of South Africa’s wards in the 2026 local government elections, searchable by address." },
+  "build-your-coalition.html" => { "@type" => "WebPage", "name" => "Build your coalition", "description" => "Pick a metro, add parties until they hold a council majority, and see who would become mayor after South Africa’s 2026 local elections." },
   "saffa.html" => { "@type" => "WebPage", "name" => "SAFFA: where South Africans live abroad", "description" => "A globe of the countries where South Africans live abroad, and every embassy, high commission and consulate South Africa keeps around the world." } }
 pages.each do |f, pg|
   path = File.join(ROOT, f); s = File.read(path)
@@ -310,13 +311,14 @@ urls << ["#{SITE}/people/", today, "daily", "0.7"]
 urls += PEOPLE.map { |q| ["#{SITE}/people/#{q[:slug]}.html", q[:upd], "daily", "0.6"] }
 urls << ["#{SITE}/news-tracker.html", today, "hourly", "0.7"]
 urls << ["#{SITE}/saffa.html", "2026-11-26", "monthly", "0.6"]
+urls << ["#{SITE}/build-your-coalition.html", "2026-11-27", "weekly", "0.7"]
 urls << ["#{SITE}/privacy.html", "2026-11-25", "yearly", "0.3"]
 File.write(File.join(ROOT, "sitemap.xml"), %(<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n#{urls.map { |u, d, f, p| "  <url><loc>#{u}</loc><lastmod>#{d}</lastmod><changefreq>#{f}</changefreq><priority>#{p}</priority></url>" }.join("\n")}\n</urlset>\n))
 
 # ---------- llms.txt ----------
 llms = +"# PREAMBLE\n\n> South Africa’s global and local data. Live results of the 4 November 2026 local government elections, a ward-by-ward map, the mayors of the eight metros, and a Coalitions Tracker that groups reporting on the coalition talks into stories with summaries and links to every original article. Updated #{day(ed["date"])}, #{ed["time"]} SAST.\n\n"
 llms << "Data: Independent Electoral Commission (IEC). Summaries are written by Preamble with AI from published reporting; the journalists and politicians quoted do not write for Preamble.\n\n"
-llms << "## Main pages\n\n- [2026 election results](#{SITE}/): national vote, ward map and who won each metro\n- [Coalitions Tracker](#{SITE}/coalitions.html): every story on the coalition talks, in South Africa and abroad\n- [Mayors](#{SITE}/mayors.html): who leads each metro, and who is tipped where talks continue\n- [Ward map](#{SITE}/map.html): results for every ward, searchable by address\n- [News Tracker (beta)](#{SITE}/news-tracker.html): an animated map of how the coalition stories spread across outlets and voices, day by day\n- [SAFFA (beta)](#{SITE}/saffa.html): a globe of where South Africans live abroad and of South Africa's embassies, high commissions and consulates\n\n"
+llms << "## Main pages\n\n- [2026 election results](#{SITE}/): national vote, ward map and who won each metro\n- [Coalitions Tracker](#{SITE}/coalitions.html): every story on the coalition talks, in South Africa and abroad\n- [Build your coalition](#{SITE}/build-your-coalition.html): pick a metro, add parties until they hold a majority, and see who would become mayor\n- [Mayors](#{SITE}/mayors.html): who leads each metro, and who is tipped where talks continue\n- [Ward map](#{SITE}/map.html): results for every ward, searchable by address\n- [News Tracker (beta)](#{SITE}/news-tracker.html): an animated map of how the coalition stories spread across outlets and voices, day by day\n- [SAFFA (beta)](#{SITE}/saffa.html): a globe of where South Africans live abroad and of South Africa's embassies, high commissions and consulates\n\n"
 llms << "## Coalition stories (newest first)\n\n"
 STORIES.each { |s| llms << "- [#{s[:h]}](#{SITE}/coalitions/#{s[:id]}.html) (#{s[:scope]}, updated #{day(s[:upd])}): #{s[:dek]}\n" }
 llms << "\n## People (profiles: who they are, what they said, every piece tracked)\n\n"
