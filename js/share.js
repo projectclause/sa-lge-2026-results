@@ -231,11 +231,81 @@
     } finally { btn && btn.classList.remove("busy"); }
   }
 
-  window.ShareCard = { render, share };
+  window.ShareCard = { render, share, preview };
+
+  // ---------- share icon on each card: tap it to see the image first, then share, save or copy the link ----------
+  const ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7.5 7.5 12 3l4.5 4.5M5 11v8.5a1.5 1.5 0 0 0 1.5 1.5h11a1.5 1.5 0 0 0 1.5-1.5V11" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  // which cards get an icon, and which image each one makes
+  const SPOTS = [[".rs-nat", "race"], [".my-city", "card"]];
+  function addIcons() {
+    SPOTS.forEach(([sel, key]) => document.querySelectorAll(sel).forEach((el) => {
+      if (el.querySelector(":scope > .share-btn") || !el.firstElementChild || el.querySelector(":scope > .dm-loading")) return;
+      el.classList.add("has-share");
+      el.insertAdjacentHTML("afterbegin", `<button type="button" class="share-btn" data-share="${key}" aria-label="Share this card as an image" title="Share">${ICON}</button>`);
+    }));
+  }
+  // cards redraw themselves (a new city, a new council), so put the icon back each time
+  if (typeof MutationObserver !== "undefined") {
+    let t = 0; new MutationObserver(() => { clearTimeout(t); t = setTimeout(addIcons, 60); }).observe(document.body, { childList: true, subtree: true });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", addIcons); else addIcons();
+
+  let box = null, cur = null, back = null;
+  function modal() {
+    if (box) return box;
+    box = document.createElement("div"); box.className = "shp"; box.hidden = true;
+    box.innerHTML = `<div class="shp-box" role="dialog" aria-modal="true" aria-labelledby="shp-h">
+      <div class="shp-top"><p id="shp-h" class="shp-h">Share this card</p><button type="button" class="shp-x" aria-label="Close">×</button></div>
+      <div class="shp-img"><p class="shp-wait">Making the image…</p></div>
+      <div class="shp-acts">
+        <button type="button" class="shp-b shp-main" data-a="share" hidden>${ICON}Share</button>
+        <button type="button" class="shp-b" data-a="save"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7.5 10.5 12 15l4.5-4.5M5 19h14" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>Save image</button>
+        <button type="button" class="shp-b" data-a="copy"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.66 0l3-3a4 4 0 0 0-5.66-5.66l-1 1M14 10a4 4 0 0 0-5.66 0l-3 3a4 4 0 0 0 5.66 5.66l1-1" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>Copy link</button>
+      </div>
+      <p class="shp-note" role="status"></p></div>`;
+    document.body.appendChild(box);
+    const note = box.querySelector(".shp-note"), say = (t) => { note.textContent = t; };
+    box.addEventListener("click", async (e) => {
+      if (e.target === box || e.target.closest(".shp-x")) return close();
+      const b = e.target.closest(".shp-b"); if (!b) return;
+      const a = b.dataset.a;
+      if (a === "copy") { const url = location.href.split("?")[0]; try { await navigator.clipboard.writeText(url); say("Link copied."); } catch (err) { say(url); } return; }
+      if (!cur) { say("The image is still being made…"); return; }
+      if (a === "save") { const dl = document.createElement("a"); dl.href = cur.url; dl.download = cur.file.name; document.body.appendChild(dl); dl.click(); dl.remove(); say("Image saved."); return; }
+      if (a === "share") {
+        navigator.share({ files: [cur.file], title: cur.title }).then(() => close()).catch((err) => { if (!err || err.name !== "AbortError") say("Could not open the share sheet. Use Save image instead."); });
+      }
+    });
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !box.hidden) close(); });
+    return box;
+  }
+  function close() {
+    if (!box || box.hidden) return;
+    box.hidden = true; document.documentElement.classList.remove("shp-on");
+    if (cur) { const u = cur.url; setTimeout(() => URL.revokeObjectURL(u), 4000); } cur = null;
+    if (back) back.focus();
+  }
+  async function preview(d, btn) {
+    const m = modal(); back = btn || null; cur = null;
+    const img = m.querySelector(".shp-img"), sh = m.querySelector('[data-a="share"]');
+    img.innerHTML = '<p class="shp-wait">Making the image…</p>'; m.querySelector(".shp-note").textContent = ""; sh.hidden = true;
+    m.hidden = false; document.documentElement.classList.add("shp-on"); m.querySelector(".shp-x").focus();
+    try {
+      const canvas = await render(d);
+      const blob = await new Promise((r) => canvas.toBlob(r, "image/png"));
+      if (m.hidden) return;
+      const file = new File([blob], (d.file || "preamble") + ".png", { type: "image/png" });
+      cur = { file, url: URL.createObjectURL(blob), title: d.title || d.region || "Preamble" };
+      img.innerHTML = `<img src="${cur.url}" alt="Image of this card to share">`;
+      // the image is ready before the Share tap, so phones allow the share sheet to open
+      sh.hidden = !(navigator.canShare && navigator.canShare({ files: [file] }));
+    } catch (e) { img.innerHTML = '<p class="shp-wait">Could not make the image. Please try again.</p>'; }
+  }
   document.addEventListener("click", (e) => {
     const b = e.target.closest(".share-btn"); if (!b) return;
-    const get = window.SHARE && window.SHARE[b.dataset.share];
-    if (get) share(get(), b);
+    e.preventDefault(); e.stopPropagation();
+    const S = window.SHARE || {}, get = S[b.dataset.share] || (b.dataset.share === "race" && S.panel);
+    if (get) { const d = get(); if (d) preview(d, b); }
   });
 })();
 
