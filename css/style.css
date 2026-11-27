@@ -1304,3 +1304,6 @@ body.has-ask { padding-bottom: 96px; }
 .pl-ed .bc-pill:hover, .pl-ed .bc-pill:focus-visible { background: #333; }
 .rs-wrap.bc-wrap { max-width: 1100px; }
 .bc-confetti { position: fixed; inset: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 9999; }
+/* Build your coalition: a bigger page title */
+.bc-wrap .rs-top .rs-title { font-size: clamp(34px, 4.6vw, 46px); line-height: 1.05; letter-spacing: -.02em; }
+@media (max-width: 720px) { .bc-wrap .rs-top .rs-title { font-size: 30px; line-height: 1.1; } }
