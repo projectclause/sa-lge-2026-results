@@ -1,6 +1,6 @@
 # PREAMBLE
 
-> South Africa’s global and local data. Live results of the 4 November 2026 local government elections, a ward-by-ward map, the mayors of the eight metros, and a Coalitions Tracker that groups reporting on the coalition talks into stories with summaries and links to every original article. Updated 27 November 2026, 16:59 SAST.
+> South Africa’s global and local data. Live results of the 4 November 2026 local government elections, a ward-by-ward map, the mayors of the eight metros, and a Coalitions Tracker that groups reporting on the coalition talks into stories with summaries and links to every original article. Updated 27 November 2026, 17:06 SAST.
 
 Data: Independent Electoral Commission (IEC). Summaries are written by Preamble with AI from published reporting; the journalists and politicians quoted do not write for Preamble.
 
@@ -87,6 +87,7 @@ Data: Independent Electoral Commission (IEC). Summaries are written by Preamble 
 - [Nasiphi Moya](https://preamble.co.za/people/nasiphi-moya.html): ActionSA, re-elected mayor of Tshwane; key player, 8 coalition pieces
 - [Nomvula Mokonyane](https://preamble.co.za/people/nomvula-mokonyane.html): ANC deputy secretary-general; key player, 2 coalition pieces
 - [Sixolise Gcilishe](https://preamble.co.za/people/sixolise-gcilishe.html): EFF elections spokesperson; key player, 1 coalition piece
+- [Thabani Nyawose](https://preamble.co.za/people/thabani-nyawose.html): ANC, Speaker of eThekwini; key player, 1 coalition piece
 - [Tlaleng Mofokeng](https://preamble.co.za/people/tlaleng-mofokeng.html): EFF mayoral candidate, Johannesburg; key player, 1 coalition piece
 - [Velenkosini Hlabisa](https://preamble.co.za/people/velenkosini-hlabisa.html): IFP president; key player, 3 coalition pieces
 - [Wouter Wessels](https://preamble.co.za/people/wouter-wessels.html): FF Plus chairperson; key player, 1 coalition piece

@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-27",
-    "time": "16:59"
+    "time": "17:06"
   },
   "items": [
     {
@@ -1684,6 +1684,18 @@
       "src": "newsday.co.za",
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNam4wbVdLbmxBd0hPclpJVEJvSnpxZC1VQi0zSVE0OWlkdi1iNWF3NjR5QmdrNGxZN1RuellXdk9xWl9jaGJ0MGtKa2FrSGswNXNpWl9GWUlySlRnVS05WU4tRWxycEJXS2FwT3F2YXRqc0hUTXdFaTVqSkhCbmJwV2JidlFtVldNRWw0UHdTZWNzZzM3Q1I2YmtyV3dkWlJpOWtKaGduZElrT3NPM3NPNHhFN3pnZlVLMElYNEd3TDdUaWtXOV9hb2lFdEhSLVZxc2J5MFh5RElEYVpKcnotZlBLWTJ0V2dia0d0cS1R?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-59a8566229",
+      "j": "nyawose",
+      "d": "2026-11-25",
+      "kind": "Article",
+      "place": "eThekwini",
+      "h": "ANC’s Nyawose: eThekwini voters gave no party a mandate to govern alone",
+      "s": "The Star reports the ANC's Thabani Nyawose saying eThekwini voters gave no party a mandate to govern alone.",
+      "src": "thestar.co.za",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNM25mbHZ6NlpqUzNHMWVYTEpYdnBaWlc0N25JaHRXRmRsdWhiSnRidGRaVWRIeDVqNjIyNXdkb3hlYWVZM211R202b05vTjlSN21zd0pjREFfakV5SldqMmxkdi1lbndRRVd1eEx2RXJGVzNoQVVWYWViUVdUTjRRUGxCQUVqT3lYdGJEbS1vME83a0hFTk1SeTgwSkxLak5Oc1RoaGg4TDBjOVpYLWhyWG54SnItVnRz?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -2458,6 +2470,24 @@
         "h": "ANC secures Joburg speaker as Adolph Marema wins council vote",
         "d": "2026-11-27",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOb281Sl9nYzZpcmhrLXJla05Vc0dUZWo1YkFoMFo1SnNfaHBWb21jV3pJejRJM0ROWEphSnBIUlJCUDJEMXlCS0I4Z0JfNGhrTHo0QjZ4aVNSenhzVWxSRDd0d3JvM01GdDRaNzcyWEthYW5mdGpUQ0Fna25TSXd1X3Y1SVVKQm9wRWc0bGN4Znd4TzRLOXRTUmREZWl2cElRWGRfS000Zlg4bW9McUdET01WMTNWNXozRy1yZXFoU1Bkdw?oc=5"
+      },
+      {
+        "src": "themercury.co.za",
+        "h": "LIVE | Mashaba set for Joburg mayoral return as council reconvenes to elect new mayor",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOGlfVXJ0TnlqOTZZcDJNOGlsSWJnSlprd0VmVmtwcFdPNG1GLVo4dmRNanhtai1tREJDMW5fUnJ3ZnplWUJuZmtKZER2cVlEcHg0S3F0LVRIVlc5X0pHaDBxS0RmdVV0S3RqVU5TR0FQdUF0UWtsejVMV2tEUXRCY09RbUozN0ZaWDF2QVpVYk5uQkltOXNHRWlCV3pPQjJHN2V1VjI5SkFDSnhnNlRuNmJqcnVmZjQ3M083Yw?oc=5"
+      },
+      {
+        "src": "eNCA",
+        "h": "ANC's Adolph Marema elected Joburg council speaker",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVXNIUTc3U0tCSHU5T1U0VUNwc1FiYXpteWUzVFY1bzdwZ1YxejlFeklyTGhCdkt6T3AwZ3dFeVdVY3BueEdMcUQwT1BMeDY5dVJBMFBFV1F4cnlLalBXZExxdkpGYVFkSGdrOG8wa21VWVlUZjNiM2N4akZZYnpSbnFlZEFWN256WjljYk82UjA?oc=5"
+      },
+      {
+        "src": "IOL",
+        "h": "ANC's Adolph Marema defeats DA's Alex Christians to become Johannesburg council speaker",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMW5vZjFlZHpXWFNjY0QtUXRTZ05YVmpSZS14Yi1rU0Z6RXRXNFVxajJRU01sdFd6VlJqMHh0eUVkYk1ncExhOFZreWhfVEtnVEVldFdIeUtzSjJmc201S3FVcTFnRnJzYjNBVkdqXzh3bW04T3JVal9hY3JwQXJIRFZsczF4ZHBpYU9SUGoyU2JFMUl4SWxvc19zUE5aN2RIVmh3WFFrSUNIejVJdUdUYmhvd3g5WkRidDQ0VDZzTjBWRkVQS3NhdQ?oc=5"
       }
     ],
     "councils": [
@@ -2948,6 +2978,24 @@
         "h": "WATCH: EFF’s Omphile Maotwe poised to become Tshwane deputy mayor as Mashaba backs Moya for another five years",
         "d": "2026-11-26",
         "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNb3BVMVFnSzBMTGU1eFo3ODkyd3kxdmtJZWdLN0NGRDVqWE5JSGRiN25kQmhyWnQzUzFQV1BKa05ITUlJNVJVTjlzd3pQLTdIUy1ESmNaYWhRZUZCQ3ZkS0FNMW4xS2FvVFptSl82Y3p4dVo3RW9vdVZkdFIyOG5oSHBta3dQYzVaRHhIcmk1TVE4anFpbW1jcEFUaGh5S1JiZW93cmQ4TURscXlYMkw1Y3A1ZmlBcTlZZGh3OUVoeEJuUGg2UlZwSkFzRGF4NVM0b2xYQnVycUpjYkFfczFveWJ0YzQ4SzVk?oc=5"
+      },
+      {
+        "src": "thestar.co.za",
+        "h": "Naeem Patel elected Tshwane council Speaker",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdTh2Tk8zRWNmYUtacDUweHUtT2twb0wyMF8tVEs1VFVjVzZPYmI1bDV5RUoxM0hNNVZmelg2aXN6Ry0zdzlCTV9IUkpGcVV0b2xHOVB0TTl4VXVqRWJCMGZuWVV5YkFjM0t5Wm05VWQ5eVdaaGJSYXpXNWVVQXB6eHc1bk9aSzF5QnI1MVZza3VJWDhlODF2WXFHc2tvRkNi?oc=5"
+      },
+      {
+        "src": "themercury.co.za",
+        "h": "Confirmed: Nasiphi Moya re-elected as Tshwane Mayor",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMnkxb0xlRXZEd3dhdkdYanRXeFpFVHNrQWo4WUJYT0NuT0RIU2VOdVM1N2Y0Q19vbERIOS1ycU40WHJkMkxFejVtT2FJUTB3TC1UQUN2aGREU21sVlpobmRuU0RXT0sxb1hMZ3BNMEFWTVZzVEFrME12dEtaQ2N3Si1vekpoU1V1YkgzcjBTeVV4SzA2U0hvbTVuaw?oc=5"
+      },
+      {
+        "src": "Pretoria News",
+        "h": "ANC secures speaker of Tshwane, signalling a governing bloc",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM2VLTy10ek8wVE9BTk1hQ0ZUb3V4dngwYkI0WVk0NFFmUWRyd3VzQl9jcHc5MWZQaHMwWlRWLW9fbzhFX2ZrczZuLVp1NGliV3o5OGotTHgwc2paWXJpdmdYT3pPdnN2QW9BQTZ2QVkwUEx0NG52MGdsSm8tVkhyLWFjWlFVM1Z3cm02S3hQWmFJNWpmUmh3bnFDYWxtekRvTy1uZA?oc=5"
       }
     ],
     "actionsa": [
@@ -3094,6 +3142,12 @@
         "h": "ANC reports ‘progress’ in Gauteng negotiations as talks favour ActionSA",
         "d": "2026-11-27",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOa2hteHdna21VNXNHQUlqd3M3QUY5ZERndG1pbW05T0J2cS1KaWphQ0dPd3YtSEdiRE5vS2Z1algzdF9BbWw5N0RUWHpPckplMjhxRVVFYWRaNDlpR01JbWlOQnF4cmN0RUxXVDI0cFdFX084ZzJZa3BJN2tPZVRZSmhSYnM5SzNrNzlzQXRnV285UGN4NDRLQzFPdU1IdnljS19PX3ZLUXVHNGs?oc=5"
+      },
+      {
+        "src": "IOL",
+        "h": "'Frank and productive’: Mashaba meets Hill-Lewis as coalition talks continue",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQR0JGTDBhS1ZuUldpVzAwYU5MZnlpZEdVTjAxNEdXUVBDVGNQRWt3MWsyMmpwdS1SOWlTa0RTT21obmVidW1KRFp5eTlzTjd1QU84ZlRXMmVJWFBuNnJvdm94dFo3N2dxTHJvaXJuVDA5aVJOcDFidkdYVW5oVG14T0YyeE8tb1lwSXpMSlFfdlF4UXhVTWY2azN1SXVsVUg5c05BWW9QOUlqV3hXMGc0UGJvMnZ2Q0pO?oc=5"
       }
     ],
     "mk": [
@@ -3423,7 +3477,8 @@
         "a-0a53ebea91",
         "a-fdd286a6c5",
         "a-940d89f5fa",
-        "a-5e776f48af"
+        "a-5e776f48af",
+        "a-59a8566229"
       ],
       "coverage": [
         {
@@ -4103,6 +4158,12 @@
           "h": "ANC hands eThekwini mayoral seat to MK Party in surprise coalition deal",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOclZWd3BvaEJCcXhKbnFxaDctWmpBd2c2b192VkNRQW53RE95TG9GX1FLMnFMaGduUUFldnN2WmJyYzNjYWtWNXA4MkdrUHZmQUFqaFdKMkdtYUxUN19BdnJqNVlQdC05cFoyYjc3NTBmRDVZYmQ2MGdSZUtZSmFtcnF3aGlXdUdjS2tLRHdGVk5MUVNYYzN6LWNOdHFoTGtJYWNMLUVnWVAtSlRKbVRRdHVB?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "EFF objects to sign describing party as ‘minorities’ at eThekwini council sitting",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVnRSZndkQUJwZF90U1lKX1FVNjVpdTg1clpQSHZ4ek1HcmFiS3QxLWFHSzNqMzFVeXJWMURVZXNqSjdkVXQzcVA4bmpPQVFNREZiaGZSRmJheTdQaXRHV0I3VTd6TnFuUmpWQWVaTkdpQ2ZGOUl6T3FfbWpQbDc4NHF1QVRvNDJUTU9YejVVczBNdWhSbzZhQzYxQVJsMG83ZUxhS255MWRoYzJOT1dpMGp6dG90YlpjYjRmQnkzUUc?oc=5"
         }
       ],
       "sec": [
@@ -4877,6 +4938,18 @@
           "h": "MK Party backs ANC mayoral candidate in Ekurhuleni after Tshwane fallout",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUlZTSkoyWkEyOGFVdVJKTV9tTGdxZVFwTzhFQWNRbFpEZEV3N1N0TjVobkdlckozYk0wanNHemJNT2YxWnB2eVZFYkpuYWZnUDkwLTFFMDMycUZlS3JEX1VicmhscXlGc1dNU3lEdmlqTkZaOEI5V0pqWnhRZk95MWoxY3hLNGVQamhGb2t4WVdFdjg0TDE4Uld3bDdKWHlfbnZIaXlFMWwybGRnc29lQ0lxUTlsQVE?oc=5"
+        },
+        {
+          "src": "themercury.co.za",
+          "h": "Ekurhuleni council to elect new ANC mayor amid postponement due to coalition talks",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTkdmM3AxMGhRZEtndXpLREtaOE1nV296QlR5N3ZmelM1ZEhhVlFPaWhsOE55dWdWdHhwWldVUW5VYmtFSWJrSVdsZFRUV25EaGdnZFRycnIzS0VyZVViVHgyaENCSWNOdUx1Y1VJdXhVVU9FRGVYNjhmb3ZsM2ZxNXJPZWhzbUNjTmpWU0tzMzBYYklJTWhwaGQ0czg5eXEyOEVVT0dYZlF0azYyRHFDQzU2Zm4tN3RGcWNxTW9PVUFKbGtndEJDWks4NHFKdw?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "EFF’s Nthabiseng Tshivhenga re-elected Ekurhuleni council speaker with 142 votes",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUUYtR2JLZ01nQ0xwRFJDWG9KeXJ2U1BUMGZpM2pRQjNTVE4zX0FfaFdHZnJGX3JDQVJZdkNVbW92ZTh3Y3k4SldvVDdlQksteUIyel9ObVhpcEphR0Yza0NvYmxjTnJvc0ZwcVl0b0JTR04tRVFDa2dnVFN2RjJaZUJnYmhIaVhNblF1UXkzNmNaVXFBVHJmOFhzZjZuZl9abHBlVXVUX3hYLVUzRGY5a3ppOWp6bENiUVV0eThTQVdJYkV2cWxxRjB3WXQ?oc=5"
         }
       ],
       "sec": [
@@ -6704,6 +6777,18 @@
     "b0f3f8f21133",
     "7f744708244d",
     "5ac46be9e548",
-    "bc36c78b7193"
+    "bc36c78b7193",
+    "bf7be578b175",
+    "aef3866ed867",
+    "92512acb1dca",
+    "e308749096b7",
+    "4eee3359641a",
+    "ddd523983799",
+    "90ec4168d717",
+    "5e171525aeba",
+    "60d74128d238",
+    "4fc973e483b1",
+    "59a856622920",
+    "e274f8aeadac"
   ]
 }
