@@ -1,7 +1,13 @@
 {
-  "updated": "2026-11-27T18:12:54+02:00",
+  "updated": "2026-11-27T19:18:45+02:00",
   "people": {
     "elon-musk": [
+      {
+        "h": "Elon Musk gets the greenlight from the US to launch one million satellites",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZkdVUlgzRGpiRWxEUHdIeTF5QzFuUjhuck5hTURfSEJCYUlTRHA3VVhfdF9zMkhid0oyaEYxcWdzdGgwQkNEWGhJZ0NzenVZNVVZTWs0MWRqQmFFSzkyMDFjUlhEQ1lKbTlfY0h4aGVrVV9lSzhwbWVfMmJjT0kxTGFZSkREdEM1ZWFlT2pudnFLWE9EQ3A3bHdmWDhxYXdVaWNfNVVwU2Zsb0k5a3I2MUhDdVJlV3hqNVZVdlc4ZHRrR3k20gHKAUFVX3lxTE53dkZKWkU4TGo2YTY1VW1PbE1xQkJTZGVaVzU1THQwQ2Y5TEtmMDFPOGFKY2xkTTBzQ2tZbDlQeFhIenFkYXpReGQ0anI1cld5bkZuZ19xVFpkMXd6T1hYSVJ5ckhYMFRNS2xGZExnUTJhSWpTUWljbVVxWHU3ZXd2NHJkSGEwRjFfZ2U0NGNlQmdudGJkazNJdjMwOUtvOVBzRWs4VDZBV2wzcm1zNkdKU3pCdmxmUVNyQXhsTE1EaFl6eDJJYlFvTWc?oc=5",
+        "src": "Al Jazeera",
+        "t": "2026-11-27T19:03:45+02:00"
+      },
       {
         "h": "Elon Musk says he will expand on Trump Account share donations",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQX2NHY1ozODhCSlEwWjE4NG92aXFLSjJWWE5QTlJmaUUyaFhMQjRZZ0NoSEpHS0JjNTJqM1I1QXN4Vjl0dHJFdnl3OTdwRlNZRDdnR3FzdnYtcjQ4TWZ0TmdpRVk3eVpMSS0wOG5VVnNSSmNfemhJbkYzTEdRNV9vb3plWFV4bGUzZWxtS1hQQURTQTV6Q1MzMzdTMA?oc=5",
@@ -10,15 +16,9 @@
       },
       {
         "h": "Elon Musk upped the ante on his SpaceX share Trump Account giveaway",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQl95QWh0Qmp0NUtwSl9QemVZZ1FMRWMzbEZZSnZLM0hnMUJhRm1CRGh6QTNKOC1vQmFZdENPMXk0LTZWcmxNaHlyWDJqOHBtSUR1TDF5a3g5QWdBemR3VFNGNTBjZHV3YWJESFVMVzdBR3dYY1R5bFFHWjJueXp1UzNNODI1NXJ4Ymh0OVZ2NEZlcENUa1pyWDV6YjdQU0RveFYxTWEtVEJIMFBfNmtTdVk5dEFwZw?oc=5",
-        "src": "Business Insider Africa",
-        "t": "2026-11-27T17:39:13+02:00"
-      },
-      {
-        "h": "American billionaire Elon Musk floats $128 quintillion value for SpaceX, 75 million times its worth today",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQaGZpelZaWHlQSkpaYmdMWXBXZXMtc0s4aHJVN0hjYzBpOHUtSG5heHMwdVBJV1dwSkhjckg3VGw0MGJTU1ZvX0Y1SUlwTEp1ay11Q09RMzA0NEZsMnNrdE1RT2laNHdGbUI4Uzlkd0pLa25nemY2eGRvSWNhN1dPbm1sM3EyM3FXWVBCV1k2Wk5NWkRmNzFxRFdXMzVVdm4yTHhCYzBQM0tfb0FIb3gzZjBGWm93Sk40cG9ha0JNUDVjYVJ2SzFFd1ZYOTM2czd5S1hUdzEzMGhPa18tU3VyaQ?oc=5",
-        "src": "Billionaires.Africa",
-        "t": "2026-11-27T16:56:15+02:00"
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdTMyVWtIQlQ4dUU3N055dk56UjVLczN3RmpDNmZJWllvUjJFV2hZZUdPQ29BRGoxWU9GeU91U2VDdU5fR05HTHk0RHVER254M2ZpUEJYLUJVR3d1UlFVYXdobGFMOENITHNlLTNvN01ZVjZ1V25aMVNrV2hTeHZwVVZSUjFRN00wTjZTeklPRGNpTWZPQWZXRXVzVQ?oc=5",
+        "src": "Business Insider",
+        "t": "2026-11-27T17:39:00+02:00"
       }
     ],
     "trevor-noah": [
@@ -43,6 +43,12 @@
     ],
     "peter-thiel": [
       {
+        "h": "Palantir’s Polish AI Deal Comes as Peter Thiel Buys Shares and Cathie Wood Sells",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTWQ2am45b3lDdXlEOHJUa0MwcVhweDRlQ21oV29GaUNjdWE3NlhFaXB2S0J3X3EzajIzTXJMNGRWOFBUMWx5Ui1vVU4tT1NkN093cUtnb3I1UFBNdjExUk42bFZlZjFia3dXZHkyLU83MWxoVnpJLVRzWGRIR0RNT1ZWbzdhY240b3gxSXB5Q3k2bDdtTU9hOG0zSTYya09vMmdGZjlhNzZPcFk0RjFhbUJaazFtcjAxQmlxY05UbVBub09NV3JPdkxOV2RpRlk?oc=5",
+        "src": "Benzinga",
+        "t": "2026-11-27T18:14:51+02:00"
+      },
+      {
         "h": "Peter Thiel buys $122M in Palantir shares amid slowing contract growth and high valuation.",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdzd0R0tnSGVxakl3eFY5ZnVyaHZDcVJGQURXV0NINndOZ0NqQzBmYzAxWXZaOXRzU0piWUhEalRyeHpoSDJqc2FqR2VVck0tLW1xakQ4ZGx6b18wQU9Bdm81OTRUcVZqSE9GYTAyUXBsd3h5Tm1KN0NUNWV4SVREY3BUM2dQVzRNdW1Tb3l1dkhfNnRnbmR4TnhXaGE?oc=5",
         "src": "Pluang",
@@ -53,12 +59,6 @@
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQWxZbGdTUTFQcXB1YUhVTlpqR3MtWXVVaW9DZG9pSDJNVndNeTJqbkgwREdLMWpZR2pmNU85NkxXMThZN3J1MUtvVDZWZExaSk51dEZNdDlMb0lBLWhpRldsX1NHeTQwUDE5V1NpWEtqYm9oSnV1M1E2ck1qVEdJd1VqTTJJMFI4Zi1kY19hNmlIWlRFUEw0MUZXZlJtQWp3YjdIR1Q3YnYyeTh4RTBpQXc0cG1TVHVXWUpNLVNCcFhWMld6Q2JEZEVtYmw?oc=5",
         "src": "Independent Australia",
         "t": "2026-11-27T03:01:01+02:00"
-      },
-      {
-        "h": "Palantir Stocks Rise 1.5% After Peter Thiel Discloses a $122 Mil",
-        "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPaEZ4V01xUjhrMWlKZ0prX2RaLVRFdHNyVUtvN3o4UzFORUM1Z2VYZHJQTElJbFJCUXV5bTFnano5VmY5TUttbFFMbTF0WlFmSUpfaTBGb25Hbk02WHYwY0gxYXBvdmxGS2c2alUzOGVxWEdMNmxkUGRMLVVBd0tiQjFCSEc2U2dWRDg3cU1FVDEyM1NqenI5RVlFV2lHTGpqYVV1b2VSaVltNXYtS3hWeUpYbUVnbEVLQUt4TFoteWoxYVVEN1JHTFB4YTlZTEtVMUg4S2hqbzY5bkNEbHp1WkNjRjFld01nWUVVeTZyN3dmd2lnbnFsU1ZrZnJiZXRaRGFGcnYyMjBWdnhveFBrNXR5Snc4UTFmYzNCYUhsUEVZSnJ5N0xTdjJyQm9KUVRDUEJPRVVuTk5Vb1RTZWs5SWZ0Yng1SFZM?oc=5",
-        "src": "GuruFocus",
-        "t": "2026-11-26T20:48:45+02:00"
       }
     ],
     "thuso-mbedu": [
@@ -83,22 +83,22 @@
     ],
     "tyla": [
       {
-        "h": "Preview: Tyla at the Anthem on Dec. 2",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5tWEZ1bTlqY0ZHb0RGdXgtRWJVMk1VRDVXNGdPLVdkMVROQ0FmYXdvbE1lUUhSOTJsYVFsb2kteGt2RXV5UW9NNnl5UU4xeVFiYWNTRWJzdm43RU93ZllOMU82cVFkd3Z0dEI3dUxiOXFBdFk4WGtUZFdqOA?oc=5",
-        "src": "The Georgetown Independent",
-        "t": "2026-11-27T06:05:43+02:00"
-      },
-      {
-        "h": "Tyla – Game Time Ft. Future",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBNUjNReDFCRjcwRm5XSUYwRURhcnE2ek5Db3ZDZ21PS1VYaG1pYldHSTdDRm5uZlc3bUhVZXRiTk9iaDlfR01ldElrUUo1YXRDOEU2Y08yN045RUItOXJIdHN1MXh6R3pMVUdZLU9R?oc=5",
-        "src": "TrendyHipHop",
-        "t": "2026-11-27T02:00:00+02:00"
-      },
-      {
         "h": "Tyla – CRAZY OF ME Ft. MaWhoo",
         "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1DemxjTmdiVFhXTmlHNU1wLXZBMkpFUzV5ZzhaMGw1RTRhMFJKUnBlTWxUenVoTXdVakF5RUFvV0JOaFJ6WFZyaV9yR1YtcnRscXhNd2ZVaEN4cks3TWtWOTc1Qm5GdGM0WkM5alRMOEVxUHU3U0E?oc=5",
         "src": "Voxtrendy",
         "t": "2026-11-27T02:00:00+02:00"
+      },
+      {
+        "h": "Fact Check: Is Tyla pregnant? Here’s the truth behind the viral baby bump photos spotted in Brooklyn",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPRGlQTUU4TEtBT1l5U29yTnBMRXBmUkdOOEVyTVJzbzF1MFJvX1dfekZqWEljNTFQeEJiYTVCTUUzVm5fSVRwVHZhSUhQaXBodDRrdWdBR0UyV01BQ0Y0TU11VzBudWF0eDJQRjBqanJwcFdDWmczQUZYNWFHSW9aakNmejRsck5OYUdJdWxhb0w5cTBtUFF1NjFpbVlVUEpUUmtKcERNMllqR2piZ3JITkczX1p5YWMybUltakZMYnlSbHB0Vm5tWm1sMDN0dGNmcGtCbjgyMTAyMnpLN0YtMk00bHRJUFdNM0c5Sk1KejdCNmJUNmI40gH3AUFVX3lxTE9EaVBNRThMS0FPWXlTb3JOcExFcGZSR044RXJNUnNvMXUwUm9fV196RmpYSWM1MVB4QmJhNUJNRTNWbl9JVHBUdmFJSFBpcGh0NGt1Z0FHRTJXTUFDRjRNTXVXMG51YXR4MlBGMGpqcnBwV0NaZzNBRlg1YUdJb1pqQ2Z6NGxyTk5hR0l1bGFvTDlxMG1QUXU2MWltWVVQSlRSa0pwRE0yWWpHamJnckhORzNfWnlhYzJtSW1qRkxieVJscHRWbm1abWwwM3R0Y2Zwa0JuODIxMDIyeks3Ri0yTTRsdElQV00zRzlKTUp6N0I2YlQ2Yjg?oc=5",
+        "src": "Indiatimes",
+        "t": "2026-11-26T17:28:44+02:00"
+      },
+      {
+        "h": "Tyla and Nasty C $500,000 Feature Rumour: What Actually Happened",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQWJvODFLS1I2WElYMWZVYXVXclJ1ZW9USnNmSWJGNGRiempoQ2NScHl0S1lHSGVrLW9aYXdPcFQ0aXgtbVoyRXAzamNtbjdDSjk3QjBhb1lYa0wxVE02d1BHeUR1SHFDQm9pbU5PV05QUWJWTW1YN3FmeEdhUmVHM3Q1Zjl6U293QzNvUExvNzRUSmxyZVhIaldPOUZlLTlMdkJrRmVCRQ?oc=5",
+        "src": "Briefly News",
+        "t": "2026-11-25T21:46:57+02:00"
       }
     ],
     "roelof-botha": [
@@ -233,10 +233,10 @@
         "t": "2026-10-25T09:00:00+02:00"
       },
       {
-        "h": "NantWorks' Soon-Shiong puts chips behind manufacturing disruptors in new rounds for Prolific Machines, Multiply Labs",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb185cmswR2dwOUowYUFwemExcWMtQlF6MDM5Z0pDakwtSmtnOUtBb2J5cjI5ZHhIaEdvT091VGZnczFZRTNFc0I3d1V4UEs1bmFFMTdiNHBGeHhBZXN4Z3ktbC1iRXM1NnJEWkZsS24yTnFaWHJ0MHo5dnFwODZxZWIzUHNBQ19NaWVvM2tFR01qNWIxVzZKSW01NXlmQzl4ZExGOUU1bzJkSHBCczNnQnMzdm1aX09ZTWpqdg?oc=5",
-        "src": "Fierce Pharma",
-        "t": "2026-10-14T09:00:00+02:00"
+        "h": "Billionaire Patrick Soon-Shiong wins wider FDA approval for bladder cancer drug",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSEdDUUVUSU9PN296clluY1F0NjI3Ykg3Wk8zR19iSVpTX19rQWRDM2ZuRjlfWG4tSFNIOWpjN1VJQWRTckdqNzZQVWtqVGZ5Q2xBTE51cmM1VHM5N0lNa1pHbHplT256TzFaVTdCVmZkZTYzUlpMbnhsZ1Q2RU5DWUFiMXRrQnhfcFNQVjRUZXpDSlp5RXdwNVJuZV9XUzk2a2I2MzFSVmpKY0tvbExuMGstSzkzNXhHbVJ0ZWJHWHc?oc=5",
+        "src": "Billionaires.Africa",
+        "t": "2026-10-16T09:00:00+02:00"
       }
     ],
     "chad-le-clos": [
@@ -357,10 +357,10 @@
     ],
     "navi-pillay": [
       {
-        "h": "Timed Award for Justice: Navi Pillay’s Nobel Peace Prize as a beacon of hope",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNHdPbmtiRVNmcVRMZHcyeGlKWkxuVmF2NE1pZFQ2UGo0c0d3NFI4cUd1ZjRKTzhvTC1KTUNoOFA0YTlVUXlkRlVMN3BGaWFDWUVMaVR6a1JKczlsdzZOZG1ua0V4TW5qM1FhTl9BUHQ0N2NBTjFqTWNUVmlfWjdYY1pEVDJybll3anZwUjV5dWVwV2JwMU1WNjNNN2x0TXRQVXl5blh5RnlUMkhHTGVOLTl2OEh0dE9p?oc=5",
+        "h": "Navi Pillay’s lifelong fight for international justice",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOGlaTnJsUzllNGgtQmVwMk50YjJMY2wwUHUxaUo4TlZIV3N6Z2I0VHd1TDNaLVFrZWxhTVJoRFU5MmRPY1BiYzJVeU1ObUNSalVrYVVFRDJIV2t4MmFXekJSWUhWZElVNDJzZmZ1THFKSk84ODhCa1c2TmdFSXcyaHpJSHcwUEFkVDdVdzdWbk8zX0ZUWWU3dFZUeWI?oc=5",
         "src": "IOL",
-        "t": "2026-11-27T16:30:04+02:00"
+        "t": "2026-11-27T16:30:00+02:00"
       },
       {
         "h": "Navi Pillay’s Nobel recognition renews our duty to defend justice",
@@ -560,11 +560,11 @@
     ]
   },
   "week": {
-    "elon-musk": 90,
+    "elon-musk": 93,
     "trevor-noah": 1,
-    "peter-thiel": 37,
+    "peter-thiel": 34,
     "thuso-mbedu": 1,
-    "tyla": 8,
+    "tyla": 4,
     "roelof-botha": 2,
     "black-coffee": 6,
     "david-sacks": 1,
