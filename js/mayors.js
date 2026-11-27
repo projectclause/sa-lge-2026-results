@@ -13,6 +13,7 @@
   // mayors elected by the new councils after the 2026 election (as confirmed so far)
   const NEW = {
     CPT: { n: "Geordin Hill-Lewis", p: "DA", same: true, how: "Re-elected. The DA won Cape Town outright." },
+    ETH: { n: "Mxolisi Phakathi", p: "MK", how: "Elected on 27 November 2026 with the ANC’s support, in an MK, ANC and ActionSA coalition. He succeeds the ANC’s Cyril Xaba." },
     NMA: { n: "Retief Odendaal", p: "DA", img: "assets/mayors/nelson-mandela-bay/retief-odendaal.jpg", how: "Elected by the new council under the DA-led multiparty coalition. A comeback: he was mayor from 2022 to 2023, and succeeds the ANC’s Babalwa Lobishe." },
     BUF: { n: "Princess Faku", p: "ANC", same: true, how: "Re-elected by the new council on Tuesday, 24 November 2026, with the EFF’s backing, beating the UDM’s Nqabayomzi Kwankwa. She has been mayor since March 2023." },
     TSH: { n: "Nasiphi Moya", p: "ASA", same: true, how: "Re-elected by the new council on Thursday, 26 November 2026, under a coalition deal between ActionSA, the ANC, the EFF and MK. The ANC’s Naeem Patel was elected Speaker with 119 votes." },

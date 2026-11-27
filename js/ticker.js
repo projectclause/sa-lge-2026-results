@@ -49,7 +49,7 @@
       const f = floor(M[code]);
       return `<span class="tk-card tk-cpt" data-kind="metro" data-code="${code}">
           <span class="tk-h">${CHECK}${MNAME[code]}${CHEV}</span>
-          <span class="tk-cpt-b">${f.svg}<img class="tk-ph" src="${photo}" alt="">
+          <span class="tk-cpt-b">${f.svg}${photo ? `<img class="tk-ph" src="${photo}" alt="">` : `<span class="tk-ph tk-ini" style="background:${col(party)}">${who.split(" ").map((w) => w[0]).slice(0, 2).join("")}</span>`}
             <span class="tk-who"><b>${who}</b><span>${(typeof label === "function" ? label() : label) || "Elected Mayor of " + MNAME[code]}</span><em><i style="background:${col(party)}"></i>${note(f)}</em></span>
           </span>
         </span>`;
@@ -83,7 +83,8 @@
       { key: "m-BUF", html: mayor("BUF", "Princess Faku", "assets/mayors/buffalo-city/princess-faku.jpg", "ANC", (f) => `ANC · ${(f.ss.find((x) => x[0] === "ANC") || [0, 0])[1]} of ${f.N} seats`, "Re-elected Mayor of Buffalo City") },
       { key: "m-CPT-dep", html: mayor("CPT", "Xanthea Limberg", "assets/mayors/cape-town/xanthea-limberg.jpg", "DA", () => "DA · succeeds Eddie Andrews", "Elected Deputy Mayor of Cape Town") },
       { key: "m-TSH-dep", html: mayor("TSH", "Omphile Maotwe", "assets/faces/circ/maotwe.png", "EFF", () => "EFF · elected unopposed", "Elected Deputy Mayor of Tshwane") },
-      { key: "m-ETH-spk", html: mayor("ETH", "Thabani Nyawose", "assets/mayors/ethekwini/thabani-nyawose.jpg", "ANC", () => "ANC · mayor vote still to come", "Elected Speaker of eThekwini") },
+      { key: "m-ETH", html: mayor("ETH", "Mxolisi Phakathi", null, "MK", () => "MK · with ANC and ActionSA", "Elected Mayor of eThekwini") },
+      { key: "m-ETH-spk", html: mayor("ETH", "Thabani Nyawose", "assets/mayors/ethekwini/thabani-nyawose.jpg", "ANC", () => "ANC · MK-led coalition", "Re-elected Speaker of eThekwini") },
       { key: "m-EKU-dep", html: mayor("EKU", "Xolani Khumalo*", "assets/faces/circ/khumalo.png", "ASA", () => "ActionSA · *Position to be made in Johannesburg", "Ekurhuleni deputy mayor") },
       { key: "m-NMA", html: mayor("NMA", "Retief Odendaal", "assets/faces/circ/retief-odendaal.png", "DA", () => "DA · multiparty coalition", "Elected Mayor of Nelson Mandela Bay") },
       { key: "m-NMA-dep", html: mayor("NMA", "Lance Grootboom", "assets/faces/grootboom-acdp.png", "ACDP", () => "ACDP · DA-led coalition", "Expected deputy mayor") },
