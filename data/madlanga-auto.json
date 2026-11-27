@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T17:19:28Z",
+  "updated": "2026-11-27T18:06:48Z",
   "today": {
     "day": 202,
     "live": {
@@ -48,6 +48,13 @@
     {
       "src": "IOL",
       "logo": "iol",
+      "h": "Madlanga Commission hears how JMPD chief Rikhotso helped an officer arrested over R1.5m cash theft secure bail",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQXJzcXhfdFRyYW5aWHF2cmg5OWVLNmJNenM1eTFQVEVpaVVIa2ZySEtFenBobXVoZlo4Xzd3TkRWVEtkazZqZlFNS2I0TFpYblRieVpoRjNaZElNNm9rRm5CeDRleV9aYXViX2dGRHc0UnB4S3NUaDA1WHhGN2pmbHlHeWUzMHpRNHFubUFTa01tRXU2eDJjbk1kOWlRZ1QtOWNZYkwxOFEzRFhXZ0x4Z1ZmOVZ6TVVhaTZzOHlTUldfdEY4Z0l1ZUFIZFFNc254ekg4YmoxdFA4UXRmT3FhbmVtNHVTZjc1?oc=5",
+      "d": "2026-11-27T15:14:25Z"
+    },
+    {
+      "src": "IOL",
+      "logo": "iol",
       "h": "Khumalo to testify behind closed doors at Madlanga Commission",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSmN1NjU0dFQ3dGR4Sm41eEU2Q3Zoby1lLTdDdzVuWnVseEtibmxnLU1SV2NyU3REQ3hITWdDR1lJbU1jcTJIeVdkM0gzNXlVQ0JKem9CMEFHNVVDaWpuMHN2aUpmMWh6RVVEdTZtUzhZR3lVb3ZYY2Z3TnNkdGdrMk8zMEtaNHkxTHdIcEdRcFdaMjk1QjFqOG5hTUxTSm8tSmtXQg?oc=5",
       "d": "2026-11-27T11:48:54Z"
@@ -58,13 +65,6 @@
       "h": "Witness T fears for his life after linking Naicker to alleged criminal network",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mWkRkR253b0hBaVpZMl85dkdSN24xTGpvc18tVDN3WVVIT1NOOV8yNFVHQUhVZnRtLVExbW8ySTRxcEoybW53cGVCU3JqRnhoVWgwRzBJUlZxSG9SSVJqMWc4Q3FpMHctclZheTlUMVJOc0J1OXc?oc=5",
       "d": "2026-11-27T11:17:00Z"
-    },
-    {
-      "src": "IOL",
-      "logo": "iol",
-      "h": "Madlanga Commission hears how JMPD chief Rikhotso helped an officer arrested over R1.5m cash theft secure bail",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQXJzcXhfdFRyYW5aWHF2cmg5OWVLNmJNenM1eTFQVEVpaVVIa2ZySEtFenBobXVoZlo4Xzd3TkRWVEtkazZqZlFNS2I0TFpYblRieVpoRjNaZElNNm9rRm5CeDRleV9aYXViX2dGRHc0UnB4S3NUaDA1WHhGN2pmbHlHeWUzMHpRNHFubUFTa01tRXU2eDJjbk1kOWlRZ1QtOWNZYkwxOFEzRFhXZ0x4Z1ZmOVZ6TVVhaTZzOHlTUldfdEY4Z0l1ZUFIZFFNc254ekg4YmoxdFA4UXRmT3FhbmVtNHVTZjc1?oc=5",
-      "d": "2026-11-27T11:06:17Z"
     },
     {
       "src": "IOL",
@@ -441,7 +441,7 @@
           "logo": "iol",
           "h": "Madlanga Commission hears how JMPD chief Rikhotso helped an officer arrested over R1.5m cash theft secure bail",
           "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQXJzcXhfdFRyYW5aWHF2cmg5OWVLNmJNenM1eTFQVEVpaVVIa2ZySEtFenBobXVoZlo4Xzd3TkRWVEtkazZqZlFNS2I0TFpYblRieVpoRjNaZElNNm9rRm5CeDRleV9aYXViX2dGRHc0UnB4S3NUaDA1WHhGN2pmbHlHeWUzMHpRNHFubUFTa01tRXU2eDJjbk1kOWlRZ1QtOWNZYkwxOFEzRFhXZ0x4Z1ZmOVZ6TVVhaTZzOHlTUldfdEY4Z0l1ZUFIZFFNc254ekg4YmoxdFA4UXRmT3FhbmVtNHVTZjc1?oc=5",
-          "d": "2026-11-27T11:06:17Z"
+          "d": "2026-11-27T15:14:25Z"
         }
       ],
       "st": "t"
@@ -754,7 +754,7 @@
     },
     "bongani-hans": {
       "n7": 0,
-      "last": "2026-07-10T07:00:00Z"
+      "last": "2026-09-17T07:00:00Z"
     },
     "kyle-cowan": {
       "n7": 0,
