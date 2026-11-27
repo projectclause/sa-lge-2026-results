@@ -13,7 +13,7 @@
   // mayors elected by the new councils after the 2026 election (as confirmed so far)
   const NEW = {
     CPT: { n: "Geordin Hill-Lewis", p: "DA", same: true, how: "Re-elected. The DA won Cape Town outright." },
-    ETH: { n: "Mxolisi Phakathi", p: "MK", how: "Elected on 27 November 2026 with the ANC’s support, in an MK, ANC and ActionSA coalition. He succeeds the ANC’s Cyril Xaba." },
+    ETH: { n: "Mxolisi Phakathi", p: "MK", img: "assets/journalists/mxolisi-phakathi.jpg", how: "Elected on 27 November 2026 with the ANC’s support, in an MK, ANC and ActionSA coalition. He succeeds the ANC’s Cyril Xaba." },
     NMA: { n: "Retief Odendaal", p: "DA", img: "assets/mayors/nelson-mandela-bay/retief-odendaal.jpg", how: "Elected by the new council under the DA-led multiparty coalition. A comeback: he was mayor from 2022 to 2023, and succeeds the ANC’s Babalwa Lobishe." },
     BUF: { n: "Princess Faku", p: "ANC", same: true, how: "Re-elected by the new council on Tuesday, 24 November 2026, with the EFF’s backing, beating the UDM’s Nqabayomzi Kwankwa. She has been mayor since March 2023." },
     TSH: { n: "Nasiphi Moya", p: "ASA", same: true, how: "Re-elected by the new council on Thursday, 26 November 2026, under a coalition deal between ActionSA, the ANC, the EFF and MK. The ANC’s Naeem Patel was elected Speaker with 119 votes." },
@@ -27,8 +27,10 @@
       how: "The ACDP’s Lance Grootboom is expected to become Deputy Mayor of Nelson Mandela Bay under the DA-led coalition, once the council completes its vote." },
     EKU: { lab: "Deputy mayor", n: "Xolani Khumalo", star: true, p: "ASA", img: "assets/faces/circ/khumalo.png",
       how: "ActionSA leader Herman Mashaba has confirmed Xolani Khumalo as the party’s choice for Deputy Mayor of Ekurhuleni under its coalition deal, IOL reports.", foot: "* Position to be made in Johannesburg" },
+    JHB: { lab: "Speaker elected", n: "Adolph Marema", p: "ANC", img: "assets/mayors/johannesburg/adolph-marema.jpg",
+      how: "The ANC’s Adolph Marema was elected Speaker of Johannesburg on Friday, 27 November 2026, beating the DA’s Alex Christians. The council then moves on to elect its mayor." },
     ETH: { lab: "Speaker elected", n: "Thabani Nyawose", p: "ANC", img: "assets/mayors/ethekwini/thabani-nyawose.jpg", prev: "Thabani Nyawose", prevSub: "Speaker in the previous council",
-      how: "The ANC’s Thabani Nyawose was elected Speaker of eThekwini when the new council reconvened on Friday, 27 November 2026. The council then moves on to elect its mayor and deputy mayor." },
+      how: "The ANC’s Thabani Nyawose was elected Speaker of eThekwini when the new council reconvened on Friday, 27 November 2026. The council then elected MK’s Mxolisi Phakathi as mayor." },
     BUF: { lab: "Mayor re-elected", n: "Princess Faku", p: "ANC", img: "assets/mayors/buffalo-city/princess-faku.jpg", prev: "Princess Faku", prevSub: "Mayor since March 2023",
       how: "The new council re-elected the ANC’s Princess Faku as Mayor of Buffalo City on Tuesday, 24 November 2026, with the EFF’s backing, over the UDM’s Nqabayomzi Kwankwa." },
     CPT: { n: "Xanthea Limberg", p: "DA", img: "assets/mayors/cape-town/xanthea-limberg.jpg", prev: "Eddie Andrews",
