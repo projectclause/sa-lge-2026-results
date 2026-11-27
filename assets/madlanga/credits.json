@@ -1,0 +1,12 @@
+{
+  "note": "Photo sources for the planned Madlanga Commission page. Not linked from the site yet.",
+  "photos": {
+    "mbuyiseli-madlanga": {
+      "name": "Mbuyiseli Madlanga",
+      "role": "Chair, Madlanga Commission",
+      "files": ["assets/madlanga/mbuyiseli-madlanga.jpg", "assets/madlanga/mbuyiseli-madlanga-320.jpg"],
+      "credit": "Madlanga Commission",
+      "source": "https://madlangacommission.co.za/commissioners/mbuyiseli-madlanga"
+    }
+  }
+}
