@@ -9,9 +9,11 @@
   --soft: #f4f4f4;
   --link: #1f5fc2;
   --font: "DM Sans", system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
-  --serif: "Playfair Display", Georgia, "Times New Roman", serif;
-  --body-serif: Georgia, "Times New Roman", serif;
+  --serif: "Cooper Hewitt", "DM Sans", system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; /* headline face (name kept for history) */
+  --body-serif: var(--font); /* reading text: DM Sans (name kept for history) */
 }
+/* Cooper Hewitt Semibold, the headline face. © Cooper Hewitt, Smithsonian Design Museum, SIL Open Font License 1.1 (assets/fonts/CooperHewitt-OFL.txt) */
+@font-face { font-family: "Cooper Hewitt"; src: url("../assets/fonts/CooperHewitt-Semibold.woff2") format("woff2"), url("../assets/fonts/CooperHewitt-Semibold.woff") format("woff"); font-weight: 600; font-style: normal; font-display: swap; }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--font); line-height: 1.45; -webkit-font-smoothing: antialiased; }
@@ -844,7 +846,7 @@ body.has-ask { padding-bottom: 96px; }
      it has a fixed height (116px + 1px rule) so the navigation's position never shifts as cards change */
   .tk { position: sticky; top: 0; z-index: 31; }
   .tk-row { height: 116px; box-sizing: border-box; padding-top: 6px; padding-bottom: 2px; }
-  .masthead { top: 117px; }
+  .tk ~ .masthead { top: 117px; } /* only under the results strip; pages without it keep the menu at the very top */
   .tk-row > .tk-slot:nth-child(3), .tk-row > .tk-metros { display: none; }
   .tk-p { min-height: 92px; justify-content: flex-start; }
   .tk-p:first-child { padding: 2px 14px 2px 0 !important; border-right: 1px solid var(--rule) !important; }
@@ -1444,14 +1446,14 @@ html.shp-on { overflow: hidden; }
 }
 
 /* ---------- Type system (house style, NYT-like principles, own fonts) ----------
-   Headlines: Playfair Display (serif, bold, tight). Reading text: Georgia (serif, 18px, 1.6, #333).
+   Headlines: Cooper Hewitt Semibold. Reading text: DM Sans (18px, 1.6, #333).
    Everything else — menus, buttons, numbers, labels, metadata — DM Sans; kickers, bylines and captions
    in small caps-style uppercase. */
-h1, h2, h3 { font-family: var(--serif); font-weight: 700; letter-spacing: -0.02em; line-height: 1.1; }
+h1, h2, h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.01em; line-height: 1.1; }
 /* headings that are labels, not headlines, stay in the sans */
 .pl-sh, .rs-h, .pl-brief h2, .pl-tl h2, .pl-drive h2, .pl-body h2.pl-lab, .my-sub, .bc-h, .pb-sh, #su-h, .ft-row h2 { font-family: var(--font); letter-spacing: 0; }
 /* story headlines in lists */
-.pl-rt b, .pl-lead h2, .pl-istory h2 { font-family: var(--serif); font-weight: 700; letter-spacing: -0.01em; line-height: 1.2; }
+.pl-rt b, .pl-lead h2, .pl-istory h2 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.005em; line-height: 1.2; }
 /* reading text */
 .pl-dek, .pl-body p, .pl-brief li, .pl-vsays, .pl-intro, .pl-istory .pl-dek, .po-dek, .po-ins li, .po-about p, .po-sub, .sf-dek {
   font-family: var(--body-serif); color: #333; -webkit-font-smoothing: antialiased; }
@@ -1468,6 +1470,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 700; letter-spacing: -0.02e
 /* phones: the page title above the live line is a small label there, so it reads as a kicker, not a headline */
 @media (max-width: 720px) {
   .rs-top .rs-title { font-family: var(--font); font-size: 0.6875rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
-  .bc-wrap .rs-top .rs-title { font-family: var(--serif); text-transform: none; letter-spacing: -.02em; font-size: 30px; }
+  .bc-wrap .rs-top .rs-title { font-family: var(--serif); font-weight: 600; text-transform: none; letter-spacing: -.01em; font-size: 30px; }
   .pl-intro { font-size: 15px; line-height: 1.55; }
 }

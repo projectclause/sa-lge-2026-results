@@ -151,7 +151,7 @@ STORIES.each do |s|
       <meta name="twitter:title" content="#{esc(s[:h])}">
       <meta name="twitter:description" content="#{esc(s[:dek])}">
       <meta name="twitter:image" content="#{SITE}/assets/share-card.png">
-      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&display=swap" rel="stylesheet">
       #{css}
       #{jsonld(ld)}
       #{jsonld(crumbs)}
@@ -221,7 +221,7 @@ PEOPLE.each do |q|
       <meta property="og:url" content="#{url}">
       <meta property="og:image" content="#{q[:img] ? "#{SITE}/#{q[:img]}" : "#{SITE}/assets/share-card.png"}">
       <meta name="twitter:card" content="summary">
-      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&display=swap" rel="stylesheet">
       #{css}
       #{jsonld(ld)}
       #{jsonld(crumbs)}
@@ -254,7 +254,7 @@ File.write(File.join(ROOT, "people/index.html"), <<~HTML)
     <meta name="description" content="Profiles of the key players negotiating South Africa’s 2026 coalition deals and the journalists and commentators covering them, with what each has said and published.">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
     <link rel="canonical" href="#{SITE}/people/">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&display=swap" rel="stylesheet">
     #{css}
     #{jsonld(plist)}
   </head>
