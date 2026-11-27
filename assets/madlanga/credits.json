@@ -444,13 +444,14 @@
     },
     "kiruben-naidoo": {
       "name": "Kiruben Rungarajh Naidoo",
-      "role": "Madlanga Commission · role to confirm",
+      "role": "Witness, Madlanga Commission",
       "files": [
         "assets/madlanga/kiruben-naidoo.jpg",
         "assets/madlanga/kiruben-naidoo-320.jpg"
       ],
       "credit": "",
-      "source": ""
+      "source": "",
+      "note": "Witness per business reports the user cited; not yet confirmed in news coverage. Confirm before the page goes live."
     }
   }
 }
