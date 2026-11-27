@@ -88,6 +88,8 @@ NAMELINK = PEOPLE.to_h { |q| [q[:n], "people/#{q[:slug]}.html"] }
 
 head = File.read(File.join(ROOT, "coalitions.html"))
 css = head[/<link rel="stylesheet" href="css\/style\.css\?v=[^"]+">/].sub('href="', 'href="../')
+# the Listen bar under each story's summary line (js/listen.js), at the version coalitions.html loads
+listen_js = (head[/<script src="js\/listen\.js\?v=[^"]+"><\/script>/] || '<script src="js/listen.js"></script>').sub('src="', 'src="../')
 # the masthead is copied from coalitions.html (its nav ends with the News Tracker network icon, assets/news-tracker-icon.svg): links and images are one folder up
 mast = head[/<header class="masthead">.*?<\/header>/m].gsub('href="', 'href="../').gsub('src="assets/', 'src="../assets/').sub(' aria-current="page"', ' aria-current="page"')
 abort "build-seo: the masthead in coalitions.html has lost the News Tracker icon (a.tab-eye)" unless mast.include?('class="tab-eye" href="../news-tracker.html"') && mast.include?('src="../assets/news-tracker-icon.svg"')
@@ -114,6 +116,7 @@ STORIES.each do |s|
   body << %(<p class="pl-back"><a href="../coalitions.html">← Coalitions Tracker</a> · <a href="../#{s[:live]}">Open this story in the live tracker</a></p>\n)
   body << %(<article class="pl-ev">\n<p class="pl-cat">#{esc(s[:scope])} · #{esc(s[:cat])} · #{esc(s[:place])}</p>\n<h1 class="pl-evh">#{esc(s[:h])}</h1>\n<p class="pl-dek pl-evdek">#{esc(s[:dek])}</p>\n)
   body << %(<p class="pl-credit">Preamble’s AI summary of #{s[:cov].size} reports. Updated <time datetime="#{s[:upd]}">#{day(s[:upd])}</time>.</p>\n)
+  body << %(<div class="ls-bar" data-id="#{s[:id]}" data-root="../"></div>\n)
   body << %(<section class="pl-brief"><h2>In brief</h2><ul>#{s[:brief].map { |b| "<li>#{esc(b)}</li>" }.join}</ul></section>\n) if s[:brief].any?
   s[:sec].each { |t, p| body << %(<section class="pl-body"><h2>#{esc(t)}</h2><p>#{esc(p)}</p></section>\n) }
   if s[:says].any?
@@ -158,6 +161,7 @@ STORIES.each do |s|
       <main class="rs-wrap pl-wrap"><div class="pl">
     #{body}  </div></main>
       #{foot}
+      #{listen_js}
     </body>
     </html>
   HTML

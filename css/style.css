@@ -1418,3 +1418,25 @@ html.shp-on { overflow: hidden; }
   .pl-subnav .pl-scope::before { content: ""; position: absolute; left: 50%; top: 14px; bottom: 15px; width: 1px; background: var(--rule2); }
 }
 @media (max-width: 720px) { .pl-subnav .pl-scope { margin: 0 auto; } .pl-subnav .pl-scope a[aria-current]::after { bottom: 0; } }
+
+/* Listen bar under a story's summary line (js/listen.js): play + "Listen · 1:45 min" on the left; share, copy link and save on the right */
+.ls-bar { display: flex; align-items: center; gap: 12px; margin: 14px 0 4px; min-height: 48px; }
+.ls-play, .ls-ic { flex: none; display: inline-grid; place-items: center; width: 44px; height: 44px; padding: 0; margin: 0; border: 1px solid var(--rule2); border-radius: 50%; background: #fff; color: var(--text); cursor: pointer; }
+.ls-play svg { width: 20px; height: 20px; }
+.ls-ic svg { width: 22px; height: 22px; }
+.ls-play:hover, .ls-ic:hover, .ls-share:hover { border-color: var(--text); }
+.ls-t { font-size: 15px; color: var(--text); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ls-r { display: flex; align-items: center; gap: 8px; margin-left: auto; }
+.ls-share { display: inline-flex; align-items: center; gap: 8px; height: 44px; padding: 0 16px 0 12px; border: 1px solid var(--rule2); border-radius: 999px; background: #fff; color: var(--text); font: inherit; font-size: 15px; cursor: pointer; }
+.ls-share svg { width: 21px; height: 21px; }
+.ls-bar .sv-btn { margin: 0; padding: 0; gap: 0; }
+.ls-bar .sv-btn span { display: none; }
+.ls-bar .sv-btn[aria-pressed="true"] { background: var(--text); border-color: var(--text); color: #fff; }
+@media (max-width: 520px) {
+  .ls-bar { gap: 8px; }
+  .ls-play, .ls-ic, .ls-share { width: 40px; height: 40px; }
+  .ls-share { width: auto; padding: 0 12px 0 10px; font-size: 14px; }
+  .ls-share span { display: none; }
+  .ls-share { width: 40px; padding: 0; justify-content: center; }
+  .ls-t { font-size: 14px; }
+}
