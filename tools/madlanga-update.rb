@@ -19,6 +19,9 @@
 #  8. Kill switch: auto.enabled false in data/madlanga.json pauses everything automatic. Any URL or headline
 #     fragment in "remove" is taken down on the next run, including from stored history.
 #  9. Corrections: lines are rebuilt each run from the current feeds, so a changed headline updates.
+# 11. The archive is the authority: our page never contradicts madlangacommission.co.za/witnesses. Each run reads
+#     that page and, for every witness on it, shows the archive's spelling of the name, its role description and a
+#     status that agrees with its status line; "what has happened since" events its status line contradicts are dropped.
 # 10. Cross-check (tools/madlanga-check.rb): every run compares our hearing day, witness names and statuses, evidence
 #     leaders and timeline with Madlanga Files and the Madlanga Commission Archive, and writes each disagreement to
 #     data/madlanga-checks.json. A day number that does not fit their record is hidden; everything else is only flagged.
@@ -240,13 +243,27 @@ if checks
   puts "Madlanga cross-check: #{checks['issues'].size} to review (#{checks['issues'].count { |i| i['level'] == 'high' }} high), #{new_issues.size} new; sources #{checks['sources'].values.join(' / ')}"
 end
 
+# guardrail 11: never contradict the archive's witness list
+cards = MadlangaCheck.archive_cards(get("#{MadlangaCheck::ARCHIVE}/witnesses"))
+align, align_changes = MadlangaCheck.align(CFG, cards)
+if cards.empty? # archive unreachable: keep what it said last time rather than fall back
+  align = (old["align"] || {}); align_changes = []
+  puts "  archive unreachable: keeping its last known names and statuses"
+end
+align.each { |k, o| (out_people[k] ||= { "lines" => [] })["st"] = o["st"] if o["st"] }
+dropped = since_all.select { |s| (a = align[s["k"]]) && MadlangaCheck.contradicts?(s["tag"], a["status_text"]) }
+since_all -= dropped
+puts "Madlanga: archive has #{cards.size} people; #{align.size} of ours matched, #{align_changes.size} corrections, #{dropped.size} events dropped"
+align_changes.each { |c| puts "  archive: #{c}" }
+
 data = {
   "updated" => NOW.iso8601,
   "today" => { "day" => day, "live" => live&.slice("src", "h", "url", "d"), "stand" => stand&.slice("src", "logo", "h", "url", "d") },
   "reports" => reports.map { |i| i.slice("src", "logo", "h", "url", "d") },
   "people" => out_people,
   "since" => since_all,
-  "voices" => voices
+  "voices" => voices,
+  "align" => align.transform_values { |o| o.slice("n", "role", "st", "url") }
 }
 File.write(OUT, JSON.pretty_generate(data) + "\n")
 
@@ -255,6 +272,9 @@ seen = (old["reports"] || []).map { |r| r["url"] } + (old["people"] || {}).value
 added = reports.reject { |r| seen.include?(r["url"]) }.map { |r| { "t" => NOW.iso8601, "kind" => "report", "src" => r["src"], "h" => r["h"], "url" => r["url"], "rule" => "trusted outlet, quoted verbatim" } }
 added += new_since.reject { |s| prev_since.any? { |p| p["k"] == s["k"] && p["tag"] == s["tag"] } }.map { |s| { "t" => NOW.iso8601, "kind" => "since:#{s['tag']}", "who" => s["k"], "src" => s["outlets"].join(", "), "h" => s["h"], "url" => s["url"], "rule" => "two or more trusted outlets" } }
 added += new_issues.map { |i| { "t" => NOW.iso8601, "kind" => "check:#{i['level']}", "src" => i["source"], "h" => i["what"], "url" => "", "rule" => "ours: #{i['ours']} · theirs: #{i['theirs']} · #{i['action']}" } } if checks
+old_align = old["align"] || {}
+added += align_changes.reject { |c| old_align.any? { |k, o| c.start_with?((CFG["people"].find { |p| p["k"] == k } || {})["n"].to_s + ":") && o.values_at("n", "st").compact.any? } }.map { |c| { "t" => NOW.iso8601, "kind" => "archive", "src" => "madlangacommission.co.za", "h" => c, "url" => "#{MadlangaCheck::ARCHIVE}/witnesses", "rule" => "never contradict the archive's witness list" } }
+added += dropped.map { |s| { "t" => NOW.iso8601, "kind" => "dropped:#{s['tag']}", "who" => s["k"], "src" => "madlangacommission.co.za", "h" => s["h"], "url" => s["url"], "rule" => "the archive's status line contradicts this event" } }
 added += held.uniq { |h| h["url"] }.map { |h| { "t" => NOW.iso8601, "kind" => "held back", "src" => h["src"], "h" => h["h"], "url" => h["url"], "rule" => h["why"] } }
 File.write(LOG, JSON.pretty_generate((added + log).first(500)) + "\n")
 puts "Madlanga: #{reports.size} reports, #{out_people.size} people with lines, #{since_all.size} events, #{voices.size} voices"

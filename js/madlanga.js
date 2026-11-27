@@ -36,7 +36,7 @@
     const img = p.img ? `<img class="mc-ph" src="${esc(p.img)}" alt="" style="background:${BG[p.g]}" loading="lazy">` : `<i class="mc-ini" style="background:${BG[p.g]}">${esc(ini(p.n))}</i>`;
     let said = "";
     if (p.g === "witness") {
-      if (p.private) said = `<span class="mc-said">Evidence heard behind closed doors; we show only what is reported from public sittings.</span>`;
+      if (p.private && (st === "p" || st === "tp")) said = `<span class="mc-said">Evidence heard behind closed doors; we show only what is reported from public sittings.</span>`;
       else if (last) said = `<span class="mc-said">${quote(last)}</span>`;
     }
     const resp = a.resp ? `<span class="mc-resp">Response · ${quote(a.resp)}</span>` : "";
@@ -54,6 +54,8 @@
 
   function render() {
     const paused = A.paused;
+    // the archive is the authority: show its spelling and role for every witness it lists (tools/madlanga-update.rb, rule 11)
+    (C.people || []).forEach((p) => { const o = (A.align || {})[p.k]; if (!o) return; if (o.n) p.n = o.n; if (o.role) p.role = o.role; });
     const ppl = C.people || [], wit = ppl.filter((p) => p.g === "witness");
     const lastOf = (p) => (((A.people || {})[p.k] || {}).lines || [])[0];
     const witSorted = wit.slice().sort((x, y) => ((lastOf(y) || {}).d || "").localeCompare((lastOf(x) || {}).d || ""));
