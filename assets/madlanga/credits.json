@@ -130,6 +130,16 @@
       ],
       "credit": "Madlanga Commission",
       "source": "https://madlangacommission.co.za/"
+    },
+    "tshidiso-ramogale": {
+      "name": "Tshidiso Ramogale",
+      "role": "Madlanga Commission",
+      "files": [
+        "assets/madlanga/tshidiso-ramogale.jpg",
+        "assets/madlanga/tshidiso-ramogale-320.jpg"
+      ],
+      "credit": "Madlanga Commission",
+      "source": "https://madlangacommission.co.za/"
     }
   }
 }
