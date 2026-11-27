@@ -577,6 +577,15 @@
       "org": "N24",
       "beat": "reporting"
     },
+    "masungwini": {
+      "n": "Norman Masungwini",
+      "o": "News24",
+      "img": "assets/journalists/norman-masungwini.jpg",
+      "role": "Journalist, News24",
+      "group": "voice",
+      "org": "N24",
+      "beat": "reporting"
+    },
     "macg": {
       "n": "MacGyver “MacG” Mukwevho",
       "logo": "podcastandchill",
@@ -4360,6 +4369,17 @@
       "s": "With Tankiso Makhetha, Paton reported on the DA’s full and final offer to ActionSA to share power in Gauteng’s three metros.",
       "src": "News24",
       "url": "https://www.news24.com/southafrica/news/da-makes-full-and-final-offer-to-actionsa-to-share-gauteng-metros-20261121-1048"
+    },
+    {
+      "id": "nm-coalition-drama",
+      "j": "masungwini",
+      "d": "2026-11-07",
+      "kind": "Article",
+      "place": "Gauteng metros",
+      "h": "Coalition drama: ANC ‘ready for opposition’, ActionSA wants Zille out",
+      "s": "With Pieter du Toit, Masungwini reported that the ANC said it was ready to sit in opposition, while ActionSA demanded Helen Zille step aside as the DA’s Johannesburg candidate.",
+      "src": "News24",
+      "url": "https://www.news24.com/politics/coalition-drama-anc-ready-for-opposition-actionsa-wants-zille-out-20261107-1142"
     }
   ],
   "edition": {
@@ -5585,7 +5605,8 @@
         "jc-ask",
         "jc-feud",
         "tj-actionsa",
-        "ms-soul"
+        "ms-soul",
+        "nm-coalition-drama"
       ],
       "voices": {
         "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
