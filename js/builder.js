@@ -33,6 +33,9 @@
   }
 
   Promise.all([fetch("data/municipalities.geojson").then((r) => r.json()), fetch("data/mayors.json").then((r) => r.json()).catch(() => ({}))]).then(([fc, CANDS]) => {
+    // parties' current nominees where they changed after the vote (mayors.json keeps the pre-election candidates for the Mayors page)
+    const NOW = { EKU: { ANC: ["Mziyanda Mketsu", "ANC", "assets/faces/circ/mziyanda-mketsu.png"] } };
+    Object.entries(NOW).forEach(([c, byP]) => { CANDS[c] = (CANDS[c] || []).map((x) => byP[x[1]] ? byP[x[1]].concat(x.slice(3)) : x); });
     const SEATS = {};
     fc.features.forEach((f) => { const p = f.properties; if (METROS.some(([c]) => c === p.id)) { const s = {}; (p.seats || []).forEach(([q, n]) => { s[norm(q)] = (s[norm(q)] || 0) + n; }); SEATS[p.id] = s; } });
     let code = "JHB", picked = new Set(), mayorP = null;
@@ -47,7 +50,7 @@
       <div class="bc-bar" aria-hidden="true"><div class="bc-fill"></div><i class="bc-line"></i></div>
       <p class="bc-count" aria-live="polite"></p>
       <div class="bc-parties" role="group" aria-label="Parties in the council"></div>
-      <p class="bc-foot"><button type="button" class="bc-reset">Start again</button> <span>Seats: IEC 2026 results. Candidates as announced before the vote; a coalition can elect anyone.</span></p>`;
+      <p class="bc-foot"><button type="button" class="bc-reset">Start again</button> <span>Seats: IEC 2026 results. Candidates as announced, updated where a party has since named someone else; a coalition can elect anyone.</span></p>`;
 
     const $ = (s) => box.querySelector(s);
     function draw() {
