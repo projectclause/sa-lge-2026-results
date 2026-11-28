@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-28",
-    "time": "08:05"
+    "time": "09:21"
   },
   "items": [
     {
@@ -2056,6 +2056,30 @@
       "src": "sundayindependent.co.za",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQeXBJR2haSE5ENHJ5V0VDUFZLTk9nal9NelJ4U0FabmJoQktpLURXUFNtdlJxZDRrWXRWTTNkdHNXU2NuUDFWX3VrQ2FXT0pDbUpvN01VUW5NMWFFOFNrX0k2cWJ0b2ZkMkdlSHNMYmlPU2Z3YmxCSFlra2pUQ0FXM1pYbmF1T0FmYWp1THo4dzluRjlMM09HM0loNmJ3VVJQYVl2YWNPc2ZqTXhmQjNfY3BsSWhJM255TzM4RmRGdW56WThEMEN5cDljQXhVd1h6Q2J1NkNxV2g3MF9pQzAzeXVmQnlhNWs3MHdQSXl1T0hPUENM?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-c04491259d",
+      "j": "michael",
+      "d": "2026-11-27",
+      "kind": "Article",
+      "place": "Johannesburg",
+      "h": "Beaumont says DA recommended Sibiya, challenging Zille’s claims about Malema and Mashaba",
+      "s": "Independent on Saturday reports Michael Beaumont says the DA recommended Shadrack Sibiya, challenging Helen Zille's claims about Julius Malema and Herman Mashaba.",
+      "src": "independentonsaturday.co.za",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBDU1FrMEs2WEU2OGo0SUlzaFdKNXI3ckl2YzlHMUtwWkVBQi1MWWJtMkxMMTZYZmxoOHJUNHZrT25JOHZURFJTNTluZTR0LThOM1VrcklGWmJrM085b2ktYUVpN0JVdUx4ak5ZN2psOFphUElBTkE?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-9cf0654e67",
+      "j": "cyril",
+      "d": "2026-11-26",
+      "kind": "Article",
+      "place": "National",
+      "h": "\"I'm here to serve the people\": Ramaphosa shuts down resignation rumours",
+      "s": "Briefly News reports Cyril Ramaphosa has dismissed resignation rumours, saying he is 'here to serve the people'.",
+      "src": "Briefly News",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORm9ZUWFwcGNKam54QVVLOW9MT0E5aVhQdDBnSE9aOUZlQ2I5Z3BpMWMyQy0wT09FY1QyTWZqSG10V2swdkozWmdvcl9sdlF3THktR0VmZUtpMzFOOGc1dnlqMktNZUt0RGNaTlpjWlFHTHYxZzJUcG85SmpMN2hwWjYwdTJDMllxU1BnX3otcm1sVHNrZXFicHhMZFNXVUJFMDRXLXFqTzF3NTBDWV9FRC1WcXJERmcyY09GT2VSSk5GVHZ3blo0bA?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -3142,6 +3166,24 @@
         "h": "ANC's Adolph Marema defeats DA's Alex Christians to become Johannesburg council speaker",
         "d": "2026-11-26",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMFgyR0pUX1VkNnZiRnk3bFZyZ3pBcDJRQ2RkRi1Cd21Hc2xXNlRKNFdVR2JNakR5WndCckp0TFVvTEdlY2NrRFpoUHVuX1dPd1U2eUxQQTBuVEctMENLdmdKOVBqd2xZV01SU3FZZ3E5V09VTGhXSkJlVVlnVUdncHJjTXBYTXhnMnhTUHFneEN2ZnVNNEU0YjVwMTl3dEtGdXVvc2pVYmVsbkdMQjdua1Z5U2hsY3FDOTF3YUktYkdqdUwtdThEbFBRNUgzMEhK?oc=5"
+      },
+      {
+        "src": "https://novanews.co.za/",
+        "h": "Mashaba elected Johannesburg mayor after days of tense coalition talks",
+        "d": "2026-11-28",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZUFFNjdWWHVhT1FTQ2htcGM5SWVsWVh0ZV9ObzJDQ0VQT2ljZWttbVJXeXdNbnRXMFlReWNQa2txbEhORkFNZXFyeGpxaU1xTlpCWk1KTEtHNTVULWdVbTFreTJlLS1aOTBndkxUU0FKaXhPY0NUUDluNENSS1BXcklnN0s5VWVVTWV1bzdkRlJSQ0NIN1NlZnZ3?oc=5"
+      },
+      {
+        "src": "Daily Dispatch",
+        "h": "ActionSA leader Herman Mashaba elected Johannesburg mayor after tense coalition talks",
+        "d": "2026-11-28",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQM3c1RXIwYWpJRHh5ZXpXVEJoSGJrbTkzZk5Na1g3dE43VU5JN2p0NmJyVGZ2YlN3UGl5ZkV4Rk1IMmJhbjMyTUJNSWFHMmVCbXNVa3E3NElDdEZ3VkFKVTdfT1hOWmFpaDJubVQ4YzF1d2d1b1ZtNFNTa2kzd2FwczhVTmVsZFY5MnVEQlRtNEg1MWw0VzV1M3N6VnduQlhJVEZQaW5sNGd2YnNwWEktek95UEhXN2Y4QWtjeHYzSjZubk1tbUR1S0FTVTVnTmM?oc=5"
+      },
+      {
+        "src": "independentonsaturday.co.za",
+        "h": "Herman Mashaba returns as Johannesburg mayor amid political shifts",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBVdlJROWNZejNWTVd4ejd4MjhSLWU1N0pGTzNJRktXeV9UVHJJLTNiUU5Wdm1wbXlTckd4VkFJTEp0dnhZal9yVGdlTGdZTkphZFM5TUdDRkJkTk9oUVBORU9sUGtFRXRnaEFXd2JEbDdHUUkyWmc?oc=5"
       }
     ],
     "councils": [
@@ -3258,6 +3300,12 @@
         "h": "MK party muscled out as ANC, DA, IFP and EFF join forces to govern Mandeni local municipality",
         "d": "2026-11-26",
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQQ09EcExpbnlBek16RW1td2lFSW5vVHozcmtlckJPU0gtNmlBVGZDYU10M1loMFNWOGlSa2k3dHJOWmRqLTNiR2UxSEFYMGFsbDRxS0JkZ181bEhpQm9pYm1rVXRjVmlNalBVYk5mQ3ZFWllRM1YtY0hGUVQ2VERiRHU5Mlp3SzFSY2w0Vm1DSHpZR1dCSFhOdURZMWhCamRrQ2g2Tl85R1Z6Ym1uRklPQTNKZDZUSzh4UEdEY2NpbUs0d3BVU21FMkZDUlBjWklKbldtOA?oc=5"
+      },
+      {
+        "src": "IOL",
+        "h": "IFP plays hardball ahead of coalition talks",
+        "d": "2026-11-28",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSjFVQTdKclVtdlpOOTQ3anhDSS1ReTRUazRxNDdzU0RvT01ON0lqY2lVa2laQWxWSHVZMXo4aWRPWnZmQ3hSTzlvY1lFMnduVVFTM2FCMFYxMmxFZHpKQjVJcTRaRDF0TUxCTUQ2ckNTTHhPZWI1RWdMZTg1Q2R6NXEwelkyWUxV?oc=5"
       }
     ],
     "tshwane": [
@@ -3868,6 +3916,12 @@
         "h": "The mayoral chains: ActionSA wins big while DA shut out of power",
         "d": "2026-11-28",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUi1vUURIYzJXMUxkSV9rS3FOdnNWRjlscGFrX0ZEZ3VDRm5wZ0FtcnV5d0U4OXhOUHRZTXZJTVBXVnNHUkIyZzRiV1lnWktKVFlLcFlTZHo5N0VhOEgzejk5R1pmUXJ3cXhGbmlqb3N4UHZSRkppSF8xNGJJNmI1dUhEb25tYlBOZ21JTmZCYUZkOHAyblVodTdQbVYwdmRyODBVU2F0VEJxdDJQclE?oc=5"
+      },
+      {
+        "src": "KAYA 959",
+        "h": "Herman Mashaba returns as City of Joburg mayor while Dr Nasiphi Moya retains Tshwane position",
+        "d": "2026-11-28",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSVZtWUEyUkRjWlUyQkRzdXdkNjFwOXVFbUVxcXRJQzEzVGgzLTRMZmV2X2x5bGZzTkloenJ5aDBQakVoYS1sTXJxX2wtbGY1R1UydWd3NThnN0VuM1R3Qi1wT3BMakJkNzVsUWVud3JtTFBncGhDbzlEUy1WVUxPLXQ3bDJDVkM4UjM3a3RNeE9KSl96ckZNTjRRTENCZEsxSVdaTXVXbi1tSmxDMHlqSHpxbEZYUWVUUXgwTThINFlJU0U?oc=5"
       }
     ],
     "mk": [
@@ -4206,12 +4260,12 @@
       "cat": "eThekwini",
       "place": "eThekwini",
       "h": "MK’s Mxolisi Phakathi is elected eThekwini mayor with ANC support and pledges 'radical change'",
-      "dek": "SABC News, News24, eNCA, The Witness, Daily Maverick, BusinessTech and others report the MK Party’s Mxolisi Phakathi has been elected eThekwini mayor through a deal with the ANC, and TimesLIVE reports he has pledged 'radical change'. The ANC’s Thabani Nyawose was re-elected speaker with MKP support, MK’s Thabani Luthuli became deputy mayor, and IOL reports insiders claim the DA's 'arrogance' cost it the chance to govern.",
+      "dek": "SABC News, News24, eNCA, The Witness, Daily Maverick, Central News South Africa, the Sunday Tribune and others report the MK Party’s Mxolisi Phakathi has been elected eThekwini mayor through a deal with the ANC, and TimesLIVE reports he has pledged 'radical change'. The ANC’s Thabani Nyawose was re-elected speaker with MKP support, MK’s Thabani Luthuli became deputy mayor, and IOL reports the new leadership has pledged accountability and urgent water action.",
       "brief": [
-        "SABC News, DailyNews, The Witness, eNCA, IOL, The National and others report Phakathi was elected mayor with ANC help; TimesLIVE reports he pledged 'radical change', and IOL and the Sunday Independent report he has put the water crisis at the top of his agenda.",
-        "IOL reports the MK Party’s Thabani Luthuli was elected deputy mayor, and The Witness, the Sunday Tribune and IOL report the ANC's Nyawose was re-elected speaker.",
-        "SABC News reports the DA confirmed a last-minute coalition offer to the ANC that failed; IOL reports insiders claim the DA's 'arrogance' cost it the chance to govern eThekwini.",
-        "IOL reports the DA has condemned the ANC’s deals, and Briefly News reports the DA saying 'the ANC chose chaos'.",
+        "SABC News, DailyNews, The Witness, eNCA, IOL, The National, Central News South Africa and others report Phakathi was elected mayor with ANC help; TimesLIVE reports he pledged 'radical change'.",
+        "IOL reports the new eThekwini leadership has pledged accountability and urgent water action, and IOL and the Sunday Independent report Phakathi has put the water crisis at the top of his agenda.",
+        "The Sunday Tribune and IOL report the MK Party’s Thabani Luthuli was elected deputy mayor, and The Witness, the Sunday Tribune and IOL report the ANC's Nyawose kept the speaker's position.",
+        "SABC News reports the DA confirmed a last-minute coalition offer to the ANC that failed; IOL reports insiders claim the DA's 'arrogance' cost it the chance to govern, and Briefly News reports the DA saying 'the ANC chose chaos'.",
         "IOL and EWN report five councillors, including former mayor Cyril Xaba, resigned from council, and the Mail & Guardian reports allegations of dirty deals."
       ],
       "auto": true,
@@ -5027,6 +5081,24 @@
           "h": "DA’s ‘arrogance’ cost it chance to govern eThekwini, insiders claim",
           "d": "2026-11-28",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUzI2UWFXZGtOX2VuMXhGR3VyRmZHOHIyaTU0bE52UFNlMkdFb0h0WnFvdzJVQmlRWW5fV1R4UU9aaXQ4bzZxQlZYeV9jVjR3S0g1MTd1TTkxbFAtdXBqTW04M2YtYzRoTEVhZ21FM2g3dFRrNWpHYjdBbWVCcWI1NjNZOEs2VGM1aXYxY3p2RHUxS0lKS09XOTRXTm9zMFJ3YzVibzU2U0o0MDg?oc=5"
+        },
+        {
+          "src": "Sunday Tribune",
+          "h": "Phakathi elected eThekwini mayor as Luthuli takes deputy role and Nyawose retains Speaker position",
+          "d": "2026-11-28",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNUkJGcHBBR0ZTQXVZU256NkxzRmVVR1JBLVV0NWpmVWRQQnM1cmg5SVc1dWtScVV6REhlUGhNVVR3VDNsVjgyTXU1RmJaTzBZOGxLQVRHLS1LeENaRERlRk4ySG5YVjFKRTFfUUFuTmw5V3pfWEF1N1lNV1R0bENORGVJcmljX1V0cUxhWFc2c3FCOGxoUVphZDQzd3MzU3RPZDN6aThrUU1FQWxkRU5UQ19PbGV6QThpNjlPSzBtZlJDbHp5S1lId1RjY25wTE52THQ1c253Y3B3blU?oc=5"
+        },
+        {
+          "src": "Central News South Africa",
+          "h": "MK Party’s Mxolisi Phakathi Elected New Mayor of eThekwini",
+          "d": "2026-11-28",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONWp4TVh6WUp3SWZpRGRWYjNIMF9Ua3hZMzQ0VEE3azJyWmItTVNCS1FFS292RzRRcXdHZ1ljWDA1cHg1SFhzVGFTN0ZXOHItRDF6TklfQWNlS2FVamQyNkhGUXUxS2lYMGVIU0tqQkNTQlpGWDdoYzktcHptWC1ZSnVXYUg4V19fNTRTYg?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "New eThekwini leadership pledges accountability and urgent water action",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQ1lnQ1NOazRWRnU2S1FMUUxNdk5mSFdsUWJQOVlqbTBRNEF0ZElOZm9NZFNodkdTOTdFNVRBbXVGQU9PWFhiVnhHUGkteF9rWTdZWF9mTXdjYXVkN1VudDhyQ3ZPN21aNjNOUGF3LUZJd1FhWm1CdWhabDlkXzFTNnZGa1MzajVVQ0dtUk1kQU5EeFZFcC1KakNXbHlhUWNEV01DOHRNWE5vUGdsRFg4TnRUeExCUWVTcFRJ?oc=5"
         }
       ],
       "sec": [
@@ -5390,7 +5462,8 @@
       "items": [
         "a-e5a4a61bd8",
         "a-331e0064cd",
-        "a-5ada39e348"
+        "a-5ada39e348",
+        "a-c04491259d"
       ],
       "coverage": [
         {
@@ -5970,6 +6043,12 @@
           "h": "Ekurhuleni council supports motion to establish deputy mayor position",
           "d": "2026-11-28",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZmdGd01QM1BPb1dCRFJRTGd1MFVfT2k5Tkpnd1pyeUhhOE1qdHQ2ejNWeWR5OWhLdURjbms1M3cxX2RZd0NyZzFHU2Rsc00zRndCeGwtSF82S3NxT3IzZEdBZ2lEVmllTWIyOWNBWUZPLWVteWJwT2V0SlBmLWNqQXJOZDFFM2JNM3lQLVZDQ3R2THBEcFhkN2gtX0R5bV94dVJMTDZwZ29MLWZNX0lwajZPZw?oc=5"
+        },
+        {
+          "src": "sundayindependent.co.za",
+          "h": "ANC’s Mziyanda Mketsu tipped to become next Ekurhuleni mayor",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZzV3MGEteGNzRzQzNU0zZkdacTUtenVfQ3lqOHNvMVh1aHJJWnNPdzlFV3dEV3B1eGZpaXBYaDV4bEFWb1ltOEJ1aE9EOERnQ1lHc0w4Y2V5UTNVUU90SmN2TVZ4a29Qb3E0ZEZmaTdoenh6QTVLV1JieUV3OGNXV0lrWlJianhTaGtEeXFtQXh3MVFmUDBWYlNrWjBwUi1iOTRydUdPTkJCUmxWUUNIeg?oc=5"
         }
       ],
       "sec": [
@@ -6226,14 +6305,14 @@
     {
       "cat": "ANC",
       "place": "National",
-      "h": "The ANC leaves coalition choices to its provinces and regions",
-      "dek": "EWN and Dan Corder report the ANC’s NEC has let provinces and regions decide coalitions, affecting over 100 hung councils, and SABC News and IOL report the NEC resolved that DA coalitions should be a last resort. Polity.org.za reports the ANC has unveiled a coalition co-operation accord to stabilise 139 hung councils, and The Citizen reports Fikile Mbalula said 'the ANC did not win this election' as the party sealed coalition agreements.",
+      "h": "The ANC leaves coalition choices to its provinces and regions and sets partners a 100-day clock",
+      "dek": "EWN and Dan Corder report the ANC’s NEC has let provinces and regions decide coalitions, affecting over 100 hung councils, and SABC News and IOL report the NEC resolved that DA coalitions should be a last resort. Polity.org.za reports the ANC has unveiled a coalition co-operation accord to stabilise 139 hung councils, and News24 reports the public accord puts coalition partners on a 100-day clock.",
       "brief": [
         "EWN asks whether the ANC has given provinces and regions the final say; Dan Corder says the NEC let regional bodies choose, affecting well over 100 hung councils, and SABC News and IOL report the NEC resolved that the DA should be a 'last resort'.",
-        "The Citizen reports Mbalula said 'the ANC did not win this election' as the party sealed coalition agreements, after IOL and The Common Sense reported the ANC pushed his coalition briefing to Friday.",
-        "Polity.org.za reports the ANC has unveiled a coalition co-operation accord to stabilise 139 hung councils; Newsnote reported the ANC asserting consensus as talks neared conclusion, and EWN quotes an analyst warning of a 'death spiral'.",
+        "Polity.org.za reports the ANC has unveiled a coalition co-operation accord to stabilise 139 hung councils, and News24 reports the public accord puts coalition partners on a 100-day clock; EWN quotes an analyst warning of a 'death spiral'.",
+        "The Citizen reports Mbalula said 'the ANC did not win this election' as the party sealed coalition agreements.",
         "IOL reports Mkhize warned the ANC against a DA coalition in a 2024 letter, and that the SACP drew a line over coalition support; The Common Sense reports the SACP called a Sol Plaatje deal with the DA a “betrayal”.",
-        "TimesLIVE and Business Day report Ramaphosa says he is 'not resigning' after the election setback, IOL reports tensions over Ramaphosa and working with the DA, and SABC News reports Malatji saying the ANC’s decline goes beyond its current leadership."
+        "TimesLIVE and Business Day report Ramaphosa says he is 'not resigning' after the election setback, and Briefly News reports him dismissing resignation rumours, saying he is 'here to serve the people'."
       ],
       "auto": true,
       "id": "anc-regions",
@@ -6251,7 +6330,8 @@
         "a-57736b3042",
         "a-c2643b44a8",
         "a-b0f3f8f211",
-        "a-e293c9b5d4"
+        "a-e293c9b5d4",
+        "a-9cf0654e67"
       ],
       "coverage": [
         {
@@ -6523,6 +6603,12 @@
           "h": "ANC sets coalition mandate, puts municipal service delivery first",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb2JXMGxnV25KRlhKdTNrbUxQVGFnZm9hOUxqTVZJS2JvVUxRV2QwVkxMRFRWcF9xc0NLd3lYRDZoZFVYY3FFeGtOeUVTNVJZMjZJVUdwRUZoNEtyUERxRVRaajVhQ25FWG1NUFFPQVFSNklENDRmc0xQeTNhN1Noa3V3MlVVUjlEZ0RJQTBDaFZYdm0yMExGT2NOSE1RcnAxTHBFNk1JbnJMREE?oc=5"
+        },
+        {
+          "src": "News24",
+          "h": "ANC puts coalition partners on 100-day clock with public accord",
+          "d": "2026-11-28",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZkdsVlMta3lwVkp2bGZtMkpMbHNOa05Ba000eFZWY0YtQ0tSaEJydVVRRXBWTEowQnlPUGNqSjNfU3U0RGs5NjJpNkRwRGZpNjc2SE82NnNkZDFKWU52MUdYRWJZRndmZlJGbDdCMXRzNUF4Q3M1X1BTV050aWNLMVVNdFBqSXhSdUo4RDktZm1pbkVRNVhxTlFac3JXV2FLeXhmdVlpWndnNW5oU0E?oc=5"
         }
       ],
       "sec": [
@@ -6627,10 +6713,10 @@
       "cat": "Cape Town",
       "place": "Cape Town",
       "h": "Geordin Hill-Lewis is re-elected Cape Town mayor and names his mayoral committee",
-      "dek": "IOL reports Geordin Hill-Lewis has been re-elected mayor of Cape Town, pledging jobs and stronger policing, and that the DA has declared victory in the city. The City of Cape Town, The Bulrushes, EWN, SABC News, Cape Town ETC and IOL report he has announced a new mayoral committee, and ActionSA says it will hold the new members accountable.",
+      "dek": "IOL reports Geordin Hill-Lewis has been re-elected mayor of Cape Town, pledging jobs and stronger policing, and that the DA has declared victory in the city. The City of Cape Town, The Bulrushes, EWN, SABC News, Cape Town ETC, Central News South Africa and IOL report he has announced a new mayoral committee, and ActionSA says it will hold the new members accountable.",
       "brief": [
         "IOL reports Geordin Hill-Lewis was re-elected Cape Town mayor and pledged jobs and stronger policing, and that the DA has declared victory in the Cape Town elections.",
-        "The City of Cape Town, The Bulrushes, EWN, SABC News and Cape Town ETC report Hill-Lewis has announced his new mayoral committee; SABC News says it has 11 members, and IOL reports three of them are new.",
+        "The City of Cape Town, The Bulrushes, EWN, SABC News, Cape Town ETC and Central News South Africa report Hill-Lewis has announced his new mayoral committee; SABC News and Central News South Africa say it has 11 members, and IOL reports three of them are new.",
         "ActionSA says it will hold Cape Town’s newly appointed mayoral committee members accountable for delivering on their mandates.",
         "IOL reports Helen Zille defended the DA's privatisation plans, citing Cape Town as an example.",
         "Sunday World reports suburban voters secured the DA's election victory in Cape Town."
@@ -6709,6 +6795,12 @@
           "h": "Hill-Lewis names three new members to Cape Town mayoral committee",
           "d": "2026-11-28",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZ25QUTc4TEY3Yk1EZmp4VVpPZGhaRFBqVDNyUlVxQUM5SFdSRW1jR1lkUW1rNm9aWnRkdTFHcUhkbUZCU19hVGRZU3VsYnVxTTJzVllfYnhPMDJTd0o2aGp1aHdVYlFDbHVvaUhpQnJhNmY5STJ2bTAyU1VvczV5UC1DdDF2XzFxbWxXUDVIQ1V5emRObGlmMEktUnExd0l4dkFiaExMRnBIV2dfaUFz?oc=5"
+        },
+        {
+          "src": "Central News South Africa",
+          "h": "DA Hill-Lewis Unveils New 11-Member Mayoral Committee in Cape Town",
+          "d": "2026-11-28",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMTVIaVd1UWZ2djNkVjN3NFdsMUlTTlJIT3pDZnByTjZEczFlSnZzNXZvTk9LREtablV0a1VWVDI1c01rQmdWRW03ZDdDSjJjd3RRQzU2WUxkRndIWXRRRXJSRWRBaHBjVW5VWndfUmNVM2o2cVJJN1RrNnE1YU9sdjJJUUxQcEtjYS1HcHF3WExLSXR4QTlKeQ?oc=5"
         }
       ],
       "sec": [
@@ -8074,6 +8166,19 @@
     "e2a31eb42c2d",
     "2d0e3fc51184",
     "bf89cb9a06c8",
-    "85f26f25de57"
+    "85f26f25de57",
+    "b7c74cc8f30b",
+    "255281e2f970",
+    "9ddcf046c319",
+    "edbfe5473521",
+    "f6916192a4d4",
+    "2c5c21124d74",
+    "f3e3ec701d00",
+    "49708d83fe1c",
+    "b6950238cacf",
+    "fcf3742c539d",
+    "c04491259d50",
+    "456a0d68adb5",
+    "9cf0654e6704"
   ]
 }

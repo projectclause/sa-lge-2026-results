@@ -1,11 +1,25 @@
 {
-  "updated": "2026-11-28T06:09:37Z",
+  "updated": "2026-11-28T07:27:21Z",
   "today": {
     "day": 202,
     "live": null,
     "stand": null
   },
   "reports": [
+    {
+      "src": "IOL",
+      "logo": "iol",
+      "h": "Carrim’s lawyers accuse Madlanga Commission of ‘malicious harm’ as court orders engagement",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdmRxaXM0eVV6akFmUGJPV05uU1FJUFBQVHFmWUpVTE1ncXdWYng0V3lFSjFoUnM5X0hYbzVDRzJYRWxMemswNzNnN0hZSF8xUklSbm4wbFVudFZsZWM3QUM2WVV6ci1JVUJoVld1dm1UOVN2eVJ2VFh3NDhyUTRkbG1Sa3JuWVBzVzZuZjc1YjdiTVFsbnpJdlp0SWlUZk94RHdxWjhQMlcxTGpOUF8xc1hsRXlTVU96bFpfcmRoUDRRU3Ytc1NEOGJ0RER4Z0t3QWQwZHpB?oc=5",
+      "d": "2026-11-28T05:52:25Z"
+    },
+    {
+      "src": "IOL",
+      "logo": "iol",
+      "h": "Ramaphosa was warned of national security threats days before Mkhwanazi's briefing | Madlanga Commission",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNN0xld0c0WjNVX2xKQjhUVkxTd25NU2dPQVhOQ0JFY1Rncnptdkc5OHZuU0NPSVBzZXZmbElmM0QwYWRXeUNSTDJQaGRrS0dqZ1VmeEloUVp2Ni1lV0tVclkwYWU5ZEZlSEVmcFdsei1sSnFYUEg3QkRtTEdFMEd1RDJjUEh0QW1QamduOFZlMGIxa3EtT1ZXV2tSMTFfMUtRRXI2QnU4RXdRalJleGtoSlhBRTV0WXVOREo4b0ZMRGVlOEFTZ3RVVDI1QjRvaDhDQ216TllybzVKa1NCblE?oc=5",
+      "d": "2026-11-28T03:00:23Z"
+    },
     {
       "src": "IOL",
       "logo": "iol",
@@ -128,23 +142,9 @@
     {
       "src": "IOL",
       "logo": "iol",
-      "h": "Matlala leaves Madlanga Commission with more questions than answers",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQMHJ6YlZGV0pfTWV1TFZCTUFLSHFpNGs4TmdRRmZlR3VqT1h0UzdVWm54YlV1Vi1zcXJGVnhTZGt3N19uSEVPbThLRW92ZEFSbkxaYWFRZkMxVjVkSkc3YzBlWEdkTENaZ1VleS04T1NLQVBDVkd0SkNtT05lNEVNOEQ0bWhmdmhubEJqdExENXozXzFnZ3V6OXdJYmVGOE5NUVpRMHJIOXp6Yl8wa19zWGNtdHpVbUFEd2xuUUFBUWJUMjZKOXBla2dIQnNwYXBrSFc5bGJXMkVoZEp5YUgxek9KNnZQTHJqM1pheEpB?oc=5",
-      "d": "2026-11-26T08:00:00Z"
-    },
-    {
-      "src": "IOL",
-      "logo": "iol",
       "h": "LIVE: JMPD corruption and bribe claims back in focus as Madlanga Commission resumes",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRHJjTkwyNDBBRnhYYnlPZFVCbWtyYmxRdkkxVUwtcW94dHBiLVJ4aXRta3BieUNuUEdQZE8tVjlZZDdSbURFdGJwUkJudFhpYTdJUzlSMVZOYU0tZzdsbjVidEsxbENnYThrZDhkNDRZeDNmNDhRZWhybGd3VlJrVTNPWEFzMVZtcWdBNGxNNTIyWGpockRyeHdNay1qN2xKdUNjTUtCSlFMaUJGbEc5eFF2Qm9SRVFaRnBTMmFB?oc=5",
       "d": "2026-11-26T08:00:00Z"
-    },
-    {
-      "src": "TimesLIVE",
-      "logo": "timeslive",
-      "h": "RECORDED | Former Sars boss Kieswetter continues testimony at Madlanga inquiry",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMXdYRFhqbG52X1cyMmFHNjNKbFlUV1NGU1ZXX2l2cmZhQWhWeHJaSmd4b1NrcVpfbXFXVlZxSWJMZWpOSFkwYXJscmlKMWkyUHljelFvRlVwTERxc1Z4cm5EX1J1SFZPRGtQZXRqak1aeWxMTk9Lc0hYcm11aVV1bFgyQVA5LUlJTi1RRmx4ZmM2ajlVS200RkxSckZ2bTFlM19xN19keXp1b1Z6bUFJSVdzVVBXR09BSjc4QUd1bzgzbERKV2c?oc=5",
-      "d": "2026-11-26T07:53:01Z"
     }
   ],
   "people": {
@@ -242,16 +242,16 @@
         {
           "src": "IOL",
           "logo": "iol",
-          "h": "Madlanga Commission: Ramaphosa briefed six days before Mkhwanazi’s explosive briefing",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaGpMM2JlTXhidkhnMWU4RURNMVREdklGQUlfdUF3OE02czZtSm9XNGdFdTh5X2J4RXpqeTl5YlJINHAxZzdQZkR1eTBJQmlkdnRfUGJzTUdERUlLVFp5ZVIzbVltMmxtME9rcHh6QWhabUNicmRmX21hNFE3V2RkN1JVMlE5OFlGelVUNFEzY29fQmJrNnczQUhwVjE2QlJBMF90QXdYd05MYUR4ZWVRNUQ0OC14dnFFOWZvT21jYjNhUXp0RE1z?oc=5",
-          "d": "2026-11-27T20:44:10Z"
+          "h": "Ramaphosa was warned of national security threats days before Mkhwanazi's briefing | Madlanga Commission",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNN0xld0c0WjNVX2xKQjhUVkxTd25NU2dPQVhOQ0JFY1Rncnptdkc5OHZuU0NPSVBzZXZmbElmM0QwYWRXeUNSTDJQaGRrS0dqZ1VmeEloUVp2Ni1lV0tVclkwYWU5ZEZlSEVmcFdsei1sSnFYUEg3QkRtTEdFMEd1RDJjUEh0QW1QamduOFZlMGIxa3EtT1ZXV2tSMTFfMUtRRXI2QnU4RXdRalJleGtoSlhBRTV0WXVOREo4b0ZMRGVlOEFTZ3RVVDI1QjRvaDhDQ216TllybzVKa1NCblE?oc=5",
+          "d": "2026-11-28T03:00:23Z"
         },
         {
           "src": "IOL",
           "logo": "iol",
-          "h": "Ramaphosa was warned of national security threats days before Mkhwanazi's briefing | Madlanga Commission",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNN0xld0c0WjNVX2xKQjhUVkxTd25NU2dPQVhOQ0JFY1Rncnptdkc5OHZuU0NPSVBzZXZmbElmM0QwYWRXeUNSTDJQaGRrS0dqZ1VmeEloUVp2Ni1lV0tVclkwYWU5ZEZlSEVmcFdsei1sSnFYUEg3QkRtTEdFMEd1RDJjUEh0QW1QamduOFZlMGIxa3EtT1ZXV2tSMTFfMUtRRXI2QnU4RXdRalJleGtoSlhBRTV0WXVOREo4b0ZMRGVlOEFTZ3RVVDI1QjRvaDhDQ216TllybzVKa1NCblE?oc=5",
-          "d": "2026-11-27T10:23:35Z"
+          "h": "Madlanga Commission: Ramaphosa briefed six days before Mkhwanazi’s explosive briefing",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaGpMM2JlTXhidkhnMWU4RURNMVREdklGQUlfdUF3OE02czZtSm9XNGdFdTh5X2J4RXpqeTl5YlJINHAxZzdQZkR1eTBJQmlkdnRfUGJzTUdERUlLVFp5ZVIzbVltMmxtME9rcHh6QWhabUNicmRmX21hNFE3V2RkN1JVMlE5OFlGelVUNFEzY29fQmJrNnczQUhwVjE2QlJBMF90QXdYd05MYUR4ZWVRNUQ0OC14dnFFOWZvT21jYjNhUXp0RE1z?oc=5",
+          "d": "2026-11-27T20:44:10Z"
         }
       ],
       "st": "t"
@@ -296,7 +296,7 @@
           "logo": "ewn",
           "h": "Dumisani Khumalo returns to Madlanga Commission with private testimony",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOd2dkNXRObW9na0o5Tl8yRHoxWGktV0JqYjFxNWlyOHRQd3YwbFpnOHdvWjBUZWJRbFNpYXVsQ1g5ci1BTHkxUEYtSVNBemZhSUtZUnJiV0tTd0dFMjFZb0lDSnhtaG40ZUhlOTBqdHp5TGdBR1ZWMnBYeVBBQjkyUU1rMWxSaU9JOXRqZUkxRXEzSlJQelNUU3ZWRHhwVms4eDlVelVB?oc=5",
-          "d": "2026-11-25T06:50:10Z"
+          "d": "2026-11-25T16:42:35Z"
         },
         {
           "src": "SABC News",
@@ -330,6 +330,20 @@
     "brown-mogotsi": {
       "lines": [
         {
+          "src": "IOL",
+          "logo": "iol",
+          "h": "Brown Mogotsi in court over alleged lies under oath at Madlanga Commission",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUFZyTFBEWGdGcC1USTBLSGkzb2NnR3Q0eEpxOFl0bFVucllFN0hFeVNReTNxbEdYeTR3N3Z1YWQ4Y0dDVXB3M3MzYVRIMVlubFltWVlDRlQ0NXM0TGM4Y2FxbE1sVHZYREFhUE9rUEtqOG9mcm5ZclI2U2l1c0dzWURmb0t0a19BT1l1akFjV1c2MGJzTndtbnUzMWR3blZSR3Z3S3lXc1B5WV9adnNJMVdiak5DZw?oc=5",
+          "d": "2026-11-25T16:10:52Z"
+        },
+        {
+          "src": "EWN",
+          "logo": "ewn",
+          "h": "State to oppose bail for Brown Mogotsi over false Madlanga Commission statements",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZjIxdUNObVR0TmJjZE9NRnl5RmxIUUtIMzRTd0c1aUVKb2phUzJacl93Mk1DNGUwMlN6Vm1Xa3NsYlIyTnlZa2pSN1NyTXN3ZEg0U2hScS13R3pFejBQdGRPNGVHYXNlYkpUMHh3UDQtc2NiLXRYN04xbFpmVVRudDFhdjVHcVEtVjQyUGRpUXFfc0ZCRnlPejBuX3NqT3JCdjgza2x3?oc=5",
+          "d": "2026-11-25T07:10:19Z"
+        },
+        {
           "src": "The National",
           "logo": "thenational",
           "h": "Brown Mogotsi stays in custody as Madlanga inquiry perjury case postponed",
@@ -356,13 +370,6 @@
           "h": "Alleged political fixer, Brown Mogotsi appears in court over alleged false testimony before Madlanga Commission",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOU2pubkdrVHg5bGNEV1hOZnNPTEJoeUlKZVBKRDZsYnU0T2Zzb19uOVgzZ1FzNEs1TW9GQWRQUG52YU90c0xvN24wYXZKTC1HVUt6WW12UTFWT0R4OC1IbU91b19oN3dQNU5HSExqWUM0NW9TVFdYYUNpOERRenhBS25lbmhRTnUwWWN0OXljNlBncDg5RnNhSDZkeHp2QkJKQmFrbU4tSnFLVWhsSGEwZ2NaVGFJXzRMU0NlQXR4a3BmTGNBRkNaRU5kTk52U282VkZkbG9GVjNtOHczU2M1RmU2NA?oc=5",
           "d": "2026-11-24T13:49:01Z"
-        },
-        {
-          "src": "IOL",
-          "logo": "iol",
-          "h": "Brown Mogotsi in court over alleged lies under oath at Madlanga Commission",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUFZyTFBEWGdGcC1USTBLSGkzb2NnR3Q0eEpxOFl0bFVucllFN0hFeVNReTNxbEdYeTR3N3Z1YWQ4Y0dDVXB3M3MzYVRIMVlubFltWVlDRlQ0NXM0TGM4Y2FxbE1sVHZYREFhUE9rUEtqOG9mcm5ZclI2U2l1c0dzWURmb0t0a19BT1l1akFjV1c2MGJzTndtbnUzMWR3blZSR3Z3S3lXc1B5WV9adnNJMVdiak5DZw?oc=5",
-          "d": "2026-11-24T06:32:40Z"
         },
         {
           "src": "SABC News",
@@ -450,6 +457,13 @@
     "suliman-carrim": {
       "lines": [
         {
+          "src": "IOL",
+          "logo": "iol",
+          "h": "Carrim’s lawyers accuse Madlanga Commission of ‘malicious harm’ as court orders engagement",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdmRxaXM0eVV6akFmUGJPV05uU1FJUFBQVHFmWUpVTE1ncXdWYng0V3lFSjFoUnM5X0hYbzVDRzJYRWxMemswNzNnN0hZSF8xUklSbm4wbFVudFZsZWM3QUM2WVV6ci1JVUJoVld1dm1UOVN2eVJ2VFh3NDhyUTRkbG1Sa3JuWVBzVzZuZjc1YjdiTVFsbnpJdlp0SWlUZk94RHdxWjhQMlcxTGpOUF8xc1hsRXlTVU96bFpfcmRoUDRRU3Ytc1NEOGJ0RER4Z0t3QWQwZHpB?oc=5",
+          "d": "2026-11-28T05:52:25Z"
+        },
+        {
           "src": "The Citizen",
           "logo": "citizen",
           "h": "Suliman Carrim's attorney faces possible misconduct probe over 'scandalous' claims against Madlanga Commission",
@@ -525,13 +539,6 @@
           "h": "Madlanga Commission mulls referring Carrim’s lawyer to LPC",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPLXUyRGlDZWg0WWYtQkVGUVdGdDRFYnBueVJVeXlDNmw1Zl84VFlqd3psd1ZsLWh2ampmdVFUMWVZZjJiOGRkZlluVlRCYjdBdGtyX3d2eHc2NE1XalhSSVZhMjdJUDNKSGFoWEo4aFZEMVhLUDIwNFhmazhZSHlmaWcxeWRhWTlDcVg0d09zeXZTbW1HRmxB?oc=5",
           "d": "2026-11-24T05:47:47Z"
-        },
-        {
-          "src": "SABC News",
-          "logo": "sabcnews",
-          "h": "Madlanga Commission considers referring Carrim’s lawyer to Legal Practice Council",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAtUTN1UzBwQWR3MmpBNUxOQndSX1BuS2ZNeElSU05JNjNJYjYwSnUzUjlRQ2hrZ0hOUDdjekYyRlQ3VXA3Z0o3dlIxTklON3BTMjNLSm1zRQ?oc=5",
-          "d": "2026-11-23T19:29:58Z"
         }
       ],
       "resp": {
@@ -548,15 +555,15 @@
         {
           "src": "TimesLIVE",
           "logo": "timeslive",
-          "h": "WATCH LIVE | Former Sars commissioner Kieswetter continues testimony at Madlanga inquiry",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdXdkX2ctQUw0S3ltcWFkazRjNEtsWldqUDYwb2d2S2pmNkxTa1ZTZ01vRFRISzQ4YnE2YUVlM0tzVUlJNDk5Sk1uN2lUbHh2SS1GSUY0aFJsM0s0LU5sZ21zcUJIVnpGUDV2Z2VlcUpDZTE1YjBsQUNfMUoxTmJHakxTVmZYUDJyYzd4M2NsSi1nLTZsSXRKZkF6WElydWZ5aFhJUHFTZHk1Mm5nTVpTV1lfYlJqYy0wQVZkWjhxUEZBM3plaHEzWlpVYlZoelRG?oc=5",
+          "h": "RECORDED | Former Sars boss Kieswetter continues testimony at Madlanga inquiry",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMXdYRFhqbG52X1cyMmFHNjNKbFlUV1NGU1ZXX2l2cmZhQWhWeHJaSmd4b1NrcVpfbXFXVlZxSWJMZWpOSFkwYXJscmlKMWkyUHljelFvRlVwTERxc1Z4cm5EX1J1SFZPRGtQZXRqak1aeWxMTk9Lc0hYcm11aVV1bFgyQVA5LUlJTi1RRmx4ZmM2ajlVS200RkxSckZ2bTFlM19xN19keXp1b1Z6bUFJSVdzVVBXR09BSjc4QUd1bzgzbERKV2c?oc=5",
           "d": "2026-11-26T07:53:01Z"
         },
         {
           "src": "TimesLIVE",
           "logo": "timeslive",
-          "h": "RECORDED | Former Sars boss Kieswetter continues testimony at Madlanga inquiry",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMXdYRFhqbG52X1cyMmFHNjNKbFlUV1NGU1ZXX2l2cmZhQWhWeHJaSmd4b1NrcVpfbXFXVlZxSWJMZWpOSFkwYXJscmlKMWkyUHljelFvRlVwTERxc1Z4cm5EX1J1SFZPRGtQZXRqak1aeWxMTk9Lc0hYcm11aVV1bFgyQVA5LUlJTi1RRmx4ZmM2ajlVS200RkxSckZ2bTFlM19xN19keXp1b1Z6bUFJSVdzVVBXR09BSjc4QUd1bzgzbERKV2c?oc=5",
+          "h": "WATCH LIVE | Former Sars commissioner Kieswetter continues testimony at Madlanga inquiry",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdXdkX2ctQUw0S3ltcWFkazRjNEtsWldqUDYwb2d2S2pmNkxTa1ZTZ01vRFRISzQ4YnE2YUVlM0tzVUlJNDk5Sk1uN2lUbHh2SS1GSUY0aFJsM0s0LU5sZ21zcUJIVnpGUDV2Z2VlcUpDZTE1YjBsQUNfMUoxTmJHakxTVmZYUDJyYzd4M2NsSi1nLTZsSXRKZkF6WElydWZ5aFhJUHFTZHk1Mm5nTVpTV1lfYlJqYy0wQVZkWjhxUEZBM3plaHEzWlpVYlZoelRG?oc=5",
           "d": "2026-11-26T07:53:01Z"
         },
         {
@@ -716,8 +723,8 @@
       "last": "2026-11-26T23:29:16Z"
     },
     "karyn-maughan": {
-      "n7": 9,
-      "last": "2026-11-28T02:00:25Z"
+      "n7": 8,
+      "last": "2026-11-28T02:35:25Z"
     },
     "rebecca-davis": {
       "n7": 0,
@@ -749,7 +756,7 @@
     },
     "bongani-hans": {
       "n7": 0,
-      "last": "2026-07-10T07:00:00Z"
+      "last": "2026-09-17T07:00:00Z"
     },
     "kyle-cowan": {
       "n7": 0,
