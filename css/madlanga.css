@@ -80,3 +80,23 @@
   .m-expl { margin-top: 22px; } .m-expl > .pl-sh { border-top: 2px solid #121212; }
 }
 @media (min-width: 721px) { .m-rep .mc-more.m-only2 { display: none; } }
+/* top quick-links strip: dark, swipeable, with arrows on computers when it overflows */
+.mcs { position: relative; margin: 0 calc(50% - 50vw); background: #2b2b2b; }
+.mcs-row { display: flex; gap: 6px; overflow-x: auto; scroll-snap-type: x proximity; scrollbar-width: none; padding: 10px max(16px, calc(50vw - 560px)); }
+.mcs-row::-webkit-scrollbar { display: none; }
+.mcs-i { flex: none; display: inline-flex; align-items: center; gap: 10px; padding: 6px 16px 6px 8px; color: #f2f2f2; text-decoration: none; font: 500 15px/1 var(--font); white-space: nowrap; scroll-snap-align: start; border-radius: 4px; }
+.mcs-i:hover, .mcs-i:focus-visible { background: #3a3a3a; }
+.mcs-ic { width: 26px; height: 26px; border-radius: 3px; object-fit: cover; flex: none; }
+.mcs-svg { color: #f2f2f2; padding: 2px; }
+.mcs-ini { display: grid; place-items: center; background: #555; color: #fff; font-style: normal; font-size: 11px; font-weight: 700; }
+.mcs-live { font-weight: 700; }
+.mcs-dot { width: 10px; height: 10px; border-radius: 50%; background: #e53935; margin: 0 4px 0 8px; box-shadow: 0 0 0 0 rgba(229,57,53,.6); animation: mcs-pulse 1.6s infinite; }
+@keyframes mcs-pulse { 70% { box-shadow: 0 0 0 8px rgba(229,57,53,0); } 100% { box-shadow: 0 0 0 0 rgba(229,57,53,0); } }
+@media (prefers-reduced-motion: reduce) { .mcs-dot { animation: none; } }
+.mcs-arw { position: absolute; top: 0; bottom: 0; width: 44px; border: 0; color: #fff; font-size: 26px; cursor: pointer; z-index: 2; }
+.mcs-l { left: 0; background: linear-gradient(90deg, #2b2b2b 55%, rgba(43,43,43,0)); }
+.mcs-r { right: 0; background: linear-gradient(270deg, #2b2b2b 55%, rgba(43,43,43,0)); }
+.mcs-arw[hidden] { display: none; }
+@media (max-width: 720px) { .mcs-arw { display: none !important; } .mcs-i { font-size: 14px; } .mcs { order: -1; } }
+.mcs .mcs-i, .mcs .mcs-i:visited { color: #f2f2f2 !important; }
+.mcs .mcs-svg { color: #f2f2f2 !important; }

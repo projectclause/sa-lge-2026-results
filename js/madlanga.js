@@ -95,8 +95,26 @@
     const gl = sec("m-gl fold", "Glossary", `<dl class="mx-gl">${(C.glossary || []).map(([a, b]) => `<dt>${esc(a)}</dt><dd>${esc(b)}</dd>`).join("")}</dl>`, "", "glossary");
     const docs = sec("m-doc fold", "Documents", `<ul class="mx-doc">${(C.documents || []).map(([t, u]) => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)} ›</a></li>`).join("")}</ul>`);
     const foot = `<p class="m-end mc-foot" style="margin:28px 0 40px">Every line about a person is a trusted outlet’s own headline, quoted and credited, chosen automatically under published rules. We do not report evidence heard in private or identify witnesses the commission has ordered protected. Spotted an error? Email <b>preamblehq@gmail.com</b> and we will correct it. Photos: Madlanga Commission.</p>`;
-    root.innerHTML = head + expl + rep + thr + wsec + cons + com + ev + staff + tl + vsx + gl + docs + vo + up + foot;
-    tick(); fitTips();
+    // top strip: a dark, swipeable row of quick links (today's sitting, the newest witnesses, the latest event, sections)
+    const ico = (img, bg) => img ? `<img class="mcs-ic" src="${esc(img)}" alt="" style="background:${bg || "#fff"}">` : "";
+    const svg = (d) => `<svg class="mcs-ic mcs-svg" viewBox="0 0 24 24" aria-hidden="true">${d}</svg>`;
+    const sItems = [];
+    if (!paused && (T.day || T.live)) sItems.push(`<a class="mcs-i mcs-live" href="${esc((T.live || {}).url || "#")}" target="_blank" rel="noopener"><i class="mcs-dot"></i>${T.day ? `Day ${T.day} · ` : ""}Watch live</a>`);
+    witSorted.filter((p) => lastOf(p) && !p.private).slice(0, 3).forEach((p) => sItems.push(`<a class="mcs-i" href="#" data-wit="${esc(p.k)}">${p.img ? ico(p.img, BG.witness) : `<i class="mcs-ic mcs-ini">${esc(ini(p.n))}</i>`}${esc(p.n.replace(/^(Lt Gen|Gen|Dr|Chief Supt|Lt-Col)\s+/, ""))}</a>`));
+    S.slice(0, 2).forEach((x) => { const pp = P(x.k) || {}; sItems.push(`<a class="mcs-i" href="#" data-go="m-cons">${pp.img ? ico(pp.img, BG.witness) : ""}${esc((pp.n || "").split(" ").slice(-1)[0])} ${esc(x.tag)}</a>`); });
+    sItems.push(`<a class="mcs-i" href="#" data-go="m-thr">${svg('<path d="M4 6h16M4 12h10M4 18h13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>')}Storylines</a>`);
+    sItems.push(`<a class="mcs-i" href="#" data-go="m-vo">${svg('<path d="M12 3a3 3 0 0 1 3 3v5a3 3 0 0 1-6 0V6a3 3 0 0 1 3-3zM6 11a6 6 0 0 0 12 0M12 17v4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>')}Voices</a>`);
+    sItems.push(`<a class="mcs-i" href="#" data-go="m-tl">${svg('<path d="M6 4v16M6 7h11M6 12h8M6 17h11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>')}Timeline</a>`);
+    sItems.push(`<a class="mcs-i" href="#" data-go="m-gl">${svg('<path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9 9h6M9 13h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>')}Glossary</a>`);
+    const strip = `<nav class="mcs" aria-label="Madlanga Commission quick links"><button type="button" class="mcs-arw mcs-l" aria-label="Scroll left" hidden>‹</button><div class="mcs-row">${sItems.join("")}</div><button type="button" class="mcs-arw mcs-r" aria-label="Scroll right" hidden>›</button></nav>`;
+    root.innerHTML = strip + head + expl + rep + thr + wsec + cons + com + ev + staff + tl + vsx + gl + docs + vo + up + foot;
+    tick(); fitTips(); arrows();
+    const row = root.querySelector(".mcs-row"); if (row) row.addEventListener("scroll", arrows, { passive: true });
+  }
+  function arrows() {
+    const row = root.querySelector(".mcs-row"); if (!row) return;
+    const l = root.querySelector(".mcs-l"), r = root.querySelector(".mcs-r");
+    l.hidden = row.scrollLeft < 4; r.hidden = row.scrollLeft + row.clientWidth >= row.scrollWidth - 4;
   }
 
   function tick() {
@@ -114,6 +132,12 @@
     if (m) { const s = m.closest(".pl-sec"), open = m.dataset.open === "1"; s.querySelectorAll(".mc-x").forEach((x) => { x.hidden = open; }); m.dataset.open = open ? "" : "1"; m.textContent = open ? m.dataset.label : "Show fewer ▴"; if (!m.dataset.label) m.dataset.label = m.textContent; return; }
     const r = e.target.closest("[data-reps]");
     if (r) { const s = r.closest(".pl-sec"); s.classList.toggle("all"); s.querySelectorAll(".mc-x").forEach((x) => { x.hidden = !s.classList.contains("all"); }); r.textContent = s.classList.contains("all") ? "Show fewer ▴" : r.dataset.l || r.textContent; return; }
+    const sw = e.target.closest("[data-wit]");
+    if (sw) { e.preventDefault(); const c = root.querySelector(`.m-wit .mc-v[data-k="${sw.dataset.wit}"]`); if (c) { c.hidden = false; c.click(); c.scrollIntoView({ behavior: "smooth", block: "center" }); } return; }
+    const sg = e.target.closest("[data-go]");
+    if (sg) { e.preventDefault(); const sct = root.querySelector("." + sg.dataset.go); if (sct) { sct.classList.add("open"); sct.scrollIntoView({ behavior: "smooth", block: "start" }); } return; }
+    const ar = e.target.closest(".mcs-arw");
+    if (ar) { const row = root.querySelector(".mcs-row"); row.scrollBy({ left: (ar.classList.contains("mcs-l") ? -1 : 1) * row.clientWidth * 0.7, behavior: "smooth" }); return; }
     const f = e.target.closest("[data-fold]");
     if (f) { e.preventDefault(); const s = root.querySelector("." + f.dataset.fold); if (s) { s.classList.add("open"); s.scrollIntoView({ behavior: "smooth", block: "start" }); } return; }
     const h = e.target.closest(".fold > .pl-sh");
@@ -122,7 +146,7 @@
     if (c && !e.target.closest("a")) { picked = c.dataset.k; const old = root.querySelector(".m-wit .mc-panel"); const html = evidence(picked); root.querySelectorAll(".m-wit .mc-v").forEach((x) => x.classList.toggle("on", x.dataset.k === picked)); if (old) old.outerHTML = html.replace('class="mc-panel', 'class="mc-panel tapped'); else if (html) c.closest(".pl-voices").insertAdjacentHTML("afterend", html.replace('class="mc-panel', 'class="mc-panel tapped')); }
   });
   root.addEventListener("keydown", (e) => { if (e.key === "Enter" && e.target.classList.contains("mc-v")) e.target.click(); });
-  addEventListener("resize", fitTips);
+  addEventListener("resize", () => { fitTips(); arrows(); });
   setInterval(tick, 1000);
 
   const load = () => Promise.all([fetch("data/madlanga.json", { cache: "no-store" }).then((r) => r.json()), fetch("data/madlanga-auto.json", { cache: "no-store" }).then((r) => r.ok ? r.json() : {}).catch(() => ({}))]);
