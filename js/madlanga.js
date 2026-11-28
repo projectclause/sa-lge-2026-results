@@ -61,8 +61,11 @@
     const witSorted = wit.slice().sort((x, y) => ((lastOf(y) || {}).d || "").localeCompare((lastOf(x) || {}).d || ""));
     if (!picked || !P(picked)) picked = (witSorted.find((p) => !p.private && lastOf(p)) || {}).k;
     const T = A.today || {};
+    // "Watch live" goes to SMWX's live stream of the commission (Sizwe Mpofu-Walsh's YouTube channel; /live opens
+    // whatever the channel is streaming now)
+    const LIVE_URL = "https://www.youtube.com/channel/UCk_qa4ssROH8aUDbgQXE5dA/live";
     // header
-    const hd = (T.day || T.stand || T.live) ? `<p class="mc-hd"><span class="mc-tag">TODAY</span>${T.day ? `Day ${T.day}` : ""}${T.stand ? `${T.day ? " · " : ""}${esc(T.stand.src)}: “${esc(T.stand.h)}”` : ""}${T.live ? ` <a href="${esc(T.live.url)}" target="_blank" rel="noopener">Watch live ›</a>` : ""}</p>` : "";
+    const hd = (T.day || T.stand || T.live) ? `<p class="mc-hd"><span class="mc-tag">TODAY</span>${T.day ? `Day ${T.day}` : ""}${T.stand ? `${T.day ? " · " : ""}${esc(T.stand.src)}: “${esc(T.stand.h)}”` : ""}${T.day || T.live ? ` <a href="${LIVE_URL}" target="_blank" rel="noopener">Watch live on SMWX ›</a>` : ""}</p>` : "";
     const head = `<header class="pl-ed"><p class="pl-kick">Madlanga Commission Tracker · Preamble</p><h1 class="pl-date">Inside the Madlanga Commission: who is testifying, and what is being reported</h1><p class="pl-asof">Updated <time class="mc-ago-plain" data-t="${esc(A.updated || "")}"></time></p>${paused ? `<p class="mc-paused">Automatic updates are paused. Showing the page without the latest reports.</p>` : hd}<p class="m-only m-note"><b>Being named is not a finding of wrongdoing.</b> Every line is a trusted outlet’s own headline, credited. <a href="#" data-fold="m-expl">How to read this page ›</a></p><p class="m-only m-new"><a href="#" data-fold="m-expl">New here? What is the Madlanga Commission? ›</a></p><p class="mc-note"><b>How to read this page.</b> ${esc(C.legal)}</p></header>`;
     // explainer
     const expl = sec("m-expl fold", "What is the Madlanga Commission?", `<div class="mx-ex">${(C.explainer || []).map((t) => `<p>${esc(t)}</p>`).join("")}</div>`, "", "about");
@@ -99,7 +102,7 @@
     const ico = (img, bg) => img ? `<img class="mcs-ic" src="${esc(img)}" alt="" style="background:${bg || "#fff"}">` : "";
     const svg = (d) => `<svg class="mcs-ic mcs-svg" viewBox="0 0 24 24" aria-hidden="true">${d}</svg>`;
     const sItems = [];
-    if (!paused && (T.day || T.live)) sItems.push(`<a class="mcs-i mcs-live" href="${esc((T.live || {}).url || "#")}" target="_blank" rel="noopener"><i class="mcs-dot"></i>${T.day ? `Day ${T.day} · ` : ""}Watch live</a>`);
+    if (!paused && (T.day || T.live)) sItems.push(`<a class="mcs-i mcs-live" href="${LIVE_URL}" target="_blank" rel="noopener" title="Watch the commission live on SMWX"><i class="mcs-dot"></i>${T.day ? `Day ${T.day} · ` : ""}Watch live</a>`);
     witSorted.filter((p) => lastOf(p) && !p.private).slice(0, 3).forEach((p) => sItems.push(`<a class="mcs-i" href="#" data-wit="${esc(p.k)}">${p.img ? ico(p.img, BG.witness) : `<i class="mcs-ic mcs-ini">${esc(ini(p.n))}</i>`}${esc(p.n.replace(/^(Lt Gen|Gen|Dr|Chief Supt|Lt-Col)\s+/, ""))}</a>`));
     S.slice(0, 2).forEach((x) => { const pp = P(x.k) || {}; sItems.push(`<a class="mcs-i" href="#" data-go="m-cons">${pp.img ? ico(pp.img, BG.witness) : ""}${esc((pp.n || "").split(" ").slice(-1)[0])} ${esc(x.tag)}</a>`); });
     sItems.push(`<a class="mcs-i" href="#" data-go="m-thr">${svg('<path d="M4 6h16M4 12h10M4 18h13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>')}Storylines</a>`);
