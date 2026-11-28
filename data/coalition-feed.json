@@ -4493,20 +4493,17 @@
       "id": "johannesburg",
       "cat": "Johannesburg",
       "place": "City of Johannesburg",
-      "h": "Joburg council meets to elect a mayor as reports say MK is out of the deal",
-      "dek": "Johannesburg’s council reconvened on Friday, 27 November, to elect a mayor, deputy mayor and speaker. News24 reports MK is out as the coalition deal falls into place in Gauteng’s metros, after Sunday World reported a standoff with MK had put the Joburg deal at risk and the Mail & Guardian reported MK had given the ANC a deadline.",
+      "h": "Mashaba is elected Joburg mayor in an ANC-backed deal, leaving the top-polling DA in opposition",
+      "dek": "Johannesburg’s council elected ActionSA’s Herman Mashaba as mayor on Friday, 27 November, ahead of the DA’s Helen Zille, seven years after he resigned the post. The ANC’s Adolph Marema was elected speaker and its Thapelo Radebe deputy mayor.",
       "brief": [
-        "The council reconvened on Friday morning to elect a speaker, mayor and deputy mayor, Inside Politics and eNCA report",
-        "News24 reports MK is out as the coalition deal falls into place in Gauteng’s metros",
-        "Sunday World reported on Thursday that a standoff with MK put the Joburg deal at risk; the Mail & Guardian reported MK had given the ANC a deadline over the deal",
-        "The Mail & Guardian reports the ANC’s Nomoya Mnisi and Thapelo Radebe are among names discussed for deputy mayor, a post IOL and Sunday World had said MK’s Bongani Baloyi was expected to take",
-        "Briefly News reports Mashaba is standing firm as the row with MK threatens the coalition",
-        "Helen Zille, Herman Mashaba and the rest of the 270 councillors were sworn in on Monday",
-        "Parties agreed to postpone the election of the speaker, mayor and deputy mayor; EWN now expects the mayor to be elected on Friday, 27 November",
-        "Ekurhuleni’s council sits on Wednesday and Tshwane’s on Thursday, EWN reports",
-        "MK said it would be back to elect Mashaba; other parties said they would not vote for Zille",
-        "The DA had asked for a postponement; Zille told eNCA it would not delay the council through the courts",
-        "The ANC, ActionSA, EFF and MK together hold 137 of 270 seats, one more than a majority, The National reports"
+        "The council elected Herman Mashaba mayor on Friday, 27 November, defeating the DA’s Helen Zille, the Financial Times and The Citizen report",
+        "It is his second term: he led the city for the DA from August 2016 until he resigned in November 2019",
+        "The ANC’s Adolph Marema was elected speaker, beating the DA’s Alex Christians, IOL and eNCA report",
+        "The ANC’s Thapelo Radebe was elected deputy mayor, IOL reports",
+        "Sunday World describes an 18-party coalition behind Mashaba, and Daily Investor reports he had the backing of the ANC and the EFF",
+        "The New York Times notes that councillors passed over the DA, which won the most votes in the city",
+        "The DA stood by Zille as its candidate to the end, SABC News reports",
+        "Mashaba has set out a 100-day plan to turn the city around, the Mail & Guardian reports, and The Citizen says he now faces the test of keeping his promises"
       ],
       "sec": [
         [
@@ -4543,7 +4540,11 @@
         ],
         [
           "Friday, 27 November",
-          "On Thursday, the Mail & Guardian reported that MK had issued the ANC a deadline over the coalition deal, and Sunday World reported that a standoff with MK put the Johannesburg deal at risk. Early on Friday, News24 reported that MK was out as the coalition deal fell into place in the Gauteng metros, after Tshwane re-elected Nasiphi Moya on Thursday, and Briefly News reported that Mashaba was standing firm as the row threatened the Johannesburg coalition. The Mail & Guardian reported that the ANC’s Nomoya Mnisi and Thapelo Radebe were among the names discussed for deputy mayor. The council reconvened on Friday morning to elect its leadership."
+          "On Thursday, the Mail & Guardian reported that MK had issued the ANC a deadline over the coalition deal, and Sunday World reported that a standoff with MK put the Johannesburg deal at risk. Early on Friday, News24 reported that MK was out as the coalition deal fell into place in the Gauteng metros. When the council sat, it elected the ANC’s Adolph Marema as speaker, then Herman Mashaba as mayor ahead of Helen Zille, and the ANC’s Thapelo Radebe as deputy mayor."
+        ],
+        [
+          "What comes next",
+          "Mashaba returns to the office he left in 2019, now as leader of ActionSA rather than the DA. He has set out a 100-day plan for the city, the Mail & Guardian reports, while the DA, which won the most votes, sits in opposition."
         ]
       ],
       "items": [
@@ -4641,9 +4642,9 @@
         "clement": "Pressed both sides on air: Mashaba ruled out a DA team with Zille, Hill-Lewis refused to drop her, and he asked Hill-Lewis about the mayoral-swap claims.",
         "michael": "Says a deal with the ANC, EFF and MK is 90 to 95% agreed, with Mashaba as mayor and the decision due on Sunday evening. On 23 November he told EWN the Johannesburg council would most likely be adjourned to Wednesday or so to elect a mayor.",
         "adriaan": "Reports that Zille has conceded, leaving the DA in opposition despite topping the vote.",
-        "herman": "Would not work with Zille or Brink, says the DA tried to buy his support, and is set to be Joburg mayor in a deal with the ANC.",
+        "herman": "Elected mayor of Johannesburg on 27 November after refusing to work with Zille or Brink, and has set out a 100-day plan for the city.",
         "geordin": "Refused to drop Zille, made the DA’s final offer, and calls ActionSA’s demand over her extortion.",
-        "helen": "Said the DA would not go to court to delay the council, had made its final offer and would fight for Joburg from the opposition if needed.",
+        "helen": "Stood as the DA’s candidate to the end and lost the council vote to Mashaba; the DA goes into opposition in the city where it won the most votes.",
         "cyril": "Insiders told the Sunday Times he asked the ANC to explore a Johannesburg deal without the DA; the ANC denies he stated a preference.",
         "penuel": "Backed ActionSA in Johannesburg, distrusts its voters who want a DA deal, warns the DA it won’t win by being arrogant, and wants coalition talks filmed live.",
         "mbalula": "Led the ANC team that, News24 reports, drew MK into a grand coalition with ActionSA.",
@@ -4664,7 +4665,7 @@
         "macg": "Led his podcast on the DA topping the Joburg vote.",
         "mashele": "Argues an ActionSA–DA coalition is the only viable way forward, and says both parties asked him to help bring them together.",
         "mafisa": "Reported Mashaba’s condition that Zille and Brink step aside as mayoral candidates.",
-        "baloyi": "Tipped, in reports, as Mashaba’s deputy mayor.",
+        "baloyi": "Was tipped in reports as Mashaba’s deputy mayor; the post went to the ANC’s Thapelo Radebe.",
         "ramushwana": "Reported that Joburg’s mayor is now expected to be elected on Friday, with Ekurhuleni sitting Wednesday and Tshwane Thursday.",
         "moichela": "Followed the Joburg deal for IOL, from smaller parties backing Mashaba to the DA’s legal letter and MK’s Baloyi as deputy.",
         "simelane": "Reported that the FF Plus tried and failed to broker a DA–ActionSA deal between Zille and Mashaba.",
@@ -4996,7 +4997,8 @@
         "No mayoralties go to MK or the PA",
         "The DA says the ANC has not yet replied",
         "ActionSA rejected a separate DA offer for the Gauteng metros",
-        "On 702, Beaumont called that offer “a smash and grab”"
+        "On 702, Beaumont called that offer “a smash and grab”",
+        "The ANC did not take up the offer: the DA is in opposition in Johannesburg, Tshwane, Ekurhuleni and eThekwini, and leads Cape Town and Nelson Mandela Bay"
       ],
       "sec": [
         [
@@ -5312,7 +5314,8 @@
         "Mpofu-Walsh debuted a nationwide coalition idea on 7 November",
         "As another commentator describes it, the DA, ANC and ActionSA would share the eight metro mayors",
         "Basson expected a DA-ANC deal across the hung councils",
-        "The DA later proposed that the biggest party leads each hung council"
+        "The DA later proposed that the biggest party leads each hung council",
+        "In the end there was no single deal: each metro was settled separately, and the DA governs only Cape Town and Nelson Mandela Bay"
       ],
       "sec": [
         [
@@ -5392,16 +5395,16 @@
       "id": "mk",
       "cat": "MK Party",
       "place": "eThekwini, KwaZulu-Natal and Gauteng",
-      "h": "MK talks to everyone, the DA included, but says it wants like-minded partners",
-      "dek": "MK came third nationally and leads many KwaZulu-Natal councils. Its negotiator Dali Mpofu has met the DA for the first time while warning the ANC about the partners it chooses.",
+      "h": "MK talked to everyone, the DA included, then took eThekwini with the ANC",
+      "dek": "MK came third nationally and leads many KwaZulu-Natal councils. Its negotiator Dali Mpofu met the DA for the first time, but MK settled on the ANC: its Mxolisi Phakathi is now eThekwini’s mayor.",
       "brief": [
+        "MK’s Mxolisi Phakathi was elected eThekwini mayor with the ANC’s support, and MK’s Thabani Luthuli deputy mayor",
         "MK says its near-10% vote shows voters want parties to cooperate",
         "Deals must rest on shared policy and be done within 100 days",
         "Mpofu called MK’s first meeting with the DA historic",
         "But MK will focus on like-minded parties",
         "Talks with the ANC, EFF and ActionSA continue",
-        "KZN Cogta told eThekwini and 12 other hung councils to move Tuesday’s first meetings to 26 or 27 November, but eThekwini is going ahead on Tuesday. A source told IOL MK would take the mayoralty, ActionSA the deputy mayor post and the ANC the speaker",
-        "MK’s Bongani Baloyi is tipped as Mashaba’s deputy mayor in Johannesburg, Sunday World reports"
+        "KZN Cogta told eThekwini and 12 other hung councils to move Tuesday’s first meetings to 26 or 27 November, but eThekwini is going ahead on Tuesday. A source told IOL MK would take the mayoralty, ActionSA the deputy mayor post and the ANC the speaker"
       ],
       "sec": [
         [
@@ -5635,15 +5638,15 @@
       "id": "actionsa",
       "cat": "Gauteng metros",
       "place": "Johannesburg, Tshwane, Ekurhuleni",
-      "h": "ActionSA bargains with both big parties, then leans towards the ANC",
-      "dek": "ActionSA’s chair Michael Beaumont spent November talking to both the DA and the ANC, arguing that coalitions, not vote share, decide who governs.",
+      "h": "ActionSA bargained with both big parties, chose the ANC, and now runs Joburg and Tshwane",
+      "dek": "ActionSA’s chair Michael Beaumont spent November talking to both the DA and the ANC. In the end the party chose a deal with the ANC, the EFF and MK that kept Nasiphi Moya in Tshwane and made Herman Mashaba mayor of Johannesburg.",
       "brief": [
-        "Talks with the ANC began on 8 November",
-        "Beaumont said progress was being made with both the DA and ANC",
-        "He called the ANC’s offer attractive",
-        "He said ActionSA serves at the pleasure of no other party",
-        "ActionSA says its problem is with Zille and Brink, not the DA, and will back the DA’s mayoral candidate in Nelson Mandela Bay, EWN reports",
-        "Mashaba says the ball is now in the ANC’s court and ActionSA will respect whatever its NEC decides"
+        "Nasiphi Moya was re-elected Tshwane mayor on 26 November, and Herman Mashaba elected Johannesburg mayor on 27 November",
+        "In Ekurhuleni the deal went the other way: the ANC’s Mziyanda Mketsu was elected mayor with ActionSA’s support",
+        "ActionSA backed the DA’s candidate in Nelson Mandela Bay, where Retief Odendaal was elected mayor",
+        "Talks with the ANC began on 8 November, and Beaumont called the ANC’s offer attractive",
+        "ActionSA said its problem was with Zille and Brink, not the DA",
+        "Business Day says ActionSA’s win in Tshwane set the template for Johannesburg and Ekurhuleni"
       ],
       "sec": [
         [
@@ -5653,6 +5656,10 @@
         [
           "The tilt towards the ANC",
           "On 702 on 18 November he called the ANC’s offer attractive and said the DA had never really held talks with ActionSA. By 22 November he was pushing back at DA supporters, saying ActionSA serves at the pleasure of no other party and is set to lead Tshwane again and take over in Johannesburg."
+        ],
+        [
+          "The deal is done",
+          "Tshwane went first on 26 November, re-electing Moya with the ANC as speaker and the EFF as deputy mayor. Johannesburg followed on 27 November, electing Mashaba with the ANC as speaker and deputy mayor, while in Ekurhuleni ActionSA supported the ANC’s Mziyanda Mketsu as mayor."
         ]
       ],
       "items": [
@@ -5719,8 +5726,8 @@
         "nm-coalition-drama"
       ],
       "voices": {
-        "michael": "Says coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party.",
-        "herman": "Says the DA’s refusal to drop Zille and Brink stalled the talks, that coalition talks need not be a contest, and has defended ActionSA’s choices.",
+        "michael": "Argued that coalitions, not vote share, decide who governs, and that ActionSA serves at the pleasure of no other party; the deal he negotiated put ActionSA in charge of Johannesburg and Tshwane.",
+        "herman": "Says the DA’s refusal to drop Zille and Brink stalled the talks, and was elected mayor of Johannesburg on 27 November.",
         "mbalula": "Led the ANC negotiators who brought ActionSA and MK into one deal.",
         "mandy": "Noted an ANC, ActionSA, EFF and MK coalition emerging for the Gauteng metros and eThekwini.",
         "wayne": "Says a deal of at least four parties gives the Gauteng coalition a buffer.",
@@ -5820,14 +5827,16 @@
       "id": "tshwane",
       "cat": "Tshwane",
       "place": "City of Tshwane",
-      "h": "ActionSA’s condition for any deal: Moya stays in Tshwane",
-      "dek": "ActionSA made keeping Nasiphi Moya as Tshwane mayor a condition for any coalition, and News24’s Adriaan Basson expected her back.",
+      "h": "Moya is re-elected Tshwane mayor with ANC, EFF and MK backing",
+      "dek": "Tshwane’s council re-elected ActionSA’s Nasiphi Moya as mayor on Thursday, 26 November. The ANC’s Naeem Patel was elected speaker and the EFF’s Omphile Maotwe deputy mayor, and the DA goes into opposition.",
       "brief": [
-        "Mashaba: any deal must keep Moya as mayor",
-        "Basson expected Moya could return in Tshwane",
-        "Beaumont: ActionSA is set to lead Tshwane again",
-        "The new council sits for the first time on Thursday",
-        "Sussman says the ANC appears committed to a four-party deal with ActionSA, the EFF and MK"
+        "The council re-elected Nasiphi Moya as mayor on Thursday, 26 November, DailyNews and Bona Magazine report",
+        "The ANC’s Naeem Patel was elected speaker, EWN and SABC News report",
+        "The EFF’s Omphile Maotwe was elected deputy mayor unopposed, The Star reports",
+        "MK resolved its differences with the ANC, ActionSA and the EFF in the Tshwane coalition, EWN reports",
+        "The DA goes into opposition, Cilliers Brink says, and the party calls the new government a coalition of chaos",
+        "Moya has pledged to fix the city’s water and power problems, IOL and SABC News report",
+        "Business Day says ActionSA’s win in Tshwane set the template for Johannesburg and Ekurhuleni"
       ],
       "sec": [
         [
@@ -5837,6 +5846,10 @@
         [
           "Expected back",
           "On 9 November, Adriaan Basson wrote that Moya could return as mayor under a broad DA-ANC arrangement. On 22 November Michael Beaumont said ActionSA was set to lead Tshwane again."
+        ],
+        [
+          "Re-elected",
+          "On 26 November the new council re-elected Moya, with the ANC’s Naeem Patel as speaker and the EFF’s Omphile Maotwe as deputy mayor. Brink said the DA would fight for Tshwane from the opposition benches. A day later, Mashaba was elected in Johannesburg on the same model."
         ]
       ],
       "items": [
@@ -5857,10 +5870,10 @@
       "voices": {
         "clement": "In his interview, Mashaba made keeping Moya as mayor a condition of any deal.",
         "adriaan": "Expects Moya could return as mayor under a broad DA-ANC deal.",
-        "michael": "Says ActionSA is set to lead Tshwane again.",
-        "herman": "Made keeping Nasiphi Moya as Tshwane mayor a condition of any deal, and named the DA’s Cilliers Brink as a reason talks stalled.",
-        "moya": "Calls the results a vote of confidence in her leadership of Tshwane.",
-        "brink": "ActionSA demanded that he step aside as the DA’s Tshwane candidate; he had not said whether he would.",
+        "michael": "Said ActionSA was set to lead Tshwane again, as it now does.",
+        "herman": "Made keeping Nasiphi Moya as Tshwane mayor a condition of any deal, and called her re-election a victory for residents.",
+        "moya": "Re-elected mayor on 26 November, and has pledged to fix Tshwane’s water and power problems and keep the coalition united.",
+        "brink": "ActionSA demanded that he step aside as the DA’s Tshwane candidate; after the vote he said the DA goes into opposition.",
         "wayne": "Said the ANC appeared committed to a four-party deal in Tshwane, and that ActionSA was “on the cusp of big things”.",
         "giokos": "Interviewed the DA’s Cilliers Brink, who said the party would approach coalition negotiations with humility and openness."
       },
@@ -6026,12 +6039,14 @@
       "id": "anc-metros",
       "cat": "Metros",
       "place": "All eight metros",
-      "h": "The ANC loses its grip on South Africa’s metros",
-      "dek": "News24’s columnists saw the ANC’s decline speeding up, and after the count it was left without control of a single metro.",
+      "h": "The ANC loses its grip on the metros, but keeps two mayors through coalition deals",
+      "dek": "The ANC won no metro outright. Through coalitions it kept the mayor’s office in Ekurhuleni and Buffalo City, and took the speaker’s chair in Johannesburg, Tshwane and eThekwini while backing ActionSA and MK mayors.",
       "brief": [
-        "Du Toit expected the vote to confirm the ANC’s faster decline",
-        "The ANC risked falling to second, third or fourth place in seven of eight metros",
-        "Basson: the ANC will not control a single metro"
+        "The new mayors: ActionSA in Johannesburg and Tshwane, the ANC in Ekurhuleni and Buffalo City, the DA in Cape Town and Nelson Mandela Bay, and MK in eThekwini",
+        "The ANC’s speakers include Adolph Marema in Johannesburg, Naeem Patel in Tshwane and Thabani Nyawose in eThekwini",
+        "The ANC’s Thapelo Radebe is Johannesburg’s deputy mayor",
+        "Before the vote, Du Toit expected it to confirm the ANC’s faster decline, and Basson noted the party would not control a single metro",
+        "The Mail & Guardian writes that the ANC limps on with diminished appeal"
       ],
       "sec": [
         [
@@ -6041,6 +6056,10 @@
         [
           "After the count",
           "On 5 November he wrote that the ANC was on the brink of falling to second, third or fourth place in seven of the eight metros. The same day, Adriaan Basson noted that the party would not control a single metro."
+        ],
+        [
+          "After the mayoral votes",
+          "By 27 November most metros had elected their mayors. The ANC kept Ekurhuleni and Buffalo City, and in Johannesburg, Tshwane and eThekwini it chose to back ActionSA and MK mayors in exchange for the speaker’s chair and other posts, rather than share power with the DA."
         ]
       ],
       "items": [
