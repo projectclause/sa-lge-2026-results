@@ -7588,6 +7588,14 @@
         "h": "Johannesburg lawmakers snub top vote-getter in mayoral election",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNc2JxNUlkOF9WRFNxRVg2ajFIYkJCRzQwdmwxY2F2M0VLTEMyaXp6TnpjcXVFal8wQ1RjdFRCSExsbmNELVlQbEVMaW9jc0JkUEdtVi1zb0FIeHVKT0pNeXA2X2hrN0QtWnV3RVEwTDduYVc4TkFjTXFyWEVNNGJVdWMyenFldFRUVWhuQ211SjY1ZTg?oc=5",
         "pay": true
+      },
+      {
+        "id": "an1",
+        "d": "2026-11-28",
+        "j": [],
+        "src": "Africanews",
+        "h": "South Africa: New Johannesburg mayor elected in power-sharing deal with ANC",
+        "url": "https://www.africanews.com/2026/11/28/south-africa-new-johannesburg-mayor-elected-in-power-sharing-deal-with-anc/"
       }
     ],
     "stories": [
@@ -7597,6 +7605,7 @@
         "h": "Abroad, Johannesburg is the story: old foes unite to shut out the DA",
         "dek": "Johannesburg gets the most attention outside South Africa. When the council elected Herman Mashaba on 27 November, Bloomberg’s S’thembile Cele wrote that old foes had united to shut the centrist DA out of the city, the FT called Mashaba a haircare tycoon, and The New York Times stressed that councillors snubbed the party with the most votes.",
         "p": [
+          "an1",
           "b11",
           "f9",
           "r7",
@@ -7614,6 +7623,7 @@
           "Bloomberg’s S’thembile Cele reports that old foes united to shut the centrist rival DA out of Johannesburg",
           "Reuters reports Johannesburg picked Mashaba in an ANC-backed deal, and the FT calls him a haircare tycoon",
           "The New York Times frames the vote as councillors snubbing the top vote-getter, the DA",
+          "Africanews reports the new mayor was elected in a power-sharing deal with the ANC, alongside the EFF and Jacob Zuma’s MK Party",
           "Before the vote, Reuters and the FT reported the ANC and its partners nearing a deal to sideline the DA, and the FT that Helen Zille had told allies her bid was over",
           "For foreign readers, the story is that the party with the most votes does not govern Africa’s richest city"
         ],
@@ -7708,6 +7718,7 @@
         "h": "South Africa’s cities move to coalition rule",
         "dek": "Straight after the results, Bloomberg and Reuters reported that the biggest cities would be run by coalitions, and AP described high-stakes talks after the ANC’s worst result. Two weeks on, Bloomberg’s S’thembile Cele wrote that post-election bartering was counting for more than votes, while the FT and the BBC reported the ANC fighting to keep control of key cities. By 27 November the councils had chosen: Bloomberg, Reuters, the FT and The New York Times reported Herman Mashaba elected in Johannesburg in an ANC-backed deal.",
         "p": [
+          "an1",
           "b1",
           "r1",
           "r2",
