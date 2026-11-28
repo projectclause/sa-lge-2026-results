@@ -16,10 +16,10 @@
     },
     "anc-regions": {
       "file": "audio/anc-regions.mp3",
-      "sec": 109,
-      "hash": "de3dd9e52b58",
-      "chars": 1523,
-      "at": "2026-11-28T07:28:07Z"
+      "sec": 113,
+      "hash": "6da447165fb5",
+      "chars": 1564,
+      "at": "2026-11-28T14:13:42Z"
     },
     "auto-cape-town": {
       "file": "audio/auto-cape-town.mp3",
@@ -198,7 +198,7 @@
     }
   },
   "month": "2026-11",
-  "used": 55832,
+  "used": 57396,
   "provider": "azure",
   "voice": "en-GB-RyanNeural"
 }

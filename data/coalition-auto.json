@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-28",
-    "time": "15:05"
+    "time": "16:10"
   },
   "items": [
     {
@@ -2224,6 +2224,42 @@
       "src": "thepost.co.za",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOT0RCaTRZRnY5MDF4OHY0Q3pOeGFsQVg3VkI0dlVNRzdOM0NyQmp3RmNwNHJkbGpHcGNWNGMyenNXUUdocjNqQWg2emhoTWhEaFhZMnd5bWZJaTZaZU50enU0eFpmUGd2dXlPUE5nLWJNQmtJeGR1U201R2M2aGZtWFBXZTFLZjkyNXNzNmdjaUw0WlE5MnBDYnFXVk1jU1h6aEUxZXY2NW5SN1FlQ1hRWng5M3ZUZVZMVzVzSkY0anBUblhOeExicWZtZlVyOXFB?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-0a439e51e0",
+      "j": "cyril",
+      "d": "2026-11-28",
+      "kind": "Article",
+      "place": "National",
+      "h": "Ramaphosa urges ANC members to raise concerns within party structures",
+      "s": "SABC News reports Ramaphosa has urged ANC members to raise their concerns within party structures.",
+      "src": "SABC News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ3pIUmNqQkpFaGtKUjRDVzZYY2prS2FWaTdBUjlFUGR6WHV5UmdCREIwa3Y5V3lTUGZoeDdNb013dmpYSHBOako2Tm9pVEx3aWJWYjdhM1g5WVRBYjNWTmZBS1k4ejlzZDRvUElyRzJRM3UzT3NrWDd5ZFBmd201endWRlFyOWoxSHcxQUdUWllDa0JOdG1pRko5X3BhN0c3VzBnaWtXWQ?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-7377a3b2ff",
+      "j": "helen",
+      "d": "2026-11-28",
+      "kind": "Article",
+      "place": "Johannesburg",
+      "h": "Helen Zille: Mashaba Treats ActionSA's Seats as His Personal Property",
+      "s": "The Common Sense reports Helen Zille saying Mashaba treats ActionSA's council seats as his personal property.",
+      "src": "The Common Sense",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNmY0ZzJ0b3o5Q1FIWGdKandSVjdJNTlGOHZ3bjFaYTljbDR1TkduM1BZcVBjRUlrN2ZnQzF2enI1UVctNkVRSGJ3UzRoY2gtSk9ZZFRyckRQcnFTcWFNSFE2S0VobEw5ZVNvUXEycUVDWlBDdHp5OV93YjdnQ0RubGRER19vZWtabVFjdk1mREtSR0ZQOVBfV0MwSFpDYnJoZzVMd2lWbzN0YlNF?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-59be38670d",
+      "j": "herman",
+      "d": "2026-11-26",
+      "kind": "Article",
+      "place": "Ekurhuleni",
+      "h": "Mashaba backs Khumalo for Ekurhuleni deputy mayor, warns criminals to ‘run’",
+      "s": "The Independent on Saturday reports Mashaba backs Xolani Khumalo for Ekurhuleni deputy mayor and warns criminals to 'run'.",
+      "src": "independentonsaturday.co.za",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNOHBiazE5RkE5WlFZajViM0s2REdpelpxUDF4ekU5VTkxZXgtSy12U2UwbVlHempYeklCV1dGcUd0OU0wS2s0RTlJd3duYzk3eElFYUlCYUJTdlpnaHlUUUF6b3h0Ul9MMk4wN0RPanJRU3hnMFlmMWhvRHdVMFVJdHFheFZGbWFoaWFEY1dGc083dTJMVUs3bW4xbmQ0VUhrcWN0cTBwaTlpeVZ1dnFpSjNFVHJvNUVpUGk2c3JLNGF0cm4wNHhWSURFS1FobGZXSlJMQlZYeGdEVlE?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -2275,7 +2311,8 @@
       "a-85f26f25de",
       "a-e3e75eeff3",
       "a-689557a3e5",
-      "a-b136108dc9"
+      "a-b136108dc9",
+      "a-7377a3b2ff"
     ],
     "actionsa": [
       "a-773fa265cd",
@@ -3381,6 +3418,24 @@
         "h": "ANC pushes for key Johannesburg council positions after MK Party coalition exit",
         "d": "2026-11-27",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPangzMS1xbW1xSXFPQ1BJd0tjTDViRm5IenB3WmhJdW9SVmNJRVhHNW83UG96eF9CUlUyN0h4MGR4eXB6eGtDal9Gdk1BU0xLQmpGOU82Ri1Bc1EzcmZ4QWNVMFZPbHRFMlpBYXRKbFJQRXhjSklNMFo3Wk5fakc5V1p1a2ZXQTFiNW5Tb3p5d1hPVURJcVE2cm5USEZ0YmFXVThRWmdhMXZLaTczaFN6SS0xcC1yb21CYm9VM2Z6UmZrMFU1OGc?oc=5"
+      },
+      {
+        "src": "News24",
+        "h": "Mashaba summons Joburg Water and City Power bosses in first act as Joburg mayor",
+        "d": "2026-11-28",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMU9TMzBrVUhFMkJSdTlUVWJ1dGtYa3htdUhOSkFUVnEzQ1loeXZLVjN0T3RXdXNTbTEyODcyckdnV0ZmSnhKY2JvR3o5WTRVRXp6UHFYU3RSdVB1OC04djFXSi1HNzhwemZQUkZfYW1tb0RIcE5rYnNnR3FTeHpIcEJwUFJRdjJaOWxPd1NTVEhfLXI3dUlwclREdjBXZHJfaEgtMTkxczhhREhRenY0TEZReElqOGpFamhDN3prWXExMlE?oc=5"
+      },
+      {
+        "src": "Democratic Alliance",
+        "h": "Joburg falls to the ‘Coalition of Chaos’",
+        "d": "2026-11-28",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZbTV2N2lNclVUSnJZSXhwLXIxa3FjeWVxQnJsYy1ndlVVVVlWVE1VNG9RZlNhOVpMdTcwNElJZkRwUlg2bHFHSTBlV1kzX1c4a3ZMb0lHSlBoRnZwMTQ5bEU1dTB3ZUdzM0VnYjNSMUFlQTBlV05Z?oc=5"
+      },
+      {
+        "src": "https://weekendargus.co.za/",
+        "h": "Herman Mashaba returns as Johannesburg mayor amid political shifts",
+        "d": "2026-11-28",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdUNOd3BWNG1aVUEzRG1pcVlTZXYxNnktQm95NnhGMzZ2dWZ0ejlibUthSGRIS2UwdGFxZGhaTW9IX2VSSGprWUk2bHItYTFXSnNZRVBBWXB3N18ySmdQY0xabTFOUEs3ektVdnFjbmhqbEN6OFFWbzcxVlhRa3F6R3JQZVYwand2RGVXUmgyT3NNVU83a2F1am1SN2JWbngzNlZncXZDLWV4S0N4VFpr?oc=5"
       }
     ],
     "councils": [
@@ -4303,6 +4358,12 @@
         "h": "Why the ANC Picked the EFF and ActionSA Over the DA: Frans Cronje Answers You",
         "d": "2026-11-28",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOWNXZUd5SFJneXRLNVNpWTU2d1pLWGE4YUU5QmVrQUpEbzR3MjJoUF8wcUtSU0NwUnZDNTYyUmdjVU5XNk9ZNGJJSmxLMy1heVNZcUFBU1RLMzRIUG9NTVNITEpKdEo0bW5rWVZjSFR0SlR2MjdVWkxaVGN3aTl2ZkxwalN0cVprSGpSZlI5NFJnUldRaHk2Y0gyOF84WFVhdzJjOFB2T3NsNHU5Qi1vZTN5UlRiQnM?oc=5"
+      },
+      {
+        "src": "The South African",
+        "h": "Here are all the mayors in charge of South Africa’s 8 metros",
+        "d": "2026-11-28",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRzZUWEZhVkxZZ29WNUhPcHBuSHZxUDV3aVBTZ3otNUpWMjVzaW01Z1JxMHVodWNvRWkwbXlvVnhWb3ZDY3RmSEVQM2R1WGNELXZ1bzhCUF9wSzN3dTY5TElBVWZ4Y0ZlckZITEJCUTk0bmI1Q25KRzhqS0RRbW5FZktyOG5jTFdaWXZPZml4UVp0bTZ0ZDZXZEhvMXQ0ZmUtdFozR2FQZl9uZw?oc=5"
       }
     ],
     "gnu": [
@@ -5989,8 +6050,8 @@
       "dek": "The Citizen, IOL, EWN, eNCA and Central News South Africa report the ANC's Mziyanda Mketsu has been elected executive mayor of Ekurhuleni, and BusinessTech reports the ANC has taken the metro with ActionSA and the EFF. EWN and Townpress Newspaper report Mketsu has vowed zero tolerance for corruption, and IOL reports the council has supported a motion to establish a deputy mayor position.",
       "brief": [
         "The Citizen, IOL, EWN, eNCA and Central News South Africa report Mketsu was elected Ekurhuleni mayor; EWN and Townpress Newspaper report he vowed zero tolerance for corruption, with Townpress noting what it calls graft baggage, and Inside Politic reports he promised a clean administration.",
-        "EWN reports the DA's Rasilingwane slammed a 'cabal' after losing the mayoral vote to Mketsu, and BusinessTech reports the ANC took Ekurhuleni with ActionSA and the EFF.",
-        "IOL reports the council supported a motion to establish a deputy mayor position; the Daily News reports Mashaba backs Khumalo for the post, and EWN reports ActionSA's Xolani Khumalo is not expecting to be elected yet.",
+        "EWN reports the DA's Rasilingwane slammed a 'cabal' after losing the mayoral vote to Mketsu, and BusinessTech reports the ANC took Ekurhuleni with ActionSA and the EFF; The Mercury had reported the DA was holding out hope for a coalition as the ANC-ActionSA deal took shape.",
+        "IOL reports the council supported a motion to establish a deputy mayor position; the Daily News and the Independent on Saturday report Mashaba backs Khumalo for the post and warns criminals to 'run', and EWN reports ActionSA's Xolani Khumalo is not expecting to be elected yet.",
         "IOL, Business Day, EWN, Inside Politic and Townpress Newspaper report the EFF's Nthabiseng Tshivhenga was re-elected speaker with 142 votes; The Star reports Kagiso Lerutla presided over the inaugural council meeting.",
         "The Mercury, the Independent on Saturday and other outlets earlier reported the mayoral vote was postponed as the ANC closed in on a deal, and Newsnote reported Mashaba blamed ANC delays."
       ],
@@ -6011,7 +6072,8 @@
         "a-79ece835c7",
         "a-e54d14313a",
         "a-ad9859a84f",
-        "a-5f6724a42d"
+        "a-5f6724a42d",
+        "a-59be38670d"
       ],
       "coverage": [
         {
@@ -6427,6 +6489,12 @@
           "h": "Ekurhuleni postpones mayoral election as ANC closes in on coalition deal",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZzNCYmoyeFZyT1JUU3hoeGFjbk8wTmd1LU9icHZCYW1XY0FxU0dHdDNRVGdMTmxhSFppRW45UGY0NTc4NVNsT2FTTW1UaXVDSXZTbDR1WFpjY0RnakRNYlUzcXVvQ3ZZZVpZWjFLdEE5RHVfRkw0ZHdBVm9Dc2h6QjlYRG9xYnVpY1hBYUxuR3hPZDdXZWppNy03MWFMU2xVYV81SGtYM0ZMdjJGcVY0VjZfUHBJTDFsdTNxR0Q5TGNPYnk2TFQw?oc=5"
+        },
+        {
+          "src": "themercury.co.za",
+          "h": "DA holds out hope for Ekurhuleni coalition as ANC-ActionSA deal takes shape",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZzhhbV9lUW1Rd3pLbU9ncHdrYUJlM2tmbzZNZ19wSlgxOGRVVDMxWDlyVHM2bkFKb0ctMFczbjdGSGRPY3FneVA3bWpoak9Pa3BnVWQtdDdKWWlxVVlwczZoWGpfRWpRLUFPaTNwQm1GeXd5bmpzVFg4ZjdiMUh3N0lQc3ZMbElnNnZLTV9OUVAtM1lRUTE4X0RSUmpYdklBbUNzSGhBN3g3aWdLT0ZCcFQwbzJ0WjlIWk5ycEVmRFdxS1p6?oc=5"
         }
       ],
       "sec": [
@@ -6696,7 +6764,7 @@
         "Polity.org.za reports the ANC has unveiled a coalition co-operation accord to stabilise 139 hung councils, and News24 reports the public accord puts coalition partners on a 100-day clock; EWN quotes an analyst warning of a 'death spiral'.",
         "The Citizen reports Mbalula said 'the ANC did not win this election' as the party sealed coalition agreements.",
         "IOL reports Mkhize warned the ANC against a DA coalition in a 2024 letter, and that the SACP drew a line over coalition support; The Common Sense reports the SACP called a Sol Plaatje deal with the DA a “betrayal”.",
-        "TimesLIVE and Business Day report Ramaphosa says he is 'not resigning' after the election setback, and Briefly News reports him dismissing resignation rumours, saying he is 'here to serve the people'."
+        "TimesLIVE and Business Day report Ramaphosa says he is 'not resigning' after the election setback, Briefly News reports him dismissing resignation rumours, and SABC News reports he urged ANC members to raise concerns within party structures."
       ],
       "auto": true,
       "id": "anc-regions",
@@ -6715,7 +6783,8 @@
         "a-c2643b44a8",
         "a-b0f3f8f211",
         "a-e293c9b5d4",
-        "a-9cf0654e67"
+        "a-9cf0654e67",
+        "a-0a439e51e0"
       ],
       "coverage": [
         {
@@ -8656,6 +8725,15 @@
     "2a571a8a4202",
     "f7aa9d541cc6",
     "5038ed10d59a",
-    "5465abdb78aa"
+    "5465abdb78aa",
+    "0a439e51e09e",
+    "70dc1282c02c",
+    "f0c672ac3185",
+    "063d98c29d4b",
+    "3f0745032d26",
+    "5169580bbccc",
+    "7377a3b2ff72",
+    "59be38670d70",
+    "4edd690ff110"
   ]
 }
