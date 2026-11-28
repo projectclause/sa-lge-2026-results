@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-28T13:56:41+02:00",
+  "updated": "2026-11-28T15:07:20+02:00",
   "people": {
     "elon-musk": [
+      {
+        "h": "Elon Musk pledges yearly SpaceX share to US kids: $8.9B",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxORU40VTJiaWVwUkNBcXNKQ0NHYmdUWmlnS3hBNmlwMnZPYm1zcHRfN3NacXJLd29NOGlCeG5hVnZiV2tkMGZPUVQzX193dl8tUlNzQlF3NEk0ajA0Wk5uVjNuTTU5YmVTQmw4SlpsWkowSjZEaFdLbW5RYmpjZ19tb2xkY1dtZktycmlKSUExQjlXU2NGS2Y0NE1HVGRRNWRLMUpaWVVETW8xRVdXUmprN254bzhsRnYzQWd0cE1wbUFmTENwSFZNV2NsLXJoRWJxVTF4NUtGNDU0ei1M?oc=5",
+        "src": "Billionaires.Africa",
+        "t": "2026-11-28T15:01:20+02:00"
+      },
+      {
+        "h": "Norway's Sovereign Wealth Fund Votes Against Again, Dealing a Blow to Musk's $1 Trillion Pay Package",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1udEp2Wm1ETV9RV1FYSEpOaXpSMEFRYWR0VmF4bUV6OUw2eG90cEFyLVJvRzFzTFFyY3VxZkRaQUpuX3p3Wm1yaWRDNWxocG1UQkFLWXNaVHEyaU9MM29DRklLTDRVVlVYWXhuTmEwWFI1dzB1N3c?oc=5",
+        "src": "BigGo Finance",
+        "t": "2026-11-28T14:25:00+02:00"
+      },
       {
         "h": "Elon Musk vows a SpaceX share for 'all kids in America every year'—and shareholders help foot the bill",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbXNEVVpMSjZ3SlZjQVZIenZaVDg2TXF1Wnotc2JUTjVUdGxSZUNyYWZGa0JDRzNvUlZ1WGJpekhySzdjU1dPYVdtcWRxS1dBNWVfbUxpOERvaUZfYUxtSk5OUGhMbWlTZXgzY2JIV09NQ09CNUM0ejYwcWcwWXdOZExUNW9Vdw?oc=5",
         "src": "Fortune",
         "t": "2026-11-28T13:14:00+02:00"
-      },
-      {
-        "h": "Norway’s Wealth Fund Again Votes No to Musk’s Tesla Pay Package",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVTV2UG9KVElYR1hhMk5wbnF1YmNLX0lxUzV6XzFNeTdGOFA4LUZKMnNXanpCbndyODluM3FKTlpUWUhSVUo4NF8wOTE4Q2xWLVpLcDZ3RnFyaHFQLXRzY3Q2aUZselVqRE1kUXM2WlR0enU2QTUxMUZkejN4Yk5XVFRzQTlxci1kOUVnWWFzVkh5M3gzWllPcnFLeXdHMmNKLU9kZTlNaE1GR3BzNEpzQ05YaWI?oc=5",
-        "src": "Bloomberg.com",
-        "t": "2026-11-28T12:15:53+02:00"
-      },
-      {
-        "h": "Musk says Google is interested in renting more computing capacity from SpaceX",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYVpCZ09wSmxscjVrdGlzSlp3RkN6bXBWY1dmaTlWcUFMamp2MVVDLXRGSG5PakRfT1ZJYUI1dWVtbHlKZXVFMlZ0N3doYVBScXBObXVMeEEwTGxpdWVWWjhNN1hjZXUtZ01WdHBZOGpSZDh4bHFIUjdqSW0zc2lXMHdEMXNCZE83WFQ4bUczTS1HWGdQRFdNU2Y1OGtFQVpySnFGSkdzYnNTSHFxSzFSYW5WSmhveTk4RHliaDRNV1l1ZDVDZHRj?oc=5",
-        "src": "Reuters",
-        "t": "2026-11-28T11:19:43+02:00"
       }
     ],
     "trevor-noah": [
@@ -143,12 +143,6 @@
     ],
     "david-sacks": [
       {
-        "h": "Sacks Hits Claude’s Moral Status; Its Text Says ‘Uncertain’",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOanBzcnBSUWQ1SDRnaUpUMkRuTmVFclo3aTNMOTM1OTVCUXliaUdZUG9abTdmcG1vX0FEVVpTOE4yU0JDZUo4TnQwZm14Vkh1bDAwZDBuYUk3Tjg0OUppT3kzYlBNLTZFUUNiNVRteHBGNExXSzE2ZFdBc0ZGaDVHSFZxMUw4cjdnZjBJ?oc=5",
-        "src": "FourWeekMBA",
-        "t": "2026-11-22T22:38:12+02:00"
-      },
-      {
         "h": "Trump’s former AI czar David Sacks criticizes rush to judgment on ex-Nvidia CEO",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVjJQSmZ4NzEyYVNhTUFOT01YczVWTlhOT3oxTVE5ZE9zOFJ3YS1rdzNDXzlTeDloWFJkSzMzTHJJT29pajZiU1NhVC1wTnE1VktTWlNyRXFQSWlVTDNYSEIydjhrWmhOUk0ybU8xUkJDMnJ0T2d4WWFsWDRDczVaNnM3WmlDT2xqWGh4MVVVOXhSVXNmcU1zSA?oc=5",
         "src": "Semafor",
@@ -158,6 +152,12 @@
         "h": "David Sacks says somebody risked jail time to leak a classified memo about Jensen Huang's alleged affairs to The New York Times",
         "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQY0dzcm82LTRVVnVOMDMyc1ZfdXNZTDB3M1VVWWphamJUa09BMWNZXzdRY3VHbmNBemNKcENOY3JzclR2Q29aWUFkSHlRVkhWTmdEcTVwUmNMZEUzVE15bXlvTUpRMDNoNGRLS3ROekhjYXh1NGliaDJSWXdid3JfRkJQa2ZpSWE3eGNUbDRaUW1LWDFKUW95V2V2dE9PdDBWMF9sSTlJMWJodW4zRDY4WWZib0N0bTB6T1JsaDAzZG9CV1A0dG9FSkpXX2UyLXRkWjdqcFg1WWs2ODBESG4zUFlsXzF3WVVBVmxVa2Vhcw?oc=5",
         "src": "primetimer.com",
+        "t": "2026-11-14T10:00:00+02:00"
+      },
+      {
+        "h": "Over 100,000 People Now Call For Jensen Huang’s Return To NVIDIA, As The PayPal Veteran David Sacks Terms His Forced Exit “The Stupidest, Most Moot Hill To Die On”",
+        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQTktraldqLXhzbk9JNy0yd2RYa2pvQTQ2bkRSbXFuV0dUREdteDdxNHM1TTBlM0FDaFJjdExPOE9YZVhJWjVWNk4tZmFEaS1QVFZOU2l6Rkx4eUpDWUhTRzBBbS1HbHdNeUNtYlYxY1Q0R2ROb3d1ZlBHVVo2YjFTUDFnR3FpT0g5N0NIcERySklzeDk0cEhWTU52djlBSWpxbGNWNXR4MFp6cFNrMHM5ZnRnVGZDU1BDY0dNRmk3RlU1WWs3dUlrbDhRUU8tTTVBc3dRWFFRNUVRWEVBWFhDUEF4MkdacHN2MXpXa0VVY1RRWGZlOVpyajhyOGpHSVptVDRaelZkWGJ1WTjSAZACQVVfeXFMTU0wUTBvX3ZhZ3FlaFFvdGlwZng2MjdKVFM5VTd3cGVNd0MyOXhNNVNQUDlfYTdidnA4cTJEWkRQTkVRMFZEeDBNN2o2NzdIc1dEQVU1U3lvRzdreVEzdDk2SGRvRGpqNGlTZTI4NUxWcnpwOXE3dkZ0bExrNGk5WTI3YlRid0JtN1VHdHBHT1dQWENTUlZSQ0gxM0ZpTGNIWWd5RzRFN2Q4QTdSQzUyREc0N293SXVLV19aVzV0M0hLZ1BVc2dpQ25vSFhMWjE5V2dyMVFtdXJiRkpGY2paczdCazRQVWQ0VjY2eGUzc3I0SXRsa3VxcFczUXRSMGd0X3JhMFpobTRidGNqNzlJTjY?oc=5",
+        "src": "Wccftech",
         "t": "2026-11-14T10:00:00+02:00"
       }
     ],
@@ -233,10 +233,10 @@
         "t": "2026-10-25T09:00:00+02:00"
       },
       {
-        "h": "NantWorks' Soon-Shiong puts chips behind manufacturing disruptors in new rounds for Prolific Machines, Multiply Labs",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb185cmswR2dwOUowYUFwemExcWMtQlF6MDM5Z0pDakwtSmtnOUtBb2J5cjI5ZHhIaEdvT091VGZnczFZRTNFc0I3d1V4UEs1bmFFMTdiNHBGeHhBZXN4Z3ktbC1iRXM1NnJEWkZsS24yTnFaWHJ0MHo5dnFwODZxZWIzUHNBQ19NaWVvM2tFR01qNWIxVzZKSW01NXlmQzl4ZExGOUU1bzJkSHBCczNnQnMzdm1aX09ZTWpqdg?oc=5",
-        "src": "Fierce Pharma",
-        "t": "2026-10-14T09:00:00+02:00"
+        "h": "Billionaire Patrick Soon-Shiong wins wider FDA approval for bladder cancer drug",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSEdDUUVUSU9PN296clluY1F0NjI3Ykg3Wk8zR19iSVpTX19rQWRDM2ZuRjlfWG4tSFNIOWpjN1VJQWRTckdqNzZQVWtqVGZ5Q2xBTE51cmM1VHM5N0lNa1pHbHplT256TzFaVTdCVmZkZTYzUlpMbnhsZ1Q2RU5DWUFiMXRrQnhfcFNQVjRUZXpDSlp5RXdwNVJuZV9XUzk2a2I2MzFSVmpKY0tvbExuMGstSzkzNXhHbVJ0ZWJHWHc?oc=5",
+        "src": "Billionaires.Africa",
+        "t": "2026-10-16T09:00:00+02:00"
       }
     ],
     "chad-le-clos": [
@@ -321,10 +321,10 @@
         "t": "2026-11-23T22:15:00+02:00"
       },
       {
-        "h": "What ‘Digger’ Has in Common with Gary Oldman’s Winston Churchill and Charlize Theron’s Megyn Kelly",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOGNscG5Oc1NNTlgtLVJNSk96SXRmeGI0T3RuUmxnRWZ5SmxiMFVkMUplMkxmckxGU0JjSFRxQkdTUjZDTHE1SFdYXzl6QUFRV3VJRC1yMUVVenI4RThFS2ZRTDRzWFJJRjMtb0dQQ2pVYVhSSEllSmloTGNOSGdjNDZsbEF6a29YUEFLajlrUXdzQTJ0amdkUGk5dlBIVG9QYWlF?oc=5",
-        "src": "IndieWire",
-        "t": "2026-11-20T21:00:00+02:00"
+        "h": "Charlize Theron, Pedro Pascal & Florence Pugh were among the stars on the red carpet at the 2026 event where the Academy awards honorary Oscars. Read more below.",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTV96LXVrSUY3M2pjTllLelBDR3QtLU9Ib1Nta3ViOHZ3X0tXNUZnTXFiT282elBLZlhRSk1qdWVobGN0S3Z5Y0RyamhlYkRGMVB1eHd1QUI1OGNKZXNMSXlHT2s5Q1BMY0phNFpDbmtWdXJBMURGeXI1SWxBUmh1R1BJaXdhODRGcTdHbzVCalVkWlBFdGk4c3c0MGhHN0pELTNrbEtEaWFTVEFWWWR6MjBvT2w2VXJiOURTZzd4NXdxQjFCWGFxU2g2Z2Z3MVlYb3UtRw?oc=5",
+        "src": "Facebook",
+        "t": "2026-11-18T16:30:19+02:00"
       }
     ],
     "lyndon-rive": [
@@ -477,6 +477,12 @@
     ],
     "marnus-labuschagne": [
       {
+        "h": "Jack Clayton reveals Marnus Labuschagne’s selfless gesture after taking Test spot",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdjVKWFNaQWtJRHF3c29qUWdCMGNjRGN1ZGFZSjQ5UzdCc3NoTFNaWHhSTm05UWl6TFJTRVlLNHlFT1V2SzRnRDhCVlZGbmp5UzMzOEJNM0hXYy1JaUhfWG1FZFJQa1VoblQyZEVOWHVNWHhQQmoyMENmOFh5T0tuaXc4V3k1LTg4TDRwTzh3ck81aUN3U0hzYW91cWpMa25obUtpSzYtVlk2a2VUN09BM2loVm5aeUtfUWZHYzlFakRCaTM30gHKAUFVX3lxTE9yNnAzd3RBYTNGZmNWYlpXVGlKRS1zcmdKSTBuekJtT2MyR3hUdEs1TFo3OTc4ZmpHQ2Q5UTdfQ2d3eXJ4bkVKNmlyN3VGSU84c044SUQ5MHFEcmU4aDYybjFDb0VlWVYwRmVFOWJDQ19pN1lyWjJZRFRnbXQ0NG5KYUF0UE1vb3dVLUt5UEJRQ3pXN2JxRFVvQWtfWF9HYUhRZVBtcmd6ajBZbDZ1QlhNOWp0d0hCYlhJaVA4cFFMaFYxVHhCcHlqd1E?oc=5",
+        "src": "7NEWS",
+        "t": "2026-11-28T10:24:00+02:00"
+      },
+      {
         "h": "Cricket-Clayton says he has Labuschagne's support after making Australian team",
         "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPYW92cUgzZ3h5SURVSlloTHZfVGNxbUUxVHlwek9ZSGlXY2pjMXdnTmY3VE15S2szcVA3UmtQWjBpbzRONEROZE5YUnFGc0oyZkFvZGV5N0xDUTZQRnZoUmt3cWJ5RFdHcmZuZWVPZVhvNWNMckRZZmJZRlpzWmFfRDVHLV9WRkluVF9fclQtM0MtZ0lMYmYyNkhpTHV1MGRRVHd0V0ItZllvRzBMMHlxMHZ5RjFObGJDR3AySHpOV0ZvNDU0T1FoNzl0am1HVFgyR0JRTGQ0c9IB1wFBVV95cUxPYW92cUgzZ3h5SURVSlloTHZfVGNxbUUxVHlwek9ZSGlXY2pjMXdnTmY3VE15S2szcVA3UmtQWjBpbzRONEROZE5YUnFGc0oyZkFvZGV5N0xDUTZQRnZoUmt3cWJ5RFdHcmZuZWVPZVhvNWNMckRZZmJZRlpzWmFfRDVHLV9WRkluVF9fclQtM0MtZ0lMYmYyNkhpTHV1MGRRVHd0V0ItZllvRzBMMHlxMHZ5RjFObGJDR3AySHpOV0ZvNDU0T1FoNzl0am1HVFgyR0JRTGQ0cw?oc=5",
         "src": "Devdiscourse",
@@ -487,12 +493,6 @@
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSkFCNmlmdEN3UzkxSUgxaVlVUGZjS2t0SmVoWGNyVk53TGZmbXBJNERfa09XcWUtYkNsdHhDVVgySVY1bDBJUzZ6RTFqRkdrczZNTVBpQzFGOW8yVTJkV3JjbkRxSjFrMjIyTDJUeUhpZ1FoanA4NDZ4d0JwajFub3BoenNMR1pUMWpOdzJLbDQySzBESDZXRDNPLW50ODNqYjJRSlBZMDhiRkI20gG0AUFVX3lxTE13ZkFnbFp2V3VMVnBTNXlocEVpZHVrakMtQ1d6M0pKOUpUbUlETmszY3MzM0xJenhEd19sclpqRThKaUh2MG5yMUZ6dTRZLUtCZzFzX3pQYnVmemRzN3VJWlotXzFMNWZ1dlN0TERpcFRGaVZGMGl1eXB4WENKOWJpM2lFZHNhZi1GSFdzNEJYTVhQUGN4b3U3eHhRZ3VadTJBczRJcWNDb2lybU04MUJHZGkwOQ?oc=5",
         "src": "CricTracker",
         "t": "2026-11-28T06:45:00+02:00"
-      },
-      {
-        "h": "Jack Clayton reveals Marnus Labuschagne’s selfless gesture after taking Test spot",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdjVKWFNaQWtJRHF3c29qUWdCMGNjRGN1ZGFZSjQ5UzdCc3NoTFNaWHhSTm05UWl6TFJTRVlLNHlFT1V2SzRnRDhCVlZGbmp5UzMzOEJNM0hXYy1JaUhfWG1FZFJQa1VoblQyZEVOWHVNWHhQQmoyMENmOFh5T0tuaXc4V3k1LTg4TDRwTzh3ck81aUN3U0hzYW91cWpMa25obUtpSzYtVlk2a2VUN09BM2loVm5aeUtfUWZHYzlFakRCaTM30gHKAUFVX3lxTE9yNnAzd3RBYTNGZmNWYlpXVGlKRS1zcmdKSTBuekJtT2MyR3hUdEs1TFo3OTc4ZmpHQ2Q5UTdfQ2d3eXJ4bkVKNmlyN3VGSU84c044SUQ5MHFEcmU4aDYybjFDb0VlWVYwRmVFOWJDQ19pN1lyWjJZRFRnbXQ0NG5KYUF0UE1vb3dVLUt5UEJRQ3pXN2JxRFVvQWtfWF9HYUhRZVBtcmd6ajBZbDZ1QlhNOWp0d0hCYlhJaVA4cFFMaFYxVHhCcHlqd1E?oc=5",
-        "src": "7NEWS",
-        "t": "2026-11-28T05:38:00+02:00"
       }
     ],
     "maxine-fassberg": [
@@ -560,14 +560,14 @@
     ]
   },
   "week": {
-    "elon-musk": 92,
+    "elon-musk": 93,
     "trevor-noah": 1,
     "peter-thiel": 31,
     "thuso-mbedu": 1,
     "tyla": 5,
     "roelof-botha": 2,
     "black-coffee": 6,
-    "david-sacks": 1,
+    "david-sacks": 0,
     "paul-maritz": 0,
     "vinny-lingham": 1,
     "willem-van-biljon": 0,
@@ -581,7 +581,7 @@
     "charlize-theron": 2,
     "lyndon-rive": 0,
     "kandyse-mcclure": 0,
-    "navi-pillay": 19,
+    "navi-pillay": 18,
     "jm-coetzee": 0,
     "arnold-vosloo": 1,
     "troye-sivan": 3,

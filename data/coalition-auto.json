@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-28",
-    "time": "13:54"
+    "time": "15:05"
   },
   "items": [
     {
@@ -3973,6 +3973,18 @@
         "h": "DA Condemns New Tshwane Coalition Government",
         "d": "2026-11-28",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mYzNIQ1JrMkZLZkJhc3MyQ3VsZFIxa3ZXaElqWWVuRW94djBqZHItSjJ2NW1VdFctTnd2NTAyRTQ1TmVsZTd3aHdRV1hNazdiMzhwa1R3Qm5MYWNHNUFnMHdnRGNXcnVYNDNvQjlSNA?oc=5"
+      },
+      {
+        "src": "Townpress Newspaper",
+        "h": "Past clashes, but MK joins Tshwane governing coalition",
+        "d": "2026-11-28",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbXBXSE9OOEZXZVhVd00xQWpPVGdHQUJrMUExaVBmQ3dpVTZWeXpvR0cxZTJna1M5OGFDaEIySkxnam1VX19majlFTGxId1ZUSm9CU0x3bnEzRFc5WG5nVFd0OHFYdVJlTXRtb1NTVF9UTHNqQlZBMWg4ckFMU1FrSF9CZGY?oc=5"
+      },
+      {
+        "src": "Cape Argus",
+        "h": "Confirmed: Nasiphi Moya re-elected as Tshwane Mayor",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQT0d2YTN6bEhFOW91Tnl1cTE3cFIweERYNjNHdTFDQ1RndmY1M3VDajVPZnMyZVF5aEFXTU5ya243R2RrNWVkS0xieHBSRFgyZXJ5V2RsOVB5S3pkZVBsQnU2RDBCSEZYUUF6Zk1LTDdkSlJhbWVELTRGUkl2WEtENzFHOGVCdmVJbXpMaXlDanJia2RlT010czh3?oc=5"
       }
     ],
     "actionsa": [
@@ -4229,6 +4241,12 @@
         "h": "DA KZN expected to follow coalition policy despite Haniff Hoosen’s MK Party stance",
         "d": "2026-11-26",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQREs0OHhJejg0T2dBYlV3OUdVUkpRakM5NG16RlFvZkpiSG4yNFJqMURHcEt3VGFUNU9SSnZ5OEpwV014R2JIQ1ZPNXJXOEpWR3dLY0RLU3IwLWRzb1NIY3prcG9SSjJmaERBbThxTEZxX0NFTlJod2Z4U0VfelZFdjhpanNmdWVwRHlVMkxQLWdmeVNUWldUbVZRS0tWMHlEOEllM0oxREgzUW1SM0w0azl3czlCVG5jaHhRYzJEbDdpQQ?oc=5"
+      },
+      {
+        "src": "IOL",
+        "h": "DA, MK Party to hold coalition talks after Hill-Lewis invitation",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOc3dZZ3hHanBSdm90LUdNYVFvTFB3QzNXNXBqNlY0T1UyNW9PeUFxeHBnNFRFNm9hSDR3Ym9MQ1hlZldhem1vNUVaWTk1c3A4NUhuWmNBSzZmQmlFS2loY3dYVTNUWmZ1VWExempjX3RtbXRmT0pjT1dpa2dFWjRxTUdsUXp0M2thV0tDWGwzb1lWclhVbUZ0bjB2UUpSUDExbTJKMm42dWF3UQ?oc=5"
       }
     ],
     "anc-metros": [
@@ -5376,6 +5394,12 @@
           "h": "MK Party sees no ANC reluctance to work with it in eThekwini, Mchunu says",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNakRHcDFndmJyVTlGZmFDb2xua0tpLXo1VmFrYlJCb3BZdlpmT3Z1ZmxPMmdWc2xkOWVHZkJ6QVZnc2VJVTVxLXFmc3lFeVBYMkRPQTdZd21nYk5jUGszUGctNUp3clNOX0M0LUNrdkZ2b3M0OW9xc1JRRVY1b3c4eUZwTFdFaTN2dEZQZXFVbmN3MW9HcVVmZVBVaHAwVmQ5VkhYemk5QkVMdGFwNElyeHpXeTgyREFROEJGZjBLOXc?oc=5"
+        },
+        {
+          "src": "sundayindependent.co.za",
+          "h": "MK Party sees no ANC reluctance to work with it in eThekwini, Mchunu says",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZ0dzR1dYa2c2cmdvcjQ4U0pwRUxIRDRXazRVNF9meUk4QWd4eU1BcU9YWmthZUlLWWQ2RFBfelZIZGp1RDhvYzVxNEZGUnN1ZV9vZWJpdzR6M21WM1hzaVdheFNFQzFlMTdYdTF1OXJhZEZlaTZZYS1BNmZ3MDVVa3FkcTJpLVpmRXNndllaYURuY0tYdFNHNFVYU0F2VnVOOWlPaU83Q3ZjQmZtRWdiQ0VvX3pyazMyRVpPblhvTHh1b2ZUeEFPc213?oc=5"
         }
       ],
       "sec": [
@@ -5962,13 +5986,13 @@
       "cat": "Ekurhuleni",
       "place": "Ekurhuleni",
       "h": "The ANC's Mziyanda Mketsu is elected Ekurhuleni mayor, and the council moves to create a deputy mayor post",
-      "dek": "The Citizen, IOL, EWN, eNCA and Central News South Africa report the ANC's Mziyanda Mketsu has been elected executive mayor of Ekurhuleni, and BusinessTech reports the ANC has taken the metro with ActionSA and the EFF. EWN reports Mketsu has vowed zero tolerance for corruption, and IOL reports the council has supported a motion to establish a deputy mayor position.",
+      "dek": "The Citizen, IOL, EWN, eNCA and Central News South Africa report the ANC's Mziyanda Mketsu has been elected executive mayor of Ekurhuleni, and BusinessTech reports the ANC has taken the metro with ActionSA and the EFF. EWN and Townpress Newspaper report Mketsu has vowed zero tolerance for corruption, and IOL reports the council has supported a motion to establish a deputy mayor position.",
       "brief": [
-        "The Citizen, IOL, EWN, eNCA and Central News South Africa report Mketsu was elected Ekurhuleni mayor; EWN reports he vowed zero tolerance for corruption, and Inside Politic reports he promised a clean administration.",
+        "The Citizen, IOL, EWN, eNCA and Central News South Africa report Mketsu was elected Ekurhuleni mayor; EWN and Townpress Newspaper report he vowed zero tolerance for corruption, with Townpress noting what it calls graft baggage, and Inside Politic reports he promised a clean administration.",
         "EWN reports the DA's Rasilingwane slammed a 'cabal' after losing the mayoral vote to Mketsu, and BusinessTech reports the ANC took Ekurhuleni with ActionSA and the EFF.",
         "IOL reports the council supported a motion to establish a deputy mayor position; the Daily News reports Mashaba backs Khumalo for the post, and EWN reports ActionSA's Xolani Khumalo is not expecting to be elected yet.",
-        "IOL, Business Day, EWN and Inside Politic report the EFF's Nthabiseng Tshivhenga was re-elected speaker; IOL says she won 142 votes.",
-        "The Mercury and other outlets earlier reported the mayoral vote was postponed as the ANC closed in on a deal, and Newsnote reported Mashaba blamed ANC delays."
+        "IOL, Business Day, EWN, Inside Politic and Townpress Newspaper report the EFF's Nthabiseng Tshivhenga was re-elected speaker with 142 votes; The Star reports Kagiso Lerutla presided over the inaugural council meeting.",
+        "The Mercury, the Independent on Saturday and other outlets earlier reported the mayoral vote was postponed as the ANC closed in on a deal, and Newsnote reported Mashaba blamed ANC delays."
       ],
       "auto": true,
       "id": "ekurhuleni",
@@ -6379,6 +6403,30 @@
           "h": "Ekurhuleni council to elect new ANC mayor amid postponement due to coalition talks",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdEFjYWRKc0dpaHcyOUo2bUU1Rl9nZjJPVENKbDR4WmxVay1wY3ZZUTlGZk5YV1MtMTNDZElmaTNTWFh1WkNKbmZBaG5nWlJGMjJmc21xVHRIVzBZdkFjbnBVeEJkT0JXYzNXUVpxNnlwcFB6cTFuWHZETnluT1A5T0owbFdXZjhtLUtEbEYwSjBfOFZkUzFBWWV4OVdNVVVRUlhsT2lQZ0Zxd3lWMkNwd2ZmSHVJdjNHMGRVTlNfbTg0Z3RXX1Y2NmRB?oc=5"
+        },
+        {
+          "src": "Townpress Newspaper",
+          "h": "Graft baggage, yet Mketsu vows zero tolerance in metro",
+          "d": "2026-11-28",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQUZBdlZ0TlE1TzBTUzVrajNwNjNhU0I3Z1F6RjMyUlJYN20xNUlEYXBDYjJoQXN2M3hyMWVGdHlNS1RTcWhZV1NrTUU0T3ZNbmxJaXRtUUFna3V3M1p5ZlFYWlZZRzBhRGRVb1lkNXZPdWlWZWJxTVdqZ3ZlU1MzQ3IzR3M?oc=5"
+        },
+        {
+          "src": "Townpress Newspaper",
+          "h": "142 votes, and Tshivhenga is Ekurhuleni speaker again",
+          "d": "2026-11-28",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSFVlejZ0RVl6bEE1N1Z1Q1FTRzlOak5NdGo0eS04em12TjBRY20zcVV6R2lGSnZOdHFYbUg0ME5UNlpqd2xmWUF1b1hvU09Ub1NqTjV0ZGduZEM5NTBiZ0ptWExQSmp4TDVyS0FSSDZHV0JGN1dzWUs3YVdKTHN1UkdkSQ?oc=5"
+        },
+        {
+          "src": "thestar.co.za",
+          "h": "WATCH | Kagiso Lerutla presides over Ekurhuleni’s inaugural council meeting",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSGlZMnR2NTl4QmNGUGVEVUg3R19sYkZaWjZOYzlrdVBSdDloeXRPbnROSUNGOGFpd0ZNLS02M0ZOWWl6b2dfbENnMVA1WkNBQ2RyTlgzQXBMbzlDSXhaV1BXS292NV9oWEZqR3A1YjZmMXcxclIwZmdLTzlMUkowdV9KbFQ5MEhRcVRoRlNycFk5NHJOMFN1Wkk5WkFpcDZqbExETEpoYUxLZ09VbzJJZ2Zn?oc=5"
+        },
+        {
+          "src": "independentonsaturday.co.za",
+          "h": "Ekurhuleni postpones mayoral election as ANC closes in on coalition deal",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZzNCYmoyeFZyT1JUU3hoeGFjbk8wTmd1LU9icHZCYW1XY0FxU0dHdDNRVGdMTmxhSFppRW45UGY0NTc4NVNsT2FTTW1UaXVDSXZTbDR1WFpjY0RnakRNYlUzcXVvQ3ZZZVpZWjFLdEE5RHVfRkw0ZHdBVm9Dc2h6QjlYRG9xYnVpY1hBYUxuR3hPZDdXZWppNy03MWFMU2xVYV81SGtYM0ZMdjJGcVY0VjZfUHBJTDFsdTNxR0Q5TGNPYnk2TFQw?oc=5"
         }
       ],
       "sec": [
@@ -8599,6 +8647,15 @@
     "8a888f597bd1",
     "6ca16298954c",
     "3dc1103ba79f",
-    "cadf7d2c189e"
+    "cadf7d2c189e",
+    "ec51c2c3ed36",
+    "2fa9e19b5b55",
+    "6966b0cece8e",
+    "5b692ebeb51b",
+    "3735fa9ac4bd",
+    "2a571a8a4202",
+    "f7aa9d541cc6",
+    "5038ed10d59a",
+    "5465abdb78aa"
   ]
 }
