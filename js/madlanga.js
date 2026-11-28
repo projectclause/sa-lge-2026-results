@@ -66,7 +66,7 @@
     const LIVE_URL = "https://www.youtube.com/channel/UCk_qa4ssROH8aUDbgQXE5dA/live";
     // header
     const hd = (T.day || T.stand || T.live) ? `<p class="mc-hd"><span class="mc-tag">TODAY</span>${T.day ? `Day ${T.day}` : ""}${T.stand ? `${T.day ? " · " : ""}${esc(T.stand.src)}: “${esc(T.stand.h)}”` : ""}${T.day || T.live ? ` <a href="${LIVE_URL}" target="_blank" rel="noopener">Watch live on SMWX ›</a>` : ""}</p>` : "";
-    const head = `<header class="pl-ed"><p class="pl-kick">Madlanga Commission Tracker · Preamble</p><h1 class="pl-date">Inside the Madlanga Commission: who is testifying, and what is being reported</h1><p class="pl-asof">Updated <time class="mc-ago-plain" data-t="${esc(A.updated || "")}"></time></p>${paused ? `<p class="mc-paused">Automatic updates are paused. Showing the page without the latest reports.</p>` : hd}<p class="m-only m-note"><b>Being named is not a finding of wrongdoing.</b> Every line is a trusted outlet’s own headline, credited. <a href="#" data-fold="m-expl">How to read this page ›</a></p><p class="m-only m-new"><a href="#" data-fold="m-expl">New here? What is the Madlanga Commission? ›</a></p><p class="mc-note"><b>How to read this page.</b> ${esc(C.legal)}</p></header>`;
+    const head = `<header class="pl-ed"><p class="pl-kick">Madlanga Commission Tracker · Preamble</p><h1 class="pl-date">Inside the Madlanga Commission: who is testifying, and what is being <span class="mc-nw">reported<span class="pl-infow"><button type="button" class="pl-info" aria-expanded="false" aria-controls="mc-infopop" aria-label="What is the Madlanga Commission?">i</button><span class="pl-infopop" id="mc-infopop" role="note" hidden>${(C.explainer || []).map((t) => esc(t)).join(" ")}</span></span></span></h1><p class="pl-asof">Updated <time class="mc-ago-plain" data-t="${esc(A.updated || "")}"></time></p>${paused ? `<p class="mc-paused">Automatic updates are paused. Showing the page without the latest reports.</p>` : hd}<p class="m-only m-note"><b>Being named is not a finding of wrongdoing.</b> Every line is a trusted outlet’s own headline, credited. <a href="#" data-fold="m-expl">How to read this page ›</a></p><p class="m-only m-new"><a href="#" data-fold="m-expl">New here? What is the Madlanga Commission? ›</a></p><p class="mc-note"><b>How to read this page.</b> ${esc(C.legal)}</p></header>`;
     // explainer
     const expl = sec("m-expl fold", "What is the Madlanga Commission?", `<div class="mx-ex">${(C.explainer || []).map((t) => `<p>${esc(t)}</p>`).join("")}</div>`, "", "about");
     // today's reports
@@ -150,6 +150,14 @@
     const c = e.target.closest(".m-wit .mc-v");
     if (c && !e.target.closest("a")) { picked = c.dataset.k; const old = root.querySelector(".m-wit .mc-panel"); const html = evidence(picked); root.querySelectorAll(".m-wit .mc-v").forEach((x) => x.classList.toggle("on", x.dataset.k === picked)); if (old) old.outerHTML = html.replace('class="mc-panel', 'class="mc-panel tapped'); else if (html) c.closest(".pl-voices").insertAdjacentHTML("afterend", html.replace('class="mc-panel', 'class="mc-panel tapped')); }
   });
+  // the "i" after the headline: what the commission is, in a small popover (closes on a click elsewhere or Esc)
+  const iClose = () => root.querySelectorAll(".pl-info[aria-expanded='true']").forEach((b) => { b.setAttribute("aria-expanded", "false"); const p = document.getElementById(b.getAttribute("aria-controls")); if (p) p.hidden = true; });
+  document.addEventListener("click", (e) => {
+    const b = e.target.closest(".pl-info");
+    if (b && root.contains(b)) { const open = b.getAttribute("aria-expanded") === "true"; iClose(); if (!open) { b.setAttribute("aria-expanded", "true"); document.getElementById(b.getAttribute("aria-controls")).hidden = false; } return; }
+    if (!e.target.closest(".pl-infopop")) iClose();
+  });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") iClose(); });
   root.addEventListener("keydown", (e) => { if (e.key === "Enter" && (e.target.classList.contains("mc-v") || e.target.classList.contains("mc-vo-x"))) e.target.click(); });
   // Voices: tap a card to open or close its articles
   root.addEventListener("click", (e) => {

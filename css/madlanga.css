@@ -118,3 +118,4 @@
 .mc-varts span { display: block; margin-top: 3px; font-size: 13px; color: var(--muted2); }
 .mc-varts i { font-style: normal; }
 .m-vo .pl-voice:not(.mc-vo-x) em::after { content: none; } /* no arrow where there is nothing to open */
+.mc-nw { white-space: nowrap; } .mc-nw .pl-infopop { white-space: normal; } /* the headline's last word and its "i" stay together */
