@@ -187,3 +187,16 @@
 /* the title stays on one line: sized to the column (the text is about 14.6 times the font size wide, plus the i) */
 .sf-title { white-space: nowrap; text-wrap: nowrap; font-size: min(48px, calc((min(100vw, 760px) - 64px) / 14.8)); }
 @media (max-width: 620px) { .sf-title { font-size: calc((100vw - 66px) / 16.2); } } /* DM Sans sets wider at small sizes */
+
+/* Centred page (desktop too): one column — controls, globe, legend, then the communities list and the key South
+   Africans, all on the page's centre line */
+.sf-body { grid-template-columns: minmax(0, 1fr); max-width: 760px; margin-left: auto; margin-right: auto; }
+.sf-ctrl { flex-direction: column; justify-content: center; align-items: center; gap: 12px; }
+.sf-go { justify-content: center; }
+.sf-side { width: 100%; max-width: 760px; margin: 8px auto 0; }
+.sf-panel { max-height: none; }
+.sf-key-people { max-width: 760px; }
+@media (max-width: 620px) {
+  .sf-ctrl { align-items: stretch; }
+  .sf-go { justify-content: flex-start; }
+}
