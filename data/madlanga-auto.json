@@ -1,24 +1,29 @@
 {
-  "updated": "2026-11-28T07:27:21Z",
+  "updated": "2026-11-28T09:00:40Z",
   "today": {
     "day": 202,
-    "live": null,
+    "live": {
+      "src": "IOL",
+      "h": "LIVE: Cat Matlala moved from KZN prison to Pretoria in VW Polo without police escort, Commission Hears",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxORVRWa3lDRlN2YnVWMTFDZGtwNHpDSXJCWENoaEJoUnhLUGdpeURKcTBiemJ2Ql93cjBSRXZfcWNFLXFlRjUybWtlaFZWRzhTSWp4R0FhRU93ZW4zTS14YllzOW9KZzBNZ3hyTURlMEI1SnlibGh2aVRmYTZVMzVMZmRPVTVacGpfS0pyLWNMR0JNcExNS0Y3c3duVEl6R3gzV09rRDZWVjRaLUdLNHRaMTM5RkVkUEZ2ajB3LW5WaU5fVTJsaE1JN21kUkdlOExkbFJpa1dyREtYcjBKdTM0aHo5U0FrVmc?oc=5",
+      "d": "2026-11-28T08:15:57Z"
+    },
     "stand": null
   },
   "reports": [
     {
       "src": "IOL",
       "logo": "iol",
-      "h": "Carrim’s lawyers accuse Madlanga Commission of ‘malicious harm’ as court orders engagement",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdmRxaXM0eVV6akFmUGJPV05uU1FJUFBQVHFmWUpVTE1ncXdWYng0V3lFSjFoUnM5X0hYbzVDRzJYRWxMemswNzNnN0hZSF8xUklSbm4wbFVudFZsZWM3QUM2WVV6ci1JVUJoVld1dm1UOVN2eVJ2VFh3NDhyUTRkbG1Sa3JuWVBzVzZuZjc1YjdiTVFsbnpJdlp0SWlUZk94RHdxWjhQMlcxTGpOUF8xc1hsRXlTVU96bFpfcmRoUDRRU3Ytc1NEOGJ0RER4Z0t3QWQwZHpB?oc=5",
-      "d": "2026-11-28T05:52:25Z"
+      "h": "LIVE: Cat Matlala moved from KZN prison to Pretoria in VW Polo without police escort, Commission Hears",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxORVRWa3lDRlN2YnVWMTFDZGtwNHpDSXJCWENoaEJoUnhLUGdpeURKcTBiemJ2Ql93cjBSRXZfcWNFLXFlRjUybWtlaFZWRzhTSWp4R0FhRU93ZW4zTS14YllzOW9KZzBNZ3hyTURlMEI1SnlibGh2aVRmYTZVMzVMZmRPVTVacGpfS0pyLWNMR0JNcExNS0Y3c3duVEl6R3gzV09rRDZWVjRaLUdLNHRaMTM5RkVkUEZ2ajB3LW5WaU5fVTJsaE1JN21kUkdlOExkbFJpa1dyREtYcjBKdTM0aHo5U0FrVmc?oc=5",
+      "d": "2026-11-28T08:15:57Z"
     },
     {
       "src": "IOL",
       "logo": "iol",
-      "h": "Ramaphosa was warned of national security threats days before Mkhwanazi's briefing | Madlanga Commission",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNN0xld0c0WjNVX2xKQjhUVkxTd25NU2dPQVhOQ0JFY1Rncnptdkc5OHZuU0NPSVBzZXZmbElmM0QwYWRXeUNSTDJQaGRrS0dqZ1VmeEloUVp2Ni1lV0tVclkwYWU5ZEZlSEVmcFdsei1sSnFYUEg3QkRtTEdFMEd1RDJjUEh0QW1QamduOFZlMGIxa3EtT1ZXV2tSMTFfMUtRRXI2QnU4RXdRalJleGtoSlhBRTV0WXVOREo4b0ZMRGVlOEFTZ3RVVDI1QjRvaDhDQ216TllybzVKa1NCblE?oc=5",
-      "d": "2026-11-28T03:00:23Z"
+      "h": "Why the SANDF needs a Madlanga-style commission of inquiry into corruption and collapse",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRUU1Z1l3UXRxLWNvOUUtd29tcjkzd2tGR1lWSWdYTTFWd2ZQWUNzU1NTT3Q4T2xPUmw1eWhTbDRJTjJYNVczUk12c2k1c01rekEyT0FNVld6SlQwZEFnQU9Tajh5M1l0Sk9hUnp6dVZ3ZUhZTE9uX05iZmExbHZSWTA0cXBHQVN2MllnVXNJVEtyOGVCZUJzYXdVMktnTThnbjVwanJfYjFYT0RGM21kTEl5NFdoNlZUQUF4cHhvaF9pM1E?oc=5",
+      "d": "2026-11-28T07:30:59Z"
     },
     {
       "src": "IOL",
@@ -138,13 +143,6 @@
       "h": "Witness T links KZN tow truck operator Clive Naicker to murders, police infiltration",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWlhWcmJYUXg4Mzh2Zkl3cmpsYTRTSi1ESG1Lb0M2YmdvVW9jcVRvMm9vajRDb0ZNRm54NXVJTUlpS1JlU1FQdTlQMXAxcm1nN2t3NW0zeHlqeU5DR1NtVGJWdFhVWThEaG9uV1IyZlp1YVgyM2xGTk1EM1Z2YkJaYTkzSFdiTktsUmVZenVibGZFWDdqS00weVNQWjZpQ2xQOHcwOXNFcy1HLU9ZYkN3VzZ0TzZPdHc?oc=5",
       "d": "2026-11-26T13:47:08Z"
-    },
-    {
-      "src": "IOL",
-      "logo": "iol",
-      "h": "LIVE: JMPD corruption and bribe claims back in focus as Madlanga Commission resumes",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRHJjTkwyNDBBRnhYYnlPZFVCbWtyYmxRdkkxVUwtcW94dHBiLVJ4aXRta3BieUNuUEdQZE8tVjlZZDdSbURFdGJwUkJudFhpYTdJUzlSMVZOYU0tZzdsbjVidEsxbENnYThrZDhkNDRZeDNmNDhRZWhybGd3VlJrVTNPWEFzMVZtcWdBNGxNNTIyWGpockRyeHdNay1qN2xKdUNjTUtCSlFMaUJGbEc5eFF2Qm9SRVFaRnBTMmFB?oc=5",
-      "d": "2026-11-26T08:00:00Z"
     }
   ],
   "people": {
@@ -258,6 +256,13 @@
     },
     "vusimuzi-matlala": {
       "lines": [
+        {
+          "src": "IOL",
+          "logo": "iol",
+          "h": "LIVE: Cat Matlala moved from KZN prison to Pretoria in VW Polo without police escort, Commission Hears",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxORVRWa3lDRlN2YnVWMTFDZGtwNHpDSXJCWENoaEJoUnhLUGdpeURKcTBiemJ2Ql93cjBSRXZfcWNFLXFlRjUybWtlaFZWRzhTSWp4R0FhRU93ZW4zTS14YllzOW9KZzBNZ3hyTURlMEI1SnlibGh2aVRmYTZVMzVMZmRPVTVacGpfS0pyLWNMR0JNcExNS0Y3c3duVEl6R3gzV09rRDZWVjRaLUdLNHRaMTM5RkVkUEZ2ajB3LW5WaU5fVTJsaE1JN21kUkdlOExkbFJpa1dyREtYcjBKdTM0aHo5U0FrVmc?oc=5",
+          "d": "2026-11-28T08:15:57Z"
+        },
         {
           "src": "IOL",
           "logo": "iol",
@@ -555,15 +560,15 @@
         {
           "src": "TimesLIVE",
           "logo": "timeslive",
-          "h": "RECORDED | Former Sars boss Kieswetter continues testimony at Madlanga inquiry",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMXdYRFhqbG52X1cyMmFHNjNKbFlUV1NGU1ZXX2l2cmZhQWhWeHJaSmd4b1NrcVpfbXFXVlZxSWJMZWpOSFkwYXJscmlKMWkyUHljelFvRlVwTERxc1Z4cm5EX1J1SFZPRGtQZXRqak1aeWxMTk9Lc0hYcm11aVV1bFgyQVA5LUlJTi1RRmx4ZmM2ajlVS200RkxSckZ2bTFlM19xN19keXp1b1Z6bUFJSVdzVVBXR09BSjc4QUd1bzgzbERKV2c?oc=5",
+          "h": "WATCH LIVE | Former Sars commissioner Kieswetter continues testimony at Madlanga inquiry",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdXdkX2ctQUw0S3ltcWFkazRjNEtsWldqUDYwb2d2S2pmNkxTa1ZTZ01vRFRISzQ4YnE2YUVlM0tzVUlJNDk5Sk1uN2lUbHh2SS1GSUY0aFJsM0s0LU5sZ21zcUJIVnpGUDV2Z2VlcUpDZTE1YjBsQUNfMUoxTmJHakxTVmZYUDJyYzd4M2NsSi1nLTZsSXRKZkF6WElydWZ5aFhJUHFTZHk1Mm5nTVpTV1lfYlJqYy0wQVZkWjhxUEZBM3plaHEzWlpVYlZoelRG?oc=5",
           "d": "2026-11-26T07:53:01Z"
         },
         {
           "src": "TimesLIVE",
           "logo": "timeslive",
-          "h": "WATCH LIVE | Former Sars commissioner Kieswetter continues testimony at Madlanga inquiry",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdXdkX2ctQUw0S3ltcWFkazRjNEtsWldqUDYwb2d2S2pmNkxTa1ZTZ01vRFRISzQ4YnE2YUVlM0tzVUlJNDk5Sk1uN2lUbHh2SS1GSUY0aFJsM0s0LU5sZ21zcUJIVnpGUDV2Z2VlcUpDZTE1YjBsQUNfMUoxTmJHakxTVmZYUDJyYzd4M2NsSi1nLTZsSXRKZkF6WElydWZ5aFhJUHFTZHk1Mm5nTVpTV1lfYlJqYy0wQVZkWjhxUEZBM3plaHEzWlpVYlZoelRG?oc=5",
+          "h": "RECORDED | Former Sars boss Kieswetter continues testimony at Madlanga inquiry",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMXdYRFhqbG52X1cyMmFHNjNKbFlUV1NGU1ZXX2l2cmZhQWhWeHJaSmd4b1NrcVpfbXFXVlZxSWJMZWpOSFkwYXJscmlKMWkyUHljelFvRlVwTERxc1Z4cm5EX1J1SFZPRGtQZXRqak1aeWxMTk9Lc0hYcm11aVV1bFgyQVA5LUlJTi1RRmx4ZmM2ajlVS200RkxSckZ2bTFlM19xN19keXp1b1Z6bUFJSVdzVVBXR09BSjc4QUd1bzgzbERKV2c?oc=5",
           "d": "2026-11-26T07:53:01Z"
         },
         {
@@ -719,12 +724,12 @@
   ],
   "voices": {
     "caryn-dolley": {
-      "n7": 4,
+      "n7": 5,
       "last": "2026-11-26T23:29:16Z"
     },
     "karyn-maughan": {
-      "n7": 8,
-      "last": "2026-11-28T02:35:25Z"
+      "n7": 9,
+      "last": "2026-11-28T02:00:25Z"
     },
     "rebecca-davis": {
       "n7": 0,
@@ -756,7 +761,7 @@
     },
     "bongani-hans": {
       "n7": 0,
-      "last": "2026-09-17T07:00:00Z"
+      "last": "2026-07-10T07:00:00Z"
     },
     "kyle-cowan": {
       "n7": 0,

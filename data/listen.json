@@ -58,10 +58,10 @@
     },
     "ekurhuleni": {
       "file": "audio/ekurhuleni.mp3",
-      "sec": 93,
-      "hash": "8f7afca0d789",
-      "chars": 1305,
-      "at": "2026-11-28T06:10:25Z"
+      "sec": 99,
+      "hash": "57650b126c62",
+      "chars": 1383,
+      "at": "2026-11-28T09:01:29Z"
     },
     "emfuleni": {
       "file": "audio/emfuleni.mp3",
@@ -72,10 +72,10 @@
     },
     "ethekwini": {
       "file": "audio/ethekwini.mp3",
-      "sec": 101,
-      "hash": "9509f43ea629",
-      "chars": 1400,
-      "at": "2026-11-28T06:10:25Z"
+      "sec": 105,
+      "hash": "0b557cddbe5e",
+      "chars": 1487,
+      "at": "2026-11-28T09:01:29Z"
     },
     "gnu": {
       "file": "audio/gnu.mp3",
@@ -198,7 +198,7 @@
     }
   },
   "month": "2026-11",
-  "used": 42870,
+  "used": 45740,
   "provider": "azure",
   "voice": "en-GB-RyanNeural"
 }
