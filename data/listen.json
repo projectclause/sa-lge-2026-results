@@ -23,10 +23,10 @@
     },
     "auto-cape-town": {
       "file": "audio/auto-cape-town.mp3",
-      "sec": 69,
-      "hash": "3cc07d8521c0",
-      "chars": 964,
-      "at": "2026-11-27T23:46:18Z"
+      "sec": 78,
+      "hash": "1e6f1d81a185",
+      "chars": 1113,
+      "at": "2026-11-28T05:11:18Z"
     },
     "auto-ethekwini": {
       "file": "audio/auto-ethekwini.mp3",
@@ -198,7 +198,7 @@
     }
   },
   "month": "2026-11",
-  "used": 36333,
+  "used": 37446,
   "provider": "azure",
   "voice": "en-GB-RyanNeural"
 }

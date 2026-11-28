@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-28",
-    "time": "04:58"
+    "time": "07:07"
   },
   "items": [
     {
@@ -1948,6 +1948,42 @@
       "src": "dailynews.co.za",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KMlZUMk1mUDZ5dV91MTBQYTJlYUFlUUw1YUNNZGhxbVg0QnlzME5WVTh3bGpWVUNFcHJSYmg4S1dwRHVZZVZDZ3JKdmxEcVpWZU1OeHBUUkRRdHVJWmV4TmZLMWQ5dw?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-ffd0e09d8e",
+      "j": "wyatt",
+      "d": "2026-11-28",
+      "kind": "Show",
+      "place": "Johannesburg",
+      "h": "Herman Mashaba is Jo'Brug mayor (again) | Night Owls",
+      "s": "Colonel Chris Wyatt's Night Owls episode discusses Herman Mashaba becoming Johannesburg mayor again.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=aWMHrsyFphk",
+      "auto": true
+    },
+    {
+      "id": "a-d7250b6e07",
+      "j": "helen",
+      "d": "2026-11-28",
+      "kind": "Interview",
+      "place": "Johannesburg",
+      "h": "Helen Zille: Mashaba Treats ActionSA's Seats as His Personal Property",
+      "s": "Helen Zille tells Gabriel Makin the ANC left coalition choices to its regions because it cannot hold the centre, and says Herman Mashaba treats ActionSA's seats as his personal property.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=EC2eBVxThfI",
+      "auto": true
+    },
+    {
+      "id": "a-7e3a9fe635",
+      "j": "helen",
+      "d": "2026-11-25",
+      "kind": "Reported",
+      "place": "Johannesburg",
+      "h": "‘Voters should have backed the DA’: Zille reacts to proposed Joburg ‘chaotic’ coalition",
+      "s": "The Cape Argus reports Helen Zille said voters should have backed the DA, reacting to what she called a chaotic proposed Johannesburg coalition.",
+      "src": "Cape Argus",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZlJJUGhST0VkZ0l1TndXZDM2X3hoemtqSEY2OGRNcUlLN29VLW9PSVR0cG5hNTlvWUE5OGtnbHVRMEdGWHdmdDlPQTJURVVtb3hOem5MdF9GTTI1OU5VU0lOdHFLZ0ZNRDBHdEdPMGtTVTM1WVdhRUdNbHh2N2pBM3VYelRuejNfRnkyd2JsLXVqYUxYdjZILTJGSEZNeFVHR20wWXFvd3ZqeWhDeDB6bWRUZ0dwTVJwRFI3Z2tKTmcwSEl5?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -1991,7 +2027,10 @@
       "a-b97d1201d7",
       "a-1b640e2732",
       "a-6ea15a3798",
-      "a-87675d536b"
+      "a-87675d536b",
+      "a-ffd0e09d8e",
+      "a-d7250b6e07",
+      "a-7e3a9fe635"
     ],
     "actionsa": [
       "a-773fa265cd",
@@ -2987,6 +3026,36 @@
         "h": "ANC pushes for key Johannesburg council positions after MK Party coalition exit",
         "d": "2026-11-27",
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRkNFQTBzUGQ0VjF6UUlodENUYmlBZUtjd1Bjakc5S1FVRHVrU3VfMjJJc3dNcE9SOWEtd3lDRVFEWW1tbDdLOExyWG1lSGpZX0RyWkVwUXlKdUFudUFCSm5HLVZzWkctcUxhd1JsZ0VPSzdGNENiR1J3M3BLZVIybHdkMktUeGp6bzZNUERuNlNMVmdWOFFPeHdBOG5WX3hYSnpYNjk0S0stdy12TUxWUmpvQThEaFlYODFrZHJCMEMteHdtSmc0LXpXT1htd3lleGstT3FxZ08?oc=5"
+      },
+      {
+        "src": "Inside Politic",
+        "h": "Mashaba puts corrupt Joburg officials on notice",
+        "d": "2026-11-28",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWnl0NmpsT29pbS0wT00ybjlIU3g5Q3czbXJyYk9GaTFfS1hsTFRTWE5zajBYdlR4em5JZjBpNHlnZDF2UlNPTXlnWFU5STg0ZDh6RHJKMlp5ay1NS0Y0dUNDbE5vNnpWRE1XVGh4d1ZTV25TdlF3eDU5dk5vNE91TENR?oc=5"
+      },
+      {
+        "src": "IOL",
+        "h": "Herman Mashaba returns as Johannesburg mayor amid political shifts",
+        "d": "2026-11-28",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUThSODl3WkdDWGUxaW1aOE9NSmY0RkJnMndUMnV5dndmYlR0TlJWa2dkQmY5bTh2dnF3Y3pFZzB3eHRJekFnbUxWMjR1WTZOdEFIVy1xWklLVHVXYTI3X0M1QjBoMjQxSFgyS1hfbnRJbmc2VVRpVnBWY3kzMGhyc052ZDViUXZod3VWNkNteU5rb1FNd2ExTVhmOGNXUW1HLWNDNVlfZERnSzJmN1VF?oc=5"
+      },
+      {
+        "src": "The Common Sense",
+        "h": "Gauteng Voted Out the ANC-EFF Wrecking Crew. Now the Mafia is Refusing to Leave the Vault",
+        "d": "2026-11-28",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcUFvOWtkaW1ZeU10bmFENnBDcHkzMGpLR2syMXlQaVUtTkNNeXFQdVVBT2VwWkM5amdCdGlsaDdTZkpDd0VpVGh6LXFlSkk1UVJabzFreE9VTUYxVHluaFI0ZHpqR1NQdGJrTXYxOU1ZZFlQQVozeWpLbUtjN1NmOHNhZnVrNF9kVWF6MllJUWF6dDRPVUI1dkdxZ1lSbGl6OWpYVA?oc=5"
+      },
+      {
+        "src": "IOL",
+        "h": "CDE warns Johannesburg needs decisive mayor to rescue city from deepening crisis",
+        "d": "2026-11-28",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRVhfQVUyQlVxdEdxak94TkQxbUJJQVFpb0ZwNDYxbnM3WFFSLWg2UGxxM213bXJSTnVaNnNOZ1BIalZHRTQ0NzdfQmdjcDFYQ2cwR0JZczdBZ1J0NnlDYUdOVVBLU1RGdHZzMGJUaGtFTElUZ0ZubHdsc0w0N0wwY2c2azlhY0thR0tSZno5OElPZ3YybG8yZjZNaDNDQnliOHZmby13alpuWS04VDBZQlRfcFpvTktYYVpZbzd6WW95dw?oc=5"
+      },
+      {
+        "src": "BizNews",
+        "h": "How the world sees SA: Pity Johannesburg - The Economist says ANC is choosing chaos",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9QSzdOeUtCSDNnU3Zhem5Za0xBWXFLTEY4SXJaUEdZZWpfQThSODhjWUllS0NZVGNoNGx2OTZxTHVycVhsQ0w1d001cThrNi01RVFTNkg4NG52VlJodWpBLU1nZmF4dndqZGMxYlAzVUdVUFd3NjhvWi16SUZZVEU?oc=5"
       }
     ],
     "councils": [
@@ -3537,6 +3606,12 @@
         "h": "WATCH: EFF’s Omphile Maotwe poised to become Tshwane deputy mayor as Mashaba backs Moya for another five years",
         "d": "2026-11-27",
         "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPbE1qNF9aN0UwT0JlcE1YSVZGOFdhOTNMNndOYWN6cTBpRk1fc3dhM0JRc2hZcE83Mnl3Z2YzWUJKRGhlcXZuVDItQ29yR1MyT2JTUTl0NVdVZkxwNlZMSnd6R2I4ck9wcHpxam1SQW1TLXVwUEVScjdaSWVUVlBMMFhuUUk2Ym9fcE5IbFpBYWpSWW5wTEltUHBva0d2UHFseTk2UGNRY2ozZjllZnZ1YUpGUlRvQlBHTE0wS1BxaGNCVGhEeWtLb3JlSDJ6Uk1jb1IyY0ZNaUlYV3EtRWF2bDZwck4xOWNOTjdqSVJhWmZRM0FGaVJj?oc=5"
+      },
+      {
+        "src": "Cape Times",
+        "h": "Tshwane leadership vote hangs on coalition talks",
+        "d": "2026-11-26",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSC1sekZOc01hY0RDZk5GTjJXb01ValBOdXo3TUluOGJDeGZvM0NyZDdaVDQ0M0REN2UwMURycmZ0T0pwc2o4VzctQUN1MGxxSXJEcVJZQ2NzNFV2RWdYek9yeW1kdi0xUGd3eXZvMERhTUtDZktna3RiR2JJa2k1SGF2Ykx1SFFQS01Qa1d0TE5MbE10WEthenl2UWdJZ3E2R2pUSnd3?oc=5"
       }
     ],
     "actionsa": [
@@ -4828,6 +4903,30 @@
           "h": "ANC-MK Party coalition talks in eThekwini stall over key positions",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9fbXZaR1RweFI0ajUzSmk5Z2JsaEtROXhReUR2X3plQVZHX09odEtPVzJYaEdBM2tRcGY4UXRmV25kdkFZMHVONk9fLXp5TEg2WWgwd0xHd0FrRDhPVG5tQ3lKcC1jN00?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "Phakathi elected eThekwini mayor as Luthuli takes deputy role and Nyawose retains Speaker position",
+          "d": "2026-11-28",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPV1ZZakRjS1dWQ1dRMHJpZnFvZGl1Q2VIUWZqeGREUXp5cDllWnFjLXB5QTlRenBOS1c0YXBWU1pjX1VuclhyOXVBNXBDcXlSdzBtWWxIN0g1U2tyN0twdVdHY3cwQWI4by1GWEM4aV92Z2l0UktNZXdkdjVfTE5WelJ6V1djc01UMl9ydGdrc29sNm5acXY2UXhwc0RsQzVpNjRZSmxpTC1XRDFFMkctVjFySmFzaXpVR19uTk9faEh6dDY4T2VSdENTNERnMVFxSVZfREgzdUhpdFFYN09ReEdR?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "MKP takes mayoral chains in eThekwini and Msunduzi",
+          "d": "2026-11-28",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOazlnREhzM2t4VEpNVHBxX20wbTVvc1dodm9OUUYxLVVHWG9wOExDNUFMT2oybjF1OVFmTS11U3hGeG5NamxVS3g2LXJzRmxYWjZpeTgwMWZDS0IxVzBVcTdFXzRldFZ0TDA5REJnV2d1SU1sWG1ZN0poZTBlOTZ3ZmZtb0xBYjRycWNMcW5RY0pqN28?oc=5"
+        },
+        {
+          "src": "Pretoria News",
+          "h": "WATCH: New eThekwini mayor Mxolisi Phakathi puts water crisis at top of agenda",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVmY0ZXVWSENlUjgyY0dwS3E5Y043VTRPbGg5aWVtWEZpbXRzcHMzX1ZzRm0ybnBwWTVmMjRhaTFGaWRhMDVOeFpBb1lVd0xxZ2h4blNEZzJ2SlVGQUxLeGxWSjhZRjJ4OWxwWENwdldtMGlaQXpkQmw0SVQ0RUNrcGNUcWMtVVplTU5mQmdnRHctSHNkd29ZMHhib1NjREtiTW5yd1pEbERSTnJ1OERwYXFELXlydk54WHdBOW10SXU4cFJKUkp2Sg?oc=5"
+        },
+        {
+          "src": "Cape Times",
+          "h": "EThekwini council adjourns inaugural sitting to allow more time for coalition talks",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdlp3TENqQVhQa0JnX2RVZVlRbUQ0aVBPMFlLQk84LWJzRWFUY1psVlh0OFNzZDBXdDNFYjVhYm5leUptMENDV2NxUDRLSmk4dUcwemFTS0ZjS0NLYUZTejNjRlJqbklTVy1sV2k5ZGZneUc5dUhvZTNfMFQtRnh0cHd2RkZZcVd2M2dld0kyaEN4MlVBUmNaeXhhOUNYZUhHenJNRFlBOGk0WVpNU3c5ZE44WTRnTDQ4LUo4eEtra2VXZlp4Z2otX29YYlkxdw?oc=5"
         }
       ],
       "sec": [
@@ -5752,6 +5851,18 @@
           "h": "DA still pursuing Ekurhuleni mayoral deal despite ANC-ActionSA talks",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPd2xVcVFiaDVFTjJlRVpPX3BrenBMLVc4TmRCajhENUVpNHdIRmNaMk9Jem10QmtkUDI4aW9nTGV2d2hhUXZhQ0F4TDl0enB6TTF1RlBXcnZac3QwY2pQUXlRcDFOSGU2RU1KYmRoTGdSaHR2eTRncFp3SWFXYkxmMnllYzB2b2I1aFdOTjNsdnFzMWZoM0JkdWJuUkx4emRabWwzSG94VmYtSDJybTBVUjNRMWFDQnZ5Qi1yOXlSQlhIM2RLMG1WNFk0QW96eFdLcGc?oc=5"
+        },
+        {
+          "src": "independentonsaturday.co.za",
+          "h": "DA holds out hope for Ekurhuleni coalition as ANC-ActionSA deal takes shape",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNV0t5Umo5cWxWRWROcXdWVWFOQ3VCVnVjWEVQSktybDNKWTEzMTNFN1hFSVpMYzFEYks1QTRpQkJQbW02TzVNVTg1dWRSS2QwX3FwM0kxTlBWbTZVeWc4bzZnUkN2VExwQjBqdU5idzVBMm9NS2c?oc=5"
+        },
+        {
+          "src": "independentonsaturday.co.za",
+          "h": "ANC’s Mziyanda Mketsu tipped to become next Ekurhuleni mayor",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1kRXdBNE1wNGlRMnRwNmNJZ3FMc1h0aTJtai1jeWNZajFUWnlQakNJS202bFpfUE1lVTRyN3oyb1R0ZFU1SGgxelY1aURrNExpZmhDNmdGT3RGR0gtU0hGbTZ0S1V6cW9qa0tZQmdn?oc=5"
         }
       ],
       "sec": [
@@ -6409,10 +6520,10 @@
       "cat": "Cape Town",
       "place": "Cape Town",
       "h": "Geordin Hill-Lewis is re-elected Cape Town mayor and names his mayoral committee",
-      "dek": "IOL reports Geordin Hill-Lewis has been re-elected mayor of Cape Town, pledging jobs and stronger policing. The City of Cape Town, The Bulrushes, EWN, SABC News and Cape Town ETC report he has announced a new 11-person mayoral committee, and ActionSA says it will hold the new members accountable.",
+      "dek": "IOL reports Geordin Hill-Lewis has been re-elected mayor of Cape Town, pledging jobs and stronger policing, and that the DA has declared victory in the city. The City of Cape Town, The Bulrushes, EWN, SABC News, Cape Town ETC and IOL report he has announced a new mayoral committee, and ActionSA says it will hold the new members accountable.",
       "brief": [
-        "IOL reports Geordin Hill-Lewis was re-elected Cape Town mayor and pledged jobs and stronger policing.",
-        "The City of Cape Town, The Bulrushes, EWN, SABC News and Cape Town ETC report Hill-Lewis has announced his new mayoral committee; SABC News says it has 11 members.",
+        "IOL reports Geordin Hill-Lewis was re-elected Cape Town mayor and pledged jobs and stronger policing, and that the DA has declared victory in the Cape Town elections.",
+        "The City of Cape Town, The Bulrushes, EWN, SABC News and Cape Town ETC report Hill-Lewis has announced his new mayoral committee; SABC News says it has 11 members, and IOL reports three of them are new.",
         "ActionSA says it will hold Cape Town’s newly appointed mayoral committee members accountable for delivering on their mandates.",
         "IOL reports Helen Zille defended the DA's privatisation plans, citing Cape Town as an example.",
         "Sunday World reports suburban voters secured the DA's election victory in Cape Town."
@@ -6479,6 +6590,18 @@
           "h": "Mayor Geordin Hill-Lewis unveils new Mayoral Committee",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV2lwMDlqQlVIdXJUdDM3ZDNpOTRvZHd4MUJfQkN2WU5HQWZuWFR0ZFRKcFVWdXA3V2xFblZNRVRJWnE5TENvYmRIcFBhcFpJbVRIN2dLcHEyR2ZtdVJfMGlCOFFKc182c2Q4NE0yVG5lMi1FN1ZVMzBxRENIYURhQ2x6aHdYU3c0THdoYkJ0Q1UyQQ?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "‘ONS HET HULLE GEMOER’ - DA declares victory in Cape Town elections",
+          "d": "2026-11-28",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeHdWQTc1Z3pMOGlORUM2azVyaGllaW1FTmFwMGJqeUFOM3lvQUhPMG1vUHVEUEJuNHRYdXBXZGM4cnNiS0g2WmZtYzVaTXdpZmJQVVB3eXN2MHowN3JFenFSb2Y2eG01RG5JM05jZDUxeHJnXzZVZzVuLW1rRmJPSDFJUVB0eXhxTTQ2LWxQTmpJejZmcnkxUThfM0ozdWZsNGFV?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "Hill-Lewis names three new members to Cape Town mayoral committee",
+          "d": "2026-11-28",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZ25QUTc4TEY3Yk1EZmp4VVpPZGhaRFBqVDNyUlVxQUM5SFdSRW1jR1lkUW1rNm9aWnRkdTFHcUhkbUZCU19hVGRZU3VsYnVxTTJzVllfYnhPMDJTd0o2aGp1aHdVYlFDbHVvaUhpQnJhNmY5STJ2bTAyU1VvczV5UC1DdDF2XzFxbWxXUDVIQ1V5emRObGlmMEktUnExd0l4dkFiaExMRnBIV2dfaUFz?oc=5"
         }
       ],
       "sec": [
@@ -7809,6 +7932,27 @@
     "b5796b206baa",
     "3cc07cbb3ac1",
     "39767f155343",
-    "e182b77fff14"
+    "e182b77fff14",
+    "1dcdbfc6ab44",
+    "40f6146865b7",
+    "dfa6843dbd9d",
+    "70dbd0bdc6d1",
+    "be9e7df66511",
+    "4c4d7fa20b58",
+    "ffd0e09d8e2b",
+    "d7250b6e075a",
+    "005a7bce7bc0",
+    "6709b68cb633",
+    "9148e3112d43",
+    "e95a3f1eb16d",
+    "774f06efb498",
+    "b3f4b00caec6",
+    "8deb29cd238b",
+    "5f40ba8e077c",
+    "864f56db40d4",
+    "600ceedc06e6",
+    "e73c0fc52fb1",
+    "7e3a9fe635f9",
+    "5e53f534e4ce"
   ]
 }
