@@ -71,3 +71,9 @@
 .po-llab-p { font-weight: 700; }
 .po-ldia { display: inline-block; width: 9px; height: 9px; background: #121212; transform: rotate(45deg); margin-right: 2px; }
 @media (max-width: 720px) { .po-llab { font-size: 12px; } }
+
+/* desktop: the page opens with a centred headline and intro, like SAFFA; sections read left-aligned in the centred column */
+@media (min-width: 721px) {
+  .pl-page > .rs-title { margin: 28px 0 12px; text-align: center; font-size: clamp(34px, 4.6vw, 52px); line-height: 1.04; }
+  .pl-page > .po-dek { max-width: 680px; margin: 0 auto 30px; text-align: center; font-size: 19px; }
+}
