@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-28",
-    "time": "03:21"
+    "time": "04:58"
   },
   "items": [
     {
@@ -3695,6 +3695,12 @@
         "h": "RICHARD CALLAND | Gauteng coalition deals put ANC in a pickle",
         "d": "2026-11-25",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYWxLanVVUVBTdWJETFVNM2Z1MUJkdXRfRmhTa2xieVJHWFhkVEQxQWw0LUhLeVU0V2NHYThGT3NEb0drdXlkVlhyYVRvLThBdm1Na3QwcURsZjBuYTE4ZDdnc1FRVFY0ekVZUmRfQ3hhYWdSM0tEYkxVUU96c3ZxSnpnVy1OWS1OQVl6RTNNcWdfNFp3aERuQmJGS3lmWmVhV3Jlbld3UXBWNnJNYUE?oc=5"
+      },
+      {
+        "src": "News24",
+        "h": "The mayoral chains: ActionSA wins big while DA shut out of power",
+        "d": "2026-11-28",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUi1vUURIYzJXMUxkSV9rS3FOdnNWRjlscGFrX0ZEZ3VDRm5wZ0FtcnV5d0U4OXhOUHRZTXZJTVBXVnNHUkIyZzRiV1lnWktKVFlLcFlTZHo5N0VhOEgzejk5R1pmUXJ3cXhGbmlqb3N4UHZSRkppSF8xNGJJNmI1dUhEb25tYlBOZ21JTmZCYUZkOHAyblVodTdQbVYwdmRyODBVU2F0VEJxdDJQclE?oc=5"
       }
     ],
     "mk": [
@@ -5734,6 +5740,18 @@
           "h": "Ekurhuleni council to elect new ANC mayor amid postponement due to coalition talks",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1zX1UyazNxOU9hdldxVjlBaXlTWUtFMTJYdHZHZ2dIcU4wVGdXbXBwZ3luM1luZTNfTExvMG44VnpRSEJoNlEyZjBwVndaeDdpYk9Uemg4TWI1QzFwNDlCTUJSa1NBUQ?oc=5"
+        },
+        {
+          "src": "independentonsaturday.co.za",
+          "h": "Ekurhuleni council to elect new ANC mayor amid postponement due to coalition talks",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxORTl5X0hqOEpMc2diT0M0a01IMGhUZ28zdDhUNnBVd0FiN3NidmcwX1VzQjJuRXJSQzVwaklHTlpsNjRsUzZMLTZmbzNQZWFJNUlyWjdHQ0d3ZmlUZVRvX0VhUS1Nci05Uzd3NzI0N0FWc21ZZjlNQnN6ZEN2N0RaN0pKOFpXaTFlMFgzLWwtNTRoRnhfd09TaE1ibERKZnROSEw3dmtRM3RoTXFpRTI5QW84TURhQ1lxbDYxMThOXzFiRllvNjVXVzJNQVhadE05UXE5SEltQkJuTWRT?oc=5"
+        },
+        {
+          "src": "independentonsaturday.co.za",
+          "h": "DA still pursuing Ekurhuleni mayoral deal despite ANC-ActionSA talks",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPd2xVcVFiaDVFTjJlRVpPX3BrenBMLVc4TmRCajhENUVpNHdIRmNaMk9Jem10QmtkUDI4aW9nTGV2d2hhUXZhQ0F4TDl0enB6TTF1RlBXcnZac3QwY2pQUXlRcDFOSGU2RU1KYmRoTGdSaHR2eTRncFp3SWFXYkxmMnllYzB2b2I1aFdOTjNsdnFzMWZoM0JkdWJuUkx4emRabWwzSG94VmYtSDJybTBVUjNRMWFDQnZ5Qi1yOXlSQlhIM2RLMG1WNFk0QW96eFdLcGc?oc=5"
         }
       ],
       "sec": [
@@ -7785,6 +7803,12 @@
     "130dafc2a891",
     "3fd1b96b7cd1",
     "87675d536b7a",
-    "0996b4f63488"
+    "0996b4f63488",
+    "718cd01c24bd",
+    "17d4c8df267f",
+    "b5796b206baa",
+    "3cc07cbb3ac1",
+    "39767f155343",
+    "e182b77fff14"
   ]
 }
