@@ -58,10 +58,10 @@
     },
     "ekurhuleni": {
       "file": "audio/ekurhuleni.mp3",
-      "sec": 110,
-      "hash": "e4281c6bd017",
-      "chars": 1594,
-      "at": "2026-11-28T13:08:49Z"
+      "sec": 120,
+      "hash": "dd6abe367504",
+      "chars": 1760,
+      "at": "2026-11-28T15:56:52Z"
     },
     "emfuleni": {
       "file": "audio/emfuleni.mp3",
@@ -198,7 +198,7 @@
     }
   },
   "month": "2026-11",
-  "used": 57396,
+  "used": 59156,
   "provider": "azure",
   "voice": "en-GB-RyanNeural"
 }
