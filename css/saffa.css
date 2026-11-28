@@ -200,3 +200,6 @@
   .sf-ctrl { align-items: stretch; }
   .sf-go { justify-content: flex-start; }
 }
+/* the communities list follows the key South Africans */
+.sf-body > .sf-key-people { margin-top: 28px; min-width: 0; width: 100%; } /* min-width: the region pills scroll inside it instead of widening the page */
+.sf-body > .sf-side { margin-top: 28px; }
