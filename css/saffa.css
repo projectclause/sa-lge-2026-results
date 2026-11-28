@@ -187,3 +187,65 @@
 /* the title stays on one line: sized to the column (the text is about 14.6 times the font size wide, plus the i) */
 .sf-title { white-space: nowrap; text-wrap: nowrap; font-size: min(48px, calc((min(100vw, 760px) - 64px) / 14.8)); }
 @media (max-width: 620px) { .sf-title { font-size: calc((100vw - 66px) / 16.2); } } /* DM Sans sets wider at small sizes */
+
+/* Centred page (desktop too): one column — controls, globe, legend, then the communities list and the key South
+   Africans, all on the page's centre line */
+.sf-body { grid-template-columns: minmax(0, 1fr); max-width: 760px; margin-left: auto; margin-right: auto; }
+.sf-ctrl { flex-direction: column; justify-content: center; align-items: center; gap: 12px; }
+.sf-go { justify-content: center; }
+.sf-side { width: 100%; max-width: 760px; margin: 8px auto 0; }
+.sf-panel { max-height: none; }
+.sf-key-people { max-width: 760px; }
+@media (max-width: 620px) {
+  .sf-ctrl { align-items: stretch; }
+  .sf-go { justify-content: flex-start; }
+}
+/* the communities list follows the key South Africans */
+.sf-body > .sf-key-people { margin-top: 28px; min-width: 0; width: 100%; } /* min-width: the region pills scroll inside it instead of widening the page */
+.sf-body > .sf-side { margin-top: 28px; }
+
+/* Both | South Africans | Missions: a secondary menu under the masthead, like the Coalitions Tracker's
+   South Africa | International bar. Desktop: centred, equal widths, thin dividers; the current one dark, the others
+   grey. Phones: the three split the width, with a line under the current one. */
+.sf-subnav .sf-seg { display: flex; justify-content: center; border: 0; border-radius: 0; overflow: visible; max-width: 760px; margin: 0 auto; }
+.sf-subnav .sf-seg button { position: relative; flex: 0 0 200px; padding: 14px 14px 15px; border: 0; background: none; color: var(--muted2); font: 700 16px/1.2 var(--font); text-align: center; cursor: pointer; }
+.sf-subnav .sf-seg button + button { border-left: 0; }
+.sf-subnav .sf-seg button + button::before { content: ""; position: absolute; left: 0; top: 14px; bottom: 15px; width: 1px; background: var(--rule2); }
+.sf-subnav .sf-seg button[aria-pressed="true"] { background: none; color: var(--text); }
+@media (hover: hover) { .sf-subnav .sf-seg button:hover { color: var(--text); } }
+@media (max-width: 720px) {
+  .sf-subnav .sf-seg button { flex: 1 1 0; padding: 11px 6px 12px; font-size: 15px; }
+  .sf-subnav .sf-seg button + button::before { display: none; }
+  .sf-subnav .sf-seg button[aria-pressed="true"]::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 3px; background: var(--text); }
+}
+.sf-subnav .sf-seg::before { display: none; } /* the tracker bar's single centre divider; this bar has one between each pair */
+.sf-subnav .sf-seg button { white-space: nowrap; }
+@media (max-width: 720px) { .sf-subnav .sf-seg button { font-size: 14.5px; padding-left: 4px; padding-right: 4px; } }
+
+/* Night map (preview): a near-black sea, dark land, countries with South African communities in their world
+   region's colour (set in js/saffa.js), thin light borders, white spaced-capital labels */
+.sf-night .sf-sphere { fill: #101318; }
+.sf-night .sf-grat { stroke: #1b2129; stroke-width: .6; }
+.sf-night .sf-rim { stroke: #2c333d; }
+.sf-night .sf-land { fill: #2a2f37; stroke: rgba(255, 255, 255, .2); stroke-width: .5; }
+.sf-night .sf-land.sf-has { stroke: rgba(255, 255, 255, .35); }
+.sf-night .sf-land.sf-za { fill: #19c37d; stroke: rgba(255, 255, 255, .6); }
+.sf-night .sf-land.sf-hot, .sf-night .sf-sub.sf-hot { stroke: #fff; stroke-width: 1.4; }
+.sf-night .sf-sub { stroke: rgba(255, 255, 255, .28); }
+.sf-night .sf-arc { stroke: #fff; opacity: .2; }
+.sf-night .sf-bub { fill: rgba(255, 255, 255, .07); stroke: rgba(255, 255, 255, .85); stroke-width: 1; }
+.sf-night .sf-bub.sf-hot { fill: rgba(255, 255, 255, .2); stroke: #fff; stroke-width: 1.8; }
+.sf-night .sf-mis { fill: #fff; stroke: #101318; stroke-width: .9; }
+.sf-night .sf-mis.sf-cg { fill: #101318; stroke: #fff; stroke-width: 1.2; }
+.sf-night .sf-mis.sf-hot { fill: var(--sf-gold); stroke: #101318; }
+.sf-night .sf-lbl { font: 600 11.5px/1 var(--font); letter-spacing: .14em; text-transform: uppercase; fill: #fff; stroke: rgba(16, 19, 24, .85); stroke-width: 3px; }
+.sf-night .sf-lbl.sf-za-l { fill: #fff; stroke: #0b5e3d; }
+.sf-night .sf-key .k-regs { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: 6px 14px; width: 100%; }
+.sf-night .sf-key .k-reg { width: 12px; height: 12px; border-radius: 2px; }
+.sf-night .sf-key .k-bub { background: #2a2f37; border-color: #2a2f37; box-shadow: inset 0 0 0 1.2px #fff, 0 0 0 1px #2a2f37; }
+.sf-night .sf-key .k-za { background: #19c37d; }
+.sf-night .sf-lbl { stroke: rgba(10, 12, 16, .55); stroke-width: 2.2px; stroke-linejoin: round; paint-order: stroke; }
+.sf-night .sf-key .k-emb { background: #fff; box-shadow: 0 0 0 1.5px #101318; }
+.sf-night .sf-key .k-cg { background: #101318; border-color: #101318; box-shadow: inset 0 0 0 1.4px #fff, 0 0 0 1px #101318; }
+.sf-night .sf-lbl { letter-spacing: .1em; }
+@media (max-width: 620px) { .sf-night .sf-lbl { font-size: 10px; letter-spacing: .06em; } }

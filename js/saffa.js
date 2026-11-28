@@ -49,12 +49,23 @@
     const lands = gLand.selectAll("path").data(W.features).join("path")
       .attr("class", (f) => "sf-land" + (f.properties.n === "South Africa" ? " sf-za" : byMap.has(f.properties.n) ? " sf-has" : ""));
     const max = people[0].n;
-    const shade = d3.scaleSequentialLog([people[people.length - 1].n, max], d3.interpolate("#e3efe7", "#7fbf9d"));
-    lands.filter((f) => byMap.has(f.properties.n) && !STATE.has(f.properties.n)).style("fill", (f) => shade(byMap.get(f.properties.n).n));
     const allReg = [...regOf.values()];
-    const shadeR = d3.scaleSequentialLog([Math.max(10, d3.min(allReg, (r) => r.n) || 10), d3.max(allReg, (r) => r.n) || 10], d3.interpolate("#eef6f1", "#3f9b6e"));
+    // Night map (class sf-night on .sf): each country with a South African community takes its world region's colour,
+    // stronger where the community is bigger, on a near-black sea, like a dark census map. Otherwise: shades of green.
+    const NIGHT = root.classList.contains("sf-night");
+    const REGCOL = { Europe: "#3d72e0", Americas: "#f5b82e", Africa: "#f0563a", Asia: "#9b5de5", Oceania: "#2bb7a3" };
+    const regionOfCountry = new Map(missions.map((m) => [m.country, m.region]));
+    const regionAt = ([lon, lat]) => (lon < -30 ? "Americas" : lon > 110 && lat < -8 ? "Oceania" : lat > 35 && lon < 45 ? "Europe"
+      : lon > 34 && lon < 63 && lat > 12 ? "Asia" : lon > -20 && lon < 52 && lat <= 35 ? "Africa" : "Asia");
+    const regionOf = (name, ll) => regionOfCountry.get(name) || regionAt(ll);
+    const t0 = d3.scaleLog([people[people.length - 1].n, max], [0, 1]).clamp(true);
+    const nightFill = (reg, t) => d3.interpolateRgb(d3.interpolateRgb("#2a2f37", REGCOL[reg] || REGCOL.Asia)(0.38), REGCOL[reg] || REGCOL.Asia)(t);
+    const shade = NIGHT ? (p) => nightFill(regionOf(p.name, p.ll), t0(p.n)) : ((sc) => (p) => sc(p.n))(d3.scaleSequentialLog([people[people.length - 1].n, max], d3.interpolate("#e3efe7", "#7fbf9d")));
+    lands.filter((f) => byMap.has(f.properties.n) && !STATE.has(f.properties.n)).style("fill", (f) => shade(byMap.get(f.properties.n)));
+    const tR = d3.scaleLog([Math.max(10, d3.min(allReg, (r) => r.n) || 10), d3.max(allReg, (r) => r.n) || 10], [0, 1]).clamp(true);
+    const shadeR = NIGHT ? (f, n) => nightFill(regionAt(d3.geoCentroid(f)), tR(n)) : ((sc) => (f, n) => sc(n))(d3.scaleSequentialLog(tR.domain(), d3.interpolate("#eef6f1", "#3f9b6e")));
     const subs = gSub.selectAll("path").data(SM.features.filter((f) => regOf.has(f.properties.c + "-" + f.properties.id))).join("path")
-      .attr("class", "sf-sub").style("fill", (f) => shadeR(Math.max(10, regOf.get(f.properties.c + "-" + f.properties.id).n)));
+      .attr("class", "sf-sub").style("fill", (f) => shadeR(f, Math.max(10, regOf.get(f.properties.c + "-" + f.properties.id).n)));
 
     const arcs = gArc.selectAll("path").data(people).join("path").attr("class", "sf-arc")
       .datum((p) => ({ p, type: "LineString", coordinates: [ORIGIN, p.ll] }));
@@ -156,8 +167,8 @@
     svg.on("click", () => { hot = null; draw(); hideTip(); syncList(); });
 
     // ---------- controls ----------
-    root.querySelectorAll(".sf-seg button").forEach((b) => b.addEventListener("click", () => {
-      show = b.dataset.show; root.querySelectorAll(".sf-seg button").forEach((x) => x.setAttribute("aria-pressed", x === b));
+    document.querySelectorAll(".sf-seg button").forEach((b) => b.addEventListener("click", () => {
+      show = b.dataset.show; document.querySelectorAll(".sf-seg button").forEach((x) => x.setAttribute("aria-pressed", x === b));
       hot = null; hideTip(); flightsOn(show === "flights"); setKey(); draw();
     }));
     const go = root.querySelector(".sf-go");
@@ -263,10 +274,10 @@
       .map(({ m, i }) => `<button type="button" class="sf-mrow" data-i="${i}"><span><b>${esc(m.city)}</b><br><span>${esc(m.country)}</span></span><em>${esc(m.type)}</em></button>`).join("")).join("");
     pPanel.addEventListener("click", (e) => {
       const rr = e.target.closest(".sf-rrow");
-      if (rr) { const r = regOf.get(rr.dataset.r); if (show === "missions" || show === "flights") root.querySelector('[data-show="both"]').click(); hot = r; syncList(); hideTip(); fly(r.ll, () => pick(r)); return; }
+      if (rr) { const r = regOf.get(rr.dataset.r); if (show === "missions" || show === "flights") document.querySelector('.sf-seg [data-show="both"]').click(); hot = r; syncList(); hideTip(); fly(r.ll, () => pick(r)); return; }
     });
-    pPanel.addEventListener("click", (e) => { const b = e.target.closest(".sf-row"); if (!b) return; const p = people[+b.dataset.i]; const st = STATE.get(p.map); if (st) { const box2 = pPanel.querySelector(`.sf-regs[data-c="${st.gu}"]`); box2.hidden = false; } if (show === "missions" || show === "flights") root.querySelector('[data-show="both"]').click(); hot = p; syncList(); hideTip(); fly(p.ll, () => pick(p)); });
-    mPanel.addEventListener("click", (e) => { const b = e.target.closest(".sf-mrow"); if (!b) return; const m = missions[+b.dataset.i]; if (show === "people" || show === "flights") root.querySelector('[data-show="both"]').click(); hot = m; syncList(); hideTip(); fly(m.ll, () => pick(m)); });
+    pPanel.addEventListener("click", (e) => { const b = e.target.closest(".sf-row"); if (!b) return; const p = people[+b.dataset.i]; const st = STATE.get(p.map); if (st) { const box2 = pPanel.querySelector(`.sf-regs[data-c="${st.gu}"]`); box2.hidden = false; } if (show === "missions" || show === "flights") document.querySelector('.sf-seg [data-show="both"]').click(); hot = p; syncList(); hideTip(); fly(p.ll, () => pick(p)); });
+    mPanel.addEventListener("click", (e) => { const b = e.target.closest(".sf-mrow"); if (!b) return; const m = missions[+b.dataset.i]; if (show === "people" || show === "flights") document.querySelector('.sf-seg [data-show="both"]').click(); hot = m; syncList(); hideTip(); fly(m.ll, () => pick(m)); });
     function syncList() {
       pPanel.querySelectorAll(".sf-row").forEach((b) => b.classList.toggle("sf-hot", hot === people[+b.dataset.i]));
       const hi = people.indexOf(hot), hr = hot && hot.country ? people.findIndex((q) => q.map === hot.country.map) : -1;
@@ -280,7 +291,7 @@
     }));
 
     // ---------- key and sources ----------
-    const KEY = `<span><i class="k-bub"></i>South Africans living there</span><span><i class="k-emb"></i>Embassy or high commission</span><span><i class="k-cg"></i>Consulate</span><span><i class="k-za"></i>South Africa</span>`;
+    const KEY = (NIGHT ? `<span class="k-regs">${Object.entries({ Europe: "Europe", Americas: "Americas", Africa: "Africa", Asia: "Middle East & Asia", Oceania: "Oceania" }).map(([k, l]) => `<span><i class="k-reg" style="background:${REGCOL[k]}"></i>${l}</span>`).join("")}</span>` : "") + `<span><i class="k-bub"></i>South Africans living there</span><span><i class="k-emb"></i>Embassy or high commission</span><span><i class="k-cg"></i>Consulate</span><span><i class="k-za"></i>South Africa</span>`;
     const FKEY = `<span><i class="k-fl k-in"></i>Flying in</span><span><i class="k-fl k-out"></i>Flying out</span><span><i class="k-fl k-dom"></i>Domestic</span><span><i class="k-za"></i>South Africa</span>`;
     function setKey() { root.querySelector(".sf-key").innerHTML = show === "flights" ? FKEY : KEY; }
     setKey();
@@ -289,7 +300,7 @@
     // for the ask bar: turn the globe to a country, state or mission and show its card
     window.SAFFA = {
       data: { people, missions, states: ST, total: D.total, world: W.features.map((f) => f.properties.n) },
-      focus(d) { if (!d) return; if (show !== "both") root.querySelector('[data-show="both"]').click(); if (d.country && d.country.regions) { const b = pPanel.querySelector(`.sf-regs[data-c="${d.country.gu}"]`); if (b) b.hidden = false; } hot = d; syncList(); hideTip(); root.querySelector(".sf-globe").scrollIntoView({ behavior: REDUCE ? "auto" : "smooth", block: "center" }); fly(d.ll, () => pick(d)); }
+      focus(d) { if (!d) return; if (show !== "both") document.querySelector('.sf-seg [data-show="both"]').click(); if (d.country && d.country.regions) { const b = pPanel.querySelector(`.sf-regs[data-c="${d.country.gu}"]`); if (b) b.hidden = false; } hot = d; syncList(); hideTip(); root.querySelector(".sf-globe").scrollIntoView({ behavior: REDUCE ? "auto" : "smooth", block: "center" }); fly(d.ll, () => pick(d)); }
     };
     size();
     addEventListener("resize", size);
