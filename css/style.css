@@ -397,7 +397,7 @@ button.rs-council { cursor: pointer; font: inherit; color: inherit; }
 /* share as image */
 .rs-card { position: relative; }
 .share-btn { position: absolute; top: 14px; right: 14px; width: 38px; height: 38px; display: grid; place-items: center; border: 0; background: none; color: var(--text); cursor: pointer; z-index: 2; }
-.share-btn:hover { background: var(--soft); }
+@media (hover: hover) { .share-btn:hover { background: var(--soft); } } /* mouse only: on phones a tap left it shaded */
 .share-btn svg { width: 22px; height: 22px; }
 .share-btn.busy { opacity: .4; pointer-events: none; }
 .rs-nat .rs-h, .rs-final .rf-h { padding-right: 44px; }
@@ -408,7 +408,7 @@ button.rs-council { cursor: pointer; font: inherit; color: inherit; }
 .rs-top .rs-title { margin: 0; }
 .sm { position: relative; flex: none; }
 .sm-btn { display: inline-flex; align-items: center; gap: 8px; padding: 9px 14px; border: 1px solid var(--rule2); border-radius: 0; background: #fff; font-size: 15px; font-weight: 600; cursor: pointer; }
-.sm-btn:hover { background: var(--soft); }
+@media (hover: hover) { .sm-btn:hover { background: var(--soft); } } /* mouse only: on phones a tap left it shaded */
 .sm-btn svg { width: 19px; height: 19px; }
 .sm-menu { position: absolute; right: 0; top: calc(100% + 8px); z-index: 40; width: 300px; max-width: calc(100vw - 32px); max-height: 70vh; overflow-y: auto; background: #fff; border: 1px solid var(--rule2); box-shadow: 0 10px 30px rgba(20, 24, 33, .14); padding: 14px 16px 10px; }
 .sm-menu[hidden] { display: none; }
@@ -1365,13 +1365,13 @@ html.shp-on { overflow: hidden; }
 .shp-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
 .shp-h { margin: 0; font-weight: 700; font-size: 17px; }
 .shp-x { border: 0; background: none; font-size: 28px; line-height: 1; width: 38px; height: 38px; cursor: pointer; color: inherit; border-radius: 50%; }
-.shp-x:hover { background: #f1f3f6; }
+@media (hover: hover) { .shp-x:hover { background: #f1f3f6; } } /* mouse only: on phones a tap left it shaded */
 .shp-img { flex: 1 1 auto; min-height: 200px; display: grid; place-items: center; background: #f4f5f7; border-radius: 10px; overflow: hidden; }
 .shp-img img { display: block; max-width: 100%; max-height: calc(100vh - 230px); width: auto; height: auto; box-shadow: 0 2px 10px rgba(0,0,0,.12); }
 .shp-wait { color: #5a6272; font-size: 15px; margin: 0; padding: 40px 0; }
 .shp-acts { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
 .shp-b { flex: 1 1 0; min-width: 110px; display: inline-flex; align-items: center; justify-content: center; gap: 6px; height: 44px; border: 1px solid #d5dae2; border-radius: 999px; background: #fff; color: #141821; font: 600 15px var(--font); cursor: pointer; }
-.shp-b:hover { background: #f4f5f7; }
+@media (hover: hover) { .shp-b:hover { background: #f4f5f7; } } /* mouse only: on phones a tap left it shaded */
 .shp-b svg { width: 19px; height: 19px; }
 .shp-b.shp-main { background: #141821; color: #fff; border-color: #141821; }
 .shp-b[hidden] { display: none; }

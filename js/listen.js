@@ -121,7 +121,7 @@
     document.querySelectorAll(".ls-menu").forEach((m) => { m.hidden = true; });
     document.querySelectorAll(".ls-copy[aria-expanded='true']").forEach((b) => b.setAttribute("aria-expanded", "false"));
   }
-  document.addEventListener("click", (e) => { if (!e.target.closest(".ls-menu") && !e.target.closest(".ls-copy")) closeMenus(); });
+  document.addEventListener("click", (e) => { if (!e.target.closest(".ls-menu") && !e.target.closest(".ls-copy") && !e.target.closest(".ls-share")) closeMenus(); });
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeMenus(); });
 
   document.addEventListener("click", (e) => {
@@ -143,7 +143,11 @@
     }
     else if (e.target.closest(".ls-share")) {
       if (navigator.share) navigator.share({ title: h ? h.textContent.trim() : "Coalitions Tracker", url: storyUrl(id) }).catch(() => {});
-      else copy(storyUrl(id));
+      else { // computers have no share sheet: open the Share options menu instead
+        const menu = bar.querySelector(".ls-menu"), was = !menu.hidden;
+        closeMenus();
+        if (!was) { openMenu(menu, id, h ? h.textContent.trim() : "Coalitions Tracker"); bar.querySelector(".ls-copy").setAttribute("aria-expanded", "true"); }
+      }
     }
   });
 
