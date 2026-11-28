@@ -6706,7 +6706,7 @@
   "intl": {
     "brief": [
       "Bloomberg and the Financial Times are following the talks most closely; S’thembile Cele has filed for Bloomberg every few days",
-      "Johannesburg is the main focus, especially the ANC-led deal that would shut out the DA and Zille’s mayoral bid",
+      "Johannesburg is the main focus: Bloomberg, Reuters, the FT and The New York Times all reported how Herman Mashaba was elected mayor while the DA, which won the most votes, went into opposition",
       "Financial outlets tie the talks to the rand, which Reuters reported at a seven-month low on 17 November",
       "Commentators ask whether the city fights will strain the national unity government",
       "Many pieces frame the result as a historic turning point for the ANC",
@@ -7703,7 +7703,7 @@
         "id": "i-cities",
         "cat": "Metros",
         "h": "South Africa’s cities move to coalition rule",
-        "dek": "Straight after the results, Bloomberg and Reuters reported that the biggest cities would be run by coalitions, and AP described high-stakes talks after the ANC’s worst result. Two weeks on, Bloomberg’s S’thembile Cele wrote that post-election bartering was counting for more than votes, while the FT and the BBC reported the ANC fighting to keep control of key cities.",
+        "dek": "Straight after the results, Bloomberg and Reuters reported that the biggest cities would be run by coalitions, and AP described high-stakes talks after the ANC’s worst result. Two weeks on, Bloomberg’s S’thembile Cele wrote that post-election bartering was counting for more than votes, while the FT and the BBC reported the ANC fighting to keep control of key cities. By 27 November the councils had chosen: Bloomberg, Reuters, the FT and The New York Times reported Herman Mashaba elected in Johannesburg in an ANC-backed deal.",
         "p": [
           "b1",
           "r1",
@@ -7738,7 +7738,8 @@
           "Reuters reported the ANC took a beating, setting up tough coalition talks",
           "AP reported high-stakes coalition talks after the ANC’s worst results",
           "The FT and the BBC reported the ANC fighting to keep control of key cities",
-          "Bloomberg later wrote that post-election bartering was counting for more than votes"
+          "Bloomberg later wrote that post-election bartering was counting for more than votes",
+          "By 27 November the big councils had elected their mayors, among them ActionSA’s Herman Mashaba in Johannesburg and Nasiphi Moya in Tshwane; foreign outlets focused on Johannesburg"
         ],
         "sec": [
           [
