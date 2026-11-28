@@ -112,7 +112,7 @@
     sItems.push(`<a class="mcs-i" href="#" data-go="m-tl">${svg('<path d="M6 4v16M6 7h11M6 12h8M6 17h11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>')}Timeline</a>`);
     sItems.push(`<a class="mcs-i" href="#" data-go="m-gl">${svg('<path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9 9h6M9 13h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>')}Glossary</a>`);
     const strip = `<nav class="mcs" aria-label="Madlanga Commission quick links"><button type="button" class="mcs-arw mcs-l" aria-label="Scroll left" hidden>‹</button><div class="mcs-row">${sItems.join("")}</div><button type="button" class="mcs-arw mcs-r" aria-label="Scroll right" hidden>›</button></nav>`;
-    root.innerHTML = strip + head + expl + rep + thr + wsec + cons + com + ev + staff + tl + vsx + gl + docs + vo + up + foot;
+    root.innerHTML = strip + head + expl + rep + vo + thr + wsec + cons + com + ev + staff + tl + vsx + gl + docs + up + foot; // desktop order (phones set their own with CSS order)
     tick(); fitTips(); arrows();
     const row = root.querySelector(".mcs-row"); if (row) row.addEventListener("scroll", arrows, { passive: true });
   }
