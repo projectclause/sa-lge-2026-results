@@ -396,10 +396,8 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
     const an = rank(ks.filter((k) => V[k].beat === "analysis")), rp = rank(ks.filter((k) => V[k].beat !== "analysis"));
     root.innerHTML = `
       <header class="pl-ed">
-        <p class="pl-kick">Coalitions Tracker · International</p>
-        <h1 class="pl-date"><span class="pl-dt">${long(today())}</span></h1>
+        <h1 class="pl-date"><span class="pl-dt">${long(today())}</span><span class="pl-infow"><button type="button" class="pl-info" aria-expanded="false" aria-controls="pl-infopop-intl" aria-label="About the international coverage">i</button><span class="pl-infopop" id="pl-infopop-intl" role="note" hidden>How news outlets outside South Africa are covering the 2026 coalition talks. Preamble groups their reports into stories, writes a short AI summary of the angle each one takes, and links back to every original article. ${X.brief[0]}. None of these journalists write for Preamble.</span></span></h1>
         <p class="pl-asof">${esc(asOf("International", D.edition))}</p>
-        <p class="pl-intro">How news outlets outside South Africa are covering the 2026 coalition talks. Preamble groups their reports into stories, writes a short AI summary of the angle each one takes, and links back to every original article. ${X.brief[0]}. None of these journalists write for Preamble.</p>
       </header>
       <a class="pl-lead" href="#${lead.id}">
         <p class="pl-cat">${esc(lead.cat)} <span>updated ${day(upd(lead))}</span></p>
@@ -407,6 +405,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
         <p class="pl-dek">${esc(lead.dek)}</p>
         <p class="pl-src">${iFaces(rank(vOf(L)), "pl-fc", 10)}<span>Reported by ${outLine(L)} · ${vOf(L).length} voices</span></p>
       </a>
+      <div class="ls-bar ls-lead" data-id="${esc(lead.id)}" data-text="${esc([lead.h, lead.dek, (lead.brief || []).length ? "In brief. " + lead.brief.map((b) => (/[.!?…’'"]$/.test(b) ? b : b + ".")).join(" ") : ""].filter(Boolean).join(" \n"))}"></div>
       <section class="pl-sec pl-top3"><h3 class="pl-sh">Top stories</h3>
         ${rest.map((t, i) => { const I = P(t); return `<a class="pl-row${i >= 3 ? " pl-xtra" : ""}" href="#${t.id}"><span class="pl-rt"><b>${esc(t.h)}</b><span>${esc(t.cat)} · ${day(upd(t))} · ${new Set(I.map((p) => p.src)).size} outlets</span></span>${iFaces(rank(vOf(I)), "pl-fc pl-fc-s", 4)}</a>`; }).join("")}
         ${rest.length > 3 ? `<button type="button" class="pl-stmore" aria-expanded="false">Show ${rest.length - 3} more stories</button>` : ""}
