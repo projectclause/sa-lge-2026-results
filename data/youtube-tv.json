@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-28",
-  "checked": "2026-11-28T01:45:24+02:00",
+  "checked": "2026-11-28T03:23:51+02:00",
   "order": [
     "macg",
     "sizwe",
@@ -15,29 +15,29 @@
     "djsbu"
   ],
   "views7": {
-    "macg": "1.59M",
-    "sizwe": "995K",
-    "makin": "341K",
-    "sham": "247K",
-    "zimasa": "180K",
-    "mighti": "174K",
-    "wyatt": "164K",
+    "macg": "1.64M",
+    "sizwe": "1000K",
+    "makin": "342K",
+    "sham": "248K",
+    "zimasa": "182K",
+    "mighti": "180K",
+    "wyatt": "165K",
     "corder": "164K",
     "zizipho": "106K",
-    "masilela": "64K",
+    "masilela": "65K",
     "djsbu": "27K"
   },
   "raw": {
-    "macg": 1588776,
-    "sizwe": 995130,
-    "zimasa": 180140,
-    "mighti": 174033,
-    "sham": 246966,
-    "makin": 340996,
-    "corder": 163590,
-    "zizipho": 105844,
-    "wyatt": 163703,
-    "masilela": 64107,
-    "djsbu": 26763
+    "macg": 1637807,
+    "sizwe": 999563,
+    "zimasa": 182066,
+    "mighti": 180195,
+    "sham": 247922,
+    "makin": 342490,
+    "corder": 163720,
+    "zizipho": 106255,
+    "wyatt": 165006,
+    "masilela": 64820,
+    "djsbu": 27196
   }
 }

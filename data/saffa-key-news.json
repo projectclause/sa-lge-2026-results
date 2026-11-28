@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T01:44:44+02:00",
+  "updated": "2026-11-28T03:23:12+02:00",
   "people": {
     "elon-musk": [
       {
@@ -29,16 +29,16 @@
         "t": "2026-11-21T17:47:14+02:00"
       },
       {
-        "h": "Trevor Noah nominated for fifth Grammy Award",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUkZ0WjNQeVNJb0FoUVlfNHM5d1lZNXJJR2o2YTVBSGc3clk1SzZUN2RFNV9RQnlpQkRoZm8tb00tenZzNEl5UE5TaThsMDFUd0dxQUZrOHlFTTNKeVE2UHdpY3FnRkFMcE1ocml0aWUxVjZiZjlKMXpobFE5d29BLS10bDJweU1icFBGaQ?oc=5",
-        "src": "Algoa FM",
-        "t": "2026-11-17T15:00:00+02:00"
-      },
-      {
         "h": "Trevor Noah Earns Grammy Nod for Joy in the Trenches",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQzA3MllqeEdLYnp3N0MtSV9aaE1sLUpEbDByUlplSThWRmFENmNzTUJkRnpkZHFGazhKT3hBeVdhSzQ3M3JHZFFtSUV5d0xUTFdtenVVaDYxR2dnVEVXSXNiRnVsWXdCV1JyWlFZMU9PVmx6SEFnQWZxNmdTNHZvN085bm5ablhWUEJ4S3dlVjJBSnJZZmc?oc=5",
         "src": "Wisevoter",
         "t": "2026-11-17T13:22:47+02:00"
+      },
+      {
+        "h": "Trevor Noah scores 5th Grammy nomination for Netflix comedy special",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUVd5b0RYcmFGRTNmVzQtSzB6S0g3ejZGaGJSdVNZbGlfNWJBclpwSjBCY0dtZG9ON2piYnh2VGRrcDFiZ192WWt5dm9xcl9PTnplZzI2aEV4bzVCV2lsVDVzZnlPeDZzVGFvYzRGWERtUGp2clVaQlNJSnRGVy11NmlvTXpqWDNlNmhJemw1dWRRSUtoZU9NTDF6QnVfYjJuckwtV1FlM3dyRldrVnBCb1JSYU9tNU9JaTJXQU4zYks?oc=5",
+        "src": "Briefly News",
+        "t": "2026-11-17T10:00:00+02:00"
       }
     ],
     "peter-thiel": [
@@ -233,16 +233,16 @@
         "t": "2026-10-25T09:00:00+02:00"
       },
       {
-        "h": "NantWorks' Soon-Shiong puts chips behind manufacturing disruptors in new rounds for Prolific Machines, Multiply Labs",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb185cmswR2dwOUowYUFwemExcWMtQlF6MDM5Z0pDakwtSmtnOUtBb2J5cjI5ZHhIaEdvT091VGZnczFZRTNFc0I3d1V4UEs1bmFFMTdiNHBGeHhBZXN4Z3ktbC1iRXM1NnJEWkZsS24yTnFaWHJ0MHo5dnFwODZxZWIzUHNBQ19NaWVvM2tFR01qNWIxVzZKSW01NXlmQzl4ZExGOUU1bzJkSHBCczNnQnMzdm1aX09ZTWpqdg?oc=5",
-        "src": "Fierce Pharma",
-        "t": "2026-10-14T09:00:00+02:00"
+        "h": "Billionaire Patrick Soon-Shiong wins wider FDA approval for bladder cancer drug",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSEdDUUVUSU9PN296clluY1F0NjI3Ykg3Wk8zR19iSVpTX19rQWRDM2ZuRjlfWG4tSFNIOWpjN1VJQWRTckdqNzZQVWtqVGZ5Q2xBTE51cmM1VHM5N0lNa1pHbHplT256TzFaVTdCVmZkZTYzUlpMbnhsZ1Q2RU5DWUFiMXRrQnhfcFNQVjRUZXpDSlp5RXdwNVJuZV9XUzk2a2I2MzFSVmpKY0tvbExuMGstSzkzNXhHbVJ0ZWJHWHc?oc=5",
+        "src": "Billionaires.Africa",
+        "t": "2026-10-16T09:00:00+02:00"
       }
     ],
     "chad-le-clos": [
       {
         "h": "Chad le Clos Chasing More Hardware at World Short Course Championships",
-        "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxQakxqM0pyZW93eEsxdXFweTEtVnJZa19WdnNXbG5PSkRoWTZsQ292T1U2eEEzQ3JwOGFCWUF2VmlFUmszMEpkOXhibGZYMlZYSEJ1Zm5Bc0trVm5XVzdMdU9yYkhUZ0ZJU2xRU0ZURXBBLUN4LUcxcW0wY2xURFItSFM1VmJBYVh1NmI4aWJQdlo2YzQyUUpmSC00UG1BN0VGTmg0bDJMWTR4SWtwMXBtb2JJWFRqaFlkN0I5cXRiSllZbmZHTmR3SmN4TWhBR0wwMTBRSlozRGdUTkVxTHdUZmJBZ2xNWk5RcW5VVTNHTnZvSWNUZndoMGRiQkNURDNjbXJJOEVsVlV6WWJBMmpwdTUxUWZSMF9nUEo1cWhreXB1bi1ZUVRzdDhBQ1ctaC1aemVjbXYwLWs3QmRrZ0p6SWVFaFktZmFrTTdQWQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSl9PdTJTcDFRSFBZbkQwODZpWXIwZVVPNVI3UExfUHRoUzZXOE1VLVVJOVVoYVVDUTdXTXdCMTZFdEtDYWVxWGVma0ZobHZBYnJ4SzYydk52LURVUjJYYXNSdVUzSWpRMjFnaTVIU0QtaFRLZ0N4cHk2RzF5Uk1kc2wxYTBaVzhUSjBJRnJXUjZkSFRHMFZUT3pWeTN5Q2pZUXV4WUx0YkhZWktaR29Tdm4zYko?oc=5",
         "src": "Swimming World",
         "t": "2026-11-27T19:56:00+02:00"
       },
@@ -357,10 +357,10 @@
     ],
     "navi-pillay": [
       {
-        "h": "Navi Pillay: From Robben Island to the global pursuit of justice",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWXozcFJveHQzM2NuVDB1RkU5aHN4d0dsY0JWS0hHOXczWi1VZzlpaGQ2dXREMHBpV0FwTHhqN2RGbVhrWThKZGZKY2hObDhLYV9PLVMtODctNFo0SThTcjNuRGpkVUNzT2xINEVsRXZuTG1tSVV3Y3hoTjM3X1NXVDh3UHJ1cjg4MnBuZFJNd19WaW92V1hjOFdoa3dnd0h3bnR1QUpMejlVdw?oc=5",
+        "h": "Navi Pillay’s lifelong fight for justice: A tribute from Judge Chris Nicholson",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdVctY3VyMlVYa2pGMEplMmQtS1h1WDVGM0RUSFdoZVk4S0RzX0p5ZUhIRjhRdVhxRmk2LXZ1VmlKU2VpeDFwWVlId1dKcFRPWFNfQ3JjWHdIWDVCZUd0aWJzelZhNXNqTldvV09LMW1HZnlsUjZHSHBvS0JyYXhzVHNlRk85Y09FeGZqdTRFcGdYbG94WV96SUtVRVhOOHZ5bmVaQUFfX21QajdUd09TbnkyOWRTczRPSkQw?oc=5",
         "src": "IOL",
-        "t": "2026-11-27T16:39:19+02:00"
+        "t": "2026-11-27T16:10:15+02:00"
       },
       {
         "h": "Navi Pillay’s Nobel recognition renews our duty to defend justice",
@@ -477,22 +477,22 @@
     ],
     "marnus-labuschagne": [
       {
-        "h": "Australia Drop Labuschagne & Lyon, Retain Cummins As Captain For New Zealand Tests",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTmhSbnc0bnhxdFM4enZNVG5iWlUtcE0tWWJmVGJ6YzRhb3RBS0hXMW1YNlpsZ0ZLZUNlc1J0em9UdmtOSk5QQmFnUUpGUmhNd3kzN3ptVjh5ZnJ3dXpqbGhhSVlRLTNCMFJ2UFhhdFo3UEEzNjdEZkl3ejMxbWlZQnU2eV91Z2dwNDJJSW5TaFpzcURKVTdLbFNIMGx5YU43RzZzVExSRU5DamZERTlOSzRpRk1lTDFCZ3pGMWUySEticDBiNElPaNIBzgFBVV95cUxQT2hrVFdpTzN4VmlLRGNNanBBU1VjMjljWWwxNzNRN3RvSkVVY1F5UWptU1RVYkNTNjBiV1NTNmtGSnB3NnBsUGZRQlh2bGMzTGNCb1M0SFpGNXlWNGxSa21GeHhucENwRWJNdEcyN0FRTXJwU2JxU3Q2NVVTSjJFdDNKOUNqY3BIQjI1aGZ0dFhua2Q0M2JaV01Fb09HcVRUWXpRZ2ROUzBPa3pPcUdnd2JrcGpCRHNpZWF5RjVUUjNLR0dBWk94VU1mUFNJQQ?oc=5",
-        "src": "News18",
-        "t": "2026-11-28T01:11:15+02:00"
+        "h": "Nathan Lyon, Marnus Labuschagne dropped! Pat Cummins continues as captain as Australia announce squad for",
+        "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQc1Y2UEcyWHlrRW5wREQtMGNyM1ZEMHJhd0VfOTVMbW5Qb215M21UUmRheFVZeDJURWZNblNjZ25rSTRTSk1EajM2LTdIM1NpdUxqRHNGTENZMFBnXzl5Y05IaGhzVWQ1ejRKM2hzc0hCWnpkSnpXWTZKLUw4akdPb1JjT0s3am04RC1ITVJ4dUlwdjN4WlozUmF1dTk2ankwWnh5OWp0LTduVFR5dFp0eXhmV3kyeVAtUzJvSkd4emlMd2FpSWE2dllJWnkyX2RHdnZ4Q05oTHdycUlJUHZBYXhjTURWWjRiTVNTWWtGOGE1WGVHWk4yYzNOSFJRSTgtYU9hU1pBYjA1UjJkT2JQaHFUNlJoSmJFa191YVdNYjNweGZidTY0U2VvclTSAbICQVVfeXFMUFEtb0p4ZXdwWmtrMWFtLUhmaUJscFBjNHBjVXMyT2V6VlJKVGxFUXI0UzREbUlDclZOZnRqdWZQZ1lIMklKcXJKdWdUMlMya0U5UGc2WmZ3Vk81Q0c4U1dxaERhOHFHa0pXRzl6VnVrSXYyRjN2V0lyam9ybUhVQlotWGxIc2dWWG9jaXhUZjRkQVdXWVRKR0U1MjdOMHRPTTJYWTFidUVmSVJGRldPTXRMYjg0cW9vSUV4RTE4UkVSeWhfYVlDam1DQVAzcWJkbmN0d0lERENUZU5tVWxpYng1MEtYSy1fQzlDMmZWTFJyVU1rSXhpTkltYlpHUmNsM1dJVDJaVDA2Mm9qbXBwYlJyMmlSWFNGcHhJX1J5dlJ0a3drbnlCRWxQVXgweDhSYXZn?oc=5",
+        "src": "The Times of India",
+        "t": "2026-11-28T01:39:00+02:00"
+      },
+      {
+        "h": "Australia squad for New Zealand Tests — Lyon, Labuschagne dropped; Rocchiccioli, Clayton called up",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMktnSUdtSXowUUgweFdfMkd6Q281dW4tTVhFRllXZVdnblY3S0tHeG1mQXZFU3JYLXlPb1lNcUEtblpsREpaWG5tQVdUOUxDNmNpa0xReU1CWHZlUE1Obm9YNzBOM0JlekF6N3dGNUEtVm56djVBWmpsamZIeG5QMUZ6SjdUbDVod0lRaFFKYTVEdXlMZFRXYXgyLXhkWnpHdHZra29jdVJlTzQ0UTh6X1BZNFhmRDdpVkZRenI4NVFrTHl1c2xrY1hsR1JqdTJVWTF1dldvb3lCNTJLVHJtd9IB5wFBVV95cUxPaVNsaFhGVlBpV19qUkdJM2Z2UUtnN0RiZXhYNzdwOHVaS0QwRTlfN05FSnlhNk9xSTF3d0lNcmMtTHYzOXRjQlRuSE5xYTNVeDE2Mzc3c25vcjJ1Nzg4OE1PNE9WT1E1X1ZlU1FtNDBhd25ibmpic2xtVHA1Vm1NdWVBMHZfUkctZjd4SENkdHlWanFPSmFPOFVWX0dKX2p4SC1oaDVBWXNVYnEtcEdMTDY2RjlyMFF5OXNyVHpzdWJjQ0pVc0pKRjYxT2hFNzZjNmwteHE3bnhmX0RMQWdyZVJnaVg1d00?oc=5",
+        "src": "Sportstar",
+        "t": "2026-11-28T01:33:36+02:00"
       },
       {
         "h": "Labuschagne suffers another bizarre dismissal",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbHRDQlNSV01FOHFBbUVXWlF4Y2VqeWJfcHlNOTZWOTNELTlaQWhadnozOHlBdlRDY3FGdHdrOFZKUmVnX1c5Z3g5dFROZmNFYXRWYk04Wk82M3hjR1hMY2RIMktETWpRMVhpZ1AxQjJjU1V1akNPMTVlLTBMM0llXzV1Tkl0c0gwMWlpeWN0YnB3Nm5jVjFod3ZfbWZUdWpxTjFLSVY5d0NEM0JkVTlaLXcyc21oWXYtc0RN?oc=5",
         "src": "Fox Sports",
         "t": "2026-11-24T23:20:25+02:00"
-      },
-      {
-        "h": "'Should be fined': Calls for action against Labuschagne and Steve Smith",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQXZVOC1nMlFoTERKajNVb0tpWHhwWUZmS19Nb25WM3pmQnRVNHU3NERrZU1fWVZNUlp0MmwwMVhPOXNocnBDZWNzem5CQVgzcXRXQ1NOaGw3SHZzeWlLRF83THZkaGJoM05SRVZXekFkQk1EcGtYWERFYTZWZ2xIcnlKU2d4bHQ3X3lRZjFYVTBGcnFXcTZjZFlpZWNkck00djlwdXpnTnYtaEdEd0haU2MtWnc3dVpETjZ5al9ZdTVnN3g3VWtFemkzN0d1SnFpSlB2S1ZNOA?oc=5",
-        "src": "Yahoo News Australia",
-        "t": "2026-11-24T22:12:39+02:00"
       }
     ],
     "maxine-fassberg": [
@@ -560,9 +560,9 @@
     ]
   },
   "week": {
-    "elon-musk": 90,
+    "elon-musk": 91,
     "trevor-noah": 1,
-    "peter-thiel": 34,
+    "peter-thiel": 36,
     "thuso-mbedu": 1,
     "tyla": 4,
     "roelof-botha": 2,
@@ -587,7 +587,7 @@
     "troye-sivan": 2,
     "cariba-heine": 2,
     "dean-geyer": 0,
-    "marnus-labuschagne": 13,
+    "marnus-labuschagne": 11,
     "maxine-fassberg": 0,
     "brian-joffe": 0,
     "morris-kahn": 0,

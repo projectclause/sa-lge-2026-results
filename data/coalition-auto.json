@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-28",
-    "time": "02:00"
+    "time": "03:21"
   },
   "items": [
     {
@@ -1936,6 +1936,18 @@
       "src": "dailynews.co.za",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Gcm0zbTZkTktUTnBoSHFiOGtwNlFibDhpT0N3RC15aXktdnMtVlp2RjVNdE9pbEw0bk03dEd4cGt5THBLdWhxMXJYeEZFRmFXdFFQRmdod3NGaG5BTUo2ZF9CMnpkdw?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-87675d536b",
+      "j": "herman",
+      "d": "2026-11-27",
+      "kind": "Article",
+      "place": "Johannesburg",
+      "h": "ANC delaying Joburg, but the deal is done - Mashaba",
+      "s": "DailyNews reports Herman Mashaba says the ANC is delaying Johannesburg but the deal is done.",
+      "src": "dailynews.co.za",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9KMlZUMk1mUDZ5dV91MTBQYTJlYUFlUUw1YUNNZGhxbVg0QnlzME5WVTh3bGpWVUNFcHJSYmg4S1dwRHVZZVZDZ3JKdmxEcVpWZU1OeHBUUkRRdHVJWmV4TmZLMWQ5dw?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -1978,7 +1990,8 @@
       "a-2fdb37a23e",
       "a-b97d1201d7",
       "a-1b640e2732",
-      "a-6ea15a3798"
+      "a-6ea15a3798",
+      "a-87675d536b"
     ],
     "actionsa": [
       "a-773fa265cd",
@@ -2968,6 +2981,12 @@
         "h": "Herman Mashaba returns as Joburg mayor in surprise coalition deal",
         "d": "2026-11-27",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeGMzRmo5VDZDbEx6ejdPMTgwaVhqak5hdFB4Z0tuQnlxdjhieTAyX0xHZEx4dXM4U05hM0tzS0lRZWRyWUdKOFJqckljSV9TZzFWb1BleXJja2FULWFoaUM5bWkwSXlpNnZ1TWtQWlpJNEdwb21VT2w1d0JlcU9zeUZoMUVWSWJWNVJPTnBiS3N4Sll0dzY3cXlabElPOTFuT0lXdnlkVmVwQQ?oc=5"
+      },
+      {
+        "src": "independentonsaturday.co.za",
+        "h": "ANC pushes for key Johannesburg council positions after MK Party coalition exit",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRkNFQTBzUGQ0VjF6UUlodENUYmlBZUtjd1Bjakc5S1FVRHVrU3VfMjJJc3dNcE9SOWEtd3lDRVFEWW1tbDdLOExyWG1lSGpZX0RyWkVwUXlKdUFudUFCSm5HLVZzWkctcUxhd1JsZ0VPSzdGNENiR1J3M3BLZVIybHdkMktUeGp6bzZNUERuNlNMVmdWOFFPeHdBOG5WX3hYSnpYNjk0S0stdy12TUxWUmpvQThEaFlYODFrZHJCMEMteHdtSmc0LXpXT1htd3lleGstT3FxZ08?oc=5"
       }
     ],
     "councils": [
@@ -3512,6 +3531,12 @@
         "h": "Confirmed: Nasiphi Moya re-elected as Tshwane Mayor",
         "d": "2026-11-27",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVnRfeVQ4WFFfVGlWSmRtUnJNQlhEMnJZZ2hCYmNiWk1ncFktcjRSVnlGOWJTRUtMUGNmdFJhUUtJT2ZXMDY3Um4xSEQxcU1nVTJwb0xGSUVVVVpOb25vYndKUzhzSHJsbFpEdlJUS3hkQWZhN2o3OS1OYlBxRFg0UzhpbllOS09IRXdESzB2RGV0aWpvVlc3eFJR?oc=5"
+      },
+      {
+        "src": "independentonsaturday.co.za",
+        "h": "WATCH: EFF’s Omphile Maotwe poised to become Tshwane deputy mayor as Mashaba backs Moya for another five years",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPbE1qNF9aN0UwT0JlcE1YSVZGOFdhOTNMNndOYWN6cTBpRk1fc3dhM0JRc2hZcE83Mnl3Z2YzWUJKRGhlcXZuVDItQ29yR1MyT2JTUTl0NVdVZkxwNlZMSnd6R2I4ck9wcHpxam1SQW1TLXVwUEVScjdaSWVUVlBMMFhuUUk2Ym9fcE5IbFpBYWpSWW5wTEltUHBva0d2UHFseTk2UGNRY2ozZjllZnZ1YUpGUlRvQlBHTE0wS1BxaGNCVGhEeWtLb3JlSDJ6Uk1jb1IyY0ZNaUlYV3EtRWF2bDZwck4xOWNOTjdqSVJhWmZRM0FGaVJj?oc=5"
       }
     ],
     "actionsa": [
@@ -4785,6 +4810,18 @@
           "h": "Who will govern eThekwini? Council to elect mayor after coalition talks",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB5RzRmMnBOU0REcmNTeTNCTFZ3SjdLNlpIN0hlNUQxd09MUU9jdGZtdm91SENXTGh5YUxzaU9sVDFsMzZ0RjJNNnJqdTg5NWRRcUdIa2ZOVHYyNmxvVnlzbm5CUVVnQ0ZFSVhHNE94Wm1sRGM?oc=5"
+        },
+        {
+          "src": "Business Day",
+          "h": "WATCH | eThekwini mayoral chains for MK Party’s Mxolisi Phakathi",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMDRCdFRUVVROblJoVHJySXBDamxuOTZTS3dlYzFkZmJZOFhmY3pmVG5QZ0hKNDhRelAwU19NXzZLbU5GNEhhbXY0dm1adm5iSDJSZjE1aEVWNVd6WFdfRFhYTEFwemt0M1o4a05jVlU4eEpBYnRPd1FwYWpYeDVKUTdIQ2NWVGp0YU9QWEdOV0lwdlhONkd6WUdVZWlQbEtkeXZaa2RKbw?oc=5"
+        },
+        {
+          "src": "DailyNews.co.za",
+          "h": "ANC-MK Party coalition talks in eThekwini stall over key positions",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9fbXZaR1RweFI0ajUzSmk5Z2JsaEtROXhReUR2X3plQVZHX09odEtPVzJYaEdBM2tRcGY4UXRmV25kdkFZMHVONk9fLXp5TEg2WWgwd0xHd0FrRDhPVG5tQ3lKcC1jN00?oc=5"
         }
       ],
       "sec": [
@@ -5691,6 +5728,12 @@
           "h": "ANC's Mziyanda Mketsu Ekurhuleni mayor",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSGZscVpVWk0yUlk2eHVQTVcyLTNkVG5MbDVLSTd2MHZ6MnpxREZ3VXd1eGVla2c4SGo3WnBFejNvUDBnNTA5ejVqdjFseWFoeERpMWp5YWFheERKRUtaNFNjM2hrdGdxdkhiLUEwdjZJVHQ0ZHdMREdFOG54bk1lRg?oc=5"
+        },
+        {
+          "src": "dailynews.co.za",
+          "h": "Ekurhuleni council to elect new ANC mayor amid postponement due to coalition talks",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1zX1UyazNxOU9hdldxVjlBaXlTWUtFMTJYdHZHZ2dIcU4wVGdXbXBwZ3luM1luZTNfTExvMG44VnpRSEJoNlEyZjBwVndaeDdpYk9Uemg4TWI1QzFwNDlCTUJSa1NBUQ?oc=5"
         }
       ],
       "sec": [
@@ -5787,7 +5830,7 @@
       "dek": "News24 reports the ANC joined other parties to take control of Theewaterskloof, IOL and the Cape Times report ActionSA formed a Laingsburg coalition with the PA and ANC, and the Cape Argus reports an ANC-PA coalition won Langeberg, all leaving the DA out. The Cape Argus reports the DA has taken Knysna and Bitou, and EWN reports the Knysna deal is with the FF Plus and the Knysna Civic Alliance.",
       "brief": [
         "News24 reports the ANC and other parties took control of Theewaterskloof, shutting out the DA; the Cape Argus, Cape Times and IOL report the DA warning this could derail financial recovery.",
-        "IOL and the Cape Times report ActionSA formed a coalition with the PA and ANC in Laingsburg, leaving the DA out, and SABC News reports Matzikama council sits on Thursday after a deadlock over an EFF councillor.",
+        "IOL and the Cape Times report ActionSA formed a coalition with the PA and ANC in Laingsburg, leaving the DA out, after SABC News reported the PA was backing ActionSA's mayoral candidate there; SABC News also reports Matzikama council sits on Thursday after a deadlock over an EFF councillor.",
         "EWN reports the DA secured Knysna through a coalition agreement with the FF Plus and the Knysna Civic Alliance; the Cape Argus reports the DA has taken Knysna and Bitou, while an ANC-PA coalition won Langeberg.",
         "News24 reports the DA and FF Plus entered coalitions in some hung councils; IOL reported the DA began talks with 16 councils hung.",
         "IOL and the Weekend Argus carry an argument that the opposition’s voice in Cape Town is growing smaller and meeker."
@@ -5929,6 +5972,12 @@
           "h": "ActionSA scores surprise election victory in Laingsburg on first attempt",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORUEzZVRQaW5MNUtaQ3RVVlEtX1dVcU9ZcS1NLU5ZSlh1XzlXOVNUSDMzYmZmS2Nmamc1SGt6QmxLVjYzbm8tTEpzOVNLeFIwcmlBR0FQSnJpdXVpS0hRSG9oeDc1cW9uSDN0N1NnbXdrbTBzYU44anlZMDIybUFrQ0Z6bnRMYzhHUnRJY1B6ZC10MGZsb01PcEJyZnFTV2NlZno0cUU4YkdqWFNWODBJ?oc=5"
+        },
+        {
+          "src": "SABC News",
+          "h": "PA backs ActionSA candidate for mayor in the hung Laingsburg council",
+          "d": "2026-11-25",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPejBpXzFMZ3JjcWpDb0JiM0ZmbnlWU01IcER3dHhUeHBWcDlsWVJZSGNhRGRoN2NtVU5iMHBoQ0l3a2E1SnZDZ3gyd0dua1E4bFpsUHZ5V2JEeVZVNWRkanlmNzVPU2N0SDZNcFBfREIzaXdqcVZJUDZhVnVZd2pKUlM5NG01cnhHN2tWS0ZQOVlUZFZpX3N5dkc4T1Vfd3hEWHE2dndxT2FsdFdwQlhDcGR1UmVhdXEtd1ZVMjVORWRzU1VHSlRaS2p0am5abGJTREE?oc=5"
         }
       ],
       "sec": [
@@ -6232,6 +6281,12 @@
           "h": "ANC unveils coalition co-operation accord to stabilise 139 hung councils",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeXFJdGtjd0p6Wk5GeHZiRVRQdTFFVHdWWnE0b0I3ZjNVWThjbmNXTEV5clc3MnpIbDR5OGt3Q2JfOHNWUUg3OFFrendORzZfa1hwQkwzaVZZTkNqa3pSR2szRW5idG1PTloyUzljS1NXWW9PeFNzRDFMNHh1VHltYUp1dDAxeUROZXQ1UndVUF9CTlI3YTl3VGhMbDExZ3M3bHJETTl5bm4wTVh6TGkyQlpIakg0M0Uw?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "ANC sets coalition mandate, puts municipal service delivery first",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPb2JXMGxnV25KRlhKdTNrbUxQVGFnZm9hOUxqTVZJS2JvVUxRV2QwVkxMRFRWcF9xc0NLd3lYRDZoZFVYY3FFeGtOeUVTNVJZMjZJVUdwRUZoNEtyUERxRVRaajVhQ25FWG1NUFFPQVFSNklENDRmc0xQeTNhN1Noa3V3MlVVUjlEZ0RJQTBDaFZYdm0yMExGT2NOSE1RcnAxTHBFNk1JbnJMREE?oc=5"
         }
       ],
       "sec": [
@@ -7722,6 +7777,14 @@
     "79ece835c73d",
     "f7479752310e",
     "d8ffd153efd7",
-    "96a962e75ab1"
+    "96a962e75ab1",
+    "2e28b261011a",
+    "01266077248f",
+    "4d81cd95fed0",
+    "d6b2556225c5",
+    "130dafc2a891",
+    "3fd1b96b7cd1",
+    "87675d536b7a",
+    "0996b4f63488"
   ]
 }
