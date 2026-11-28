@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-28",
-    "time": "17:53"
+    "time": "18:55"
   },
   "items": [
     {
@@ -2272,6 +2272,30 @@
       "src": "Cape Argus",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5dm5DUzFPREFXNndnQV8tQlZkQ1k3ZGV4NWY2MlVwbkkxbUR5c05wZVJCczdzc2ZCdTYyZ3BRSE9RT3pUMzByS2xxWHdNQkNBR1pYbXAxWC04VzNaeUgzRDhKSHBTQQ?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-05a23b5172",
+      "j": "mbalula",
+      "d": "2026-11-28",
+      "kind": "Video",
+      "place": "National",
+      "h": "ANC Secretary-General Fikile Mbalula Briefs Media on Coalition Talks After Local Elections",
+      "s": "ANC secretary-general Fikile Mbalula briefs the media on the party's coalition talks after the local elections.",
+      "src": "Central News South Africa",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUE5mb1dINzJUZlBwM3htbERRSC1aQmxhMnVqaERGaHUtRnFZRXl1REowc25VSGpOZGtjY19zNFRXSkowTVFTcHp3dmVBRXNUVDlXcWNPSVFxZUtfYjlVc3RBUWJ6dmtSbGotZ1ZrdDgwQ2dJWHMxU19iV0ZGeXdtakwzSWkwbTcxQ0p4M1JuRlhOS3V6WDNwb3ZMQjlhRGdFVV9JTUU5RE9tb2szX2ZfdVdyQUVBQmoy?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-c0ad9622ce",
+      "j": "herman",
+      "d": "2026-11-26",
+      "kind": "Article",
+      "place": "Ekurhuleni",
+      "h": "Mashaba confirms Xolani Khumalo as Ekurhuleni deputy mayor",
+      "s": "The Cape Argus reports Herman Mashaba has confirmed ActionSA's Xolani Khumalo as Ekurhuleni deputy mayor.",
+      "src": "Cape Argus",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfMUFXakRuNWI5enlYSm5CcEFYUnlIMzdyX2t0RkE0ZU9oQ2h2V0hyTTB6WGc1dnIybGdnaElvZUM1a2xSczR6aFlRcGZaQ3hRM2ktczNGSTR5Q05VSURaOEJFbHBPdw?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -3473,6 +3497,12 @@
         "h": "Johannesburg picks Mashaba as mayor in ANC-backed deal",
         "d": "2026-11-27",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPLWZISEJzdXVseFhaazFlRTNjdUZoY2J6SmxLVEt0dGthLTBnUWFzNEo1UlBSOGhuc3c4cFBvT0Z2UkE1MC1wQVNZNXZ6eGIzQ29kaGxDenJkVVdXeHZpMUV3Mm00OUNPcDZzRFMyR2VhZWtIRXhBUFBQRk9zN01vU2NFQQ?oc=5"
+      },
+      {
+        "src": "740 The FAN",
+        "h": "Johannesburg picks Mashaba as mayor in ANC-backed deal",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUWwxMVhLOE5ObEJDZkNxZnY4elcta1V5LTZETWdMME5HTkExT2lYX3BpcVBkZHkyMXRKVHVGdzlOTVpEckVwa1VpNjkxLTEwZWY5OXprZm1rSGpWR0dXUTFlT3JPbGJUR0VtOWpkNDNrNXN0SXdnUzRDWTdTclIyNndQRVllME9yNGh0aEpUdWdQdw?oc=5"
       }
     ],
     "councils": [
@@ -4627,7 +4657,7 @@
         "SABC News reports Phakathi pledged to resolve the water crisis within 100 days, and IOL, the Sunday Independent and The Post report he has put the water crisis at the top of his agenda.",
         "The Sunday Tribune and IOL report the MK Party’s Thabani Luthuli was elected deputy mayor, and The Witness, the Sunday Tribune and IOL report the ANC's Nyawose kept the speaker's position.",
         "The Mercury and IOL report the DA's Hoosen warned the MKP-led administration that the DA will keep a close eye on public finances; SABC News reports the DA confirmed a last-minute coalition offer to the ANC that failed.",
-        "IOL and EWN report five councillors, including former mayor Cyril Xaba, resigned from council; the Mail & Guardian reports allegations of dirty deals, and IOL reports an ANC KwaZulu-Natal official is accused of lobbying against the MK coalition."
+        "IOL and EWN report five councillors, including former mayor Cyril Xaba, resigned from council, and Tabloid Newspapers reports four ANC councillors withdrew; the Mail & Guardian reports allegations of dirty deals, and IOL reports an ANC KwaZulu-Natal official is accused of lobbying against the MK coalition."
       ],
       "auto": true,
       "id": "ethekwini",
@@ -5522,6 +5552,12 @@
           "h": "MK Party sees no ANC reluctance to work with it in eThekwini, Mchunu says",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeUtNbFRnemt5RGkzRGdWUlZ3RXJqVFRkaUp3RlB5LWMyZFBjM2tsSzQtYkl5QjVTdVNjRkZhMVpOb2RHdFU1WHZXdTMzX1gtc2hxaHRTSERMM1ZWQXU3RE9YYVEwWkFScG5WRDFRXzNUVWtLT1I1OU1GWVFoV09lSzFhWUxDRlJFYnM3Q2d3cHczNzl6VjdITUxMb0JJV0F0T2hBTWZwX1FnZmxmVWZyZXVIZnhGanZGQktEYzA0Zw?oc=5"
+        },
+        {
+          "src": "Tabloid Newspapers",
+          "h": "Four ANC councillors withdraw from eThekwini council",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPR0JRVjVSUzVUTjZBaS03bUxZNVRJMEo1YWRsWmhLbWlvdFUyZll5eFhhdEVRRjdmREY3YUhRMnFZRmpqSloxV2pQT0Q2OWVHeVIzVjNNMkVzLW9kcDdZdUhmWXd3S29xVUVQQ29PbURlWk92YlUybV9LSTJYaXVwZGhYaHZVTEE?oc=5"
         }
       ],
       "sec": [
@@ -6108,11 +6144,11 @@
       "cat": "Ekurhuleni",
       "place": "Ekurhuleni",
       "h": "The ANC's Mziyanda Mketsu is elected Ekurhuleni mayor, and the council moves to create a deputy mayor post",
-      "dek": "The Citizen, IOL, EWN, eNCA and Central News South Africa report the ANC's Mziyanda Mketsu has been elected executive mayor of Ekurhuleni, and BusinessTech reports the ANC has taken the metro with ActionSA and the EFF. EWN and Townpress Newspaper report Mketsu has vowed zero tolerance for corruption, and IOL reports the council has supported a motion to establish a deputy mayor position.",
+      "dek": "The Citizen, IOL, EWN, eNCA and Central News South Africa report the ANC's Mziyanda Mketsu has been elected executive mayor of Ekurhuleni, and BusinessTech reports the ANC has taken the metro with ActionSA and the EFF. EWN and Townpress Newspaper report Mketsu has vowed zero tolerance for corruption, IOL reports the council has supported a motion to establish a deputy mayor position, and the Cape Argus reports Mashaba has confirmed ActionSA's Xolani Khumalo for the post.",
       "brief": [
         "The Citizen, IOL, EWN, eNCA and Central News South Africa report Mketsu was elected Ekurhuleni mayor; EWN and Townpress Newspaper report he vowed zero tolerance for corruption, with Townpress noting what it calls graft baggage, and Inside Politic reports he promised a clean administration.",
         "EWN reports the DA's Rasilingwane slammed a 'cabal' after losing the mayoral vote to Mketsu, and BusinessTech reports the ANC took Ekurhuleni with ActionSA and the EFF; The Mercury had reported the DA was holding out hope for a coalition as the ANC-ActionSA deal took shape.",
-        "IOL reports the council supported a motion to establish a deputy mayor position; the Daily News and the Independent on Saturday report Mashaba backs Khumalo for the post and warns criminals to 'run', and EWN reports ActionSA's Xolani Khumalo is not expecting to be elected yet.",
+        "IOL reports the council supported a motion to establish a deputy mayor position; the Cape Argus reports Mashaba has confirmed Xolani Khumalo as deputy mayor, the Daily News and the Independent on Saturday report Mashaba backs Khumalo and warns criminals to 'run', and EWN reports Khumalo is not expecting to be elected yet.",
         "IOL, Business Day, EWN, Inside Politic and Townpress Newspaper report the EFF's Nthabiseng Tshivhenga was re-elected speaker with 142 votes; The Star reports Kagiso Lerutla presided over the inaugural council meeting.",
         "The Mercury, the Independent on Saturday and other outlets earlier reported the mayoral vote was postponed as the ANC closed in on a deal, and Newsnote reported Mashaba blamed ANC delays."
       ],
@@ -6134,7 +6170,8 @@
         "a-e54d14313a",
         "a-ad9859a84f",
         "a-5f6724a42d",
-        "a-59be38670d"
+        "a-59be38670d",
+        "a-c0ad9622ce"
       ],
       "coverage": [
         {
@@ -6863,7 +6900,8 @@
         "a-b0f3f8f211",
         "a-e293c9b5d4",
         "a-9cf0654e67",
-        "a-0a439e51e0"
+        "a-0a439e51e0",
+        "a-05a23b5172"
       ],
       "coverage": [
         {
@@ -7563,6 +7601,12 @@
           "h": "ANC Backs MK Party as Mervyn Dirks Secures Msunduzi Mayoral Seat With 53 Votes",
           "d": "2026-11-28",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUVFqQnpsMWFCdEppaGlMNmRzc0N0a3NOMWZlOEtDSmF1UFphaFBMWjZpWTZwUWxnUEZXdG5pcDRaN0RmdS1KR3QtU2g0SDVDVFNRcmFiYXFTQ2hxWnBWOTdiQ1B1UXRNX3NHWVZNRVdOazU2QnBrVTdUbkFTQ3NnOGdDUVRvUV9CVk1rZmR3MjFCV2J0VlRxWXZtamY0cnBTWVJCSFRleWE?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "IFP leads in more KZN municipalities despite MK Party's provincial vote lead",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU1VWV2F0M0tseEdIMmtNeS1XWkhqb1ZtaW9qVWJpZm9Hc3h6TDdyS2VITld1Q0xtLTNQaDR2Q3VHNnpKNWswczYzQWpKbHJvXzlvUllqdE5ZaEFkV3JqazRuN0VFd0ZwOFZwanZDV3E0b3pOU0xLblVVQjAwNktlUE1BT0lBX3BXY2lKRUJKbG02MG82dUZpck95NzhBYkpYVW9sU3ZseVgwY1h6aTFLbHcwSDZGNnZqdFdN?oc=5"
         }
       ],
       "sec": [
@@ -8827,6 +8871,11 @@
     "58a578d265c3",
     "a9a567bc6db8",
     "b1ea3a4239bd",
-    "cba839212715"
+    "cba839212715",
+    "05a23b517221",
+    "cb1a30989503",
+    "77dfe70b7107",
+    "c0ad9622ceef",
+    "fd6b7926dd1f"
   ]
 }

@@ -1,7 +1,13 @@
 {
-  "updated": "2026-11-28T17:55:24+02:00",
+  "updated": "2026-11-28T18:57:27+02:00",
   "people": {
     "elon-musk": [
+      {
+        "h": "Musk says Google is interested in renting more computing capacity from SpaceX",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYVpCZ09wSmxscjVrdGlzSlp3RkN6bXBWY1dmaTlWcUFMamp2MVVDLXRGSG5PakRfT1ZJYUI1dWVtbHlKZXVFMlZ0N3doYVBScXBObXVMeEEwTGxpdWVWWjhNN1hjZXUtZ01WdHBZOGpSZDh4bHFIUjdqSW0zc2lXMHdEMXNCZE83WFQ4bUczTS1HWGdQRFdNU2Y1OGtFQVpySnFGSkdzYnNTSHFxSzFSYW5WSmhveTk4RHliaDRNV1l1ZDVDZHRj?oc=5",
+        "src": "Reuters",
+        "t": "2026-11-28T16:41:43+02:00"
+      },
       {
         "h": "Elon Musk says Google willing to rent more compute from SpaceX",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTHo4dm4yUnl5X3lEeDFCZk9mZ29KUXppSUFsUV9FQmQtRi0tT1Z6U2RNc3FqRWdKUWRETzhZQUZaMndVc2lRQzA4OG15TXJfNVZFQWE3TU9xQ1ZHa01GM0hucXg1SnhKLXdORnBKUVhuc2tQcWlqZ1JqR0tlUVN2eG8tX1ZHVXozd1lpemV1MklyY2htbWVGM1RtUmFEdFdPa1VqRHVfWmdMa3owNDg4c1VsN0xtd2hEY1pCZ2RvSWNuNkk?oc=5",
@@ -12,13 +18,7 @@
         "h": "Elon Musk pledges yearly SpaceX share to US kids: $8.9B",
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxORU40VTJiaWVwUkNBcXNKQ0NHYmdUWmlnS3hBNmlwMnZPYm1zcHRfN3NacXJLd29NOGlCeG5hVnZiV2tkMGZPUVQzX193dl8tUlNzQlF3NEk0ajA0Wk5uVjNuTTU5YmVTQmw4SlpsWkowSjZEaFdLbW5RYmpjZ19tb2xkY1dtZktycmlKSUExQjlXU2NGS2Y0NE1HVGRRNWRLMUpaWVVETW8xRVdXUmprN254bzhsRnYzQWd0cE1wbUFmTENwSFZNV2NsLXJoRWJxVTF4NUtGNDU0ei1M?oc=5",
         "src": "Billionaires.Africa",
-        "t": "2026-11-28T15:01:20+02:00"
-      },
-      {
-        "h": "Norway's Sovereign Wealth Fund Votes Against Again, Dealing a Blow to Musk's $1 Trillion Pay Package",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1udEp2Wm1ETV9RV1FYSEpOaXpSMEFRYWR0VmF4bUV6OUw2eG90cEFyLVJvRzFzTFFyY3VxZkRaQUpuX3p3Wm1yaWRDNWxocG1UQkFLWXNaVHEyaU9MM29DRklLTDRVVlVYWXhuTmEwWFI1dzB1N3c?oc=5",
-        "src": "BigGo Finance",
-        "t": "2026-11-28T14:25:00+02:00"
+        "t": "2026-11-28T15:15:25+02:00"
       }
     ],
     "trevor-noah": [
@@ -83,22 +83,22 @@
     ],
     "tyla": [
       {
-        "h": "Soul Train Awards 2026: Tyla, PARTYNEXTDOOR and a Classic Soul Honor for Chaka Khan",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZUVaTjVYakNIMHgtWENibFp5cU1WOUF2c202YmZJUTFYSUwwQlVhVDdnenR0MVJNc1FXTHVRZnNVS2VrMmZMZFpKRVFQbmpZT3MxT2lBb3c1RXdVVHhweVRuQVBsaUEwWW1QOGpqSFpEcWp1Sno1Q084S0h1VnZsd1ppSzBvNG9SSVJ6bUlKQTJjN01uVlJn?oc=5",
-        "src": "stupidDOPE",
-        "t": "2026-11-28T17:03:00+02:00"
+        "h": "Soul Train Awards 2026 Winners: Tyla and PARTYNEXTDOOR Win, Chaka Khan Takes Classic Soul Honor",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSlZGVkZPblFLRzd6YmxBTVU2YVppQ3g3TVZDQ25PMlFZUlBaekhiN2RjakxJX0pkNUw3dlNfdEtIaXFBZXVsVmRhZ3BPaHl5UmNwQ01fZ1FNT1M1cnMzellSdmhwRHhBdXFOUjQ1RF9MTHpNbzNQSWZiTl9nWTBiSWZUR1B4Y25NME1JZ2hYOGpWSmdZbDRHcFZFWXlGT19VWDZienVYUHF0eElaM21ZTVJWOFJPWGNTWUszVnZNRDlYYVhXdXJhLTA0NF91MURmMGlyOFlPWFPSAdgBQVVfeXFMTUpWRlZGT25RS0c3emJsQU1VNmFaaUN4N01WQ0NuTzJRWVJQWnpIYjdkY2pMSV9KZDVMN3ZTX3RLSGlxQWV1bFZkYWdwT2h5eVJjcENNX2dRTU9TNXJzM3pZUnZocER4QXVxTlI0NURfTEx6TW8zUElmYk5fZ1kwYklmVEdQeGNuTTBNSWdoWDhqVkpnWWw0R3BWRVl5Rk9fVVg2Ynp1WFBxdHhJWjNtWU1SVjhST1hjU1lLM1Z2TUQ5WGFYV3VyYS0wNDRfdTFEZjBpcjhZT1hT?oc=5",
+        "src": "within nigeria",
+        "t": "2026-11-28T06:40:44+02:00"
       },
       {
-        "h": "Soul Train Awards 2026 Winners: Tyla, PARTYNEXTDOOR and Chaka Khan’s Homecoming",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCNUYzQ3ZacF9ldzNPU2o5NUl2MUxrRnZEVlZjTGJjM3k0S29JYUcyRHdjNW9qcXlES05WclVUZVJPV2xjYXFvTGwybkFiRzAzeE5MX3NVWThhUG80dXR3MnA0Zm4?oc=5",
-        "src": "Neon Music",
-        "t": "2026-11-28T16:57:10+02:00"
+        "h": "Tyla Wins R&B/Soul Song at Soul Train Awards",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYWFiRElXUGltOWNGRm5pdXBzTzlXWkdZV1h6MmxhdEJhMV9waENOVElNUmtNcWNRN2JrLTZ6T3QtOEFYa1RNVTNzTlhPYjc0MGtZclQxZ3pKT3gxc3I2VjFHT2FUVHdyX0lkTEY5OHlBRDM0VE02QWkwenktZk96bEF5aWVMQ0tRMktJ?oc=5",
+        "src": "Wisevoter",
+        "t": "2026-11-28T06:30:27+02:00"
       },
       {
-        "h": "Tyla, Chaka Khan honored at Soul Train Awards",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOLTNrNk1ybXBadEdZMFdhWk9qMlVtRGtJa3doSFB5VWtUczlMTEZrVzlqcjNCMGFLMXd5TEhjeHlUZG9aemZsUDRMYi0tRzVNSTVwUHh2Z1hkMmtIZjhTcWZZQ1JjdkxLZDFQNlZmazNKVnJTVnNBbDV3TENFWVJ5X2FZekU4RThHVllsUmY0RzVZcWs4RUR4dXlMMk9lYlZFQ3c?oc=5",
-        "src": "NewsBreak: Local News & Alerts",
-        "t": "2026-11-28T15:20:59+02:00"
+        "h": "Fact Check: Is Tyla pregnant? Here’s the truth behind the viral baby bump photos spotted in Brooklyn",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPRGlQTUU4TEtBT1l5U29yTnBMRXBmUkdOOEVyTVJzbzF1MFJvX1dfekZqWEljNTFQeEJiYTVCTUUzVm5fSVRwVHZhSUhQaXBodDRrdWdBR0UyV01BQ0Y0TU11VzBudWF0eDJQRjBqanJwcFdDWmczQUZYNWFHSW9aakNmejRsck5OYUdJdWxhb0w5cTBtUFF1NjFpbVlVUEpUUmtKcERNMllqR2piZ3JITkczX1p5YWMybUltakZMYnlSbHB0Vm5tWm1sMDN0dGNmcGtCbjgyMTAyMnpLN0YtMk00bHRJUFdNM0c5Sk1KejdCNmJUNmI40gH3AUFVX3lxTE9EaVBNRThMS0FPWXlTb3JOcExFcGZSR044RXJNUnNvMXUwUm9fV196RmpYSWM1MVB4QmJhNUJNRTNWbl9JVHBUdmFJSFBpcGh0NGt1Z0FHRTJXTUFDRjRNTXVXMG51YXR4MlBGMGpqcnBwV0NaZzNBRlg1YUdJb1pqQ2Z6NGxyTk5hR0l1bGFvTDlxMG1QUXU2MWltWVVQSlRSa0pwRE0yWWpHamJnckhORzNfWnlhYzJtSW1qRkxieVJscHRWbm1abWwwM3R0Y2Zwa0JuODIxMDIyeks3Ri0yTTRsdElQV00zRzlKTUp6N0I2YlQ2Yjg?oc=5",
+        "src": "Indiatimes",
+        "t": "2026-11-26T17:28:44+02:00"
       }
     ],
     "roelof-botha": [
@@ -357,16 +357,16 @@
     ],
     "navi-pillay": [
       {
-        "h": "Nobel Peace Prize laureate Navi Pillay pays tribute to Durban community",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQek1obzJIMy1TaTI0YmtqcVBmVDFubjVaYjNzVUtIcklPOW8xS1YzeXBYalRkbVNMVGZLdjdxREk5cDRUaGV5T3lhOTJKbHlfZkViYmxvX0gyYWowNjFSWXI3QmpGWlpJaDVEX3poYnlVcGZ4WlFiRWxPTEdEekNvZnB1Zk1xTWZvTTJ2Tlo5UXlTRE9NWjA3b0ItV3p3bHRscmxYaFp2YkZ2cUJIOFJ2YWRmNXY5R2FjYmdvZ3Z2azhXMlBMTzFsMkQ0eDFMLVJkR3ItZXlB?oc=5",
-        "src": "The Witness | Your compass in the community",
-        "t": "2026-11-28T10:15:55+02:00"
-      },
-      {
         "h": "WATCH: Navi Pillay calls on South Africans to uphold human rights in Diwali message",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZF9DbVplZTItZjRjYUdOZmRvWXR1c0pIaURadVlMWlNrdW1MUFZuN0R5dUJiSGlfX0VMc2p6QWZjRHJkNzFQMGZ4RHFMU255dWd0ajZGOV83RUVjUk13NGl1NmVJX2lxTU9qYS05MTFDcHdKQWhUR3FMU2VVZTF4QkpaU0Jwa2VKSExMU0RUakJENjB1WngxUzN6b1Z4WV9yT3U4aFpFYk9PVjRUdFYyMDRHRDNnWUp4MTUtQ2x1WG1KZUU?oc=5",
         "src": "IOL",
         "t": "2026-11-28T04:21:46+02:00"
+      },
+      {
+        "h": "Nobel Peace Prize laureate Navi Pillay pays tribute to Durban community",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQek1obzJIMy1TaTI0YmtqcVBmVDFubjVaYjNzVUtIcklPOW8xS1YzeXBYalRkbVNMVGZLdjdxREk5cDRUaGV5T3lhOTJKbHlfZkViYmxvX0gyYWowNjFSWXI3QmpGWlpJaDVEX3poYnlVcGZ4WlFiRWxPTEdEekNvZnB1Zk1xTWZvTTJ2Tlo5UXlTRE9NWjA3b0ItV3p3bHRscmxYaFp2YkZ2cUJIOFJ2YWRmNXY5R2FjYmdvZ3Z2azhXMlBMTzFsMkQ0eDFMLVJkR3ItZXlB?oc=5",
+        "src": "The Witness | Your compass in the community",
+        "t": "2026-11-28T04:15:55+02:00"
       },
       {
         "h": "Navi Pillay’s Nobel recognition should inspire Durban, says Denis Hurley Centre",
@@ -560,11 +560,11 @@
     ]
   },
   "week": {
-    "elon-musk": 92,
+    "elon-musk": 91,
     "trevor-noah": 0,
-    "peter-thiel": 32,
+    "peter-thiel": 33,
     "thuso-mbedu": 1,
-    "tyla": 17,
+    "tyla": 5,
     "roelof-botha": 2,
     "black-coffee": 6,
     "david-sacks": 0,
@@ -587,7 +587,7 @@
     "troye-sivan": 3,
     "cariba-heine": 3,
     "dean-geyer": 0,
-    "marnus-labuschagne": 14,
+    "marnus-labuschagne": 16,
     "maxine-fassberg": 0,
     "brian-joffe": 0,
     "morris-kahn": 0,
