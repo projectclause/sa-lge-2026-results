@@ -7555,9 +7555,11 @@
       {
         "id": "b11",
         "d": "2026-11-27",
-        "j": [],
+        "j": [
+          "cele"
+        ],
         "src": "Bloomberg",
-        "h": "Old foes unite to return cosmetics tycoon as Johannesburg mayor",
+        "h": "Old foes unite to shut centrist rival DA out of Johannesburg",
         "url": "https://www.bloomberg.com/news/articles/2026-11-27/old-foes-unite-to-return-cosmetics-tycoon-as-johannesburg-mayor",
         "pay": true
       },
@@ -7592,8 +7594,8 @@
       {
         "id": "i-joburg",
         "cat": "Johannesburg",
-        "h": "Abroad, Johannesburg is the story: old foes unite to make Mashaba mayor",
-        "dek": "Johannesburg gets the most attention outside South Africa. When the council elected Herman Mashaba on 27 November, Bloomberg wrote that old foes had united to return the cosmetics tycoon as mayor, the FT called him a haircare tycoon, and The New York Times stressed that councillors snubbed the party with the most votes.",
+        "h": "Abroad, Johannesburg is the story: old foes unite to shut out the DA",
+        "dek": "Johannesburg gets the most attention outside South Africa. When the council elected Herman Mashaba on 27 November, Bloomberg’s S’thembile Cele wrote that old foes had united to shut the centrist DA out of the city, the FT called Mashaba a haircare tycoon, and The New York Times stressed that councillors snubbed the party with the most votes.",
         "p": [
           "b11",
           "f9",
@@ -7609,7 +7611,7 @@
         ],
         "place": "Johannesburg and the Gauteng metros",
         "brief": [
-          "Bloomberg reports that old foes united to return the cosmetics tycoon Herman Mashaba as Johannesburg’s mayor",
+          "Bloomberg’s S’thembile Cele reports that old foes united to shut the centrist rival DA out of Johannesburg",
           "Reuters reports Johannesburg picked Mashaba in an ANC-backed deal, and the FT calls him a haircare tycoon",
           "The New York Times frames the vote as councillors snubbing the top vote-getter, the DA",
           "Before the vote, Reuters and the FT reported the ANC and its partners nearing a deal to sideline the DA, and the FT that Helen Zille had told allies her bid was over",
@@ -7628,7 +7630,8 @@
         "voices": {
           "peyton": "Reported that the ANC and its partners were near a deal to sideline the poll-topping DA in Johannesburg.",
           "pilling": "Reported that the ANC was nearing a coalition deal in Johannesburg.",
-          "duplessis": "Wrote that Herman Mashaba had emerged as the kingmaker in Gauteng."
+          "duplessis": "Wrote that Herman Mashaba had emerged as the kingmaker in Gauteng.",
+          "cele": "Reported that old foes united to shut the centrist DA out of Johannesburg when Herman Mashaba was elected mayor."
         }
       },
       {
