@@ -142,10 +142,10 @@
     },
     "malema-zille-court": {
       "file": "audio/malema-zille-court.mp3",
-      "sec": 82,
-      "hash": "42002d1b1e41",
-      "chars": 1214,
-      "at": "2026-11-27T23:46:18Z"
+      "sec": 84,
+      "hash": "8cd98530efa0",
+      "chars": 1236,
+      "at": "2026-11-28T10:54:50Z"
     },
     "mk": {
       "file": "audio/mk.mp3",
@@ -198,7 +198,7 @@
     }
   },
   "month": "2026-11",
-  "used": 48555,
+  "used": 49791,
   "provider": "azure",
   "voice": "en-GB-RyanNeural"
 }

@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-28",
-    "time": "11:57"
+    "time": "12:51"
   },
   "items": [
     {
@@ -3318,6 +3318,18 @@
         "h": "Herman Mashaba Elected Johannesburg Mayor Over Helen Zille",
         "d": "2026-11-28",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeEZLZTFUVzRqUGF6ZmctZDNGMUtfR3NXSTFpY3FmRm9GTUNCZGpqRlN2S05RcjZaY3oxeXhYQzdQZUlCNXY0T0YzTVBCVDRodnpHc2xDS1Exa2c0Qmo1OXVxNjhRY1VLZWlYQlR2ZWdZZXpJTHVVMjVrUGtmdEg0YWVjYVN5QkZ3M25JeUlYMy1ncUQ5V3M0SnJxSk93RWZRSHRHdw?oc=5"
+      },
+      {
+        "src": "thepost.co.za",
+        "h": "ANC’s Thapelo Radebe elected Johannesburg deputy mayor",
+        "d": "2026-11-28",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU1FRbTRDbnZCLWhXRWVZUGhIeHlBRU1mSGkySl9KT2ZYM1hNbUFMTnExZEJSb1pDU0lCVklrVFNEdXBBYWd1WTMySTJMNEpLb2hjNWpwUC1uZ29CQ1hMT2hwR0ZidlVpUUR0ek53MHhmZzVFZUpzbnA5dFhvbVlLOHo5NU95aW5abjFORndEd1VrSkdyd1kxQnNCNTBETWhnUEd3?oc=5"
+      },
+      {
+        "src": "thepost.co.za",
+        "h": "ANC pushes for key Johannesburg council positions after MK Party coalition exit",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPangzMS1xbW1xSXFPQ1BJd0tjTDViRm5IenB3WmhJdW9SVmNJRVhHNW83UG96eF9CUlUyN0h4MGR4eXB6eGtDal9Gdk1BU0xLQmpGOU82Ri1Bc1EzcmZ4QWNVMFZPbHRFMlpBYXRKbFJQRXhjSklNMFo3Wk5fakc5V1p1a2ZXQTFiNW5Tb3p5d1hPVURJcVE2cm5USEZ0YmFXVThRWmdhMXZLaTczaFN6SS0xcC1yb21CYm9VM2Z6UmZrMFU1OGc?oc=5"
       }
     ],
     "councils": [
@@ -4430,12 +4442,12 @@
       "cat": "eThekwini",
       "place": "eThekwini",
       "h": "MK’s Mxolisi Phakathi is elected eThekwini mayor with ANC support and pledges to fix water within 100 days",
-      "dek": "SABC News, News24, eNCA, The Witness, Daily Maverick, Central News South Africa, the Sunday Tribune and others report the MK Party’s Mxolisi Phakathi has been elected eThekwini mayor through a deal with the ANC, and TimesLIVE reports he has pledged 'radical change'. SABC News reports Phakathi has pledged to resolve the water crisis within 100 days, and The Mercury reports the DA says it will keep a close eye on public finances.",
+      "dek": "SABC News, News24, eNCA, The Witness, Daily Maverick, Central News South Africa, the Sunday Tribune, Fullview and others report the MK Party’s Mxolisi Phakathi has been elected eThekwini mayor through a deal with the ANC, and TimesLIVE reports he has pledged 'radical change'. SABC News reports Phakathi has pledged to resolve the water crisis within 100 days, and The Mercury and IOL report the DA says it will keep a close eye on public finances.",
       "brief": [
-        "SABC News, DailyNews, The Witness, eNCA, IOL, The National, Central News South Africa and others report Phakathi was elected mayor with ANC help; TimesLIVE reports he pledged 'radical change'.",
+        "SABC News, DailyNews, The Witness, eNCA, IOL, The National, Central News South Africa, Fullview and others report Phakathi was elected mayor with ANC help; TimesLIVE reports he pledged 'radical change'.",
         "SABC News reports Phakathi pledged to resolve the water crisis within 100 days, and IOL, the Sunday Independent and The Post report he has put the water crisis at the top of his agenda.",
         "The Sunday Tribune and IOL report the MK Party’s Thabani Luthuli was elected deputy mayor, and The Witness, the Sunday Tribune and IOL report the ANC's Nyawose kept the speaker's position.",
-        "The Mercury reports the DA's Hoosen warned the MKP-led administration that the DA will keep a close eye on public finances; SABC News reports the DA confirmed a last-minute coalition offer to the ANC that failed.",
+        "The Mercury and IOL report the DA's Hoosen warned the MKP-led administration that the DA will keep a close eye on public finances; SABC News reports the DA confirmed a last-minute coalition offer to the ANC that failed.",
         "IOL and EWN report five councillors, including former mayor Cyril Xaba, resigned from council, and the Mail & Guardian reports allegations of dirty deals."
       ],
       "auto": true,
@@ -5283,6 +5295,18 @@
           "h": "EThekwini council adjourns inaugural sitting to allow more time for coalition talks",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSVUzQnNYbFlpUUp0c2c1NkhEQlI0UHFNWERSM3VVNklTWmUxbGJlTzJmZjlnRmVZWmNmQndnUDJac2FzQ3h4M0RPN3k4RmdDVnRXNkI1V2RTOTg0RUJZY0JDQ0s2OVBJWWJDa040d2VVb29SaHVYRUkwSV9LMXZpN0xXQ2Q4N2lrWHk0WkVIUkh4a2NDNW1nTmRTZzhXWjNmcjR1b2JPVjc1YjZUc0otVEwwcUJ3OC0yY0N3RzBicWd6QTRvc0pacms4UzRmUQ?oc=5"
+        },
+        {
+          "src": "Fullview",
+          "h": "MK Party’s Mxolisi Phakathi elected mayor of eThekwini metro.",
+          "d": "2026-11-28",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa185NS1jUFR0eWI4eElLZDRGdEhfNmZoVGE4cTBJNnE5NVRzdjlGTWpmMWZ1Tkk4cVFIUWd6VmxHZ0twOHVpLWhBenNOdFJsdGNRcldwM2xjQU9KR2dZWGR3UldacnV5RFpGYldHck1ERllXNm5EZ3lzUkczckQ2V1NsRmx2UlBIS0lJ?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "Hoosen warns MKP-led eThekwini administration that DA will keep close eye on public finances",
+          "d": "2026-11-28",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMldsMTJ4OEpYbEhKa0FTSHZXdlRmRWhrdUZyQTlFRDJsckpkNnpYbUVPYTFFRi1JZVJIU21xbWhGM3hLdVZQa1RSSlRwOEdsMF9yM3RhQjdOeE8yY2pqWTFDN2NEY3BxMTdOX1ZyeVIxVmFUUF94MEY1NHNKSmdxZWNwd2NTcDRDcERiaTJBZVBISnRtOVh4US1mWE0tZjhBZ0ZUQlV2UGxPOFZ3TUJkbWZ0TDFsWGxKUmFVLU9Iakl4aXFraXpBYjVvYjhQcEVj?oc=5"
         }
       ],
       "sec": [
@@ -5640,9 +5664,9 @@
       "cat": "Johannesburg",
       "place": "Johannesburg",
       "h": "A court bars Zille from repeating her claims about Malema",
-      "dek": "IOL, News24, SABC News and Central News South Africa report a court has barred DA mayoral candidate Helen Zille from repeating her claims about EFF leader Julius Malema, including that he controlled Herman Mashaba and influenced Shadrack Sibiya's Johannesburg appointment. Sunday World calls it Malema's first-round win in his defamation lawsuit against Zille.",
+      "dek": "IOL, News24, SABC News, The Star and Central News South Africa report a court has barred DA mayoral candidate Helen Zille from repeating her claims about EFF leader Julius Malema, including that he controlled Herman Mashaba and influenced Shadrack Sibiya's Johannesburg appointment. Sunday World calls it Malema's first-round win in his defamation lawsuit against Zille.",
       "brief": [
-        "News24 reports Zille has been gagged from saying Malema controlled Mashaba, IOL reports the court barred her from repeating corruption allegations against him, and SABC News says the order covers four corruption claims.",
+        "News24 reports Zille has been gagged from saying Malema controlled Mashaba, IOL and The Star report the court barred her from repeating corruption allegations against him, and SABC News says the order covers four corruption claims.",
         "Central News South Africa reports Zille was ordered to stop alleging Malema influenced Sibiya's Johannesburg appointment.",
         "Sunday World reports Malema won the first round of his defamation lawsuit, and newsday.co.za reports he won the case.",
         "Malema had sought an urgent interdict and demanded a retraction and apology; IOL reported Zille refused and the court had reserved judgment.",
@@ -5849,6 +5873,12 @@
           "h": "Helen Zille strikes back posting a video of Julius Malema saying Herman Mashaba is a fool whom the EFF controlled when he was Johannesburg mayor",
           "d": "2026-11-28",
           "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPdjZkdGRUUTYyamxreEJEZnE5OFR1QjRkamtDN01FbWU5a0xuazBySkl4U0tsaGFpM0NkQVhIcmU2bGJndHhvcEI4TzhkUnZlOVVaNkg1MFpaXzRrbUk5alZSTWpIMXJnaW1LeGFpeHk2U212VU5wSWh5Q2hGTVctdGpVcGs0bjE5bXp3YXktdUpFUTFaeWgxUnVKTFJDR2xiaXItNUE5cTJXeEdmSHBmUHFEemtEbUdocjQtZkk5VnNSNEJBMlRoRlJsdUtFMTRGSzFtaHNYZ0ptT2hyTmlKMzZ3YnZhaWVqd0NwMFhqY21qWjg4MFNiOTJkWEFqNVU4YUZ0Vjc3MGVuWWd0anJ1bnRsU1M?oc=5"
+        },
+        {
+          "src": "thestar.co.za",
+          "h": "Court bars Helen Zille from repeating corruption allegations against Julius Malema",
+          "d": "2026-11-28",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5qY2l0V3JxVFBwVThTb3NlbTdBVWpVN1NZMjZJMkM3czIzT2VzOXFzdk56Z1JDZ09EMkNNRW96NkFnazk5ZmFSU0hUcWJsczBDcHd0T3hpZ3p3S2pGSWtXTnBWUQ?oc=5"
         }
       ],
       "sec": [
@@ -6937,11 +6967,11 @@
       "cat": "Cape Town",
       "place": "Cape Town",
       "h": "Geordin Hill-Lewis is re-elected Cape Town mayor and names his mayoral committee",
-      "dek": "IOL reports Geordin Hill-Lewis has been re-elected mayor of Cape Town, pledging jobs and stronger policing, and the Cape Argus reports the DA has named Limberg as deputy mayor while Purchase retains the speaker role. The City of Cape Town, EWN, SABC News, IOL and others report he has announced a new mayoral committee, and ActionSA says it will hold the new members accountable.",
+      "dek": "IOL reports Geordin Hill-Lewis has been re-elected mayor of Cape Town, pledging jobs and stronger policing, and the Cape Argus reports the DA has named Limberg as deputy mayor while Purchase retains the speaker role. The City of Cape Town, EWN, SABC News, IOL, the Cape Times and others report he has announced a new mayoral committee, and ActionSA says it will hold the new members accountable.",
       "brief": [
         "IOL reports Geordin Hill-Lewis was re-elected Cape Town mayor and pledged jobs and stronger policing, and that the DA has declared victory in the Cape Town elections; Sunday World reports suburban voters secured the DA's win.",
         "The Cape Argus reports the DA has named Limberg for Cape Town deputy mayor and that Purchase retains the speaker role.",
-        "The City of Cape Town, The Bulrushes, EWN, SABC News, Cape Town ETC, Central News South Africa and Nova News report Hill-Lewis has announced his new mayoral committee; SABC News and Central News South Africa say it has 11 members, and IOL reports three of them are new.",
+        "The City of Cape Town, The Bulrushes, EWN, SABC News, Cape Town ETC, Central News South Africa and Nova News report Hill-Lewis has announced his new mayoral committee; SABC News and Central News South Africa say it has 11 members, and IOL and the Cape Times report three of them are new.",
         "ActionSA says it will hold Cape Town’s newly appointed mayoral committee members accountable for delivering on their mandates.",
         "IOL reports Helen Zille defended the DA's privatisation plans, citing Cape Town as an example."
       ],
@@ -7037,6 +7067,12 @@
           "h": "DA names Limberg for Cape Town deputy mayor as Purchase retains speaker role",
           "d": "2026-11-28",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUDAtem1jbE1FY21rYkhHMlpENkVJc1d3RXJXVEVJZHhaYWd2Yk9iVUpVZVZyTEdOSHZCUnYwa1hYMVh1WjlOU1FfbVV6QnRrUjcyU0ZCYUl3bXlYU1VvbTc4Q1A4ajhIUTNhSy00T05DdU02b1h5SktZUXlTX2tMcjkyTHZwT05vVFRiem9RNXRXTXhqM29faVJkWmtJNy1WRHlCRlJfdzBqZUMtTHBqNExMWkdfY1FF?oc=5"
+        },
+        {
+          "src": "Cape Times",
+          "h": "Hill-Lewis names three new members to Cape Town mayoral committee",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSUxlSGhlRmNLcl9EdThFUW41dDFRbnN4S2RuOTZmX25kUzgzeURSNHhNZHd0Z2RWOHhiUmhSQzgtWmhacnNURjRxYnV6TjRleEZQcGhob0xiV3FKcWJzTkVDRFAtSHRtMGlTYWE2VEdqNXZHUnZTUnNwWlhiaDRURFhlOFFZSFV5ay12dWNFZmRHMzZzMHYxMngtY2h5NmVxWlVEUU9EWXRKUQ?oc=5"
         }
       ],
       "sec": [
@@ -8455,6 +8491,19 @@
     "5f6724a42d3b",
     "7f318d0ce0ba",
     "912f02a54f27",
-    "689557a3e56a"
+    "689557a3e56a",
+    "a1e3b8faba8b",
+    "e0a3a5f855e1",
+    "9822537d6c6a",
+    "045d70fb1fa3",
+    "38257f23fb59",
+    "5716dc30d777",
+    "a431a5ef0fd9",
+    "5f7b289857cf",
+    "715975190c02",
+    "91d6cd56e610",
+    "8142487b7cea",
+    "ba850a9ac472",
+    "5c853468fe02"
   ]
 }
