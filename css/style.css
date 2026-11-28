@@ -1518,3 +1518,6 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.01e
 .nt-ph.nt-ph-ic { object-fit: contain; padding: 10px; background: var(--soft); } /* a story with no photographed voice */
 /* medium screens (tablets, small laptops): the menu scrolls sideways instead of widening the page */
 @media (max-width: 1060px) { .page-tabs { min-width: 0; overflow-x: auto; scrollbar-width: none; flex-wrap: nowrap; } .page-tabs::-webkit-scrollbar { display: none; } }
+/* the home band is the same height as the Madlanga quick-links strip (58px) on every screen */
+.hm-links-row { box-sizing: border-box; min-height: 58px; padding-top: 10px; padding-bottom: 10px; }
+@media (max-width: 720px) { .hm-links-row { min-height: 58px; padding-top: 10px; padding-bottom: 10px; } }
