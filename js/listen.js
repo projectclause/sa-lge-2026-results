@@ -10,6 +10,7 @@
   const PLAY = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>';
   const PAUSE = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.6v14H7zM13.4 5H17v14h-3.6z" fill="currentColor"/></svg>';
   const SHARE = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7.5 7.5 12 3l4.5 4.5M5 11v8.5a1.5 1.5 0 0 0 1.5 1.5h11a1.5 1.5 0 0 0 1.5-1.5V11" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  const TICK = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   const ARROW = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 5l6.5 6.2L14 17.4v-3.6c-5 0-8.2 1.4-10.5 5 .6-5.6 3.6-9.6 10.5-10.4z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>';
   let MAN = null; // data/listen.json
   let cur = null; // { id, kind: "mp3" | "tts", audio, playing, t, dur }
@@ -108,7 +109,13 @@
     const bar = e.target.closest(".ls-bar"); if (!bar) return;
     const id = bar.dataset.id, h = bar.classList.contains("ls-lead") ? { textContent: (bar.dataset.text || "").split(" \n")[0] } : (bar.closest("article") || document).querySelector(".pl-evh");
     if (e.target.closest(".ls-play")) play(bar);
-    else if (e.target.closest(".ls-copy")) copy(storyUrl(id));
+    else if (e.target.closest(".ls-copy")) {
+      const btn = e.target.closest(".ls-copy");
+      copy(storyUrl(id)).then(() => { // a tick for a moment, so a tap clearly did something
+        btn.classList.add("ls-done"); btn.innerHTML = TICK; btn.blur();
+        setTimeout(() => { btn.classList.remove("ls-done"); btn.innerHTML = ARROW; }, 1600);
+      });
+    }
     else if (e.target.closest(".ls-share")) {
       if (navigator.share) navigator.share({ title: h ? h.textContent.trim() : "Coalitions Tracker", url: storyUrl(id) }).catch(() => {});
       else copy(storyUrl(id));
