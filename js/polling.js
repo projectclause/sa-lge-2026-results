@@ -32,6 +32,56 @@
       return `<div class="po-tw"><table class="po-t"><thead>${head}</thead><tbody>${body}${res}</tbody></table></div>${notes}`;
     }
 
+    // the polls over time: one line per party through every national poll, by fieldwork date, ending at the result
+    (function lineChart() {
+      const box = root.querySelector("#po-line"); if (!box) return;
+      const PC = { ANC: "#f2c40f", DA: "#1f5fc2", MK: "#2c8c4e", EFF: "#d63a3a", ASA: "#06b616" };
+      const LP = ["ANC", "DA", "MK", "EFF", "ASA"];
+      const MO = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+      // fieldwork midpoint from text like "Sep–Oct 2026", "Dec 2025–Jan 2026" or "Mar 2026"
+      const when = (t) => {
+        const ms = [...String(t).matchAll(/([A-Z][a-z]{2})[a-z]*(?:\s+(\d{4}))?/g)].map((m) => [MO.indexOf(m[1]), m[2] ? +m[2] : null]).filter((m) => m[0] >= 0);
+        const yr = (String(t).match(/\d{4}/g) || []).map(Number);
+        if (!ms.length || !yr.length) return null;
+        const a = ms[0], b = ms[ms.length - 1];
+        const ya = a[1] || yr[0], yb = b[1] || yr[yr.length - 1];
+        const t0 = Date.UTC(ya, a[0], 1), t1 = Date.UTC(yb, b[0], 28);
+        return new Date((t0 + t1) / 2);
+      };
+      const polls = D.municipal.map((q) => ({ q, t: when(q.when) })).filter((x) => x.t).sort((a, b) => a.t - b.t);
+      const ELECT = new Date(Date.UTC(2026, 10, 4));
+      const W = Math.round(Math.max(340, Math.min(720, box.clientWidth || 720))), H = W < 560 ? 300 : 360, m = { t: 16, r: W < 560 ? 112 : 122, b: 34, l: 40 }; // drawn at the box's own width, so text stays at its real size on phones
+      const t0 = polls[0].t, span = ELECT - t0;
+      const X = (t) => m.l + ((t - t0) / span) * (W - m.l - m.r), Y = (v) => m.t + (1 - v / 45) * (H - m.t - m.b);
+      let g = "";
+      for (let v = 0; v <= 40; v += 10) g += `<line class="po-lgrid" x1="${m.l}" x2="${W - m.r}" y1="${Y(v)}" y2="${Y(v)}"/><text class="po-lax" x="${m.l - 6}" y="${Y(v) + 4}" text-anchor="end">${v}%</text>`;
+      // month ticks: the first of each quarter, and election day
+      for (let d = new Date(Date.UTC(t0.getUTCFullYear(), t0.getUTCMonth() + 1, 1)); d < ELECT; d = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth() + 1, 1))) {
+        if (d.getUTCMonth() % 3 || X(ELECT) - X(d) < 44) continue; // skip a month label that would collide with "4 Nov"
+        g += `<text class="po-lax" x="${X(d)}" y="${H - m.b + 18}" text-anchor="middle">${MO[d.getUTCMonth()]}${d.getUTCMonth() === 0 ? " " + d.getUTCFullYear() : ""}</text>`;
+      }
+      g += `<line class="po-lelect" x1="${X(ELECT)}" x2="${X(ELECT)}" y1="${m.t}" y2="${H - m.b}"/><text class="po-lax po-lax-b" x="${X(ELECT)}" y="${H - m.b + 18}" text-anchor="middle">4 Nov</text>`;
+      const R = D.result2026, labels = [];
+      LP.forEach((p) => {
+        const pts = polls.filter((x) => x.q.v[p] != null).map((x) => [X(x.t), Y(x.q.v[p]), x]);
+        if (!pts.length) return;
+        g += `<polyline class="po-lline" points="${pts.map((a) => a[0].toFixed(1) + "," + a[1].toFixed(1)).join(" ")}" stroke="${PC[p]}"/>`;
+        if (R[p] != null) g += `<line class="po-lto" x1="${pts[pts.length - 1][0]}" y1="${pts[pts.length - 1][1]}" x2="${X(ELECT)}" y2="${Y(R[p])}" stroke="${PC[p]}"/>`;
+        pts.forEach(([x, y, o]) => { g += `<circle class="po-ldot" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="4.5" fill="${PC[p]}" data-t="${esc(`${P[o.q.org].name}, ${o.q.when}: ${NAME[p]} ${o.q.v[p]}%`)}" tabindex="0"/>`; });
+        if (R[p] != null) {
+          const x = X(ELECT), y = Y(R[p]);
+          g += `<path class="po-ldot po-lres" d="M${x} ${y - 6.5}l6.5 6.5-6.5 6.5-6.5-6.5z" fill="${PC[p]}" data-t="${esc(`Result, 4 Nov 2026: ${NAME[p]} ${R[p]}%`)}" tabindex="0"/>`;
+          labels.push({ p, y, v: R[p] });
+        }
+      });
+      // direct labels at the result, nudged apart so they don't overlap
+      labels.sort((a, b) => a.y - b.y);
+      for (let i = 1; i < labels.length; i++) if (labels[i].y - labels[i - 1].y < 15) labels[i].y = labels[i - 1].y + 15;
+      labels.forEach((l) => { g += `<text class="po-llab" x="${X(ELECT) + 12}" y="${l.y + 4}"><tspan class="po-llab-p">${esc(NAME[l.p])}</tspan> ${l.v}%</text>`; });
+      const leg = `<p class="po-legend">${LP.map((p) => `<span><i style="background:${PC[p]}"></i>${esc(NAME[p])}</span>`).join("")}<span><b class="po-ldia"></b>Result</span></p>`;
+      box.innerHTML = leg + `<div class="po-lwrap"><svg class="po-lsvg" viewBox="0 0 ${W} ${H}" role="img" aria-label="National poll shares for the ANC, DA, MK, EFF and ActionSA from ${polls[0].q.when} to the result on 4 November 2026">${g}</svg></div>`;
+    })();
+
     // national
     const NATP = ["ANC", "DA", "MK", "EFF", "ASA", "IFP", "FFP", "PA"];
     const finals = D.municipal.filter((q) => q.final);
@@ -58,8 +108,8 @@
 
     // hover and tap tooltips on the dots
     const show = (b) => { const r = b.getBoundingClientRect(); tip.textContent = b.dataset.t; tip.hidden = false; const w = tip.offsetWidth; tip.style.left = Math.max(8, Math.min(r.left + r.width / 2 - w / 2, innerWidth - w - 8)) + scrollX + "px"; tip.style.top = r.top + scrollY - tip.offsetHeight - 8 + "px"; };
-    root.addEventListener("mouseover", (e) => { const b = e.target.closest(".po-dot"); if (b) show(b); });
-    root.addEventListener("mouseout", (e) => { if (e.target.closest(".po-dot")) tip.hidden = true; });
-    root.addEventListener("click", (e) => { const b = e.target.closest(".po-dot"); if (b) show(b); else tip.hidden = true; });
+    root.addEventListener("mouseover", (e) => { const b = e.target.closest(".po-dot, .po-ldot"); if (b) show(b); });
+    root.addEventListener("mouseout", (e) => { if (e.target.closest(".po-dot, .po-ldot")) tip.hidden = true; });
+    root.addEventListener("click", (e) => { const b = e.target.closest(".po-dot, .po-ldot"); if (b) show(b); else tip.hidden = true; });
   }).catch(() => { root.querySelector("#po-nat-chart").innerHTML = '<p class="po-note">Could not load the polls.</p>'; });
 })();
