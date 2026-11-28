@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T10:59:47Z",
+  "updated": "2026-11-28T11:57:24Z",
   "today": {
     "day": 202,
     "live": {
@@ -38,13 +38,6 @@
       "h": "Ramaphosa was warned of national security threats days before Mkhwanazi's briefing | Madlanga Commission",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNN0xld0c0WjNVX2xKQjhUVkxTd25NU2dPQVhOQ0JFY1Rncnptdkc5OHZuU0NPSVBzZXZmbElmM0QwYWRXeUNSTDJQaGRrS0dqZ1VmeEloUVp2Ni1lV0tVclkwYWU5ZEZlSEVmcFdsei1sSnFYUEg3QkRtTEdFMEd1RDJjUEh0QW1QamduOFZlMGIxa3EtT1ZXV2tSMTFfMUtRRXI2QnU4RXdRalJleGtoSlhBRTV0WXVOREo4b0ZMRGVlOEFTZ3RVVDI1QjRvaDhDQ216TllybzVKa1NCblE?oc=5",
       "d": "2026-11-28T03:00:23Z"
-    },
-    {
-      "src": "IOL",
-      "logo": "iol",
-      "h": "Madlanga Commission hears how JMPD chief Rikhotso helped an officer arrested over R1.5m cash theft secure bail",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQXJzcXhfdFRyYW5aWHF2cmg5OWVLNmJNenM1eTFQVEVpaVVIa2ZySEtFenBobXVoZlo4Xzd3TkRWVEtkazZqZlFNS2I0TFpYblRieVpoRjNaZElNNm9rRm5CeDRleV9aYXViX2dGRHc0UnB4S3NUaDA1WHhGN2pmbHlHeWUzMHpRNHFubUFTa01tRXU2eDJjbk1kOWlRZ1QtOWNZYkwxOFEzRFhXZ0x4Z1ZmOVZ6TVVhaTZzOHlTUldfdEY4Z0l1ZUFIZFFNc254ekg4YmoxdFA4UXRmT3FhbmVtNHVTZjc1?oc=5",
-      "d": "2026-11-28T01:29:48Z"
     },
     {
       "src": "IOL",
@@ -150,6 +143,13 @@
       "h": "Madlanga witness ‘behind murder’ of relative who posted about him on social media",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONkxwMFdzOTVyZWVnWkhVUl92Z2Z5OTUtdEpnM3paTmVScUJlcDljOEhPUExaMEViczlmX1Zoa3h3WjZES2lDN00yVk5HLThKa01WQXhEZlpkbmJyTUdQZGtLRWQ5elZuNFNFNnlUbXNXODhaQlhaQ3g2RDZpSkpDS2FoTEFiX3d3cXhfMjZKT2x3RVc5c3hpT3NicmpNNy1iSVF3RVNYaGdOeXhLWUtTTzUxNVd5Q3lWVGlv?oc=5",
       "d": "2026-11-26T23:29:16Z"
+    },
+    {
+      "src": "EWN",
+      "logo": "ewn",
+      "h": "Witness T links KZN tow truck operator Clive Naicker to murders, police infiltration",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWlhWcmJYUXg4Mzh2Zkl3cmpsYTRTSi1ESG1Lb0M2YmdvVW9jcVRvMm9vajRDb0ZNRm54NXVJTUlpS1JlU1FQdTlQMXAxcm1nN2t3NW0zeHlqeU5DR1NtVGJWdFhVWThEaG9uV1IyZlp1YVgyM2xGTk1EM1Z2YkJaYTkzSFdiTktsUmVZenVibGZFWDdqS00weVNQWjZpQ2xQOHcwOXNFcy1HLU9ZYkN3VzZ0TzZPdHc?oc=5",
+      "d": "2026-11-26T13:47:08Z"
     }
   ],
   "people": {
@@ -346,7 +346,7 @@
           "logo": "iol",
           "h": "Brown Mogotsi in court over alleged lies under oath at Madlanga Commission",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUFZyTFBEWGdGcC1USTBLSGkzb2NnR3Q0eEpxOFl0bFVucllFN0hFeVNReTNxbEdYeTR3N3Z1YWQ4Y0dDVXB3M3MzYVRIMVlubFltWVlDRlQ0NXM0TGM4Y2FxbE1sVHZYREFhUE9rUEtqOG9mcm5ZclI2U2l1c0dzWURmb0t0a19BT1l1akFjV1c2MGJzTndtbnUzMWR3blZSR3Z3S3lXc1B5WV9adnNJMVdiak5DZw?oc=5",
-          "d": "2026-11-25T16:10:52Z"
+          "d": "2026-11-25T09:06:27Z"
         },
         {
           "src": "EWN",
@@ -716,16 +716,15 @@
     {
       "k": "brown-mogotsi",
       "tag": "charged",
-      "src": "The National",
-      "logo": "thenational",
-      "h": "Brown Mogotsi charged with perjury over Madlanga testimony",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPanFadkZ1MkJXajZ6X2pRUUxVSjNJa0VWaUFWVlFKT1ZCOG5hdEVxeExyakZwbVBZMGgxTGMycXhOSUVxN3lFNFhsQ3JyYTd6N3h1b3hZbkM4cGIxbWUxUFpTaVlZYUFFZ2loLWlpTEtLcHdpcVNYN0dFRURBbXJuMGt0WVpvaTVueV9Fb1VKUFBTb250bnRfTWdDYUVodE56dDdR?oc=5",
-      "d": "2026-11-23T15:42:56Z",
+      "src": "The Citizen",
+      "logo": "citizen",
+      "h": "Brown Mogotsi charged with perjury over ‘contact agent’ Madlanga commission testimony",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSlpDeUtpOTBuTnZtSHNNSUJPLWxmY19RclFpZlNCX05QTjRhTW9ZeTU0NUhjNGxhczdHOEVnN1RWTlJObXVJYWhBdEVNQ3ljNzJ3S2pudWZESE1KODJfeUZuOVFGWXBkck1KanZMc2szbkJSNlNNU3NYWnNEOGM5aFppVF9vLVZqbGtDUFhPMEczVkJkNks4NVdVZGNEWHprdklhc0ZUQkVZNWtOV3c3YWZ6WWU1dTFsTWM3TXM0aVR3WHdMTGdHempZUkJ4dVNE?oc=5",
+      "d": "2026-11-23T18:14:59Z",
       "outlets": [
         "IOL",
         "News24",
-        "The Citizen",
-        "The National"
+        "The Citizen"
       ]
     }
   ],
@@ -762,13 +761,13 @@
     },
     "karyn-maughan": {
       "n7": 9,
-      "last": "2026-11-28T02:00:25Z",
+      "last": "2026-11-28T02:02:51Z",
       "items": [
         {
           "h": "‘We’re wasting taxpayers’ funds’: Suspended for a year, IGI says he’s yet to be investigated",
           "src": "News24",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOcnlFdlZ4QzZaR01GOWh0NHRsTFRWVEl0UWY0SmJONVBsYUhrYm5pRm5VNEZQYkdLOGZPRmdSRzUzUHFSbTBEd0ozS28xSWxreU1DeGZ6enlxWWMzT3ZDaFA0amhvcWJNRFN5QmRMcHJpQWQxOEZiODV6MmpQV0dsUVJXYjNCbGJxLTVUdmthZVpWM0NsMThtT29WMFN1RjUwSURGbjNoRG4wNHNZdG00RlZ4alp5YWxGQThRSjhrU0V1SjRzQ1NaT0Q1TW9aOHhxaU1zWFlzUmplRWdRTHM5bldlV1JPZw?oc=5",
-          "d": "2026-11-28T02:00:25Z"
+          "d": "2026-11-28T02:02:51Z"
         },
         {
           "h": "I believe I was used to wash Govender’s blood money, KZN businessman tells Madlanga",
@@ -858,7 +857,7 @@
     },
     "bongani-hans": {
       "n7": 0,
-      "last": "2026-07-25T07:00:00Z",
+      "last": "2026-07-10T07:00:00Z",
       "items": [
 
       ]

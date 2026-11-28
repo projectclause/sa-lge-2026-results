@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-28",
-    "time": "12:57"
+    "time": "13:54"
   },
   "items": [
     {
@@ -2188,6 +2188,42 @@
       "src": "Townpress Newspaper",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPakxfSHlfejRmUXUxSDZOblcyMDVoQl82MnF6Qm9hTjlSTW5kQTgwRmNtcGtmV1dKT2M2ck5JZWtqbDFFUlZQWDFHM2k3V2RNQURyYkJpR1NBcThfamM1a1JjTTRJaGtCRV96NFlkYm5hcmV4RlIxN1lGRmVqX2lPcVlaSGhoQzdDVE9sS3loV05nT0pKSVBNOHNaQ0RFZmVzS25VZUVyYnlrUWJRakxueXZRQWFnOXBMWjlBNVhEMXhjaE00U1BnTDNfZy03TWNaS18xM1dqVFRaeFN4Rng2YWRGalJPcktMY256NnU5emFzbGVY?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-15d4b8947f",
+      "j": "odendaal",
+      "d": "2026-11-28",
+      "kind": "Article",
+      "place": "Nelson Mandela Bay",
+      "h": "Tight budgets, but Odendaal maps Nelson Mandela Bay plans",
+      "s": "Townpress Newspaper reports Retief Odendaal has mapped out plans for Nelson Mandela Bay despite tight budgets.",
+      "src": "Townpress Newspaper",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMGZ5U3VQMTNYQkU2aktUNVlHb2FkVVRmSjNfS0FhaGFlc2RLeFZsZFcwOEYyeV80QkFYMVhvd2ZvaDcxQWlOckM3Y3JTUWdWUV9Ed2RjQUFyWmdlaWpuV1ZyX3ZQRnlvSzZYbTEtc2hnOTdtNWZCT3FpQzZDZjd3bXR0OUVfdEdY?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-b136108dc9",
+      "j": "herman",
+      "d": "2026-11-28",
+      "kind": "Article",
+      "place": "Johannesburg",
+      "h": "Mashaba promises to prioritise Joburg's water crisis and electricity outages",
+      "s": "EWN reports Herman Mashaba has promised to prioritise Johannesburg's water crisis and electricity outages.",
+      "src": "EWN",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNLW9iU1lUYVdFQWRob0UzaDRXc0haeVp0dm9fenVMZnkzRTA3YWg3bHk2QmpzUFN6UjRUbnNQcDBWcGV1LXh5M0w0QXh4azE5WGlLZ1JaenZIamMzOHV1NUY0QmN3WG9GeHZPNHF0U0VDcm9BeUNwUVNueGVLZ1gwUVltSFNNdzlmVENKR3hjU0JFWXdBaEExRlBteUQtVUxKQUVvaTVNVVFYRmtw?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-5b66d96268",
+      "j": "geordin",
+      "d": "2026-11-28",
+      "kind": "Article",
+      "place": "Tshwane",
+      "h": "Hill-Lewis condemns ANC-ActionSA coalition following Moya’s re-election as Tshwane mayor",
+      "s": "The Post reports Geordin Hill-Lewis has condemned the ANC-ActionSA coalition following Nasiphi Moya's re-election as Tshwane mayor.",
+      "src": "thepost.co.za",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOT0RCaTRZRnY5MDF4OHY0Q3pOeGFsQVg3VkI0dlVNRzdOM0NyQmp3RmNwNHJkbGpHcGNWNGMyenNXUUdocjNqQWg2emhoTWhEaFhZMnd5bWZJaTZaZU50enU0eFpmUGd2dXlPUE5nLWJNQmtJeGR1U201R2M2aGZtWFBXZTFLZjkyNXNzNmdjaUw0WlE5MnBDYnFXVk1jU1h6aEUxZXY2NW5SN1FlQ1hRWng5M3ZUZVZMVzVzSkY0anBUblhOeExicWZtZlVyOXFB?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -2238,7 +2274,8 @@
       "a-9af9a6f0aa",
       "a-85f26f25de",
       "a-e3e75eeff3",
-      "a-689557a3e5"
+      "a-689557a3e5",
+      "a-b136108dc9"
     ],
     "actionsa": [
       "a-773fa265cd",
@@ -2293,7 +2330,8 @@
       "a-a3d9f6f450",
       "a-bd8f659226",
       "a-25fc918fa1",
-      "a-2311b0d140"
+      "a-2311b0d140",
+      "a-5b66d96268"
     ],
     "grand-deal": [
       "a-4aa7f8b650",
@@ -3929,6 +3967,12 @@
         "h": "Naeem Patel elected Tshwane council Speaker",
         "d": "2026-11-28",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNS3lIRkRwazdOcXhUcEdaQ2hGblhTZXd1Wk1kUWxOTGJCUFpVTElNWjIyZ0xjc0JtNXNEaGU5QUpjaGdsQTJiV29tYzA0S2IwNzhZVlgxTXNmVENwR1R1ZkM5bTZxV2owYVFJd3ZQeVVBUlljakYxSTVEeHZsVVZudnFIN3hSelZsMmp4T3NNVzQ1X0VRWUI0NFkxTXJUak5J?oc=5"
+      },
+      {
+        "src": "www.suaralandak.co.id",
+        "h": "DA Condemns New Tshwane Coalition Government",
+        "d": "2026-11-28",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mYzNIQ1JrMkZLZkJhc3MyQ3VsZFIxa3ZXaElqWWVuRW94djBqZHItSjJ2NW1VdFctTnd2NTAyRTQ1TmVsZTd3aHdRV1hNazdiMzhwa1R3Qm5MYWNHNUFnMHdnRGNXcnVYNDNvQjlSNA?oc=5"
       }
     ],
     "actionsa": [
@@ -4455,13 +4499,13 @@
       "cat": "eThekwini",
       "place": "eThekwini",
       "h": "MK’s Mxolisi Phakathi is elected eThekwini mayor with ANC support and pledges to fix water within 100 days",
-      "dek": "SABC News, News24, eNCA, The Witness, Daily Maverick, Central News South Africa, the Sunday Tribune, Fullview and others report the MK Party’s Mxolisi Phakathi has been elected eThekwini mayor through a deal with the ANC, and TimesLIVE reports he has pledged 'radical change'. SABC News reports Phakathi has pledged to resolve the water crisis within 100 days, and The Mercury and IOL report the DA says it will keep a close eye on public finances.",
+      "dek": "SABC News, News24, eNCA, The Witness, Daily Maverick, Central News South Africa, the Sunday Tribune, Fullview and others report the MK Party’s Mxolisi Phakathi has been elected eThekwini mayor through a deal with the ANC, and TimesLIVE reports he has pledged 'radical change'. SABC News reports Phakathi has pledged to resolve the water crisis within 100 days, and IOL reports an ANC KwaZulu-Natal official has been accused of lobbying against the MK coalition.",
       "brief": [
-        "SABC News, DailyNews, The Witness, eNCA, IOL, The National, Central News South Africa, Fullview and others report Phakathi was elected mayor with ANC help; TimesLIVE reports he pledged 'radical change'.",
+        "SABC News, DailyNews, The Witness, eNCA, IOL, The National, Central News South Africa, Fullview and others report Phakathi was elected mayor with ANC help; TimesLIVE reports he pledged 'radical change', and The Mercury reported MK's Mchunu saying the party saw no ANC reluctance to work with it.",
         "SABC News reports Phakathi pledged to resolve the water crisis within 100 days, and IOL, the Sunday Independent and The Post report he has put the water crisis at the top of his agenda.",
         "The Sunday Tribune and IOL report the MK Party’s Thabani Luthuli was elected deputy mayor, and The Witness, the Sunday Tribune and IOL report the ANC's Nyawose kept the speaker's position.",
         "The Mercury and IOL report the DA's Hoosen warned the MKP-led administration that the DA will keep a close eye on public finances; SABC News reports the DA confirmed a last-minute coalition offer to the ANC that failed.",
-        "IOL and EWN report five councillors, including former mayor Cyril Xaba, resigned from council, and the Mail & Guardian reports allegations of dirty deals."
+        "IOL and EWN report five councillors, including former mayor Cyril Xaba, resigned from council; the Mail & Guardian reports allegations of dirty deals, and IOL reports an ANC KwaZulu-Natal official is accused of lobbying against the MK coalition."
       ],
       "auto": true,
       "id": "ethekwini",
@@ -5320,6 +5364,18 @@
           "h": "Hoosen warns MKP-led eThekwini administration that DA will keep close eye on public finances",
           "d": "2026-11-28",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMldsMTJ4OEpYbEhKa0FTSHZXdlRmRWhrdUZyQTlFRDJsckpkNnpYbUVPYTFFRi1JZVJIU21xbWhGM3hLdVZQa1RSSlRwOEdsMF9yM3RhQjdOeE8yY2pqWTFDN2NEY3BxMTdOX1ZyeVIxVmFUUF94MEY1NHNKSmdxZWNwd2NTcDRDcERiaTJBZVBISnRtOVh4US1mWE0tZjhBZ0ZUQlV2UGxPOFZ3TUJkbWZ0TDFsWGxKUmFVLU9Iakl4aXFraXpBYjVvYjhQcEVj?oc=5"
+        },
+        {
+          "src": "IOL",
+          "h": "ANC KZN official accused of lobbying against MK coalition in eThekwini",
+          "d": "2026-11-28",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRmYxWFVwZ3JOakdwUm9rOEsyczBLZXo1eWlQOUlrdjhWV19tREQ1dVkxRXZmVjFnMFZvZzZjRUlnNkZYMm90U0lMenJtcjlPY0k1c3ZPb1F4cGR4a25jaTBMSkpJSEZKa19TOVktS0dnSUQ4WnpBRUp0VXE2WDRoMnJVSDJxaDZaT292LTFFWXkzS3F5U00yQUJyLUNfSm1zYUw4MUktWlNJNDRHeHdrcmNIUkNtZw?oc=5"
+        },
+        {
+          "src": "The Mercury.co.za",
+          "h": "MK Party sees no ANC reluctance to work with it in eThekwini, Mchunu says",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNakRHcDFndmJyVTlGZmFDb2xua0tpLXo1VmFrYlJCb3BZdlpmT3Z1ZmxPMmdWc2xkOWVHZkJ6QVZnc2VJVTVxLXFmc3lFeVBYMkRPQTdZd21nYk5jUGszUGctNUp3clNOX0M0LUNrdkZ2b3M0OW9xc1JRRVY1b3c4eUZwTFdFaTN2dEZQZXFVbmN3MW9HcVVmZVBVaHAwVmQ5VkhYemk5QkVMdGFwNElyeHpXeTgyREFROEJGZjBLOXc?oc=5"
         }
       ],
       "sec": [
@@ -5333,10 +5389,10 @@
       "cat": "Eastern Cape",
       "place": "Buffalo City and Nelson Mandela Bay",
       "h": "Faku returns in Buffalo City with the EFF as the DA's Retief Odendaal returns as Nelson Mandela Bay mayor",
-      "dek": "Princess Faku was re-elected Buffalo City mayor, beating the UDM's Nqabayomzi Kwankwa, and BusinessTech and The South African report the ANC teamed up with the EFF. In Nelson Mandela Bay, IOL, EWN, News24, Daily Maverick and Algoa FM report the DA's Retief Odendaal has reclaimed the mayoralty in a multiparty coalition deal, and IOL reports Fikile Mbalula blamed ANC infighting for the defeat.",
+      "dek": "Princess Faku was re-elected Buffalo City mayor, beating the UDM's Nqabayomzi Kwankwa, and BusinessTech and The South African report the ANC teamed up with the EFF. In Nelson Mandela Bay, IOL, EWN, News24, Daily Maverick and Algoa FM report the DA's Retief Odendaal has reclaimed the mayoralty in a multiparty coalition deal, and Townpress Newspaper reports he has mapped out plans for the metro despite tight budgets.",
       "brief": [
         "eNCA, EWN and Briefly News report Faku was re-elected; BusinessTech and The South African say the ANC joined forces with the EFF to keep control of the metro, and News24 reports ANC divisions over her return, quoting one voice saying “you cannot smuggle her back”.",
-        "IOL, EWN, Daily Maverick and Algoa FM report Odendaal was elected Nelson Mandela Bay mayor, and News24 reports the council elected new leadership as he took the helm.",
+        "IOL, EWN, Daily Maverick and Algoa FM report Odendaal was elected Nelson Mandela Bay mayor, News24 reports the council elected new leadership as he took the helm, and Townpress Newspaper reports he has mapped out plans despite tight budgets.",
         "News24 says the DA will govern with the FF Plus, UDM, ActionSA and PAC, after earlier reporting the vote was blocked by an ANC-led filibuster.",
         "IOL reports Mbalula blamed ANC infighting for the party's defeat in Nelson Mandela Bay.",
         "Geordin Hill-Lewis welcomed Odendaal's election, and the DA says its new mayor brings new hope and stability."
@@ -5350,7 +5406,8 @@
         "a-271e7f4ea9",
         "a-39e8372404",
         "a-0aa130d95c",
-        "a-07c0f93286"
+        "a-07c0f93286",
+        "a-15d4b8947f"
       ],
       "coverage": [
         {
@@ -6566,6 +6623,12 @@
           "h": "PA backs ActionSA candidate for mayor in the hung Laingsburg council",
           "d": "2026-11-25",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPejBpXzFMZ3JjcWpDb0JiM0ZmbnlWU01IcER3dHhUeHBWcDlsWVJZSGNhRGRoN2NtVU5iMHBoQ0l3a2E1SnZDZ3gyd0dua1E4bFpsUHZ5V2JEeVZVNWRkanlmNzVPU2N0SDZNcFBfREIzaXdqcVZJUDZhVnVZd2pKUlM5NG01cnhHN2tWS0ZQOVlUZFZpX3N5dkc4T1Vfd3hEWHE2dndxT2FsdFdwQlhDcGR1UmVhdXEtd1ZVMjVORWRzU1VHSlRaS2p0am5abGJTREE?oc=5"
+        },
+        {
+          "src": "thepost.co.za",
+          "h": "DA warns Theewaterskloof coalition change could derail financial recovery",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSF9qbEk5OC04UW1vb3NKdU5zd0hKSFN1RUtmc0FudlZMbFFUT3BTX2lGMUc2VXBEcTdRZk1fU09mNzFtSjZ1SmlYZ2xUd3g0LVhqSlhTNW5qc0ZYUWFVem9vUWlTYzRwN2pWWVpnMHU3SEF5a0U0SmJ4VmIxLUJ3VXRncUZJUE1STTc3SzVaUjN3X0tINHBtT0t3azRGOGpXN3puc1YzeElReUpMM1lWV0lHcU9IRGN6YUdMVWpVdw?oc=5"
         }
       ],
       "sec": [
@@ -8526,6 +8589,16 @@
     "5c853468fe02",
     "00cb4f888d23",
     "2311b0d140d8",
-    "fe0bc3af331f"
+    "fe0bc3af331f",
+    "15d4b8947f5d",
+    "6002b391dc53",
+    "b136108dc9bd",
+    "5b66d9626835",
+    "2f15e58e8331",
+    "49056c36788f",
+    "8a888f597bd1",
+    "6ca16298954c",
+    "3dc1103ba79f",
+    "cadf7d2c189e"
   ]
 }

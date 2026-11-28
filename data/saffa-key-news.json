@@ -1,7 +1,13 @@
 {
-  "updated": "2026-11-28T12:59:10+02:00",
+  "updated": "2026-11-28T13:56:41+02:00",
   "people": {
     "elon-musk": [
+      {
+        "h": "Elon Musk vows a SpaceX share for 'all kids in America every year'—and shareholders help foot the bill",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbXNEVVpMSjZ3SlZjQVZIenZaVDg2TXF1Wnotc2JUTjVUdGxSZUNyYWZGa0JDRzNvUlZ1WGJpekhySzdjU1dPYVdtcWRxS1dBNWVfbUxpOERvaUZfYUxtSk5OUGhMbWlTZXgzY2JIV09NQ09CNUM0ejYwcWcwWXdOZExUNW9Vdw?oc=5",
+        "src": "Fortune",
+        "t": "2026-11-28T13:14:00+02:00"
+      },
       {
         "h": "Norway’s Wealth Fund Again Votes No to Musk’s Tesla Pay Package",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVTV2UG9KVElYR1hhMk5wbnF1YmNLX0lxUzV6XzFNeTdGOFA4LUZKMnNXanpCbndyODluM3FKTlpUWUhSVUo4NF8wOTE4Q2xWLVpLcDZ3RnFyaHFQLXRzY3Q2aUZselVqRE1kUXM2WlR0enU2QTUxMUZkejN4Yk5XVFRzQTlxci1kOUVnWWFzVkh5M3gzWllPcnFLeXdHMmNKLU9kZTlNaE1GR3BzNEpzQ05YaWI?oc=5",
@@ -13,12 +19,6 @@
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYVpCZ09wSmxscjVrdGlzSlp3RkN6bXBWY1dmaTlWcUFMamp2MVVDLXRGSG5PakRfT1ZJYUI1dWVtbHlKZXVFMlZ0N3doYVBScXBObXVMeEEwTGxpdWVWWjhNN1hjZXUtZ01WdHBZOGpSZDh4bHFIUjdqSW0zc2lXMHdEMXNCZE83WFQ4bUczTS1HWGdQRFdNU2Y1OGtFQVpySnFGSkdzYnNTSHFxSzFSYW5WSmhveTk4RHliaDRNV1l1ZDVDZHRj?oc=5",
         "src": "Reuters",
         "t": "2026-11-28T11:19:43+02:00"
-      },
-      {
-        "h": "I'm an astronomer. Here's why Elon Musk's planned one million satellites could be a very bad idea",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOVVhUTRHaXpfMXp5Zi1DZTdCTVRCczVLZ3hzWjdfT0hCaEZOZjM4MEVEMlc0RHEzanF2NUlfa0NKZjFQQnhBWkhFbHRIYzZIdFBPTjVuTXdFazFGNUdZd291TnN5V0xZWm5YVU5sYjRzbFJYMnRxVFgyUXdqNjQ4M1g2enFRVlI4bHg3VjcyQjU1QUNYS1JxejJOMk1xZ1Y5OFpPa0x6cDY?oc=5",
-        "src": "BBC Sky at Night Magazine",
-        "t": "2026-11-28T10:03:00+02:00"
       }
     ],
     "trevor-noah": [
@@ -322,8 +322,8 @@
       },
       {
         "h": "What ‘Digger’ Has in Common with Gary Oldman’s Winston Churchill and Charlize Theron’s Megyn Kelly",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeDVQMWRRbTFfLVRCUGxSMGpxRGs3M1hvdHktRHIwQnc2ZVpxR0Q3NEZ3VlpzNFFPSEZFbVIteDYxdDhucFRqSHEzV3V6bDNiSG94TzlUZlpKMXNYTWlpZmZpeGVsVDRpS3NqdXR0S0Q0STVMR2VWUmR1Sm1jNndJczhRMlpqa3N6MUJ0OG9wREM5dFBoaFJXUEMxUmx3SHhWcUE?oc=5",
-        "src": "Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOGNscG5Oc1NNTlgtLVJNSk96SXRmeGI0T3RuUmxnRWZ5SmxiMFVkMUplMkxmckxGU0JjSFRxQkdTUjZDTHE1SFdYXzl6QUFRV3VJRC1yMUVVenI4RThFS2ZRTDRzWFJJRjMtb0dQQ2pVYVhSSEllSmloTGNOSGdjNDZsbEF6a29YUEFLajlrUXdzQTJ0amdkUGk5dlBIVG9QYWlF?oc=5",
+        "src": "IndieWire",
         "t": "2026-11-20T21:00:00+02:00"
       }
     ],
@@ -562,7 +562,7 @@
   "week": {
     "elon-musk": 92,
     "trevor-noah": 1,
-    "peter-thiel": 32,
+    "peter-thiel": 31,
     "thuso-mbedu": 1,
     "tyla": 5,
     "roelof-botha": 2,
@@ -587,7 +587,7 @@
     "troye-sivan": 3,
     "cariba-heine": 3,
     "dean-geyer": 0,
-    "marnus-labuschagne": 17,
+    "marnus-labuschagne": 14,
     "maxine-fassberg": 0,
     "brian-joffe": 0,
     "morris-kahn": 0,
