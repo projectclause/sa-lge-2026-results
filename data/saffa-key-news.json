@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-28T16:12:17+02:00",
+  "updated": "2026-11-28T16:58:25+02:00",
   "people": {
     "elon-musk": [
       {
-        "h": "No deaths occurred due to DOGE, Elon Musk states",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeGFkVDJMejlpVXVsV3dRUHdhSGNNS24zMURYSVNzMmlZaTJwNWxrRW1ucVVoak43NmtwWTJtNGw1cXVWajJiUjNIMHhWeFM4REpWS2ZpY1BuZDBGSXg2WTJ2QkFRa0F0aHJZaUNtSzlMZGpDQmVwR05vY19JNHNsMXdobnE?oc=5",
-        "src": "Traders Union",
-        "t": "2026-11-28T15:15:15+02:00"
+        "h": "Elon Musk says Google willing to rent more compute from SpaceX",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTHo4dm4yUnl5X3lEeDFCZk9mZ29KUXppSUFsUV9FQmQtRi0tT1Z6U2RNc3FqRWdKUWRETzhZQUZaMndVc2lRQzA4OG15TXJfNVZFQWE3TU9xQ1ZHa01GM0hucXg1SnhKLXdORnBKUVhuc2tQcWlqZ1JqR0tlUVN2eG8tX1ZHVXozd1lpemV1MklyY2htbWVGM1RtUmFEdFdPa1VqRHVfWmdMa3owNDg4c1VsN0xtd2hEY1pCZ2RvSWNuNkk?oc=5",
+        "src": "TradingView",
+        "t": "2026-11-28T15:53:20+02:00"
       },
       {
         "h": "Elon Musk pledges yearly SpaceX share to US kids: $8.9B",
@@ -83,9 +83,15 @@
     ],
     "tyla": [
       {
+        "h": "Tyla, Chaka Khan honored at Soul Train Awards",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOLTNrNk1ybXBadEdZMFdhWk9qMlVtRGtJa3doSFB5VWtUczlMTEZrVzlqcjNCMGFLMXd5TEhjeHlUZG9aemZsUDRMYi0tRzVNSTVwUHh2Z1hkMmtIZjhTcWZZQ1JjdkxLZDFQNlZmazNKVnJTVnNBbDV3TENFWVJ5X2FZekU4RThHVllsUmY0RzVZcWs4RUR4dXlMMk9lYlZFQ3c?oc=5",
+        "src": "NewsBreak: Local News & Alerts",
+        "t": "2026-11-28T15:20:59+02:00"
+      },
+      {
         "h": "Soul Train Awards 2026 Winners: Tyla and PartyNextDoor Take Home Honors",
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9lZ19WWFJCZ19lMHlRRzJOWW0zQ2FtV0J2aG5ULUY4YXlYbjR1WWJoZVpXYVRSVy1ub1FVY2QtTmcwUnJKdElPb0ZmQkd1RF8xX0JhQUJwZzVXajR4OThsT2tDS3cwZDJDbDhiZg?oc=5",
-        "src": "inmusicblog.com",
+        "src": "InMusic Blog",
         "t": "2026-11-28T15:10:32+02:00"
       },
       {
@@ -93,12 +99,6 @@
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdEN4aTJuWGxGX1NFWGdqRkF4T1c5SU5iOVVCRlV3bzhsX1cxblZyNXdzb0xmV1hQS3Qxb1lscnlCQUhZaXhsUHlWNGdDLTFvek5mYU83aFpqaXJTOGNxNFFjTFZXeTlKZkZTN3UwU2hUUXUxZjJCVVd6QnBlUS1UNHRzXzVsd0xFeURzc0RTeEpKTVFSbkJv?oc=5",
         "src": "That Grape Juice",
         "t": "2026-11-28T06:58:00+02:00"
-      },
-      {
-        "h": "Soul Train Awards 2026 Winners: Tyla and PARTYNEXTDOOR Win, Chaka Khan Takes Classic Soul Honor",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSlZGVkZPblFLRzd6YmxBTVU2YVppQ3g3TVZDQ25PMlFZUlBaekhiN2RjakxJX0pkNUw3dlNfdEtIaXFBZXVsVmRhZ3BPaHl5UmNwQ01fZ1FNT1M1cnMzellSdmhwRHhBdXFOUjQ1RF9MTHpNbzNQSWZiTl9nWTBiSWZUR1B4Y25NME1JZ2hYOGpWSmdZbDRHcFZFWXlGT19VWDZienVYUHF0eElaM21ZTVJWOFJPWGNTWUszVnZNRDlYYVhXdXJhLTA0NF91MURmMGlyOFlPWFPSAdgBQVVfeXFMTUpWRlZGT25RS0c3emJsQU1VNmFaaUN4N01WQ0NuTzJRWVJQWnpIYjdkY2pMSV9KZDVMN3ZTX3RLSGlxQWV1bFZkYWdwT2h5eVJjcENNX2dRTU9TNXJzM3pZUnZocER4QXVxTlI0NURfTEx6TW8zUElmYk5fZ1kwYklmVEdQeGNuTTBNSWdoWDhqVkpnWWw0R3BWRVl5Rk9fVVg2Ynp1WFBxdHhJWjNtWU1SVjhST1hjU1lLM1Z2TUQ5WGFYV3VyYS0wNDRfdTFEZjBpcjhZT1hT?oc=5",
-        "src": "within nigeria",
-        "t": "2026-11-28T06:40:44+02:00"
       }
     ],
     "roelof-botha": [
@@ -289,6 +289,12 @@
     ],
     "gary-player": [
       {
+        "h": "Justin Rose And Gary Player Bet Big $$$ On Golf’s Future",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUmdIQzk1ZWZnWHhReXViQTJtMDNNYWwtTGhLbURCZy02WTZwV2xVeXBWcVd6S0lRbWhPcmxhYm5yTjFfVkgxOUNZWTV6NDdmcklUbWZ6OXloMEZwVlBDSXREUzR2U21jeVRmZWNpcWszMUtfdkJRY1h1OU84N3dOWW5JWnFCRFNH?oc=5",
+        "src": "Yahoo Sports",
+        "t": "2026-11-28T16:30:00+02:00"
+      },
+      {
         "h": "The gift of giving leads to victory in Gary and Vivienne Player Invitational",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWGdLcGtYU3kzSjFVdUtqdGwzVGxfRlkxMXJ3eVJnbXN5QWpRcFNrU0hvTWJvdWp0ZUVGYVRDbDIyY2laNEJ3ZEhnMlNUSEtSSTVOYjdhQWthVW9hM2NBb0VWbDlkNENSSFg4NzdoUWVSSFdFNHZrc3lYMDdGVGZlMGdMR000LUNfVkFxcE9adm0xRWxEX3B6enFRLW5pN09rYmVHTXJfa3VrZEN0SFdTRXc2WUxkUmZr?oc=5",
         "src": "IOL",
@@ -299,12 +305,6 @@
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNS2VlRlQxWXRkZzdwMFhCc3BoX2hGX3ZMSGlMcHpkUjFoY0I3bmx4aEk1UHRBdURSQllpX1MzY2ZwcUhraVhvUnJ3d2N5LUM2N29aLUx0Zk5oRGE0Z1VLekxaWDVOTVp4UTBzX1NqWk95VnlyQS1JaFUxYWc1cXFuYXBWSm5udkN6cVowUFBYci00MlhXSnczdFdWdkRuazVxeWp1OVFSREhla05DbnloVw?oc=5",
         "src": "Golfmagic",
         "t": "2026-11-28T00:43:32+02:00"
-      },
-      {
-        "h": "From Gary Player to hackers who shoot 172! The 'Carnoustie Caddie' has seen it all",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWXljbjJzRVhOcmNFSjVWVG5CZlltOXJmdWZaVDkzYzFxalA0cU4wNXpSYVdiUVhWVVc3Y29vWUNBVGhlLUs0ckxvQW9nOVV2TXByUjh5ZlM3QXB3dXVETG9seEd2Znl3RS1sSlJFdHZtU1Y2dXlEYWpWS053N3NtUmFRbkVzejFNMXFiWFc3T211Z9IBlwFBVV95cUxNc3VGSjg5SmhCYmVxNF9kRmpMLXk4VnVYdmF3TTVvVzRJXzhUaVpqaDFOdjhJZGZRV0d3QzgtM3VsYndNM2R3cTBIZDFzT3MySUVYYjNPaXpxSVlxUXJpbkdxaXc0UEQtNDRsc0FlVlA0VUpycnNYWDNlOW0tbktxb00xRS02VXp3SU0wS0l2TkhsbGMyNzNV?oc=5",
-        "src": "Scottish Daily Express",
-        "t": "2026-11-25T17:33:00+02:00"
       }
     ],
     "charlize-theron": [
@@ -369,10 +369,10 @@
         "t": "2026-11-28T04:21:46+02:00"
       },
       {
-        "h": "Philanthropy is a bridge across inequality, says Nobel Peace Prize winner Navi Pillay",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPcDVMNmI3b2M4RFloOWFwNnRvY1BBNzlsY0RTc1R2Y0hldkJ2UUo4SWJCa1FRWjhVR1FtVHRIcUw3RUUwZnllc0VFZVZDbXpQc1lTMGFSejlaSVpsUWEtUnAyd2l3VnFjOE1RYlIzOUk1ZEQ4c2dVMnZJbERmWnFTME1TaFB5SVpZdThNemxic1RCUS1OR2hma1I0MUgwMVZQTnkyaEd6cTQtSEJlTjlzaGNJWWVXMGdqckRoM0RQRzJUVmlEaHRMaFd2WGwxM2o5NE5TYWU1N2l2UQ?oc=5",
-        "src": "TimesLIVE",
-        "t": "2026-11-27T15:18:26+02:00"
+        "h": "Navi Pillay’s Nobel recognition should inspire Durban, says Denis Hurley Centre",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5yNWZpOWcwd3Z4bWZlNVduS2xRSzBZWVRXSThBbWZQQkpRYTlmdWpwM2ZvOUdKb1RpYUdZU0xFSnpBX2pRUkRIRmR4dlFQdWMxQk1SMy00bkk0UWxUUWtfRUxSU3dUdw?oc=5",
+        "src": "The Mercury.co.za",
+        "t": "2026-11-27T15:33:48+02:00"
       }
     ],
     "jm-coetzee": [
@@ -560,11 +560,11 @@
     ]
   },
   "week": {
-    "elon-musk": 91,
+    "elon-musk": 93,
     "trevor-noah": 1,
-    "peter-thiel": 33,
+    "peter-thiel": 34,
     "thuso-mbedu": 1,
-    "tyla": 14,
+    "tyla": 15,
     "roelof-botha": 2,
     "black-coffee": 6,
     "david-sacks": 0,
@@ -577,7 +577,7 @@
     "chad-le-clos": 3,
     "neil-sandilands": 0,
     "ivan-glasenberg": 1,
-    "gary-player": 5,
+    "gary-player": 6,
     "charlize-theron": 3,
     "lyndon-rive": 0,
     "kandyse-mcclure": 0,
@@ -587,7 +587,7 @@
     "troye-sivan": 3,
     "cariba-heine": 3,
     "dean-geyer": 0,
-    "marnus-labuschagne": 17,
+    "marnus-labuschagne": 13,
     "maxine-fassberg": 0,
     "brian-joffe": 0,
     "morris-kahn": 0,

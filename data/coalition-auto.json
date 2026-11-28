@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-28",
-    "time": "16:10"
+    "time": "16:56"
   },
   "items": [
     {
@@ -2260,6 +2260,18 @@
       "src": "independentonsaturday.co.za",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNOHBiazE5RkE5WlFZajViM0s2REdpelpxUDF4ekU5VTkxZXgtSy12U2UwbVlHempYeklCV1dGcUd0OU0wS2s0RTlJd3duYzk3eElFYUlCYUJTdlpnaHlUUUF6b3h0Ul9MMk4wN0RPanJRU3hnMFlmMWhvRHdVMFVJdHFheFZGbWFoaWFEY1dGc083dTJMVUs3bW4xbmQ0VUhrcWN0cTBwaTlpeVZ1dnFpSjNFVHJvNUVpUGk2c3JLNGF0cm4wNHhWSURFS1FobGZXSlJMQlZYeGdEVlE?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-d4f4fa7c85",
+      "j": "herman",
+      "d": "2026-11-26",
+      "kind": "Article",
+      "place": "Johannesburg",
+      "h": "ANC delaying Joburg, but the deal is done - Mashaba",
+      "s": "The Cape Argus reports Herman Mashaba says the ANC is delaying the Johannesburg process but that the deal is done.",
+      "src": "Cape Argus",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5dm5DUzFPREFXNndnQV8tQlZkQ1k3ZGV4NWY2MlVwbkkxbUR5c05wZVJCczdzc2ZCdTYyZ3BRSE9RT3pUMzByS2xxWHdNQkNBR1pYbXAxWC04VzNaeUgzRDhKSHBTQQ?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -2312,7 +2324,8 @@
       "a-e3e75eeff3",
       "a-689557a3e5",
       "a-b136108dc9",
-      "a-7377a3b2ff"
+      "a-7377a3b2ff",
+      "a-d4f4fa7c85"
     ],
     "actionsa": [
       "a-773fa265cd",
@@ -3436,6 +3449,18 @@
         "h": "Herman Mashaba returns as Johannesburg mayor amid political shifts",
         "d": "2026-11-28",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdUNOd3BWNG1aVUEzRG1pcVlTZXYxNnktQm95NnhGMzZ2dWZ0ejlibUthSGRIS2UwdGFxZGhaTW9IX2VSSGprWUk2bHItYTFXSnNZRVBBWXB3N18ySmdQY0xabTFOUEs3ektVdnFjbmhqbEN6OFFWbzcxVlhRa3F6R3JQZVYwand2RGVXUmgyT3NNVU83a2F1am1SN2JWbngzNlZncXZDLWV4S0N4VFpr?oc=5"
+      },
+      {
+        "src": "SABC News",
+        "h": "Mashaba reviews Joburg’s financial health in first days as Mayor",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUG9sSmd3eUZqRkttaWpFZkJUMklTSHhwaDdoQnRDb3hmak5tN2hjdjRCbW1DUFZQRHBrc0ZZRUQtZU5SV1NkNnBzQ2MxLVJYN3RjSkNtRXpuV2c4a1RvS3FQTnNXcThIWi1yd0lwdU1XTUVjMlVzeEFpX1RPeHNWUU9BWDN3NmdnVUlHdndrbzNManUxXzdtazhFaG1iX1E?oc=5"
+      },
+      {
+        "src": "Idaho Statesman",
+        "h": "Johannesburg picks Mashaba as mayor in ANC-backed deal",
+        "d": "2026-11-27",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOWRGQk90TzVVQU1vMWhkVFU5OExPaUVkd3BrLXhHTk9mZ0dkV2xoV08tdFBXck91MEM5Z29iZFNva3ByMmhtWTgxd3g4TTNTQldDZG9rR0t1T2pCRURYOXQyZHNFWTh3dXpfQ0Z0ZU45eWJwM25SdGdyeGFaTVVlQ0dR?oc=5"
       }
     ],
     "councils": [
@@ -5461,6 +5486,12 @@
           "h": "MK Party sees no ANC reluctance to work with it in eThekwini, Mchunu says",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZ0dzR1dYa2c2cmdvcjQ4U0pwRUxIRDRXazRVNF9meUk4QWd4eU1BcU9YWmthZUlLWWQ2RFBfelZIZGp1RDhvYzVxNEZGUnN1ZV9vZWJpdzR6M21WM1hzaVdheFNFQzFlMTdYdTF1OXJhZEZlaTZZYS1BNmZ3MDVVa3FkcTJpLVpmRXNndllaYURuY0tYdFNHNFVYU0F2VnVOOWlPaU83Q3ZjQmZtRWdiQ0VvX3pyazMyRVpPblhvTHh1b2ZUeEFPc213?oc=5"
+        },
+        {
+          "src": "Central News South Africa",
+          "h": "MK Party’s 86-Seat Council Presence Sets Stage for Phakathi’s eThekwini Mayoral Leadership",
+          "d": "2026-11-28",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNV05icmxCRDVhTzdTa05mNjFENzJBNmhYSXhyWXRUQ2t4aDBUTkxxQndKcmM3Y2VOYjBNRkNYT1QtS2JydXBPVzVUbk5tN0pJSUZPN3J4LURrcy04TGIzSmZWTnBqM05Lc1pDRWNVVFI2alFWYUpBRVdHZjZmbk5aZ2NoNmJnVDNnek9qbWlYT1p6OXlfbzZSalA1Q01EYlBRTHB6cHc0TGZZaDRkWDdBZmM0bEFqUQ?oc=5"
         }
       ],
       "sec": [
@@ -6495,6 +6526,12 @@
           "h": "DA holds out hope for Ekurhuleni coalition as ANC-ActionSA deal takes shape",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZzhhbV9lUW1Rd3pLbU9ncHdrYUJlM2tmbzZNZ19wSlgxOGRVVDMxWDlyVHM2bkFKb0ctMFczbjdGSGRPY3FneVA3bWpoak9Pa3BnVWQtdDdKWWlxVVlwczZoWGpfRWpRLUFPaTNwQm1GeXd5bmpzVFg4ZjdiMUh3N0lQc3ZMbElnNnZLTV9OUVAtM1lRUTE4X0RSUmpYdklBbUNzSGhBN3g3aWdLT0ZCcFQwbzJ0WjlIWk5ycEVmRFdxS1p6?oc=5"
+        },
+        {
+          "src": "The Common Sense",
+          "h": "ANC Elects Mziyanda Mketsu as Ekurhuleni Mayor",
+          "d": "2026-11-28",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQc25rbDhwOGZTTl9mV3pmcWlEc1FqS3k1MEU3LURkTkRoNVNvYUVNSWdNRlBaME9OZVZfcVJiWlM0UF9fRXI4b0VELW81QmtmSDlvcmFCYnNpaS1odjdReXpVVDBMRU8tbTZ2Q1BsVWFkd3RodUl5dW4tWFU5eUE5OEZFZWUzSWZyd0xvRE9zcmdqUQ?oc=5"
         }
       ],
       "sec": [
@@ -8734,6 +8771,11 @@
     "5169580bbccc",
     "7377a3b2ff72",
     "59be38670d70",
-    "4edd690ff110"
+    "4edd690ff110",
+    "714c6654f267",
+    "12d5045aa4bd",
+    "f5291b75900f",
+    "81368792920f",
+    "d4f4fa7c851e"
   ]
 }
