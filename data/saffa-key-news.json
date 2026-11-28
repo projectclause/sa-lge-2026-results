@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T12:53:28+02:00",
+  "updated": "2026-11-28T12:59:10+02:00",
   "people": {
     "elon-musk": [
       {
@@ -322,8 +322,8 @@
       },
       {
         "h": "What ‘Digger’ Has in Common with Gary Oldman’s Winston Churchill and Charlize Theron’s Megyn Kelly",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOGNscG5Oc1NNTlgtLVJNSk96SXRmeGI0T3RuUmxnRWZ5SmxiMFVkMUplMkxmckxGU0JjSFRxQkdTUjZDTHE1SFdYXzl6QUFRV3VJRC1yMUVVenI4RThFS2ZRTDRzWFJJRjMtb0dQQ2pVYVhSSEllSmloTGNOSGdjNDZsbEF6a29YUEFLajlrUXdzQTJ0amdkUGk5dlBIVG9QYWlF?oc=5",
-        "src": "IndieWire",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeDVQMWRRbTFfLVRCUGxSMGpxRGs3M1hvdHktRHIwQnc2ZVpxR0Q3NEZ3VlpzNFFPSEZFbVIteDYxdDhucFRqSHEzV3V6bDNiSG94TzlUZlpKMXNYTWlpZmZpeGVsVDRpS3NqdXR0S0Q0STVMR2VWUmR1Sm1jNndJczhRMlpqa3N6MUJ0OG9wREM5dFBoaFJXUEMxUmx3SHhWcUE?oc=5",
+        "src": "Yahoo",
         "t": "2026-11-20T21:00:00+02:00"
       }
     ],
@@ -560,9 +560,9 @@
     ]
   },
   "week": {
-    "elon-musk": 91,
+    "elon-musk": 92,
     "trevor-noah": 1,
-    "peter-thiel": 34,
+    "peter-thiel": 32,
     "thuso-mbedu": 1,
     "tyla": 5,
     "roelof-botha": 2,
@@ -587,7 +587,7 @@
     "troye-sivan": 3,
     "cariba-heine": 3,
     "dean-geyer": 0,
-    "marnus-labuschagne": 14,
+    "marnus-labuschagne": 17,
     "maxine-fassberg": 0,
     "brian-joffe": 0,
     "morris-kahn": 0,

@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-28",
-  "checked": "2026-11-28T12:54:01+02:00",
+  "checked": "2026-11-28T12:59:43+02:00",
   "order": [
     "macg",
     "sizwe",
@@ -19,7 +19,7 @@
     "sizwe": "1.02M",
     "makin": "368K",
     "sham": "250K",
-    "mighti": "224K",
+    "mighti": "225K",
     "zimasa": "199K",
     "corder": "165K",
     "wyatt": "156K",
@@ -29,15 +29,15 @@
   },
   "raw": {
     "macg": 1854180,
-    "sizwe": 1022322,
+    "sizwe": 1022325,
     "zimasa": 198577,
-    "mighti": 224236,
+    "mighti": 224703,
     "sham": 250273,
     "makin": 368385,
-    "corder": 164810,
+    "corder": 164808,
     "zizipho": 107521,
     "wyatt": 155943,
-    "masilela": 68334,
+    "masilela": 68364,
     "djsbu": 29277
   }
 }

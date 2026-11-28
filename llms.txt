@@ -1,6 +1,6 @@
 # PREAMBLE
 
-> South Africa’s global and local data. Live results of the 4 November 2026 local government elections, a ward-by-ward map, the mayors of the eight metros, and a Coalitions Tracker that groups reporting on the coalition talks into stories with summaries and links to every original article. Updated 28 November 2026, 12:51 SAST.
+> South Africa’s global and local data. Live results of the 4 November 2026 local government elections, a ward-by-ward map, the mayors of the eight metros, and a Coalitions Tracker that groups reporting on the coalition talks into stories with summaries and links to every original article. Updated 28 November 2026, 12:57 SAST.
 
 Data: Independent Electoral Commission (IEC). Summaries are written by Preamble with AI from published reporting; the journalists and politicians quoted do not write for Preamble.
 
@@ -68,7 +68,7 @@ Data: Independent Electoral Commission (IEC). Summaries are written by Preamble 
 - [Ashor Sarupen](https://preamble.co.za/people/ashor-sarupen.html): DA Federal Council chairperson; key player, 3 coalition pieces
 - [Athol Trollip](https://preamble.co.za/people/athol-trollip.html): ActionSA, Nelson Mandela Bay; key player, 2 coalition pieces
 - [Bongani Baloyi](https://preamble.co.za/people/bongani-baloyi.html): MK, first on its Johannesburg list; key player, 1 coalition piece
-- [Cilliers Brink](https://preamble.co.za/people/cilliers-brink.html): DA, its 2026 Tshwane mayoral candidate; key player, 2 coalition pieces
+- [Cilliers Brink](https://preamble.co.za/people/cilliers-brink.html): DA, its 2026 Tshwane mayoral candidate; key player, 3 coalition pieces
 - [Corné Mulder](https://preamble.co.za/people/corne-mulder.html): FF Plus leader; key player, 3 coalition pieces
 - [Cyril Ramaphosa](https://preamble.co.za/people/cyril-ramaphosa.html): President of South Africa and ANC president; key player, 13 coalition pieces
 - [Dada Morero](https://preamble.co.za/people/dada-morero.html): ANC, outgoing Johannesburg mayor; key player, 2 coalition pieces

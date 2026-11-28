@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-28",
-    "time": "12:51"
+    "time": "12:57"
   },
   "items": [
     {
@@ -2176,6 +2176,18 @@
       "src": "independentonsaturday.co.za",
       "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQS19yV3pJQnQxZGQwc2tPNWd1TGgwZ25KdkxUVGU3LThNNVNsVEJJVnM2ckh1c2pIc19SU1lFMGhuemdrZDN3bUhEcTVGVzRqTWdOdDVDQzRhdkVCUkx5Z2xDNmIwM01XYnJ0bll2OTU5aDBpbWZZUnBYaE5ndVRQNzJmTENOVWQ2cFZManI5STNGa2VULXhEN2U2T2hoWUZRS1lXVHJxWEdaQno4OElwelJ2VXE5ZDJjLWoydHlTWGlsS1F6bmVUTEpIZ2V5ajZLR0xjelA4LW0zOE5VVmNfZ1paM0tOMEpvOUNGbFJLalJyM1VpV2pJRHJn?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-2311b0d140",
+      "j": "brink",
+      "d": "2026-11-27",
+      "kind": "Statement",
+      "place": "Tshwane",
+      "h": "The DA will continue to fight for Tshwane from the opposition benches cilliers brink",
+      "s": "Cilliers Brink says the DA will continue to fight for Tshwane from the opposition benches.",
+      "src": "Townpress Newspaper",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPakxfSHlfejRmUXUxSDZOblcyMDVoQl82MnF6Qm9hTjlSTW5kQTgwRmNtcGtmV1dKT2M2ck5JZWtqbDFFUlZQWDFHM2k3V2RNQURyYkJpR1NBcThfamM1a1JjTTRJaGtCRV96NFlkYm5hcmV4RlIxN1lGRmVqX2lPcVlaSGhoQzdDVE9sS3loV05nT0pKSVBNOHNaQ0RFZmVzS25VZUVyYnlrUWJRakxueXZRQWFnOXBMWjlBNVhEMXhjaE00U1BnTDNfZy03TWNaS18xM1dqVFRaeFN4Rng2YWRGalJPcktMY256NnU5emFzbGVY?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -2280,7 +2292,8 @@
       "a-f512229c7f",
       "a-a3d9f6f450",
       "a-bd8f659226",
-      "a-25fc918fa1"
+      "a-25fc918fa1",
+      "a-2311b0d140"
     ],
     "grand-deal": [
       "a-4aa7f8b650",
@@ -6303,6 +6316,12 @@
           "h": "WATCH | Kagiso Lerutla presides over Ekurhuleni’s inaugural council meeting",
           "d": "2026-11-26",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeWdQY0lLME9xRlMwN3dxNUxpNjNkUE9jSTd3Q09uU3dndlc4cWliWUhVWEFJSzJUQ3lCM2k1eHp2bTY2VlB5U0FLNTR3WHQtamZyTGRwdkgxNC16WGF6R0lvbXFNQjN3a1pDeHY1UXdhRmp3MlhPaXMzbTY3OW16RlphR2M5Y01XZjVvY0NMRVlGNVZ1WDRzcG44Qy1TZ21SMEozcnMwV1p1V0NWd202UGdzTWtRSEZqMXdxZzJjUUxmZ18tT0pr?oc=5"
+        },
+        {
+          "src": "thepost.co.za",
+          "h": "Ekurhuleni council to elect new ANC mayor amid postponement due to coalition talks",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdEFjYWRKc0dpaHcyOUo2bUU1Rl9nZjJPVENKbDR4WmxVay1wY3ZZUTlGZk5YV1MtMTNDZElmaTNTWFh1WkNKbmZBaG5nWlJGMjJmc21xVHRIVzBZdkFjbnBVeEJkT0JXYzNXUVpxNnlwcFB6cTFuWHZETnluT1A5T0owbFdXZjhtLUtEbEYwSjBfOFZkUzFBWWV4OVdNVVVRUlhsT2lQZ0Zxd3lWMkNwd2ZmSHVJdjNHMGRVTlNfbTg0Z3RXX1Y2NmRB?oc=5"
         }
       ],
       "sec": [
@@ -8504,6 +8523,9 @@
     "91d6cd56e610",
     "8142487b7cea",
     "ba850a9ac472",
-    "5c853468fe02"
+    "5c853468fe02",
+    "00cb4f888d23",
+    "2311b0d140d8",
+    "fe0bc3af331f"
   ]
 }
