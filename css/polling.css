@@ -54,3 +54,20 @@
   .po-row { grid-template-columns: 64px 1fr 56px; }
   .po-ins li { font-size: 15.5px; }
 }
+
+/* the polls over time: a line per party, dots for polls, diamonds for the result */
+.po-lwrap { width: 100%; }
+.po-lsvg { display: block; width: 100%; height: auto; overflow: visible; }
+.po-lgrid { stroke: #ececec; stroke-width: 1; }
+.po-lax { font: 400 11.5px var(--font); fill: #777; }
+.po-lax-b { font-weight: 700; fill: #121212; }
+.po-lelect { stroke: #121212; stroke-width: 1; stroke-dasharray: 3 3; }
+.po-lline { fill: none; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.po-lto { stroke-width: 1.5; stroke-dasharray: 2 4; stroke-linecap: round; opacity: .8; }
+.po-ldot { stroke: #fff; stroke-width: 2; cursor: pointer; }
+.po-ldot:focus { outline: none; stroke: #121212; }
+@media (hover: hover) { .po-ldot:hover { stroke: #121212; } }
+.po-llab { font: 400 12.5px var(--font); fill: #121212; font-variant-numeric: tabular-nums; }
+.po-llab-p { font-weight: 700; }
+.po-ldia { display: inline-block; width: 9px; height: 9px; background: #121212; transform: rotate(45deg); margin-right: 2px; }
+@media (max-width: 720px) { .po-llab { font-size: 12px; } }
