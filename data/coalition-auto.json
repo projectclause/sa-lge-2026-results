@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-28",
-    "time": "10:57"
+    "time": "11:57"
   },
   "items": [
     {
@@ -2128,6 +2128,54 @@
       "src": "SABC News",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVnNYQ2VVc1p5SEI5NzdNQkxGaFlRMFgxUU9TNnFFaUpPUWNqVFc0X2NXWGlWMG11STBkSG9QbEVlcUVyMk5tdi1qUzZtTXZDWU1XSFRaY2VRSkRwZVpxczU5SmJDRHFwbVduSjhSVVhianI2SW1mclNrUk43bTA0aWJMUFFHRTk5WDAxczBxeWV5T19aVlFYdVE2bjFCWXV3NFYwRndNZw?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-07c0f93286",
+      "j": "odendaal",
+      "d": "2026-11-28",
+      "kind": "Interview",
+      "place": "Nelson Mandela Bay",
+      "h": "Nelson Mandela Bay mayor Retief Odendaal outlines his plans for the metro",
+      "s": "EWN reports Nelson Mandela Bay mayor Retief Odendaal outlining his plans for the metro.",
+      "src": "EWN",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQVZKRDFyQkZhTnh5N0pUaG40Z2JaUUw5Qml6b0FHdkxNdF9LQXdJbFpSREZNUlo5MHhrX2N5dVdlSUxKTGd3c1ZmWXl6eHAyeGRQVWtDa1lMaURmcUJmZUxOaXhZVlVGMUw4NTMyR3YzVXNoeXpncThKbWIzWjJsUjRxM0RSZjQzbGpVVVRsM1FKRFdkTGp6ekR6aUxmOEsxclJxWnZzeE9BUQ?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-3203374f86",
+      "j": "julius",
+      "d": "2026-11-28",
+      "kind": "Article",
+      "place": "Johannesburg",
+      "h": "'Never trust a lawyer who says, 'We'll see them in court': Malema mocks Zille after interdict win",
+      "s": "The Citizen reports Julius Malema mocked Helen Zille after winning an interdict against her.",
+      "src": "The Citizen",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSng1YUJQUTZ5ZUoyQktIZElNdC1ydnRpbXZEQlB4VmhsV1B0VGxVUFZINW1OSndKUW1ZMndvUVJKNE1DZ0RXTWRIRUhjdjExV29kX3Q0Rkt0cGVXVVY0NzhGM0hNM1g4Ym9MT3BveTJZMGFvNHU4aXJxUjhxTC1UQ0FQc1FRbHppZG5hVE9zMjFPYTZLbktVOQ?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-5f6724a42d",
+      "j": "herman",
+      "d": "2026-11-26",
+      "kind": "Article",
+      "place": "Ekurhuleni",
+      "h": "Mashaba confirms Xolani Khumalo as Ekurhuleni deputy mayor",
+      "s": "The Independent on Saturday reports Herman Mashaba has confirmed ActionSA's Xolani Khumalo as Ekurhuleni deputy mayor.",
+      "src": "independentonsaturday.co.za",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRzg0bzltaFdzVDcwVU9xNWJVMUpRZmVEdUJ1UWtBaTZ2NjZNQ1lEaUVhS3pjeEhEY1dWeTVaMmNxcnpOYTltRWNzdUtQUTlETFk1VHFsTnJtX3dkaUlMZGxIWUg3UFBIQ3J5MzQ5MHdGRkU5WDVqTEFBMndSME5tLWVhZzdJRzVwdVR5eXB2LVJNaWc2UEMwNkhueFFqcy1ZTkFtdlNZNlZSd25ZVzlkMmJCTEVIWGpIS1BOZg?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-689557a3e5",
+      "j": "herman",
+      "d": "2026-11-26",
+      "kind": "Article",
+      "place": "Johannesburg",
+      "h": "ANC delaying Joburg, but the deal is done - Mashaba",
+      "s": "Herman Mashaba says the ANC is delaying matters in Johannesburg but that the deal is done.",
+      "src": "independentonsaturday.co.za",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQS19yV3pJQnQxZGQwc2tPNWd1TGgwZ25KdkxUVGU3LThNNVNsVEJJVnM2ckh1c2pIc19SU1lFMGhuemdrZDN3bUhEcTVGVzRqTWdOdDVDQzRhdkVCUkx5Z2xDNmIwM01XYnJ0bll2OTU5aDBpbWZZUnBYaE5ndVRQNzJmTENOVWQ2cFZManI5STNGa2VULXhEN2U2T2hoWUZRS1lXVHJxWEdaQno4OElwelJ2VXE5ZDJjLWoydHlTWGlsS1F6bmVUTEpIZ2V5ajZLR0xjelA4LW0zOE5VVmNfZ1paM0tOMEpvOUNGbFJLalJyM1VpV2pJRHJn?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -2177,7 +2225,8 @@
       "a-7e3a9fe635",
       "a-9af9a6f0aa",
       "a-85f26f25de",
-      "a-e3e75eeff3"
+      "a-e3e75eeff3",
+      "a-689557a3e5"
     ],
     "actionsa": [
       "a-773fa265cd",
@@ -3257,6 +3306,18 @@
         "h": "ANC pushes for key Johannesburg council positions after MK Party coalition exit",
         "d": "2026-11-27",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONmJuckMzRzctWFlQenI0R29HR19GVk1YRHFkcldibGRfNUhlc21ZR1ZwTjR2ODZuSWtVQkk2LXZLdXdUazRmOXZRWnJYd05DUGxuNGxyTkFZbDYzVFpvTTZUZWxRZHVJaUctWnRhNExLSmFqelVvb3A5ZFhkcFBjNGtkejNpVVZrdFBVeFNVZlJpbGtlaV9lREsxdExyeUU1TGpWRDB6a1lvSHg4cDE4Qi0zR2UtUVZFcFhIdEQtNVVMVGhPcnBLYTF2SGo?oc=5"
+      },
+      {
+        "src": "Inside Metros",
+        "h": "Mashaba gets the mayor’s chain, but ANC takes key Joburg posts",
+        "d": "2026-11-28",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZFRFSXlxN0U3MG5VdlE3eVJnSVlLZ2thRjNOT2RDbVNEN3VOWWNhUlM1R05lNldsWTJqNFBPYUpMWjl4XzhBNzlRVkVtcW5adUl6TDhZTTJLOS1iY3hRWDF2ODQ5MXhMR1Bsc3Q0NWh5SjlxU3d2bWlhLVlrYk9nMHpGQjFJU1dOUXp4TEtvNXZ1R1RKdUJDM2E4bmM1NGI1?oc=5"
+      },
+      {
+        "src": "The Chenab Times",
+        "h": "Herman Mashaba Elected Johannesburg Mayor Over Helen Zille",
+        "d": "2026-11-28",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeEZLZTFUVzRqUGF6ZmctZDNGMUtfR3NXSTFpY3FmRm9GTUNCZGpqRlN2S05RcjZaY3oxeXhYQzdQZUlCNXY0T0YzTVBCVDRodnpHc2xDS1Exa2c0Qmo1OXVxNjhRY1VLZWlYQlR2ZWdZZXpJTHVVMjVrUGtmdEg0YWVjYVN5QkZ3M25JeUlYMy1ncUQ5V3M0SnJxSk93RWZRSHRHdw?oc=5"
       }
     ],
     "councils": [
@@ -3837,6 +3898,12 @@
         "h": "ActionSA to negotiate for Nasiphi Moya to serve another five years as Tshwane mayor",
         "d": "2026-11-28",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRnpUVzFHWF9yT2tNVGJUR3ZBQVRINjZFSXhIdHBxZE9MaDFJOHJkMG9hdGl4Q2VVMi15TXFXamhVTWVZNGNmb2xobnlOUWgyNG5TbGhFeUFkZ0lTZkdiYkV2eHFQVTIwYU5PRk9ROUw4ekFMQmppaEpyT3BSbDUtMVRmdUpLM2E3WWlkV0NwVWhsenN4aHF0MDZaOVl1X3ZKTk84RG5jemZ1QVVGa0M0LVZ6ZlZMUnpKM2lDdWFn?oc=5"
+      },
+      {
+        "src": "thepost.co.za",
+        "h": "Naeem Patel elected Tshwane council Speaker",
+        "d": "2026-11-28",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNS3lIRkRwazdOcXhUcEdaQ2hGblhTZXd1Wk1kUWxOTGJCUFpVTElNWjIyZ0xjc0JtNXNEaGU5QUpjaGdsQTJiV29tYzA0S2IwNzhZVlgxTXNmVENwR1R1ZkM5bTZxV2owYVFJd3ZQeVVBUlljakYxSTVEeHZsVVZudnFIN3hSelZsMmp4T3NNVzQ1X0VRWUI0NFkxTXJUak5J?oc=5"
       }
     ],
     "actionsa": [
@@ -5245,7 +5312,8 @@
         "a-5545258a53",
         "a-271e7f4ea9",
         "a-39e8372404",
-        "a-0aa130d95c"
+        "a-0aa130d95c",
+        "a-07c0f93286"
       ],
       "coverage": [
         {
@@ -5586,7 +5654,8 @@
         "a-e5a4a61bd8",
         "a-331e0064cd",
         "a-5ada39e348",
-        "a-c04491259d"
+        "a-c04491259d",
+        "a-3203374f86"
       ],
       "coverage": [
         {
@@ -5817,7 +5886,8 @@
         "a-82775b8215",
         "a-79ece835c7",
         "a-e54d14313a",
-        "a-ad9859a84f"
+        "a-ad9859a84f",
+        "a-5f6724a42d"
       ],
       "coverage": [
         {
@@ -6197,6 +6267,12 @@
           "h": "ActionSA’s Xolani Khumalo not expecting to be elected as Ekurhuleni deputy mayor yet",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUnVtOUtPNXU4bmhJalRfdHFBTlRXRzh0MG85R3JjWDg0SVlMWlljTmowd21pWDNzb1RmcHJmSXJWcVBqUEtoSUY1WUdRYkNfUWdxMEdIb21iUzhsQ0ZpUkNKa3AxdlpOa0tvbEZoaHFSamNLVUJOMEtPaFdZOXVSWTBHcjd1WjdERVRSUXVtYmlMMXM4RWVvZzBLNHdLLWlodWtidjFtQ1l5VW9feTdHbFpYQjc5Qldp?oc=5"
+        },
+        {
+          "src": "independentonsaturday.co.za",
+          "h": "WATCH | Kagiso Lerutla presides over Ekurhuleni’s inaugural council meeting",
+          "d": "2026-11-26",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeWdQY0lLME9xRlMwN3dxNUxpNjNkUE9jSTd3Q09uU3dndlc4cWliWUhVWEFJSzJUQ3lCM2k1eHp2bTY2VlB5U0FLNTR3WHQtamZyTGRwdkgxNC16WGF6R0lvbXFNQjN3a1pDeHY1UXdhRmp3MlhPaXMzbTY3OW16RlphR2M5Y01XZjVvY0NMRVlGNVZ1WDRzcG44Qy1TZ21SMEozcnMwV1p1V0NWd202UGdzTWtRSEZqMXdxZzJjUUxmZ18tT0pr?oc=5"
         }
       ],
       "sec": [
@@ -6861,13 +6937,13 @@
       "cat": "Cape Town",
       "place": "Cape Town",
       "h": "Geordin Hill-Lewis is re-elected Cape Town mayor and names his mayoral committee",
-      "dek": "IOL reports Geordin Hill-Lewis has been re-elected mayor of Cape Town, pledging jobs and stronger policing, and that the DA has declared victory in the city. The City of Cape Town, The Bulrushes, EWN, SABC News, Cape Town ETC, Central News South Africa, Nova News and IOL report he has announced a new mayoral committee, and ActionSA says it will hold the new members accountable.",
+      "dek": "IOL reports Geordin Hill-Lewis has been re-elected mayor of Cape Town, pledging jobs and stronger policing, and the Cape Argus reports the DA has named Limberg as deputy mayor while Purchase retains the speaker role. The City of Cape Town, EWN, SABC News, IOL and others report he has announced a new mayoral committee, and ActionSA says it will hold the new members accountable.",
       "brief": [
-        "IOL reports Geordin Hill-Lewis was re-elected Cape Town mayor and pledged jobs and stronger policing, and that the DA has declared victory in the Cape Town elections.",
+        "IOL reports Geordin Hill-Lewis was re-elected Cape Town mayor and pledged jobs and stronger policing, and that the DA has declared victory in the Cape Town elections; Sunday World reports suburban voters secured the DA's win.",
+        "The Cape Argus reports the DA has named Limberg for Cape Town deputy mayor and that Purchase retains the speaker role.",
         "The City of Cape Town, The Bulrushes, EWN, SABC News, Cape Town ETC, Central News South Africa and Nova News report Hill-Lewis has announced his new mayoral committee; SABC News and Central News South Africa say it has 11 members, and IOL reports three of them are new.",
         "ActionSA says it will hold Cape Town’s newly appointed mayoral committee members accountable for delivering on their mandates.",
-        "IOL reports Helen Zille defended the DA's privatisation plans, citing Cape Town as an example.",
-        "Sunday World reports suburban voters secured the DA's election victory in Cape Town."
+        "IOL reports Helen Zille defended the DA's privatisation plans, citing Cape Town as an example."
       ],
       "auto": true,
       "id": "auto-cape-town",
@@ -6955,6 +7031,12 @@
           "h": "Mayor Hill-Lewis unveils new team to lead Cape Town",
           "d": "2026-11-28",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSUxoWDNONXIwZWczeVRERnJrWlRBX3NKTG9HVjZuY3h6ekl5UVp3M25YNWVVRDJjbFVLWlNpOVludmdUUXZXNnM0Y0R3OTdyd3lSZ1ZaWDhrdVViY1VzbXVKUjRqb29JUDR3eTlJWWVReHVYYWU1S3RrUjBLWGs5bUg1T0F2QnFUNGtPYzU2RGQ?oc=5"
+        },
+        {
+          "src": "Cape Argus",
+          "h": "DA names Limberg for Cape Town deputy mayor as Purchase retains speaker role",
+          "d": "2026-11-28",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUDAtem1jbE1FY21rYkhHMlpENkVJc1d3RXJXVEVJZHhaYWd2Yk9iVUpVZVZyTEdOSHZCUnYwa1hYMVh1WjlOU1FfbVV6QnRrUjcyU0ZCYUl3bXlYU1VvbTc4Q1A4ajhIUTNhSy00T05DdU02b1h5SktZUXlTX2tMcjkyTHZwT05vVFRiem9RNXRXTXhqM29faVJkWmtJNy1WRHlCRlJfdzBqZUMtTHBqNExMWkdfY1FF?oc=5"
         }
       ],
       "sec": [
@@ -7028,10 +7110,10 @@
       "cat": "Beyond the metros",
       "place": "KwaZulu-Natal",
       "h": "MK and the ANC take uMhlathuze, Newcastle and Msunduzi as the ANC, DA and IFP take KwaDukuza",
-      "dek": "IOL, News24 and SABC News report the MK Party and ANC have taken uMhlathuze, with Nomathamsanqa Mthembu elected mayor, and The Witness reports MK's Mervyn Dirks has taken the Msunduzi mayoralty, pledging a services and finance turnaround. Tabloid Newspapers reports MK's Stuart Zwane has been elected Newcastle mayor, while The Citizen reports a last-minute deal put the ANC, DA and IFP in control of KwaDukuza.",
+      "dek": "IOL, News24 and SABC News report the MK Party and ANC have taken uMhlathuze, with Nomathamsanqa Mthembu elected mayor, and The Witness and Central News South Africa report MK's Mervyn Dirks has taken the Msunduzi mayoralty with ANC backing. Tabloid Newspapers reports MK's Stuart Zwane has been elected Newcastle mayor, while The Citizen reports a last-minute deal put the ANC, DA and IFP in control of KwaDukuza.",
       "brief": [
         "IOL, News24 and SABC News report the MK Party's Nomathamsanqa Mthembu was elected uMhlathuze mayor; News24 says the ANC-MK pact sidelined the IFP and DA.",
-        "The Witness reports the MK Party and ANC formed a coalition to govern Msunduzi and that Mervyn Dirks has pledged a services and finance turnaround as mayor; Central News South Africa reports they took uPhongolo.",
+        "The Witness reports the MK Party and ANC formed a coalition to govern Msunduzi and that Mervyn Dirks has pledged a services and finance turnaround as mayor; Central News South Africa reports Dirks secured the seat with 53 votes after the ANC backed MK, and that the two parties took uPhongolo.",
         "The Citizen reports a last-minute deal saw the ANC, DA and IFP take control of KwaDukuza, and The Witness reports the ANC and DA partnered to keep MK out there.",
         "Tabloid Newspapers reports MK's Stuart Zwane was elected Newcastle mayor, and The Citizen reports a deal in Endumeni delivered a surprise mayoral victory for the IFP.",
         "Scrolla.Africa reports MK Party legislators have quit to take seats in KwaZulu-Natal councils, and The National reports coalition deals are reshaping municipal power in the province and exposing ANC divisions."
@@ -7161,6 +7243,12 @@
           "h": "MKP’s Marvin Dirks elected Msunduzi mayor",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbHlZMC1uOGpuVlFuSHdsRFJHV1JUMFd2ZndLSEFFMzhpXzhURUpEYW1aZTZ6U3RVanhna2xGWEdUSXI4dlNVd0V1Vm1YU3VEMjZFcVNjWW9ZeDVPR3NoWXVhQkswN2k0aXMzbFVVNi1JUnlKSzZDVy12ZEF6MXlYdQ?oc=5"
+        },
+        {
+          "src": "Central News South Africa",
+          "h": "ANC Backs MK Party as Mervyn Dirks Secures Msunduzi Mayoral Seat With 53 Votes",
+          "d": "2026-11-28",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUVFqQnpsMWFCdEppaGlMNmRzc0N0a3NOMWZlOEtDSmF1UFphaFBMWjZpWTZwUWxnUEZXdG5pcDRaN0RmdS1KR3QtU2g0SDVDVFNRcmFiYXFTQ2hxWnBWOTdiQ1B1UXRNX3NHWVZNRVdOazU2QnBrVTdUbkFTQ3NnOGdDUVRvUV9CVk1rZmR3MjFCV2J0VlRxWXZtamY0cnBTWVJCSFRleWE?oc=5"
         }
       ],
       "sec": [
@@ -8354,6 +8442,19 @@
     "c2be8151d9c7",
     "6e3425af443e",
     "2d81ce84cf83",
-    "9f527d602072"
+    "9f527d602072",
+    "07c0f93286a0",
+    "425dedd1093e",
+    "ab9f0686100f",
+    "123bb7937c39",
+    "91f8a480c548",
+    "0d282d1a7fbb",
+    "3203374f8625",
+    "14ea74403e89",
+    "bec6d1b80ea5",
+    "5f6724a42d3b",
+    "7f318d0ce0ba",
+    "912f02a54f27",
+    "689557a3e56a"
   ]
 }

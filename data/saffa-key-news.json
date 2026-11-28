@@ -1,13 +1,7 @@
 {
-  "updated": "2026-11-28T11:00:00+02:00",
+  "updated": "2026-11-28T11:59:00+02:00",
   "people": {
     "elon-musk": [
-      {
-        "h": "I'm an astronomer. Here's why Elon Musk's planned one million satellites could be a very bad idea",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOVVhUTRHaXpfMXp5Zi1DZTdCTVRCczVLZ3hzWjdfT0hCaEZOZjM4MEVEMlc0RHEzanF2NUlfa0NKZjFQQnhBWkhFbHRIYzZIdFBPTjVuTXdFazFGNUdZd291TnN5V0xZWm5YVU5sYjRzbFJYMnRxVFgyUXdqNjQ4M1g2enFRVlI4bHg3VjcyQjU1QUNYS1JxejJOMk1xZ1Y5OFpPa0x6cDY?oc=5",
-        "src": "BBC Sky at Night Magazine",
-        "t": "2026-11-28T10:03:00+02:00"
-      },
       {
         "h": "Elon Musk Says GOOGL Has ‘Expressed Interest’ In Renting More Compute From SPCX",
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTGFzWkZydVd5YlBXaGswWldJaGh6a3FpbkoydUdza1daSklvXzJMRFhjUGhUX01wNlVSQldvU1J6bm43TWE1bkR5dlVWVUh2UDQ2Wi1xdHRPUzlybXlJZjFxeGo2WV9UeTN4UXR3eFhsX0N1RkV0S012UnhXUm1DZEZNZ2xIWkF2Nkt1TjNnTFo4NmE3SkE2cTNUc251SW95VF9sdVczSDd6RHZkR01lcU5HeGlPMFFZM3BHMXVIU3F5VFBSVThWV2x1Vy1tRFl3X2ZyaA?oc=5",
@@ -19,6 +13,12 @@
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQa2FqZGpHbVhndVBUSVNVbWY4dUplZHk2WEVxcE9lQUUxbUZOZ2phYjR0X2tCWGw3NkpBTVk2T1hKQmE3dkdDbFltQjZic2RlZHJkWndMclc0NGhneFhERm5IRzNMTmRKLUpqeERBNm96Z0w2eVo4TmIzNWZ2VUFQY1d1d3pyLU9jcVZoN3FkRGU5UdIBlwFBVV95cUxNMUtmaEZxTUlsYzJmNENDODZKX3hXRU5JbGNhMkx2QmJFazB0bFhGWlNSS2t1T3owbEVBQ3F0RVVIVFp1MHlEanNZRllTMHlMZHZIYlM1YkdLUFpDNU9Vb0NpTFMwTHVxMVlpenpCb0ZGa3lzVTUxWFM3YXFJVGdCWEd3TU1sczdjaHp6NF9UQlZTMlNsNExr?oc=5",
         "src": "Al Jazeera",
         "t": "2026-11-28T08:58:56+02:00"
+      },
+      {
+        "h": "David Byrne On Getting Into Character As Elon Musk For Song \"Let Me Sell You A Dream\" \n\nRead more below.",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOEVBb21iQlZVM0VQOF8tMDZHakNCZUg1bnRhZjdYNVdzdnhTcUM2RFl6UTZGX2toUWhzUXg0bElSY1VvS1RfbFp4T3BrYjB0dm54T2hSM3lQYmd0VlRwUGxuUHZSX1lYeUtSZjkxNWdmWDFVdTdHaDVrTk9iR0xDRkx4TnNHVF96VkhqM19XOHVrYWZlbEpBcDZhQUJNR3FPTFlOUlh1ODVJNG5BLWJoRXdzN2UxY2F1d0ZyZFRNbG8ta3YtTUFBeVFqZWdXNTNDdlNmMlNR?oc=5",
+        "src": "Facebook",
+        "t": "2026-11-28T03:00:19+02:00"
       }
     ],
     "trevor-noah": [
@@ -83,6 +83,12 @@
     ],
     "tyla": [
       {
+        "h": "Winner’s List: 2026 Soul Train Awards [Tyla, Chaka Khan, & More]",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdEN4aTJuWGxGX1NFWGdqRkF4T1c5SU5iOVVCRlV3bzhsX1cxblZyNXdzb0xmV1hQS3Qxb1lscnlCQUhZaXhsUHlWNGdDLTFvek5mYU83aFpqaXJTOGNxNFFjTFZXeTlKZkZTN3UwU2hUUXUxZjJCVVd6QnBlUS1UNHRzXzVsd0xFeURzc0RTeEpKTVFSbkJv?oc=5",
+        "src": "That Grape Juice",
+        "t": "2026-11-28T06:58:00+02:00"
+      },
+      {
         "h": "Soul Train Awards 2026 Winners: Tyla and PARTYNEXTDOOR Win, Chaka Khan Takes Classic Soul Honor",
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSlZGVkZPblFLRzd6YmxBTVU2YVppQ3g3TVZDQ25PMlFZUlBaekhiN2RjakxJX0pkNUw3dlNfdEtIaXFBZXVsVmRhZ3BPaHl5UmNwQ01fZ1FNT1M1cnMzellSdmhwRHhBdXFOUjQ1RF9MTHpNbzNQSWZiTl9nWTBiSWZUR1B4Y25NME1JZ2hYOGpWSmdZbDRHcFZFWXlGT19VWDZienVYUHF0eElaM21ZTVJWOFJPWGNTWUszVnZNRDlYYVhXdXJhLTA0NF91MURmMGlyOFlPWFPSAdgBQVVfeXFMTUpWRlZGT25RS0c3emJsQU1VNmFaaUN4N01WQ0NuTzJRWVJQWnpIYjdkY2pMSV9KZDVMN3ZTX3RLSGlxQWV1bFZkYWdwT2h5eVJjcENNX2dRTU9TNXJzM3pZUnZocER4QXVxTlI0NURfTEx6TW8zUElmYk5fZ1kwYklmVEdQeGNuTTBNSWdoWDhqVkpnWWw0R3BWRVl5Rk9fVVg2Ynp1WFBxdHhJWjNtWU1SVjhST1hjU1lLM1Z2TUQ5WGFYV3VyYS0wNDRfdTFEZjBpcjhZT1hT?oc=5",
         "src": "within nigeria",
@@ -93,12 +99,6 @@
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYWFiRElXUGltOWNGRm5pdXBzTzlXWkdZV1h6MmxhdEJhMV9waENOVElNUmtNcWNRN2JrLTZ6T3QtOEFYa1RNVTNzTlhPYjc0MGtZclQxZ3pKT3gxc3I2VjFHT2FUVHdyX0lkTEY5OHlBRDM0VE02QWkwenktZk96bEF5aWVMQ0tRMktJ?oc=5",
         "src": "Wisevoter",
         "t": "2026-11-28T06:30:27+02:00"
-      },
-      {
-        "h": "Fact Check: Is Tyla pregnant? Here’s the truth behind the viral baby bump photos spotted in Brooklyn",
-        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPRGlQTUU4TEtBT1l5U29yTnBMRXBmUkdOOEVyTVJzbzF1MFJvX1dfekZqWEljNTFQeEJiYTVCTUUzVm5fSVRwVHZhSUhQaXBodDRrdWdBR0UyV01BQ0Y0TU11VzBudWF0eDJQRjBqanJwcFdDWmczQUZYNWFHSW9aakNmejRsck5OYUdJdWxhb0w5cTBtUFF1NjFpbVlVUEpUUmtKcERNMllqR2piZ3JITkczX1p5YWMybUltakZMYnlSbHB0Vm5tWm1sMDN0dGNmcGtCbjgyMTAyMnpLN0YtMk00bHRJUFdNM0c5Sk1KejdCNmJUNmI40gH3AUFVX3lxTE9EaVBNRThMS0FPWXlTb3JOcExFcGZSR044RXJNUnNvMXUwUm9fV196RmpYSWM1MVB4QmJhNUJNRTNWbl9JVHBUdmFJSFBpcGh0NGt1Z0FHRTJXTUFDRjRNTXVXMG51YXR4MlBGMGpqcnBwV0NaZzNBRlg1YUdJb1pqQ2Z6NGxyTk5hR0l1bGFvTDlxMG1QUXU2MWltWVVQSlRSa0pwRE0yWWpHamJnckhORzNfWnlhYzJtSW1qRkxieVJscHRWbm1abWwwM3R0Y2Zwa0JuODIxMDIyeks3Ri0yTTRsdElQV00zRzlKTUp6N0I2YlQ2Yjg?oc=5",
-        "src": "Indiatimes",
-        "t": "2026-11-26T17:28:44+02:00"
       }
     ],
     "roelof-botha": [
@@ -233,10 +233,10 @@
         "t": "2026-10-25T09:00:00+02:00"
       },
       {
-        "h": "Billionaire Patrick Soon-Shiong wins wider FDA approval for bladder cancer drug",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSEdDUUVUSU9PN296clluY1F0NjI3Ykg3Wk8zR19iSVpTX19rQWRDM2ZuRjlfWG4tSFNIOWpjN1VJQWRTckdqNzZQVWtqVGZ5Q2xBTE51cmM1VHM5N0lNa1pHbHplT256TzFaVTdCVmZkZTYzUlpMbnhsZ1Q2RU5DWUFiMXRrQnhfcFNQVjRUZXpDSlp5RXdwNVJuZV9XUzk2a2I2MzFSVmpKY0tvbExuMGstSzkzNXhHbVJ0ZWJHWHc?oc=5",
-        "src": "Billionaires.Africa",
-        "t": "2026-10-16T09:00:00+02:00"
+        "h": "NantWorks' Soon-Shiong puts chips behind manufacturing disruptors in new rounds for Prolific Machines, Multiply Labs",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb185cmswR2dwOUowYUFwemExcWMtQlF6MDM5Z0pDakwtSmtnOUtBb2J5cjI5ZHhIaEdvT091VGZnczFZRTNFc0I3d1V4UEs1bmFFMTdiNHBGeHhBZXN4Z3ktbC1iRXM1NnJEWkZsS24yTnFaWHJ0MHo5dnFwODZxZWIzUHNBQ19NaWVvM2tFR01qNWIxVzZKSW01NXlmQzl4ZExGOUU1bzJkSHBCczNnQnMzdm1aX09ZTWpqdg?oc=5",
+        "src": "Fierce Pharma",
+        "t": "2026-10-14T09:00:00+02:00"
       }
     ],
     "chad-le-clos": [
@@ -322,8 +322,8 @@
       },
       {
         "h": "What ‘Digger’ Has in Common with Gary Oldman’s Winston Churchill and Charlize Theron’s Megyn Kelly",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeDVQMWRRbTFfLVRCUGxSMGpxRGs3M1hvdHktRHIwQnc2ZVpxR0Q3NEZ3VlpzNFFPSEZFbVIteDYxdDhucFRqSHEzV3V6bDNiSG94TzlUZlpKMXNYTWlpZmZpeGVsVDRpS3NqdXR0S0Q0STVMR2VWUmR1Sm1jNndJczhRMlpqa3N6MUJ0OG9wREM5dFBoaFJXUEMxUmx3SHhWcUE?oc=5",
-        "src": "Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOGNscG5Oc1NNTlgtLVJNSk96SXRmeGI0T3RuUmxnRWZ5SmxiMFVkMUplMkxmckxGU0JjSFRxQkdTUjZDTHE1SFdYXzl6QUFRV3VJRC1yMUVVenI4RThFS2ZRTDRzWFJJRjMtb0dQQ2pVYVhSSEllSmloTGNOSGdjNDZsbEF6a29YUEFLajlrUXdzQTJ0amdkUGk5dlBIVG9QYWlF?oc=5",
+        "src": "IndieWire",
         "t": "2026-11-20T21:00:00+02:00"
       }
     ],
@@ -357,16 +357,16 @@
     ],
     "navi-pillay": [
       {
+        "h": "Nobel Peace Prize laureate Navi Pillay pays tribute to Durban community",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQek1obzJIMy1TaTI0YmtqcVBmVDFubjVaYjNzVUtIcklPOW8xS1YzeXBYalRkbVNMVGZLdjdxREk5cDRUaGV5T3lhOTJKbHlfZkViYmxvX0gyYWowNjFSWXI3QmpGWlpJaDVEX3poYnlVcGZ4WlFiRWxPTEdEekNvZnB1Zk1xTWZvTTJ2Tlo5UXlTRE9NWjA3b0ItV3p3bHRscmxYaFp2YkZ2cUJIOFJ2YWRmNXY5R2FjYmdvZ3Z2azhXMlBMTzFsMkQ0eDFMLVJkR3ItZXlB?oc=5",
+        "src": "The Witness | Your compass in the community",
+        "t": "2026-11-28T11:15:54+02:00"
+      },
+      {
         "h": "WATCH: Navi Pillay calls on South Africans to uphold human rights in Diwali message",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZF9DbVplZTItZjRjYUdOZmRvWXR1c0pIaURadVlMWlNrdW1MUFZuN0R5dUJiSGlfX0VMc2p6QWZjRHJkNzFQMGZ4RHFMU255dWd0ajZGOV83RUVjUk13NGl1NmVJX2lxTU9qYS05MTFDcHdKQWhUR3FMU2VVZTF4QkpaU0Jwa2VKSExMU0RUakJENjB1WngxUzN6b1Z4WV9yT3U4aFpFYk9PVjRUdFYyMDRHRDNnWUp4MTUtQ2x1WG1KZUU?oc=5",
         "src": "IOL",
         "t": "2026-11-28T04:21:46+02:00"
-      },
-      {
-        "h": "Navi Pillay’s Nobel recognition renews our duty to defend justice",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1laHBYRXlnTGJDNW5FX1dsXzdwX0kyYW8zdjVfNWp0MEV1SnBsMjMxRERqOS14cWlYRk41Y2tkUGNfc1prS0ljbXllVWF6M2ZHU0NsTWZGRVFQZWdNVWZTSFFLc0ZVdw?oc=5",
-        "src": "The Mercury.co.za",
-        "t": "2026-11-27T15:47:45+02:00"
       },
       {
         "h": "Philanthropy is a bridge across inequality, says Nobel Peace Prize winner Navi Pillay",
@@ -560,11 +560,11 @@
     ]
   },
   "week": {
-    "elon-musk": 91,
+    "elon-musk": 94,
     "trevor-noah": 1,
-    "peter-thiel": 35,
+    "peter-thiel": 33,
     "thuso-mbedu": 1,
-    "tyla": 5,
+    "tyla": 13,
     "roelof-botha": 2,
     "black-coffee": 6,
     "david-sacks": 1,
@@ -581,7 +581,7 @@
     "charlize-theron": 2,
     "lyndon-rive": 0,
     "kandyse-mcclure": 0,
-    "navi-pillay": 18,
+    "navi-pillay": 19,
     "jm-coetzee": 0,
     "arnold-vosloo": 1,
     "troye-sivan": 3,

@@ -23,10 +23,10 @@
     },
     "auto-cape-town": {
       "file": "audio/auto-cape-town.mp3",
-      "sec": 83,
-      "hash": "834e1dc149c7",
-      "chars": 1196,
-      "at": "2026-11-28T07:28:07Z"
+      "sec": 88,
+      "hash": "90a114953adf",
+      "chars": 1310,
+      "at": "2026-11-28T10:00:22Z"
     },
     "auto-ethekwini": {
       "file": "audio/auto-ethekwini.mp3",
@@ -135,10 +135,10 @@
     },
     "kzn-councils": {
       "file": "audio/kzn-councils.mp3",
-      "sec": 103,
-      "hash": "74beabf2f125",
-      "chars": 1421,
-      "at": "2026-11-27T23:46:18Z"
+      "sec": 108,
+      "hash": "6ea45040fc88",
+      "chars": 1505,
+      "at": "2026-11-28T10:00:22Z"
     },
     "malema-zille-court": {
       "file": "audio/malema-zille-court.mp3",
@@ -198,7 +198,7 @@
     }
   },
   "month": "2026-11",
-  "used": 45740,
+  "used": 48555,
   "provider": "azure",
   "voice": "en-GB-RyanNeural"
 }
