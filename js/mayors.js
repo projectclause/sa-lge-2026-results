@@ -40,8 +40,8 @@
   // handover cards at the top of a city, newest change first: a new deputy mayor (previous -> new), or a mayor returned
   // by the new council. "old" is the left side, "oldSub" its caption; "lab" is the card's label.
   const DEP = {
-    JHB: { lab: "Expected deputy mayor", n: "Thapelo Radebe", p: "ANC", img: "assets/mayors/johannesburg/thapelo-radebe.jpg",
-      how: "The ANC’s Thapelo Radebe is among the names discussed for Deputy Mayor of Johannesburg under the coalition deal, the Mail & Guardian reports. The council has not yet voted." },
+    JHB: { lab: "Deputy mayor elected", n: "Thapelo Radebe", p: "ANC", img: "assets/mayors/johannesburg/thapelo-radebe.jpg",
+      how: "The ANC’s Thapelo Radebe was elected Deputy Mayor of Johannesburg on Friday, 27 November 2026, under the coalition deal that made Herman Mashaba mayor, IOL reports." },
     NMA: { lab: "Expected deputy mayor", n: "Lance Grootboom", p: "ACDP", img: "assets/faces/grootboom-acdp.png",
       how: "The ACDP’s Lance Grootboom is expected to become Deputy Mayor of Nelson Mandela Bay under the DA-led coalition, once the council completes its vote." },
     EKU: { lab: "Deputy mayor", n: "Xolani Khumalo", star: true, p: "ASA", img: "assets/faces/circ/khumalo.png",
