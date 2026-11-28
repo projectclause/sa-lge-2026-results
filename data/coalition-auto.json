@@ -2,7 +2,7 @@
   "note": "Written every hour by tools/auto-update.rb. Do not edit by hand: copy what you want to keep into coalition-feed.json instead.",
   "edition": {
     "date": "2026-11-28",
-    "time": "01:37"
+    "time": "02:00"
   },
   "items": [
     {
@@ -1888,6 +1888,54 @@
       "src": "themercury.co.za",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tMjJKYW9aMTN0ZEUxcG5oR2R2MVdHcjVYbFZjRGp3Yk55d0NYUnJqeWNSdUpZVjBKclVJNHVOaXJUVHVzSkphdFFUcEpzMnFyTGF5YVA5MFJUWF9qSnhTQ1N0eGlobzQ?oc=5",
       "auto": true
+    },
+    {
+      "id": "a-1d0e8ce664",
+      "j": "mighti",
+      "d": "2026-11-27",
+      "kind": "Video",
+      "place": "eThekwini, KwaZulu-Natal and Gauteng",
+      "h": "THE TRUTH IS EMERGING‼️",
+      "s": "GENERAL MKHWANAZI APPOINTED TO HEAD HAWKS.",
+      "src": "YouTube",
+      "url": "https://www.youtube.com/watch?v=3CpDy1meReY",
+      "auto": true
+    },
+    {
+      "id": "a-79ece835c7",
+      "j": "patel",
+      "d": "2026-11-27",
+      "kind": "Reported",
+      "place": "Tshwane",
+      "h": "Naeem Patel elected Tshwane council Speaker",
+      "s": "Reported by dailynews.co.za.",
+      "src": "dailynews.co.za",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOc0hueVVUX015c2VrVFBsMXBlVURCZGx2SU94RlpxdTByMm53WkNzZXlBR1BOWVFjOFVPQzM4dDR6d2FfU0dmdC1Eb3ZCM3NiXy1yaXVyNWZ2VUJTMzRjV1V5WmE2RGMteHlrSGo4YUZtamF3eGkwaWVxdFJscW9GZ3Fsb2h0WTZCSjcyUHI5eG5FLTgycFJDeVhON18yN2dzSFhj?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-f747975231",
+      "j": "phakathi",
+      "d": "2026-11-27",
+      "kind": "Reported",
+      "place": "eThekwini",
+      "h": "MK Party’s Mxolisi Phakathi elected eThekwini mayor",
+      "s": "Reported by mydurban.co.za.",
+      "src": "mydurban.co.za",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1MWnZUeS1JNXFGZ3pROTJaX0d3TVFMWGJlZVE5djB5NDlSU2JINlpKNFc2SnlyY2dtVkpYMXk3Z0xqa3hsOTNIbUpyMk82SUZQWU1lNi1iWlN0UDFPUlltVHRtVFBCczN1bUp0dzlBMS1YU01WTUdMRjhYRzU3Tms?oc=5",
+      "auto": true
+    },
+    {
+      "id": "a-d8ffd153ef",
+      "j": "geordin",
+      "d": "2026-11-27",
+      "kind": "Reported",
+      "place": "Tshwane",
+      "h": "Hill-Lewis condemns ANC-ActionSA coalition following Moya’s re-election as Tshwane mayor",
+      "s": "Reported by dailynews.co.za.",
+      "src": "dailynews.co.za",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Gcm0zbTZkTktUTnBoSHFiOGtwNlFibDhpT0N3RC15aXktdnMtVlp2RjVNdE9pbEw0bk03dEd4cGt5THBLdWhxMXJYeEZFRmFXdFFQRmdod3NGaG5BTUo2ZF9CMnpkdw?oc=5",
+      "auto": true
     }
   ],
   "attach": {
@@ -1962,7 +2010,8 @@
       "a-7857ef5d3f",
       "a-0296244abc",
       "a-75f827ad34",
-      "a-4d8774517b"
+      "a-4d8774517b",
+      "a-1d0e8ce664"
     ],
     "ramaphosa": [
       "a-8b8a61c941",
@@ -3976,7 +4025,9 @@
         "a-940d89f5fa",
         "a-5e776f48af",
         "a-59a8566229",
-        "a-d96a8798c6"
+        "a-d96a8798c6",
+        "a-f747975231",
+        "a-d8ffd153ef"
       ],
       "coverage": [
         {
@@ -4728,6 +4779,12 @@
           "h": "\"The ANC chose chaos\": DA takes aim at new eThekwini coalition",
           "d": "2026-11-27",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdmRidVdiVWdNelNmQWo4dEozNnprV0s4U0hnWVFtUlZUNEZIOGdIa2t3WnJ0Qk81X2hyVGRBRDQ5MHhJRnJ0WEFvMFFNX1BUaVJ6SktoMm1NUlJyZThYWlVYY3FSYUpzYlRjWm9FUHNJbHVWVlVZWF92UUx3ckluY0tDME53Nmw0RmNqWXZuTjZ3MF9lZFVpSXBxQ25YblNUbm1VcjFycUNXdzBadno2aU83WWRfOHlva1Fz?oc=5"
+        },
+        {
+          "src": "Sunday Tribune",
+          "h": "Who will govern eThekwini? Council to elect mayor after coalition talks",
+          "d": "2026-11-27",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB5RzRmMnBOU0REcmNTeTNCTFZ3SjdLNlpIN0hlNUQxd09MUU9jdGZtdm91SENXTGh5YUxzaU9sVDFsMzZ0RjJNNnJqdTg5NWRRcUdIa2ZOVHYyNmxvVnlzbm5CUVVnQ0ZFSVhHNE94Wm1sRGM?oc=5"
         }
       ],
       "sec": [
@@ -5313,7 +5370,8 @@
         "a-f476d646f8",
         "a-1a53e07d43",
         "a-85bb1450e0",
-        "a-82775b8215"
+        "a-82775b8215",
+        "a-79ece835c7"
       ],
       "coverage": [
         {
@@ -7658,6 +7716,12 @@
     "b4dc1cd6b17a",
     "a802d7d8b0b9",
     "82775b82159c",
-    "677bc3758c54"
+    "677bc3758c54",
+    "5fafbf221776",
+    "1d0e8ce664f6",
+    "79ece835c73d",
+    "f7479752310e",
+    "d8ffd153efd7",
+    "96a962e75ab1"
   ]
 }
