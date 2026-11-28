@@ -83,7 +83,9 @@
     const VA = A.voices || {};
     const vs = (C.voices || []).slice().sort((x, y) => ((x.late ? "" : (VA[y.k] || {}).last || "")).localeCompare(x.late ? "" : ((VA[x.k] || {}).last || "")) || 0);
     vs.sort((x, y) => (y.late ? "" : ((VA[y.k] || {}).last || "")).localeCompare(x.late ? "" : ((VA[x.k] || {}).last || "")));
-    const vcard = (v, i) => { const a = VA[v.k] || {}; return `<div class="pl-voice${i >= EIGHT ? " mc-x" : ""}"${i >= EIGHT ? " hidden" : ""}><img src="${esc(v.img)}" alt="" loading="lazy"><span><b class="pl-nm">${esc(v.n)}${v.late ? "*" : ""}${v.logo ? `<img class="pl-vflag pl-plogo" src="assets/logos-sm/${esc(v.logo)}.png" alt="${esc(v.o)}" title="${esc(v.o)}">` : ""}</b><span>${esc(v.o)}</span>${!v.late && a.last ? `<i class="pl-vlast mc-ago" data-t="${esc(a.last)}"></i>` : ""}</span><em class="mc-cnt" title="Articles mentioning the commission, last 7 days">${v.late ? "" : (a.n7 || 0)}</em></div>`; };
+    // a card with articles opens a list of them underneath (the newest articles naming that voice, last 7 days)
+    const vlist = (v, a) => (a.items || []).length ? `<div class="mc-varts" hidden><p class="mc-varts-h">Latest articles naming ${esc(v.n.split(" ")[0])}</p><ul>${a.items.map((it) => `<li><a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.h)}</a><span>${esc(it.src)} · <i class="mc-ago-plain" data-t="${esc(it.d)}"></i></span></li>`).join("")}</ul></div>` : "";
+    const vcard = (v, i) => { const a = VA[v.k] || {}; const has = !v.late && (a.items || []).length; return `<div class="pl-voice${has ? " mc-vo-x" : ""}${i >= EIGHT ? " mc-x" : ""}"${i >= EIGHT ? " hidden" : ""}${has ? ` role="button" tabindex="0" aria-expanded="false"` : ""}><img src="${esc(v.img)}" alt="" loading="lazy"><span><b class="pl-nm">${esc(v.n)}${v.late ? "*" : ""}${v.logo ? `<img class="pl-vflag pl-plogo" src="assets/logos-sm/${esc(v.logo)}.png" alt="${esc(v.o)}" title="${esc(v.o)}">` : ""}</b><span>${esc(v.o)}</span>${!v.late && a.last ? `<i class="pl-vlast mc-ago" data-t="${esc(a.last)}"></i>` : ""}</span><em class="mc-cnt" title="Articles mentioning the commission, last 7 days">${v.late ? "" : (a.n7 || 0)}</em>${has ? vlist(v, a) : ""}</div>`; };
     const lateFoot = vs.slice(0, EIGHT).filter((v) => v.late && v.footnote).map((v) => `<p class="mc-foot">${esc(v.footnote)}</p>`).join("");
     const vo = sec("m-vo", "Voices · analysis and opinion", `<div class="pl-voices">${vs.map(vcard).join("")}</div>${lateFoot}${more(vs.length - EIGHT, `Show all ${vs.length} voices`)}`, "latest first · articles, last 7 days");
     // coming up
@@ -148,7 +150,13 @@
     const c = e.target.closest(".m-wit .mc-v");
     if (c && !e.target.closest("a")) { picked = c.dataset.k; const old = root.querySelector(".m-wit .mc-panel"); const html = evidence(picked); root.querySelectorAll(".m-wit .mc-v").forEach((x) => x.classList.toggle("on", x.dataset.k === picked)); if (old) old.outerHTML = html.replace('class="mc-panel', 'class="mc-panel tapped'); else if (html) c.closest(".pl-voices").insertAdjacentHTML("afterend", html.replace('class="mc-panel', 'class="mc-panel tapped')); }
   });
-  root.addEventListener("keydown", (e) => { if (e.key === "Enter" && e.target.classList.contains("mc-v")) e.target.click(); });
+  root.addEventListener("keydown", (e) => { if (e.key === "Enter" && (e.target.classList.contains("mc-v") || e.target.classList.contains("mc-vo-x"))) e.target.click(); });
+  // Voices: tap a card to open or close its articles
+  root.addEventListener("click", (e) => {
+    const c = e.target.closest(".m-vo .mc-vo-x"); if (!c || e.target.closest("a")) return;
+    const open = c.getAttribute("aria-expanded") !== "true";
+    c.setAttribute("aria-expanded", open); c.querySelector(".mc-varts").hidden = !open;
+  });
   addEventListener("resize", () => { fitTips(); arrows(); });
   setInterval(tick, 1000);
 

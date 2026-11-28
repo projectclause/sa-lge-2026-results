@@ -221,7 +221,11 @@ voices = {}
   wk = news("\"#{v['n']}\" Madlanga when:7d")
   last = wk.map { |i| i["d"] }.compact.max
   last ||= news("\"#{v['n']}\" Madlanga when:1y").map { |i| i["d"] }.compact.max
-  voices[v["k"]] = { "n7" => wk.size, "last" => last }
+  # the newest articles naming them, for the list that opens under their card. Every guardrail applies except the
+  # opinion and question checks: this section is analysis and opinion by design.
+  arts = wk.select { |i| i["url"] && i["h"] && i["d"] }.reject { |i| (w = blocked(i["h"])) && !["opinion or analysis", "question"].include?(w) }
+           .sort_by { |i| i["d"] }.reverse.uniq { |i| i["h"] }.first(6).map { |i| i.slice("h", "src", "url", "d") }
+  voices[v["k"]] = { "n7" => wk.size, "last" => last, "items" => arts }
   sleep 0.5
 end
 
