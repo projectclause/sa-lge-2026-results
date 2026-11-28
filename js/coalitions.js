@@ -14,7 +14,7 @@
   const today = () => new Intl.DateTimeFormat("en-CA", { timeZone: "Africa/Johannesburg" }).format(new Date()); // YYYY-MM-DD
   // "as of 09:00" when the data was updated today, otherwise when it was last updated
   const asOf = (label, ed) => `${label} edition, ${today() === ed.date ? `as of ${ed.time}` : `last updated ${day(ed.date)} at ${ed.time}`}`;
-  setInterval(() => { const t = long(today()); document.querySelectorAll(".pl-date").forEach((h) => { if (h.textContent !== t) h.textContent = t; }); }, 60000);
+  setInterval(() => { const t = long(today()); document.querySelectorAll(".pl-date").forEach((h) => { const d = h.querySelector(".pl-dt") || h; if (d.textContent !== t) d.textContent = t; }); }, 60000);
   const and = (a) => a.length < 2 ? a.join("") : a.slice(0, -1).join(", ") + " and " + a[a.length - 1];
   const root = document.querySelector(".pl");
   // journalists and commentators first, then the politicians negotiating the deals
@@ -254,9 +254,8 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
     const all = D.items.slice().reverse().sort((a, b) => b.d.localeCompare(a.d));
     root.innerHTML = `
       <header class="pl-ed">
-        <h1 class="pl-date">${long(today())}</h1>
+        <h1 class="pl-date"><span class="pl-dt">${long(today())}</span><span class="pl-infow"><button type="button" class="pl-info" aria-expanded="false" aria-controls="pl-infopop" aria-label="About the Coalitions Tracker">i</button><span class="pl-infopop" id="pl-infopop" role="note" hidden>Preamble’s Coalitions Tracker gathers coverage of the 2026 coalition talks from established news outlets in South Africa and around the world. It groups reports on the same event into one story, writes a structured summary with AI, and links back to every original article. It also tracks what key journalists and politicians are saying. None of them write for Preamble.</span></span></h1>
         <p class="pl-asof">${esc(asOf("Coalitions", D.edition))}</p>
-        <p class="pl-intro">Preamble’s Coalitions Tracker gathers coverage of the 2026 coalition talks from established news outlets in South Africa and around the world. It groups reports on the same event into one story, writes a structured summary with AI, and links back to every original article. It also tracks what key journalists and politicians are saying. None of them write for Preamble.</p>
       </header>
       <a class="pl-lead" href="#${lead.id}">
         <p class="pl-cat">${esc(lead.cat)} <span>updated ${day(updated(lead))}</span></p>
@@ -398,7 +397,7 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
     root.innerHTML = `
       <header class="pl-ed">
         <p class="pl-kick">Coalitions Tracker · International</p>
-        <h1 class="pl-date">${long(today())}</h1>
+        <h1 class="pl-date"><span class="pl-dt">${long(today())}</span></h1>
         <p class="pl-asof">${esc(asOf("International", D.edition))}</p>
         <p class="pl-intro">How news outlets outside South Africa are covering the 2026 coalition talks. Preamble groups their reports into stories, writes a short AI summary of the angle each one takes, and links back to every original article. ${X.brief[0]}. None of these journalists write for Preamble.</p>
       </header>
@@ -551,4 +550,12 @@ const outletLine = (e) => { const o = outletsOf(e), intl = o.filter(isIntl); ret
     document.addEventListener("pl-feed-changed", refresh); // live.js noticed the data files change
     window.plRefresh = refresh;
   }).catch(() => { root.innerHTML = '<p class="pl-none">The tracker could not load. Refresh the page to try again.</p>'; });
+  // the "i" after the date: what the tracker is, in a small popover (closes on a click elsewhere or Esc)
+  const iClose = () => document.querySelectorAll(".pl-info[aria-expanded='true']").forEach((b) => { b.setAttribute("aria-expanded", "false"); const p = document.getElementById(b.getAttribute("aria-controls")); if (p) p.hidden = true; });
+  document.addEventListener("click", (e) => {
+    const b = e.target.closest(".pl-info");
+    if (b) { const open = b.getAttribute("aria-expanded") === "true"; iClose(); if (!open) { b.setAttribute("aria-expanded", "true"); document.getElementById(b.getAttribute("aria-controls")).hidden = false; } return; }
+    if (!e.target.closest(".pl-infopop")) iClose();
+  });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") iClose(); });
 })();

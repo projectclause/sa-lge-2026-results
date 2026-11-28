@@ -1489,3 +1489,14 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.01e
 .vc-play { flex: none; width: 48px; height: 48px; border: 1px solid var(--rule2); border-radius: 50%; background: #fff; font-size: 16px; cursor: pointer; }
 .vc-play:hover { border-color: var(--text); }
 .vc-empty { color: var(--muted2); }
+
+/* Coalitions Tracker: the "i" after the date, with what the tracker is in a popover (in the page flow on phones) */
+.pl-infow { position: relative; display: inline-block; vertical-align: .3em; }
+.pl-info { width: 20px; height: 20px; margin-left: 10px; padding: 0; border: 1px solid var(--text); border-radius: 50%; background: transparent; color: var(--text); font: italic 700 12px/18px var(--font); letter-spacing: 0; cursor: pointer; }
+.pl-info:hover, .pl-info[aria-expanded="true"] { background: var(--text); color: #fff; }
+.pl-infopop { position: absolute; left: -8px; top: calc(100% + 10px); z-index: 40; width: min(380px, 80vw); padding: 12px 14px; background: #fff; border: 1px solid var(--text); box-shadow: 0 8px 24px rgba(0, 0, 0, .12); font: 400 15px/1.5 var(--font); letter-spacing: 0; color: #333; white-space: normal; text-transform: none; }
+.pl-infopop[hidden] { display: none; }
+@media (max-width: 620px) { .pl-infow { position: static; display: inline; } .pl-infopop { position: static; display: block; width: auto; margin: 12px 0 4px; box-shadow: none; } }
+
+/* the rule under the tracker's edition header (date, "as of" line): thin and grey, like the other rules */
+.pl-ed { border-bottom: 1px solid var(--rule2); }
