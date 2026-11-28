@@ -1431,7 +1431,10 @@ html.shp-on { overflow: hidden; }
 /* hover outline only where there is a real hover (a mouse); on phones a tap used to leave the button outlined in black */
 @media (hover: hover) { .ls-play:hover, .ls-ic:hover, .ls-share:hover { border-color: var(--text); } }
 .ls-play:focus:not(:focus-visible), .ls-ic:focus:not(:focus-visible), .ls-share:focus:not(:focus-visible) { outline: none; }
-.ls-copy.ls-done { border-color: #007a4d; color: #007a4d; }
+/* the arrow's "Share options" menu (the .sm-menu look), under the buttons on the right */
+.ls-r { position: relative; }
+.ls-menu { z-index: 45; text-align: left; }
+.ls-copy[aria-expanded="true"] { border-color: var(--text); }
 .ls-t { font-size: 15px; color: var(--text); font-variant-numeric: tabular-nums; white-space: nowrap; }
 .ls-r { display: flex; align-items: center; gap: 8px; margin-left: auto; }
 .ls-share { display: inline-flex; align-items: center; gap: 8px; height: 44px; padding: 0 16px 0 12px; border: 1px solid var(--rule2); border-radius: 999px; background: #fff; color: var(--text); font: inherit; font-size: 15px; cursor: pointer; }

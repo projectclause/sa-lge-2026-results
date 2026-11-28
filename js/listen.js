@@ -10,8 +10,7 @@
   const PLAY = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>';
   const PAUSE = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.6v14H7zM13.4 5H17v14h-3.6z" fill="currentColor"/></svg>';
   const SHARE = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7.5 7.5 12 3l4.5 4.5M5 11v8.5a1.5 1.5 0 0 0 1.5 1.5h11a1.5 1.5 0 0 0 1.5-1.5V11" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>';
-  const TICK = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
-  const ARROW = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 5l6.5 6.2L14 17.4v-3.6c-5 0-8.2 1.4-10.5 5 .6-5.6 3.6-9.6 10.5-10.4z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>';
+  const SM_ICONS = {"wa":"<path d=\"M12 4a8 8 0 0 0-6.9 12l-1.1 4 4.1-1.1A8 8 0 1 0 12 4z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><path d=\"M9.3 8.6c.2-.4.5-.4.8-.4h.5c.2 0 .4.1.5.4l.6 1.5c.1.2 0 .4-.1.6l-.5.6c.6 1.1 1.4 1.9 2.5 2.5l.6-.5c.2-.2.4-.2.6-.1l1.5.7c.3.1.4.3.4.5v.5c0 .3-.1.6-.4.8-.5.4-1.2.5-1.8.3-2.4-.7-4.3-2.6-5-5-.2-.6-.1-1.3.3-1.8z\" fill=\"currentColor\"/>","link":"<path d=\"M10 14a4 4 0 0 0 5.66 0l3-3a4 4 0 0 0-5.66-5.66l-1 1M14 10a4 4 0 0 0-5.66 0l-3 3a4 4 0 0 0 5.66 5.66l1-1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.9\" stroke-linecap=\"round\"/>","mail":"<rect x=\"4\" y=\"6\" width=\"16\" height=\"12\" rx=\"1.5\" fill=\"currentColor\"/><path d=\"M4.5 7l7.5 6 7.5-6\" fill=\"none\" stroke=\"#fff\" stroke-width=\"1.6\"/>","fb":"<path d=\"M13.2 20v-7h2.4l.4-2.8h-2.8V8.4c0-.8.3-1.4 1.4-1.4H16V4.6a19 19 0 0 0-2.1-.1c-2.1 0-3.5 1.3-3.5 3.6v2.1H8v2.8h2.4v7z\" fill=\"currentColor\"/>","bsky":"<path d=\"M7.2 5.6c2 1.5 4.1 4.5 4.8 6.1.7-1.6 2.8-4.6 4.8-6.1 1.5-1.1 3.8-1.9 3.8.7 0 .5-.3 4.4-.5 5-.6 2.2-2.9 2.8-4.9 2.4 3.5.6 4.4 2.6 2.5 4.6-3.7 3.8-5.3-1-5.7-2.2 0-.2-.1-.4-.1-.3 0-.1-.1.1-.1.3-.4 1.2-2 6-5.7 2.2-1.9-2-1-4 2.5-4.6-2 .3-4.3-.2-4.9-2.4-.2-.6-.5-4.5-.5-5 0-2.6 2.3-1.8 3.8-.7z\" fill=\"currentColor\"/>","x":"<path d=\"M5 5l14 14M19 5L5 19\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"/>","li":"<rect x=\"5\" y=\"9.5\" width=\"3\" height=\"9\" fill=\"currentColor\"/><circle cx=\"6.5\" cy=\"6.4\" r=\"1.7\" fill=\"currentColor\"/><path d=\"M10.5 9.5h2.8v1.3c.5-.9 1.6-1.6 3-1.6 2.4 0 3.2 1.5 3.2 3.9v5.4h-3v-4.8c0-1.1-.2-2-1.4-2s-1.6.9-1.6 2v4.8h-3z\" fill=\"currentColor\"/>","th":"<path d=\"M15.6 11.4c-.1-2.1-1.4-3.3-3.4-3.3-1.3 0-2.4.6-3 1.6l1.3.9c.4-.7 1-1 1.7-1 1 0 1.6.6 1.7 1.6-.6-.1-1.3-.2-2-.1-2 .1-3.3 1.3-3.2 2.9.1 1.6 1.5 2.6 3.2 2.5 2.4-.1 3.3-2 3.4-3.8.7.4 1.2 1 1.4 1.8.4 1.4-.2 3-1.5 4.1-2.4 2-6.9 1.6-8.3-1.5-1.1-2.3-1-6 .1-8.2 1.3-2.7 4.8-3.6 7.5-2.6 1.6.6 2.7 1.8 3.2 3.4l1.6-.4c-.6-2.1-2.1-3.7-4.2-4.5-3.5-1.3-7.8 0-9.5 3.4C4.7 10.9 4.7 15.3 6 18c1.8 3.9 7.4 4.6 10.5 2 1.8-1.5 2.6-3.7 2-5.8-.4-1.4-1.4-2.4-2.9-2.8zm-3.8 3.9c-.9 0-1.6-.4-1.6-1.1 0-.7.8-1.3 1.8-1.3.6 0 1.2 0 1.8.2-.1 1.4-.9 2.2-2 2.2z\" fill=\"currentColor\"/>","rd":"<circle cx=\"12\" cy=\"13\" r=\"6.5\" fill=\"currentColor\"/><circle cx=\"17.5\" cy=\"6\" r=\"1.5\" fill=\"currentColor\"/><path d=\"M12 6.5l1-3.2 4 1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/><circle cx=\"9.6\" cy=\"12.5\" r=\"1.1\" fill=\"#fff\"/><circle cx=\"14.4\" cy=\"12.5\" r=\"1.1\" fill=\"#fff\"/><path d=\"M9.6 15.3c1.4 1 3.4 1 4.8 0\" fill=\"none\" stroke=\"#fff\" stroke-width=\"1.2\" stroke-linecap=\"round\"/>"};  const ARROW = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 5l6.5 6.2L14 17.4v-3.6c-5 0-8.2 1.4-10.5 5 .6-5.6 3.6-9.6 10.5-10.4z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>';
   let MAN = null; // data/listen.json
   let cur = null; // { id, kind: "mp3" | "tts", audio, playing, t, dur }
 
@@ -99,22 +98,48 @@
     bar.dataset.ready = "1";
     const save = bar.querySelector(".sv-btn");
     bar.innerHTML = `<button type="button" class="ls-play">${PLAY}</button><span class="ls-t"></span>
-      <span class="ls-r"><button type="button" class="ls-share">${SHARE}<span>Share story</span></button><button type="button" class="ls-ic ls-copy" aria-label="Copy link" title="Copy link">${ARROW}</button></span>`;
+      <span class="ls-r"><button type="button" class="ls-share">${SHARE}<span>Share story</span></button><button type="button" class="ls-ic ls-copy" aria-label="Share options" title="Share options" aria-haspopup="true" aria-expanded="false">${ARROW}</button><div class="sm-menu ls-menu" role="menu" hidden></div></span>`;
     if (save) bar.querySelector(".ls-r").appendChild(save);
     paint(bar);
   }
   const scan = () => document.querySelectorAll(".ls-bar").forEach(build);
 
+  // the arrow opens the same "Share options" menu as the page's Share button, for this story's own link
+  const SM_OPTS = [["whatsapp", "WhatsApp", "wa"], ["copy", "Copy link", "link"], ["email", "Email", "mail"], ["facebook", "Facebook", "fb"],
+    ["bluesky", "Bluesky", "bsky"], ["x", "X", "x"], ["linkedin", "LinkedIn", "li"], ["threads", "Threads", "th"], ["reddit", "Reddit", "rd"]];
+  function openMenu(menu, id, title) {
+    const url = storyUrl(id), u = encodeURIComponent(url), t = encodeURIComponent(title), both = encodeURIComponent(title + " " + url);
+    const href = { whatsapp: `https://wa.me/?text=${both}`, email: `mailto:?subject=${t}&body=${encodeURIComponent(title + "\n" + url)}`,
+      facebook: `https://www.facebook.com/sharer/sharer.php?u=${u}`, bluesky: `https://bsky.app/intent/compose?text=${both}`,
+      x: `https://twitter.com/intent/tweet?text=${t}&url=${u}`, linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${u}`,
+      threads: `https://www.threads.net/intent/post?text=${both}`, reddit: `https://www.reddit.com/submit?url=${u}&title=${t}` };
+    menu.innerHTML = `<p class="sm-h">Share options</p><p class="sm-note" hidden></p>` + SM_OPTS.map(([k, l, ic]) =>
+      `<a class="sm-item" data-k="${k}" href="${href[k] || "#"}"${href[k] && k !== "email" ? ' target="_blank" rel="noopener"' : ""}><span class="sm-ic"><svg viewBox="0 0 24 24" aria-hidden="true">${SM_ICONS[ic]}</svg></span>${l}</a>`).join("");
+    menu.hidden = false;
+  }
+  function closeMenus() {
+    document.querySelectorAll(".ls-menu").forEach((m) => { m.hidden = true; });
+    document.querySelectorAll(".ls-copy[aria-expanded='true']").forEach((b) => b.setAttribute("aria-expanded", "false"));
+  }
+  document.addEventListener("click", (e) => { if (!e.target.closest(".ls-menu") && !e.target.closest(".ls-copy")) closeMenus(); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeMenus(); });
+
   document.addEventListener("click", (e) => {
     const bar = e.target.closest(".ls-bar"); if (!bar) return;
     const id = bar.dataset.id, h = bar.classList.contains("ls-lead") ? { textContent: (bar.dataset.text || "").split(" \n")[0] } : (bar.closest("article") || document).querySelector(".pl-evh");
     if (e.target.closest(".ls-play")) play(bar);
+    else if (e.target.closest(".ls-menu")) {
+      const a = e.target.closest(".sm-item"); if (!a || a.dataset.k !== "copy") return; // the other options are plain links
+      e.preventDefault();
+      const note = bar.querySelector(".ls-menu .sm-note");
+      navigator.clipboard.writeText(storyUrl(id)).then(() => { note.textContent = "Link copied."; note.hidden = false; })
+        .catch(() => { note.textContent = storyUrl(id); note.hidden = false; });
+    }
     else if (e.target.closest(".ls-copy")) {
-      const btn = e.target.closest(".ls-copy");
-      copy(storyUrl(id)).then(() => { // a tick for a moment, so a tap clearly did something
-        btn.classList.add("ls-done"); btn.innerHTML = TICK; btn.blur();
-        setTimeout(() => { btn.classList.remove("ls-done"); btn.innerHTML = ARROW; }, 1600);
-      });
+      const btn = e.target.closest(".ls-copy"), menu = bar.querySelector(".ls-menu"), was = !menu.hidden;
+      closeMenus();
+      if (!was) { openMenu(menu, id, h ? h.textContent.trim() : "Coalitions Tracker"); btn.setAttribute("aria-expanded", "true"); }
+      btn.blur();
     }
     else if (e.target.closest(".ls-share")) {
       if (navigator.share) navigator.share({ title: h ? h.textContent.trim() : "Coalitions Tracker", url: storyUrl(id) }).catch(() => {});
