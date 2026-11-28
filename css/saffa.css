@@ -203,3 +203,21 @@
 /* the communities list follows the key South Africans */
 .sf-body > .sf-key-people { margin-top: 28px; min-width: 0; width: 100%; } /* min-width: the region pills scroll inside it instead of widening the page */
 .sf-body > .sf-side { margin-top: 28px; }
+
+/* Both | South Africans | Missions: a secondary menu under the masthead, like the Coalitions Tracker's
+   South Africa | International bar. Desktop: centred, equal widths, thin dividers; the current one dark, the others
+   grey. Phones: the three split the width, with a line under the current one. */
+.sf-subnav .sf-seg { display: flex; justify-content: center; border: 0; border-radius: 0; overflow: visible; max-width: 760px; margin: 0 auto; }
+.sf-subnav .sf-seg button { position: relative; flex: 0 0 200px; padding: 14px 14px 15px; border: 0; background: none; color: var(--muted2); font: 700 16px/1.2 var(--font); text-align: center; cursor: pointer; }
+.sf-subnav .sf-seg button + button { border-left: 0; }
+.sf-subnav .sf-seg button + button::before { content: ""; position: absolute; left: 0; top: 14px; bottom: 15px; width: 1px; background: var(--rule2); }
+.sf-subnav .sf-seg button[aria-pressed="true"] { background: none; color: var(--text); }
+@media (hover: hover) { .sf-subnav .sf-seg button:hover { color: var(--text); } }
+@media (max-width: 720px) {
+  .sf-subnav .sf-seg button { flex: 1 1 0; padding: 11px 6px 12px; font-size: 15px; }
+  .sf-subnav .sf-seg button + button::before { display: none; }
+  .sf-subnav .sf-seg button[aria-pressed="true"]::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 3px; background: var(--text); }
+}
+.sf-subnav .sf-seg::before { display: none; } /* the tracker bar's single centre divider; this bar has one between each pair */
+.sf-subnav .sf-seg button { white-space: nowrap; }
+@media (max-width: 720px) { .sf-subnav .sf-seg button { font-size: 14.5px; padding-left: 4px; padding-right: 4px; } }

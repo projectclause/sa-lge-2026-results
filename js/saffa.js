@@ -156,8 +156,8 @@
     svg.on("click", () => { hot = null; draw(); hideTip(); syncList(); });
 
     // ---------- controls ----------
-    root.querySelectorAll(".sf-seg button").forEach((b) => b.addEventListener("click", () => {
-      show = b.dataset.show; root.querySelectorAll(".sf-seg button").forEach((x) => x.setAttribute("aria-pressed", x === b));
+    document.querySelectorAll(".sf-seg button").forEach((b) => b.addEventListener("click", () => {
+      show = b.dataset.show; document.querySelectorAll(".sf-seg button").forEach((x) => x.setAttribute("aria-pressed", x === b));
       hot = null; hideTip(); flightsOn(show === "flights"); setKey(); draw();
     }));
     const go = root.querySelector(".sf-go");
@@ -263,10 +263,10 @@
       .map(({ m, i }) => `<button type="button" class="sf-mrow" data-i="${i}"><span><b>${esc(m.city)}</b><br><span>${esc(m.country)}</span></span><em>${esc(m.type)}</em></button>`).join("")).join("");
     pPanel.addEventListener("click", (e) => {
       const rr = e.target.closest(".sf-rrow");
-      if (rr) { const r = regOf.get(rr.dataset.r); if (show === "missions" || show === "flights") root.querySelector('[data-show="both"]').click(); hot = r; syncList(); hideTip(); fly(r.ll, () => pick(r)); return; }
+      if (rr) { const r = regOf.get(rr.dataset.r); if (show === "missions" || show === "flights") document.querySelector('.sf-seg [data-show="both"]').click(); hot = r; syncList(); hideTip(); fly(r.ll, () => pick(r)); return; }
     });
-    pPanel.addEventListener("click", (e) => { const b = e.target.closest(".sf-row"); if (!b) return; const p = people[+b.dataset.i]; const st = STATE.get(p.map); if (st) { const box2 = pPanel.querySelector(`.sf-regs[data-c="${st.gu}"]`); box2.hidden = false; } if (show === "missions" || show === "flights") root.querySelector('[data-show="both"]').click(); hot = p; syncList(); hideTip(); fly(p.ll, () => pick(p)); });
-    mPanel.addEventListener("click", (e) => { const b = e.target.closest(".sf-mrow"); if (!b) return; const m = missions[+b.dataset.i]; if (show === "people" || show === "flights") root.querySelector('[data-show="both"]').click(); hot = m; syncList(); hideTip(); fly(m.ll, () => pick(m)); });
+    pPanel.addEventListener("click", (e) => { const b = e.target.closest(".sf-row"); if (!b) return; const p = people[+b.dataset.i]; const st = STATE.get(p.map); if (st) { const box2 = pPanel.querySelector(`.sf-regs[data-c="${st.gu}"]`); box2.hidden = false; } if (show === "missions" || show === "flights") document.querySelector('.sf-seg [data-show="both"]').click(); hot = p; syncList(); hideTip(); fly(p.ll, () => pick(p)); });
+    mPanel.addEventListener("click", (e) => { const b = e.target.closest(".sf-mrow"); if (!b) return; const m = missions[+b.dataset.i]; if (show === "people" || show === "flights") document.querySelector('.sf-seg [data-show="both"]').click(); hot = m; syncList(); hideTip(); fly(m.ll, () => pick(m)); });
     function syncList() {
       pPanel.querySelectorAll(".sf-row").forEach((b) => b.classList.toggle("sf-hot", hot === people[+b.dataset.i]));
       const hi = people.indexOf(hot), hr = hot && hot.country ? people.findIndex((q) => q.map === hot.country.map) : -1;
@@ -289,7 +289,7 @@
     // for the ask bar: turn the globe to a country, state or mission and show its card
     window.SAFFA = {
       data: { people, missions, states: ST, total: D.total, world: W.features.map((f) => f.properties.n) },
-      focus(d) { if (!d) return; if (show !== "both") root.querySelector('[data-show="both"]').click(); if (d.country && d.country.regions) { const b = pPanel.querySelector(`.sf-regs[data-c="${d.country.gu}"]`); if (b) b.hidden = false; } hot = d; syncList(); hideTip(); root.querySelector(".sf-globe").scrollIntoView({ behavior: REDUCE ? "auto" : "smooth", block: "center" }); fly(d.ll, () => pick(d)); }
+      focus(d) { if (!d) return; if (show !== "both") document.querySelector('.sf-seg [data-show="both"]').click(); if (d.country && d.country.regions) { const b = pPanel.querySelector(`.sf-regs[data-c="${d.country.gu}"]`); if (b) b.hidden = false; } hot = d; syncList(); hideTip(); root.querySelector(".sf-globe").scrollIntoView({ behavior: REDUCE ? "auto" : "smooth", block: "center" }); fly(d.ll, () => pick(d)); }
     };
     size();
     addEventListener("resize", size);
